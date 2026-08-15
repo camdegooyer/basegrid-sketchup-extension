@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.buildgrid.app/drawing-intent/v1",
+  "title": "BuildGrid Drawing Intent v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "request_id",
+    "tool",
+    "expected_model_revision",
+    "anchor",
+    "parameters",
+    "materials",
+    "context"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "buildgrid.drawing-intent.v1"
+    },
+    "request_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "tool": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "contract_version"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^buildgrid\\.[a-z0-9_]+(?:\\.[a-z0-9_]+)*\\.v[1-9][0-9]*$"
+        },
+        "contract_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        }
+      }
+    },
+    "expected_model_revision": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "anchor": {
+      "type": "object",
+      "minProperties": 1,
+      "description": "Validated strictly by the selected tool contract. Coordinates use millimetres in declared model axes."
+    },
+    "parameters": {
+      "type": "object",
+      "description": "Validated strictly by the selected tool contract."
+    },
+    "materials": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/materialSelection"
+      }
+    },
+    "context": {
+      "$ref": "#/$defs/context"
+    },
+    "client_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": ["ai", "web", "desktop", "api", "mcp"]
+        },
+        "conversation_id": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 1000
+        }
+      }
+    }
+  },
+  "$defs": {
+    "materialSelection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["material_id", "material_version"],
+      "properties": {
+        "material_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "material_version": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["project_id", "model_id"],
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "model_id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "building_id": {
+          "type": ["string", "null"],
+          "format": "uuid"
+        },
+        "level_id": {
+          "type": ["string", "null"],
+          "format": "uuid"
+        },
+        "zone_id": {
+          "type": ["string", "null"],
+          "format": "uuid"
+        },
+        "room_id": {
+          "type": ["string", "null"],
+          "format": "uuid"
+        },
+        "work_stage_id": {
+          "type": ["string", "null"],
+          "format": "uuid"
+        }
+      }
+    }
+  }
+}

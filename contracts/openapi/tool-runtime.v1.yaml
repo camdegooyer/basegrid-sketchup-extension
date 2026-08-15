@@ -1,0 +1,200 @@
+openapi: 3.1.0
+info:
+  title: BuildGrid Tool Runtime API
+  version: 1.0.0
+  description: >-
+    Transport-neutral protocol used to discover, validate, preview and execute
+    deterministic tools in a connected model runtime. Production transport is
+    an authenticated outbound model session; loopback HTTP is for local use.
+servers:
+  - url: http://127.0.0.1:47831
+    description: Local development transport only
+security:
+  - bearerAuth: []
+paths:
+  /v1/runtime/health:
+    get:
+      operationId: getRuntimeHealth
+      responses:
+        '200':
+          description: Runtime health and active model session information.
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [ok, runtime_version, session_id, model_revision]
+                properties:
+                  ok: { type: boolean }
+                  runtime_version: { type: string }
+                  session_id: { type: string, format: uuid }
+                  model_revision: { type: string }
+  /v1/tools:
+    get:
+      operationId: listTools
+      responses:
+        '200':
+          description: Tools authorised and available for the active model session.
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [tools]
+                properties:
+                  tools:
+                    type: array
+                    items:
+                      $ref: '../schemas/tool-contract.v1.schema.json'
+  /v1/tools/{toolId}:
+    parameters:
+      - $ref: '#/components/parameters/ToolId'
+    get:
+      operationId: getToolContract
+      responses:
+        '200':
+          description: The exact registered tool contract.
+          content:
+            application/json:
+              schema:
+                $ref: '../schemas/tool-contract.v1.schema.json'
+        '404': { $ref: '#/components/responses/ErrorResult' }
+  /v1/tools/{toolId}/validate:
+    parameters:
+      - $ref: '#/components/parameters/ToolId'
+    post:
+      operationId: validateDrawingIntent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '../schemas/drawing-intent.v1.schema.json'
+      responses:
+        '200': { $ref: '#/components/responses/ToolResult' }
+        '400': { $ref: '#/components/responses/ErrorResult' }
+        '409': { $ref: '#/components/responses/ErrorResult' }
+  /v1/tools/{toolId}/preview:
+    parameters:
+      - $ref: '#/components/parameters/ToolId'
+    post:
+      operationId: previewDrawingIntent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '../schemas/drawing-intent.v1.schema.json'
+      responses:
+        '200': { $ref: '#/components/responses/ToolResult' }
+        '400': { $ref: '#/components/responses/ErrorResult' }
+        '409': { $ref: '#/components/responses/ErrorResult' }
+  /v1/tools/{toolId}/build:
+    parameters:
+      - $ref: '#/components/parameters/ToolId'
+      - $ref: '#/components/parameters/IdempotencyKey'
+      - $ref: '#/components/parameters/ConfirmedPlanHash'
+    post:
+      operationId: buildDrawingIntent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '../schemas/drawing-intent.v1.schema.json'
+      responses:
+        '200': { $ref: '#/components/responses/ToolResult' }
+        '400': { $ref: '#/components/responses/ErrorResult' }
+        '409': { $ref: '#/components/responses/ErrorResult' }
+        '422': { $ref: '#/components/responses/ErrorResult' }
+  /v1/entities/{entityId}:
+    parameters:
+      - $ref: '#/components/parameters/EntityId'
+    get:
+      operationId: inspectEntity
+      responses:
+        '200': { $ref: '#/components/responses/ToolResult' }
+        '404': { $ref: '#/components/responses/ErrorResult' }
+    delete:
+      operationId: deleteEntity
+      parameters:
+        - $ref: '#/components/parameters/IdempotencyKey'
+        - $ref: '#/components/parameters/ExpectedModelRevision'
+      responses:
+        '200': { $ref: '#/components/responses/ToolResult' }
+        '404': { $ref: '#/components/responses/ErrorResult' }
+        '409': { $ref: '#/components/responses/ErrorResult' }
+  /v1/entities/{entityId}/rebuild:
+    parameters:
+      - $ref: '#/components/parameters/EntityId'
+      - $ref: '#/components/parameters/IdempotencyKey'
+      - $ref: '#/components/parameters/ConfirmedPlanHash'
+    post:
+      operationId: rebuildEntity
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '../schemas/drawing-intent.v1.schema.json'
+      responses:
+        '200': { $ref: '#/components/responses/ToolResult' }
+        '400': { $ref: '#/components/responses/ErrorResult' }
+        '404': { $ref: '#/components/responses/ErrorResult' }
+        '409': { $ref: '#/components/responses/ErrorResult' }
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: short-lived-runtime-token
+  parameters:
+    ToolId:
+      name: toolId
+      in: path
+      required: true
+      schema:
+        type: string
+        pattern: '^buildgrid\.[a-z0-9_]+(?:\.[a-z0-9_]+)*\.v[1-9][0-9]*$'
+    EntityId:
+      name: entityId
+      in: path
+      required: true
+      schema:
+        type: string
+        format: uuid
+    IdempotencyKey:
+      name: Idempotency-Key
+      in: header
+      required: true
+      schema:
+        type: string
+        minLength: 16
+        maxLength: 200
+    ConfirmedPlanHash:
+      name: X-BuildGrid-Confirmed-Plan-Hash
+      in: header
+      required: true
+      description: SHA-256 hash returned by preview and approved for this mutation.
+      schema:
+        type: string
+        pattern: '^[a-f0-9]{64}$'
+    ExpectedModelRevision:
+      name: X-BuildGrid-Expected-Model-Revision
+      in: header
+      required: true
+      schema:
+        type: string
+        minLength: 1
+        maxLength: 128
+  responses:
+    ToolResult:
+      description: Structured tool operation result.
+      content:
+        application/json:
+          schema:
+            $ref: '../schemas/result-envelope.v1.schema.json'
+    ErrorResult:
+      description: Structured validation, conflict or execution error.
+      content:
+        application/json:
+          schema:
+            $ref: '../schemas/result-envelope.v1.schema.json'

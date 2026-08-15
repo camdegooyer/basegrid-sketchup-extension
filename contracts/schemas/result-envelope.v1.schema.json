@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.buildgrid.app/tool-result/v1",
+  "title": "BuildGrid Tool Result v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "ok",
+    "request_id",
+    "trace_id",
+    "operation",
+    "status",
+    "warnings",
+    "errors"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "buildgrid.tool-result.v1"
+    },
+    "ok": {
+      "type": "boolean"
+    },
+    "request_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "trace_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "operation": {
+      "type": "string",
+      "enum": ["validate", "preview", "build", "inspect", "rebuild", "delete"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["valid", "invalid", "previewed", "succeeded", "failed", "conflict"]
+    },
+    "tool": {
+      "type": "object"
+    },
+    "plan_hash": {
+      "type": ["string", "null"],
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "model_revision_before": {
+      "type": ["string", "null"]
+    },
+    "model_revision_after": {
+      "type": ["string", "null"]
+    },
+    "data": {
+      "type": ["object", "null"]
+    },
+    "evidence": {
+      "type": ["object", "null"]
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/message"
+      }
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/message"
+      }
+    }
+  },
+  "$defs": {
+    "message": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message"],
+      "properties": {
+        "code": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]{2,79}$"
+        },
+        "message": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "path": {
+          "type": ["string", "null"],
+          "maxLength": 500
+        },
+        "retryable": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    }
+  }
+}
