@@ -1,0 +1,2973 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "drainage",
+  "relationships": [
+    {
+      "id": "REL-2197-DR-ABSORPTION-TRENCH-AGGREGATE-PART-OF-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-ABSORPTION-TRENCH-AGGREGATE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2198-DR-ABSORPTION-TRENCH-ARCH-PART-OF-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-ABSORPTION-TRENCH-ARCH",
+      "relationship": "part_of",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2199-DR-ABSORPTION-TRENCH-GEOTEXTILE-PART-OF-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-ABSORPTION-TRENCH-GEOTEXTILE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2200-DR-ACCESS-SHAFT-COVER-PART-OF-AU-DR-INSPECTION-SHAFT-ASSEMBLY",
+      "from_id": "AU-DR-ACCESS-SHAFT-COVER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-INSPECTION-SHAFT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2201-DR-ACCESS-SHAFT-RISER-PART-OF-AU-DR-INSPECTION-SHAFT-ASSEMBLY",
+      "from_id": "AU-DR-ACCESS-SHAFT-RISER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-INSPECTION-SHAFT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2202-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-AWTS-AERATION-CHAMBER",
+      "from_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AWTS-AERATION-CHAMBER",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2203-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-AWTS-AIR-BLOWER",
+      "from_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AWTS-AIR-BLOWER",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2204-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-AWTS-AIR-DIFFUSER",
+      "from_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AWTS-AIR-DIFFUSER",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2205-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-AWTS-AIR-MANIFOLD",
+      "from_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AWTS-AIR-MANIFOLD",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2206-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-AWTS-BIOLOGICAL-MEDIA",
+      "from_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AWTS-BIOLOGICAL-MEDIA",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2207-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-AWTS-CLARIFIER",
+      "from_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AWTS-CLARIFIER",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2208-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-AWTS-DISINFECTION-ASSEMBLY",
+      "from_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AWTS-DISINFECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2209-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-AWTS-SLUDGE-RETURN-AIRLIFT",
+      "from_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AWTS-SLUDGE-RETURN-AIRLIFT",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2210-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM-PART-OF-AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2211-DR-AIR-ADMITTANCE-VALVE-PART-OF-AU-DR-SANITARY-VENT-SYSTEM",
+      "from_id": "AU-DR-AIR-ADMITTANCE-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2212-DR-AWTS-AERATION-CHAMBER-PART-OF-AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-AWTS-AERATION-CHAMBER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2213-DR-AWTS-AIR-BLOWER-PART-OF-AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-AWTS-AIR-BLOWER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2214-DR-AWTS-AIR-DIFFUSER-PART-OF-AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-AWTS-AIR-DIFFUSER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2215-DR-AWTS-AIR-MANIFOLD-PART-OF-AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-AWTS-AIR-MANIFOLD",
+      "relationship": "part_of",
+      "to_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2216-DR-AWTS-BIOLOGICAL-MEDIA-PART-OF-AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-AWTS-BIOLOGICAL-MEDIA",
+      "relationship": "part_of",
+      "to_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2217-DR-AWTS-CHLORINATOR-PART-OF-AU-DR-AWTS-DISINFECTION-ASSEMBLY",
+      "from_id": "AU-DR-AWTS-CHLORINATOR",
+      "relationship": "part_of",
+      "to_id": "AU-DR-AWTS-DISINFECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2218-DR-AWTS-CLARIFIER-PART-OF-AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-AWTS-CLARIFIER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2219-DR-AWTS-DISINFECTION-ASSEMBLY-HAS-PART-AU-DR-AWTS-CHLORINATOR",
+      "from_id": "AU-DR-AWTS-DISINFECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AWTS-CHLORINATOR",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2220-DR-AWTS-DISINFECTION-ASSEMBLY-HAS-PART-AU-DR-AWTS-UV-DISINFECTION-UNIT",
+      "from_id": "AU-DR-AWTS-DISINFECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AWTS-UV-DISINFECTION-UNIT",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2221-DR-AWTS-DISINFECTION-ASSEMBLY-PART-OF-AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-AWTS-DISINFECTION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2222-DR-AWTS-SLUDGE-RETURN-AIRLIFT-PART-OF-AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-AWTS-SLUDGE-RETURN-AIRLIFT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2223-DR-AWTS-UV-DISINFECTION-UNIT-PART-OF-AU-DR-AWTS-DISINFECTION-ASSEMBLY",
+      "from_id": "AU-DR-AWTS-UV-DISINFECTION-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-AWTS-DISINFECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2224-DR-BACKWATER-VALVE-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-BACKWATER-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2225-DR-BOTTLE-TRAP-PART-OF-AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "from_id": "AU-DR-BOTTLE-TRAP",
+      "relationship": "part_of",
+      "to_id": "AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2226-DR-BOUNDARY-TRAP-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-BOUNDARY-TRAP",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2227-DR-BRANCH-DISCHARGE-PIPE-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-BRANCH-DISCHARGE-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2228-DR-BRANCH-DRAIN-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-BRANCH-DRAIN",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2229-DR-BRANCH-VENT-PIPE-PART-OF-AU-DR-SANITARY-VENT-SYSTEM",
+      "from_id": "AU-DR-BRANCH-VENT-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2230-DR-COMMON-VENT-PART-OF-AU-DR-SANITARY-VENT-SYSTEM",
+      "from_id": "AU-DR-COMMON-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2231-DR-COMPOSTING-CHAMBER-PART-OF-AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "from_id": "AU-DR-COMPOSTING-CHAMBER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2232-DR-COMPOSTING-CHAMBER-ACCESS-HATCH-PART-OF-AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "from_id": "AU-DR-COMPOSTING-CHAMBER-ACCESS-HATCH",
+      "relationship": "part_of",
+      "to_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2233-DR-COMPOSTING-TOILET-CHUTE-PART-OF-AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "from_id": "AU-DR-COMPOSTING-TOILET-CHUTE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2234-DR-COMPOSTING-TOILET-LEACHATE-DRAIN-PART-OF-AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "from_id": "AU-DR-COMPOSTING-TOILET-LEACHATE-DRAIN",
+      "relationship": "part_of",
+      "to_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2235-DR-COMPOSTING-TOILET-PEDESTAL-PART-OF-AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "from_id": "AU-DR-COMPOSTING-TOILET-PEDESTAL",
+      "relationship": "part_of",
+      "to_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2236-DR-COMPOSTING-TOILET-VENT-HAS-PART-AU-DR-COMPOSTING-TOILET-VENT-FAN",
+      "from_id": "AU-DR-COMPOSTING-TOILET-VENT",
+      "relationship": "has_part",
+      "to_id": "AU-DR-COMPOSTING-TOILET-VENT-FAN",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2237-DR-COMPOSTING-TOILET-VENT-PART-OF-AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "from_id": "AU-DR-COMPOSTING-TOILET-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2238-DR-COMPOSTING-TOILET-VENT-FAN-PART-OF-AU-DR-COMPOSTING-TOILET-VENT",
+      "from_id": "AU-DR-COMPOSTING-TOILET-VENT-FAN",
+      "relationship": "part_of",
+      "to_id": "AU-DR-COMPOSTING-TOILET-VENT",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2239-DR-DISCONNECTOR-GULLY-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-DISCONNECTOR-GULLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2240-DR-DRAIN-BEDDING-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-DRAIN-BEDDING",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2241-DR-DRAIN-CONCRETE-ENCASEMENT-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-DRAIN-CONCRETE-ENCASEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-2242-DR-DRAIN-FLEXIBLE-JOINT-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-DRAIN-FLEXIBLE-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2243-DR-DRAIN-INSPECTION-OPENING-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-DRAIN-INSPECTION-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2244-DR-DRAIN-OVERLAY-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-DRAIN-OVERLAY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2245-DR-DRAIN-SIDE-SUPPORT-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-DRAIN-SIDE-SUPPORT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2246-DR-DRAIN-TEST-PLUG-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-DRAIN-TEST-PLUG",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2247-DR-DRAIN-TRENCH-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-DRAIN-TRENCH",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2248-DR-DRAIN-TRENCH-BACKFILL-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-DRAIN-TRENCH-BACKFILL",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2249-DR-DWV-BEND-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-DWV-BEND",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2250-DR-DWV-COUPLING-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-DWV-COUPLING",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2251-DR-DWV-END-CAP-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-DWV-END-CAP",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2252-DR-DWV-EXPANSION-JOINT-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-DWV-EXPANSION-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2253-DR-DWV-INSPECTION-FITTING-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-DWV-INSPECTION-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2254-DR-DWV-JUNCTION-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-DWV-JUNCTION",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2255-DR-DWV-PIPE-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-DWV-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2256-DR-DWV-REDUCER-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-DWV-REDUCER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2257-DR-DWV-TEE-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-DWV-TEE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2258-DR-EFFLUENT-ABSORPTION-TRENCH-PART-OF-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-ABSORPTION-TRENCH",
+      "relationship": "part_of",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2259-DR-EFFLUENT-DISTRIBUTION-BOX-PART-OF-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-DISTRIBUTION-BOX",
+      "relationship": "part_of",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2260-DR-EFFLUENT-DOSING-PUMP-PART-OF-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-DOSING-PUMP",
+      "relationship": "part_of",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2261-DR-EFFLUENT-DOSING-SIPHON-PART-OF-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-DOSING-SIPHON",
+      "relationship": "part_of",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2262-DR-EFFLUENT-DOSING-TANK-PART-OF-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-DOSING-TANK",
+      "relationship": "part_of",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2263-DR-EFFLUENT-DRIPPER-LINE-PART-OF-AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-DRIPPER-LINE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2264-DR-EFFLUENT-IRRIGATION-FILTER-PART-OF-AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-IRRIGATION-FILTER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2265-DR-EFFLUENT-IRRIGATION-FLUSH-POINT-PART-OF-AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-IRRIGATION-FLUSH-POINT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2266-DR-EFFLUENT-IRRIGATION-ZONE-VALVE-PART-OF-AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-IRRIGATION-ZONE-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2267-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-HAS-PART-AU-DR-ABSORPTION-TRENCH-AGGREGATE",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-ABSORPTION-TRENCH-AGGREGATE",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2268-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-HAS-PART-AU-DR-ABSORPTION-TRENCH-ARCH",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-ABSORPTION-TRENCH-ARCH",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2269-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-HAS-PART-AU-DR-ABSORPTION-TRENCH-GEOTEXTILE",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-ABSORPTION-TRENCH-GEOTEXTILE",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2270-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-HAS-PART-AU-DR-EFFLUENT-ABSORPTION-TRENCH",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-ABSORPTION-TRENCH",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2271-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-HAS-PART-AU-DR-EFFLUENT-DISTRIBUTION-BOX",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-DISTRIBUTION-BOX",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2272-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-HAS-PART-AU-DR-EFFLUENT-DOSING-PUMP",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-DOSING-PUMP",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2273-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-HAS-PART-AU-DR-EFFLUENT-DOSING-SIPHON",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-DOSING-SIPHON",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2274-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-HAS-PART-AU-DR-EFFLUENT-DOSING-TANK",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-DOSING-TANK",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2275-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-HAS-PART-AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2276-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-HAS-PART-AU-DR-SURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-2277-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-HAS-PART-AU-DR-TRENCH-DISTRIBUTION-PIPE",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-TRENCH-DISTRIBUTION-PIPE",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2278-DR-EFFLUENT-LAND-APPLICATION-SYSTEM-PART-OF-AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C3-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2279-DR-EFFLUENT-SPRINKLER-PART-OF-AU-DR-SURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-SPRINKLER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2280-DR-EFFLUENT-VALVE-BOX-PART-OF-AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "from_id": "AU-DR-EFFLUENT-VALVE-BOX",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2281-DR-FIXTURE-DISCHARGE-PIPE-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-FIXTURE-DISCHARGE-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2282-DR-FIXTURE-TRAP-ASSEMBLY-HAS-PART-AU-DR-BOTTLE-TRAP",
+      "from_id": "AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-BOTTLE-TRAP",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2283-DR-FIXTURE-TRAP-ASSEMBLY-HAS-PART-AU-DR-INTEGRAL-FIXTURE-TRAP",
+      "from_id": "AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-INTEGRAL-FIXTURE-TRAP",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2284-DR-FIXTURE-TRAP-ASSEMBLY-HAS-PART-AU-DR-P-TRAP",
+      "from_id": "AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-P-TRAP",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2285-DR-FIXTURE-TRAP-ASSEMBLY-HAS-PART-AU-DR-S-TRAP",
+      "from_id": "AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-S-TRAP",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2286-DR-FIXTURE-TRAP-ASSEMBLY-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2287-DR-GRADED-SANITARY-DRAIN-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-GRADED-SANITARY-DRAIN",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2288-DR-GREYWATER-DIVERSION-ASSEMBLY-PART-OF-AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "from_id": "AU-DR-GREYWATER-DIVERSION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2289-DR-GREYWATER-SURGE-TANK-PART-OF-AU-DR-GREYWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-GREYWATER-SURGE-TANK",
+      "relationship": "part_of",
+      "to_id": "AU-DR-GREYWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2290-DR-GREYWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-GREYWATER-SURGE-TANK",
+      "from_id": "AU-DR-GREYWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-GREYWATER-SURGE-TANK",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2291-DR-GREYWATER-TREATMENT-SYSTEM-PART-OF-AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "from_id": "AU-DR-GREYWATER-TREATMENT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2292-DR-HEADER-VENT-PART-OF-AU-DR-SANITARY-VENT-SYSTEM",
+      "from_id": "AU-DR-HEADER-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2293-DR-INSPECTION-SHAFT-ASSEMBLY-HAS-PART-AU-DR-ACCESS-SHAFT-COVER",
+      "from_id": "AU-DR-INSPECTION-SHAFT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-ACCESS-SHAFT-COVER",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2294-DR-INSPECTION-SHAFT-ASSEMBLY-HAS-PART-AU-DR-ACCESS-SHAFT-RISER",
+      "from_id": "AU-DR-INSPECTION-SHAFT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-ACCESS-SHAFT-RISER",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2295-DR-INSPECTION-SHAFT-ASSEMBLY-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-INSPECTION-SHAFT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2296-DR-INTEGRAL-FIXTURE-TRAP-PART-OF-AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "from_id": "AU-DR-INTEGRAL-FIXTURE-TRAP",
+      "relationship": "part_of",
+      "to_id": "AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2297-DR-MAIN-DRAIN-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-MAIN-DRAIN",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2298-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM-HAS-PART-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C3-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2299-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM-HAS-PART-AU-DR-GREYWATER-DIVERSION-ASSEMBLY",
+      "from_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-GREYWATER-DIVERSION-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2300-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM-HAS-PART-AU-DR-GREYWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-GREYWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2301-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM-HAS-PART-AU-DR-PRIMARY-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-PRIMARY-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C3-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2302-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM-HAS-PART-AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2303-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM-HAS-PART-AU-DR-TREATED-EFFLUENT-SAMPLE-POINT",
+      "from_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-TREATED-EFFLUENT-SAMPLE-POINT",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2304-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM-HAS-PART-AU-DR-WASTEWATER-CONTROL-PANEL",
+      "from_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-WASTEWATER-CONTROL-PANEL",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2305-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM-HAS-PART-AU-DR-WASTEWATER-FAULT-ALARM",
+      "from_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-WASTEWATER-FAULT-ALARM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2306-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM-HAS-PART-AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "from_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE",
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2307-DR-OVERFLOW-RELIEF-GULLY-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-OVERFLOW-RELIEF-GULLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2308-DR-P-TRAP-PART-OF-AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "from_id": "AU-DR-P-TRAP",
+      "relationship": "part_of",
+      "to_id": "AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2309-DR-PIPE-CLIP-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-PIPE-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2310-DR-PIPE-HANGER-ASSEMBLY-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-PIPE-HANGER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2311-DR-PIPE-PENETRATION-SLEEVE-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-PIPE-PENETRATION-SLEEVE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2312-DR-PRIMARY-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "from_id": "AU-DR-PRIMARY-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2313-DR-PRIMARY-WASTEWATER-TREATMENT-SYSTEM-PART-OF-AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "from_id": "AU-DR-PRIMARY-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C3-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2314-DR-PROPERTY-SEWER-CONNECTION-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-PROPERTY-SEWER-CONNECTION",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2315-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-SANITARY-RISING-MAIN",
+      "from_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SANITARY-RISING-MAIN",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2316-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-SEWAGE-COLLECTION-WELL",
+      "from_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEWAGE-COLLECTION-WELL",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2317-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-SEWAGE-EJECTOR-PUMP",
+      "from_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEWAGE-EJECTOR-PUMP",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2318-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-SEWAGE-HIGH-LEVEL-ALARM",
+      "from_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEWAGE-HIGH-LEVEL-ALARM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2319-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-SEWAGE-PUMP-ISOLATION-VALVE",
+      "from_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEWAGE-PUMP-ISOLATION-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2320-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-SEWAGE-PUMP-LEVEL-SWITCH",
+      "from_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEWAGE-PUMP-LEVEL-SWITCH",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2321-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-SEWAGE-PUMP-NONRETURN-VALVE",
+      "from_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEWAGE-PUMP-NONRETURN-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2322-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-SEWAGE-WELL-LID",
+      "from_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEWAGE-WELL-LID",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2323-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2324-DR-PVCU-DWV-PIPE-IS-A-AU-DR-DWV-PIPE",
+      "from_id": "AU-DR-PVCU-DWV-PIPE",
+      "relationship": "is_a",
+      "to_id": "AU-DR-DWV-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2325-DR-PVCU-DWV-PIPE-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-PVCU-DWV-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2326-DR-RELIEF-VENT-PART-OF-AU-DR-SANITARY-VENT-SYSTEM",
+      "from_id": "AU-DR-RELIEF-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2327-DR-RODDING-POINT-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-RODDING-POINT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2328-DR-S-TRAP-PART-OF-AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "from_id": "AU-DR-S-TRAP",
+      "relationship": "part_of",
+      "to_id": "AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2329-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-BACKWATER-VALVE",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-BACKWATER-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2330-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-BOUNDARY-TRAP",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-BOUNDARY-TRAP",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2331-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-BRANCH-DRAIN",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-BRANCH-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2332-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-DISCONNECTOR-GULLY",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DISCONNECTOR-GULLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2333-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-DRAIN-BEDDING",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DRAIN-BEDDING",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2334-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-DRAIN-CONCRETE-ENCASEMENT",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DRAIN-CONCRETE-ENCASEMENT",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-2335-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-DRAIN-FLEXIBLE-JOINT",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DRAIN-FLEXIBLE-JOINT",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2336-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-DRAIN-INSPECTION-OPENING",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DRAIN-INSPECTION-OPENING",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2337-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-DRAIN-OVERLAY",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DRAIN-OVERLAY",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2338-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-DRAIN-SIDE-SUPPORT",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DRAIN-SIDE-SUPPORT",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2339-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-DRAIN-TRENCH",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DRAIN-TRENCH",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2340-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-DRAIN-TRENCH-BACKFILL",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DRAIN-TRENCH-BACKFILL",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2341-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-GRADED-SANITARY-DRAIN",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-GRADED-SANITARY-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2342-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-INSPECTION-SHAFT-ASSEMBLY",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-INSPECTION-SHAFT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2343-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-MAIN-DRAIN",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-MAIN-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2344-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-OVERFLOW-RELIEF-GULLY",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-OVERFLOW-RELIEF-GULLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2345-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-PROPERTY-SEWER-CONNECTION",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-PROPERTY-SEWER-CONNECTION",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2346-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2347-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-RODDING-POINT",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-RODDING-POINT",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2348-DR-SANITARY-DRAINAGE-SYSTEM-HAS-PART-AU-DR-TERMINAL-MAINTENANCE-SHAFT",
+      "from_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-TERMINAL-MAINTENANCE-SHAFT",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-2349-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-BRANCH-DISCHARGE-PIPE",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-BRANCH-DISCHARGE-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2350-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-DRAIN-TEST-PLUG",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DRAIN-TEST-PLUG",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2351-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-DWV-BEND",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DWV-BEND",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2352-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-DWV-COUPLING",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DWV-COUPLING",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2353-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-DWV-END-CAP",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DWV-END-CAP",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2354-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-DWV-EXPANSION-JOINT",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DWV-EXPANSION-JOINT",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2355-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-DWV-INSPECTION-FITTING",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DWV-INSPECTION-FITTING",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2356-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-DWV-JUNCTION",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DWV-JUNCTION",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2357-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-DWV-PIPE",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DWV-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2358-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-DWV-REDUCER",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DWV-REDUCER",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2359-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-DWV-TEE",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-DWV-TEE",
+      "source_ids": [
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2360-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-FIXTURE-DISCHARGE-PIPE",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-FIXTURE-DISCHARGE-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2361-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-FIXTURE-TRAP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2362-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-PIPE-CLIP",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-PIPE-CLIP",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2363-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-PIPE-HANGER-ASSEMBLY",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-PIPE-HANGER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2364-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-PIPE-PENETRATION-SLEEVE",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-PIPE-PENETRATION-SLEEVE",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2365-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-PVCU-DWV-PIPE",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-PVCU-DWV-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2366-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-SANITARY-STACK",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SANITARY-STACK",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2367-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-SANITARY-VENT-SYSTEM",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2368-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-STACK-BASE-ASSEMBLY",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-STACK-BASE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2369-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-STACK-CLAMP",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-STACK-CLAMP",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2370-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-STACK-OFFSET-ASSEMBLY",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-STACK-OFFSET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2371-DR-SANITARY-PLUMBING-SYSTEM-HAS-PART-AU-DR-TRAP-PRIMER-ASSEMBLY",
+      "from_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-TRAP-PRIMER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2372-DR-SANITARY-RISING-MAIN-PART-OF-AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-SANITARY-RISING-MAIN",
+      "relationship": "part_of",
+      "to_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2373-DR-SANITARY-STACK-HAS-PART-AU-DR-STACK-BASE-ASSEMBLY",
+      "from_id": "AU-DR-SANITARY-STACK",
+      "relationship": "has_part",
+      "to_id": "AU-DR-STACK-BASE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2374-DR-SANITARY-STACK-HAS-PART-AU-DR-STACK-OFFSET-ASSEMBLY",
+      "from_id": "AU-DR-SANITARY-STACK",
+      "relationship": "has_part",
+      "to_id": "AU-DR-STACK-OFFSET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2375-DR-SANITARY-STACK-HAS-PART-AU-DR-STACK-VENT",
+      "from_id": "AU-DR-SANITARY-STACK",
+      "relationship": "has_part",
+      "to_id": "AU-DR-STACK-VENT",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2376-DR-SANITARY-STACK-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-SANITARY-STACK",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2377-DR-SANITARY-VENT-SYSTEM-HAS-PART-AU-DR-AIR-ADMITTANCE-VALVE",
+      "from_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AIR-ADMITTANCE-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2378-DR-SANITARY-VENT-SYSTEM-HAS-PART-AU-DR-BRANCH-VENT-PIPE",
+      "from_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-BRANCH-VENT-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2379-DR-SANITARY-VENT-SYSTEM-HAS-PART-AU-DR-COMMON-VENT",
+      "from_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-COMMON-VENT",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2380-DR-SANITARY-VENT-SYSTEM-HAS-PART-AU-DR-HEADER-VENT",
+      "from_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-HEADER-VENT",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2381-DR-SANITARY-VENT-SYSTEM-HAS-PART-AU-DR-RELIEF-VENT",
+      "from_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-RELIEF-VENT",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2382-DR-SANITARY-VENT-SYSTEM-HAS-PART-AU-DR-STACK-VENT",
+      "from_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-STACK-VENT",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2383-DR-SANITARY-VENT-SYSTEM-HAS-PART-AU-DR-VENT-ROOF-FLASHING",
+      "from_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-VENT-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2384-DR-SANITARY-VENT-SYSTEM-HAS-PART-AU-DR-VENT-STACK",
+      "from_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-VENT-STACK",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2385-DR-SANITARY-VENT-SYSTEM-HAS-PART-AU-DR-VENT-TERMINAL-COWL",
+      "from_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-VENT-TERMINAL-COWL",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2386-DR-SANITARY-VENT-SYSTEM-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2387-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2388-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-TREATED-EFFLUENT-PUMP",
+      "from_id": "AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-TREATED-EFFLUENT-PUMP",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2389-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM-HAS-PART-AU-DR-TREATED-EFFLUENT-PUMP-CHAMBER",
+      "from_id": "AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-TREATED-EFFLUENT-PUMP-CHAMBER",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2390-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM-PART-OF-AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "from_id": "AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2391-DR-SEPTIC-CHAMBER-PARTITION-PART-OF-AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "from_id": "AU-DR-SEPTIC-CHAMBER-PARTITION",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2392-DR-SEPTIC-EFFLUENT-FILTER-PART-OF-AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "from_id": "AU-DR-SEPTIC-EFFLUENT-FILTER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2393-DR-SEPTIC-INLET-TEE-PART-OF-AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "from_id": "AU-DR-SEPTIC-INLET-TEE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2394-DR-SEPTIC-OUTLET-TEE-PART-OF-AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "from_id": "AU-DR-SEPTIC-OUTLET-TEE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2395-DR-SEPTIC-PRIMARY-CHAMBER-PART-OF-AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "from_id": "AU-DR-SEPTIC-PRIMARY-CHAMBER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2396-DR-SEPTIC-SECONDARY-CHAMBER-PART-OF-AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "from_id": "AU-DR-SEPTIC-SECONDARY-CHAMBER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2397-DR-SEPTIC-TANK-ASSEMBLY-HAS-PART-AU-DR-SEPTIC-CHAMBER-PARTITION",
+      "from_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEPTIC-CHAMBER-PARTITION",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2398-DR-SEPTIC-TANK-ASSEMBLY-HAS-PART-AU-DR-SEPTIC-EFFLUENT-FILTER",
+      "from_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEPTIC-EFFLUENT-FILTER",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2399-DR-SEPTIC-TANK-ASSEMBLY-HAS-PART-AU-DR-SEPTIC-INLET-TEE",
+      "from_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEPTIC-INLET-TEE",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2400-DR-SEPTIC-TANK-ASSEMBLY-HAS-PART-AU-DR-SEPTIC-OUTLET-TEE",
+      "from_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEPTIC-OUTLET-TEE",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2401-DR-SEPTIC-TANK-ASSEMBLY-HAS-PART-AU-DR-SEPTIC-PRIMARY-CHAMBER",
+      "from_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEPTIC-PRIMARY-CHAMBER",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2402-DR-SEPTIC-TANK-ASSEMBLY-HAS-PART-AU-DR-SEPTIC-SECONDARY-CHAMBER",
+      "from_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEPTIC-SECONDARY-CHAMBER",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2403-DR-SEPTIC-TANK-ASSEMBLY-HAS-PART-AU-DR-SEPTIC-TANK-SHELL",
+      "from_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-SEPTIC-TANK-SHELL",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2404-DR-SEPTIC-TANK-ASSEMBLY-HAS-PART-AU-DR-WASTEWATER-TANK-ACCESS-LID",
+      "from_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-WASTEWATER-TANK-ACCESS-LID",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2405-DR-SEPTIC-TANK-ASSEMBLY-HAS-PART-AU-DR-WASTEWATER-TANK-ACCESS-RISER",
+      "from_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-WASTEWATER-TANK-ACCESS-RISER",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2406-DR-SEPTIC-TANK-ASSEMBLY-PART-OF-AU-DR-PRIMARY-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-PRIMARY-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2407-DR-SEPTIC-TANK-SHELL-PART-OF-AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "from_id": "AU-DR-SEPTIC-TANK-SHELL",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2408-DR-SEWAGE-COLLECTION-WELL-PART-OF-AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-SEWAGE-COLLECTION-WELL",
+      "relationship": "part_of",
+      "to_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2409-DR-SEWAGE-EJECTOR-PUMP-PART-OF-AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-SEWAGE-EJECTOR-PUMP",
+      "relationship": "part_of",
+      "to_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2410-DR-SEWAGE-HIGH-LEVEL-ALARM-PART-OF-AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-SEWAGE-HIGH-LEVEL-ALARM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2411-DR-SEWAGE-PUMP-ISOLATION-VALVE-PART-OF-AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-SEWAGE-PUMP-ISOLATION-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2412-DR-SEWAGE-PUMP-LEVEL-SWITCH-PART-OF-AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-SEWAGE-PUMP-LEVEL-SWITCH",
+      "relationship": "part_of",
+      "to_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2413-DR-SEWAGE-PUMP-NONRETURN-VALVE-PART-OF-AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-SEWAGE-PUMP-NONRETURN-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2414-DR-SEWAGE-WELL-LID-ATTACHED-TO-AU-DR-SEWAGE-COLLECTION-WELL",
+      "from_id": "AU-DR-SEWAGE-WELL-LID",
+      "relationship": "attached_to",
+      "to_id": "AU-DR-SEWAGE-COLLECTION-WELL",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2415-DR-SEWAGE-WELL-LID-PART-OF-AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-SEWAGE-WELL-LID",
+      "relationship": "part_of",
+      "to_id": "AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2416-DR-STACK-BASE-ASSEMBLY-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-STACK-BASE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2417-DR-STACK-BASE-ASSEMBLY-PART-OF-AU-DR-SANITARY-STACK",
+      "from_id": "AU-DR-STACK-BASE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-STACK",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2418-DR-STACK-CLAMP-ATTACHED-TO-AU-DR-SANITARY-STACK",
+      "from_id": "AU-DR-STACK-CLAMP",
+      "relationship": "attached_to",
+      "to_id": "AU-DR-SANITARY-STACK",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2419-DR-STACK-CLAMP-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-STACK-CLAMP",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2420-DR-STACK-OFFSET-ASSEMBLY-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-STACK-OFFSET-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2421-DR-STACK-OFFSET-ASSEMBLY-PART-OF-AU-DR-SANITARY-STACK",
+      "from_id": "AU-DR-STACK-OFFSET-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-STACK",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2422-DR-STACK-VENT-PART-OF-AU-DR-SANITARY-STACK",
+      "from_id": "AU-DR-STACK-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-STACK",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2423-DR-STACK-VENT-PART-OF-AU-DR-SANITARY-VENT-SYSTEM",
+      "from_id": "AU-DR-STACK-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2424-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM-HAS-PART-AU-DR-EFFLUENT-DRIPPER-LINE",
+      "from_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-DRIPPER-LINE",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2425-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM-HAS-PART-AU-DR-EFFLUENT-IRRIGATION-FILTER",
+      "from_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-IRRIGATION-FILTER",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2426-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM-HAS-PART-AU-DR-EFFLUENT-IRRIGATION-FLUSH-POINT",
+      "from_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-IRRIGATION-FLUSH-POINT",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2427-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM-HAS-PART-AU-DR-EFFLUENT-IRRIGATION-ZONE-VALVE",
+      "from_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-IRRIGATION-ZONE-VALVE",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2428-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM-HAS-PART-AU-DR-EFFLUENT-VALVE-BOX",
+      "from_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-VALVE-BOX",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2429-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM-PART-OF-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2430-DR-SURFACE-EFFLUENT-IRRIGATION-SYSTEM-HAS-PART-AU-DR-EFFLUENT-SPRINKLER",
+      "from_id": "AU-DR-SURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-EFFLUENT-SPRINKLER",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2431-DR-SURFACE-EFFLUENT-IRRIGATION-SYSTEM-PART-OF-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-SURFACE-EFFLUENT-IRRIGATION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-2432-DR-TERMINAL-MAINTENANCE-SHAFT-PART-OF-AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "from_id": "AU-DR-TERMINAL-MAINTENANCE-SHAFT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C2-SANITARY-DRAINAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-2433-DR-TRAP-PRIMER-ASSEMBLY-HAS-PART-AU-DR-TRAP-PRIMER-LINE",
+      "from_id": "AU-DR-TRAP-PRIMER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-TRAP-PRIMER-LINE",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2434-DR-TRAP-PRIMER-ASSEMBLY-HAS-PART-AU-DR-TRAP-PRIMER-VALVE",
+      "from_id": "AU-DR-TRAP-PRIMER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DR-TRAP-PRIMER-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2435-DR-TRAP-PRIMER-ASSEMBLY-PART-OF-AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "from_id": "AU-DR-TRAP-PRIMER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-PLUMBING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2436-DR-TRAP-PRIMER-LINE-PART-OF-AU-DR-TRAP-PRIMER-ASSEMBLY",
+      "from_id": "AU-DR-TRAP-PRIMER-LINE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-TRAP-PRIMER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2437-DR-TRAP-PRIMER-VALVE-PART-OF-AU-DR-TRAP-PRIMER-ASSEMBLY",
+      "from_id": "AU-DR-TRAP-PRIMER-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-TRAP-PRIMER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2438-DR-TREATED-EFFLUENT-PUMP-PART-OF-AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-TREATED-EFFLUENT-PUMP",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2439-DR-TREATED-EFFLUENT-PUMP-CHAMBER-PART-OF-AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "from_id": "AU-DR-TREATED-EFFLUENT-PUMP-CHAMBER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2440-DR-TREATED-EFFLUENT-SAMPLE-POINT-PART-OF-AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "from_id": "AU-DR-TREATED-EFFLUENT-SAMPLE-POINT",
+      "relationship": "part_of",
+      "to_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2441-DR-TRENCH-DISTRIBUTION-PIPE-PART-OF-AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "from_id": "AU-DR-TRENCH-DISTRIBUTION-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2442-DR-VENT-ROOF-FLASHING-PART-OF-AU-DR-SANITARY-VENT-SYSTEM",
+      "from_id": "AU-DR-VENT-ROOF-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2443-DR-VENT-STACK-PART-OF-AU-DR-SANITARY-VENT-SYSTEM",
+      "from_id": "AU-DR-VENT-STACK",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2444-DR-VENT-TERMINAL-COWL-PART-OF-AU-DR-SANITARY-VENT-SYSTEM",
+      "from_id": "AU-DR-VENT-TERMINAL-COWL",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SANITARY-VENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-C1-SANITARY-PLUMBING",
+        "SRC-VINIDEX-DWV-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2445-DR-WASTEWATER-CONTROL-PANEL-PART-OF-AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "from_id": "AU-DR-WASTEWATER-CONTROL-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2446-DR-WASTEWATER-FAULT-ALARM-PART-OF-AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "from_id": "AU-DR-WASTEWATER-FAULT-ALARM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-AWTS-CERTIFICATE",
+        "SRC-WA-HEALTH-SECONDARY-TREATMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2447-DR-WASTEWATER-TANK-ACCESS-LID-PART-OF-AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "from_id": "AU-DR-WASTEWATER-TANK-ACCESS-LID",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2448-DR-WASTEWATER-TANK-ACCESS-RISER-PART-OF-AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "from_id": "AU-DR-WASTEWATER-TANK-ACCESS-RISER",
+      "relationship": "part_of",
+      "to_id": "AU-DR-SEPTIC-TANK-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-OWM-GUIDELINES-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2449-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM-HAS-PART-AU-DR-COMPOSTING-CHAMBER",
+      "from_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-COMPOSTING-CHAMBER",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2450-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM-HAS-PART-AU-DR-COMPOSTING-CHAMBER-ACCESS-HATCH",
+      "from_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-COMPOSTING-CHAMBER-ACCESS-HATCH",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2451-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM-HAS-PART-AU-DR-COMPOSTING-TOILET-CHUTE",
+      "from_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-COMPOSTING-TOILET-CHUTE",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2452-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM-HAS-PART-AU-DR-COMPOSTING-TOILET-LEACHATE-DRAIN",
+      "from_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-COMPOSTING-TOILET-LEACHATE-DRAIN",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2453-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM-HAS-PART-AU-DR-COMPOSTING-TOILET-PEDESTAL",
+      "from_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-COMPOSTING-TOILET-PEDESTAL",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2454-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM-HAS-PART-AU-DR-COMPOSTING-TOILET-VENT",
+      "from_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DR-COMPOSTING-TOILET-VENT",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2455-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM-PART-OF-AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "from_id": "AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-HEALTH-COMPOSTING-TOILET-GUIDE",
+        "SRC-NSW-HEALTH-ONSITE-WASTEWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": []
+}

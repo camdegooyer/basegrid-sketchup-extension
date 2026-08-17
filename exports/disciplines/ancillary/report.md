@@ -1,0 +1,367 @@
+# Ancillary discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 258
+- Internal relationships: 452
+- Outgoing cross-discipline relationships: 5
+- Distinct supporting sources: 34
+- Distinct linked standards: 15
+- Average overall confidence: 85.2%
+- Objects with a Tier 1 source: 51.9%
+- Objects with two or more sources: 37.2%
+
+## Categories
+
+- above ground pool components: 3
+- accessibility: 6
+- alpine doorway assemblies: 1
+- alpine doorway components: 2
+- ancillary assemblies: 1
+- bushfire assemblies: 1
+- bushfire ember assemblies: 1
+- bushfire ember components: 4
+- bushfire junction components: 2
+- bushfire opening assemblies: 1
+- bushfire opening components: 5
+- bushfire roof components: 4
+- bushfire site assemblies: 1
+- bushfire subfloor assemblies: 1
+- bushfire subfloor components: 1
+- bushfire vent components: 4
+- chimney assemblies: 1
+- chimney components: 2
+- civil site: 8
+- commercial facades: 6
+- commercial fitout: 6
+- deck bracing assemblies: 1
+- deck bracing components: 2
+- deck wall attachment assemblies: 1
+- deck wall attachment components: 4
+- deck wall attachment fasteners: 5
+- deck wall weatherproofing assemblies: 1
+- deck wall weatherproofing components: 4
+- fire services: 9
+- gas services: 6
+- masonry fireplace assemblies: 1
+- masonry fireplace components: 9
+- pool access components: 3
+- pool assemblies: 1
+- pool barrier assemblies: 5
+- pool barrier components: 10
+- pool control components: 1
+- pool cover assemblies: 1
+- pool cover components: 1
+- pool edge components: 3
+- pool filter components: 5
+- pool gate assemblies: 1
+- pool gate components: 5
+- pool groundwater components: 1
+- pool groundwork components: 3
+- pool heating components: 2
+- pool pipework components: 6
+- pool plant assemblies: 3
+- pool pump components: 3
+- pool recirculation assemblies: 1
+- pool return components: 2
+- pool safety components: 1
+- pool shell components: 1
+- pool skimmer components: 6
+- pool suction assemblies: 2
+- pool suction components: 5
+- pool treatment assemblies: 1
+- pool treatment components: 1
+- pool vessel assemblies: 5
+- private bushfire shelter access assemblies: 1
+- private bushfire shelter access components: 7
+- private bushfire shelter assemblies: 1
+- private bushfire shelter internal systems: 2
+- private bushfire shelter openings: 1
+- private bushfire shelter protection components: 2
+- private bushfire shelter shell assemblies: 1
+- private bushfire shelter shell components: 4
+- private bushfire shelter signage: 2
+- private bushfire shelter variants: 2
+- private bushfire shelter ventilation: 4
+- solid fuel appliance assemblies: 2
+- solid fuel appliance components: 9
+- solid fuel flue assemblies: 1
+- solid fuel flue components: 9
+- solid fuel heating assemblies: 1
+- solid fuel protection assemblies: 2
+- solid fuel protection components: 2
+- spa pool components: 1
+- specialist openings: 8
+- standby power and lightning: 5
+- vertical transport: 8
+
+## Objects
+
+- **Class 10c private bushfire-shelter assembly** (`AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY`) — A purpose-designed Class 10c structure associated with a Class 1a dwelling and intended for temporary emergency occupation during a bushfire, including its protective shell, access, ventilation, signs and essential internal systems.
+- **HEPA filter module** (`AU-AN-HEPA-FILTER-MODULE`) — A ceiling or duct-mounted high-efficiency filter module serving a cleanroom or controlled environment.
+- **LPG cylinder bank** (`AU-AN-LPG-CYLINDER-BANK`) — A grouped external LPG cylinder installation with cylinders, restraints, regulator, valves and connection pipework.
+- **M12 chemical waling-plate anchor** (`AU-AN-M12-CHEMICAL-WALING-ANCHOR`) — An M12 threaded anchor rod bonded into a drilled hole with a compatible chemical anchoring system to fix a timber waling plate to eligible core-filled reinforced masonry.
+- **M12 mechanical expansion waling-plate anchor** (`AU-AN-M12-MECHANICAL-WALING-ANCHOR`) — An M12 mechanical anchor that develops its fixing action by expansion or another mechanical mechanism inside eligible core-filled reinforced masonry.
+- **M12 waling-plate connection bolt** (`AU-AN-M12-WALING-BOLT`) — A nominal M12 structural bolt used with a large washer to connect a steel waling plate to eligible steel wall framing in the Housing Provisions attachment detail.
+- **No. 14 partial-thread self-drilling waling screw** (`AU-AN-NO14-PARTIAL-THREAD-SCREW`) — A No. 14 self-drilling screw with a partly unthreaded shank used in pairs to clamp a timber waling plate to eligible timber wall framing under the nominated attachment path.
+- **above-ground pool liner** (`AU-AN-ABOVE-GROUND-POOL-LINER`) — A flexible watertight membrane fitted inside an above-ground pool wall and floor, shaped and restrained at the top edge and sealed around fittings.
+- **above-ground pool top rail** (`AU-AN-ABOVE-GROUND-POOL-TOP-RAIL`) — A continuous or segmented horizontal cap member around an above-ground pool that ties wall uprights, covers the wall edge and retains or protects the liner connection.
+- **above-ground pool wall** (`AU-AN-ABOVE-GROUND-POOL-WALL`) — The continuous or segmented vertical wall that contains and supports the liner and water pressure in an above-ground pool system.
+- **above-ground private bushfire shelter** (`AU-AN-ABOVE-GROUND-BUSHFIRE-SHELTER`) — A private bushfire shelter whose occupied enclosure is principally above surrounding ground and exposed directly to external fire, wind and debris actions.
+- **above-ground swimming-pool assembly** (`AU-AN-ABOVE-GROUND-POOL-ASSEMBLY`) — A pool vessel standing wholly or partly above surrounding ground, commonly formed by a supported wall, liner, top rail, base track and external support or deck interfaces.
+- **access control hardware set** (`AU-AN-ACCESS-CONTROL-HARDWARE-SET`) — A coordinated door-security hardware set including reader, lock, controller, request-to-exit device, power and cabling interfaces.
+- **accessible parking bay** (`AU-AN-ACCESSIBLE-PARKING-BAY`) — A marked parking space with adjacent shared area, kerb ramp or access connection, wheel stops, bollards or signage where documented.
+- **accessible path of travel** (`AU-AN-ACCESSIBLE-PATH-OF-TRAVEL`) — A continuous route made from floor surfaces, ramps, landings, doors, circulation spaces and access features that physically supports accessible movement.
+- **accessible sanitary fixture set** (`AU-AN-ACCESSIBLE-SANITARY-FIXTURE-SET`) — A coordinated accessible sanitary group including WC pan, basin, grabrails, circulation spaces, accessories and service connections.
+- **agricultural drain behind retaining wall** (`AU-AN-AGRICULTURAL-DRAIN`) — A perforated drainage pipe and aggregate zone used to relieve water behind a retaining wall or site structure.
+- **alpine doorway OPEN INWARDS sign** (`AU-AN-ALPINE-OPEN-INWARDS-SIGN`) — A durable physical sign fixed to an alpine external door in a Class 1b building to tell occupants that the door opens inward.
+- **alpine doorway raised threshold** (`AU-AN-ALPINE-DOORWAY-RAISED-THRESHOLD`) — A raised sill, plinth or step-forming base at an alpine external doorway that lifts the door opening and weathering interface above the adjacent external surface.
+- **alpine external doorway assembly** (`AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY`) — An external doorway in an alpine building arranged so that accumulated snow or ice does not prevent the door from opening, using an inward-opening or sliding configuration and coordinated threshold construction.
+- **aluminium tubular pool-fence assembly** (`AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY`) — A proprietary fence system made from aluminium panels, posts, brackets, caps, base plates, fixings and gates configured for swimming-pool access restriction.
+- **aluminium tubular pool-fence panel** (`AU-AN-ALUMINIUM-POOL-FENCE-PANEL`) — A prefabricated aluminium panel with horizontal rails and repeated vertical pickets fitted between pool-fence posts.
+- **automatic sliding door assembly** (`AU-AN-AUTOMATIC-SLIDING-DOOR`) — An entrance door system with sliding leaves, head operator, sensors, tracks, side screens and control hardware.
+- **automatic transfer switch** (`AU-AN-AUTOMATIC-TRANSFER-SWITCH`) — Electrical switching equipment that transfers load between normal supply and standby generator supply.
+- **building ember-protection system** (`AU-AN-EMBER-PROTECTION-SYSTEM`) — The connected mesh screens, profile closures, seals and gap treatments that restrict burning embers entering roof, wall, subfloor and opening cavities.
+- **bushfire construction-joint seal** (`AU-AN-BUSHFIRE-CONSTRUCTION-JOINT-SEAL`) — A tested or suitably evidenced joint system closing a movement, control or construction joint in an external bushfire-exposed wall, floor, roof or deck element.
+- **bushfire eave or soffit vent screen** (`AU-AN-BUSHFIRE-EAVE-SOFFIT-VENT-SCREEN`) — An eave or soffit ventilation opening protected by suitable ember mesh, frame, edge seals and compatible vent body while retaining the designed roof-space airflow.
+- **bushfire ember-protection mesh** (`AU-AN-BUSHFIRE-EMBER-MESH`) — A corrosion-resistant metal woven, expanded or perforated screen with controlled apertures, cut and supported to protect a building opening from ember entry.
+- **bushfire ember-screen edge seal** (`AU-AN-EMBER-SCREEN-EDGE-SEAL`) — A non-combustible or appropriately evidenced strip, gasket or seal closing irregular gaps between an ember screen frame and surrounding construction.
+- **bushfire ember-screen fastener** (`AU-AN-EMBER-SCREEN-FASTENER`) — A corrosion-compatible screw, rivet, clip or staple securing ember mesh or its frame continuously enough to prevent loose edges and bypass gaps.
+- **bushfire ember-screen frame** (`AU-AN-EMBER-SCREEN-FRAME`) — A rigid perimeter or intermediate frame that holds ember mesh flat, supports its edges and connects it to the protected vent, opening or building element.
+- **bushfire external-door bottom seal** (`AU-AN-BUSHFIRE-DOOR-BOTTOM-SEAL`) — A suitably evidenced threshold, sweep, drop seal or combined detail closing the vulnerable gap beneath an external door while preserving drainage and operation.
+- **bushfire external-opening screen system** (`AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM`) — The bushfire-rated or path-compliant mesh screens, frames, shutters and seals protecting external windows, glazed doors and other openable building openings.
+- **bushfire gutter ember-guard assembly** (`AU-AN-BUSHFIRE-GUTTER-EMBER-GUARD`) — A metal mesh or cover system fixed over a roof gutter or roof edge to limit leaf and ember accumulation while preserving roof-water entry and gutter drainage.
+- **bushfire opening-perimeter seal** (`AU-AN-BUSHFIRE-OPENING-PERIMETER-SEAL`) — A suitably evidenced seal or gasket closing the gap between an external window or door frame and its surrounding wall or between moving opening components.
+- **bushfire roof-penetration closure assembly** (`AU-AN-BUSHFIRE-ROOF-PENETRATION-CLOSURE`) — The flashing, profile closures, mesh and seals around a pipe, duct, skylight, vent or other roof penetration that prevent ember bypass into the roof space.
+- **bushfire roof-profile closure** (`AU-AN-BUSHFIRE-ROOF-PROFILE-CLOSURE`) — A shaped non-combustible or suitably evidenced closure filling corrugation or pan gaps beneath roof sheets, flashings or ridge and eave components.
+- **bushfire roof-to-wall junction closure** (`AU-AN-BUSHFIRE-ROOF-TO-WALL-CLOSURE`) — A coordinated flashing, mesh and solid-closure detail at a roof-to-wall junction that blocks ember entry into roof or wall cavities while shedding water.
+- **bushfire roof-vent screen assembly** (`AU-AN-BUSHFIRE-ROOF-VENT-SCREEN`) — A screened closure integrated into a roof ventilator, gable vent or similar roof-space opening to restrict ember entry without defeating the vent's airflow and weathering.
+- **bushfire screen-door assembly** (`AU-AN-BUSHFIRE-SCREEN-DOOR`) — A hinged or sliding framed metal-mesh door fitted outside an external door opening and selected as part of the bushfire opening-protection system.
+- **bushfire service-penetration closure** (`AU-AN-BUSHFIRE-SERVICE-PENETRATION-CLOSURE`) — A sleeve, non-combustible collar, mesh, backing and seal arrangement closing the gap around a pipe, cable, conduit or duct passing through a bushfire-exposed building element.
+- **bushfire shutter assembly** (`AU-AN-BUSHFIRE-SHUTTER-ASSEMBLY`) — A tested hinged, sliding, folding or rolling shutter system that closes over an external window or door opening before bushfire exposure.
+- **bushfire subfloor enclosure assembly** (`AU-AN-BUSHFIRE-SUBFLOOR-ENCLOSURE`) — A continuous wall, skirt or screened perimeter enclosing the underfloor space of an elevated building or deck and closing vulnerable gaps at ground and floor edges.
+- **bushfire subfloor mesh screen** (`AU-AN-BUSHFIRE-SUBFLOOR-SCREEN`) — A framed metal-mesh panel protecting an open subfloor perimeter or ventilation opening from ember entry.
+- **bushfire window-screen assembly** (`AU-AN-BUSHFIRE-WINDOW-SCREEN`) — A framed corrosion-resistant metal-mesh screen fitted externally or as part of a window system to protect the openable or glazed opening from ember attack.
+- **bushfire-protected masonry weephole screen** (`AU-AN-BUSHFIRE-WEEPHOLE-SCREEN`) — A small corrosion-resistant screen or proprietary insert fitted at a masonry weephole to restrict ember and pest entry while preserving cavity drainage and ventilation.
+- **bushfire-protected ridge vent** (`AU-AN-BUSHFIRE-RIDGE-VENT-SCREEN`) — A roof-ridge ventilation opening with weather baffles, ember mesh and profile closures arranged to discharge air while resisting wind-driven embers and rain.
+- **bushfire-resisting building-envelope system** (`AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM`) — The coordinated external walls, roof, subfloor, decks, openings, joints, vents, penetrations, screens, seals and shutters selected as one construction pathway for a building in a designated bushfire-prone area.
+- **card reader** (`AU-AN-CARD-READER`) — A wall, frame or mullion mounted credential reader used to request access through a controlled opening.
+- **cleanroom panel system** (`AU-AN-CLEANROOM-PANEL-SYSTEM`) — A controlled-environment room envelope made from cleanroom wall panels, ceiling panels, doors, glazing, coves, seals and service penetrations.
+- **cold-formed steel deck waling plate** (`AU-AN-STEEL-WALING-PLATE`) — A horizontal cold-formed steel channel fixed with its web against an eligible external wall and used as the waling plate for deck or balcony joists.
+- **commercial kitchen exhaust hood** (`AU-AN-COMMERCIAL-KITCHEN-EXHAUST-HOOD`) — A canopy or exhaust hood over commercial cooking equipment, including filters, capture hood body, lights, fire service interfaces and duct connection.
+- **curtain wall mullion** (`AU-AN-CURTAIN-WALL-MULLION`) — A vertical framing member in a curtain wall grid.
+- **curtain wall perimeter fire safing** (`AU-AN-PERIMETER-FIRE-SAFING`) — A fire-resistant closure at the gap between a facade system and the edge of a floor or fire-rated construction.
+- **curtain wall pressure plate and cover cap** (`AU-AN-CURTAIN-WALL-PRESSURE-PLATE-CAP`) — External capture hardware that clamps glazing or panels to curtain wall framing and covers the fixing line.
+- **curtain wall spandrel panel** (`AU-AN-CURTAIN-WALL-SPANDREL-PANEL`) — An opaque panel zone in a curtain wall, commonly used to conceal slab edges, structure or services.
+- **curtain wall system** (`AU-AN-CURTAIN-WALL-SYSTEM`) — A non-loadbearing external wall system of mullions, transoms, glazing, panels, pressure plates, caps, seals, anchors and perimeter interfaces.
+- **curtain wall transom** (`AU-AN-CURTAIN-WALL-TRANSOM`) — A horizontal framing member in a curtain wall grid.
+- **deck bracing-strap fixing** (`AU-AN-DECK-STRAP-FIXING`) — A corrosion-compatible nail or screw installed through the diagonal bracing strap into each nominated joist and into the waling plate.
+- **deck or balcony diagonal strap-bracing assembly** (`AU-AN-DECK-DIAGONAL-BRACING-ASSEMBLY`) — A pair or set of diagonally opposed steel straps fixed across the joists and connected to the waling plate to brace an attached deck or balcony in plan.
+- **domestic solid-fuel flue system** (`AU-AN-SOLID-FUEL-FLUE-SYSTEM`) — A tested system of active inner flue, surrounding casings or insulation, joints, supports, ceiling and roof penetration components, storm collar and terminal cowl carrying combustion products from an appliance outdoors.
+- **domestic solid-fuel heating system** (`AU-AN-SOLID-FUEL-HEATING-SYSTEM`) — A complete domestic solid-fuel appliance or open fireplace with its hearth, heat protection, chimney or flue system, termination and building penetrations.
+- **electric strike** (`AU-AN-ELECTRIC-STRIKE`) — An electrically controlled strike fitted to a door frame to release or secure a latch.
+- **escalator assembly** (`AU-AN-ESCALATOR-ASSEMBLY`) — A moving stair system including truss, moving steps, handrails, balustrades and landing plates.
+- **escalator step** (`AU-AN-ESCALATOR-STEP`) — A moving tread component within an escalator step band.
+- **fire extinguisher** (`AU-AN-FIRE-EXTINGUISHER`) — A portable firefighting cylinder mounted on a wall bracket, stand or cabinet.
+- **fire hose reel** (`AU-AN-FIRE-HOSE-REEL`) — A wall-mounted or cabinet-mounted reel and hose used for first-attack firefighting.
+- **fire hydrant booster** (`AU-AN-FIRE-HYDRANT-BOOSTER`) — An external connection assembly used by fire services to boost a hydrant or sprinkler water system.
+- **fire hydrant system** (`AU-AN-FIRE-HYDRANT-SYSTEM`) — A fixed firefighting water system with hydrant pipework, landing valves, booster connections and associated equipment.
+- **fire indicator panel** (`AU-AN-FIRE-INDICATOR-PANEL`) — A fire alarm control and display panel mounted in a cabinet or enclosure.
+- **fire smoke damper** (`AU-AN-FIRE-SMOKE-DAMPER`) — A damper installed in ductwork or a wall/floor penetration to control fire and smoke spread.
+- **fire sprinkler head** (`AU-AN-FIRE-SPRINKLER-HEAD`) — A discharge device fitted to sprinkler pipework.
+- **fire sprinkler system** (`AU-AN-FIRE-SPRINKLER-SYSTEM`) — A fixed fire suppression system made from sprinkler heads, pipework, valves, supports and control equipment.
+- **fireplace inner masonry leaf** (`AU-AN-FIREPLACE-INNER-MASONRY-LEAF`) — The inner solid-masonry construction immediately outside or supporting the refractory firebox and lower smoke path.
+- **fireplace masonry separation cavity** (`AU-AN-FIREPLACE-MASONRY-CAVITY`) — The continuous physical air space between inner and outer fireplace masonry where the selected construction uses separated leaves.
+- **fireplace opening lintel** (`AU-AN-FIREPLACE-OPENING-LINTEL`) — A non-combustible horizontal member or formed arch supporting masonry above the open fireplace mouth.
+- **fireplace outer masonry leaf** (`AU-AN-FIREPLACE-OUTER-MASONRY-LEAF`) — The outer masonry enclosure around an open fireplace and chimney base, separated from hotter inner construction by the designed cavity or thickness.
+- **fireplace smoke chamber** (`AU-AN-FIREPLACE-SMOKE-CHAMBER`) — The tapered enclosed volume above a fireplace throat that gathers smoke from the broad firebox opening and transitions it into the narrower chimney flue.
+- **fireplace throat** (`AU-AN-FIREPLACE-THROAT`) — The narrowed passage above the firebox opening where combustion products enter the smoke chamber and where a damper may be installed.
+- **fixed access ladder** (`AU-AN-FIXED-ACCESS-LADDER`) — A fixed ladder, cage, gate or platform arrangement used to access roofs, plant, pits or service zones.
+- **framed deck or balcony wall-attachment assembly** (`AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY`) — The waling plate, structural fasteners, joist support, wall interface, flashings and deck bracing that connect an eligible framed deck or balcony to an external wall.
+- **frameless or semi-frameless glass pool-fence assembly** (`AU-AN-GLASS-POOL-FENCE-ASSEMBLY`) — A pool barrier formed from safety-glass panels held by spigots, posts or clamps, with designed gaps, anchors and compatible gate hardware.
+- **freestanding wood-heater assembly** (`AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY`) — A factory-made solid-fuel room heater standing on legs or a pedestal and connected through a flue collar to a tested flue system, with a floor protector and wall shielding where required.
+- **fume cupboard** (`AU-AN-FUME-CUPBOARD`) — A ventilated laboratory enclosure with sash, work chamber, exhaust duct connection, services and base cabinet or support frame.
+- **galvanized deck diagonal bracing strap** (`AU-AN-DECK-BRACING-STRAP`) — A thin galvanized steel strip run diagonally across a series of deck or balcony joists as the tension element in the plan-bracing assembly.
+- **gas appliance flue** (`AU-AN-GAS-FLUE`) — A duct, pipe or terminal path that discharges combustion products from a gas appliance to outside air.
+- **gas isolation valve** (`AU-AN-GAS-ISOLATION-VALVE`) — A valve used to isolate a gas appliance, branch or section of gas pipework.
+- **gas meter and regulator set** (`AU-AN-GAS-METER-REGULATOR-SET`) — A gas metering and pressure-control assembly at the gas supply point.
+- **gas pipe** (`AU-AN-GAS-PIPE`) — A pipe carrying natural gas or LPG within a gas service system.
+- **gas service system** (`AU-AN-GAS-SERVICE-SYSTEM`) — A gas installation drawing family including supply point, meter or cylinder bank, regulators, pipework, isolation valves, appliance connections and flues where relevant.
+- **geogrid reinforcement** (`AU-AN-GEOGRID-REINFORCEMENT`) — A geosynthetic reinforcement layer placed in retained soil behind selected retaining wall systems.
+- **glass pool-fence spigot** (`AU-AN-POOL-FENCE-GLASS-SPIGOT`) — A short metal point support anchored to the substrate and clamping the lower edge of a frameless glass pool-fence panel through packers and pressure plates.
+- **grease arrestor** (`AU-AN-GREASE-ARRESTOR`) — A plumbing treatment unit that intercepts grease and solids from commercial kitchen wastewater before discharge.
+- **gross pollutant trap** (`AU-AN-GROSS-POLLUTANT-TRAP`) — A stormwater treatment device that captures litter, coarse sediment or gross pollutants before discharge.
+- **in-ground private bushfire shelter** (`AU-AN-IN-GROUND-BUSHFIRE-SHELTER`) — A private bushfire shelter whose occupied enclosure is principally below surrounding ground and includes engineered earth-retaining, waterproofing, drainage, access and egress construction.
+- **in-ground swimming-pool assembly** (`AU-AN-IN-GROUND-POOL-ASSEMBLY`) — A swimming-pool vessel installed substantially below surrounding ground, including its shell, prepared support, backfill or earth interface, coping edge, interior finish and shell penetrations.
+- **installed grabrail** (`AU-AN-INSTALLED-GRABRAIL`) — A fixed rail used for support in accessible sanitary, shower, change or circulation areas.
+- **integrated pool entry-step assembly** (`AU-AN-POOL-ENTRY-STEP-ASSEMBLY`) — One or more submerged treads and risers formed into or attached to a pool shell to provide entry, exit or seating at the water edge.
+- **joist-to-waling support connector** (`AU-AN-JOIST-TO-WALING-CONNECTOR`) — A hanger, cleat, bracket or detailed direct connection that supports and fixes the inner end of a deck or balcony joist to the waling plate.
+- **laboratory bench** (`AU-AN-LABORATORY-BENCH`) — A fixed specialist bench with worktop, under-bench storage, service outlets and chemical-resistant finishes.
+- **large-diameter waling-plate washer** (`AU-AN-WALING-LARGE-WASHER`) — A thick large-diameter steel washer placed under an M12 bolt or anchor head to spread its bearing force over the waling plate face.
+- **lift car** (`AU-AN-LIFT-CAR`) — The moving passenger or goods compartment within a lift system.
+- **lift guide rail** (`AU-AN-LIFT-GUIDE-RAIL`) — A vertical rail that guides movement of the lift car or counterweight inside the lift well.
+- **lift landing door** (`AU-AN-LIFT-LANDING-DOOR`) — The door assembly at a floor landing that closes the lift shaft opening.
+- **lift shaft or well** (`AU-AN-LIFT-SHAFT-WELL`) — The vertical enclosure or void that contains the lift car, guide equipment, pit and headroom zones.
+- **lift system** (`AU-AN-LIFT-SYSTEM`) — A vertical transport assembly made from a lift well or shaft, car, doors, guide equipment, drive equipment, controls and safety clearances.
+- **lightning air terminal** (`AU-AN-LIGHTNING-AIR-TERMINAL`) — A rod or terminal installed at a roof, mast or exposed point as part of a lightning protection system.
+- **lightning down conductor** (`AU-AN-LIGHTNING-DOWN-CONDUCTOR`) — A conductor route carrying lightning protection continuity from roof-level conductors down to earth termination.
+- **lightning protection system** (`AU-AN-LIGHTNING-PROTECTION-SYSTEM`) — A protection system made from air terminals, roof conductors, down conductors, bonds and earth terminations.
+- **loading dock leveller** (`AU-AN-LOADING-DOCK-LEVELLER`) — A hinged or telescopic platform installed at a loading dock to bridge between building floor and vehicle deck.
+- **magnetic lock** (`AU-AN-MAGNETIC-LOCK`) — An electromagnetic lock with a magnet and armature plate used to secure a controlled door.
+- **masonry chimney assembly** (`AU-AN-MASONRY-CHIMNEY-ASSEMBLY`) — A vertical masonry shaft containing one or more combustion-product passages, with liners or parging, structural support, roof penetration, crown and termination components.
+- **masonry chimney crown** (`AU-AN-CHIMNEY-CROWN`) — A weather-shedding slab or rendered cap at the top of a masonry chimney shaft around the flue outlet.
+- **masonry chimney flue passage** (`AU-AN-MASONRY-CHIMNEY-FLUE-PASSAGE`) — The continuous internal passage within a masonry chimney through which smoke and hot combustion products travel to the outside.
+- **masonry fireplace firebox assembly** (`AU-AN-MASONRY-FIREBOX-ASSEMBLY`) — The refractory floor, back wall and side walls enclosing the fuel and flame zone of an open masonry fireplace below the throat.
+- **open masonry fireplace assembly** (`AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY`) — A site-built open fireplace with non-combustible hearth, masonry firebox, opening support, throat, smoke chamber and masonry chimney carrying combustion products above the roof.
+- **open-fireplace back hearth** (`AU-AN-FIREPLACE-BACK-HEARTH`) — The non-combustible floor of the masonry firebox behind the opening, built to support burning fuel and withstand direct heat.
+- **open-fireplace front hearth** (`AU-AN-FIREPLACE-FRONT-HEARTH`) — A non-combustible floor construction projecting into the room in front of an open fireplace to receive sparks, embers and radiant heat.
+- **platform lift** (`AU-AN-PLATFORM-LIFT`) — A compact lifting platform used where a lift-like accessible connection is required over a limited height or in a constrained location.
+- **pool CPR instruction sign** (`AU-AN-POOL-CPR-INSTRUCTION-SIGN`) — A durable, prominent physical sign installed near a swimming pool to display current first-aid and cardiopulmonary-resuscitation instructions where required by the jurisdiction.
+- **pool access ladder assembly** (`AU-AN-POOL-LADDER-ASSEMBLY`) — A fixed or removable ladder with paired rails, submerged treads and deck or shell anchors used for entry and exit from a swimming pool.
+- **pool auxiliary suction outlet** (`AU-AN-POOL-AUXILIARY-SUCTION-OUTLET`) — An additional submerged or skimmer-associated suction opening connected into the pool suction network to share flow or provide the selected entrapment-control arrangement.
+- **pool boundary-barrier assembly** (`AU-AN-POOL-BOUNDARY-BARRIER-ASSEMBLY`) — A property-boundary fence or wall segment intentionally used as part of the swimming-pool barrier and assessed from both the pool side and the adjoining side under the applicable rules.
+- **pool circulation-pump assembly** (`AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY`) — A motor-driven centrifugal pump with wet end, impeller, suction strainer pot, transparent lid and inlet and discharge connections used to move pool water through treatment equipment.
+- **pool coping** (`AU-AN-POOL-COPING`) — The finished cap or edge unit around the pool perimeter that covers the shell or bond-beam edge and forms the transition to the surrounding surface.
+- **pool cover roller** (`AU-AN-POOL-COVER-ROLLER`) — A manually or motor-driven roller tube on supports used to wind, store and deploy a flexible swimming-pool cover.
+- **pool entry handrail** (`AU-AN-POOL-HANDRAIL`) — A shaped rail fixed at a pool entry step, ramp or edge to provide a continuous handhold above and into the water.
+- **pool equipment pipe union** (`AU-AN-POOL-PIPE-UNION`) — A three-part demountable pipe fitting with a union nut and seal that allows pool equipment to be removed without cutting the pipe.
+- **pool excavation** (`AU-AN-POOL-EXCAVATION`) — The formed ground void cut to receive an in-ground pool shell, prepared base, plumbing clearances, backfill and groundwater-management provisions.
+- **pool filter assembly** (`AU-AN-POOL-FILTER-ASSEMBLY`) — A pressure filter that removes suspended material from circulating pool water using sand, glass, cartridge or another selected filter medium and includes its tank, internals, valve and pressure indication.
+- **pool filter backwash-discharge pipe** (`AU-AN-POOL-BACKWASH-PIPE`) — A pipe carrying dirty water from a pool filter's backwash or waste port to the lawful discharge connection or collection point.
+- **pool filter media** (`AU-AN-POOL-FILTER-MEDIA`) — The replaceable granular bed or cartridge material inside a pool filter that physically captures suspended particles as water passes through it.
+- **pool filter multiport valve** (`AU-AN-POOL-FILTER-MULTIPORT-VALVE`) — A selectable valve mounted on or beside a pool filter that routes water through filter, backwash, rinse, bypass, waste or closed paths supported by the product.
+- **pool filter pressure gauge** (`AU-AN-POOL-FILTER-PRESSURE-GAUGE`) — A small dial or electronic gauge connected to a pool filter or valve to indicate internal pressure for operation and cleaning decisions.
+- **pool filter tank** (`AU-AN-POOL-FILTER-TANK`) — A pressure-rated vessel containing pool filter media or cartridges and distributing water through internal collectors.
+- **pool heat-pump unit** (`AU-AN-POOL-HEAT-PUMP-UNIT`) — An outdoor packaged refrigeration unit that extracts heat from air and transfers it through a heat exchanger to circulating pool water.
+- **pool hydrostatic-relief assembly** (`AU-AN-POOL-HYDROSTATIC-RELIEF-ASSEMBLY`) — A valve, drain point or standpipe arrangement intended to relieve or monitor groundwater pressure beneath or around an in-ground pool shell.
+- **pool interior finish** (`AU-AN-POOL-INTERIOR-FINISH`) — The exposed water-contact finish applied to or formed as part of the pool shell, such as aggregate render, tile, vinyl liner or composite gelcoat.
+- **pool isolation-fence assembly** (`AU-AN-POOL-ISOLATION-FENCE-ASSEMBLY`) — A fence and gate arrangement separating the pool and its immediate surrounds from the dwelling and the rest of the property rather than relying on the property boundary alone.
+- **pool perimeter bond beam** (`AU-AN-POOL-PERIMETER-BOND-BEAM`) — A reinforced concrete perimeter member around the top of a pool shell that stiffens and ties the edge and supports coping or adjoining pavement where designed.
+- **pool perimeter isolation joint** (`AU-AN-POOL-PERIMETER-ISOLATION-JOINT`) — A movement joint separating pool coping or shell-edge construction from adjoining paving or another rigid surround, filled with compatible backing and sealant where required.
+- **pool pipe isolation valve** (`AU-AN-POOL-ISOLATION-VALVE`) — A manually operated valve in a pool suction or return line used to isolate equipment, select branches or control service flow.
+- **pool plant time and speed control** (`AU-AN-POOL-PLANT-TIME-CONTROL`) — A timer, variable-speed controller or automation enclosure that starts, stops and schedules the pool pump and connected treatment or heating equipment.
+- **pool pump electric motor** (`AU-AN-POOL-PUMP-ELECTRIC-MOTOR`) — The electric motor coupled to a pool pump wet end and controlled at fixed or variable speed to rotate the impeller.
+- **pool pump strainer-pot assembly** (`AU-AN-POOL-PUMP-STRAINER-POT-ASSEMBLY`) — The suction-side chamber, removable basket, transparent lid and lid seal integrated with or placed immediately before a pool circulation pump.
+- **pool pump wet-end housing** (`AU-AN-POOL-PUMP-WET-END`) — The water-containing portion of a pool pump that houses the impeller, diffuser, shaft seal and flow passages between suction and discharge.
+- **pool return directional eyeball** (`AU-AN-POOL-RETURN-EYEBALL`) — A spherical or ball-shaped adjustable nozzle retained in a pool return fitting to aim the return-water jet.
+- **pool return pipe** (`AU-AN-POOL-RETURN-PIPE`) — Pressure pipe carrying filtered, treated or heated water from the pool plant back to one or more return inlets.
+- **pool return-inlet assembly** (`AU-AN-POOL-RETURN-INLET-ASSEMBLY`) — A shell fitting, faceplate, directional nozzle and pipe connection that returns filtered or heated water from the plant into the pool.
+- **pool sand-filter lateral assembly** (`AU-AN-POOL-FILTER-LATERAL-ASSEMBLY`) — The hub and repeated slotted collector arms at the bottom of a sand filter that collect filtered water while retaining the granular media.
+- **pool shell prepared base** (`AU-AN-POOL-PREPARED-BASE`) — A levelled and shaped layer of specified bedding or structural support placed at the bottom of the pool excavation to receive the shell.
+- **pool shell side backfill** (`AU-AN-POOL-SHELL-BACKFILL`) — Selected material placed and controlled between an in-ground pool shell and the excavation side to support the shell and fill the construction annulus.
+- **pool skimmer access lid** (`AU-AN-POOL-SKIMMER-LID`) — A removable cover closing the deck-level service opening above a pool skimmer basket while allowing maintenance access.
+- **pool skimmer assembly** (`AU-AN-POOL-SKIMMER-ASSEMBLY`) — A pool-wall fitting with an open throat at the waterline, floating weir, collection basket, access lid and suction connection that removes surface water and debris.
+- **pool skimmer body** (`AU-AN-POOL-SKIMMER-BODY`) — The moulded chamber embedded beside the pool shell that houses the skimmer basket and connects the waterline throat to suction pipework.
+- **pool skimmer debris basket** (`AU-AN-POOL-SKIMMER-BASKET`) — A removable perforated basket inside the skimmer body that catches leaves and coarse debris before water enters the suction pipe.
+- **pool skimmer floating weir** (`AU-AN-POOL-SKIMMER-WEIR`) — A pivoting flap at the skimmer throat that floats near the water surface to improve surface draw and closes partly when the pump stops.
+- **pool skimmer throat** (`AU-AN-POOL-SKIMMER-THROAT`) — The horizontal waterline passage between the pool interior and skimmer body, commonly finished with a flange or faceplate at the shell.
+- **pool skimmer vacuum plate** (`AU-AN-POOL-SKIMMER-VACUUM-PLATE`) — A removable plate fitted above the skimmer basket with a hose connection so a pool-cleaning vacuum can draw through the basket and circulation pump.
+- **pool suction pipe** (`AU-AN-POOL-SUCTION-PIPE`) — Pressure-class pipe carrying water under pump suction from skimmers and submerged outlets toward the circulation pump.
+- **pool suction vacuum-release device** (`AU-AN-POOL-VACUUM-RELEASE-DEVICE`) — A device connected to the pool suction system that admits air, interrupts suction or otherwise releases vacuum pressure when blockage produces the triggering condition.
+- **pool suction-cover fastener** (`AU-AN-POOL-SUCTION-COVER-FASTENER`) — A corrosion-resistant proprietary screw or bolt securing a suction-outlet safety cover to the matching sump body.
+- **pool suction-outlet manifold** (`AU-AN-POOL-SUCTION-MANIFOLD`) — A connected tee or manifold arrangement joining multiple pool suction outlets into a common line toward the circulation pump.
+- **pool suction-outlet safety cover** (`AU-AN-POOL-SUCTION-OUTLET-COVER`) — A rated perforated or slotted cover fixed over a submerged suction-outlet sump to distribute flow and prevent direct access to the pipe opening.
+- **pool suction-outlet sump** (`AU-AN-POOL-SUCTION-OUTLET-SUMP`) — The recessed body behind a submerged suction-outlet cover that provides the transition from the cover opening area to the connected suction pipe.
+- **pool water-heating assembly** (`AU-AN-POOL-HEATING-ASSEMBLY`) — A heat pump, gas heater, electric heater or solar collector circuit connected into the pool return system with bypass valves, controls and required service clearances.
+- **pool water-recirculation system** (`AU-AN-POOL-WATER-RECIRCULATION-SYSTEM`) — The connected skimmers or suction outlets, suction pipework, pump, filter, treatment equipment, heater where fitted and return inlets that withdraw, treat and return swimming-pool water.
+- **pool water-sanitiser assembly** (`AU-AN-POOL-SANITISER-ASSEMBLY`) — A saltwater chlorinator, chemical feeder or dosing system installed in the pool circulation line to add or generate disinfectant under controlled operation.
+- **pool-barrier safety-glass panel** (`AU-AN-POOL-BARRIER-GLASS-PANEL`) — A marked safety-glass panel cut and processed for use as a structural infill element in a glass swimming-pool barrier.
+- **pool-fence base-plate cover** (`AU-AN-POOL-FENCE-BASE-PLATE-COVER`) — A decorative and protective cover fitted over a surface-mounted pool-fence post base plate and its anchor heads.
+- **pool-fence glass panel clamp** (`AU-AN-POOL-GLASS-PANEL-CLAMP`) — A proprietary metal clamp connecting a glass pool-fence panel to a post, adjacent panel or gate-side support through resilient inserts.
+- **pool-fence panel bracket** (`AU-AN-POOL-FENCE-PANEL-BRACKET`) — A small proprietary bracket fixed to a pool-fence post and rail to hold an aluminium panel at its designed position.
+- **pool-fence post** (`AU-AN-POOL-FENCE-POST`) — A vertical post supporting pool-fence panels, corners or gates and transferring their actions into a footing, base plate or structural substrate.
+- **pool-fence post base plate** (`AU-AN-POOL-FENCE-POST-BASE-PLATE`) — A plate welded or mechanically connected to the bottom of a surface-mounted pool-fence post and anchored to a structural slab, beam or footing.
+- **pool-fence post cap** (`AU-AN-POOL-FENCE-POST-CAP`) — A fitted cap closing the open top of a hollow pool-fence post and completing its weather and injury-resistant finish.
+- **pool-fence spigot glass packer** (`AU-AN-POOL-SPIGOT-GLASS-PACKER`) — A shaped resilient insert between pool-fence glass and a spigot or clamp that cushions, spaces and grips the glass without direct metal contact.
+- **pool-gate latch striker** (`AU-AN-POOL-GATE-STRIKER`) — The latch-engaging pin, bar or plate fixed opposite the pool-gate latch and aligned to enter or be captured by the latch body as the gate closes.
+- **pool-gate leaf** (`AU-AN-POOL-GATE-LEAF`) — The moving framed, tubular or glass panel that closes the pedestrian opening in a swimming-pool barrier.
+- **pool-gate self-closing hinge pair** (`AU-AN-POOL-GATE-SELF-CLOSING-HINGE-PAIR`) — A matched upper and lower hinge set that supports a pool-gate leaf and contains adjustable spring, hydraulic or gravity action to return it toward the closed position.
+- **pool-gate self-latching device** (`AU-AN-POOL-GATE-LATCH`) — A magnetic or mechanical latch fixed between the pool-gate leaf and latch-side support that captures the gate automatically when it reaches the closed position.
+- **pool-gate stop** (`AU-AN-POOL-GATE-STOP`) — A fixed stop that limits the pool-gate leaf at the designed closed position so the latch and striker align without the leaf over-travelling.
+- **post and panel retaining wall** (`AU-AN-POST-AND-PANEL-RETAINING-WALL`) — A retaining wall made from vertical posts and horizontal panels or sleepers spanning between posts.
+- **prefabricated fibreglass pool shell assembly** (`AU-AN-FIBREGLASS-POOL-SHELL-ASSEMBLY`) — A factory-moulded composite pool shell placed into a prepared excavation and supported by its base, controlled backfill, plumbing interfaces and perimeter bond or coping construction.
+- **private bushfire-shelter access assembly** (`AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY`) — The protected external approach, landing, stair or ladder, doorway or hatch, frame, leaf, latches and seals providing entry to and egress from a private bushfire shelter.
+- **private bushfire-shelter air-quality support unit** (`AU-AN-BUSHFIRE-SHELTER-AIR-QUALITY-UNIT`) — An optional engineered fan, filter, carbon-dioxide scrubber, compressed-air supply or combined unit used to support breathable conditions inside a sealed or partly sealed shelter.
+- **private bushfire-shelter door frame** (`AU-AN-BUSHFIRE-SHELTER-DOOR-FRAME`) — A robust metal frame embedded or anchored into the shelter shell and providing hinge, latch and seal interfaces for the protective access leaf.
+- **private bushfire-shelter door or hatch assembly** (`AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH`) — An engineered hinged or sliding protective leaf, frame, latches and seals closing the occupant-access opening in the shelter shell.
+- **private bushfire-shelter emergency-lighting assembly** (`AU-AN-BUSHFIRE-SHELTER-EMERGENCY-LIGHTING`) — A protected light fitting, switch or automatic control and independent or backed-up power source illuminating shelter access, controls, signs and occupant space during emergency occupation.
+- **private bushfire-shelter entry airlock or tunnel** (`AU-AN-BUSHFIRE-SHELTER-ENTRY-AIRLOCK`) — An optional protected entry compartment or tunnel between the external approach and occupied shelter space, with sequential closable openings where the engineered strategy uses one.
+- **private bushfire-shelter entry stair or ladder** (`AU-AN-BUSHFIRE-SHELTER-ENTRY-STAIR-OR-LADDER`) — A fixed stair, step or ladder system providing the vertical route between ground level and a shelter access opening, particularly for an in-ground shelter.
+- **private bushfire-shelter external heat shield** (`AU-AN-BUSHFIRE-SHELTER-EXTERNAL-HEAT-SHIELD`) — An engineered non-combustible panel or wall placed outside a vulnerable shelter opening or approach to reduce direct radiant heat, flame or debris exposure.
+- **private bushfire-shelter external location sign** (`AU-AN-BUSHFIRE-SHELTER-EXTERNAL-LOCATION-SIGN`) — A durable externally visible sign identifying the location and access point of a private bushfire shelter.
+- **private bushfire-shelter floor slab** (`AU-AN-BUSHFIRE-SHELTER-FLOOR-SLAB`) — The reinforced structural slab forming the occupied floor and lower boundary of a private bushfire shelter.
+- **private bushfire-shelter high-temperature door seal** (`AU-AN-BUSHFIRE-SHELTER-DOOR-SEAL`) — A continuous high-temperature gasket or engineered seal between the shelter access leaf and frame intended to limit smoke, hot-gas and heat leakage.
+- **private bushfire-shelter internal capacity sign** (`AU-AN-BUSHFIRE-SHELTER-INTERNAL-CAPACITY-SIGN`) — A durable sign inside the shelter identifying its design occupant capacity, maximum occupancy period and essential operating or safety information.
+- **private bushfire-shelter multipoint latch** (`AU-AN-BUSHFIRE-SHELTER-MULTIPOINT-LATCH`) — An internally operable linkage engaging two or more robust latch points around a shelter door or hatch to hold the protective leaf against its seals.
+- **private bushfire-shelter openable vent** (`AU-AN-BUSHFIRE-SHELTER-OPENABLE-VENT`) — A protected vent body with screen and internally operable closure allowing occupants to admit or exhaust air when the engineered conditions permit.
+- **private bushfire-shelter protective leaf** (`AU-AN-BUSHFIRE-SHELTER-DOOR-LEAF`) — The moving insulated or heat-resistant panel of a private bushfire-shelter door or hatch.
+- **private bushfire-shelter roof shell** (`AU-AN-BUSHFIRE-SHELTER-ROOF-SLAB`) — The reinforced protective roof or lid spanning the shelter and resisting external fire, debris, wind and earth cover where buried.
+- **private bushfire-shelter service-penetration seal** (`AU-AN-BUSHFIRE-SHELTER-PENETRATION-SEAL`) — An engineered sleeve, backing and high-temperature seal around an essential cable, conduit, pipe or duct passing through the shelter shell.
+- **private bushfire-shelter shell joint** (`AU-AN-BUSHFIRE-SHELTER-CONSTRUCTION-JOINT`) — An engineered construction or movement joint between shelter shell elements with reinforcement continuity, keying, water control and high-temperature smoke-limiting seals as designed.
+- **private bushfire-shelter structural shell** (`AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL`) — The engineered floor, walls and roof forming the loadbearing, fire-exposed and smoke-limiting enclosure of a private bushfire shelter.
+- **private bushfire-shelter structural wall** (`AU-AN-BUSHFIRE-SHELTER-WALL`) — A reinforced concrete or solid reinforced-masonry wall forming a side of the private bushfire-shelter enclosure.
+- **private bushfire-shelter vent damper** (`AU-AN-BUSHFIRE-SHELTER-VENT-DAMPER`) — An internally operated blade, plate or valve closing a shelter ventilation path against smoke and hot external air.
+- **private bushfire-shelter vent mesh** (`AU-AN-BUSHFIRE-SHELTER-VENT-MESH`) — A high-temperature corrosion-resistant metal screen protecting a shelter ventilation opening from ember and debris entry.
+- **private bushfire-shelter ventilation assembly** (`AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY`) — The protected air inlets, outlets, ducts, mesh, dampers or closures and controls used to manage air quality and heat while limiting smoke and ember entry.
+- **private bushfire-shelter viewing-window assembly** (`AU-AN-BUSHFIRE-SHELTER-VIEWING-WINDOW`) — A small fire- and heat-exposed glazed opening, frame and seals allowing occupants to observe external conditions without opening the shelter.
+- **rapid roller door** (`AU-AN-RAPID-ROLLER-DOOR`) — A powered high-speed flexible or fabric roller door used for industrial, warehouse or specialist controlled openings.
+- **reinforced-concrete pool shell assembly** (`AU-AN-CONCRETE-POOL-SHELL-ASSEMBLY`) — A site-formed reinforced-concrete pool floor and walls acting together as the structural water-retaining shell, with construction joints, penetrations and applied interior finish.
+- **residential ancillary physical construction system** (`AU-AN-ANCILLARY-PHYSICAL-SYSTEM`) — The coordinated physical assemblies added for swimming pools, alpine doorways, deck and balcony wall attachment, domestic solid-fuel heating, bushfire-resistant construction and private bushfire shelters.
+- **residential spa-pool assembly** (`AU-AN-SPA-POOL-ASSEMBLY`) — A compact pool or manufactured spa vessel intended for sitting or reclining bathing, including its shell, support base, circulation fittings, equipment enclosure and selected access-control barrier or secure cover.
+- **residential swimming-pool physical system** (`AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM`) — The water-retaining pool or spa construction, surrounding access barrier and water-recirculation equipment treated as connected but independently checkable physical systems.
+- **retaining wall system** (`AU-AN-RETAINING-WALL-SYSTEM`) — A site wall system retaining soil, including wall elements, footing or embedment, drainage, backfill, geogrid or posts where applicable.
+- **revolving door assembly** (`AU-AN-REVOLVING-DOOR`) — A circular or polygonal entrance door system with rotating leaves inside a drum or enclosure.
+- **saltwater pool chlorinator cell** (`AU-AN-SALTWATER-CHLORINATOR-CELL`) — An inline electrolytic cell with metal electrode plates that generates chlorine from dissolved salt as pool water flows through its housing.
+- **segmental block retaining wall** (`AU-AN-SEGMENTAL-BLOCK-RETAINING-WALL`) — A retaining wall made from interlocking concrete or masonry blocks, commonly with drainage aggregate and optional geogrid reinforcement.
+- **self-closing self-latching pool-gate assembly** (`AU-AN-POOL-GATE-ASSEMBLY`) — A pedestrian gate in a swimming-pool barrier comprising the gate leaf, supporting posts or panels, self-closing hinges, latch, striker, stop and correctly controlled opening direction and gaps.
+- **site firefighting-water supply assembly** (`AU-AN-SITE-FIREFIGHTING-WATER-SUPPLY-ASSEMBLY`) — A dedicated or reliably available on-site water source with accessible outlet, pipework, pump and hose connection intended for firefighting where required by the project or jurisdiction.
+- **smoke control fan** (`AU-AN-SMOKE-CONTROL-FAN`) — A fan used as part of a smoke exhaust, smoke spill, pressurisation or smoke-control system.
+- **solar pool-heating collector** (`AU-AN-SOLAR-POOL-HEATING-COLLECTOR`) — A roof- or rack-mounted absorber panel or mat containing many small water passages through which pool water circulates and gains heat from sunlight.
+- **solid-fuel active inner flue pipe** (`AU-AN-ACTIVE-INNER-FLUE-PIPE`) — The innermost heat- and corrosion-resistant pipe directly carrying smoke and combustion gases from the appliance to the terminal.
+- **solid-fuel fireplace-insert assembly** (`AU-AN-FIREPLACE-INSERT-ASSEMBLY`) — A manufactured closed solid-fuel appliance installed partly or wholly within a compatible masonry fireplace or purpose-made enclosure and connected to a suitable flue system.
+- **solid-fuel flue ceiling plate** (`AU-AN-FLUE-CEILING-PLATE`) — A trim and shielding plate around the flue-system opening at the ceiling, coordinated with the outer casing, support and required penetration clearances.
+- **solid-fuel flue elbow or offset** (`AU-AN-FLUE-ELBOW-OR-OFFSET`) — A matched angled flue component used in pairs or as designed to shift the flue route around an obstruction while preserving the continuous active and protective layers.
+- **solid-fuel flue intermediate casing** (`AU-AN-FLUE-INTERMEDIATE-CASING`) — A concentric casing around the active flue that forms part of the tested insulation or ventilated-air arrangement through combustible construction.
+- **solid-fuel flue joint clamp** (`AU-AN-FLUE-JOINT-CLAMP`) — A proprietary band, locking ring or fastener set securing adjacent flue lengths or casing sections at their joint.
+- **solid-fuel flue outer casing** (`AU-AN-FLUE-OUTER-CASING`) — The outermost concentric metal casing of a solid-fuel flue system, defining the tested external boundary through ceiling and roof construction.
+- **solid-fuel flue storm collar** (`AU-AN-FLUE-STORM-COLLAR`) — A weather collar clamped and sealed around the flue above the roof flashing to deflect rain over the flashing upstand.
+- **solid-fuel flue support bracket** (`AU-AN-FLUE-SUPPORT-BRACKET`) — A wall band, ceiling support, roof brace or similar proprietary bracket restraining and supporting a solid-fuel flue system at the required locations.
+- **solid-fuel flue terminal cowl** (`AU-AN-SOLID-FUEL-FLUE-COWL`) — The tested top fitting at the end of a solid-fuel flue that keeps the outlet open, limits rain entry and terminates the concentric flue layers.
+- **spa-pool secure cover assembly** (`AU-AN-SPA-SECURE-COVER-ASSEMBLY`) — A rigid or reinforced cover, attachment points and locking devices designed to close a spa-pool opening as an access-control option only where the applicable jurisdiction permits it.
+- **standby generator set** (`AU-AN-GENERATOR-SET`) — A packaged engine-generator unit with enclosure, alternator, fuel system, exhaust, controls and connection to standby power equipment.
+- **stormwater detention outlet control** (`AU-AN-STORMWATER-DETENTION-OUTLET`) — An orifice, weir, plate, valve or outlet assembly that controls discharge from an on-site stormwater detention volume.
+- **submerged pool suction-outlet assembly** (`AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY`) — A submerged pool-floor or wall suction fitting comprising a recessed sump, rated cover or grate, secure fasteners and pipe connection arranged as part of the entrapment-control design.
+- **swimming-pool cover assembly** (`AU-AN-POOL-COVER-ASSEMBLY`) — A flexible blanket, safety-rated cover or rigid cover system spanning the pool water surface and including its edge treatment, attachment or roller equipment where fitted.
+- **swimming-pool safety barrier system** (`AU-AN-POOL-SAFETY-BARRIER-SYSTEM`) — The continuous physical barrier around the pool hazard, including fence or wall segments, gates, permitted opening treatments, posts, panels, fixings and ground or structure interfaces.
+- **tactile ground surface indicator** (`AU-AN-TACTILE-GROUND-SURFACE-INDICATOR`) — A surface treatment with raised tactile features used to warn or direct pedestrians at specific locations.
+- **timber deck waling plate** (`AU-AN-TIMBER-WALING-PLATE`) — A horizontal structural timber member fixed to the external wall and used to support and connect the inner ends of deck or balcony joists.
+- **trench grate drain** (`AU-AN-TRENCH-GRATE-DRAIN`) — A linear surface drainage channel with removable grate, channel body, outlets and end caps.
+- **ventilated wood-heater wall-shield assembly** (`AU-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY`) — A non-combustible sheet mounted on spacers in front of an adjacent wall with open lower and upper edges that allow air to circulate behind the shield.
+- **waling-flashing lap sealant** (`AU-AN-FLASHING-LAP-SEALANT`) — A compatible sealant bead installed between overlapping lengths of waling-junction flashing before the lap is fixed.
+- **waling-plate bottom flashing** (`AU-AN-WALING-BOTTOM-FLASHING`) — A flashing below the waling plate junction that collects water from the opened wall interface and drains it to the outside face of the wall or cladding.
+- **waling-plate junction flashing assembly** (`AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY`) — The top, bottom and side flashings, laps, fixings and seals installed around a waling plate where external wall cladding has been removed or opened.
+- **waling-plate side flashing** (`AU-AN-WALING-SIDE-FLASHING`) — A vertical flashing return at either end of a waling-plate wall opening that protects the cut cladding edge and directs water toward the lower flashing.
+- **waling-plate top flashing** (`AU-AN-WALING-TOP-FLASHING`) — A flashing over the upper edge of the waling plate junction that receives water from behind or on the cladding and turns it out over the external face.
+- **waling-plate wall-fastener group** (`AU-AN-WALING-PLATE-FASTENER-GROUP`) — A repeated, set-out group of screws, bolts or anchors that fixes the waling plate through or behind cladding into the nominated structural wall member or core-filled masonry.
+- **wood-heater body and firebox** (`AU-AN-WOOD-HEATER-BODY`) — The welded or cast outer body and enclosed combustion chamber of a freestanding wood heater, including its top, sides, back and flue outlet structure.
+- **wood-heater ceramic door glass** (`AU-AN-WOOD-HEATER-DOOR-GLASS`) — A high-temperature transparent ceramic panel retained and gasketed in a wood-heater door to allow a view of the fire while containing combustion.
+- **wood-heater combustion-air control** (`AU-AN-WOOD-HEATER-AIR-CONTROL`) — A lever, slider or rotary damper controlling the amount and route of combustion air entering a wood-heater firebox.
+- **wood-heater door latch** (`AU-AN-WOOD-HEATER-DOOR-LATCH`) — A handle-operated cam, hook or catch that pulls the wood-heater door against its perimeter gasket and holds it closed.
+- **wood-heater firebox door assembly** (`AU-AN-WOOD-HEATER-DOOR-ASSEMBLY`) — A hinged high-temperature door with metal frame, ceramic glass or solid panel, perimeter gasket, handle and latch closing the wood-heater firebox opening.
+- **wood-heater firebrick lining** (`AU-AN-WOOD-HEATER-FIREBRICK-LINING`) — Replaceable refractory bricks or panels lining parts of a metal wood-heater firebox to protect the body and retain combustion heat.
+- **wood-heater floor protector** (`AU-AN-WOOD-HEATER-FLOOR-PROTECTOR`) — A non-combustible hearth or tested insulating panel beneath and around a freestanding solid-fuel appliance, extending beyond it as required by the selected installation.
+- **wood-heater grate and ash-pan assembly** (`AU-AN-WOOD-HEATER-ASH-GRATE-ASSEMBLY`) — A perforated fuel-support grate and removable tray below it that allow ash to fall and be collected in heater models designed with this arrangement.
+- **wood-heater internal baffle** (`AU-AN-WOOD-HEATER-BAFFLE`) — A refractory or steel plate near the top of a wood-heater firebox that lengthens the combustion-gas path before gases enter the flue outlet.
+- **wood-heater pedestal or leg set** (`AU-AN-WOOD-HEATER-PEDESTAL-OR-LEGS`) — The manufactured pedestal, plinth or repeated legs supporting a freestanding wood-heater body above its floor protector.
+- **wood-heater wall-shield sheet** (`AU-AN-WOOD-HEATER-WALL-SHIELD-SHEET`) — The non-combustible planar face of a ventilated wall shield positioned between a wood heater and adjacent wall construction.
+- **wood-heater wall-shield spacer** (`AU-AN-WOOD-HEATER-SHIELD-SPACER`) — A non-combustible standoff fixing that holds the heater wall-shield sheet away from the wall by the designed air-gap depth.
+
+## Cross-discipline links
+
+- `AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY` commonly used with `AU-SA-ALPINE-EXTERNAL-ACCESS-ASSEMBLY`
+- `AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY` commonly used with `AU-DB-ATTACHED-FRAMED-DECK`
+- `AU-AN-FIREPLACE-THROAT` commonly used with `AU-TC-CHIMNEY-FLUE-DAMPER`
+- `AU-AN-JOIST-TO-WALING-CONNECTOR` commonly used with `AU-DB-DECK-JOIST-FIELD`
+- `AU-AN-JOIST-TO-WALING-CONNECTOR` commonly used with `AU-DB-DECK-JOIST-HANGER`

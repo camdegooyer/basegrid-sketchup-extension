@@ -1,0 +1,3836 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "decorative_finishes",
+  "relationships": [
+    {
+      "id": "REL-1901-DF-AGGREGATE-FILLED-HIGH-BUILD-TEXTURE-PART-OF-AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "from_id": "AU-DF-AGGREGATE-FILLED-HIGH-BUILD-TEXTURE",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS4548-4-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1902-DF-ALKALI-RESISTANT-MASONRY-PRIMER-PART-OF-AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "from_id": "AU-DF-ALKALI-RESISTANT-MASONRY-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1903-DF-ALKALI-RESISTANT-MASONRY-PRIMER-PART-OF-AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "from_id": "AU-DF-ALKALI-RESISTANT-MASONRY-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1904-DF-ANAGLYPTA-EMBOSSED-WALLPAPER-PART-OF-AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-ANAGLYPTA-EMBOSSED-WALLPAPER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1908-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-CLEAR-MASONRY-SEALER",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-CLEAR-MASONRY-SEALER",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1909-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1910-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1911-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS4548-4-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1912-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1913-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1914-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-EXTERIOR-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-EXTERIOR-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-A5-PAINTING-BOUNDARY",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1915-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-FIBRE-CEMENT-PRIMER",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-FIBRE-CEMENT-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1916-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-GALVANISED-METAL-ADHESION-PRIMER",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-GALVANISED-METAL-ADHESION-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1917-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-HIGH-ADHESION-PRIMER",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-HIGH-ADHESION-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1918-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1919-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1920-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1921-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1922-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-SA-ASNZS4361-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1923-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-LOCAL-SPOT-PRIMER",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-LOCAL-SPOT-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1924-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-METAL-ADHESION-PRIMER",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-METAL-ADHESION-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1925-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-OPAQUE-PAINT-DRY-FILM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-OPAQUE-PAINT-DRY-FILM",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1926-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-PAINT-FINISH-COAT",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PAINT-FINISH-COAT",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1927-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-PAINT-INTERMEDIATE-COAT",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PAINT-INTERMEDIATE-COAT",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1928-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-PAINT-SURFACE-REPAIR-FILLER",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PAINT-SURFACE-REPAIR-FILLER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1929-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-PAINT-UNDERCOAT",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PAINT-UNDERCOAT",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1930-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1931-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-RETAINED-EXISTING-PAINT-FILM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-RETAINED-EXISTING-PAINT-FILM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1932-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1933-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-HAS-PART-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1934-DF-CELLULOSE-WALLPAPER-ADHESIVE-PART-OF-AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-CELLULOSE-WALLPAPER-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1935-DF-CELLULOSE-WALLPAPER-ADHESIVE-PART-OF-AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-CELLULOSE-WALLPAPER-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1936-DF-CHALKBOARD-PAINT-PART-OF-AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "from_id": "AU-DF-CHALKBOARD-PAINT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1937-DF-CHALKBOARD-PAINT-PART-OF-AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-CHALKBOARD-PAINT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1938-DF-CLEAR-MASONRY-SEALER-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-CLEAR-MASONRY-SEALER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1939-DF-CLEAR-TIMBER-FINISH-SYSTEM-ALTERNATIVE-TO-AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1940-DF-CLEAR-TIMBER-FINISH-SYSTEM-ALTERNATIVE-TO-AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1941-DF-CLEAR-TIMBER-FINISH-SYSTEM-ALTERNATIVE-TO-AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1942-DF-CLEAR-TIMBER-FINISH-SYSTEM-HAS-PART-AU-DF-LACQUER-CLEAR-COATING",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-LACQUER-CLEAR-COATING",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1943-DF-CLEAR-TIMBER-FINISH-SYSTEM-HAS-PART-AU-DF-POLYURETHANE-CLEAR-COATING",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-POLYURETHANE-CLEAR-COATING",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1944-DF-CLEAR-TIMBER-FINISH-SYSTEM-HAS-PART-AU-DF-SHELLAC-SEALER-COAT",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-SHELLAC-SEALER-COAT",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1945-DF-CLEAR-TIMBER-FINISH-SYSTEM-HAS-PART-AU-DF-SOLVENT-BORNE-VARNISH",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-SOLVENT-BORNE-VARNISH",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1946-DF-CLEAR-TIMBER-FINISH-SYSTEM-HAS-PART-AU-DF-TIMBER-GRAIN-FILLER",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TIMBER-GRAIN-FILLER",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1947-DF-CLEAR-TIMBER-FINISH-SYSTEM-HAS-PART-AU-DF-TIMBER-SANDING-SEALER",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TIMBER-SANDING-SEALER",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1948-DF-CLEAR-TIMBER-FINISH-SYSTEM-HAS-PART-AU-DF-TIMBER-STOPPING-PUTTY",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TIMBER-STOPPING-PUTTY",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1949-DF-CLEAR-TIMBER-FINISH-SYSTEM-HAS-PART-AU-DF-WATER-BORNE-CLEAR-TIMBER-COATING",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WATER-BORNE-CLEAR-TIMBER-COATING",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1950-DF-CLEAR-TIMBER-FINISH-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1951-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM-ALTERNATIVE-TO-AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "from_id": "AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1952-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM-HAS-PART-AU-DF-ALKALI-RESISTANT-MASONRY-PRIMER",
+      "from_id": "AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-ALKALI-RESISTANT-MASONRY-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1953-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM-HAS-PART-AU-DF-MASONRY-PORE-FILLER",
+      "from_id": "AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-MASONRY-PORE-FILLER",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1954-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM-HAS-PART-AU-DF-SMOOTH-MASONRY-FINISH-COAT",
+      "from_id": "AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-SMOOTH-MASONRY-FINISH-COAT",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1955-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1956-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM-ALTERNATIVE-TO-AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "from_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1958-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM-HAS-PART-AU-DF-AGGREGATE-FILLED-HIGH-BUILD-TEXTURE",
+      "from_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-AGGREGATE-FILLED-HIGH-BUILD-TEXTURE",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS4548-4-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1959-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM-HAS-PART-AU-DF-ALKALI-RESISTANT-MASONRY-PRIMER",
+      "from_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-ALKALI-RESISTANT-MASONRY-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1960-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM-HAS-PART-AU-DF-LOW-PROFILE-TEXTURE-COATING",
+      "from_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-LOW-PROFILE-TEXTURE-COATING",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS4548-4-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1961-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM-HAS-PART-AU-DF-TEXTURE-COATING-PROTECTIVE-TOPCOAT",
+      "from_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TEXTURE-COATING-PROTECTIVE-TOPCOAT",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS4548-4-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1962-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS4548-4-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1963-DF-DECORATIVE-BASE-COAT-PART-OF-AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "from_id": "AU-DF-DECORATIVE-BASE-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1964-DF-DECORATIVE-EFFECT-PAINT-SYSTEM-HAS-PART-AU-DF-CHALKBOARD-PAINT",
+      "from_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-CHALKBOARD-PAINT",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1965-DF-DECORATIVE-EFFECT-PAINT-SYSTEM-HAS-PART-AU-DF-DECORATIVE-BASE-COAT",
+      "from_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-DECORATIVE-BASE-COAT",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1966-DF-DECORATIVE-EFFECT-PAINT-SYSTEM-HAS-PART-AU-DF-DECORATIVE-GLAZE-COAT",
+      "from_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-DECORATIVE-GLAZE-COAT",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1967-DF-DECORATIVE-EFFECT-PAINT-SYSTEM-HAS-PART-AU-DF-MAGNETIC-RECEPTIVE-PAINT",
+      "from_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-MAGNETIC-RECEPTIVE-PAINT",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1968-DF-DECORATIVE-EFFECT-PAINT-SYSTEM-HAS-PART-AU-DF-METALLIC-EFFECT-COAT",
+      "from_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-METALLIC-EFFECT-COAT",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1969-DF-DECORATIVE-EFFECT-PAINT-SYSTEM-HAS-PART-AU-DF-PEARLESCENT-EFFECT-COAT",
+      "from_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PEARLESCENT-EFFECT-COAT",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1970-DF-DECORATIVE-EFFECT-PAINT-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1971-DF-DECORATIVE-GLAZE-COAT-PART-OF-AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "from_id": "AU-DF-DECORATIVE-GLAZE-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1972-DF-EXTERIOR-ACRYLIC-FINISH-COAT-PART-OF-AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "from_id": "AU-DF-EXTERIOR-ACRYLIC-FINISH-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1973-DF-EXTERIOR-ACRYLIC-FINISH-COAT-PART-OF-AU-DF-EXTERIOR-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-EXTERIOR-ACRYLIC-FINISH-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-EXTERIOR-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1974-DF-EXTERIOR-SEMITRANSPARENT-TIMBER-STAIN-PART-OF-AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "from_id": "AU-DF-EXTERIOR-SEMITRANSPARENT-TIMBER-STAIN",
+      "relationship": "part_of",
+      "to_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1975-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM-ALTERNATIVE-TO-AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "from_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1976-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM-ALTERNATIVE-TO-AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "from_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1977-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM-HAS-PART-AU-DF-EXTERIOR-ACRYLIC-FINISH-COAT",
+      "from_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-EXTERIOR-ACRYLIC-FINISH-COAT",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1978-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM-HAS-PART-AU-DF-KNOT-SEALER",
+      "from_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-KNOT-SEALER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1979-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM-HAS-PART-AU-DF-TANNIN-BLOCKING-PRIMER",
+      "from_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TANNIN-BLOCKING-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1980-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM-HAS-PART-AU-DF-TIMBER-PRIMER",
+      "from_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TIMBER-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1981-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM-HAS-PART-AU-DF-TIMBER-STOPPING-PUTTY",
+      "from_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TIMBER-STOPPING-PUTTY",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1983-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1984-DF-EXTERIOR-WALL-PAINT-SYSTEM-HAS-PART-AU-DF-EXTERIOR-ACRYLIC-FINISH-COAT",
+      "from_id": "AU-DF-EXTERIOR-WALL-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-EXTERIOR-ACRYLIC-FINISH-COAT",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1986-DF-EXTERIOR-WALL-PAINT-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-EXTERIOR-WALL-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-A5-PAINTING-BOUNDARY",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1987-DF-FACTORY-READY-PASTE-COATING-PART-OF-AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "from_id": "AU-DF-FACTORY-READY-PASTE-COATING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1988-DF-FIBRE-CEMENT-PRIMER-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-FIBRE-CEMENT-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1989-DF-FLAT-CEILING-PAINT-PART-OF-AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "from_id": "AU-DF-FLAT-CEILING-PAINT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1990-DF-FLOCK-WALLCOVERING-PART-OF-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-FLOCK-WALLCOVERING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1991-DF-GALVANISED-METAL-ADHESION-PRIMER-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-GALVANISED-METAL-ADHESION-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1992-DF-GRASSCLOTH-WALLCOVERING-PART-OF-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-GRASSCLOTH-WALLCOVERING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1993-DF-HARDWAX-OIL-FINISH-PART-OF-AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "from_id": "AU-DF-HARDWAX-OIL-FINISH",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1994-DF-HIGH-ADHESION-PRIMER-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-HIGH-ADHESION-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1995-DF-INTERNAL-CEILING-PAINT-SYSTEM-HAS-PART-AU-DF-FLAT-CEILING-PAINT",
+      "from_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-FLAT-CEILING-PAINT",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1996-DF-INTERNAL-CEILING-PAINT-SYSTEM-HAS-PART-AU-DF-PLASTERBOARD-SEALER",
+      "from_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PLASTERBOARD-SEALER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1997-DF-INTERNAL-CEILING-PAINT-SYSTEM-HAS-PART-AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "from_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1998-DF-INTERNAL-CEILING-PAINT-SYSTEM-HAS-PART-AU-DF-STAIN-BLOCKING-PRIMER",
+      "from_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-STAIN-BLOCKING-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1999-DF-INTERNAL-CEILING-PAINT-SYSTEM-HAS-PART-AU-DF-WET-AREA-DECORATIVE-PAINT",
+      "from_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WET-AREA-DECORATIVE-PAINT",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2000-DF-INTERNAL-CEILING-PAINT-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2002-DF-INTERNAL-DOOR-PAINT-SYSTEM-HAS-PART-AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "from_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2003-DF-INTERNAL-DOOR-PAINT-SYSTEM-HAS-PART-AU-DF-SOLVENT-BORNE-ALKYD-ENAMEL",
+      "from_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-SOLVENT-BORNE-ALKYD-ENAMEL",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2004-DF-INTERNAL-DOOR-PAINT-SYSTEM-HAS-PART-AU-DF-TANNIN-BLOCKING-PRIMER",
+      "from_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TANNIN-BLOCKING-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2005-DF-INTERNAL-DOOR-PAINT-SYSTEM-HAS-PART-AU-DF-TIMBER-PRIMER",
+      "from_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TIMBER-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2006-DF-INTERNAL-DOOR-PAINT-SYSTEM-HAS-PART-AU-DF-WATER-BORNE-ENAMEL-PAINT",
+      "from_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WATER-BORNE-ENAMEL-PAINT",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2007-DF-INTERNAL-DOOR-PAINT-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2009-DF-INTERNAL-TRIM-PAINT-SYSTEM-ALTERNATIVE-TO-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2010-DF-INTERNAL-TRIM-PAINT-SYSTEM-HAS-PART-AU-DF-KNOT-SEALER",
+      "from_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-KNOT-SEALER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2011-DF-INTERNAL-TRIM-PAINT-SYSTEM-HAS-PART-AU-DF-PAINTABLE-PERIMETER-CAULK",
+      "from_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PAINTABLE-PERIMETER-CAULK",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2012-DF-INTERNAL-TRIM-PAINT-SYSTEM-HAS-PART-AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "from_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2013-DF-INTERNAL-TRIM-PAINT-SYSTEM-HAS-PART-AU-DF-SOLVENT-BORNE-ALKYD-ENAMEL",
+      "from_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-SOLVENT-BORNE-ALKYD-ENAMEL",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2014-DF-INTERNAL-TRIM-PAINT-SYSTEM-HAS-PART-AU-DF-STAIN-BLOCKING-PRIMER",
+      "from_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-STAIN-BLOCKING-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2015-DF-INTERNAL-TRIM-PAINT-SYSTEM-HAS-PART-AU-DF-TANNIN-BLOCKING-PRIMER",
+      "from_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TANNIN-BLOCKING-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2016-DF-INTERNAL-TRIM-PAINT-SYSTEM-HAS-PART-AU-DF-TIMBER-PRIMER",
+      "from_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TIMBER-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2017-DF-INTERNAL-TRIM-PAINT-SYSTEM-HAS-PART-AU-DF-TIMBER-STOPPING-PUTTY",
+      "from_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TIMBER-STOPPING-PUTTY",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2018-DF-INTERNAL-TRIM-PAINT-SYSTEM-HAS-PART-AU-DF-WATER-BORNE-ENAMEL-PAINT",
+      "from_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WATER-BORNE-ENAMEL-PAINT",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2019-DF-INTERNAL-TRIM-PAINT-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2020-DF-INTERNAL-WALL-PAINT-SYSTEM-ALTERNATIVE-TO-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2021-DF-INTERNAL-WALL-PAINT-SYSTEM-HAS-PART-AU-DF-CHALKBOARD-PAINT",
+      "from_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-CHALKBOARD-PAINT",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2022-DF-INTERNAL-WALL-PAINT-SYSTEM-HAS-PART-AU-DF-MAGNETIC-RECEPTIVE-PAINT",
+      "from_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-MAGNETIC-RECEPTIVE-PAINT",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2023-DF-INTERNAL-WALL-PAINT-SYSTEM-HAS-PART-AU-DF-PAINTABLE-PERIMETER-CAULK",
+      "from_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PAINTABLE-PERIMETER-CAULK",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2024-DF-INTERNAL-WALL-PAINT-SYSTEM-HAS-PART-AU-DF-PLASTERBOARD-SEALER",
+      "from_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PLASTERBOARD-SEALER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2025-DF-INTERNAL-WALL-PAINT-SYSTEM-HAS-PART-AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "from_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2026-DF-INTERNAL-WALL-PAINT-SYSTEM-HAS-PART-AU-DF-STAIN-BLOCKING-PRIMER",
+      "from_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-STAIN-BLOCKING-PRIMER",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2027-DF-INTERNAL-WALL-PAINT-SYSTEM-HAS-PART-AU-DF-WATER-BORNE-ACRYLIC-WALL-PAINT",
+      "from_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WATER-BORNE-ACRYLIC-WALL-PAINT",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2028-DF-INTERNAL-WALL-PAINT-SYSTEM-HAS-PART-AU-DF-WET-AREA-DECORATIVE-PAINT",
+      "from_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WET-AREA-DECORATIVE-PAINT",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2029-DF-INTERNAL-WALL-PAINT-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2031-DF-KNOT-SEALER-PART-OF-AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "from_id": "AU-DF-KNOT-SEALER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2032-DF-KNOT-SEALER-PART-OF-AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "from_id": "AU-DF-KNOT-SEALER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2033-DF-LACQUER-CLEAR-COATING-PART-OF-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-LACQUER-CLEAR-COATING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2034-DF-LATEX-WALLCOVERING-ADHESIVE-PART-OF-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-LATEX-WALLCOVERING-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2035-DF-LEAD-PAINT-ENCAPSULATING-COATING-PART-OF-AU-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM",
+      "from_id": "AU-DF-LEAD-PAINT-ENCAPSULATING-COATING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-SA-ASNZS4361-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2036-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM-HAS-PART-AU-DF-LEAD-PAINT-ENCAPSULATING-COATING",
+      "from_id": "AU-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-LEAD-PAINT-ENCAPSULATING-COATING",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-SA-ASNZS4361-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2037-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM-HAS-PART-AU-DF-LEAD-PAINT-RETAINED-FIELD",
+      "from_id": "AU-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-LEAD-PAINT-RETAINED-FIELD",
+      "source_ids": [
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-SA-ASNZS4361-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2038-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-SA-ASNZS4361-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2039-DF-LEAD-PAINT-RETAINED-FIELD-PART-OF-AU-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM",
+      "from_id": "AU-DF-LEAD-PAINT-RETAINED-FIELD",
+      "relationship": "part_of",
+      "to_id": "AU-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-SA-ASNZS4361-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2040-DF-LINEN-BACKED-VINYL-WALLCOVERING-PART-OF-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-LINEN-BACKED-VINYL-WALLCOVERING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2041-DF-LOCAL-SPOT-PRIMER-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-LOCAL-SPOT-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2042-DF-LOW-PROFILE-TEXTURE-COATING-PART-OF-AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "from_id": "AU-DF-LOW-PROFILE-TEXTURE-COATING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS4548-4-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2043-DF-MAGNETIC-RECEPTIVE-PAINT-PART-OF-AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "from_id": "AU-DF-MAGNETIC-RECEPTIVE-PAINT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2044-DF-MAGNETIC-RECEPTIVE-PAINT-PART-OF-AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-MAGNETIC-RECEPTIVE-PAINT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2045-DF-MASONRY-PORE-FILLER-PART-OF-AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "from_id": "AU-DF-MASONRY-PORE-FILLER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2046-DF-METAL-ADHESION-PRIMER-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-METAL-ADHESION-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2047-DF-METALLIC-EFFECT-COAT-PART-OF-AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "from_id": "AU-DF-METALLIC-EFFECT-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2048-DF-METALLIC-FOIL-WALLCOVERING-PART-OF-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-METALLIC-FOIL-WALLCOVERING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2049-DF-NONWOVEN-WALLPAPER-PART-OF-AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-NONWOVEN-WALLPAPER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2050-DF-OPAQUE-PAINT-DRY-FILM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-OPAQUE-PAINT-DRY-FILM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2051-DF-PAINT-FINISH-COAT-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-PAINT-FINISH-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2052-DF-PAINT-INTERMEDIATE-COAT-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-PAINT-INTERMEDIATE-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2053-DF-PAINT-SURFACE-REPAIR-FILLER-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-PAINT-SURFACE-REPAIR-FILLER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2054-DF-PAINT-UNDERCOAT-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-PAINT-UNDERCOAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2055-DF-PAINTABLE-PERIMETER-CAULK-PART-OF-AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "from_id": "AU-DF-PAINTABLE-PERIMETER-CAULK",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2056-DF-PAINTABLE-PERIMETER-CAULK-PART-OF-AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-PAINTABLE-PERIMETER-CAULK",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2057-DF-PAPER-WALLPAPER-PART-OF-AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-PAPER-WALLPAPER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2058-DF-PAPER-WALLPAPER-PART-OF-AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "from_id": "AU-DF-PAPER-WALLPAPER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2059-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY-ALTERNATIVE-TO-AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2060-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-ANAGLYPTA-EMBOSSED-WALLPAPER",
+      "from_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-ANAGLYPTA-EMBOSSED-WALLPAPER",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2061-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-CELLULOSE-WALLPAPER-ADHESIVE",
+      "from_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-CELLULOSE-WALLPAPER-ADHESIVE",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2062-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-PAPER-WALLPAPER",
+      "from_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PAPER-WALLPAPER",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2063-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-PVA-WALLCOVERING-ADHESIVE",
+      "from_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PVA-WALLCOVERING-ADHESIVE",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2064-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-STARCH-WALLPAPER-ADHESIVE",
+      "from_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-STARCH-WALLPAPER-ADHESIVE",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2065-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-VINYL-COATED-PAPER-WALLPAPER",
+      "from_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-VINYL-COATED-PAPER-WALLPAPER",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2066-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-WALLPAPER-LINING-PAPER",
+      "from_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLPAPER-LINING-PAPER",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2067-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-WALLPAPER-SIZE-COAT",
+      "from_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLPAPER-SIZE-COAT",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2068-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2069-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY-ALTERNATIVE-TO-AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2070-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-CELLULOSE-WALLPAPER-ADHESIVE",
+      "from_id": "AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-CELLULOSE-WALLPAPER-ADHESIVE",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2071-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-NONWOVEN-WALLPAPER",
+      "from_id": "AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-NONWOVEN-WALLPAPER",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2072-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2073-DF-PEARLESCENT-EFFECT-COAT-PART-OF-AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "from_id": "AU-DF-PEARLESCENT-EFFECT-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2074-DF-PENETRATING-TIMBER-OIL-ALTERNATIVE-TO-AU-DF-POLYURETHANE-CLEAR-COATING",
+      "from_id": "AU-DF-PENETRATING-TIMBER-OIL",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-POLYURETHANE-CLEAR-COATING",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2075-DF-PENETRATING-TIMBER-OIL-PART-OF-AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "from_id": "AU-DF-PENETRATING-TIMBER-OIL",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2076-DF-PENETRATING-TIMBER-OIL-SYSTEM-ALTERNATIVE-TO-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2077-DF-PENETRATING-TIMBER-OIL-SYSTEM-ALTERNATIVE-TO-AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "from_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2080-DF-PENETRATING-TIMBER-OIL-SYSTEM-HAS-PART-AU-DF-HARDWAX-OIL-FINISH",
+      "from_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-HARDWAX-OIL-FINISH",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2081-DF-PENETRATING-TIMBER-OIL-SYSTEM-HAS-PART-AU-DF-PENETRATING-TIMBER-OIL",
+      "from_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PENETRATING-TIMBER-OIL",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2082-DF-PENETRATING-TIMBER-OIL-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2083-DF-PLASTERBOARD-SEALER-PART-OF-AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "from_id": "AU-DF-PLASTERBOARD-SEALER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2084-DF-PLASTERBOARD-SEALER-PART-OF-AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-PLASTERBOARD-SEALER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2085-DF-POLYURETHANE-CLEAR-COATING-ALTERNATIVE-TO-AU-DF-PENETRATING-TIMBER-OIL",
+      "from_id": "AU-DF-POLYURETHANE-CLEAR-COATING",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-PENETRATING-TIMBER-OIL",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2086-DF-POLYURETHANE-CLEAR-COATING-PART-OF-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-POLYURETHANE-CLEAR-COATING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2087-DF-PRESSURE-SENSITIVE-WALLCOVERING-BACKING-PART-OF-AU-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-PRESSURE-SENSITIVE-WALLCOVERING-BACKING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2088-DF-PRIMER-SEALER-UNDERCOAT-PART-OF-AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "from_id": "AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2089-DF-PRIMER-SEALER-UNDERCOAT-PART-OF-AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "from_id": "AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2090-DF-PRIMER-SEALER-UNDERCOAT-PART-OF-AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "from_id": "AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2091-DF-PRIMER-SEALER-UNDERCOAT-PART-OF-AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-PRIMER-SEALER-UNDERCOAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2092-DF-PVA-WALLCOVERING-ADHESIVE-PART-OF-AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-PVA-WALLCOVERING-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2093-DF-PVA-WALLCOVERING-ADHESIVE-PART-OF-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-PVA-WALLCOVERING-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2094-DF-READY-PASTED-WALLPAPER-ASSEMBLY-ALTERNATIVE-TO-AU-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2095-DF-READY-PASTED-WALLPAPER-ASSEMBLY-HAS-PART-AU-DF-FACTORY-READY-PASTE-COATING",
+      "from_id": "AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-FACTORY-READY-PASTE-COATING",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2096-DF-READY-PASTED-WALLPAPER-ASSEMBLY-HAS-PART-AU-DF-PAPER-WALLPAPER",
+      "from_id": "AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PAPER-WALLPAPER",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2097-DF-READY-PASTED-WALLPAPER-ASSEMBLY-HAS-PART-AU-DF-VINYL-COATED-PAPER-WALLPAPER",
+      "from_id": "AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-VINYL-COATED-PAPER-WALLPAPER",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2098-DF-READY-PASTED-WALLPAPER-ASSEMBLY-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2099-DF-RELIEF-WALLCOVERING-PART-OF-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-RELIEF-WALLCOVERING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2100-DF-RETAINED-EXISTING-PAINT-FILM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-RETAINED-EXISTING-PAINT-FILM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2101-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY-ALTERNATIVE-TO-AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "from_id": "AU-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2102-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-PRESSURE-SENSITIVE-WALLCOVERING-BACKING",
+      "from_id": "AU-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PRESSURE-SENSITIVE-WALLCOVERING-BACKING",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2103-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2104-DF-SHELLAC-SEALER-COAT-PART-OF-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-SHELLAC-SEALER-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2105-DF-SMOOTH-MASONRY-FINISH-COAT-PART-OF-AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "from_id": "AU-DF-SMOOTH-MASONRY-FINISH-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2106-DF-SOLID-VINYL-WALLCOVERING-PART-OF-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-SOLID-VINYL-WALLCOVERING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2107-DF-SOLVENT-BORNE-ALKYD-ENAMEL-ALTERNATIVE-TO-AU-DF-WATER-BORNE-ENAMEL-PAINT",
+      "from_id": "AU-DF-SOLVENT-BORNE-ALKYD-ENAMEL",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-WATER-BORNE-ENAMEL-PAINT",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2108-DF-SOLVENT-BORNE-ALKYD-ENAMEL-PART-OF-AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "from_id": "AU-DF-SOLVENT-BORNE-ALKYD-ENAMEL",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2109-DF-SOLVENT-BORNE-ALKYD-ENAMEL-PART-OF-AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "from_id": "AU-DF-SOLVENT-BORNE-ALKYD-ENAMEL",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2110-DF-SOLVENT-BORNE-TIMBER-STAIN-PART-OF-AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "from_id": "AU-DF-SOLVENT-BORNE-TIMBER-STAIN",
+      "relationship": "part_of",
+      "to_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2111-DF-SOLVENT-BORNE-VARNISH-PART-OF-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-SOLVENT-BORNE-VARNISH",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2112-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-FLOCK-WALLCOVERING",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-FLOCK-WALLCOVERING",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2113-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-GRASSCLOTH-WALLCOVERING",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-GRASSCLOTH-WALLCOVERING",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2114-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-LATEX-WALLCOVERING-ADHESIVE",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-LATEX-WALLCOVERING-ADHESIVE",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2115-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-LINEN-BACKED-VINYL-WALLCOVERING",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-LINEN-BACKED-VINYL-WALLCOVERING",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2116-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-METALLIC-FOIL-WALLCOVERING",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-METALLIC-FOIL-WALLCOVERING",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2117-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-PVA-WALLCOVERING-ADHESIVE",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PVA-WALLCOVERING-ADHESIVE",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2118-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-RELIEF-WALLCOVERING",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-RELIEF-WALLCOVERING",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2119-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-SOLID-VINYL-WALLCOVERING",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-SOLID-VINYL-WALLCOVERING",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2120-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-WALLCOVERING-DOUBLE-CUT-SEAM",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLCOVERING-DOUBLE-CUT-SEAM",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2121-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-WALLCOVERING-SEAM-EDGE-COLOUR",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLCOVERING-SEAM-EDGE-COLOUR",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2122-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-HAS-PART-AU-DF-WOVEN-TEXTILE-WALLCOVERING",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WOVEN-TEXTILE-WALLCOVERING",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2123-DF-SPECIALTY-WALLCOVERING-ASSEMBLY-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2124-DF-STAIN-BLOCKING-PRIMER-PART-OF-AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "from_id": "AU-DF-STAIN-BLOCKING-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2125-DF-STAIN-BLOCKING-PRIMER-PART-OF-AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "from_id": "AU-DF-STAIN-BLOCKING-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2126-DF-STAIN-BLOCKING-PRIMER-PART-OF-AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-STAIN-BLOCKING-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2127-DF-STARCH-WALLPAPER-ADHESIVE-PART-OF-AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-STARCH-WALLPAPER-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2128-DF-TANNIN-BLOCKING-PRIMER-PART-OF-AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "from_id": "AU-DF-TANNIN-BLOCKING-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2129-DF-TANNIN-BLOCKING-PRIMER-PART-OF-AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "from_id": "AU-DF-TANNIN-BLOCKING-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2130-DF-TANNIN-BLOCKING-PRIMER-PART-OF-AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "from_id": "AU-DF-TANNIN-BLOCKING-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2131-DF-TEXTURE-COATING-PROTECTIVE-TOPCOAT-PART-OF-AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "from_id": "AU-DF-TEXTURE-COATING-PROTECTIVE-TOPCOAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-APAS-PAINT-CERTIFICATION",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS4548-4-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2132-DF-TIMBER-GRAIN-FILLER-PART-OF-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-TIMBER-GRAIN-FILLER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2133-DF-TIMBER-GRAIN-FILLER-PART-OF-AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "from_id": "AU-DF-TIMBER-GRAIN-FILLER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2134-DF-TIMBER-PRIMER-PART-OF-AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "from_id": "AU-DF-TIMBER-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2135-DF-TIMBER-PRIMER-PART-OF-AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "from_id": "AU-DF-TIMBER-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2136-DF-TIMBER-PRIMER-PART-OF-AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "from_id": "AU-DF-TIMBER-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2137-DF-TIMBER-SANDING-SEALER-PART-OF-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-TIMBER-SANDING-SEALER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2138-DF-TIMBER-STAIN-CLEAR-TOPCOAT-PART-OF-AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "from_id": "AU-DF-TIMBER-STAIN-CLEAR-TOPCOAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2139-DF-TIMBER-STAIN-FINISH-SYSTEM-ALTERNATIVE-TO-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2140-DF-TIMBER-STAIN-FINISH-SYSTEM-ALTERNATIVE-TO-AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "from_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2141-DF-TIMBER-STAIN-FINISH-SYSTEM-HAS-PART-AU-DF-EXTERIOR-SEMITRANSPARENT-TIMBER-STAIN",
+      "from_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-EXTERIOR-SEMITRANSPARENT-TIMBER-STAIN",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2142-DF-TIMBER-STAIN-FINISH-SYSTEM-HAS-PART-AU-DF-SOLVENT-BORNE-TIMBER-STAIN",
+      "from_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-SOLVENT-BORNE-TIMBER-STAIN",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2143-DF-TIMBER-STAIN-FINISH-SYSTEM-HAS-PART-AU-DF-TIMBER-GRAIN-FILLER",
+      "from_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TIMBER-GRAIN-FILLER",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2144-DF-TIMBER-STAIN-FINISH-SYSTEM-HAS-PART-AU-DF-TIMBER-STAIN-CLEAR-TOPCOAT",
+      "from_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-TIMBER-STAIN-CLEAR-TOPCOAT",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2145-DF-TIMBER-STAIN-FINISH-SYSTEM-HAS-PART-AU-DF-WATER-BORNE-TIMBER-STAIN",
+      "from_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WATER-BORNE-TIMBER-STAIN",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2146-DF-TIMBER-STAIN-FINISH-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2147-DF-TIMBER-STOPPING-PUTTY-PART-OF-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-TIMBER-STOPPING-PUTTY",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2148-DF-TIMBER-STOPPING-PUTTY-PART-OF-AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "from_id": "AU-DF-TIMBER-STOPPING-PUTTY",
+      "relationship": "part_of",
+      "to_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2149-DF-TIMBER-STOPPING-PUTTY-PART-OF-AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "from_id": "AU-DF-TIMBER-STOPPING-PUTTY",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2150-DF-VINYL-COATED-PAPER-WALLPAPER-PART-OF-AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-VINYL-COATED-PAPER-WALLPAPER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2151-DF-VINYL-COATED-PAPER-WALLPAPER-PART-OF-AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "from_id": "AU-DF-VINYL-COATED-PAPER-WALLPAPER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2152-DF-WALL-MURAL-ASSEMBLY-HAS-PART-AU-DF-WALL-MURAL-PANEL",
+      "from_id": "AU-DF-WALL-MURAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALL-MURAL-PANEL",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2153-DF-WALL-MURAL-ASSEMBLY-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALL-MURAL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2154-DF-WALL-MURAL-PANEL-PART-OF-AU-DF-WALL-MURAL-ASSEMBLY",
+      "from_id": "AU-DF-WALL-MURAL-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALL-MURAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2155-DF-WALLCOVERING-ADHESIVE-FILM-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALLCOVERING-ADHESIVE-FILM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2156-DF-WALLCOVERING-BUTT-SEAM-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALLCOVERING-BUTT-SEAM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2157-DF-WALLCOVERING-DOUBLE-CUT-SEAM-PART-OF-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-WALLCOVERING-DOUBLE-CUT-SEAM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2158-DF-WALLCOVERING-EXTERNAL-CORNER-WRAP-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALLCOVERING-EXTERNAL-CORNER-WRAP",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2159-DF-WALLCOVERING-FINISH-SYSTEM-ALTERNATIVE-TO-AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2160-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2161-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2162-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2163-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2164-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2165-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-WALL-MURAL-ASSEMBLY",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALL-MURAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2166-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-WALLCOVERING-ADHESIVE-FILM",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLCOVERING-ADHESIVE-FILM",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2167-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-WALLCOVERING-BUTT-SEAM",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLCOVERING-BUTT-SEAM",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2168-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-WALLCOVERING-EXTERNAL-CORNER-WRAP",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLCOVERING-EXTERNAL-CORNER-WRAP",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2169-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-WALLCOVERING-INTERNAL-CORNER-RETURN",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLCOVERING-INTERNAL-CORNER-RETURN",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2170-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-WALLCOVERING-PRIMER-SEALER",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLCOVERING-PRIMER-SEALER",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2171-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-WALLCOVERING-TRIMMED-EDGE",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLCOVERING-TRIMMED-EDGE",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2172-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-WALLPAPER-BORDER",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLPAPER-BORDER",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2173-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-WALLPAPER-DROP",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLPAPER-DROP",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2174-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-WALLPAPER-LINING-PAPER",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLPAPER-LINING-PAPER",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2175-DF-WALLCOVERING-FINISH-SYSTEM-HAS-PART-AU-DF-WALLPAPER-SIZE-COAT",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLPAPER-SIZE-COAT",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2176-DF-WALLCOVERING-FINISH-SYSTEM-PART-OF-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2178-DF-WALLCOVERING-INTERNAL-CORNER-RETURN-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALLCOVERING-INTERNAL-CORNER-RETURN",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2179-DF-WALLCOVERING-PRIMER-SEALER-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALLCOVERING-PRIMER-SEALER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2180-DF-WALLCOVERING-SEAM-EDGE-COLOUR-PART-OF-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-WALLCOVERING-SEAM-EDGE-COLOUR",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2181-DF-WALLCOVERING-TRIMMED-EDGE-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALLCOVERING-TRIMMED-EDGE",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2182-DF-WALLPAPER-BORDER-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALLPAPER-BORDER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2183-DF-WALLPAPER-DROP-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALLPAPER-DROP",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2184-DF-WALLPAPER-LINING-PAPER-PART-OF-AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-WALLPAPER-LINING-PAPER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2185-DF-WALLPAPER-LINING-PAPER-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALLPAPER-LINING-PAPER",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2186-DF-WALLPAPER-SIZE-COAT-PART-OF-AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-WALLPAPER-SIZE-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2187-DF-WALLPAPER-SIZE-COAT-PART-OF-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-DF-WALLPAPER-SIZE-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2188-DF-WATER-BORNE-ACRYLIC-WALL-PAINT-PART-OF-AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-WATER-BORNE-ACRYLIC-WALL-PAINT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2189-DF-WATER-BORNE-CLEAR-TIMBER-COATING-PART-OF-AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-WATER-BORNE-CLEAR-TIMBER-COATING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-CLEAR-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2190-DF-WATER-BORNE-ENAMEL-PAINT-ALTERNATIVE-TO-AU-DF-SOLVENT-BORNE-ALKYD-ENAMEL",
+      "from_id": "AU-DF-WATER-BORNE-ENAMEL-PAINT",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-SOLVENT-BORNE-ALKYD-ENAMEL",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2191-DF-WATER-BORNE-ENAMEL-PAINT-PART-OF-AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "from_id": "AU-DF-WATER-BORNE-ENAMEL-PAINT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2192-DF-WATER-BORNE-ENAMEL-PAINT-PART-OF-AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "from_id": "AU-DF-WATER-BORNE-ENAMEL-PAINT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-TRIM-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2193-DF-WATER-BORNE-TIMBER-STAIN-PART-OF-AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "from_id": "AU-DF-WATER-BORNE-TIMBER-STAIN",
+      "relationship": "part_of",
+      "to_id": "AU-DF-TIMBER-STAIN-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2194-DF-WET-AREA-DECORATIVE-PAINT-PART-OF-AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "from_id": "AU-DF-WET-AREA-DECORATIVE-PAINT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2195-DF-WET-AREA-DECORATIVE-PAINT-PART-OF-AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "from_id": "AU-DF-WET-AREA-DECORATIVE-PAINT",
+      "relationship": "part_of",
+      "to_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2196-DF-WOVEN-TEXTILE-WALLCOVERING-PART-OF-AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "from_id": "AU-DF-WOVEN-TEXTILE-WALLCOVERING",
+      "relationship": "part_of",
+      "to_id": "AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MATERIALISED-WALLCOVERING-INSTALL",
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-1905-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-COMMONLY-USED-WITH-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-A5-PAINTING-BOUNDARY",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1906-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-COMMONLY-USED-WITH-AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-A5-PAINTING-BOUNDARY",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1907-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM-COMMONLY-USED-WITH-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-A5-PAINTING-BOUNDARY",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1957-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM-ALTERNATIVE-TO-AU-MA-RENDER-FINISH-COAT",
+      "from_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-MA-RENDER-FINISH-COAT",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1982-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1985-DF-EXTERIOR-WALL-PAINT-SYSTEM-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-DF-EXTERIOR-WALL-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-A5-PAINTING-BOUNDARY",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2001-DF-INTERNAL-CEILING-PAINT-SYSTEM-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2008-DF-INTERNAL-DOOR-PAINT-SYSTEM-PART-OF-AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2030-DF-INTERNAL-WALL-PAINT-SYSTEM-PART-OF-AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2078-DF-PENETRATING-TIMBER-OIL-SYSTEM-COMMONLY-USED-WITH-AU-DB-DECK-TIMBER-FINISH-SYSTEM",
+      "from_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-TIMBER-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK",
+        "SRC-WOODSOLUTIONS-TDG05-SERVICE-LIFE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2079-DF-PENETRATING-TIMBER-OIL-SYSTEM-COMMONLY-USED-WITH-AU-DB-SOLID-TIMBER-DECKING-BOARD",
+      "from_id": "AU-DF-PENETRATING-TIMBER-OIL-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-SOLID-TIMBER-DECKING-BOARD",
+      "source_ids": [
+        "SRC-SA-AS5604-2022",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK",
+        "SRC-WOODSOLUTIONS-TDG05-SERVICE-LIFE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-2177-DF-WALLCOVERING-FINISH-SYSTEM-PART-OF-AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

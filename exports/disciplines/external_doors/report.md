@@ -1,0 +1,342 @@
+# External Doors discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 237
+- Internal relationships: 510
+- Outgoing cross-discipline relationships: 18
+- Distinct supporting sources: 26
+- Distinct linked standards: 13
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 80.2%
+- Objects with two or more sources: 100.0%
+
+## Categories
+
+- door weathering: 1
+- door weathering components: 3
+- entrance combinations: 2
+- external door accessories: 1
+- external door control hardware: 2
+- external door frame components: 6
+- external door frames: 3
+- external door furniture: 2
+- external door hardware: 5
+- external door leaf components: 15
+- external door leaf types: 7
+- external door leaves: 1
+- external door protection: 1
+- external door security hardware: 9
+- external door thresholds: 3
+- external opening systems: 1
+- external shutters: 1
+- garage and large access doors: 1
+- garage door counterbalance: 11
+- garage door installation: 1
+- garage door operation: 2
+- garage door operator components: 6
+- garage door operator controls: 7
+- garage door operator installation: 2
+- garage door operator power: 1
+- garage door operator safety: 2
+- garage door operator types: 2
+- garage door operators: 1
+- garage door protective devices: 4
+- garage door safety components: 2
+- garage door types: 3
+- garage door weathering: 4
+- insect screens: 2
+- louvre shutters: 4
+- panel shutters: 2
+- pedestrian doorsets: 6
+- roller garage door components: 7
+- roller garage door hardware: 4
+- roller garage door wind components: 2
+- roller shutter components: 11
+- roller shutter controls: 3
+- roller shutter drives: 4
+- roller shutters: 2
+- screen components: 2
+- screen door hardware: 1
+- screen doors: 1
+- sectional door components: 3
+- sectional door hardware: 5
+- sectional door panels: 3
+- sectional door tracks: 7
+- security screen components: 6
+- security screen hardware: 7
+- security screen identification: 1
+- security screen infills: 4
+- security screen installation: 2
+- security screens: 6
+- shutter components: 5
+- shutter hardware: 6
+- sliding screen hardware: 4
+- tilt door components: 3
+- tilt door counterbalance: 1
+- tilt door mechanisms: 8
+- tilt door safety components: 1
+- tilt door types: 2
+
+## Objects
+
+- **aluminium external-door weather threshold** (`AU-ED-ALUMINIUM-WEATHER-THRESHOLD`) — An extruded aluminium doorway threshold shaped to provide a sealing contact, drainage or level transition beneath an external pedestrian leaf.
+- **aluminium-faced external door leaf** (`AU-ED-ALUMINIUM-FACED-EXTERNAL-DOOR-LEAF`) — An external pedestrian leaf formed from aluminium face sheets, extrusions or cladding attached to a framed or cored leaf construction.
+- **aluminium-framed sectional door panel** (`AU-ED-ALUMINIUM-FRAME-SECTIONAL-PANEL`) — A sectional-door section built from aluminium perimeter and intermediate framing around glazed or opaque infill panels.
+- **automated garage-door system** (`AU-ED-AUTOMATED-GARAGE-DOOR-SYSTEM`) — A garage door combined with a compatible powered drive, controller, controls, manual release and selected protective devices.
+- **ball-bearing external door hinge** (`AU-ED-BALL-BEARING-EXTERNAL-DOOR-HINGE`) — An external butt hinge containing bearing races between knuckle sections to reduce friction under a heavier or frequently operated leaf.
+- **barrier screen door** (`AU-ED-BARRIER-SCREEN-DOOR`) — A robust framed screen door intended to provide a physical barrier but not represented as a security-classified product unless supported by test and installation evidence.
+- **battened, ledged and braced external door leaf** (`AU-ED-BATTENED-LEDGED-BRACED-EXTERNAL-DOOR-LEAF`) — A traditional external leaf made from vertical boards or battens connected by horizontal ledges and diagonal braces on the rear face.
+- **bifold louvre shutter** (`AU-ED-BIFOLD-LOUVRE-SHUTTER`) — A linked set of louvred shutter leaves that fold together while travelling or pivoting to uncover an external opening.
+- **boarded external shutter** (`AU-ED-BOARDED-EXTERNAL-SHUTTER`) — A shutter leaf made from edge-jointed or spaced boards held by horizontal ledges and often a diagonal brace.
+- **ceiling-rail garage-door operator** (`AU-ED-CEILING-RAIL-GARAGE-DOOR-OPERATOR`) — An operator with a ceiling-mounted power head driving a trolley along a rail connected by an arm to a sectional or compatible tilt door.
+- **domestic exterior roller shutter** (`AU-ED-DOMESTIC-EXTERIOR-ROLLER-SHUTTER`) — A relatively compact roller shutter installed to a residential window or pedestrian-door opening, commonly using interlocking slats, side guides and a boxed roll.
+- **emergency-egress security window screen** (`AU-ED-EMERGENCY-EGRESS-SECURITY-WINDOW-SCREEN`) — An openable security window screen incorporating a controlled internal release so an otherwise protected window can serve a documented emergency-egress function.
+- **entrance door highlight assembly** (`AU-ED-ENTRY-DOOR-HIGHLIGHT-ASSEMBLY`) — A fixed framed panel above an external entrance door or door-and-sidelight combination, separated by a transom and glazed or filled as selected.
+- **entrance door sidelight assembly** (`AU-ED-ENTRY-DOOR-SIDELIGHT-ASSEMBLY`) — A fixed framed panel beside an external entrance leaf, glazed or opaque, coupled into the entrance frame and wall-opening weathering system.
+- **expanded-metal security mesh** (`AU-ED-EXPANDED-METAL-SECURITY-MESH`) — A slit-and-expanded metal sheet forming a diamond or similar mesh used in some barrier or security screen products.
+- **external door butt hinge** (`AU-ED-EXTERNAL-DOOR-BUTT-HINGE`) — A two-leaf hinge with interleaved knuckles and a vertical pin, selected and finished for an external pedestrian door and fixed between leaf edge and hinge jamb.
+- **external door deadbolt** (`AU-ED-EXTERNAL-DOOR-DEADBOLT`) — A separate keyed or thumbturn-operated bolt that projects into a reinforced frame strike without spring-latch action.
+- **external door frame and threshold assembly** (`AU-ED-EXTERNAL-DOOR-FRAME-THRESHOLD-ASSEMBLY`) — The load-carrying and weathering boundary around an external pedestrian leaf, comprising the head, jambs, stop or rebate, threshold or sill, anchors, packers and perimeter interfaces.
+- **external door frame head** (`AU-ED-EXTERNAL-DOOR-FRAME-HEAD`) — The horizontal upper member of an external pedestrian-door frame, carrying the stop or rebate, head seal and any closer or top-pivot preparation.
+- **external door frame stop or rebate** (`AU-ED-EXTERNAL-DOOR-STOP-OR-REBATE`) — The integral shoulder or fixed section on an external frame against which the closed leaf is located and its perimeter seal is compressed.
+- **external door head weather drip** (`AU-ED-DOOR-HEAD-WEATHER-DRIP`) — A projecting profile above an external pedestrian leaf that sheds runoff clear of the head joint and upper door face.
+- **external door hinge jamb** (`AU-ED-EXTERNAL-DOOR-HINGE-JAMB`) — The vertical frame member carrying the hinges or side-mounted pivot hardware of an external pedestrian leaf.
+- **external door hinge security stud** (`AU-ED-EXTERNAL-DOOR-HINGE-SECURITY-STUD`) — A fixed stud or dog on the hinge edge of a door or frame that enters a matching hole when closed so the leaf remains engaged if exposed hinge pins are removed.
+- **external door holdback hook or catch** (`AU-ED-EXTERNAL-DOOR-HOLDBACK`) — A manually engaged hook, cabin hook, magnetic catch or mechanical holder connecting an open external leaf to a wall, post or floor stop.
+- **external door kick plate** (`AU-ED-EXTERNAL-DOOR-KICK-PLATE`) — A durable sheet fixed to the lower face of an external pedestrian door to protect the finish from footwear, trolleys, pets or repeated impact.
+- **external door leaf bottom drip moulding** (`AU-ED-DOOR-LEAF-BOTTOM-DRIP`) — A projecting moulding or extrusion fixed across the external bottom face of a swing leaf to throw runoff beyond the bottom joint and threshold.
+- **external door leaf bottom rail** (`AU-ED-EXTERNAL-DOOR-BOTTOM-RAIL`) — The lower horizontal member connecting the stiles of a framed external door leaf, often deeper than other rails to resist exposure and support bottom-edge hardware or weathering.
+- **external door leaf edge lipping** (`AU-ED-EXTERNAL-DOOR-EDGE-LIPPING`) — A solid strip fixed around one or more edges of an external leaf to protect and finish the core edge and provide a workable hardware or sealing surface.
+- **external door leaf glazing aperture** (`AU-ED-EXTERNAL-DOOR-GLAZING-APERTURE`) — A factory-made or documented opening through an external door leaf prepared to receive a compatible glazing system.
+- **external door leaf infill panel** (`AU-ED-EXTERNAL-DOOR-INFILL-PANEL`) — A solid or engineered panel retained within the stiles, rails and muntins of a framed external leaf.
+- **external door leaf intermediate rail** (`AU-ED-EXTERNAL-DOOR-MID-RAIL`) — A horizontal member between the top and bottom rails of a framed external leaf, dividing panel or glazing fields and sometimes carrying lock hardware.
+- **external door leaf lock block** (`AU-ED-EXTERNAL-DOOR-LOCK-BLOCK`) — A local solid block or reinforced zone inside an external leaf that receives lock, latch, handle or pull-handle fixings.
+- **external door leaf muntin** (`AU-ED-EXTERNAL-DOOR-MUNTIN`) — A vertical intermediate member dividing panels or glazing within a framed external door leaf.
+- **external door leaf stile** (`AU-ED-EXTERNAL-DOOR-LEAF-STILE`) — A vertical side member of a framed external door leaf, identified by hinge, lock or meeting role.
+- **external door leaf top rail** (`AU-ED-EXTERNAL-DOOR-TOP-RAIL`) — The upper horizontal member connecting the stiles of a framed external door leaf.
+- **external door lever-handle set** (`AU-ED-EXTERNAL-DOOR-LEVER-HANDLE-SET`) — A pair or selected arrangement of external-grade lever handles, roses or plates and spindle operating a compatible latch or lock through the door leaf.
+- **external door lock jamb** (`AU-ED-EXTERNAL-DOOR-LOCK-JAMB`) — The vertical frame member at the closing edge of an external leaf, prepared for latch, deadbolt, multipoint receivers and perimeter seals.
+- **external door mail-slot assembly** (`AU-ED-EXTERNAL-DOOR-MAIL-SLOT`) — A framed slot through an external door leaf with external flap, internal flap or chute and perimeter sealing components for receiving mail while the door remains closed.
+- **external door multipoint lock system** (`AU-ED-EXTERNAL-DOOR-MULTIPOINT-LOCK-SYSTEM`) — A mechanically linked lock operating two or more locking points along an external door edge from a common handle, cylinder or gearbox.
+- **external door security chain or restrictor** (`AU-ED-EXTERNAL-DOOR-SECURITY-RESTRICTOR`) — A chain, bar or articulated limiter connecting an external door leaf to its frame so the leaf can open only a short controlled distance until released from inside.
+- **external door sill pan flashing** (`AU-ED-EXTERNAL-DOOR-SILL-PAN`) — A tray-like flashing beneath and behind an external door threshold that collects incidental water and directs it to the exterior without draining into the floor or wall.
+- **external door top-and-bottom pivot set** (`AU-ED-EXTERNAL-DOOR-PIVOT-SET`) — A matched top guide or bearing and bottom load-bearing pivot assembly supporting an external pivot door leaf on a documented vertical axis.
+- **external door viewer** (`AU-ED-EXTERNAL-DOOR-VIEWER`) — A small optical or digital viewing device installed through an opaque external door leaf to observe the approach side while the door remains closed.
+- **external door, screen and shutter opening system** (`AU-ED-EXTERNAL-OPENING-SYSTEM`) — The coordinated physical construction at an external pedestrian or vehicle opening, including the selected door, frame or guides, movement hardware, weathering, seals, locks, fixings and any separate screen or shutter.
+- **external double-door meeting astragal** (`AU-ED-EXTERNAL-DOUBLE-DOOR-ASTRAGAL`) — A vertical section fixed to or formed on one leaf of a paired external doorset to cover, locate, seal or reinforce the meeting joint.
+- **external entrance mortice lockset** (`AU-ED-EXTERNAL-DOOR-MORTICE-LOCKSET`) — A keyed latch and locking mechanism morticed into an external door edge and completed by compatible handles, cylinder or key operation and a reinforced frame strike.
+- **external entrance-door pull handle** (`AU-ED-EXTERNAL-DOOR-PULL-HANDLE`) — A fixed bar, offset grip or shaped pull mounted to an external door face for pushing or pulling without directly operating a latch spindle.
+- **external flush-door face skin** (`AU-ED-EXTERNAL-DOOR-FACE-SKIN`) — A flat or moulded sheet forming one broad face of a flush or sandwich external door leaf and bonded to its perimeter frame and core.
+- **external flush-door leaf perimeter frame** (`AU-ED-EXTERNAL-DOOR-LEAF-PERIMETER-FRAME`) — The concealed timber, engineered-wood, metal or composite frame around the edges of a flush or sandwich external leaf, supporting skins, edge hardware and core materials.
+- **external metal pedestrian-door frame** (`AU-ED-EXTERNAL-METAL-DOOR-FRAME`) — A formed or extruded steel or aluminium frame around an external pedestrian leaf, with integral or attached stops, seals, threshold and wall anchors.
+- **external pedestrian door leaf** (`AU-ED-EXTERNAL-DOOR-LEAF`) — The moving panel that closes an external pedestrian doorway, with construction and finish selected for its exposure, dimensions, hardware, weathering and documented performance roles.
+- **external pedestrian doorset** (`AU-ED-EXTERNAL-PEDESTRIAN-DOORSET`) — A complete external doorway product or construction for people, including one or more moving leaves, a perimeter frame, threshold, movement and locking hardware, seals, fixings and weathering interfaces.
+- **external pedestrian-door closer assembly** (`AU-ED-EXTERNAL-DOOR-CLOSER-ASSEMBLY`) — A hydraulic, pneumatic or spring-controlled device and linkage that returns an external swing leaf toward its closed position at a controlled rate.
+- **external pedestrian-door frame anchor** (`AU-ED-EXTERNAL-DOOR-FRAME-ANCHOR`) — A screw, bolt, strap, lug or proprietary anchor connecting an external door frame to the wall or floor support at a documented position.
+- **external pedestrian-door hardware system** (`AU-ED-EXTERNAL-DOOR-HARDWARE-SYSTEM`) — The selected set of hinges or pivots, operating furniture, latch, lock, bolts, closer, stops and security fittings that supports, moves, secures and controls an external pedestrian leaf.
+- **external pedestrian-door threshold** (`AU-ED-EXTERNAL-DOOR-THRESHOLD`) — The horizontal lower frame or transition profile beneath an external pedestrian leaf, supporting traffic and coordinating the door-bottom seal, finished levels, drainage and weathering.
+- **external pedestrian-door weathering system** (`AU-ED-EXTERNAL-DOOR-WEATHERING-SYSTEM`) — The coordinated sill or threshold, flashings, perimeter sealant, compression seals, bottom seal, drips and drainage paths that limit air and water entry around an external pedestrian door.
+- **external pivot doorset** (`AU-ED-EXTERNAL-PIVOT-DOORSET`) — An external doorset whose leaf rotates on aligned top and bottom pivots located at or inboard from the leaf edge rather than on ordinary side-mounted butt hinges.
+- **external rebated timber door frame** (`AU-ED-EXTERNAL-REBATED-TIMBER-DOOR-FRAME`) — A timber external door frame whose head and jamb profiles contain an integral rebate that receives the closed leaf and perimeter seals.
+- **external shutter hinge** (`AU-ED-EXTERNAL-SHUTTER-HINGE`) — A hinge connecting a shutter leaf to the opening surround or shutter frame for external swing.
+- **external shutter holdback** (`AU-ED-EXTERNAL-SHUTTER-HOLDBACK`) — A catch, hook or stay securing a hinged shutter leaf in its open position against the facade.
+- **external shutter latch** (`AU-ED-EXTERNAL-SHUTTER-LATCH`) — A catch, bolt or lock holding one or more external shutter leaves in the closed position.
+- **external shutter louvre blade** (`AU-ED-EXTERNAL-SHUTTER-LOUVRE-BLADE`) — One horizontal or occasionally vertical slat in a louvred external shutter, fixed at an angle or mounted to pivot.
+- **external shutter system** (`AU-ED-EXTERNAL-SHUTTER-SYSTEM`) — A framed, panelled, louvred or rolling closure installed outside an external door or window opening, including its leaves or curtain, guides or hinges, fastening and controls.
+- **fixed louvre shutter panel** (`AU-ED-FIXED-LOUVRE-SHUTTER`) — A non-operable framed louvred panel fixed beside, over or within an external opening.
+- **fixed security window screen** (`AU-ED-FIXED-SECURITY-WINDOW-SCREEN`) — A non-operable security screen panel fixed over or within a window opening as a complete frame, infill and fixing system.
+- **foam-insulation external door core** (`AU-ED-FOAM-INSULATION-DOOR-CORE`) — A rigid cellular polymer or mineral-based insulating core bonded or fitted between face skins in an external pedestrian door leaf.
+- **folding security screen door** (`AU-ED-FOLDING-SECURITY-SCREEN-DOOR`) — A multi-leaf security screen closure whose hinged leaves fold and travel along a guide or carrier track.
+- **garage-door bottom weather seal** (`AU-ED-GARAGE-DOOR-BOTTOM-WEATHER-SEAL`) — A continuous resilient profile attached to the lowest door edge and compressed against the floor or threshold when closed.
+- **garage-door cable-break device** (`AU-ED-GARAGE-DOOR-CABLE-BREAK-DEVICE`) — A product-specific mechanism intended to restrain or arrest a door if a lift cable fails.
+- **garage-door counterbalance assembly** (`AU-ED-GARAGE-DOOR-COUNTERBALANCE-ASSEMBLY`) — The springs, shaft or pulleys, drums, cables, brackets and anchors arranged to offset a garage door's effective weight through its travel.
+- **garage-door counterbalance pulley** (`AU-ED-GARAGE-DOOR-COUNTERBALANCE-PULLEY`) — A grooved wheel guiding lift cable in an extension-spring or other garage-door counterbalance system.
+- **garage-door extension spring** (`AU-ED-GARAGE-DOOR-EXTENSION-SPRING`) — A helical tension spring that elongates as a garage door closes and contracts to assist lifting, usually arranged beside or above tracks with cables and pulleys.
+- **garage-door floor threshold seal** (`AU-ED-GARAGE-DOOR-FLOOR-THRESHOLD-SEAL`) — A raised resilient or composite strip fixed to the garage floor beneath the closed door bottom seal.
+- **garage-door head seal** (`AU-ED-GARAGE-DOOR-HEAD-SEAL`) — A continuous seal at the opening head contacting the top panel, curtain or one-piece door when closed.
+- **garage-door jamb seal** (`AU-ED-GARAGE-DOOR-JAMB-SEAL`) — A continuous flexible fin, flap, brush or compression seal at a garage-opening side, contacting the closed door face or edge.
+- **garage-door lift cable** (`AU-ED-GARAGE-DOOR-LIFT-CABLE`) — A flexible wire rope connecting a sectional-door bottom fixture to its cable drum or pulley counterbalance path.
+- **garage-door lift-cable drum** (`AU-ED-GARAGE-DOOR-CABLE-DRUM`) — A grooved rotating drum on a torsion shaft that winds or pays out a lift cable as the sectional door moves.
+- **garage-door operator system** (`AU-ED-GARAGE-DOOR-OPERATOR-SYSTEM`) — A powered drive system for a compatible garage door, comprising motor and gearbox, transmission, controller, limits, controls, manual release and selected protective devices.
+- **garage-door photoelectric safety-beam assembly** (`AU-ED-GARAGE-DOOR-PHOTOELECTRIC-BEAM-ASSEMBLY`) — A matched transmitter and receiver installed across a garage-door opening to detect interruption of a light beam and send a protective input to the operator.
+- **garage-door safety-beam receiver** (`AU-ED-GARAGE-BEAM-RECEIVER`) — The photoelectric device that detects the aligned beam from its matched transmitter and reports beam state to the operator controller.
+- **garage-door safety-beam transmitter** (`AU-ED-GARAGE-BEAM-TRANSMITTER`) — The active photoelectric device that emits the monitored light beam across a garage-door opening.
+- **garage-door sensing safety edge** (`AU-ED-GARAGE-DOOR-SAFETY-EDGE`) — A pressure-sensitive, optical or other monitored edge fitted to the leading edge of a powered garage door to detect contact or deformation.
+- **garage-door spring anchor bracket** (`AU-ED-GARAGE-DOOR-SPRING-ANCHOR-BRACKET`) — A fixed bracket anchoring the stationary end of one or more torsion or extension springs to a verified building support.
+- **garage-door spring-break device** (`AU-ED-GARAGE-DOOR-SPRING-BREAK-DEVICE`) — A mechanism intended to restrain a counterbalance shaft or door following failure of a torsion spring.
+- **garage-door support and fixing interface** (`AU-ED-GARAGE-DOOR-SUPPORT-INTERFACE`) — The set of building supports, packers, brackets, anchors and attachment zones receiving a garage door's tracks, guides, spring supports and operator.
+- **garage-door torsion shaft** (`AU-ED-GARAGE-DOOR-TORSION-SHAFT`) — A horizontal shaft carrying torsion springs, cable drums and bearings in a sectional-door counterbalance system.
+- **garage-door torsion spring** (`AU-ED-GARAGE-DOOR-TORSION-SPRING`) — A close-coiled helical spring mounted around a torsion shaft and twisted to store energy for balancing a garage door.
+- **garage-door torsion-shaft centre bearing** (`AU-ED-GARAGE-DOOR-CENTRE-BEARING`) — A bearing at an intermediate torsion-shaft support, commonly within or beside a centre spring anchor bracket.
+- **garage-door torsion-shaft end bearing plate** (`AU-ED-GARAGE-DOOR-END-BEARING-PLATE`) — A plate or bracket at each end of a torsion shaft supporting its bearing and locating the cable drum beside the door track.
+- **garage-door torsion-spring winding cone** (`AU-ED-GARAGE-DOOR-WINDING-CONE`) — A conical or cylindrical fitting secured to the adjustable end of a torsion spring and to the shaft after spring setup.
+- **garage-operator backup battery** (`AU-ED-GARAGE-OPERATOR-BACKUP-BATTERY`) — A rechargeable battery module supplying temporary power to a compatible garage-door operator during mains interruption.
+- **garage-operator ceiling hanger** (`AU-ED-GARAGE-OPERATOR-CEILING-HANGER`) — A suspended support frame or pair of straps connecting an operator power head or rail to verified overhead structure.
+- **garage-operator controller board** (`AU-ED-GARAGE-OPERATOR-CONTROLLER-BOARD`) — The electronic control assembly processing commands, position, force and protective-device inputs and controlling the operator motor.
+- **garage-operator door arm** (`AU-ED-GARAGE-OPERATOR-DOOR-ARM`) — A straight, curved or articulated link connecting an overhead operator trolley to a reinforced bracket on the garage door.
+- **garage-operator drive belt** (`AU-ED-GARAGE-OPERATOR-DRIVE-BELT`) — A toothed or reinforced flexible belt transmitting operator output along a drive rail to its trolley.
+- **garage-operator drive chain** (`AU-ED-GARAGE-OPERATOR-DRIVE-CHAIN`) — An endless or anchored roller chain transmitting operator output along a drive rail to its trolley.
+- **garage-operator drive rail** (`AU-ED-GARAGE-OPERATOR-DRIVE-RAIL`) — The central overhead rail housing or supporting a garage operator's moving trolley and chain, belt or screw drive.
+- **garage-operator external emergency release** (`AU-ED-GARAGE-OPERATOR-EXTERNAL-EMERGENCY-RELEASE`) — A keyed cable or linkage accessible from outside a garage, used to disconnect the operator when no other entry is available.
+- **garage-operator header bracket** (`AU-ED-GARAGE-OPERATOR-HEADER-BRACKET`) — A fixed pivoting or bolted bracket anchoring the front end of an overhead operator rail to the opening header structure.
+- **garage-operator manual release** (`AU-ED-GARAGE-OPERATOR-MANUAL-RELEASE`) — A cord, handle and latch mechanism allowing a user inside the garage to disconnect the operator drive from the door for manual movement.
+- **garage-operator motor and gear drive** (`AU-ED-GARAGE-OPERATOR-MOTOR-GEAR-DRIVE`) — The electric motor and reduction gearing that provide mechanical output to a garage-door operator transmission.
+- **garage-operator radio receiver** (`AU-ED-GARAGE-OPERATOR-RADIO-RECEIVER`) — An integrated or separate radio module receiving paired transmitter commands and passing them to the operator controller.
+- **garage-operator remote transmitter** (`AU-ED-GARAGE-OPERATOR-REMOTE-TRANSMITTER`) — A portable radio control sending open, stop, close or programmed commands to a compatible garage-door receiver.
+- **garage-operator smart controller** (`AU-ED-GARAGE-OPERATOR-SMART-CONTROLLER`) — A network-connected controller or gateway providing monitored remote commands, status reporting or automation to a compatible garage-door operator.
+- **garage-operator travel-limit sensor** (`AU-ED-GARAGE-OPERATOR-TRAVEL-LIMIT-SENSOR`) — A switch, encoder, counter or magnetic sensor used by an operator to determine door position and stop at configured open and closed limits.
+- **garage-operator trolley** (`AU-ED-GARAGE-OPERATOR-TROLLEY`) — A carriage travelling along the operator rail and coupling its drive transmission to the door arm, with a releasable connection where designed.
+- **garage-operator wall control station** (`AU-ED-GARAGE-OPERATOR-WALL-CONTROL-STATION`) — A fixed wired or wireless user control mounted near a garage doorway or other selected position for operating and configuring the door.
+- **garage-operator warning light or buzzer** (`AU-ED-GARAGE-OPERATOR-WARNING-DEVICE`) — An integrated or remote visual and/or audible device indicating operator movement, remote closing, fault or another configured state.
+- **glass-fibre-reinforced polymer-faced external door leaf** (`AU-ED-GRP-FACED-EXTERNAL-DOOR-LEAF`) — An external pedestrian leaf with moulded glass-fibre-reinforced polymer face skins over a framed and cored construction.
+- **hinged insect screen door** (`AU-ED-HINGED-INSECT-SCREEN-DOOR`) — A lightweight hinged framed mesh leaf primarily intended to exclude insects while allowing airflow through a doorway.
+- **hinged louvre shutter** (`AU-ED-HINGED-LOUVRE-SHUTTER`) — A framed leaf containing fixed or adjustable louvre blades and swinging on hinges at an external opening.
+- **hinged security screen door** (`AU-ED-HINGED-SECURITY-SCREEN-DOOR`) — An outward- or inward-swinging security screen leaf, frame, hinges, lock and receivers installed at a pedestrian doorway.
+- **honeycomb external door core** (`AU-ED-HONEYCOMB-EXTERNAL-DOOR-CORE`) — A lightweight cellular paper, aluminium or polymer core bonded between external door face skins in a product specifically documented for the intended exposure.
+- **inactive external-door flush bolt** (`AU-ED-INACTIVE-EXTERNAL-DOOR-FLUSH-BOLT`) — A recessed or surface bolt in the inactive leaf of a paired external doorset that projects into the frame head or threshold to hold that leaf closed.
+- **jamb-fitting tilt garage door** (`AU-ED-JAMB-FITTING-TILT-DOOR`) — A tilt door whose one-piece panel is guided primarily by pivoting arms and fittings mounted at the opening jambs rather than by long horizontal tracks.
+- **large access door system** (`AU-ED-LARGE-ACCESS-DOOR-SYSTEM`) — A complete door, supports, hardware, counterbalance, fastenings and optional operator closing a large vehicle, equipment or similar opening in a building.
+- **manual garage-door system** (`AU-ED-MANUAL-GARAGE-DOOR-SYSTEM`) — A garage-door configuration intended to be opened and closed by hand using handles, locks and a counterbalance but no powered operator.
+- **moulded composite external door leaf** (`AU-ED-MOULDED-COMPOSITE-EXTERNAL-DOOR-LEAF`) — An external leaf with moulded or pressed composite face skins bonded to a framed or solid core to form panel-like profiles without traditional separate timber panels.
+- **multipoint door-lock gearbox** (`AU-ED-MULTIPOINT-LOCK-GEARBOX`) — The central mechanism of a multipoint lock that converts handle or cylinder movement into latch, deadbolt and linked locking-point movement.
+- **multipoint lock jamb keeper** (`AU-ED-MULTIPOINT-LOCK-KEEPER`) — A reinforced receiver fixed to the frame for a hook, roller, latch or bolt of an external multipoint door lock.
+- **one-piece tilt garage-door panel** (`AU-ED-ONE-PIECE-TILT-DOOR-PANEL`) — The single rigid closure panel of a tilt garage door, including its structural frame and face or cladding but excluding the side operating mechanisms.
+- **paired hinged external doorset** (`AU-ED-PAIR-HINGED-EXTERNAL-DOORSET`) — An external doorset with two meeting swing leaves, normally with one active leaf and one inactive leaf secured by bolts or other meeting hardware.
+- **parliament external door hinge** (`AU-ED-PARLIAMENT-EXTERNAL-DOOR-HINGE`) — A projecting double-leaf hinge whose extended knuckle position allows an external door to swing clear of a deep reveal, wall projection or trim.
+- **perforated aluminium security sheet** (`AU-ED-PERFORATED-ALUMINIUM-SECURITY-SHEET`) — A punched aluminium sheet used as the ventilating infill of some classified screen products.
+- **pneumatic screen-door closer** (`AU-ED-PNEUMATIC-SCREEN-DOOR-CLOSER`) — A small air-damped cylinder and articulated bracket set that returns a lightweight hinged screen door to the closed position.
+- **roller garage door** (`AU-ED-ROLLER-GARAGE-DOOR`) — A large access door formed from a flexible corrugated curtain that travels vertically in side guides and coils around a drum or axle above the opening.
+- **roller garage-door axle** (`AU-ED-ROLLER-GARAGE-DOOR-AXLE`) — The shaft through or between a roller-door drum's end assemblies, supported by mounting brackets and carrying spring or drive interfaces.
+- **roller garage-door axle operator** (`AU-ED-ROLLER-DOOR-AXLE-OPERATOR`) — A side-mounted or internal powered drive coupled directly to a roller garage door's drum or axle.
+- **roller garage-door bottom rail** (`AU-ED-ROLLER-GARAGE-DOOR-BOTTOM-RAIL`) — The stiffened lowest horizontal member of a roller garage-door curtain, commonly carrying a weather seal, lock and lifting handle.
+- **roller garage-door centre lock** (`AU-ED-ROLLER-GARAGE-DOOR-CENTRE-LOCK`) — A keyed or latched lock mounted near the centre of a roller-door bottom rail and linked to side locking bars.
+- **roller garage-door curtain** (`AU-ED-ROLLER-GARAGE-DOOR-CURTAIN`) — The flexible corrugated metal sheet forming a roller garage door, spanning between guides and coiling around the overhead drum.
+- **roller garage-door curtain travel stop** (`AU-ED-ROLLER-GARAGE-DOOR-TRAVEL-STOP`) — A stop fixed to the lower curtain or bottom rail to prevent the curtain being drawn completely through the guides into the overhead roll.
+- **roller garage-door drum** (`AU-ED-ROLLER-GARAGE-DOOR-DRUM`) — The horizontal rotating barrel or drum around which the roller garage-door curtain coils, commonly housing its counterbalance spring.
+- **roller garage-door guide** (`AU-ED-ROLLER-GARAGE-DOOR-GUIDE`) — A robust vertical channel at each side of a roller garage door restraining and guiding the corrugated curtain edges.
+- **roller garage-door internal counterbalance spring** (`AU-ED-ROLLER-GARAGE-DOOR-INTERNAL-SPRING`) — A torsion spring housed within or associated closely with the roller-door drum to counterbalance the curtain.
+- **roller garage-door lifting handle** (`AU-ED-ROLLER-GARAGE-DOOR-LIFTING-HANDLE`) — A hand grip fixed to a roller garage door for manual lifting and lowering from the accessible side.
+- **roller garage-door locking bar** (`AU-ED-ROLLER-GARAGE-DOOR-LOCKING-BAR`) — A horizontal sliding bar or rod driven from the centre lock into a side guide receiver.
+- **roller garage-door mounting bracket** (`AU-ED-ROLLER-GARAGE-DOOR-MOUNTING-BRACKET`) — A substantial bracket at each end of a roller garage door supporting the drum axle and connecting it to the jamb or head structure.
+- **roller garage-door wind lock** (`AU-ED-ROLLER-GARAGE-DOOR-WIND-LOCK`) — A clip, block or shaped fitting attached along curtain edges to engage a compatible guide under wind action and limit pull-out.
+- **roller garage-door wind-lock guide** (`AU-ED-ROLLER-GARAGE-DOOR-WINDLOCK-GUIDE`) — A reinforced or specially profiled roller-door guide providing a retention chamber for curtain wind locks.
+- **roller shutter assembly** (`AU-ED-ROLLER-SHUTTER-ASSEMBLY`) — A closure made from an articulated curtain that rises in vertical guides and coils around an axle or barrel above an external opening.
+- **roller-shutter axle bearing** (`AU-ED-ROLLER-SHUTTER-AXLE-BEARING`) — A bearing or bush supporting a roller-shutter axle end while allowing rotation.
+- **roller-shutter axle tube** (`AU-ED-ROLLER-SHUTTER-AXLE-TUBE`) — The horizontal tube or shaft around which the shutter curtain coils and to which the curtain and drive are connected.
+- **roller-shutter bottom rail** (`AU-ED-ROLLER-SHUTTER-BOTTOM-RAIL`) — The reinforced lowest horizontal member of a roller-shutter curtain, often carrying a seal, lock or sensing edge.
+- **roller-shutter crank gearbox** (`AU-ED-ROLLER-SHUTTER-CRANK-GEARBOX`) — A reduction gearbox operated by a removable or folding crank to drive a roller-shutter axle.
+- **roller-shutter curtain** (`AU-ED-ROLLER-SHUTTER-CURTAIN`) — The flexible articulated closure formed by interlocked slats or another rollable sheet, travelling in side guides and coiling above the opening.
+- **roller-shutter curtain attachment strap** (`AU-ED-ROLLER-SHUTTER-CURTAIN-ATTACHMENT-STRAP`) — A flexible or articulated connector fastening the top of the roller-shutter curtain to the axle or drum.
+- **roller-shutter guide insert** (`AU-ED-ROLLER-SHUTTER-GUIDE-INSERT`) — A replaceable strip, brush or low-friction liner fitted within a roller-shutter side guide around the curtain edge.
+- **roller-shutter head box** (`AU-ED-ROLLER-SHUTTER-HEAD-BOX`) — An enclosure above the opening surrounding the rolled curtain, axle, brackets and drive components of a roller shutter.
+- **roller-shutter head-box end plate** (`AU-ED-ROLLER-SHUTTER-HEAD-BOX-END-PLATE`) — A plate at each end of a roller-shutter head box supporting the axle bearing or motor and connecting the head assembly to side guides or substrate.
+- **roller-shutter manual winder** (`AU-ED-ROLLER-SHUTTER-MANUAL-WINDER`) — A user-operated winding mechanism transmitting crank, cord or strap movement to the shutter axle.
+- **roller-shutter remote transmitter** (`AU-ED-ROLLER-SHUTTER-REMOTE-TRANSMITTER`) — A portable or fixed radio transmitter sending user commands to a compatible powered roller-shutter receiver.
+- **roller-shutter sensor** (`AU-ED-ROLLER-SHUTTER-SENSOR`) — A device detecting position, obstruction, environmental input or another selected condition for a powered shutter controller.
+- **roller-shutter side guide** (`AU-ED-ROLLER-SHUTTER-SIDE-GUIDE`) — A vertical channel at each side of a roller shutter that locates the curtain edges throughout movement and in the closed position.
+- **roller-shutter slat** (`AU-ED-ROLLER-SHUTTER-SLAT`) — One interlocking horizontal profile in a slatted roller-shutter curtain.
+- **roller-shutter slat end lock** (`AU-ED-ROLLER-SHUTTER-END-LOCK`) — A clip or shaped fitting attached at a slat end to maintain curtain alignment, control lateral movement or engage a compatible guide.
+- **roller-shutter strap reel** (`AU-ED-ROLLER-SHUTTER-STRAP-REEL`) — A spring-return reel storing and controlling the flat operating strap of a manually operated roller shutter.
+- **roller-shutter tubular motor** (`AU-ED-ROLLER-SHUTTER-TUBULAR-MOTOR`) — A compact electric motor and gearbox installed within the shutter axle tube to rotate the curtain roll.
+- **roller-shutter wall switch** (`AU-ED-ROLLER-SHUTTER-WALL-SWITCH`) — A fixed electrical control used to command a powered shutter to raise, stop or lower.
+- **screen frame mullion** (`AU-ED-SCREEN-FRAME-MULLION`) — An intermediate vertical member dividing a wide screen panel or supporting separate infill fields.
+- **screen frame rail** (`AU-ED-SCREEN-FRAME-RAIL`) — A horizontal perimeter or intermediate member of a framed screen leaf or fixed panel.
+- **screen frame stile** (`AU-ED-SCREEN-FRAME-STILE`) — A vertical perimeter member of a framed screen leaf or fixed panel.
+- **screen spline** (`AU-ED-SCREEN-SPLINE`) — A flexible cord or strip pressed into a frame groove to retain lightweight insect mesh.
+- **screen-door bug strip** (`AU-ED-SCREEN-DOOR-BUG-STRIP`) — A flexible fin, brush or pile strip closing the irregular gap between a screen leaf and adjacent door frame or meeting panel.
+- **sectional garage door** (`AU-ED-SECTIONAL-GARAGE-DOOR`) — A large access door made from horizontally hinged rigid panels that rise in vertical tracks, turn through curved tracks and store along overhead tracks.
+- **sectional garage-door panel** (`AU-ED-SECTIONAL-DOOR-PANEL`) — One rigid horizontal section of a sectional garage door, hinged to adjacent panels and guided by rollers near its ends.
+- **sectional garage-door reinforcing strut** (`AU-ED-SECTIONAL-DOOR-REINFORCING-STRUT`) — A horizontal metal section fixed across the inside face of a sectional panel to increase stiffness or distribute wind and operator actions.
+- **sectional garage-door vision insert** (`AU-ED-SECTIONAL-DOOR-VISION-INSERT`) — A framed transparent or translucent insert fitted into a prepared opening in a sectional-door panel.
+- **sectional-door bottom cable bracket** (`AU-ED-SECTIONAL-DOOR-BOTTOM-CABLE-BRACKET`) — A reinforced fixture at each lower corner of a sectional door connecting the bottom panel, bottom roller and lift cable termination.
+- **sectional-door end hinge roller bracket** (`AU-ED-SECTIONAL-DOOR-END-HINGE-ROLLER-BRACKET`) — A track-side hinge and adjustable roller carrier joining adjacent panels while locating a roller axle near the panel end.
+- **sectional-door flag bracket** (`AU-ED-SECTIONAL-DOOR-FLAG-BRACKET`) — A substantial bracket near the upper jamb connecting vertical and horizontal track components and sometimes supporting spring or bearing hardware.
+- **sectional-door horizontal track** (`AU-ED-SECTIONAL-DOOR-HORIZONTAL-TRACK`) — An overhead track at each side supporting and guiding sectional-door rollers in the open position.
+- **sectional-door intermediate hinge** (`AU-ED-SECTIONAL-DOOR-INTERMEDIATE-HINGE`) — A hinge joining adjacent sectional-door panels at an internal position away from the track-side roller fixtures.
+- **sectional-door jamb bracket** (`AU-ED-SECTIONAL-DOOR-JAMB-BRACKET`) — A repeated bracket spacing a sectional-door vertical track from and fastening it to the opening jamb support.
+- **sectional-door top roller fixture** (`AU-ED-SECTIONAL-DOOR-TOP-ROLLER-FIXTURE`) — An adjustable bracket at each top corner of a sectional door carrying the top-panel track roller.
+- **sectional-door track ceiling hanger** (`AU-ED-SECTIONAL-TRACK-CEILING-HANGER`) — A suspended angle, strap or framed support connecting an overhead garage-door track to verified roof or ceiling structure.
+- **sectional-door track curve** (`AU-ED-SECTIONAL-DOOR-TRACK-CURVE`) — A curved track segment connecting the vertical and overhead paths of a sectional garage door.
+- **sectional-door track rear stop** (`AU-ED-SECTIONAL-TRACK-REAR-STOP`) — A stop fixed near the rear end of an overhead track to limit roller travel and prevent the door running out of the track.
+- **sectional-door track roller** (`AU-ED-SECTIONAL-DOOR-TRACK-ROLLER`) — A wheel and bearing assembly on a projecting axle that runs inside a sectional-door track.
+- **sectional-door vertical track** (`AU-ED-SECTIONAL-DOOR-VERTICAL-TRACK`) — A vertical formed channel at each opening side guiding sectional-door rollers while the door is closed and during the initial rise.
+- **sectional-panel end stile** (`AU-ED-SECTIONAL-PANEL-END-STILE`) — A reinforced vertical end member or cap at a sectional panel edge receiving roller brackets, hinges or other hardware.
+- **security grille infill** (`AU-ED-SECURITY-GRILLE-INFILL`) — An open grid or decorative metal grille retained within a screen frame as the principal physical barrier or as support to another mesh.
+- **security screen door leaf** (`AU-ED-SECURITY-SCREEN-DOOR-LEAF`) — The operable framed panel of a security screen door, comprising perimeter members, retained infill and attached operating hardware.
+- **security screen perimeter frame** (`AU-ED-SECURITY-SCREEN-PERIMETER-FRAME`) — The fixed frame surrounding a security screen leaf or panel and anchoring it to the building opening.
+- **security screen system** (`AU-ED-SECURITY-SCREEN-SYSTEM`) — A complete framed screen product and installation classified for security performance, including its infill, retention, locks, hinges or rollers, frame, fixings and receivers.
+- **security-screen anti-jemmy interlock** (`AU-ED-SECURITY-SCREEN-ANTI-JEMMY-INTERLOCK`) — A mating edge profile or hooked section that limits prying or disengagement at the meeting edge of a sliding or paired security screen.
+- **security-screen fixing cover channel** (`AU-ED-SECURITY-SCREEN-FIXING-COVER-CHANNEL`) — A snap-on or mechanically retained trim covering frame fixings and installation gaps after a screen frame is anchored.
+- **security-screen hinge** (`AU-ED-SECURITY-SCREEN-HINGE`) — A hinge connecting a hinged security-screen leaf to its fixed frame and forming part of the product's attack-resistant edge.
+- **security-screen hinge-pin protector** (`AU-ED-SECURITY-SCREEN-HINGE-PIN-PROTECTOR`) — A stud, dog or interlocking projection that keeps a screen leaf engaged with its frame if exposed hinge pins are attacked or removed.
+- **security-screen infill retention wedge** (`AU-ED-INFILL-RETENTION-WEDGE`) — A continuous proprietary wedge, bead or clamp that mechanically retains security infill within a frame groove or channel.
+- **security-screen installation fixing** (`AU-ED-SECURITY-SCREEN-INSTALLATION-FIXING`) — A screw, bolt, anchor or other fixing securing the security-screen frame or receiver to the building substrate as part of the documented installation.
+- **security-screen jamb receiver** (`AU-ED-SECURITY-SCREEN-JAMB-RECEIVER`) — A reinforced strike, socket or keep fixed to the screen frame or substrate to receive a security-screen latch or locking bolt.
+- **security-screen lock body** (`AU-ED-SECURITY-SCREEN-LOCK-BODY`) — The central lock case in a security screen door that carries the latch, deadlocking mechanism, handle follower and multipoint linkage where fitted.
+- **security-screen product label** (`AU-ED-SECURITY-PRODUCT-LABEL`) — A durable physical mark, plate or label attached to a security-screen product to identify its manufacturer, classification or traceable product information.
+- **security-screen remote shoot bolt** (`AU-ED-SECURITY-SCREEN-REMOTE-SHOOT-BOLT`) — An upper or lower bolt driven remotely by the screen-door lock linkage into a frame receiver.
+- **security-screen three-point lock system** (`AU-ED-SECURITY-SCREEN-THREE-POINT-LOCK`) — A linked lock system securing a screen door at a central lock and remote upper and lower locking points.
+- **shutter leaf frame** (`AU-ED-SHUTTER-LEAF-FRAME`) — The perimeter frame of a panel shutter, holding louvres or solid infill and carrying the operating hardware.
+- **shutter rail** (`AU-ED-SHUTTER-RAIL`) — A horizontal top, bottom or intermediate member of a framed shutter leaf.
+- **shutter stile** (`AU-ED-SHUTTER-STILE`) — A vertical side member of a framed shutter leaf.
+- **shutter tilt rod** (`AU-ED-SHUTTER-TILT-ROD`) — A control bar or concealed linkage connecting adjustable louvre blades so they rotate together.
+- **single hinged external doorset** (`AU-ED-SINGLE-HINGED-EXTERNAL-DOORSET`) — An external pedestrian doorset with one leaf rotating about hinges or pivots at one vertical edge.
+- **sliding insect screen door** (`AU-ED-SLIDING-INSECT-SCREEN-DOOR`) — A lightweight mesh screen leaf that travels horizontally in tracks beside a sliding external doorway.
+- **sliding louvre shutter** (`AU-ED-SLIDING-LOUVRE-SHUTTER`) — A framed louvred panel that travels horizontally on top-hung or bottom-rolling hardware across an external opening.
+- **sliding security screen door** (`AU-ED-SLIDING-SECURITY-SCREEN-DOOR`) — A security-rated screen leaf that travels horizontally on rollers in tracks and locks into a jamb receiver or meeting stile.
+- **sliding-screen anti-lift block** (`AU-ED-SLIDING-SCREEN-ANTI-LIFT-BLOCK`) — A stop, block or adjusted projection that limits upward movement of a closed sliding screen so its rollers or edge cannot be disengaged from the tracks.
+- **sliding-screen bottom track** (`AU-ED-SLIDING-SCREEN-BOTTOM-TRACK`) — The lower rail or channel supporting and guiding the rollers of a sliding screen leaf.
+- **sliding-screen roller** (`AU-ED-SLIDING-SCREEN-ROLLER`) — A small wheel and carrier installed in a sliding screen leaf to run on its bottom track or, in suspended systems, its top track.
+- **sliding-screen top track** (`AU-ED-SLIDING-SCREEN-TOP-TRACK`) — The upper channel that laterally guides a sliding screen leaf and may restrain it against outward displacement.
+- **sliding-shutter bottom guide** (`AU-ED-SLIDING-SHUTTER-BOTTOM-GUIDE`) — A fixed pin, channel or shoe engaging the lower edge of a top-hung shutter panel to limit lateral movement while allowing horizontal travel.
+- **sliding-shutter carrier** (`AU-ED-SLIDING-SHUTTER-CARRIER`) — A wheeled trolley, hanger or roller assembly connecting a sliding or folding shutter panel to its track.
+- **sliding-shutter track** (`AU-ED-SLIDING-SHUTTER-TRACK`) — A continuous rail supporting or guiding the carriers of a sliding or folding external shutter.
+- **solid-panel external shutter** (`AU-ED-SOLID-PANEL-SHUTTER`) — An external shutter leaf formed by one or more substantially solid panels within a frame or as a monolithic panel.
+- **solid-panel external sliding doorset** (`AU-ED-SOLID-SLIDING-EXTERNAL-DOORSET`) — An external doorset with an opaque or substantially solid leaf translating along a track outside, inside or within the wall line rather than rotating on hinges.
+- **solid-timber panelled external door leaf** (`AU-ED-SOLID-TIMBER-PANELLED-EXTERNAL-DOOR-LEAF`) — An external leaf built from solid or laminated timber stiles and rails containing one or more solid, laminated or engineered timber panels.
+- **solid-timber stave door core** (`AU-ED-SOLID-TIMBER-STAVE-DOOR-CORE`) — A door core made from closely assembled solid or laminated timber strips forming a substantially solid internal panel between the leaf faces.
+- **stable external doorset** (`AU-ED-STABLE-EXTERNAL-DOORSET`) — A hinged external door divided horizontally into separately operable upper and lower leaves that can also be secured to move as one door.
+- **steel-faced insulated external door leaf** (`AU-ED-STEEL-FACED-INSULATED-EXTERNAL-DOOR-LEAF`) — An external pedestrian leaf with formed steel face sheets around an insulating or composite core and reinforced edge or hardware zones.
+- **steel-skinned insulated sectional panel** (`AU-ED-STEEL-SKINNED-INSULATED-SECTIONAL-PANEL`) — A sectional-door panel with internal and external steel skins bonded or connected around an insulating core.
+- **tilt garage door** (`AU-ED-TILT-GARAGE-DOOR`) — A one-piece rigid garage-door panel that pivots outward and upward to an overhead open position using side fittings, springs and either jamb arms or tracks.
+- **tilt-door anti-sway bracket** (`AU-ED-TILT-DOOR-ANTI-SWAY-BRACKET`) — A brace or guide bracket limiting lateral movement and helping maintain alignment of a tilt-door panel or side fitting.
+- **tilt-door applied cladding** (`AU-ED-TILT-DOOR-APPLIED-CLADDING`) — Boards, sheets, panels or battens fixed to a tilt-door frame to form its visible closure face.
+- **tilt-door counterbalance spring** (`AU-ED-TILT-DOOR-COUNTERBALANCE-SPRING`) — A tension or other product-specific spring in a tilt-door side fitting storing energy to offset the one-piece panel's weight.
+- **tilt-door counterweight system** (`AU-ED-TILT-DOOR-COUNTERWEIGHT-SYSTEM`) — A product-specific or legacy arrangement of weights, cables, pulleys and guides used instead of or with springs to offset a one-piece door panel's weight.
+- **tilt-door jamb fitting assembly** (`AU-ED-TILT-DOOR-JAMB-FITTING-ASSEMBLY`) — One side mechanism of a jamb-type tilt door, comprising fixed jamb brackets, power arm, pivots, spring and panel connections.
+- **tilt-door panel frame** (`AU-ED-TILT-DOOR-PANEL-FRAME`) — The rigid perimeter and internal framing forming the structural skeleton of a one-piece tilt-door panel.
+- **tilt-door pivot bush and bolt** (`AU-ED-TILT-DOOR-PIVOT-BUSH-BOLT`) — A pin, bolt and bearing bush forming a rotating joint between tilt-door arms, brackets and panel connections.
+- **tilt-door power arm** (`AU-ED-TILT-DOOR-POWER-ARM`) — A principal pivoting arm in a tilt-door side fitting connecting the panel to a jamb mechanism and working with the counterbalance spring.
+- **tilt-door spring anchor** (`AU-ED-TILT-DOOR-SPRING-ANCHOR`) — A fixed or moving bracket, hook or pin receiving an end of a tilt-door counterbalance spring.
+- **tilt-door spring restraint** (`AU-ED-TILT-DOOR-SPRING-RESTRAINT`) — A cable, rod, tube or guard intended to contain or limit movement of a tilt-door spring or its parts following failure.
+- **timber external door threshold** (`AU-ED-TIMBER-EXTERNAL-DOOR-THRESHOLD`) — A durable or treated timber sill profile forming the base of an external pedestrian-door frame and a bearing or sealing surface beneath the leaf.
+- **timber-faced flush external door leaf** (`AU-ED-TIMBER-FLUSH-EXTERNAL-DOOR-LEAF`) — An external flush leaf with substantially flat timber, plywood or external-grade engineered face skins bonded to a perimeter frame and selected core.
+- **track-fitting tilt garage door** (`AU-ED-TRACK-FITTING-TILT-DOOR`) — A tilt door whose one-piece panel uses side rollers or pivots travelling in overhead tracks as it moves to the open position.
+- **track-type tilt-door roller** (`AU-ED-TRACK-TILT-DOOR-ROLLER`) — A wheel and axle connecting a one-piece tilt-door panel or arm to its guide track.
+- **track-type tilt-door track** (`AU-ED-TRACK-TILT-DOOR-TRACK`) — A side and overhead guide channel defining the roller path of a one-piece track-fitting tilt door.
+- **wood-particle external door core** (`AU-ED-WOOD-PARTICLE-DOOR-CORE`) — A dense engineered-wood particleboard or fibreboard panel used as the internal core of a compatible external door leaf.
+- **woven stainless-steel security mesh** (`AU-ED-WOVEN-STAINLESS-SECURITY-MESH`) — A woven stainless-steel wire mesh used as the visible infill of some classified security screen systems.
+
+## Cross-discipline links
+
+- `AU-ED-ENTRY-DOOR-SIDELIGHT-ASSEMBLY` commonly used with `AU-GL-DOOR-SIDE-PANEL`
+- `AU-ED-EXTERNAL-DOOR-BUTT-HINGE` commonly used with `AU-ID-INTERNAL-DOOR-BUTT-HINGE`
+- `AU-ED-EXTERNAL-DOOR-CLOSER-ASSEMBLY` commonly used with `AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY`
+- `AU-ED-EXTERNAL-DOOR-DEADBOLT` commonly used with `AU-ID-INTERNAL-DOOR-DEADBOLT`
+- `AU-ED-EXTERNAL-DOOR-FRAME-ANCHOR` commonly used with `AU-WD-FRAME-PACKER`
+- `AU-ED-EXTERNAL-DOOR-FRAME-THRESHOLD-ASSEMBLY` commonly used with `AU-DB-BALCONY-DOOR-SUBSILL-FLASHING`
+- `AU-ED-EXTERNAL-DOOR-FRAME-THRESHOLD-ASSEMBLY` commonly used with `AU-DB-EXTERNAL-TRAFFICABLE-PLATFORM-SYSTEM`
+- `AU-ED-EXTERNAL-DOOR-GLAZING-APERTURE` commonly used with `AU-GL-DOOR-SIDE-PANEL`
+- `AU-ED-EXTERNAL-DOOR-LEVER-HANDLE-SET` commonly used with `AU-ID-INTERNAL-DOOR-LEVER-HANDLE`
+- `AU-ED-EXTERNAL-DOOR-MORTICE-LOCKSET` commonly used with `AU-ID-DOOR-LOCK-CYLINDER`
+- `AU-ED-EXTERNAL-DOOR-THRESHOLD` commonly used with `AU-DB-BALCONY-DOOR-THRESHOLD-INTERFACE`
+- `AU-ED-EXTERNAL-DOOR-THRESHOLD` commonly used with `AU-LH-LIVABLE-ENTRANCE-DOORSET`
+- `AU-ED-EXTERNAL-DOOR-THRESHOLD` commonly used with `AU-TC-DOOR-THRESHOLD-SEAL`
+- `AU-ED-EXTERNAL-DOOR-WEATHERING-SYSTEM` commonly used with `AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL`
+- `AU-ED-EXTERNAL-DOOR-WEATHERING-SYSTEM` commonly used with `AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY`
+- `AU-ED-EXTERNAL-DOUBLE-DOOR-ASTRAGAL` commonly used with `AU-ID-DOOR-MEETING-ASTRAGAL`
+- `AU-ED-EXTERNAL-PEDESTRIAN-DOORSET` commonly used with `AU-LH-LIVABLE-ENTRANCE-DOORSET`
+- `AU-ED-HONEYCOMB-EXTERNAL-DOOR-CORE` commonly used with `AU-ID-HONEYCOMB-CORE-INFILL`

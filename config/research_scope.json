@@ -1,0 +1,97 @@
+{
+  "project": {
+    "jurisdiction": "Australia",
+    "primary_code": "NCC 2022 Amendment 2",
+    "language": "en-AU",
+    "ontology_version": "0.1.0"
+  },
+  "research": {
+    "web_search_enabled": true,
+    "public_sources_only": true,
+    "obey_robots_txt": true,
+    "bypass_access_controls": false,
+    "store_copyrighted_standard_text": false,
+    "require_claim_level_provenance": true
+  },
+  "definitions": {
+    "style": "plain_english",
+    "generate_original_definitions": true,
+    "target_reader": "builder"
+  },
+  "scope": {
+    "physical_objects_only": true,
+    "include_assemblies": true,
+    "include_materials": true,
+    "include_fixings": true,
+    "include_services_components": true,
+    "include_trade_slang_as_aliases": true
+  },
+  "confidence": {
+    "accepted": 0.9,
+    "accepted_pending_review": 0.7,
+    "research_required": 0.5
+  },
+  "registries": {
+    "standards": "data/standards/standards_registry.json",
+    "sources": "data/sources/source_registry.json"
+  },
+  "disciplines": {
+    "enabled": [
+      "timber_framing",
+      "steel_framing",
+      "structural_steel",
+      "concrete_foundations",
+      "reinforcement",
+      "masonry",
+      "roofing",
+      "roof_drainage",
+      "cladding",
+      "windows_doors",
+      "glazing",
+      "waterproofing",
+      "internal_linings",
+      "insulation",
+      "fire",
+      "plumbing",
+      "drainage",
+      "electrical",
+      "mechanical",
+      "accessibility",
+      "site_civil",
+      "termite_management"
+    ],
+    "research_order": [
+      "timber_framing",
+      "concrete_foundations",
+      "reinforcement",
+      "site_civil",
+      "termite_management",
+      "masonry",
+      "steel_framing",
+      "structural_steel",
+      "roofing",
+      "roof_drainage",
+      "cladding",
+      "windows_doors",
+      "glazing",
+      "waterproofing",
+      "internal_linings",
+      "insulation",
+      "fire",
+      "plumbing",
+      "drainage",
+      "electrical",
+      "mechanical",
+      "accessibility"
+    ]
+  },
+  "first_deliverable": {
+    "discipline": "timber_framing",
+    "categories": [
+      "wall_framing",
+      "floor_framing",
+      "conventional_roof_framing",
+      "nailplated_roof_trusses"
+    ]
+  }
+}

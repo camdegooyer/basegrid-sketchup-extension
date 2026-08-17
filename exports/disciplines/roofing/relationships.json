@@ -1,0 +1,2356 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "roofing",
+  "relationships": [
+    {
+      "id": "REL-7146-RO-ANTI-PONDING-BOARD-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-ANTI-PONDING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7147-RO-APRON-FLASHING-COMMONLY-USED-WITH-AU-RO-COUNTERFLASHING",
+      "from_id": "AU-RO-APRON-FLASHING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-COUNTERFLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7148-RO-APRON-FLASHING-IS-A-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-APRON-FLASHING",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7149-RO-APRON-FLASHING-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-APRON-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7150-RO-BARGE-TILE-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-BARGE-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7151-RO-CHANGE-OF-PITCH-FLASHING-IS-A-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-CHANGE-OF-PITCH-FLASHING",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7152-RO-CHANGE-OF-PITCH-FLASHING-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-CHANGE-OF-PITCH-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7153-RO-CHIMNEY-FLASHING-ASSEMBLY-IS-A-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-CHIMNEY-FLASHING-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7154-RO-CHIMNEY-FLASHING-ASSEMBLY-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-CHIMNEY-FLASHING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7155-RO-CONCEALED-FIXED-METAL-SHEET-IS-A-AU-RO-METAL-ROOF-SHEET",
+      "from_id": "AU-RO-CONCEALED-FIXED-METAL-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-RO-METAL-ROOF-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7156-RO-CONCEALED-FIXED-METAL-SHEET-PART-OF-AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "from_id": "AU-RO-CONCEALED-FIXED-METAL-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7157-RO-CONCEALED-FIXED-SHEET-ROOF-HAS-PART-AU-RO-CONCEALED-FIXED-METAL-SHEET",
+      "from_id": "AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-CONCEALED-FIXED-METAL-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7158-RO-CONCEALED-FIXED-SHEET-ROOF-HAS-PART-AU-RO-CONCEALED-FIXING-CLIP",
+      "from_id": "AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-CONCEALED-FIXING-CLIP",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7159-RO-CONCEALED-FIXED-SHEET-ROOF-HAS-PART-AU-RO-RIB-END-STOP",
+      "from_id": "AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-RIB-END-STOP",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7160-RO-CONCEALED-FIXED-SHEET-ROOF-IS-A-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "relationship": "is_a",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7161-RO-CONCEALED-FIXED-SHEET-ROOF-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7162-RO-CONCEALED-FIXING-CLIP-PART-OF-AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "from_id": "AU-RO-CONCEALED-FIXING-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7163-RO-CONCRETE-ROOF-TILE-IS-A-AU-RO-ROOF-TILE",
+      "from_id": "AU-RO-CONCRETE-ROOF-TILE",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-TILE",
+      "source_ids": [
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-AS-2049-2002",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7164-RO-CONCRETE-ROOF-TILE-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-CONCRETE-ROOF-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-AS-2049-2002",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7165-RO-CORRUGATED-METAL-SHEET-IS-A-AU-RO-METAL-ROOF-SHEET",
+      "from_id": "AU-RO-CORRUGATED-METAL-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-RO-METAL-ROOF-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7166-RO-CORRUGATED-METAL-SHEET-PART-OF-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-CORRUGATED-METAL-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7167-RO-COUNTERFLASHING-COMMONLY-USED-WITH-AU-RO-APRON-FLASHING",
+      "from_id": "AU-RO-COUNTERFLASHING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-APRON-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7168-RO-COUNTERFLASHING-IS-A-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-COUNTERFLASHING",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7169-RO-COUNTERFLASHING-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-COUNTERFLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7170-RO-FIBRE-CEMENT-ROOF-SLATE-IS-A-AU-RO-ROOF-SLATE-SHINGLE",
+      "from_id": "AU-RO-FIBRE-CEMENT-ROOF-SLATE",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-SLATE-SHINGLE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7171-RO-FIBRE-CEMENT-ROOF-SLATE-PART-OF-AU-RO-SLATE-SHINGLE-ROOF",
+      "from_id": "AU-RO-FIBRE-CEMENT-ROOF-SLATE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7172-RO-FLEXIBLE-POINTING-COMMONLY-USED-WITH-AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "from_id": "AU-RO-FLEXIBLE-POINTING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7173-RO-FLEXIBLE-POINTING-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-FLEXIBLE-POINTING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7174-RO-HEAD-LAP-TILE-CLIP-IS-A-AU-RO-ROOF-TILE-CLIP",
+      "from_id": "AU-RO-HEAD-LAP-TILE-CLIP",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-TILE-CLIP",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7175-RO-HEAD-LAP-TILE-CLIP-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-HEAD-LAP-TILE-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7176-RO-HIP-STARTER-CLIP-IS-A-AU-RO-ROOF-TILE-CLIP",
+      "from_id": "AU-RO-HIP-STARTER-CLIP",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-TILE-CLIP",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7177-RO-HIP-STARTER-CLIP-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-HIP-STARTER-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7178-RO-HIP-STARTER-TILE-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-HIP-STARTER-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7179-RO-HIP-TILE-COMMONLY-USED-WITH-AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "from_id": "AU-RO-HIP-TILE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7180-RO-HIP-TILE-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-HIP-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7181-RO-INTERLOCKING-ROOF-TILE-IS-A-AU-RO-ROOF-TILE",
+      "from_id": "AU-RO-INTERLOCKING-ROOF-TILE",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-TILE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-SA-AS-2049-2002"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7182-RO-INTERLOCKING-ROOF-TILE-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-INTERLOCKING-ROOF-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-SA-AS-2049-2002"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7183-RO-METAL-BARGE-CAPPING-IS-A-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-METAL-BARGE-CAPPING",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7184-RO-METAL-BARGE-CAPPING-PART-OF-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-METAL-BARGE-CAPPING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7185-RO-METAL-HIP-CAPPING-IS-A-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-METAL-HIP-CAPPING",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7186-RO-METAL-HIP-CAPPING-PART-OF-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-METAL-HIP-CAPPING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7187-RO-METAL-RIDGE-CAPPING-IS-A-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-METAL-RIDGE-CAPPING",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7188-RO-METAL-RIDGE-CAPPING-PART-OF-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-METAL-RIDGE-CAPPING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7189-RO-METAL-ROOF-SHEET-CONNECTS-TO-AU-RO-SHEET-SIDE-LAP",
+      "from_id": "AU-RO-METAL-ROOF-SHEET",
+      "relationship": "connects_to",
+      "to_id": "AU-RO-SHEET-SIDE-LAP",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-1562-3-2006"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7190-RO-METAL-ROOF-SHEET-PART-OF-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-METAL-ROOF-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7191-RO-METAL-SHEET-ROOF-HAS-PART-AU-RO-CORRUGATED-METAL-SHEET",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-CORRUGATED-METAL-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7192-RO-METAL-SHEET-ROOF-HAS-PART-AU-RO-METAL-BARGE-CAPPING",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-METAL-BARGE-CAPPING",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7193-RO-METAL-SHEET-ROOF-HAS-PART-AU-RO-METAL-HIP-CAPPING",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-METAL-HIP-CAPPING",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7194-RO-METAL-SHEET-ROOF-HAS-PART-AU-RO-METAL-RIDGE-CAPPING",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-METAL-RIDGE-CAPPING",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7195-RO-METAL-SHEET-ROOF-HAS-PART-AU-RO-METAL-ROOF-SHEET",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-METAL-ROOF-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7196-RO-METAL-SHEET-ROOF-HAS-PART-AU-RO-PROFILE-INFILL-STRIP",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-PROFILE-INFILL-STRIP",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7197-RO-METAL-SHEET-ROOF-HAS-PART-AU-RO-ROOF-SARKING",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOF-SARKING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7198-RO-METAL-SHEET-ROOF-HAS-PART-AU-RO-SARKING-JOINT-TAPE",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SARKING-JOINT-TAPE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7199-RO-METAL-SHEET-ROOF-HAS-PART-AU-RO-SHEET-END-LAP",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SHEET-END-LAP",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7200-RO-METAL-SHEET-ROOF-HAS-PART-AU-RO-SHEET-SIDE-LAP",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SHEET-SIDE-LAP",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-1562-3-2006"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7201-RO-METAL-SHEET-ROOF-HAS-PART-AU-RO-TRAPEZOIDAL-METAL-SHEET",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-TRAPEZOIDAL-METAL-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7202-RO-METAL-SHEET-ROOF-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7206-RO-PARAPET-CAPPING-IS-A-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-PARAPET-CAPPING",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7207-RO-PARAPET-CAPPING-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-PARAPET-CAPPING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7208-RO-PENETRATION-COLLAR-FLASHING-COMMONLY-USED-WITH-AU-RO-ROOF-PENETRATION-OPENING",
+      "from_id": "AU-RO-PENETRATION-COLLAR-FLASHING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-ROOF-PENETRATION-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7209-RO-PENETRATION-COLLAR-FLASHING-IS-A-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-PENETRATION-COLLAR-FLASHING",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7210-RO-PENETRATION-COLLAR-FLASHING-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-PENETRATION-COLLAR-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7211-RO-PIERCED-FIXED-SHEET-ROOF-HAS-PART-AU-RO-ROOFING-SCREW",
+      "from_id": "AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOFING-SCREW",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7212-RO-PIERCED-FIXED-SHEET-ROOF-HAS-PART-AU-RO-ROOFING-SEALING-WASHER",
+      "from_id": "AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOFING-SEALING-WASHER",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7213-RO-PIERCED-FIXED-SHEET-ROOF-HAS-PART-AU-RO-SIDE-LAP-FASTENER",
+      "from_id": "AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SIDE-LAP-FASTENER",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7214-RO-PIERCED-FIXED-SHEET-ROOF-IS-A-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "relationship": "is_a",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7215-RO-PIERCED-FIXED-SHEET-ROOF-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7216-RO-PLASTIC-ROOF-SHEET-PART-OF-AU-RO-PLASTIC-SHEET-ROOF",
+      "from_id": "AU-RO-PLASTIC-ROOF-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7217-RO-PLASTIC-SHEET-ROOF-HAS-PART-AU-RO-PLASTIC-ROOF-SHEET",
+      "from_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-PLASTIC-ROOF-SHEET",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7218-RO-PLASTIC-SHEET-ROOF-HAS-PART-AU-RO-PROFILE-INFILL-STRIP",
+      "from_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-PROFILE-INFILL-STRIP",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7219-RO-PLASTIC-SHEET-ROOF-HAS-PART-AU-RO-ROOFING-SCREW",
+      "from_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOFING-SCREW",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7220-RO-PLASTIC-SHEET-ROOF-HAS-PART-AU-RO-ROOFING-SEALING-WASHER",
+      "from_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOFING-SEALING-WASHER",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7221-RO-PLASTIC-SHEET-ROOF-HAS-PART-AU-RO-SHEET-END-LAP",
+      "from_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SHEET-END-LAP",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7222-RO-PLASTIC-SHEET-ROOF-HAS-PART-AU-RO-SHEET-SIDE-LAP",
+      "from_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SHEET-SIDE-LAP",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-1562-3-2006"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7223-RO-PLASTIC-SHEET-ROOF-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7224-RO-PROFILE-INFILL-STRIP-PART-OF-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-PROFILE-INFILL-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7225-RO-PROFILE-INFILL-STRIP-PART-OF-AU-RO-PLASTIC-SHEET-ROOF",
+      "from_id": "AU-RO-PROFILE-INFILL-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7226-RO-RIB-END-STOP-PART-OF-AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "from_id": "AU-RO-RIB-END-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7227-RO-RIDGE-HIP-MORTAR-BEDDING-COMMONLY-USED-WITH-AU-RO-FLEXIBLE-POINTING",
+      "from_id": "AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-FLEXIBLE-POINTING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7228-RO-RIDGE-HIP-MORTAR-BEDDING-COMMONLY-USED-WITH-AU-RO-HIP-TILE",
+      "from_id": "AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-HIP-TILE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7229-RO-RIDGE-HIP-MORTAR-BEDDING-COMMONLY-USED-WITH-AU-RO-RIDGE-TILE",
+      "from_id": "AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-RIDGE-TILE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7230-RO-RIDGE-HIP-MORTAR-BEDDING-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7231-RO-RIDGE-TILE-COMMONLY-USED-WITH-AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "from_id": "AU-RO-RIDGE-TILE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7232-RO-RIDGE-TILE-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-RIDGE-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7233-RO-RIDGE-TILE-CLIP-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-RIDGE-TILE-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7237-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-APRON-FLASHING",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-APRON-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7238-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-CHANGE-OF-PITCH-FLASHING",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-CHANGE-OF-PITCH-FLASHING",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7239-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-CHIMNEY-FLASHING-ASSEMBLY",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-CHIMNEY-FLASHING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7240-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-CONCEALED-FIXED-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7241-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-COUNTERFLASHING",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-COUNTERFLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7242-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7243-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-PARAPET-CAPPING",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-PARAPET-CAPPING",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7244-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-PENETRATION-COLLAR-FLASHING",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-PENETRATION-COLLAR-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7245-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7246-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-PLASTIC-SHEET-ROOF",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7247-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7248-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-ROOF-PENETRATION-OPENING",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOF-PENETRATION-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7249-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-SLATE-SHINGLE-ROOF",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7250-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-SOAKER-TRAY-FLASHING",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SOAKER-TRAY-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7251-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-STEP-FLASHING",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-STEP-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7252-RO-ROOF-COVERING-SYSTEM-HAS-PART-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-RMIT-ROOF-TILE-FIXING",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7253-RO-ROOF-FLASHING-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-ROOF-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7254-RO-ROOF-PENETRATION-OPENING-COMMONLY-USED-WITH-AU-RO-PENETRATION-COLLAR-FLASHING",
+      "from_id": "AU-RO-ROOF-PENETRATION-OPENING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-PENETRATION-COLLAR-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7255-RO-ROOF-PENETRATION-OPENING-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-ROOF-PENETRATION-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7256-RO-ROOF-PENETRATION-OPENING-PENETRATES-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-ROOF-PENETRATION-OPENING",
+      "relationship": "penetrates",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7258-RO-ROOF-SARKING-PART-OF-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-ROOF-SARKING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7259-RO-ROOF-SARKING-PART-OF-AU-RO-SLATE-SHINGLE-ROOF",
+      "from_id": "AU-RO-ROOF-SARKING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7260-RO-ROOF-SARKING-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-ROOF-SARKING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7261-RO-ROOF-SLATE-SHINGLE-PART-OF-AU-RO-SLATE-SHINGLE-ROOF",
+      "from_id": "AU-RO-ROOF-SLATE-SHINGLE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7262-RO-ROOF-TILE-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-ROOF-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-AS-2049-2002"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7263-RO-ROOF-TILE-CLIP-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-ROOF-TILE-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7264-RO-ROOF-TILE-CLOUT-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-ROOF-TILE-CLOUT",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7265-RO-ROOF-TILE-SCREW-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-ROOF-TILE-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7266-RO-ROOFING-SCREW-PART-OF-AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "from_id": "AU-RO-ROOFING-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7267-RO-ROOFING-SCREW-PART-OF-AU-RO-PLASTIC-SHEET-ROOF",
+      "from_id": "AU-RO-ROOFING-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7268-RO-ROOFING-SEALING-WASHER-PART-OF-AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "from_id": "AU-RO-ROOFING-SEALING-WASHER",
+      "relationship": "part_of",
+      "to_id": "AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7269-RO-ROOFING-SEALING-WASHER-PART-OF-AU-RO-PLASTIC-SHEET-ROOF",
+      "from_id": "AU-RO-ROOFING-SEALING-WASHER",
+      "relationship": "part_of",
+      "to_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7270-RO-SARKING-JOINT-TAPE-PART-OF-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-SARKING-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7271-RO-SARKING-JOINT-TAPE-PART-OF-AU-RO-SLATE-SHINGLE-ROOF",
+      "from_id": "AU-RO-SARKING-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7272-RO-SARKING-JOINT-TAPE-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-SARKING-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7273-RO-SHEET-END-LAP-PART-OF-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-SHEET-END-LAP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7274-RO-SHEET-END-LAP-PART-OF-AU-RO-PLASTIC-SHEET-ROOF",
+      "from_id": "AU-RO-SHEET-END-LAP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-SA-AS-1562-3-2006",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7275-RO-SHEET-SIDE-LAP-CONNECTS-TO-AU-RO-METAL-ROOF-SHEET",
+      "from_id": "AU-RO-SHEET-SIDE-LAP",
+      "relationship": "connects_to",
+      "to_id": "AU-RO-METAL-ROOF-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-1562-3-2006"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7276-RO-SHEET-SIDE-LAP-PART-OF-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-SHEET-SIDE-LAP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-1562-3-2006"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7277-RO-SHEET-SIDE-LAP-PART-OF-AU-RO-PLASTIC-SHEET-ROOF",
+      "from_id": "AU-RO-SHEET-SIDE-LAP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-PLASTIC-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-1562-3-2006"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7278-RO-SHORT-COURSE-TILE-CLIP-IS-A-AU-RO-ROOF-TILE-CLIP",
+      "from_id": "AU-RO-SHORT-COURSE-TILE-CLIP",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-TILE-CLIP",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7279-RO-SHORT-COURSE-TILE-CLIP-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-SHORT-COURSE-TILE-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7280-RO-SIDE-LAP-FASTENER-PART-OF-AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "from_id": "AU-RO-SIDE-LAP-FASTENER",
+      "relationship": "part_of",
+      "to_id": "AU-RO-PIERCED-FIXED-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7281-RO-SIDE-LAP-TILE-CLIP-IS-A-AU-RO-ROOF-TILE-CLIP",
+      "from_id": "AU-RO-SIDE-LAP-TILE-CLIP",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-TILE-CLIP",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7282-RO-SIDE-LAP-TILE-CLIP-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-SIDE-LAP-TILE-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7283-RO-SLATE-SHINGLE-ROOF-HAS-PART-AU-RO-FIBRE-CEMENT-ROOF-SLATE",
+      "from_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-FIBRE-CEMENT-ROOF-SLATE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7284-RO-SLATE-SHINGLE-ROOF-HAS-PART-AU-RO-ROOF-SARKING",
+      "from_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOF-SARKING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7285-RO-SLATE-SHINGLE-ROOF-HAS-PART-AU-RO-ROOF-SLATE-SHINGLE",
+      "from_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOF-SLATE-SHINGLE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7286-RO-SLATE-SHINGLE-ROOF-HAS-PART-AU-RO-SARKING-JOINT-TAPE",
+      "from_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SARKING-JOINT-TAPE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7287-RO-SLATE-SHINGLE-ROOF-HAS-PART-AU-RO-TERRACOTTA-ROOF-SHINGLE",
+      "from_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-TERRACOTTA-ROOF-SHINGLE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7288-RO-SLATE-SHINGLE-ROOF-HAS-PART-AU-RO-TIMBER-ROOF-SHINGLE",
+      "from_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-TIMBER-ROOF-SHINGLE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7289-RO-SLATE-SHINGLE-ROOF-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7290-RO-SOAKER-TRAY-FLASHING-IS-A-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-SOAKER-TRAY-FLASHING",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7291-RO-SOAKER-TRAY-FLASHING-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-SOAKER-TRAY-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7292-RO-STEP-FLASHING-IS-A-AU-RO-ROOF-FLASHING",
+      "from_id": "AU-RO-STEP-FLASHING",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7293-RO-STEP-FLASHING-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-STEP-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7294-RO-TERRACOTTA-ROOF-SHINGLE-IS-A-AU-RO-ROOF-SLATE-SHINGLE",
+      "from_id": "AU-RO-TERRACOTTA-ROOF-SHINGLE",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-SLATE-SHINGLE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7295-RO-TERRACOTTA-ROOF-SHINGLE-PART-OF-AU-RO-SLATE-SHINGLE-ROOF",
+      "from_id": "AU-RO-TERRACOTTA-ROOF-SHINGLE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7296-RO-TERRACOTTA-ROOF-TILE-IS-A-AU-RO-ROOF-TILE",
+      "from_id": "AU-RO-TERRACOTTA-ROOF-TILE",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-TILE",
+      "source_ids": [
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-AS-2049-2002",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7297-RO-TERRACOTTA-ROOF-TILE-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-TERRACOTTA-ROOF-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-AS-2049-2002",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7299-RO-TILED-ROOF-HAS-PART-AU-RO-ANTI-PONDING-BOARD",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ANTI-PONDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7300-RO-TILED-ROOF-HAS-PART-AU-RO-BARGE-TILE",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-BARGE-TILE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7301-RO-TILED-ROOF-HAS-PART-AU-RO-CONCRETE-ROOF-TILE",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-CONCRETE-ROOF-TILE",
+      "source_ids": [
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-AS-2049-2002",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7302-RO-TILED-ROOF-HAS-PART-AU-RO-FLEXIBLE-POINTING",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-FLEXIBLE-POINTING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7303-RO-TILED-ROOF-HAS-PART-AU-RO-HEAD-LAP-TILE-CLIP",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-HEAD-LAP-TILE-CLIP",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7304-RO-TILED-ROOF-HAS-PART-AU-RO-HIP-STARTER-CLIP",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-HIP-STARTER-CLIP",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7305-RO-TILED-ROOF-HAS-PART-AU-RO-HIP-STARTER-TILE",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-HIP-STARTER-TILE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7306-RO-TILED-ROOF-HAS-PART-AU-RO-HIP-TILE",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-HIP-TILE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7307-RO-TILED-ROOF-HAS-PART-AU-RO-INTERLOCKING-ROOF-TILE",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-INTERLOCKING-ROOF-TILE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-SA-AS-2049-2002"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7308-RO-TILED-ROOF-HAS-PART-AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-RIDGE-HIP-MORTAR-BEDDING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7309-RO-TILED-ROOF-HAS-PART-AU-RO-RIDGE-TILE",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-RIDGE-TILE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7310-RO-TILED-ROOF-HAS-PART-AU-RO-RIDGE-TILE-CLIP",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-RIDGE-TILE-CLIP",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7311-RO-TILED-ROOF-HAS-PART-AU-RO-ROOF-SARKING",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOF-SARKING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7312-RO-TILED-ROOF-HAS-PART-AU-RO-ROOF-TILE",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOF-TILE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-AS-2049-2002"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7313-RO-TILED-ROOF-HAS-PART-AU-RO-ROOF-TILE-CLIP",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOF-TILE-CLIP",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7314-RO-TILED-ROOF-HAS-PART-AU-RO-ROOF-TILE-CLOUT",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOF-TILE-CLOUT",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7315-RO-TILED-ROOF-HAS-PART-AU-RO-ROOF-TILE-SCREW",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-ROOF-TILE-SCREW",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-ROOFING-CLIPS",
+        "SRC-RMIT-ROOF-TILE-FIXING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7316-RO-TILED-ROOF-HAS-PART-AU-RO-SARKING-JOINT-TAPE",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SARKING-JOINT-TAPE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ARTA-TECHNICAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7317-RO-TILED-ROOF-HAS-PART-AU-RO-SHORT-COURSE-TILE-CLIP",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SHORT-COURSE-TILE-CLIP",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7318-RO-TILED-ROOF-HAS-PART-AU-RO-SIDE-LAP-TILE-CLIP",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-SIDE-LAP-TILE-CLIP",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7319-RO-TILED-ROOF-HAS-PART-AU-RO-TERRACOTTA-ROOF-TILE",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-TERRACOTTA-ROOF-TILE",
+      "source_ids": [
+        "SRC-ARTA-TECHNICAL",
+        "SRC-SA-AS-2049-2002",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7320-RO-TILED-ROOF-HAS-PART-AU-RO-VALLEY-TILE-CLIP",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "has_part",
+      "to_id": "AU-RO-VALLEY-TILE-CLIP",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7321-RO-TILED-ROOF-PART-OF-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "part_of",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-RMIT-ROOF-TILE-FIXING",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7324-RO-TIMBER-ROOF-SHINGLE-IS-A-AU-RO-ROOF-SLATE-SHINGLE",
+      "from_id": "AU-RO-TIMBER-ROOF-SHINGLE",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-SLATE-SHINGLE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7325-RO-TIMBER-ROOF-SHINGLE-PART-OF-AU-RO-SLATE-SHINGLE-ROOF",
+      "from_id": "AU-RO-TIMBER-ROOF-SHINGLE",
+      "relationship": "part_of",
+      "to_id": "AU-RO-SLATE-SHINGLE-ROOF",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-SA-AS-4597-1999"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7326-RO-TRAPEZOIDAL-METAL-SHEET-IS-A-AU-RO-METAL-ROOF-SHEET",
+      "from_id": "AU-RO-TRAPEZOIDAL-METAL-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-RO-METAL-ROOF-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7327-RO-TRAPEZOIDAL-METAL-SHEET-PART-OF-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-RO-TRAPEZOIDAL-METAL-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7328-RO-VALLEY-TILE-CLIP-IS-A-AU-RO-ROOF-TILE-CLIP",
+      "from_id": "AU-RO-VALLEY-TILE-CLIP",
+      "relationship": "is_a",
+      "to_id": "AU-RO-ROOF-TILE-CLIP",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7329-RO-VALLEY-TILE-CLIP-PART-OF-AU-RO-TILED-ROOF",
+      "from_id": "AU-RO-VALLEY-TILE-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ARTA-ROOFING-CLIPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-7203-RO-METAL-SHEET-ROOF-SUPPORTED-BY-AU-SF-ROOF-BATTEN",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "supported_by",
+      "to_id": "AU-SF-ROOF-BATTEN",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7204-RO-METAL-SHEET-ROOF-SUPPORTED-BY-AU-TF-ROOF-BATTEN",
+      "from_id": "AU-RO-METAL-SHEET-ROOF",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-ROOF-BATTEN",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7205-RO-PARAPET-CAPPING-COMMONLY-USED-WITH-AU-DB-TERRACE-PARAPET-HOB-ASSEMBLY",
+      "from_id": "AU-RO-PARAPET-CAPPING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-TERRACE-PARAPET-HOB-ASSEMBLY",
+      "source_ids": [
+        "SRC-HIA-AS4654-2-OVERVIEW",
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP5002-DESIGN-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7234-RO-ROOF-COVERING-SYSTEM-ADJACENT-TO-AU-RD-EAVES-GUTTER",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "adjacent_to",
+      "to_id": "AU-RD-EAVES-GUTTER",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7235-RO-ROOF-COVERING-SYSTEM-COMMONLY-USED-WITH-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7236-RO-ROOF-COVERING-SYSTEM-CONNECTS-TO-AU-RD-DOWNPIPE-SPREADER",
+      "from_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "relationship": "connects_to",
+      "to_id": "AU-RD-DOWNPIPE-SPREADER",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7257-RO-ROOF-SARKING-COMMONLY-USED-WITH-AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "from_id": "AU-RO-ROOF-SARKING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-1-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7298-RO-TILED-ROOF-COMMONLY-USED-WITH-AU-RD-VALLEY-GUTTER",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RD-VALLEY-GUTTER",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7322-RO-TILED-ROOF-SUPPORTED-BY-AU-SF-ROOF-BATTEN",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "supported_by",
+      "to_id": "AU-SF-ROOF-BATTEN",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-RMIT-ROOF-TILE-FIXING",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7323-RO-TILED-ROOF-SUPPORTED-BY-AU-TF-ROOF-BATTEN",
+      "from_id": "AU-RO-TILED-ROOF",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-ROOF-BATTEN",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-RMIT-ROOF-TILE-FIXING",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

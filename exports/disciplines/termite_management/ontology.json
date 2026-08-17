@@ -1,0 +1,1583 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "termite_management",
+  "objects": [
+    {
+      "id": "AU-TM-CHEMICAL-TREATED-ZONE",
+      "canonical_name": "chemical termite treated zone",
+      "preferred_australian_name": "chemical termite treated zone",
+      "object_type": "layer",
+      "discipline": "termite_management",
+      "category": "termite_barriers",
+      "definition_plain": "A defined soil or substrate zone treated with an approved termiticide to reduce termite passage through or activity within that zone.",
+      "definition_technical": null,
+      "primary_function": [
+        "Create a chemically treated termite-management zone",
+        "Protect selected perimeters, under-slab areas or penetrations",
+        "Allow replenishment where the system includes reticulation"
+      ],
+      "orientation": [
+        "horizontal",
+        "vertical",
+        "varies"
+      ],
+      "typical_materials": [
+        "treated soil",
+        "registered termiticide"
+      ],
+      "geometry_class": "volumetric_element",
+      "aliases": [
+        {
+          "term": "chemical termite barrier",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.82
+        },
+        {
+          "term": "treated soil zone",
+          "type": "preferred_synonym",
+          "region": "Australia",
+          "confidence": 0.84
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "chemical barrier",
+          "type": "abbreviation",
+          "region": "Australia",
+          "confidence": 0.72
+        }
+      ],
+      "not_synonyms": [
+        "termite-resistant material",
+        "physical sheet barrier"
+      ],
+      "part_of_assemblies": [
+        "AU-TM-TERMITE-MANAGEMENT-SYSTEM"
+      ],
+      "common_attributes": [
+        "zone boundary",
+        "depth",
+        "substrate",
+        "chemical product",
+        "application date",
+        "life expectancy",
+        "replenishment method",
+        "installer"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-3660-1-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-3660-3-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Part 3.4",
+          "relationship": "Selection context and generic physical component classes for termite risk management.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-TM-CHEMICAL-TREATED-ZONE-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Chemical termite treated zone is used as a distinct physical object or assembly in Australian termite management construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-TM-CHEMICAL-TREATED-ZONE-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A defined soil or substrate zone treated with an approved termiticide to reduce termite passage through or activity within that zone.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-TM-CHEMICAL-TREATED-ZONE-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Create a chemically treated termite-management zone; Protect selected perimeters, under-slab areas or penetrations; Allow replenishment where the system includes reticulation",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Continuous treated zones at selected perimeter or under-slab locations",
+        "typical_placement": "Within soil beneath or beside protected construction",
+        "host_object": "AU-CF-FOUNDATION-MATERIAL",
+        "start_relationship": "Treatment-zone extent",
+        "end_relationship": "Treatment-zone extent",
+        "opening_relationship": "Extended around protected penetrations where the system requires",
+        "load_bearing_role": "Chemical pest-management layer"
+      },
+      "search_text": "chemical termite treated zone | chemical termite barrier | treated soil zone",
+      "ai_aliases": [
+        "chemical termite barrier",
+        "treated soil zone"
+      ],
+      "natural_language_examples": [
+        "Draw a chemical termite treated zone.",
+        "Select the chemical termite treated zone."
+      ],
+      "disambiguation_terms": [
+        "termite-resistant material",
+        "physical sheet barrier"
+      ],
+      "negative_terms": [
+        "termite-resistant material",
+        "physical sheet barrier"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ]
+        }
+      ],
+      "notes": [
+        "The ontology records the physical treated zone, not pesticide selection or application instructions."
+      ]
+    },
+    {
+      "id": "AU-TM-DURABLE-NOTICE",
+      "canonical_name": "termite management durable notice",
+      "preferred_australian_name": "termite management durable notice",
+      "object_type": "other_physical_object",
+      "discipline": "termite_management",
+      "category": "termite_identification",
+      "definition_plain": "A permanently fixed identification notice recording the installed termite management system and information needed for later inspection or maintenance.",
+      "definition_technical": null,
+      "primary_function": [
+        "Identify the installed termite management system",
+        "Record installation and maintenance information",
+        "Provide enduring information to owners, inspectors and trades"
+      ],
+      "orientation": [
+        "vertical",
+        "varies"
+      ],
+      "typical_materials": [
+        "durable printed or engraved plate",
+        "durable label"
+      ],
+      "geometry_class": "discrete_component",
+      "aliases": [
+        {
+          "term": "termite notice",
+          "type": "abbreviation",
+          "region": "Australia",
+          "confidence": 0.82
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "termite sticker",
+          "type": "trade_slang",
+          "region": "Australia",
+          "confidence": 0.68
+        }
+      ],
+      "not_synonyms": [
+        "termite certificate",
+        "inspection report"
+      ],
+      "part_of_assemblies": [
+        "AU-TM-TERMITE-MANAGEMENT-SYSTEM"
+      ],
+      "common_attributes": [
+        "system description",
+        "installation date",
+        "chemical life expectancy",
+        "inspection recommendations",
+        "installer",
+        "manufacturer",
+        "notice material",
+        "location"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-3660-1-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-3660-3-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Part 3.4",
+          "relationship": "Selection context and generic physical component classes for termite risk management.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-TM-DURABLE-NOTICE-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Termite management durable notice is used as a distinct physical object or assembly in Australian termite management construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-TM-DURABLE-NOTICE-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A permanently fixed identification notice recording the installed termite management system and information needed for later inspection or maintenance.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-TM-DURABLE-NOTICE-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Identify the installed termite management system; Record installation and maintenance information; Provide enduring information to owners, inspectors and trades",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "width",
+          "height",
+          "thickness"
+        ],
+        "repetition_pattern": "One durable notice per installed system or as required",
+        "typical_placement": "Permanently fixed in a prominent accessible location such as the meter box",
+        "host_object": null,
+        "start_relationship": null,
+        "end_relationship": null,
+        "opening_relationship": null,
+        "load_bearing_role": "Identification and maintenance information"
+      },
+      "search_text": "termite management durable notice | termite notice",
+      "ai_aliases": [
+        "termite notice"
+      ],
+      "natural_language_examples": [
+        "Draw a termite management durable notice.",
+        "Select the termite management durable notice."
+      ],
+      "disambiguation_terms": [
+        "termite certificate",
+        "inspection report"
+      ],
+      "negative_terms": [
+        "termite certificate",
+        "inspection report"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ]
+        }
+      ],
+      "notes": [
+        "The notice is a physical object; the information printed on it is object metadata, not a building member."
+      ]
+    },
+    {
+      "id": "AU-TM-GRADED-STONE-BARRIER",
+      "canonical_name": "graded stone termite barrier",
+      "preferred_australian_name": "graded stone termite barrier",
+      "object_type": "layer",
+      "discipline": "termite_management",
+      "category": "termite_barriers",
+      "definition_plain": "A compact zone of specially graded hard particles sized and installed so termites cannot readily pass between or move the particles.",
+      "definition_technical": null,
+      "primary_function": [
+        "Physically obstruct termite passage",
+        "Protect selected slab perimeters, penetrations, joints or suspended-floor areas",
+        "Form a component of a complete termite management system"
+      ],
+      "orientation": [
+        "horizontal",
+        "vertical",
+        "varies"
+      ],
+      "typical_materials": [
+        "graded crushed stone",
+        "graded mineral particles"
+      ],
+      "geometry_class": "volumetric_element",
+      "aliases": [
+        {
+          "term": "granular termite barrier",
+          "type": "preferred_synonym",
+          "region": "Australia",
+          "confidence": 0.9
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "graded particle barrier",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.76
+        }
+      ],
+      "not_synonyms": [
+        "ordinary drainage gravel",
+        "quarry sand bedding"
+      ],
+      "part_of_assemblies": [
+        "AU-TM-TERMITE-MANAGEMENT-SYSTEM"
+      ],
+      "common_attributes": [
+        "material",
+        "particle grading",
+        "barrier width",
+        "barrier depth",
+        "compaction",
+        "containment",
+        "location",
+        "system certification"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-3660-1-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-3660-3-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Part 3.4",
+          "relationship": "Selection context and generic physical component classes for termite risk management.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-TM-GRADED-STONE-BARRIER-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Graded stone termite barrier is used as a distinct physical object or assembly in Australian termite management construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-TM-GRADED-STONE-BARRIER-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A compact zone of specially graded hard particles sized and installed so termites cannot readily pass between or move the particles.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-TM-GRADED-STONE-BARRIER-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Physically obstruct termite passage; Protect selected slab perimeters, penetrations, joints or suspended-floor areas; Form a component of a complete termite management system",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Continuous contained zones at protected entry paths",
+        "typical_placement": "Around penetrations, along perimeters, within walls or beneath applicable suspended-floor areas",
+        "host_object": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+        "start_relationship": "Barrier extent",
+        "end_relationship": "Barrier extent",
+        "opening_relationship": "Packed continuously around protected penetrations",
+        "load_bearing_role": "Physical termite barrier material"
+      },
+      "search_text": "graded stone termite barrier | granular termite barrier",
+      "ai_aliases": [
+        "granular termite barrier"
+      ],
+      "natural_language_examples": [
+        "Draw a graded stone termite barrier.",
+        "Select the graded stone termite barrier."
+      ],
+      "disambiguation_terms": [
+        "ordinary drainage gravel",
+        "quarry sand bedding"
+      ],
+      "negative_terms": [
+        "ordinary drainage gravel",
+        "quarry sand bedding"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ]
+        }
+      ],
+      "notes": [
+        "Generic drainage aggregate must not be relabelled as a termite barrier without evidence that it is the specified graded system material."
+      ]
+    },
+    {
+      "id": "AU-TM-PENETRATION-COLLAR",
+      "canonical_name": "termite penetration collar",
+      "preferred_australian_name": "termite penetration collar",
+      "object_type": "seal",
+      "discipline": "termite_management",
+      "category": "termite_barriers",
+      "definition_plain": "A rigid or flexible barrier component fitted tightly around a service passing through a slab or other protected construction to close a termite entry path.",
+      "definition_technical": null,
+      "primary_function": [
+        "Seal the termite-management system around a service penetration",
+        "Connect the penetration detail to the surrounding barrier or slab",
+        "Prevent concealed passage beside the service"
+      ],
+      "orientation": [
+        "vertical",
+        "varies"
+      ],
+      "typical_materials": [
+        "PVC",
+        "stainless steel",
+        "barrier sheet",
+        "compatible seal material"
+      ],
+      "geometry_class": "discrete_component",
+      "aliases": [
+        {
+          "term": "termite pipe collar",
+          "type": "preferred_synonym",
+          "region": "Australia",
+          "confidence": 0.88
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "service penetration barrier",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.75
+        }
+      ],
+      "not_synonyms": [
+        "fire collar",
+        "under-slab membrane sleeve",
+        "waterproof puddle flange"
+      ],
+      "part_of_assemblies": [
+        "AU-TM-TERMITE-MANAGEMENT-SYSTEM"
+      ],
+      "common_attributes": [
+        "service type",
+        "service diameter",
+        "collar size",
+        "material",
+        "barrier system",
+        "seal method",
+        "slab or joint location"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-3660-1-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-3660-3-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Part 3.4",
+          "relationship": "Selection context and generic physical component classes for termite risk management.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-TM-PENETRATION-COLLAR-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Termite penetration collar is used as a distinct physical object or assembly in Australian termite management construction.",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES",
+            "SRC-ABCB-HP-TERMITE"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-TM-PENETRATION-COLLAR-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A rigid or flexible barrier component fitted tightly around a service passing through a slab or other protected construction to close a termite entry path.",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES",
+            "SRC-ABCB-HP-TERMITE"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-TM-PENETRATION-COLLAR-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Seal the termite-management system around a service penetration; Connect the penetration detail to the surrounding barrier or slab; Prevent concealed passage beside the service",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES",
+            "SRC-ABCB-HP-TERMITE"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "width",
+          "height",
+          "thickness"
+        ],
+        "repetition_pattern": "One at each applicable service penetration",
+        "typical_placement": "Tightly around the service at the protected slab or barrier plane",
+        "host_object": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+        "start_relationship": null,
+        "end_relationship": null,
+        "opening_relationship": "Surrounds and seals the service penetration",
+        "load_bearing_role": "Termite barrier component"
+      },
+      "search_text": "termite penetration collar | termite pipe collar",
+      "ai_aliases": [
+        "termite pipe collar"
+      ],
+      "natural_language_examples": [
+        "Draw a termite penetration collar.",
+        "Select the termite penetration collar."
+      ],
+      "disambiguation_terms": [
+        "fire collar",
+        "under-slab membrane sleeve",
+        "waterproof puddle flange"
+      ],
+      "negative_terms": [
+        "fire collar",
+        "under-slab membrane sleeve",
+        "waterproof puddle flange"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES",
+            "SRC-ABCB-HP-TERMITE"
+          ]
+        }
+      ],
+      "notes": [
+        "Similar-looking collars used for moisture or fire have different tested functions and must remain separate object roles."
+      ]
+    },
+    {
+      "id": "AU-TM-RETICULATION-PIPE",
+      "canonical_name": "termite treatment reticulation pipe",
+      "preferred_australian_name": "termite treatment reticulation pipe",
+      "object_type": "pipe",
+      "discipline": "termite_management",
+      "category": "termite_treatment",
+      "definition_plain": "A perforated pipe network installed in a treatment zone so termiticide can be introduced or replenished without reopening the protected construction.",
+      "definition_technical": null,
+      "primary_function": [
+        "Distribute termiticide through a selected soil zone",
+        "Allow future replenishment of a chemical termite-management component",
+        "Connect treatment zones to accessible charging points"
+      ],
+      "orientation": [
+        "horizontal",
+        "varies"
+      ],
+      "typical_materials": [
+        "polyethylene",
+        "PVC",
+        "proprietary chemical-resistant pipe"
+      ],
+      "geometry_class": "continuous_run",
+      "aliases": [
+        {
+          "term": "termite reticulation system",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.85
+        },
+        {
+          "term": "termite retic pipe",
+          "type": "trade_slang",
+          "region": "Australia",
+          "confidence": 0.8
+        }
+      ],
+      "possible_aliases_requiring_review": [],
+      "not_synonyms": [
+        "subsoil drain",
+        "irrigation pipe"
+      ],
+      "part_of_assemblies": [
+        "AU-TM-TERMITE-MANAGEMENT-SYSTEM"
+      ],
+      "common_attributes": [
+        "pipe path",
+        "diameter",
+        "material",
+        "perforation pattern",
+        "treatment zone",
+        "charging points",
+        "zone isolation",
+        "product system"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-3660-1-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-3660-3-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Part 3.4",
+          "relationship": "Selection context and generic physical component classes for termite risk management.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-TM-RETICULATION-PIPE-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Termite treatment reticulation pipe is used as a distinct physical object or assembly in Australian termite management construction.",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.85
+        },
+        {
+          "id": "AU-TM-RETICULATION-PIPE-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A perforated pipe network installed in a treatment zone so termiticide can be introduced or replenished without reopening the protected construction.",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.76
+        },
+        {
+          "id": "AU-TM-RETICULATION-PIPE-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Distribute termiticide through a selected soil zone; Allow future replenishment of a chemical termite-management component; Connect treatment zones to accessible charging points",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.76
+        }
+      ],
+      "confidence": {
+        "existence": 0.85,
+        "definition": 0.76,
+        "aliases": 0.72,
+        "relationships": 0.71,
+        "overall": 0.73
+      },
+      "review_status": "accepted_pending_review",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Looped or zoned perforated runs to the proprietary system layout",
+        "typical_placement": "Within the chemical-treated soil zone beneath or beside protected construction",
+        "host_object": "AU-TM-CHEMICAL-TREATED-ZONE",
+        "start_relationship": "Accessible charge point",
+        "end_relationship": "Loop or zone termination",
+        "opening_relationship": "Routes around footings and service penetrations to the system design",
+        "load_bearing_role": "Chemical distribution pipe, not drainage"
+      },
+      "search_text": "termite treatment reticulation pipe | termite reticulation system | termite retic pipe",
+      "ai_aliases": [
+        "termite reticulation system",
+        "termite retic pipe"
+      ],
+      "natural_language_examples": [
+        "Draw a termite treatment reticulation pipe.",
+        "Select the termite treatment reticulation pipe."
+      ],
+      "disambiguation_terms": [
+        "subsoil drain",
+        "irrigation pipe"
+      ],
+      "negative_terms": [
+        "subsoil drain",
+        "irrigation pipe"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ]
+        }
+      ],
+      "notes": [
+        "Detailed system layout and chemical compatibility are proprietary design information."
+      ]
+    },
+    {
+      "id": "AU-TM-SHEET-BARRIER",
+      "canonical_name": "termite sheet barrier",
+      "preferred_australian_name": "termite sheet barrier",
+      "object_type": "membrane",
+      "discipline": "termite_management",
+      "category": "termite_barriers",
+      "definition_plain": "A continuous proprietary sheet material installed across likely termite entry paths at slab perimeters, joints, walls or penetrations as part of a tested system.",
+      "definition_technical": null,
+      "primary_function": [
+        "Block concealed termite passage through the detailed area",
+        "Direct termite activity toward an inspectable edge where the system is designed to do so",
+        "Join with compatible collars and seals around penetrations"
+      ],
+      "orientation": [
+        "horizontal",
+        "vertical",
+        "varies"
+      ],
+      "typical_materials": [
+        "polymer sheet",
+        "termicide-impregnated polymer",
+        "metal sheet"
+      ],
+      "geometry_class": "flexible_layer",
+      "aliases": [
+        {
+          "term": "sheet termite barrier",
+          "type": "spelling_variant",
+          "region": "Australia",
+          "confidence": 0.92
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "termite membrane",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.8
+        }
+      ],
+      "not_synonyms": [
+        "ordinary damp-proofing membrane",
+        "waterproofing membrane"
+      ],
+      "part_of_assemblies": [
+        "AU-TM-TERMITE-MANAGEMENT-SYSTEM"
+      ],
+      "common_attributes": [
+        "system",
+        "material",
+        "sheet width",
+        "overlaps",
+        "sealed joints",
+        "perimeter termination",
+        "penetration details",
+        "installation date"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-3660-1-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-3660-3-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Part 3.4",
+          "relationship": "Selection context and generic physical component classes for termite risk management.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-TM-SHEET-BARRIER-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Termite sheet barrier is used as a distinct physical object or assembly in Australian termite management construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-TM-SHEET-BARRIER-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A continuous proprietary sheet material installed across likely termite entry paths at slab perimeters, joints, walls or penetrations as part of a tested system.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-TM-SHEET-BARRIER-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Block concealed termite passage through the detailed area; Direct termite activity toward an inspectable edge where the system is designed to do so; Join with compatible collars and seals around penetrations",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Continuous detailed sheet zones with sealed joints",
+        "typical_placement": "At selected termite entry paths in the slab, wall or perimeter construction",
+        "host_object": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+        "start_relationship": "System termination",
+        "end_relationship": "System termination",
+        "opening_relationship": "Sealed to compatible collars around penetrations",
+        "load_bearing_role": "Termite-management barrier, not structural"
+      },
+      "search_text": "termite sheet barrier | sheet termite barrier",
+      "ai_aliases": [
+        "sheet termite barrier"
+      ],
+      "natural_language_examples": [
+        "Draw a termite sheet barrier.",
+        "Select the termite sheet barrier."
+      ],
+      "disambiguation_terms": [
+        "ordinary damp-proofing membrane",
+        "waterproofing membrane"
+      ],
+      "negative_terms": [
+        "ordinary damp-proofing membrane",
+        "waterproofing membrane"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ]
+        }
+      ],
+      "notes": [
+        "A product must only be modelled as a termite barrier when it belongs to an appropriate tested and installed system."
+      ]
+    },
+    {
+      "id": "AU-TM-STAINLESS-MESH-BARRIER",
+      "canonical_name": "stainless steel mesh termite barrier",
+      "preferred_australian_name": "stainless steel mesh termite barrier",
+      "object_type": "mesh",
+      "discipline": "termite_management",
+      "category": "termite_barriers",
+      "definition_plain": "A fine corrosion-resistant steel mesh fixed and sealed across joints, perimeters or service penetrations so termites cannot pass through the mesh openings.",
+      "definition_technical": null,
+      "primary_function": [
+        "Physically block termite passage",
+        "Bridge and seal vulnerable construction interfaces",
+        "Form collars or strips within a complete management system"
+      ],
+      "orientation": [
+        "horizontal",
+        "vertical",
+        "varies"
+      ],
+      "typical_materials": [
+        "stainless steel mesh",
+        "compatible adhesive or mortar"
+      ],
+      "geometry_class": "flexible_layer",
+      "aliases": [
+        {
+          "term": "termite mesh",
+          "type": "preferred_synonym",
+          "region": "Australia",
+          "confidence": 0.88
+        }
+      ],
+      "possible_aliases_requiring_review": [],
+      "not_synonyms": [
+        "insect screen mesh",
+        "reinforcing mesh"
+      ],
+      "part_of_assemblies": [
+        "AU-TM-TERMITE-MANAGEMENT-SYSTEM"
+      ],
+      "common_attributes": [
+        "mesh grade",
+        "aperture",
+        "strip width",
+        "joint detail",
+        "adhesive or embedment",
+        "substrate",
+        "termination"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-3660-1-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-3660-3-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Part 3.4",
+          "relationship": "Selection context and generic physical component classes for termite risk management.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-TM-STAINLESS-MESH-BARRIER-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Stainless steel mesh termite barrier is used as a distinct physical object or assembly in Australian termite management construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-TM-STAINLESS-MESH-BARRIER-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A fine corrosion-resistant steel mesh fixed and sealed across joints, perimeters or service penetrations so termites cannot pass through the mesh openings.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-TM-STAINLESS-MESH-BARRIER-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Physically block termite passage; Bridge and seal vulnerable construction interfaces; Form collars or strips within a complete management system",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Continuous strips or formed collars at selected entry paths",
+        "typical_placement": "Embedded or bonded at slab perimeters, joints, walls and penetrations",
+        "host_object": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+        "start_relationship": "Barrier termination",
+        "end_relationship": "Barrier termination",
+        "opening_relationship": "Formed tightly around protected penetrations",
+        "load_bearing_role": "Physical termite barrier"
+      },
+      "search_text": "stainless steel mesh termite barrier | termite mesh",
+      "ai_aliases": [
+        "termite mesh"
+      ],
+      "natural_language_examples": [
+        "Draw a stainless steel mesh termite barrier.",
+        "Select the stainless steel mesh termite barrier."
+      ],
+      "disambiguation_terms": [
+        "insect screen mesh",
+        "reinforcing mesh"
+      ],
+      "negative_terms": [
+        "insect screen mesh",
+        "reinforcing mesh"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "canonical_name": "termite management system",
+      "preferred_australian_name": "termite management system",
+      "object_type": "assembly",
+      "discipline": "termite_management",
+      "category": "termite_management",
+      "definition_plain": "A coordinated set of physical barriers, treated zones, inspection provisions and identification information used to reduce termite entry risk or make concealed entry more difficult.",
+      "definition_technical": null,
+      "primary_function": [
+        "Reduce the risk of concealed termite entry",
+        "Force termite activity into inspectable locations where the selected system relies on detection",
+        "Protect susceptible primary building elements as required by the project"
+      ],
+      "orientation": [
+        "horizontal",
+        "vertical",
+        "varies"
+      ],
+      "typical_materials": [
+        "sheet barrier",
+        "stainless steel mesh",
+        "graded stone",
+        "chemical-treated soil",
+        "concrete",
+        "identification notice"
+      ],
+      "geometry_class": "volumetric_element",
+      "aliases": [
+        {
+          "term": "termite protection system",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.82
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "termite barrier system",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.8
+        }
+      ],
+      "not_synonyms": [
+        "single termite barrier component",
+        "termite inspection"
+      ],
+      "part_of_assemblies": [],
+      "common_attributes": [
+        "system type",
+        "protected building elements",
+        "perimeter components",
+        "penetration components",
+        "joint components",
+        "inspection zones",
+        "installation date",
+        "design life",
+        "maintenance requirements"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-3660-1-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-3660-3-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Part 3.4",
+          "relationship": "Selection context and generic physical component classes for termite risk management.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Termite management system is used as a distinct physical object or assembly in Australian termite management construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A coordinated set of physical barriers, treated zones, inspection provisions and identification information used to reduce termite entry risk or make concealed entry more difficult.",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Reduce the risk of concealed termite entry; Force termite activity into inspectable locations where the selected system relies on detection; Protect susceptible primary building elements as required by the project",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Coordinated component network at termite entry paths",
+        "typical_placement": "At the slab perimeter, penetrations, joints, suspended-floor supports and vulnerable attachments as selected",
+        "host_object": null,
+        "start_relationship": null,
+        "end_relationship": null,
+        "opening_relationship": "Detailed around every applicable service penetration and construction joint",
+        "load_bearing_role": "Pest-management assembly, not structural"
+      },
+      "search_text": "termite management system | termite protection system",
+      "ai_aliases": [
+        "termite protection system"
+      ],
+      "natural_language_examples": [
+        "Draw a termite management system.",
+        "Select the termite management system."
+      ],
+      "disambiguation_terms": [
+        "single termite barrier component",
+        "termite inspection"
+      ],
+      "negative_terms": [
+        "single termite barrier component",
+        "termite inspection"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-TERMITE",
+            "SRC-CSIRO-MANAGING-TERMITES"
+          ]
+        }
+      ],
+      "notes": [
+        "A slab or one barrier component is not automatically a complete system. Selection depends on jurisdiction, site and building construction."
+      ]
+    },
+    {
+      "id": "AU-TM-TERMITE-SHIELD",
+      "canonical_name": "termite shield",
+      "preferred_australian_name": "termite shield",
+      "object_type": "flashing",
+      "discipline": "termite_management",
+      "category": "termite_barriers",
+      "definition_plain": "A formed metal sheet placed over a stump, pier or wall support to obstruct concealed termite passage and expose any shelter tubes around its projecting edges.",
+      "definition_technical": null,
+      "primary_function": [
+        "Interrupt concealed termite access over a support",
+        "Force termite shelter tubes into a more visible path",
+        "Separate susceptible framing from the support below"
+      ],
+      "orientation": [
+        "horizontal"
+      ],
+      "typical_materials": [
+        "galvanised steel",
+        "stainless steel",
+        "other durable sheet metal"
+      ],
+      "geometry_class": "discrete_component",
+      "aliases": [
+        {
+          "term": "ant cap",
+          "type": "trade_slang",
+          "region": "Australia",
+          "confidence": 0.96
+        },
+        {
+          "term": "termite cap",
+          "type": "preferred_synonym",
+          "region": "Australia",
+          "confidence": 0.83
+        }
+      ],
+      "possible_aliases_requiring_review": [],
+      "not_synonyms": [
+        "post stirrup",
+        "damp-proof course"
+      ],
+      "part_of_assemblies": [
+        "AU-TM-TERMITE-MANAGEMENT-SYSTEM"
+      ],
+      "common_attributes": [
+        "shape",
+        "width",
+        "length",
+        "material",
+        "corrosion protection",
+        "edge projection",
+        "support type",
+        "penetrations"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-3660-1-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-3660-3-2014",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Part 3.4",
+          "relationship": "Selection context and generic physical component classes for termite risk management.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-TM-TERMITE-SHIELD-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Termite shield is used as a distinct physical object or assembly in Australian termite management construction.",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES",
+            "SRC-RMIT-STUMP-PAD",
+            "SRC-RMIT-FLOOR-JOIST"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-TM-TERMITE-SHIELD-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A formed metal sheet placed over a stump, pier or wall support to obstruct concealed termite passage and expose any shelter tubes around its projecting edges.",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES",
+            "SRC-RMIT-STUMP-PAD",
+            "SRC-RMIT-FLOOR-JOIST"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-TM-TERMITE-SHIELD-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Interrupt concealed termite access over a support; Force termite shelter tubes into a more visible path; Separate susceptible framing from the support below",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES",
+            "SRC-RMIT-STUMP-PAD",
+            "SRC-RMIT-FLOOR-JOIST"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "width",
+          "height",
+          "thickness"
+        ],
+        "repetition_pattern": "One at each applicable stump or pier head",
+        "typical_placement": "Between the support head and the bearer or supported framing",
+        "host_object": "AU-CF-STUMP",
+        "start_relationship": null,
+        "end_relationship": null,
+        "opening_relationship": "Detailed around any hold-down rod or fixing",
+        "load_bearing_role": "Inspection-forcing barrier sheet; bearing depends on support detail"
+      },
+      "search_text": "termite shield | ant cap | termite cap",
+      "ai_aliases": [
+        "ant cap",
+        "termite cap"
+      ],
+      "natural_language_examples": [
+        "Draw a termite shield.",
+        "Select the termite shield."
+      ],
+      "disambiguation_terms": [
+        "post stirrup",
+        "damp-proof course"
+      ],
+      "negative_terms": [
+        "post stirrup",
+        "damp-proof course"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-CSIRO-MANAGING-TERMITES",
+            "SRC-RMIT-STUMP-PAD",
+            "SRC-RMIT-FLOOR-JOIST"
+          ]
+        }
+      ],
+      "notes": [
+        "Despite the trade name 'ant cap', its termite-management role is to obstruct concealed access and aid inspection rather than guarantee exclusion by itself."
+      ]
+    }
+  ]
+}

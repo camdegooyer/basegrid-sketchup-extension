@@ -1,0 +1,1305 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "structural_steel",
+  "relationships": [
+    {
+      "id": "REL-7813-SS-ANCHOR-BOLT-CONNECTS-TO-AU-SS-BASE-PLATE",
+      "from_id": "AU-SS-ANCHOR-BOLT",
+      "relationship": "connects_to",
+      "to_id": "AU-SS-BASE-PLATE",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-DESIGN-CONSTRUCTION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7814-SS-ANCHOR-BOLT-PART-OF-AU-SS-BASE-PLATE-CONNECTION",
+      "from_id": "AU-SS-ANCHOR-BOLT",
+      "relationship": "part_of",
+      "to_id": "AU-SS-BASE-PLATE-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-DESIGN-CONSTRUCTION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7815-SS-ANGLE-CLEAT-PART-OF-AU-SS-CONNECTION",
+      "from_id": "AU-SS-ANGLE-CLEAT",
+      "relationship": "part_of",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7816-SS-BASE-PLATE-CONNECTS-TO-AU-SS-ANCHOR-BOLT",
+      "from_id": "AU-SS-BASE-PLATE",
+      "relationship": "connects_to",
+      "to_id": "AU-SS-ANCHOR-BOLT",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-DESIGN-CONSTRUCTION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7817-SS-BASE-PLATE-CONNECTS-TO-AU-SS-COLUMN",
+      "from_id": "AU-SS-BASE-PLATE",
+      "relationship": "connects_to",
+      "to_id": "AU-SS-COLUMN",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7818-SS-BASE-PLATE-PART-OF-AU-SS-BASE-PLATE-CONNECTION",
+      "from_id": "AU-SS-BASE-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-SS-BASE-PLATE-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7819-SS-BASE-PLATE-CONNECTION-CONNECTS-TO-AU-SS-COLUMN",
+      "from_id": "AU-SS-BASE-PLATE-CONNECTION",
+      "relationship": "connects_to",
+      "to_id": "AU-SS-COLUMN",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7820-SS-BASE-PLATE-CONNECTION-HAS-PART-AU-SS-ANCHOR-BOLT",
+      "from_id": "AU-SS-BASE-PLATE-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-ANCHOR-BOLT",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-DESIGN-CONSTRUCTION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7821-SS-BASE-PLATE-CONNECTION-HAS-PART-AU-SS-BASE-PLATE",
+      "from_id": "AU-SS-BASE-PLATE-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-BASE-PLATE",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7822-SS-BASE-PLATE-CONNECTION-IS-A-AU-SS-CONNECTION",
+      "from_id": "AU-SS-BASE-PLATE-CONNECTION",
+      "relationship": "is_a",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7823-SS-BASE-PLATE-CONNECTION-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-BASE-PLATE-CONNECTION",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7824-SS-BEAM-IS-A-AU-SS-MEMBER",
+      "from_id": "AU-SS-BEAM",
+      "relationship": "is_a",
+      "to_id": "AU-SS-MEMBER",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7825-SS-BEAM-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7826-SS-BEAM-SUPPORTED-BY-AU-SS-COLUMN",
+      "from_id": "AU-SS-BEAM",
+      "relationship": "supported_by",
+      "to_id": "AU-SS-COLUMN",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-BASE-PLATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7827-SS-BEAM-TEE-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-BEAM-TEE",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-SECTION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7830-SS-BEARER-IS-A-AU-SS-BEAM",
+      "from_id": "AU-SS-BEARER",
+      "relationship": "is_a",
+      "to_id": "AU-SS-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7831-SS-BEARER-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-BEARER",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7833-SS-BEARING-PLATE-PART-OF-AU-SS-CONNECTION",
+      "from_id": "AU-SS-BEARING-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7834-SS-BOLT-HOLE-PART-OF-AU-SS-BOLTED-CONNECTION",
+      "from_id": "AU-SS-BOLT-HOLE",
+      "relationship": "part_of",
+      "to_id": "AU-SS-BOLTED-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7835-SS-BOLTED-CONNECTION-HAS-PART-AU-SS-BOLT-HOLE",
+      "from_id": "AU-SS-BOLTED-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-BOLT-HOLE",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7836-SS-BOLTED-CONNECTION-HAS-PART-AU-SS-NUT",
+      "from_id": "AU-SS-BOLTED-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-NUT",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-SA-AS-NZS-1252-1-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7837-SS-BOLTED-CONNECTION-HAS-PART-AU-SS-STRUCTURAL-BOLT",
+      "from_id": "AU-SS-BOLTED-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-STRUCTURAL-BOLT",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-SA-AS-NZS-1252-1-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7838-SS-BOLTED-CONNECTION-HAS-PART-AU-SS-WASHER",
+      "from_id": "AU-SS-BOLTED-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-WASHER",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-SA-AS-NZS-1252-1-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7839-SS-BOLTED-CONNECTION-IS-A-AU-SS-CONNECTION",
+      "from_id": "AU-SS-BOLTED-CONNECTION",
+      "relationship": "is_a",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7840-SS-BOLTED-CONNECTION-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-BOLTED-CONNECTION",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7841-SS-BRACE-BRACES-AU-SS-FRAME",
+      "from_id": "AU-SS-BRACE",
+      "relationship": "braces",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7842-SS-BRACE-COMMONLY-USED-WITH-AU-SS-BRACING-CLEAT",
+      "from_id": "AU-SS-BRACE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-SS-BRACING-CLEAT",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7843-SS-BRACE-IS-A-AU-SS-MEMBER",
+      "from_id": "AU-SS-BRACE",
+      "relationship": "is_a",
+      "to_id": "AU-SS-MEMBER",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7844-SS-BRACE-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-BRACE",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7845-SS-BRACING-CLEAT-COMMONLY-USED-WITH-AU-SS-BRACE",
+      "from_id": "AU-SS-BRACING-CLEAT",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-SS-BRACE",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7846-SS-BRACING-CLEAT-PART-OF-AU-SS-CONNECTION",
+      "from_id": "AU-SS-BRACING-CLEAT",
+      "relationship": "part_of",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7847-SS-CHS-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-CHS",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-SA-AS-NZS-1163-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7848-SS-COLUMN-CONNECTS-TO-AU-SS-BASE-PLATE",
+      "from_id": "AU-SS-COLUMN",
+      "relationship": "connects_to",
+      "to_id": "AU-SS-BASE-PLATE",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7849-SS-COLUMN-CONNECTS-TO-AU-SS-BASE-PLATE-CONNECTION",
+      "from_id": "AU-SS-COLUMN",
+      "relationship": "connects_to",
+      "to_id": "AU-SS-BASE-PLATE-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7850-SS-COLUMN-IS-A-AU-SS-MEMBER",
+      "from_id": "AU-SS-COLUMN",
+      "relationship": "is_a",
+      "to_id": "AU-SS-MEMBER",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-BASE-PLATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7851-SS-COLUMN-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-COLUMN",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-BASE-PLATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7852-SS-COLUMN-SUPPORTS-AU-SS-BEAM",
+      "from_id": "AU-SS-COLUMN",
+      "relationship": "supports",
+      "to_id": "AU-SS-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-BASE-PLATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7853-SS-COLUMN-TEE-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-COLUMN-TEE",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-SECTION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7854-SS-CONNECTION-CONNECTS-TO-AU-SS-MEMBER",
+      "from_id": "AU-SS-CONNECTION",
+      "relationship": "connects_to",
+      "to_id": "AU-SS-MEMBER",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7855-SS-CONNECTION-HAS-PART-AU-SS-ANGLE-CLEAT",
+      "from_id": "AU-SS-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-ANGLE-CLEAT",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7856-SS-CONNECTION-HAS-PART-AU-SS-BEARING-PLATE",
+      "from_id": "AU-SS-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-BEARING-PLATE",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7857-SS-CONNECTION-HAS-PART-AU-SS-BRACING-CLEAT",
+      "from_id": "AU-SS-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-BRACING-CLEAT",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7858-SS-CONNECTION-HAS-PART-AU-SS-END-PLATE",
+      "from_id": "AU-SS-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-END-PLATE",
+      "source_ids": [
+        "SRC-ASI-DESIGN-ECONOMY",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7859-SS-CONNECTION-HAS-PART-AU-SS-GUSSET-PLATE",
+      "from_id": "AU-SS-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-GUSSET-PLATE",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7860-SS-CONNECTION-HAS-PART-AU-SS-STIFFENER-PLATE",
+      "from_id": "AU-SS-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-STIFFENER-PLATE",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7861-SS-CONNECTION-HAS-PART-AU-SS-WEB-SIDE-PLATE",
+      "from_id": "AU-SS-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-WEB-SIDE-PLATE",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7862-SS-CONNECTION-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-CONNECTION",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7863-SS-EA-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-EA",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-SECTION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7864-SS-END-PLATE-PART-OF-AU-SS-CONNECTION",
+      "from_id": "AU-SS-END-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-DESIGN-ECONOMY",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7865-SS-FLAT-BAR-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-FLAT-BAR",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-SECTION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7867-SS-FRAME-HAS-PART-AU-SS-BASE-PLATE-CONNECTION",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-BASE-PLATE-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-BASE-PLATE",
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7868-SS-FRAME-HAS-PART-AU-SS-BEAM",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7869-SS-FRAME-HAS-PART-AU-SS-BEARER",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-BEARER",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7870-SS-FRAME-HAS-PART-AU-SS-BOLTED-CONNECTION",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-BOLTED-CONNECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7871-SS-FRAME-HAS-PART-AU-SS-BRACE",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-BRACE",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7872-SS-FRAME-HAS-PART-AU-SS-COLUMN",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-COLUMN",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-BASE-PLATE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7873-SS-FRAME-HAS-PART-AU-SS-CONNECTION",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7874-SS-FRAME-HAS-PART-AU-SS-HDG-COATING",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-HDG-COATING",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-SA-AS-NZS-5131-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7875-SS-FRAME-HAS-PART-AU-SS-LINTEL",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7876-SS-FRAME-HAS-PART-AU-SS-MEMBER",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-MEMBER",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-CONSTRUCTION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7877-SS-FRAME-HAS-PART-AU-SS-PAINT-COATING",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-PAINT-COATING",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-SA-AS-NZS-5131-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7878-SS-FRAME-HAS-PART-AU-SS-SPLICE-CONNECTION",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-SPLICE-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7879-SS-FRAME-HAS-PART-AU-SS-STRUTTING-BEAM",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-STRUTTING-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7880-SS-FRAME-HAS-PART-AU-SS-WEB-PENETRATION",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-WEB-PENETRATION",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7881-SS-FRAME-HAS-PART-AU-SS-WELDED-CONNECTION",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SS-WELDED-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7882-SS-GUSSET-PLATE-PART-OF-AU-SS-CONNECTION",
+      "from_id": "AU-SS-GUSSET-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7883-SS-HDG-COATING-COVERS-AU-SS-MEMBER",
+      "from_id": "AU-SS-HDG-COATING",
+      "relationship": "covers",
+      "to_id": "AU-SS-MEMBER",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-SA-AS-NZS-5131-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7884-SS-HDG-COATING-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-HDG-COATING",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-SA-AS-NZS-5131-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7885-SS-LINTEL-IS-A-AU-SS-BEAM",
+      "from_id": "AU-SS-LINTEL",
+      "relationship": "is_a",
+      "to_id": "AU-SS-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7886-SS-LINTEL-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-LINTEL",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7888-SS-MEMBER-CONNECTS-TO-AU-SS-CONNECTION",
+      "from_id": "AU-SS-MEMBER",
+      "relationship": "connects_to",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7889-SS-MEMBER-CONNECTS-TO-AU-SS-SPLICE-CONNECTION",
+      "from_id": "AU-SS-MEMBER",
+      "relationship": "connects_to",
+      "to_id": "AU-SS-SPLICE-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7890-SS-MEMBER-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-MEMBER",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-CONSTRUCTION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7891-SS-NUT-PART-OF-AU-SS-BOLTED-CONNECTION",
+      "from_id": "AU-SS-NUT",
+      "relationship": "part_of",
+      "to_id": "AU-SS-BOLTED-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-SA-AS-NZS-1252-1-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7892-SS-PAINT-COATING-COVERS-AU-SS-MEMBER",
+      "from_id": "AU-SS-PAINT-COATING",
+      "relationship": "covers",
+      "to_id": "AU-SS-MEMBER",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-SA-AS-NZS-5131-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7893-SS-PAINT-COATING-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-PAINT-COATING",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-SA-AS-NZS-5131-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7894-SS-PFC-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-PFC",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-SECTION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7895-SS-RHS-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-RHS",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-SA-AS-NZS-1163-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7896-SS-SHS-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-SHS",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-SA-AS-NZS-1163-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7897-SS-SPLICE-CONNECTION-CONNECTS-TO-AU-SS-MEMBER",
+      "from_id": "AU-SS-SPLICE-CONNECTION",
+      "relationship": "connects_to",
+      "to_id": "AU-SS-MEMBER",
+      "source_ids": [
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7898-SS-SPLICE-CONNECTION-HAS-PART-AU-SS-SPLICE-PLATE",
+      "from_id": "AU-SS-SPLICE-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-SPLICE-PLATE",
+      "source_ids": [
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7899-SS-SPLICE-CONNECTION-IS-A-AU-SS-CONNECTION",
+      "from_id": "AU-SS-SPLICE-CONNECTION",
+      "relationship": "is_a",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7900-SS-SPLICE-CONNECTION-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-SPLICE-CONNECTION",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7901-SS-SPLICE-PLATE-PART-OF-AU-SS-SPLICE-CONNECTION",
+      "from_id": "AU-SS-SPLICE-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-SS-SPLICE-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-DESIGN-CONSTRUCTION",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7902-SS-STIFFENER-PLATE-PART-OF-AU-SS-CONNECTION",
+      "from_id": "AU-SS-STIFFENER-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7903-SS-STRUCTURAL-BOLT-PART-OF-AU-SS-BOLTED-CONNECTION",
+      "from_id": "AU-SS-STRUCTURAL-BOLT",
+      "relationship": "part_of",
+      "to_id": "AU-SS-BOLTED-CONNECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-SA-AS-NZS-1252-1-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7904-SS-STRUTTING-BEAM-IS-A-AU-SS-BEAM",
+      "from_id": "AU-SS-STRUTTING-BEAM",
+      "relationship": "is_a",
+      "to_id": "AU-SS-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7905-SS-STRUTTING-BEAM-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-STRUTTING-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7907-SS-TFB-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-TFB",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-SECTION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7908-SS-UA-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-UA",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-SECTION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7909-SS-UB-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-UB",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-DESIGN-ECONOMY",
+        "SRC-ASI-SECTION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7910-SS-UC-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-UC",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-SECTION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7911-SS-WASHER-PART-OF-AU-SS-BOLTED-CONNECTION",
+      "from_id": "AU-SS-WASHER",
+      "relationship": "part_of",
+      "to_id": "AU-SS-BOLTED-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-SA-AS-NZS-1252-1-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7912-SS-WB-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-WB",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-SECTION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7913-SS-WC-IS-A-AU-SS-SECTION",
+      "from_id": "AU-SS-WC",
+      "relationship": "is_a",
+      "to_id": "AU-SS-SECTION",
+      "source_ids": [
+        "SRC-ASI-SECTION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7914-SS-WEB-PENETRATION-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-WEB-PENETRATION",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7915-SS-WEB-PENETRATION-PENETRATES-AU-SS-MEMBER",
+      "from_id": "AU-SS-WEB-PENETRATION",
+      "relationship": "penetrates",
+      "to_id": "AU-SS-MEMBER",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7916-SS-WEB-SIDE-PLATE-PART-OF-AU-SS-CONNECTION",
+      "from_id": "AU-SS-WEB-SIDE-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-STANDARD-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7917-SS-WELD-PART-OF-AU-SS-WELDED-CONNECTION",
+      "from_id": "AU-SS-WELD",
+      "relationship": "part_of",
+      "to_id": "AU-SS-WELDED-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY",
+        "SRC-SA-AS-NZS-1554-1-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7918-SS-WELDED-CONNECTION-HAS-PART-AU-SS-WELD",
+      "from_id": "AU-SS-WELDED-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-SS-WELD",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY",
+        "SRC-SA-AS-NZS-1554-1-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7919-SS-WELDED-CONNECTION-IS-A-AU-SS-CONNECTION",
+      "from_id": "AU-SS-WELDED-CONNECTION",
+      "relationship": "is_a",
+      "to_id": "AU-SS-CONNECTION",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7920-SS-WELDED-CONNECTION-PART-OF-AU-SS-FRAME",
+      "from_id": "AU-SS-WELDED-CONNECTION",
+      "relationship": "part_of",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-ECONOMY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-7828-SS-BEARER-COMMONLY-USED-WITH-AU-DB-DECK-BEARER-LINE",
+      "from_id": "AU-SS-BEARER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-BEARER-LINE",
+      "source_ids": [
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7829-SS-BEARER-COMMONLY-USED-WITH-AU-DB-STEEL-FRAMED-DECK-ASSEMBLY",
+      "from_id": "AU-SS-BEARER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-STEEL-FRAMED-DECK-ASSEMBLY",
+      "source_ids": [
+        "SRC-MODWOOD-AU-INSTALLATION",
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7832-SS-BEARER-SUPPORTS-AU-TF-FLOOR-FRAME",
+      "from_id": "AU-SS-BEARER",
+      "relationship": "supports",
+      "to_id": "AU-TF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7866-SS-FRAME-ALTERNATIVE-TO-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SS-FRAME",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-CONSTRUCTION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7887-SS-LINTEL-SUPPORTS-AU-TF-WALL-FRAME",
+      "from_id": "AU-SS-LINTEL",
+      "relationship": "supports",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7906-SS-STRUTTING-BEAM-SUPPORTS-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-SS-STRUTTING-BEAM",
+      "relationship": "supports",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

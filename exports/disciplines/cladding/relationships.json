@@ -1,0 +1,3848 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "cladding",
+  "relationships": [
+    {
+      "id": "REL-591-CL-AAC-PANEL-CLADDING-HAS-PART-AU-CL-AAC-PANEL-FIXING",
+      "from_id": "AU-CL-AAC-PANEL-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-AAC-PANEL-FIXING",
+      "source_ids": [
+        "SRC-HEBEL-TECHNICAL-DOCUMENTS",
+        "SRC-SA-AS-5146-3-2018"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-592-CL-AAC-PANEL-CLADDING-HAS-PART-AU-CL-REINFORCED-AAC-WALL-PANEL",
+      "from_id": "AU-CL-AAC-PANEL-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-REINFORCED-AAC-WALL-PANEL",
+      "source_ids": [
+        "SRC-HEBEL-EXTERNAL-WALLS",
+        "SRC-SA-AS-5146-1-2015",
+        "SRC-SA-AS-5146-2-2018"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-593-CL-AAC-PANEL-CLADDING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-AAC-PANEL-CLADDING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-HEBEL-EXTERNAL-WALLS",
+        "SRC-HEBEL-TECHNICAL-DOCUMENTS",
+        "SRC-SA-AS-5146-1-2015",
+        "SRC-SA-AS-5146-3-2018"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-594-CL-AAC-PANEL-FIXING-PART-OF-AU-CL-AAC-PANEL-CLADDING",
+      "from_id": "AU-CL-AAC-PANEL-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-AAC-PANEL-CLADDING",
+      "source_ids": [
+        "SRC-HEBEL-TECHNICAL-DOCUMENTS",
+        "SRC-SA-AS-5146-3-2018"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-595-CL-ALUMINIUM-COMPOSITE-PANEL-PART-OF-AU-CL-COMPOSITE-METAL-PANEL-FACADE",
+      "from_id": "AU-CL-ALUMINIUM-COMPOSITE-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-COMPOSITE-METAL-PANEL-FACADE",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-FAIRVIEW-VITRACORE-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-596-CL-BOARD-BUTT-JOINT-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-BOARD-BUTT-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-WOODSOLUTIONS-EXTERNAL-TIMBER-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-597-CL-BOARD-LAP-JOINT-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-BOARD-LAP-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-598-CL-BOND-BREAKER-TAPE-PART-OF-AU-CL-CLADDING-MOVEMENT-JOINT",
+      "from_id": "AU-CL-BOND-BREAKER-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "source_ids": [
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-599-CL-CASSETTE-CLEAT-PART-OF-AU-CL-METAL-CASSETTE-FACADE",
+      "from_id": "AU-CL-CASSETTE-CLEAT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "source_ids": [
+        "SRC-FAIRVIEW-VITRACORE-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-600-CL-CASSETTE-RETURN-FOLD-PART-OF-AU-CL-METAL-CASSETTE-TRAY",
+      "from_id": "AU-CL-CASSETTE-RETURN-FOLD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-CASSETTE-TRAY",
+      "source_ids": [
+        "SRC-FAIRVIEW-VITRACORE-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-601-CL-CASSETTE-STIFFENER-PART-OF-AU-CL-METAL-CASSETTE-TRAY",
+      "from_id": "AU-CL-CASSETTE-STIFFENER",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-CASSETTE-TRAY",
+      "source_ids": [
+        "SRC-FAIRVIEW-VITRACORE-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-602-CL-CAVITY-EIFS-WALL-SYSTEM-PART-OF-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-CAVITY-EIFS-WALL-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-603-CL-CAVITY-VENT-CLOSURE-STRIP-PART-OF-AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "from_id": "AU-CL-CAVITY-VENT-CLOSURE-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-604-CL-CLADDING-BASE-FLASHING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-CLADDING-BASE-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-605-CL-CLADDING-CAVITY-PART-OF-AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "from_id": "AU-CL-CLADDING-CAVITY",
+      "relationship": "part_of",
+      "to_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-606-CL-CLADDING-EXPANSION-GAP-PART-OF-AU-CL-CLADDING-MOVEMENT-JOINT",
+      "from_id": "AU-CL-CLADDING-EXPANSION-GAP",
+      "relationship": "part_of",
+      "to_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-SA-AS-5146-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-607-CL-CLADDING-JOINER-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-CLADDING-JOINER",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-608-CL-CLADDING-JOINT-SEALANT-PART-OF-AU-CL-CLADDING-MOVEMENT-JOINT",
+      "from_id": "AU-CL-CLADDING-JOINT-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "source_ids": [
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-5146-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-609-CL-CLADDING-MOVEMENT-JOINT-HAS-PART-AU-CL-BOND-BREAKER-TAPE",
+      "from_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "relationship": "has_part",
+      "to_id": "AU-CL-BOND-BREAKER-TAPE",
+      "source_ids": [
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-610-CL-CLADDING-MOVEMENT-JOINT-HAS-PART-AU-CL-CLADDING-EXPANSION-GAP",
+      "from_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CLADDING-EXPANSION-GAP",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-SA-AS-5146-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-611-CL-CLADDING-MOVEMENT-JOINT-HAS-PART-AU-CL-CLADDING-JOINT-SEALANT",
+      "from_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CLADDING-JOINT-SEALANT",
+      "source_ids": [
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-AS-5146-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-612-CL-CLADDING-MOVEMENT-JOINT-HAS-PART-AU-CL-HORIZONTAL-INTERSTOREY-FLASHING",
+      "from_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "relationship": "has_part",
+      "to_id": "AU-CL-HORIZONTAL-INTERSTOREY-FLASHING",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-613-CL-CLADDING-MOVEMENT-JOINT-HAS-PART-AU-CL-JOINT-BACKING-STRIP",
+      "from_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "relationship": "has_part",
+      "to_id": "AU-CL-JOINT-BACKING-STRIP",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-614-CL-CLADDING-MOVEMENT-JOINT-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-SA-AS-5146-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-615-CL-CLADDING-NAIL-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-CLADDING-NAIL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-616-CL-CLADDING-SCREW-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-CLADDING-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-617-CL-CLADDING-STOP-TRIM-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-CLADDING-STOP-TRIM",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-618-CL-COMPOSITE-METAL-PANEL-FACADE-HAS-PART-AU-CL-ALUMINIUM-COMPOSITE-PANEL",
+      "from_id": "AU-CL-COMPOSITE-METAL-PANEL-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-ALUMINIUM-COMPOSITE-PANEL",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-FAIRVIEW-VITRACORE-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-619-CL-COMPOSITE-METAL-PANEL-FACADE-PART-OF-AU-CL-METAL-CASSETTE-FACADE",
+      "from_id": "AU-CL-COMPOSITE-METAL-PANEL-FACADE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-FAIRVIEW-VITRACORE-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-620-CL-CONCEALED-CLADDING-CLIP-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-CONCEALED-CLADDING-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-621-CL-CONCEALED-FIXED-METAL-WALL-SHEET-IS-A-AU-CL-PROFILED-METAL-WALL-SHEET",
+      "from_id": "AU-CL-CONCEALED-FIXED-METAL-WALL-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-CL-PROFILED-METAL-WALL-SHEET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-622-CL-CONCEALED-FIXED-METAL-WALL-SHEET-PART-OF-AU-CL-METAL-SHEET-WALL-CLADDING",
+      "from_id": "AU-CL-CONCEALED-FIXED-METAL-WALL-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-623-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL-HAS-PART-AU-CL-EXTERNAL-INSULATION-LONG-SCREW",
+      "from_id": "AU-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EXTERNAL-INSULATION-LONG-SCREW",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-624-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL-HAS-PART-AU-CL-EXTERNAL-INSULATION-WASHER-PLATE",
+      "from_id": "AU-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EXTERNAL-INSULATION-WASHER-PLATE",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-625-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-626-CL-CORNER-FLASHING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-CORNER-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-627-CL-CORRUGATED-METAL-WALL-SHEET-IS-A-AU-CL-PROFILED-METAL-WALL-SHEET",
+      "from_id": "AU-CL-CORRUGATED-METAL-WALL-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-CL-PROFILED-METAL-WALL-SHEET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-628-CL-CORRUGATED-METAL-WALL-SHEET-PART-OF-AU-CL-METAL-SHEET-WALL-CLADDING",
+      "from_id": "AU-CL-CORRUGATED-METAL-WALL-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-629-CL-CUT-EDGE-SEALER-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-CUT-EDGE-SEALER",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS",
+        "SRC-WOODSOLUTIONS-EXTERNAL-TIMBER-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-630-CL-DIRECT-FIXED-CLADDING-WALL-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-DIRECT-FIXED-CLADDING-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-631-CL-DRAINED-CAVITY-CLADDING-WALL-HAS-PART-AU-CL-CAVITY-VENT-CLOSURE-STRIP",
+      "from_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CAVITY-VENT-CLOSURE-STRIP",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-632-CL-DRAINED-CAVITY-CLADDING-WALL-HAS-PART-AU-CL-CLADDING-CAVITY",
+      "from_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CLADDING-CAVITY",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-633-CL-DRAINED-CAVITY-CLADDING-WALL-HAS-PART-AU-CL-DRAINED-HORIZONTAL-BATTEN",
+      "from_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-DRAINED-HORIZONTAL-BATTEN",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-634-CL-DRAINED-CAVITY-CLADDING-WALL-HAS-PART-AU-CL-HORIZONTAL-STRUCTURAL-BATTEN",
+      "from_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-HORIZONTAL-STRUCTURAL-BATTEN",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-635-CL-DRAINED-CAVITY-CLADDING-WALL-HAS-PART-AU-CL-VERTICAL-CAVITY-BATTEN",
+      "from_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-VERTICAL-CAVITY-BATTEN",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-636-CL-DRAINED-CAVITY-CLADDING-WALL-HAS-PART-AU-CL-WALL-CLADDING-BATTEN",
+      "from_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WALL-CLADDING-BATTEN",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-637-CL-DRAINED-CAVITY-CLADDING-WALL-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-638-CL-DRAINED-HORIZONTAL-BATTEN-IS-A-AU-CL-WALL-CLADDING-BATTEN",
+      "from_id": "AU-CL-DRAINED-HORIZONTAL-BATTEN",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-BATTEN",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-639-CL-DRAINED-HORIZONTAL-BATTEN-PART-OF-AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "from_id": "AU-CL-DRAINED-HORIZONTAL-BATTEN",
+      "relationship": "part_of",
+      "to_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-640-CL-EAVES-SOFFIT-LINING-SYSTEM-HAS-PART-AU-CL-FIBRE-CEMENT-SOFFIT-SHEET",
+      "from_id": "AU-CL-EAVES-SOFFIT-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FIBRE-CEMENT-SOFFIT-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ISO-8336-2017",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-641-CL-EAVES-SOFFIT-LINING-SYSTEM-HAS-PART-AU-CL-SOFFIT-TRIMMER",
+      "from_id": "AU-CL-EAVES-SOFFIT-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-SOFFIT-TRIMMER",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-642-CL-EAVES-SOFFIT-LINING-SYSTEM-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-EAVES-SOFFIT-LINING-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-643-CL-EIFS-ADHESIVE-BED-PART-OF-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EIFS-ADHESIVE-BED",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-644-CL-EIFS-BASE-COAT-PART-OF-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EIFS-BASE-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES",
+        "SRC-TGA-CPCCSP3003-TEXTURE-COATS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-645-CL-EIFS-CONTROL-JOINT-PART-OF-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EIFS-CONTROL-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-646-CL-EIFS-CORNER-BEAD-PART-OF-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EIFS-CORNER-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-647-CL-EIFS-DIAGONAL-MESH-PATCH-PART-OF-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EIFS-DIAGONAL-MESH-PATCH",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-648-CL-EIFS-FINISH-COAT-PART-OF-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EIFS-FINISH-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES",
+        "SRC-TGA-CPCCSP3003-TEXTURE-COATS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-649-CL-EIFS-INSULATION-PANEL-PART-OF-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EIFS-INSULATION-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-650-CL-EIFS-MECHANICAL-FIXING-WASHER-PART-OF-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EIFS-MECHANICAL-FIXING-WASHER",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-651-CL-EIFS-REINFORCING-MESH-PART-OF-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EIFS-REINFORCING-MESH",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-652-CL-EIFS-STARTER-TRACK-PART-OF-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EIFS-STARTER-TRACK",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-653-CL-EIFS-WALL-SYSTEM-HAS-PART-AU-CL-CAVITY-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CAVITY-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-654-CL-EIFS-WALL-SYSTEM-HAS-PART-AU-CL-EIFS-ADHESIVE-BED",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EIFS-ADHESIVE-BED",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-655-CL-EIFS-WALL-SYSTEM-HAS-PART-AU-CL-EIFS-BASE-COAT",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EIFS-BASE-COAT",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES",
+        "SRC-TGA-CPCCSP3003-TEXTURE-COATS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-656-CL-EIFS-WALL-SYSTEM-HAS-PART-AU-CL-EIFS-CONTROL-JOINT",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EIFS-CONTROL-JOINT",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-657-CL-EIFS-WALL-SYSTEM-HAS-PART-AU-CL-EIFS-CORNER-BEAD",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EIFS-CORNER-BEAD",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-658-CL-EIFS-WALL-SYSTEM-HAS-PART-AU-CL-EIFS-DIAGONAL-MESH-PATCH",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EIFS-DIAGONAL-MESH-PATCH",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-659-CL-EIFS-WALL-SYSTEM-HAS-PART-AU-CL-EIFS-FINISH-COAT",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EIFS-FINISH-COAT",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES",
+        "SRC-TGA-CPCCSP3003-TEXTURE-COATS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-660-CL-EIFS-WALL-SYSTEM-HAS-PART-AU-CL-EIFS-INSULATION-PANEL",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EIFS-INSULATION-PANEL",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-661-CL-EIFS-WALL-SYSTEM-HAS-PART-AU-CL-EIFS-MECHANICAL-FIXING-WASHER",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EIFS-MECHANICAL-FIXING-WASHER",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-662-CL-EIFS-WALL-SYSTEM-HAS-PART-AU-CL-EIFS-REINFORCING-MESH",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EIFS-REINFORCING-MESH",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-663-CL-EIFS-WALL-SYSTEM-HAS-PART-AU-CL-EIFS-STARTER-TRACK",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EIFS-STARTER-TRACK",
+      "source_ids": [
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-664-CL-EIFS-WALL-SYSTEM-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES",
+        "SRC-TGA-CPCCSP3003-TEXTURE-COATS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-665-CL-EXPRESSED-SHEET-JOINT-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-EXPRESSED-SHEET-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-666-CL-EXTERNAL-CORNER-TRIM-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-EXTERNAL-CORNER-TRIM",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-667-CL-EXTERNAL-INSULATION-LONG-SCREW-PART-OF-AU-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL",
+      "from_id": "AU-CL-EXTERNAL-INSULATION-LONG-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-668-CL-EXTERNAL-INSULATION-WASHER-PLATE-PART-OF-AU-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL",
+      "from_id": "AU-CL-EXTERNAL-INSULATION-WASHER-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION",
+        "SRC-MASTERWALL-X-SERIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-673-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-AAC-PANEL-CLADDING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-AAC-PANEL-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-HEBEL-EXTERNAL-WALLS",
+        "SRC-HEBEL-TECHNICAL-DOCUMENTS",
+        "SRC-SA-AS-5146-1-2015",
+        "SRC-SA-AS-5146-3-2018"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-674-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-BOARD-BUTT-JOINT",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-BOARD-BUTT-JOINT",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-WOODSOLUTIONS-EXTERNAL-TIMBER-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-675-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-BOARD-LAP-JOINT",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-BOARD-LAP-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-676-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-CLADDING-BASE-FLASHING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CLADDING-BASE-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-677-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-CLADDING-JOINER",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CLADDING-JOINER",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-678-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-CLADDING-MOVEMENT-JOINT",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-SA-AS-5146-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-679-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-CLADDING-NAIL",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CLADDING-NAIL",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-680-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-CLADDING-SCREW",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CLADDING-SCREW",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-681-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-CLADDING-STOP-TRIM",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CLADDING-STOP-TRIM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-682-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-CONCEALED-CLADDING-CLIP",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CONCEALED-CLADDING-CLIP",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-683-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-684-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-CORNER-FLASHING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CORNER-FLASHING",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-685-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-CUT-EDGE-SEALER",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CUT-EDGE-SEALER",
+      "source_ids": [
+        "SRC-JH-AXON-INSTALL-GUIDE",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS",
+        "SRC-WOODSOLUTIONS-EXTERNAL-TIMBER-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-686-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-DIRECT-FIXED-CLADDING-WALL",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-DIRECT-FIXED-CLADDING-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-687-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-688-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-EAVES-SOFFIT-LINING-SYSTEM",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EAVES-SOFFIT-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-689-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-EIFS-WALL-SYSTEM",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EIFS-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-ACRATEX-FACADE",
+        "SRC-MASTERWALL-X-SERIES",
+        "SRC-TGA-CPCCSP3003-TEXTURE-COATS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-690-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-EXPRESSED-SHEET-JOINT",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EXPRESSED-SHEET-JOINT",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-691-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-EXTERNAL-CORNER-TRIM",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-EXTERNAL-CORNER-TRIM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-692-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-FIBRE-CEMENT-BOARD-CLADDING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FIBRE-CEMENT-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-693-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-FIBRE-CEMENT-SHEET-CLADDING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FIBRE-CEMENT-SHEET-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-694-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-HARDBOARD-BOARD-CLADDING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-HARDBOARD-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-695-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-HARDBOARD-SHEET-CLADDING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-HARDBOARD-SHEET-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-696-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-697-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-INTERNAL-CORNER-TRIM",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-INTERNAL-CORNER-TRIM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-698-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-METAL-CASSETTE-FACADE",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-FAIRVIEW-VITRACORE-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-699-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-METAL-SHEET-WALL-CLADDING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-700-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-OPENING-FLASHING-SYSTEM",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-701-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-PLYWOOD-SHEET-CLADDING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-PLYWOOD-SHEET-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-702-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-SERVICE-PENETRATION-FLASHING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-SERVICE-PENETRATION-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-703-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-SHIPLAP-CLADDING-BOARD",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-SHIPLAP-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-704-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-SHIPLAP-JOINT",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-SHIPLAP-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-705-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-TIMBER-BOARD-CLADDING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-TIMBER-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-WOODSOLUTIONS-EXTERNAL-TIMBER-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-706-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-TONGUE-GROOVE-CLADDING-BOARD",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-TONGUE-GROOVE-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-707-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-TONGUE-GROOVE-JOINT",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-TONGUE-GROOVE-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-708-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-CEMINTEL-TERRITORY-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-709-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-VERTICAL-JOINT-FLASHING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-VERTICAL-JOINT-FLASHING",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-710-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-VINYL-UPVC-CLADDING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-VINYL-UPVC-CLADDING",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-711-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-WALL-CLADDING-BOARD",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WALL-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-712-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-WALL-CLADDING-SHEET",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WALL-CLADDING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-713-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-WALL-FURRING-CHANNEL",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WALL-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-714-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-WALL-WEATHER-BARRIER",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WALL-WEATHER-BARRIER",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-715-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-WEATHER-BARRIER-SEAM-TAPE",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WEATHER-BARRIER-SEAM-TAPE",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-716-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-CL-WPC-BOARD-CLADDING",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WPC-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-NEWTECHWOOD-AU-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-719-CL-FACADE-BRACKET-PART-OF-AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "from_id": "AU-CL-FACADE-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION",
+        "SRC-STONECLIP-AU-FACADE-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-721-CL-FACADE-CAVITY-BARRIER-PART-OF-AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-FACADE-CAVITY-BARRIER",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-722-CL-FACADE-FIXED-POINT-PART-OF-AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "from_id": "AU-CL-FACADE-FIXED-POINT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-723-CL-FACADE-HOOK-PLATE-PART-OF-AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "from_id": "AU-CL-FACADE-HOOK-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-724-CL-FACADE-PANEL-CLIP-PART-OF-AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-FACADE-PANEL-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-CEMINTEL-TERRITORY-FACADE",
+        "SRC-STONECLIP-AU-FACADE-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-725-CL-FACADE-RAIL-SPLICE-PLATE-PART-OF-AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "from_id": "AU-CL-FACADE-RAIL-SPLICE-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-726-CL-FACADE-SLIDING-POINT-PART-OF-AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "from_id": "AU-CL-FACADE-SLIDING-POINT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-727-CL-FACADE-STANDOFF-PART-OF-AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "from_id": "AU-CL-FACADE-STANDOFF",
+      "relationship": "part_of",
+      "to_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION",
+        "SRC-STONECLIP-AU-FACADE-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-728-CL-FACADE-THERMAL-ISOLATION-PAD-PART-OF-AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "from_id": "AU-CL-FACADE-THERMAL-ISOLATION-PAD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-729-CL-FIBRE-CEMENT-BOARD-CLADDING-HAS-PART-AU-CL-FIBRE-CEMENT-CLADDING-BOARD",
+      "from_id": "AU-CL-FIBRE-CEMENT-BOARD-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FIBRE-CEMENT-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-730-CL-FIBRE-CEMENT-BOARD-CLADDING-HAS-PART-AU-CL-FIBRE-CEMENT-NAIL",
+      "from_id": "AU-CL-FIBRE-CEMENT-BOARD-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FIBRE-CEMENT-NAIL",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-731-CL-FIBRE-CEMENT-BOARD-CLADDING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-FIBRE-CEMENT-BOARD-CLADDING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-732-CL-FIBRE-CEMENT-CLADDING-BOARD-IS-A-AU-CL-WALL-CLADDING-BOARD",
+      "from_id": "AU-CL-FIBRE-CEMENT-CLADDING-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-733-CL-FIBRE-CEMENT-CLADDING-BOARD-PART-OF-AU-CL-FIBRE-CEMENT-BOARD-CLADDING",
+      "from_id": "AU-CL-FIBRE-CEMENT-CLADDING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-FIBRE-CEMENT-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-734-CL-FIBRE-CEMENT-CLADDING-SHEET-IS-A-AU-CL-WALL-CLADDING-SHEET",
+      "from_id": "AU-CL-FIBRE-CEMENT-CLADDING-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ISO-8336-2017",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-735-CL-FIBRE-CEMENT-CLADDING-SHEET-PART-OF-AU-CL-FIBRE-CEMENT-SHEET-CLADDING",
+      "from_id": "AU-CL-FIBRE-CEMENT-CLADDING-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-CL-FIBRE-CEMENT-SHEET-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ISO-8336-2017",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-736-CL-FIBRE-CEMENT-NAIL-IS-A-AU-CL-CLADDING-NAIL",
+      "from_id": "AU-CL-FIBRE-CEMENT-NAIL",
+      "relationship": "is_a",
+      "to_id": "AU-CL-CLADDING-NAIL",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-737-CL-FIBRE-CEMENT-NAIL-PART-OF-AU-CL-FIBRE-CEMENT-BOARD-CLADDING",
+      "from_id": "AU-CL-FIBRE-CEMENT-NAIL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-FIBRE-CEMENT-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-738-CL-FIBRE-CEMENT-NAIL-PART-OF-AU-CL-FIBRE-CEMENT-SHEET-CLADDING",
+      "from_id": "AU-CL-FIBRE-CEMENT-NAIL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-FIBRE-CEMENT-SHEET-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-739-CL-FIBRE-CEMENT-SHEET-CLADDING-HAS-PART-AU-CL-FIBRE-CEMENT-CLADDING-SHEET",
+      "from_id": "AU-CL-FIBRE-CEMENT-SHEET-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FIBRE-CEMENT-CLADDING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ISO-8336-2017",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-740-CL-FIBRE-CEMENT-SHEET-CLADDING-HAS-PART-AU-CL-FIBRE-CEMENT-NAIL",
+      "from_id": "AU-CL-FIBRE-CEMENT-SHEET-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FIBRE-CEMENT-NAIL",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-741-CL-FIBRE-CEMENT-SHEET-CLADDING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-FIBRE-CEMENT-SHEET-CLADDING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-743-CL-FIBRE-CEMENT-SOFFIT-SHEET-PART-OF-AU-CL-EAVES-SOFFIT-LINING-SYSTEM",
+      "from_id": "AU-CL-FIBRE-CEMENT-SOFFIT-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EAVES-SOFFIT-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ISO-8336-2017",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-744-CL-FIBRE-CEMENT-SOFFIT-SHEET-SUPPORTED-BY-AU-CL-SOFFIT-TRIMMER",
+      "from_id": "AU-CL-FIBRE-CEMENT-SOFFIT-SHEET",
+      "relationship": "supported_by",
+      "to_id": "AU-CL-SOFFIT-TRIMMER",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-745-CL-HARDBOARD-BOARD-CLADDING-HAS-PART-AU-CL-HARDBOARD-CLADDING-BOARD",
+      "from_id": "AU-CL-HARDBOARD-BOARD-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-HARDBOARD-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-746-CL-HARDBOARD-BOARD-CLADDING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-HARDBOARD-BOARD-CLADDING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-747-CL-HARDBOARD-CLADDING-BOARD-IS-A-AU-CL-WALL-CLADDING-BOARD",
+      "from_id": "AU-CL-HARDBOARD-CLADDING-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-748-CL-HARDBOARD-CLADDING-BOARD-PART-OF-AU-CL-HARDBOARD-BOARD-CLADDING",
+      "from_id": "AU-CL-HARDBOARD-CLADDING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-HARDBOARD-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-749-CL-HARDBOARD-CLADDING-SHEET-IS-A-AU-CL-WALL-CLADDING-SHEET",
+      "from_id": "AU-CL-HARDBOARD-CLADDING-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-750-CL-HARDBOARD-CLADDING-SHEET-PART-OF-AU-CL-HARDBOARD-SHEET-CLADDING",
+      "from_id": "AU-CL-HARDBOARD-CLADDING-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-CL-HARDBOARD-SHEET-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-751-CL-HARDBOARD-SHEET-CLADDING-HAS-PART-AU-CL-HARDBOARD-CLADDING-SHEET",
+      "from_id": "AU-CL-HARDBOARD-SHEET-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-HARDBOARD-CLADDING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-752-CL-HARDBOARD-SHEET-CLADDING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-HARDBOARD-SHEET-CLADDING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-753-CL-HORIZONTAL-FACADE-RAIL-PART-OF-AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "from_id": "AU-CL-HORIZONTAL-FACADE-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-754-CL-HORIZONTAL-INTERSTOREY-FLASHING-PART-OF-AU-CL-CLADDING-MOVEMENT-JOINT",
+      "from_id": "AU-CL-HORIZONTAL-INTERSTOREY-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-755-CL-HORIZONTAL-STRUCTURAL-BATTEN-IS-A-AU-CL-WALL-CLADDING-BATTEN",
+      "from_id": "AU-CL-HORIZONTAL-STRUCTURAL-BATTEN",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-BATTEN",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-756-CL-HORIZONTAL-STRUCTURAL-BATTEN-PART-OF-AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "from_id": "AU-CL-HORIZONTAL-STRUCTURAL-BATTEN",
+      "relationship": "part_of",
+      "to_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-757-CL-INSULATED-SANDWICH-PANEL-WALL-HAS-PART-AU-CL-SANDWICH-PANEL-CORE",
+      "from_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-SANDWICH-PANEL-CORE",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-758-CL-INSULATED-SANDWICH-PANEL-WALL-HAS-PART-AU-CL-SANDWICH-PANEL-FASTENER-WASHER",
+      "from_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-SANDWICH-PANEL-FASTENER-WASHER",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-759-CL-INSULATED-SANDWICH-PANEL-WALL-HAS-PART-AU-CL-SANDWICH-PANEL-INNER-LINER",
+      "from_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-SANDWICH-PANEL-INNER-LINER",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-760-CL-INSULATED-SANDWICH-PANEL-WALL-HAS-PART-AU-CL-SANDWICH-PANEL-OUTER-SKIN",
+      "from_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-SANDWICH-PANEL-OUTER-SKIN",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-761-CL-INSULATED-SANDWICH-PANEL-WALL-HAS-PART-AU-CL-SANDWICH-PANEL-SIDE-LAP",
+      "from_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-CL-SANDWICH-PANEL-SIDE-LAP",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-762-CL-INSULATED-SANDWICH-PANEL-WALL-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-763-CL-INTERNAL-CORNER-TRIM-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-INTERNAL-CORNER-TRIM",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-764-CL-JOINT-BACKING-STRIP-PART-OF-AU-CL-CLADDING-MOVEMENT-JOINT",
+      "from_id": "AU-CL-JOINT-BACKING-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-CL-CLADDING-MOVEMENT-JOINT",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-765-CL-METAL-CASSETTE-FACADE-HAS-PART-AU-CL-CASSETTE-CLEAT",
+      "from_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CASSETTE-CLEAT",
+      "source_ids": [
+        "SRC-FAIRVIEW-VITRACORE-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-766-CL-METAL-CASSETTE-FACADE-HAS-PART-AU-CL-COMPOSITE-METAL-PANEL-FACADE",
+      "from_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-COMPOSITE-METAL-PANEL-FACADE",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-FAIRVIEW-VITRACORE-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-767-CL-METAL-CASSETTE-FACADE-HAS-PART-AU-CL-METAL-CASSETTE-TRAY",
+      "from_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-METAL-CASSETTE-TRAY",
+      "source_ids": [
+        "SRC-FAIRVIEW-VITRACORE-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-768-CL-METAL-CASSETTE-FACADE-HAS-PART-AU-CL-METAL-HONEYCOMB-PANEL",
+      "from_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-METAL-HONEYCOMB-PANEL",
+      "source_ids": [
+        "SRC-FAIRVIEW-VITRACORE-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-769-CL-METAL-CASSETTE-FACADE-HAS-PART-AU-CL-SOLID-METAL-FACADE-PLATE",
+      "from_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-SOLID-METAL-FACADE-PLATE",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-770-CL-METAL-CASSETTE-FACADE-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-FAIRVIEW-VITRACORE-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-771-CL-METAL-CASSETTE-TRAY-HAS-PART-AU-CL-CASSETTE-RETURN-FOLD",
+      "from_id": "AU-CL-METAL-CASSETTE-TRAY",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CASSETTE-RETURN-FOLD",
+      "source_ids": [
+        "SRC-FAIRVIEW-VITRACORE-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-772-CL-METAL-CASSETTE-TRAY-HAS-PART-AU-CL-CASSETTE-STIFFENER",
+      "from_id": "AU-CL-METAL-CASSETTE-TRAY",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CASSETTE-STIFFENER",
+      "source_ids": [
+        "SRC-FAIRVIEW-VITRACORE-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-773-CL-METAL-CASSETTE-TRAY-PART-OF-AU-CL-METAL-CASSETTE-FACADE",
+      "from_id": "AU-CL-METAL-CASSETTE-TRAY",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "source_ids": [
+        "SRC-FAIRVIEW-VITRACORE-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-774-CL-METAL-HONEYCOMB-PANEL-PART-OF-AU-CL-METAL-CASSETTE-FACADE",
+      "from_id": "AU-CL-METAL-HONEYCOMB-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "source_ids": [
+        "SRC-FAIRVIEW-VITRACORE-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-775-CL-METAL-SHEET-WALL-CLADDING-HAS-PART-AU-CL-CONCEALED-FIXED-METAL-WALL-SHEET",
+      "from_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CONCEALED-FIXED-METAL-WALL-SHEET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-776-CL-METAL-SHEET-WALL-CLADDING-HAS-PART-AU-CL-CORRUGATED-METAL-WALL-SHEET",
+      "from_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-CORRUGATED-METAL-WALL-SHEET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-777-CL-METAL-SHEET-WALL-CLADDING-HAS-PART-AU-CL-PROFILED-METAL-WALL-SHEET",
+      "from_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-PROFILED-METAL-WALL-SHEET",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-778-CL-METAL-SHEET-WALL-CLADDING-HAS-PART-AU-CL-TRAPEZOIDAL-METAL-WALL-SHEET",
+      "from_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-TRAPEZOIDAL-METAL-WALL-SHEET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-779-CL-METAL-SHEET-WALL-CLADDING-HAS-PART-AU-CL-WALLING-RIVET",
+      "from_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WALLING-RIVET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-780-CL-METAL-SHEET-WALL-CLADDING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-781-CL-OPEN-JOINTED-RAINSCREEN-FACADE-HAS-PART-AU-CL-OPEN-RAINSCREEN-JOINT",
+      "from_id": "AU-CL-OPEN-JOINTED-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-OPEN-RAINSCREEN-JOINT",
+      "source_ids": [
+        "SRC-CEMINTEL-TERRITORY-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-782-CL-OPEN-JOINTED-RAINSCREEN-FACADE-HAS-PART-AU-CL-RAINSCREEN-JOINT-BAFFLE",
+      "from_id": "AU-CL-OPEN-JOINTED-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-RAINSCREEN-JOINT-BAFFLE",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-CEMINTEL-TERRITORY-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-783-CL-OPEN-JOINTED-RAINSCREEN-FACADE-PART-OF-AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-OPEN-JOINTED-RAINSCREEN-FACADE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-CEMINTEL-TERRITORY-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-784-CL-OPEN-RAINSCREEN-JOINT-PART-OF-AU-CL-OPEN-JOINTED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-OPEN-RAINSCREEN-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-OPEN-JOINTED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-CEMINTEL-TERRITORY-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-785-CL-OPEN-STATE-INTUMESCENT-CAVITY-BARRIER-IS-A-AU-CL-FACADE-CAVITY-BARRIER",
+      "from_id": "AU-CL-OPEN-STATE-INTUMESCENT-CAVITY-BARRIER",
+      "relationship": "is_a",
+      "to_id": "AU-CL-FACADE-CAVITY-BARRIER",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-786-CL-OPEN-STATE-INTUMESCENT-CAVITY-BARRIER-PART-OF-AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-OPEN-STATE-INTUMESCENT-CAVITY-BARRIER",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-790-CL-OPENING-FLASHING-SYSTEM-HAS-PART-AU-CL-WINDOW-DOOR-HEAD-FLASHING",
+      "from_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WINDOW-DOOR-HEAD-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-791-CL-OPENING-FLASHING-SYSTEM-HAS-PART-AU-CL-WINDOW-DOOR-JAMB-FLASHING",
+      "from_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WINDOW-DOOR-JAMB-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-792-CL-OPENING-FLASHING-SYSTEM-HAS-PART-AU-CL-WINDOW-DOOR-SILL-FLASHING",
+      "from_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WINDOW-DOOR-SILL-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-793-CL-OPENING-FLASHING-SYSTEM-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-794-CL-PLYWOOD-SHEET-CLADDING-HAS-PART-AU-CL-STRUCTURAL-PLYWOOD-CLADDING-SHEET",
+      "from_id": "AU-CL-PLYWOOD-SHEET-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-STRUCTURAL-PLYWOOD-CLADDING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-795-CL-PLYWOOD-SHEET-CLADDING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-PLYWOOD-SHEET-CLADDING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-796-CL-PROFILED-METAL-WALL-SHEET-IS-A-AU-CL-WALL-CLADDING-SHEET",
+      "from_id": "AU-CL-PROFILED-METAL-WALL-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-797-CL-PROFILED-METAL-WALL-SHEET-PART-OF-AU-CL-METAL-SHEET-WALL-CLADDING",
+      "from_id": "AU-CL-PROFILED-METAL-WALL-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-798-CL-PROFILED-METAL-WALL-SHEET-SUPPORTED-BY-AU-CL-WALL-FURRING-CHANNEL",
+      "from_id": "AU-CL-PROFILED-METAL-WALL-SHEET",
+      "relationship": "supported_by",
+      "to_id": "AU-CL-WALL-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-799-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM-HAS-PART-AU-CL-FACADE-BRACKET",
+      "from_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FACADE-BRACKET",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION",
+        "SRC-STONECLIP-AU-FACADE-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-800-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM-HAS-PART-AU-CL-FACADE-FIXED-POINT",
+      "from_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FACADE-FIXED-POINT",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-801-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM-HAS-PART-AU-CL-FACADE-HOOK-PLATE",
+      "from_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FACADE-HOOK-PLATE",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-802-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM-HAS-PART-AU-CL-FACADE-RAIL-SPLICE-PLATE",
+      "from_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FACADE-RAIL-SPLICE-PLATE",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-803-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM-HAS-PART-AU-CL-FACADE-SLIDING-POINT",
+      "from_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FACADE-SLIDING-POINT",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-804-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM-HAS-PART-AU-CL-FACADE-STANDOFF",
+      "from_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FACADE-STANDOFF",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION",
+        "SRC-STONECLIP-AU-FACADE-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-805-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM-HAS-PART-AU-CL-FACADE-THERMAL-ISOLATION-PAD",
+      "from_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FACADE-THERMAL-ISOLATION-PAD",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-806-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM-HAS-PART-AU-CL-HORIZONTAL-FACADE-RAIL",
+      "from_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-HORIZONTAL-FACADE-RAIL",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-807-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM-HAS-PART-AU-CL-VERTICAL-CARRIER-RAIL",
+      "from_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CL-VERTICAL-CARRIER-RAIL",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-CEMINTEL-TERRITORY-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-808-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM-PART-OF-AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION",
+        "SRC-STONECLIP-AU-FACADE-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-809-CL-RAINSCREEN-JOINT-BAFFLE-PART-OF-AU-CL-OPEN-JOINTED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-RAINSCREEN-JOINT-BAFFLE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-OPEN-JOINTED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-CEMINTEL-TERRITORY-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-810-CL-RAINSCREEN-PANEL-PART-OF-AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-RAINSCREEN-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-CEMINTEL-TERRITORY-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-811-CL-RAINSCREEN-PANEL-JOINT-PART-OF-AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-RAINSCREEN-PANEL-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-CEMINTEL-TERRITORY-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-812-CL-REBATED-BEVEL-WEATHERBOARD-IS-A-AU-CL-TIMBER-WEATHERBOARD",
+      "from_id": "AU-CL-REBATED-BEVEL-WEATHERBOARD",
+      "relationship": "is_a",
+      "to_id": "AU-CL-TIMBER-WEATHERBOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-813-CL-REBATED-BEVEL-WEATHERBOARD-PART-OF-AU-CL-TIMBER-BOARD-CLADDING",
+      "from_id": "AU-CL-REBATED-BEVEL-WEATHERBOARD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-TIMBER-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-815-CL-REINFORCED-AAC-WALL-PANEL-PART-OF-AU-CL-AAC-PANEL-CLADDING",
+      "from_id": "AU-CL-REINFORCED-AAC-WALL-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-AAC-PANEL-CLADDING",
+      "source_ids": [
+        "SRC-HEBEL-EXTERNAL-WALLS",
+        "SRC-SA-AS-5146-1-2015",
+        "SRC-SA-AS-5146-2-2018"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-816-CL-RUSTICATED-CLADDING-BOARD-IS-A-AU-CL-TIMBER-WEATHERBOARD",
+      "from_id": "AU-CL-RUSTICATED-CLADDING-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-CL-TIMBER-WEATHERBOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-817-CL-RUSTICATED-CLADDING-BOARD-PART-OF-AU-CL-TIMBER-BOARD-CLADDING",
+      "from_id": "AU-CL-RUSTICATED-CLADDING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-TIMBER-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-818-CL-SANDWICH-PANEL-CORE-PART-OF-AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "from_id": "AU-CL-SANDWICH-PANEL-CORE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-819-CL-SANDWICH-PANEL-FASTENER-WASHER-PART-OF-AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "from_id": "AU-CL-SANDWICH-PANEL-FASTENER-WASHER",
+      "relationship": "part_of",
+      "to_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-820-CL-SANDWICH-PANEL-INNER-LINER-PART-OF-AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "from_id": "AU-CL-SANDWICH-PANEL-INNER-LINER",
+      "relationship": "part_of",
+      "to_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-821-CL-SANDWICH-PANEL-OUTER-SKIN-PART-OF-AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "from_id": "AU-CL-SANDWICH-PANEL-OUTER-SKIN",
+      "relationship": "part_of",
+      "to_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-822-CL-SANDWICH-PANEL-SIDE-LAP-PART-OF-AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "from_id": "AU-CL-SANDWICH-PANEL-SIDE-LAP",
+      "relationship": "part_of",
+      "to_id": "AU-CL-INSULATED-SANDWICH-PANEL-WALL",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-824-CL-SERVICE-PENETRATION-FLASHING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-SERVICE-PENETRATION-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-825-CL-SHIPLAP-CLADDING-BOARD-IS-A-AU-CL-WALL-CLADDING-BOARD",
+      "from_id": "AU-CL-SHIPLAP-CLADDING-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-826-CL-SHIPLAP-CLADDING-BOARD-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-SHIPLAP-CLADDING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-827-CL-SHIPLAP-JOINT-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-SHIPLAP-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-829-CL-SOFFIT-TRIMMER-PART-OF-AU-CL-EAVES-SOFFIT-LINING-SYSTEM",
+      "from_id": "AU-CL-SOFFIT-TRIMMER",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EAVES-SOFFIT-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-830-CL-SOFFIT-TRIMMER-SUPPORTS-AU-CL-FIBRE-CEMENT-SOFFIT-SHEET",
+      "from_id": "AU-CL-SOFFIT-TRIMMER",
+      "relationship": "supports",
+      "to_id": "AU-CL-FIBRE-CEMENT-SOFFIT-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-831-CL-SOLID-METAL-FACADE-PLATE-PART-OF-AU-CL-METAL-CASSETTE-FACADE",
+      "from_id": "AU-CL-SOLID-METAL-FACADE-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-CASSETTE-FACADE",
+      "source_ids": [
+        "SRC-ABCB-METAL-WALL-CLADDING-GUIDANCE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-832-CL-SPLAYED-WEATHERBOARD-IS-A-AU-CL-TIMBER-WEATHERBOARD",
+      "from_id": "AU-CL-SPLAYED-WEATHERBOARD",
+      "relationship": "is_a",
+      "to_id": "AU-CL-TIMBER-WEATHERBOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-833-CL-SPLAYED-WEATHERBOARD-PART-OF-AU-CL-TIMBER-BOARD-CLADDING",
+      "from_id": "AU-CL-SPLAYED-WEATHERBOARD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-TIMBER-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-834-CL-STRUCTURAL-PLYWOOD-CLADDING-SHEET-IS-A-AU-CL-WALL-CLADDING-SHEET",
+      "from_id": "AU-CL-STRUCTURAL-PLYWOOD-CLADDING-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-835-CL-STRUCTURAL-PLYWOOD-CLADDING-SHEET-PART-OF-AU-CL-PLYWOOD-SHEET-CLADDING",
+      "from_id": "AU-CL-STRUCTURAL-PLYWOOD-CLADDING-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-CL-PLYWOOD-SHEET-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-836-CL-TERRACOTTA-BAGUETTE-PART-OF-AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-TERRACOTTA-BAGUETTE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-837-CL-TERRACOTTA-CLIP-PART-OF-AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-TERRACOTTA-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-838-CL-TERRACOTTA-FACADE-TILE-PART-OF-AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-TERRACOTTA-FACADE-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-839-CL-TERRACOTTA-RAINSCREEN-FACADE-HAS-PART-AU-CL-TERRACOTTA-BAGUETTE",
+      "from_id": "AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-TERRACOTTA-BAGUETTE",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-840-CL-TERRACOTTA-RAINSCREEN-FACADE-HAS-PART-AU-CL-TERRACOTTA-CLIP",
+      "from_id": "AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-TERRACOTTA-CLIP",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-841-CL-TERRACOTTA-RAINSCREEN-FACADE-HAS-PART-AU-CL-TERRACOTTA-FACADE-TILE",
+      "from_id": "AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-TERRACOTTA-FACADE-TILE",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-842-CL-TERRACOTTA-RAINSCREEN-FACADE-PART-OF-AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-843-CL-TIMBER-BOARD-CLADDING-HAS-PART-AU-CL-REBATED-BEVEL-WEATHERBOARD",
+      "from_id": "AU-CL-TIMBER-BOARD-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-REBATED-BEVEL-WEATHERBOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-844-CL-TIMBER-BOARD-CLADDING-HAS-PART-AU-CL-RUSTICATED-CLADDING-BOARD",
+      "from_id": "AU-CL-TIMBER-BOARD-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-RUSTICATED-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-845-CL-TIMBER-BOARD-CLADDING-HAS-PART-AU-CL-SPLAYED-WEATHERBOARD",
+      "from_id": "AU-CL-TIMBER-BOARD-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-SPLAYED-WEATHERBOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-846-CL-TIMBER-BOARD-CLADDING-HAS-PART-AU-CL-TIMBER-WEATHERBOARD",
+      "from_id": "AU-CL-TIMBER-BOARD-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-TIMBER-WEATHERBOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-WOODSOLUTIONS-EXTERNAL-TIMBER-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-847-CL-TIMBER-BOARD-CLADDING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-TIMBER-BOARD-CLADDING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-WOODSOLUTIONS-EXTERNAL-TIMBER-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-848-CL-TIMBER-WEATHERBOARD-IS-A-AU-CL-WALL-CLADDING-BOARD",
+      "from_id": "AU-CL-TIMBER-WEATHERBOARD",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-WOODSOLUTIONS-EXTERNAL-TIMBER-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-849-CL-TIMBER-WEATHERBOARD-PART-OF-AU-CL-TIMBER-BOARD-CLADDING",
+      "from_id": "AU-CL-TIMBER-WEATHERBOARD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-TIMBER-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-WOODSOLUTIONS-EXTERNAL-TIMBER-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-850-CL-TONGUE-GROOVE-CLADDING-BOARD-IS-A-AU-CL-WALL-CLADDING-BOARD",
+      "from_id": "AU-CL-TONGUE-GROOVE-CLADDING-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-851-CL-TONGUE-GROOVE-CLADDING-BOARD-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-TONGUE-GROOVE-CLADDING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-852-CL-TONGUE-GROOVE-JOINT-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-TONGUE-GROOVE-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-853-CL-TRAPEZOIDAL-METAL-WALL-SHEET-IS-A-AU-CL-PROFILED-METAL-WALL-SHEET",
+      "from_id": "AU-CL-TRAPEZOIDAL-METAL-WALL-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-CL-PROFILED-METAL-WALL-SHEET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-854-CL-TRAPEZOIDAL-METAL-WALL-SHEET-PART-OF-AU-CL-METAL-SHEET-WALL-CLADDING",
+      "from_id": "AU-CL-TRAPEZOIDAL-METAL-WALL-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-855-CL-VENTILATED-RAINSCREEN-FACADE-HAS-PART-AU-CL-FACADE-CAVITY-BARRIER",
+      "from_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FACADE-CAVITY-BARRIER",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-856-CL-VENTILATED-RAINSCREEN-FACADE-HAS-PART-AU-CL-FACADE-PANEL-CLIP",
+      "from_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-FACADE-PANEL-CLIP",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-CEMINTEL-TERRITORY-FACADE",
+        "SRC-STONECLIP-AU-FACADE-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-857-CL-VENTILATED-RAINSCREEN-FACADE-HAS-PART-AU-CL-OPEN-JOINTED-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-OPEN-JOINTED-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-CEMINTEL-TERRITORY-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-858-CL-VENTILATED-RAINSCREEN-FACADE-HAS-PART-AU-CL-OPEN-STATE-INTUMESCENT-CAVITY-BARRIER",
+      "from_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-OPEN-STATE-INTUMESCENT-CAVITY-BARRIER",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-859-CL-VENTILATED-RAINSCREEN-FACADE-HAS-PART-AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "from_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION",
+        "SRC-STONECLIP-AU-FACADE-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-860-CL-VENTILATED-RAINSCREEN-FACADE-HAS-PART-AU-CL-RAINSCREEN-PANEL",
+      "from_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-RAINSCREEN-PANEL",
+      "source_ids": [
+        "SRC-CEMINTEL-TERRITORY-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-861-CL-VENTILATED-RAINSCREEN-FACADE-HAS-PART-AU-CL-RAINSCREEN-PANEL-JOINT",
+      "from_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-RAINSCREEN-PANEL-JOINT",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-CEMINTEL-TERRITORY-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-862-CL-VENTILATED-RAINSCREEN-FACADE-HAS-PART-AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "from_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-CL-TERRACOTTA-RAINSCREEN-FACADE",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-863-CL-VENTILATED-RAINSCREEN-FACADE-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-VENTILATED-RAINSCREEN-FACADE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-CEMINTEL-TERRITORY-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-864-CL-VERTICAL-CARRIER-RAIL-PART-OF-AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "from_id": "AU-CL-VERTICAL-CARRIER-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM",
+      "source_ids": [
+        "SRC-ARGETON-TERRACOTTA-FACADE",
+        "SRC-CEMINTEL-TERRITORY-FACADE",
+        "SRC-KINGSPAN-AU-AWP-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-865-CL-VERTICAL-CAVITY-BATTEN-IS-A-AU-CL-WALL-CLADDING-BATTEN",
+      "from_id": "AU-CL-VERTICAL-CAVITY-BATTEN",
+      "relationship": "is_a",
+      "to_id": "AU-CL-WALL-CLADDING-BATTEN",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-866-CL-VERTICAL-CAVITY-BATTEN-PART-OF-AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "from_id": "AU-CL-VERTICAL-CAVITY-BATTEN",
+      "relationship": "part_of",
+      "to_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-867-CL-VERTICAL-JOINT-FLASHING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-VERTICAL-JOINT-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-868-CL-VINYL-CLADDING-BOARD-HAS-PART-AU-CL-VINYL-LOCK-EDGE",
+      "from_id": "AU-CL-VINYL-CLADDING-BOARD",
+      "relationship": "has_part",
+      "to_id": "AU-CL-VINYL-LOCK-EDGE",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-869-CL-VINYL-CLADDING-BOARD-HAS-PART-AU-CL-VINYL-NAIL-HEM",
+      "from_id": "AU-CL-VINYL-CLADDING-BOARD",
+      "relationship": "has_part",
+      "to_id": "AU-CL-VINYL-NAIL-HEM",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-870-CL-VINYL-CLADDING-BOARD-PART-OF-AU-CL-VINYL-UPVC-CLADDING",
+      "from_id": "AU-CL-VINYL-CLADDING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VINYL-UPVC-CLADDING",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-871-CL-VINYL-CORNER-POST-PART-OF-AU-CL-VINYL-UPVC-CLADDING",
+      "from_id": "AU-CL-VINYL-CORNER-POST",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VINYL-UPVC-CLADDING",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-872-CL-VINYL-J-CHANNEL-PART-OF-AU-CL-VINYL-UPVC-CLADDING",
+      "from_id": "AU-CL-VINYL-J-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VINYL-UPVC-CLADDING",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-873-CL-VINYL-LOCK-EDGE-PART-OF-AU-CL-VINYL-CLADDING-BOARD",
+      "from_id": "AU-CL-VINYL-LOCK-EDGE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VINYL-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-874-CL-VINYL-NAIL-HEM-PART-OF-AU-CL-VINYL-CLADDING-BOARD",
+      "from_id": "AU-CL-VINYL-NAIL-HEM",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VINYL-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-875-CL-VINYL-STARTER-STRIP-PART-OF-AU-CL-VINYL-UPVC-CLADDING",
+      "from_id": "AU-CL-VINYL-STARTER-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-CL-VINYL-UPVC-CLADDING",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-876-CL-VINYL-UPVC-CLADDING-HAS-PART-AU-CL-VINYL-CLADDING-BOARD",
+      "from_id": "AU-CL-VINYL-UPVC-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-VINYL-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-877-CL-VINYL-UPVC-CLADDING-HAS-PART-AU-CL-VINYL-CORNER-POST",
+      "from_id": "AU-CL-VINYL-UPVC-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-VINYL-CORNER-POST",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-878-CL-VINYL-UPVC-CLADDING-HAS-PART-AU-CL-VINYL-J-CHANNEL",
+      "from_id": "AU-CL-VINYL-UPVC-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-VINYL-J-CHANNEL",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-879-CL-VINYL-UPVC-CLADDING-HAS-PART-AU-CL-VINYL-STARTER-STRIP",
+      "from_id": "AU-CL-VINYL-UPVC-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-VINYL-STARTER-STRIP",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-880-CL-VINYL-UPVC-CLADDING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-VINYL-UPVC-CLADDING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-PALLISIDE-UPVC-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-881-CL-WALL-CLADDING-BATTEN-PART-OF-AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "from_id": "AU-CL-WALL-CLADDING-BATTEN",
+      "relationship": "part_of",
+      "to_id": "AU-CL-DRAINED-CAVITY-CLADDING-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-882-CL-WALL-CLADDING-BATTEN-SUPPORTS-AU-CL-WALL-CLADDING-BOARD",
+      "from_id": "AU-CL-WALL-CLADDING-BATTEN",
+      "relationship": "supports",
+      "to_id": "AU-CL-WALL-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-883-CL-WALL-CLADDING-BATTEN-SUPPORTS-AU-CL-WALL-CLADDING-SHEET",
+      "from_id": "AU-CL-WALL-CLADDING-BATTEN",
+      "relationship": "supports",
+      "to_id": "AU-CL-WALL-CLADDING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-884-CL-WALL-CLADDING-BOARD-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-WALL-CLADDING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-885-CL-WALL-CLADDING-BOARD-SUPPORTED-BY-AU-CL-WALL-CLADDING-BATTEN",
+      "from_id": "AU-CL-WALL-CLADDING-BOARD",
+      "relationship": "supported_by",
+      "to_id": "AU-CL-WALL-CLADDING-BATTEN",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-886-CL-WALL-CLADDING-SHEET-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-WALL-CLADDING-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-887-CL-WALL-CLADDING-SHEET-SUPPORTED-BY-AU-CL-WALL-CLADDING-BATTEN",
+      "from_id": "AU-CL-WALL-CLADDING-SHEET",
+      "relationship": "supported_by",
+      "to_id": "AU-CL-WALL-CLADDING-BATTEN",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-889-CL-WALL-FURRING-CHANNEL-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-WALL-FURRING-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-890-CL-WALL-FURRING-CHANNEL-SUPPORTS-AU-CL-PROFILED-METAL-WALL-SHEET",
+      "from_id": "AU-CL-WALL-FURRING-CHANNEL",
+      "relationship": "supports",
+      "to_id": "AU-CL-PROFILED-METAL-WALL-SHEET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-LYSAGHT-WALLING-SOLUTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-893-CL-WALL-WEATHER-BARRIER-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-WALL-WEATHER-BARRIER",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-894-CL-WALLING-RIVET-PART-OF-AU-CL-METAL-SHEET-WALL-CLADDING",
+      "from_id": "AU-CL-WALLING-RIVET",
+      "relationship": "part_of",
+      "to_id": "AU-CL-METAL-SHEET-WALL-CLADDING",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-895-CL-WEATHER-BARRIER-SEAM-TAPE-ATTACHED-TO-AU-CL-WALL-WEATHER-BARRIER",
+      "from_id": "AU-CL-WEATHER-BARRIER-SEAM-TAPE",
+      "relationship": "attached_to",
+      "to_id": "AU-CL-WALL-WEATHER-BARRIER",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-897-CL-WEATHER-BARRIER-SEAM-TAPE-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-WEATHER-BARRIER-SEAM-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-898-CL-WINDOW-DOOR-HEAD-FLASHING-PART-OF-AU-CL-OPENING-FLASHING-SYSTEM",
+      "from_id": "AU-CL-WINDOW-DOOR-HEAD-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-899-CL-WINDOW-DOOR-JAMB-FLASHING-PART-OF-AU-CL-OPENING-FLASHING-SYSTEM",
+      "from_id": "AU-CL-WINDOW-DOOR-JAMB-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-900-CL-WINDOW-DOOR-SILL-FLASHING-PART-OF-AU-CL-OPENING-FLASHING-SYSTEM",
+      "from_id": "AU-CL-WINDOW-DOOR-SILL-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-FWPA-D01-CLADDING",
+        "SRC-JH-AXON-INSTALL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-901-CL-WPC-BOARD-CLADDING-HAS-PART-AU-CL-WPC-CLADDING-BOARD",
+      "from_id": "AU-CL-WPC-BOARD-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WPC-CLADDING-BOARD",
+      "source_ids": [
+        "SRC-NEWTECHWOOD-AU-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-902-CL-WPC-BOARD-CLADDING-HAS-PART-AU-CL-WPC-HIDDEN-CLIP",
+      "from_id": "AU-CL-WPC-BOARD-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WPC-HIDDEN-CLIP",
+      "source_ids": [
+        "SRC-NEWTECHWOOD-AU-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-903-CL-WPC-BOARD-CLADDING-HAS-PART-AU-CL-WPC-STARTER-END-CLIP",
+      "from_id": "AU-CL-WPC-BOARD-CLADDING",
+      "relationship": "has_part",
+      "to_id": "AU-CL-WPC-STARTER-END-CLIP",
+      "source_ids": [
+        "SRC-NEWTECHWOOD-AU-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-904-CL-WPC-BOARD-CLADDING-PART-OF-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-CL-WPC-BOARD-CLADDING",
+      "relationship": "part_of",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-NEWTECHWOOD-AU-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-905-CL-WPC-CLADDING-BOARD-PART-OF-AU-CL-WPC-BOARD-CLADDING",
+      "from_id": "AU-CL-WPC-CLADDING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-CL-WPC-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-NEWTECHWOOD-AU-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-906-CL-WPC-HIDDEN-CLIP-PART-OF-AU-CL-WPC-BOARD-CLADDING",
+      "from_id": "AU-CL-WPC-HIDDEN-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-CL-WPC-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-NEWTECHWOOD-AU-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-907-CL-WPC-STARTER-END-CLIP-PART-OF-AU-CL-WPC-BOARD-CLADDING",
+      "from_id": "AU-CL-WPC-STARTER-END-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-CL-WPC-BOARD-CLADDING",
+      "source_ids": [
+        "SRC-NEWTECHWOOD-AU-CLADDING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-669-CL-EXTERNAL-WALL-CLADDING-SYSTEM-COMMONLY-USED-WITH-AU-DB-WALL-CLADDING-MEMBRANE-TERMINATION",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-WALL-CLADDING-MEMBRANE-TERMINATION",
+      "source_ids": [
+        "SRC-HIA-AS4654-2-OVERVIEW",
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-670-CL-EXTERNAL-WALL-CLADDING-SYSTEM-COMMONLY-USED-WITH-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-A5-PAINTING-BOUNDARY",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-671-CL-EXTERNAL-WALL-CLADDING-SYSTEM-COMMONLY-USED-WITH-AU-SF-WALL-FRAME",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ABCB-V2-H2-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-672-CL-EXTERNAL-WALL-CLADDING-SYSTEM-COMMONLY-USED-WITH-AU-TF-WALL-FRAME",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ABCB-V2-H2-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-717-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-INTERGRAIN-TIMBER-FINISHES",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-718-CL-EXTERNAL-WALL-CLADDING-SYSTEM-HAS-PART-AU-DF-EXTERIOR-WALL-PAINT-SYSTEM",
+      "from_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-EXTERIOR-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-A5-PAINTING-BOUNDARY",
+        "SRC-DULUX-EXTERIOR-PAINT-SYSTEM",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-720-CL-FACADE-CAVITY-BARRIER-COMMONLY-USED-WITH-AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "from_id": "AU-CL-FACADE-CAVITY-BARRIER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-742-CL-FIBRE-CEMENT-SOFFIT-SHEET-COMMONLY-USED-WITH-AU-DB-BALCONY-SOFFIT-ENCLOSURE-ASSEMBLY",
+      "from_id": "AU-CL-FIBRE-CEMENT-SOFFIT-SHEET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-BALCONY-SOFFIT-ENCLOSURE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H2D8-EXTERNAL-WATERPROOFING",
+        "SRC-QBCC-TIMBER-DECK-BALCONY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-787-CL-OPENING-FLASHING-SYSTEM-COMMONLY-USED-WITH-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOWS-DOORS",
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-COMPLIANCE-FAQ",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-788-CL-OPENING-FLASHING-SYSTEM-COMMONLY-USED-WITH-AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "from_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-789-CL-OPENING-FLASHING-SYSTEM-COMMONLY-USED-WITH-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOWS-DOORS",
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-COMPLIANCE-FAQ",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-814-CL-REINFORCED-AAC-WALL-PANEL-HAS-PART-AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "from_id": "AU-CL-REINFORCED-AAC-WALL-PANEL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-SA-AS-5146-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-823-CL-SERVICE-PENETRATION-FLASHING-COMMONLY-USED-WITH-AU-DB-SERVICE-MEMBRANE-PENETRATION",
+      "from_id": "AU-CL-SERVICE-PENETRATION-FLASHING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-SERVICE-MEMBRANE-PENETRATION",
+      "source_ids": [
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING",
+        "SRC-TGA-CPCCWP5002-DESIGN-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-828-CL-SOFFIT-TRIMMER-COMMONLY-USED-WITH-AU-DB-BALCONY-SOFFIT-ENCLOSURE-ASSEMBLY",
+      "from_id": "AU-CL-SOFFIT-TRIMMER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-BALCONY-SOFFIT-ENCLOSURE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H2D8-EXTERNAL-WATERPROOFING",
+        "SRC-QBCC-TIMBER-DECK-BALCONY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-888-CL-WALL-FURRING-CHANNEL-ALTERNATIVE-TO-AU-IL-WALL-LINING-FURRING-CHANNEL",
+      "from_id": "AU-CL-WALL-FURRING-CHANNEL",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-WALL-LINING-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-891-CL-WALL-WEATHER-BARRIER-COMMONLY-USED-WITH-AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "from_id": "AU-CL-WALL-WEATHER-BARRIER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-1-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-892-CL-WALL-WEATHER-BARRIER-COMMONLY-USED-WITH-AU-TC-WATER-CONTROL-MEMBRANE",
+      "from_id": "AU-CL-WALL-WEATHER-BARRIER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-WATER-CONTROL-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-896-CL-WEATHER-BARRIER-SEAM-TAPE-COMMONLY-USED-WITH-AU-TC-MEMBRANE-SEAM-TAPE",
+      "from_id": "AU-CL-WEATHER-BARRIER-SEAM-TAPE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-MEMBRANE-SEAM-TAPE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

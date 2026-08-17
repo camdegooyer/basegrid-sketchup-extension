@@ -1,0 +1,283 @@
+# Concrete Structures discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 186
+- Internal relationships: 358
+- Outgoing cross-discipline relationships: 31
+- Distinct supporting sources: 37
+- Distinct linked standards: 17
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 100.0%
+- Objects with two or more sources: 100.0%
+
+## Categories
+
+- cast in place systems: 2
+- concrete constituents: 12
+- concrete element families: 4
+- concrete embeds: 6
+- concrete joint components: 7
+- concrete joint waterstops: 3
+- concrete joints: 5
+- concrete members: 12
+- concrete openings and recesses: 3
+- deep foundation components: 4
+- deep foundation elements: 6
+- deep foundations: 2
+- falsework: 2
+- formwork assemblies: 4
+- formwork components: 6
+- formwork support components: 6
+- formwork support members: 5
+- formwork surface components: 3
+- formwork systems: 1
+- permanent formwork: 1
+- post tensioning: 3
+- precast connections: 3
+- precast erection components: 3
+- precast floor elements: 3
+- precast frame elements: 4
+- precast handling components: 2
+- precast special elements: 2
+- precast stair elements: 2
+- precast wall components: 4
+- precast wall elements: 2
+- prefabricated concrete: 2
+- prestressing anchorages: 9
+- prestressing components: 8
+- reinforcement assemblies: 4
+- reinforcement connections: 7
+- reinforcement fitments: 3
+- reinforcement roles: 2
+- reinforcement shapes: 3
+- reinforcement supports: 6
+- reinforcing bars: 2
+- special formwork systems: 3
+- suspended floor components: 5
+- suspended floor systems: 10
+
+## Objects
+
+- **L-shaped reinforcing bar** (`AU-CS-L-SHAPED-REINFORCING-BAR`) — A scheduled reinforcing bar with one principal bend creating two legs used at corners, ends, junctions or anchorage zones.
+- **U-shaped reinforcing bar** (`AU-CS-U-SHAPED-REINFORCING-BAR`) — A scheduled reinforcing bar with two generally parallel legs joined by a bent base, used to wrap, anchor or connect reinforcement zones.
+- **adjustable formwork prop** (`AU-CS-ADJUSTABLE-FORMWORK-PROP`) — A telescopic or screw-adjustable vertical temporary support carrying formwork bearers, beams or slabs to a verified supporting surface.
+- **blended cement** (`AU-CS-BLENDED-CEMENT`) — A manufactured cement in which Portland cement clinker is combined with selected mineral components to form one supplied binder product.
+- **bonded multistrand post-tensioning tendon** (`AU-CS-BONDED-MULTISTRAND-TENDON`) — A post-tensioning tendon containing multiple prestressing strands inside a common duct that is filled with grout after stressing so the strands bond to the surrounding member.
+- **bored cast-in-place concrete pile** (`AU-CS-BORED-CAST-IN-PLACE-PILE`) — A concrete pile formed by drilling or excavating a shaft in the ground, placing reinforcement where required and filling the excavation with concrete.
+- **cast-in anchor channel** (`AU-CS-CAST-IN-ANCHOR-CHANNEL`) — A continuous or segmented steel channel with embedded anchors cast flush with a concrete face to receive movable channel bolts or attached brackets.
+- **cast-in concrete embed assembly** (`AU-CS-CAST-IN-EMBED-ASSEMBLY`) — A coordinated set of metal, plastic or other components fixed within formwork or reinforcement before the concrete is placed so selected parts remain embedded and available after stripping.
+- **cast-in concrete penetration sleeve** (`AU-CS-CAST-IN-PENETRATION-SLEEVE`) — A tubular component fixed through formwork before concrete placement to preserve a circular or shaped passage for a later service, tendon, bolt or other component.
+- **cast-in precast brace insert** (`AU-CS-CAST-IN-BRACE-INSERT`) — A purpose-designed cast-in insert used to connect a temporary erection brace to a prefabricated concrete panel or other element.
+- **cast-in precast lifting anchor** (`AU-CS-CAST-IN-LIFTING-ANCHOR`) — A purpose-designed anchor cast into a prefabricated concrete element to engage temporary lifting equipment during demoulding, transport or erection.
+- **cast-in starter-bar box** (`AU-CS-STARTER-BAR-BOX`) — A recessed box or casing cast into an earlier concrete element containing bent reinforcement that is later exposed and straightened or connected into a subsequent pour.
+- **cast-in steel embed plate** (`AU-CS-CAST-IN-STEEL-PLATE`) — A steel plate cast at or near a concrete surface and anchored into the member by studs, bars, lugs or other designed anchorage.
+- **cast-in threaded ferrule** (`AU-CS-CAST-IN-THREADED-FERRULE`) — A female-threaded metal insert with an embedded anchorage body cast into concrete to receive a matching bolt or threaded accessory at the surface.
+- **cast-in-place concrete structural system** (`AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM`) — A structural arrangement whose concrete members are formed, reinforced where required and cast in their final building positions.
+- **cementitious binder** (`AU-CS-CEMENTITIOUS-BINDER`) — The finely divided reactive material in a concrete mix that combines with water and binds the aggregates into hardened concrete.
+- **centre-bulb cast-in waterstop** (`AU-CS-CENTRE-BULB-WATERSTOP`) — A cast-in waterstop profile with a central bulb or movement zone and embedded flanges extending into the concrete on both sides of a movement joint.
+- **chemical concrete admixture** (`AU-CS-CHEMICAL-CONCRETE-ADMIXTURE`) — A controlled chemical ingredient added in relatively small quantity during batching to modify selected fresh or hardened properties of concrete.
+- **closed reinforcing stirrup** (`AU-CS-CLOSED-STIRRUP`) — A closed or properly closed-loop reinforcing fitment surrounding longitudinal bars in a beam, column or similar member.
+- **coarse concrete aggregate** (`AU-CS-COARSE-CONCRETE-AGGREGATE`) — The larger graded aggregate particles forming much of the solid skeleton and volume of ordinary concrete.
+- **composite steel-deck concrete slab** (`AU-CS-COMPOSITE-STEEL-DECK-SLAB`) — A concrete slab cast on profiled steel decking where the concrete, deck and supporting steel system have the documented composite or permanent-formwork roles.
+- **compressible concrete joint filler** (`AU-CS-CONCRETE-JOINT-FILLER`) — A compressible strip or board placed through a concrete joint depth to maintain separation and accommodate selected closing movement.
+- **concrete band beam** (`AU-CS-BAND-BEAM`) — A broad relatively shallow concrete beam formed within or close to the slab depth to create a wide support band with limited soffit projection.
+- **concrete bar chair** (`AU-CS-CONCRETE-BAR-CHAIR`) — A small purpose-made concrete support carrying reinforcement at the selected cover or layer height and becoming bonded into the placed concrete.
+- **concrete beam formwork assembly** (`AU-CS-BEAM-FORMWORK-ASSEMBLY`) — Beam soffit and side forms with yokes, joists, bearers, props and braces arranged to contain and support a concrete beam pour.
+- **concrete beam-and-slab floor system** (`AU-CS-BEAM-AND-SLAB-SYSTEM`) — A suspended concrete floor in which a slab spans to downstand, band or other concrete beams that carry loads onward to columns or walls.
+- **concrete blockout** (`AU-CS-CONCRETE-BLOCKOUT`) — A deliberately omitted volume in a concrete placement reserved for later equipment, connection, service, closure pour or access work.
+- **concrete blockout former** (`AU-CS-FORMWORK-BOXOUT-FORMER`) — A temporary box, foam shape, tube or framed mould fixed within the formwork to keep concrete out of a planned blockout, opening or recess.
+- **concrete column capital** (`AU-CS-COLUMN-CAPITAL`) — A flared or enlarged concrete head at the top of a column that spreads the interface between the column and a supported slab.
+- **concrete column formwork assembly** (`AU-CS-COLUMN-FORMWORK-ASSEMBLY`) — A closed set of form faces, yokes, clamps, ties and braces arranged around a column reinforcement cage to contain the column pour.
+- **concrete construction joint** (`AU-CS-CONCRETE-CONSTRUCTION-JOINT`) — A planned interface where one concrete placement stops and a later placement continues against or connects to the earlier hardened concrete.
+- **concrete contraction joint** (`AU-CS-CONCRETE-CONTRACTION-JOINT`) — A deliberately weakened or formed joint intended to localise shortening and cracking from concrete shrinkage or temperature contraction.
+- **concrete corbel** (`AU-CS-CONCRETE-CORBEL`) — A short concrete projection from a column or wall that provides a bearing seat for a beam, slab or other supported element.
+- **concrete core wall system** (`AU-CS-CONCRETE-CORE-WALL`) — A connected group of concrete walls enclosing lift, stair or service spaces and often contributing to the building's gravity and lateral load paths.
+- **concrete deep-foundation system** (`AU-CS-DEEP-FOUNDATION-SYSTEM`) — A foundation assembly using piles and caps or ground beams to transfer building actions to deeper soil or rock than ordinary shallow footings.
+- **concrete edge form** (`AU-CS-FORMWORK-EDGE-FORM`) — A temporary vertical or sloping board, panel or metal profile defining the free edge of a slab, footing, topping or other concrete placement.
+- **concrete expansion joint** (`AU-CS-CONCRETE-EXPANSION-JOINT`) — A designed gap separating concrete structural units so they can close, open or move relative to each other within a documented movement range.
+- **concrete falsework assembly** (`AU-CS-FALSEWORK-ASSEMBLY`) — A temporary loadbearing structure of frames, towers, shores, beams, braces and foundations supporting formwork or incomplete concrete until the permanent structure can carry the required stage.
+- **concrete form face** (`AU-CS-FORM-FACE`) — The sheathing or panel surface directly contacting fresh concrete and defining the formed shape, joint pattern and surface texture after stripping.
+- **concrete form liner** (`AU-CS-CONCRETE-FORM-LINER`) — A patterned or absorbent sheet fixed to the form face to impart a selected texture, relief or surface effect to formed concrete.
+- **concrete form release agent film** (`AU-CS-FORM-RELEASE-AGENT`) — A thin temporary treatment applied to a form face to reduce adhesion between the hardened concrete and the form during stripping.
+- **concrete formwork and falsework system** (`AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM`) — The temporary mould, supporting members, ties, braces, shores and foundations that contain fresh concrete and carry construction actions until the concrete can support the required stage.
+- **concrete isolation joint** (`AU-CS-CONCRETE-ISOLATION-JOINT`) — A full-depth separation around a column, wall, footing, machine base or adjacent slab intended to reduce transfer of movement or restraint between the concrete parts.
+- **concrete joint backer rod** (`AU-CS-CONCRETE-JOINT-BACKER-ROD`) — A compressible foam rod installed behind concrete joint sealant to control bead depth, provide tooling support and prevent unintended three-sided adhesion.
+- **concrete joint dowel bar** (`AU-CS-CONCRETE-JOINT-DOWEL-BAR`) — A bar crossing a concrete joint to transfer shear or maintain alignment while allowing or restraining longitudinal movement according to the joint design.
+- **concrete joint dowel sleeve** (`AU-CS-DOWEL-SLEEVE`) — A tube or proprietary housing surrounding one end of a joint dowel so that end can slide axially while the dowel continues to transfer selected transverse actions.
+- **concrete joint sealant** (`AU-CS-CONCRETE-JOINT-SEALANT`) — A flexible sealant bead installed at the exposed mouth of a concrete joint to limit water, air, debris or contaminants while accommodating documented movement.
+- **concrete mixing water** (`AU-CS-CONCRETE-MIXING-WATER`) — Water deliberately included in a concrete batch to hydrate the binder and provide the workability needed for mixing and placement.
+- **concrete pedestal** (`AU-CS-CONCRETE-PEDESTAL`) — A short squat concrete support projecting above a footing, slab or member to receive a column, bearing, machine or other concentrated component.
+- **concrete pile cap** (`AU-CS-CONCRETE-PILE-CAP`) — A reinforced concrete block or thick plate connecting one or more pile heads to a column, wall, pedestal or ground beam above.
+- **concrete pile ground beam** (`AU-CS-CONCRETE-GROUND-BEAM`) — A reinforced concrete beam at or below ground level spanning between pile caps or piles and supporting walls, columns or floor edges.
+- **concrete pile group** (`AU-CS-PILE-GROUP`) — Two or more piles arranged and connected to act beneath one cap, wall, column or other supported foundation zone.
+- **concrete pour stop-end form** (`AU-CS-FORMWORK-STOP-END`) — A temporary form closing the end of a concrete placement at a construction joint and shaping its face, key, reinforcement penetrations and waterstop interfaces.
+- **concrete saw-cut joint groove** (`AU-CS-SAW-CUT-JOINT-GROOVE`) — A narrow cut made into the hardened or hardening concrete surface to create the top groove and weakened plane of a selected contraction joint.
+- **concrete shear wall** (`AU-CS-CONCRETE-SHEAR-WALL`) — A structural concrete wall assigned to resist lateral actions through in-plane shear, bending and axial behaviour within the building stability system.
+- **concrete slab backprop** (`AU-CS-BACKPROP`) — A temporary vertical support installed or retained beneath a concrete slab after some primary formwork is removed to carry construction-stage actions through the developing structure.
+- **concrete slab drop panel** (`AU-CS-DROP-PANEL`) — A local slab thickening extending around a column or point support below the main soffit of a flat slab.
+- **concrete slab rib** (`AU-CS-CONCRETE-SLAB-RIB`) — A narrow repeated concrete beam formed integrally beneath a ribbed or waffle slab topping flange.
+- **concrete transfer beam** (`AU-CS-TRANSFER-CONCRETE-BEAM`) — A concrete beam designed to collect loads from columns, walls or framing above and redirect them to a different support arrangement below.
+- **concrete wall form tie rod** (`AU-CS-FORM-TIE-ROD`) — A tension rod or proprietary tie passing through or between opposing wall forms to hold their separation and resist fresh-concrete pressure.
+- **concrete wall formwork assembly** (`AU-CS-WALL-FORMWORK-ASSEMBLY`) — Opposing or one-sided form faces, frames, ties, walers, braces and supports arranged to cast a concrete wall.
+- **concrete wall or column kicker** (`AU-CS-CONCRETE-KICKER`) — A short first lift or nib of concrete cast at the base of a later wall or column to locate formwork and establish the base geometry.
+- **continuous bar chair** (`AU-CS-CONTINUOUS-BAR-CHAIR`) — An elongated reinforcement support with repeated legs or a continuous profile carrying bars or mesh along a line rather than at isolated points.
+- **continuous-flight-auger concrete pile** (`AU-CS-CFA-CONCRETE-PILE`) — A cast-in-place pile formed using a continuous-flight auger, with concrete or grout placed as the auger is withdrawn and reinforcement inserted into the fresh material.
+- **dead-end post-tensioning anchorage** (`AU-CS-DEAD-END-PT-ANCHORAGE`) — A fixed post-tensioning anchorage installed before or during casting and not used as the active jacking end for the tendon.
+- **deformed reinforcing bar** (`AU-CS-DEFORMED-REINFORCING-BAR`) — A solid steel reinforcing bar with a patterned surface intended to develop bond with the surrounding concrete.
+- **discrete concrete fibre reinforcement** (`AU-CS-CONCRETE-FIBRE-REINFORCEMENT`) — Short separate fibres distributed through a concrete mix to provide a documented crack-control, toughness or residual-strength role.
+- **dowelled concrete joint** (`AU-CS-DOWELLED-CONCRETE-JOINT`) — A concrete joint crossed by a repeated set of aligned dowel bars that transfer selected actions while permitting or restraining movement according to their sleeves and bond treatment.
+- **downstand concrete beam** (`AU-CS-DOWNSTAND-CONCRETE-BEAM`) — A concrete beam whose body projects below the adjacent slab soffit along its span.
+- **driven cast-in-place concrete pile** (`AU-CS-DRIVEN-CAST-IN-PLACE-PILE`) — A pile formed by driving a casing, tube or displacement former and then casting concrete in the created shaft, with the casing retained or withdrawn as documented.
+- **driven precast concrete pile** (`AU-CS-DRIVEN-PRECAST-CONCRETE-PILE`) — A factory or casting-yard concrete pile installed into the ground by driving, pressing or another documented displacement method before connection to the foundation above.
+- **fine concrete aggregate** (`AU-CS-FINE-CONCRETE-AGGREGATE`) — The smaller graded aggregate particles used with binder, water and coarse aggregate to form the concrete composite.
+- **flat plate concrete slab** (`AU-CS-FLAT-PLATE-SLAB`) — A substantially uniform-depth suspended slab supported directly by columns without downstand beams, drop panels or column capitals at the support zones.
+- **flat post-tensioning duct** (`AU-CS-FLAT-POST-TENSIONING-DUCT`) — A low-depth wide duct used to contain a selected number of prestressing strands within thin slabs or other constrained concrete zones.
+- **flat slab with support thickenings** (`AU-CS-FLAT-SLAB`) — A column-supported concrete slab system using drop panels, column capitals or both to thicken and spread the support zones while retaining broad flat soffit fields between them.
+- **fly ash for concrete** (`AU-CS-FLY-ASH`) — A fine ash product selected as a supplementary cementitious material in a concrete binder system.
+- **form tie cone** (`AU-CS-FORM-TIE-CONE`) — A tapered fitting at a wall-form tie end that sets cover or wall-face geometry and creates a recess for tie removal and later patching.
+- **form tie spacer tube** (`AU-CS-FORM-TIE-SPACER-TUBE`) — A tube surrounding a form tie through the wall thickness to maintain form separation, isolate a removable rod from concrete and leave a controlled tie hole.
+- **formed concrete recess** (`AU-CS-CONCRETE-RECESS`) — A local shallow volume omitted from a concrete face to receive a fitting, plate, anchorage, finish, grout cap or other selected component.
+- **formed concrete shear key** (`AU-CS-CONCRETE-SHEAR-KEY`) — A projecting or recessed concrete profile at a joint or bearing interface intended to interlock adjoining concrete or grout and transfer selected shear.
+- **formwork base jack** (`AU-CS-FORMWORK-BASE-JACK`) — An adjustable screw base fitted beneath a falsework frame, shore or support tower to level it and transfer compression into a soleplate or verified foundation.
+- **formwork bearer** (`AU-CS-FORMWORK-BEARER`) — A primary horizontal temporary member supporting formwork joists or panels and transferring their loads to props, frames, shores or falsework towers.
+- **formwork brace** (`AU-CS-FORMWORK-BRACE`) — A diagonal or horizontal temporary member restraining formwork, props or falsework against sway, overturning, racking or loss of alignment.
+- **formwork chamfer strip** (`AU-CS-FORMWORK-CHAMFER-STRIP`) — A triangular or shaped strip fixed in a form corner to create a chamfer, fillet, drip or other linear profile in the hardened concrete edge.
+- **formwork head jack** (`AU-CS-FORMWORK-HEAD-JACK`) — An adjustable screw head, fork head or drop head fitted at the top of a prop or falsework frame to support and level a bearer or panel system.
+- **formwork joist** (`AU-CS-FORMWORK-JOIST`) — A repeated secondary temporary member directly supporting slab or beam form sheathing and spanning to bearers, frames or primary supports.
+- **formwork plywood panel** (`AU-CS-FORMWORK-PLYWOOD`) — A structural plywood sheet manufactured and finished specifically for use as concrete form sheathing and selected off-form surface quality.
+- **formwork soldier** (`AU-CS-FORMWORK-SOLDIER`) — A strong primary vertical or inclined member behind wall formwork that supports walers or panels and transfers pressure reactions to ties, braces or foundations.
+- **formwork waler** (`AU-CS-FORMWORK-WALER`) — A horizontal or otherwise transverse member outside wall or column form panels that collects pressure reactions and transfers them to ties, soldiers or braces.
+- **general purpose cement** (`AU-CS-GENERAL-PURPOSE-CEMENT`) — A manufactured hydraulic cement powder used as the principal reactive binder in general concrete, mortar and grout mixes.
+- **ground granulated blast-furnace slag for concrete** (`AU-CS-GROUND-SLAG`) — Finely ground granulated blast-furnace slag selected as a supplementary cementitious material in a concrete binder system.
+- **grouted micropile** (`AU-CS-GROUTED-MICROPILE`) — A small-diameter drilled and grouted deep-foundation element containing a central steel bar, bars or section and transferring actions through the grout-ground interface.
+- **grouted reinforcing bar sleeve** (`AU-CS-GROUTED-REINFORCING-SLEEVE`) — A hollow sleeve receiving one or more reinforcing bar ends and filled with a compatible structural grout to form a qualified bar connection.
+- **headed reinforcing bar** (`AU-CS-HEADED-REINFORCING-BAR`) — A reinforcing bar with a mechanically attached or integrally formed head that develops bar force through bearing in the surrounding concrete.
+- **hooked reinforcing bar** (`AU-CS-HOOKED-REINFORCING-BAR`) — A reinforcing bar with a scheduled bent hook at one or both ends to provide anchorage or fit within a confined concrete zone.
+- **hydrophilic concrete joint strip** (`AU-CS-HYDROPHILIC-JOINT-STRIP`) — A compact strip fixed to a prepared first concrete face that swells on sustained water contact to obstruct leakage through a later construction joint.
+- **jump-form assembly** (`AU-CS-JUMP-FORM-ASSEMBLY`) — A vertical formwork, platform and support assembly repositioned in discrete lifts to cast successive wall or core sections.
+- **keyed concrete joint** (`AU-CS-KEYED-CONCRETE-JOINT`) — A concrete joint whose mating faces include a formed tongue, groove or shear key intended to interlock the adjacent placements.
+- **live-end post-tensioning anchorage** (`AU-CS-LIVE-END-PT-ANCHORAGE`) — A post-tensioning anchorage accessible for stressing, where the jack pulls the strand or tendon and wedges or other devices retain the applied force.
+- **longitudinal reinforcing bar** (`AU-CS-LONGITUDINAL-REINFORCING-BAR`) — A reinforcing bar running mainly along the length or height of a beam, column, wall boundary, pile or similar member.
+- **mechanical reinforcing bar splice assembly** (`AU-CS-MECHANICAL-BAR-SPLICE`) — A connection between reinforcing bars using a purpose-designed mechanical coupler or sleeve rather than relying on an overlapping bonded length.
+- **one-way concrete slab** (`AU-CS-ONE-WAY-SLAB`) — A suspended slab arranged to span mainly in one direction between approximately parallel support lines.
+- **one-way ribbed concrete slab** (`AU-CS-RIBBED-SLAB`) — A suspended floor with a relatively thin topping flange cast integrally over closely spaced parallel concrete ribs spanning mainly in one direction.
+- **open reinforcing stirrup** (`AU-CS-OPEN-STIRRUP`) — A U-shaped or otherwise open reinforcing fitment placed around selected longitudinal bars without forming one closed loop by itself.
+- **permanent concrete formwork panel** (`AU-CS-PERMANENT-CONCRETE-FORMWORK`) — A panel or profiled sheet used to contain fresh concrete and deliberately left as part of the completed building after the concrete hardens.
+- **permanent pile casing** (`AU-CS-PILE-PERMANENT-CASING`) — A steel or other approved tubular casing deliberately left around part or all of a cast-in-place pile after installation.
+- **pile reinforcement cage** (`AU-CS-PILE-REINFORCEMENT-CAGE`) — A prefabricated cylindrical or shaped assembly of longitudinal reinforcing bars and ties installed inside a cast-in-place concrete pile.
+- **placed concrete reinforcement assembly** (`AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY`) — The complete arrangement of reinforcing bars, mesh, fitments, splices, ties, chairs and spacers fixed in position before concrete surrounds them.
+- **plain concrete element** (`AU-CS-PLAIN-CONCRETE-ELEMENT`) — A concrete member whose structural behaviour is not assigned to conventional embedded steel reinforcement or prestressing tendons.
+- **plain round reinforcing bar** (`AU-CS-PLAIN-ROUND-REINFORCING-BAR`) — A smooth round steel bar used as concrete reinforcement or as a dowel, fitment or other documented reinforcing component.
+- **plastic bar chair** (`AU-CS-PLASTIC-BAR-CHAIR`) — A moulded plastic chair supporting reinforcing bars or mesh above formwork, membrane or a substrate at a selected height.
+- **plastic-tipped wire bar chair** (`AU-CS-PLASTIC-TIPPED-WIRE-BAR-CHAIR`) — A bent steel-wire reinforcement chair whose feet are capped with plastic to separate exposed steel ends from the formed concrete surface.
+- **post-tensioned concrete element** (`AU-CS-POST-TENSIONED-CONCRETE-ELEMENT`) — A prestressed concrete element whose tendons are tensioned against the hardened concrete after it has reached the required condition.
+- **post-tensioning anchorage grout cap** (`AU-CS-PT-ANCHORAGE-GROUT-CAP`) — A protective cap or cementitious closure installed over a completed post-tensioning anchorage to isolate steel and close the stressing recess.
+- **post-tensioning anchorage head** (`AU-CS-PT-ANCHORAGE-HEAD`) — The steel head, barrel or casting at a post-tensioning anchorage containing wedge holes or other gripping features and bearing against the anchorage plate or concrete zone.
+- **post-tensioning anchorage recess** (`AU-CS-PT-ANCHORAGE-RECESS`) — A formed pocket in the concrete face providing stressing and finishing access around a post-tensioning anchorage.
+- **post-tensioning anchorage trumpet** (`AU-CS-PT-ANCHORAGE-TRUMPET`) — A flared transition fitting connecting a tendon duct to the wider anchorage body while guiding strands and containing grout at the anchorage zone.
+- **post-tensioning anchorage wedge set** (`AU-CS-PT-ANCHORAGE-WEDGES`) — A matched set of tapered toothed steel wedges seated around a prestressing strand in an anchorage head to grip the strand after stressing.
+- **post-tensioning anchorage-zone reinforcement** (`AU-CS-PT-ANCHORAGE-ZONE-REINFORCEMENT`) — A concentrated arrangement of ordinary reinforcing bars, spirals, ties or hairpins surrounding a tendon anchorage to distribute local bursting, spalling and splitting actions into the member.
+- **post-tensioning duct grout** (`AU-CS-POST-TENSIONING-GROUT`) — A flowable cementitious material pumped into a bonded post-tensioning duct after stressing to fill voids, protect the steel and bond the tendon to the concrete member.
+- **post-tensioning grout inlet** (`AU-CS-PT-GROUT-INLET`) — A small connected port and tube through which grout is introduced into a bonded post-tensioning duct.
+- **post-tensioning grout vent** (`AU-CS-PT-GROUT-VENT`) — A small connected port and tube at a tendon high point, end or other selected location allowing displaced air, water and grout to exit during bonded-tendon grouting.
+- **post-tensioning system** (`AU-CS-POST-TENSIONING-SYSTEM`) — The complete set of tendons, ducts or sheaths, anchorages, grout or grease, vents, couplers, supports and anchorage-zone reinforcement used to post-tension a concrete element.
+- **post-tensioning tendon chair** (`AU-CS-PT-TENDON-CHAIR`) — A purpose-made support holding a post-tensioning duct or monostrand tendon at a designed elevation and profile point before and during concrete placement.
+- **post-tensioning tendon coupler** (`AU-CS-PT-TENDON-COUPLER`) — A purpose-designed connector joining prestressing tendon lengths or allowing a later tendon stage to continue from an earlier anchored stage.
+- **post-tensioning tendon duct** (`AU-CS-POST-TENSIONING-DUCT`) — A continuous corrugated or otherwise formed enclosure creating the internal passage for one or more bonded post-tensioning strands and later grout.
+- **precast L-shaped spandrel beam** (`AU-CS-PRECAST-L-SPANDREL-BEAM`) — A precast edge beam with one projecting lower ledge, often supporting floor units on the building side while forming an external spandrel or facade edge.
+- **precast concrete balcony panel** (`AU-CS-PRECAST-BALCONY-PANEL`) — A prefabricated concrete platform element projecting outside or beyond the main floor line and connected back to the building structure.
+- **precast concrete beam** (`AU-CS-PRECAST-CONCRETE-BEAM`) — A prefabricated horizontal or sloping concrete member manufactured for lifting, bearing and connection between columns, walls, corbels or other supports.
+- **precast concrete bearing pad** (`AU-CS-PRECAST-BEARING-PAD`) — A purpose-made resilient or high-strength pad placed between a precast element and its support to distribute bearing and accommodate selected rotation or irregularity.
+- **precast concrete column** (`AU-CS-PRECAST-CONCRETE-COLUMN`) — A prefabricated vertical concrete member manufactured with lifting points and final bearing or connection details before erection into a building frame.
+- **precast concrete connection assembly** (`AU-CS-PRECAST-CONNECTION-ASSEMBLY`) — The complete bearing and fastening interface joining a prefabricated concrete element to another element or to cast-in-place, steel or masonry structure.
+- **precast concrete grout bed** (`AU-CS-PRECAST-GROUT-BED`) — A placed cementitious or resin grout layer filling the designed gap beneath or behind a precast element to provide continuous bearing and transfer selected compressive actions.
+- **precast concrete parapet panel** (`AU-CS-PRECAST-PARAPET-PANEL`) — A prefabricated concrete panel erected at a roof, balcony, bridge or floor edge to form a raised perimeter wall or barrier-supporting element.
+- **precast concrete sandwich wall panel** (`AU-CS-PRECAST-SANDWICH-WALL-PANEL`) — A prefabricated wall panel containing two concrete wythes separated by a thermal-insulation core and connected by purpose-designed ties or connectors.
+- **precast concrete stair flight** (`AU-CS-PRECAST-STAIR-FLIGHT`) — A prefabricated concrete unit containing a run of stair treads and risers, usually with an integral waist or stringer form, erected between landings or supports.
+- **precast concrete stair landing** (`AU-CS-PRECAST-STAIR-LANDING`) — A prefabricated horizontal concrete platform unit supporting or joining stair flights and bearing on walls, beams, columns or brackets.
+- **precast double-tee floor unit** (`AU-CS-PRECAST-DOUBLE-TEE-UNIT`) — A wide prestressed precast floor or roof unit with two deep longitudinal stems integral with a thinner top flange.
+- **precast hollowcore floor plank** (`AU-CS-HOLLOWCORE-FLOOR-PLANK`) — A long prestressed precast slab unit containing continuous longitudinal voids that reduce self-weight while retaining webs and flanges for structural action.
+- **precast insert recess patch** (`AU-CS-PRECAST-INSERT-PATCH`) — A compatible mortar, grout or proprietary plug installed after lifting or brace hardware is removed to close and protect the remaining recess in a precast element.
+- **precast inverted-T beam** (`AU-CS-PRECAST-INVERTED-T-BEAM`) — A precast beam with a central web and bearing ledges projecting from both sides near its lower edge to support floor units.
+- **precast lifting clutch** (`AU-CS-PRECAST-LIFTING-CLUTCH`) — A removable lifting device matched to a cast-in anchor and connected to crane rigging while a precast element is lifted.
+- **precast panel temporary brace** (`AU-CS-PRECAST-PANEL-TEMPORARY-BRACE`) — An adjustable diagonal strut connecting an erected precast panel to a designed foundation, slab or brace footing until final structural stability is complete.
+- **precast sandwich-panel inner wythe** (`AU-CS-SANDWICH-PANEL-INNER-WYTHE`) — The interior concrete layer of a precast sandwich wall panel, often providing the main bearing or wall-plane role but only as documented by design.
+- **precast sandwich-panel insulation core** (`AU-CS-SANDWICH-PANEL-INSULATION-CORE`) — A rigid thermal-insulation layer cast between the two concrete wythes of a prefabricated sandwich wall panel.
+- **precast sandwich-panel outer wythe** (`AU-CS-SANDWICH-PANEL-OUTER-WYTHE`) — The exterior concrete layer of a precast sandwich wall panel, exposed to weather or forming the outer architectural face.
+- **precast sandwich-panel wythe connector** (`AU-CS-SANDWICH-PANEL-WYTHE-CONNECTOR`) — A discrete or linear tie passing through the insulation core to connect the inner and outer concrete wythes of a precast sandwich panel.
+- **precast solid concrete slab panel** (`AU-CS-PRECAST-SOLID-SLAB-PANEL`) — A solid prefabricated concrete plate used as a floor, roof, balcony or platform unit and supported by bearings or connections at its edges or points.
+- **prefabricated concrete element** (`AU-CS-PREFABRICATED-CONCRETE-ELEMENT`) — A concrete member manufactured away from its final support position and handled as a discrete unit before incorporation into the completed building.
+- **prefabricated concrete structural system** (`AU-CS-PREFABRICATED-CONCRETE-SYSTEM`) — A structural or enclosure system assembled from concrete elements cast away from their final position and then transported, lifted, temporarily braced and connected into the building.
+- **prestressed concrete element** (`AU-CS-PRESTRESSED-CONCRETE-ELEMENT`) — A concrete element containing high-strength tendons that introduce a deliberate compressive stress before the element carries its full service actions.
+- **prestressing steel strand** (`AU-CS-PRESTRESSING-STRAND`) — A high-strength steel strand made from helically arranged wires and used as the tensile element in pre-tensioned or post-tensioned concrete.
+- **reinforced concrete element** (`AU-CS-REINFORCED-CONCRETE-ELEMENT`) — A permanent concrete member and its embedded steel reinforcement acting together in the completed structure.
+- **reinforced concrete frame** (`AU-CS-REINFORCED-CONCRETE-FRAME`) — A connected structural frame of reinforced concrete columns, beams, walls or slabs whose joints and members form the primary load path.
+- **reinforcement bar mat** (`AU-CS-REINFORCEMENT-MAT`) — A generally planar field of intersecting reinforcing bars fixed together as one reinforcement layer in a slab, wall, cap or foundation element.
+- **reinforcement cage** (`AU-CS-REINFORCEMENT-CAGE`) — A three-dimensional prefixed arrangement of longitudinal bars and transverse fitments shaped to reinforce a beam, column, wall boundary, pile or other concrete member.
+- **reinforcement cover spacer** (`AU-CS-REINFORCEMENT-COVER-SPACER`) — A small component fixed to or placed against reinforcement to maintain its designed side, soffit or face distance from formwork or ground.
+- **reinforcement support hurdle** (`AU-CS-REINFORCEMENT-SUPPORT-HURDLE`) — A fabricated steel support frame or trestle used to hold an upper reinforcement mat or heavy bars above a lower layer at the required separation.
+- **reinforcing bar bundle** (`AU-CS-REINFORCING-BAR-BUNDLE`) — Two or more reinforcing bars intentionally grouped in contact or close arrangement and treated as a documented reinforcement bundle.
+- **reinforcing bar coupler** (`AU-CS-REINFORCING-BAR-COUPLER`) — A discrete mechanical connector that grips, threads onto or otherwise engages two prepared reinforcing bar ends to form a mechanical splice.
+- **reinforcing bar lap splice assembly** (`AU-CS-REINFORCING-BAR-LAP-SPLICE`) — A connection zone where two reinforcing bars overlap for a documented length so force can transfer through bond and surrounding concrete.
+- **round post-tensioning duct** (`AU-CS-ROUND-POST-TENSIONING-DUCT`) — A post-tensioning duct with an approximately circular cross-section used for a selected bonded tendon strand bundle.
+- **silica fume for concrete** (`AU-CS-SILICA-FUME`) — A very fine amorphous silica material selected in controlled quantity as part of a concrete binder system.
+- **slip-form assembly** (`AU-CS-SLIP-FORM-ASSEMBLY`) — A short-height form, yoke, jack and platform assembly that moves progressively while concrete is placed to create a continuous vertical or other uniform section.
+- **solid precast concrete wall panel** (`AU-CS-PRECAST-SOLID-WALL-PANEL`) — A factory- or site-cast solid concrete panel erected vertically as a loadbearing wall, non-loadbearing wall, facade, retaining element or other documented wall role.
+- **spiral reinforcement** (`AU-CS-SPIRAL-REINFORCEMENT`) — A continuous reinforcing bar or wire wound helically around longitudinal reinforcement in a circular or other compatible concrete member.
+- **starter reinforcing bar** (`AU-CS-STARTER-REINFORCING-BAR`) — A reinforcing bar projecting from an earlier concrete pour or connection system to lap, couple or develop into a later wall, column, slab or other element.
+- **steel concrete form panel** (`AU-CS-STEEL-FORM-PANEL`) — A reusable framed steel panel providing a rigid concrete contact face for walls, columns, beams, edges or repetitive precast work.
+- **structural concrete beam** (`AU-CS-CONCRETE-BEAM`) — A horizontal or sloping concrete member that spans between supports and transfers loads from slabs, walls or other members.
+- **structural concrete column** (`AU-CS-CONCRETE-COLUMN`) — A predominantly vertical concrete member transferring concentrated floor, roof or frame actions between levels and into supports below.
+- **structural concrete joint system** (`AU-CS-CONCRETE-JOINT-SYSTEM`) — The complete physical interface between separate concrete placements or movement zones, including the gap or contact faces, keys, dowels, reinforcement treatment, waterstops, fillers and seals selected for its role.
+- **structural concrete joint waterstop** (`AU-CS-CONCRETE-JOINT-WATERSTOP`) — A continuous strip or profile embedded in, bonded to or fixed across a concrete joint to obstruct water passage through the joint path.
+- **structural concrete pile** (`AU-CS-CONCRETE-PILE`) — A slender deep-foundation element containing concrete and extending into the ground to transfer building actions through shaft resistance, toe resistance or both.
+- **structural concrete slab system** (`AU-CS-CONCRETE-SLAB-SYSTEM`) — A structural concrete plate or ribbed floor system that distributes loads to beams, walls, columns or the ground according to its documented support arrangement.
+- **structural concrete topping** (`AU-CS-STRUCTURAL-CONCRETE-TOPPING`) — A cast concrete layer placed over precast units, deck or an existing structural substrate and designed to contribute to the completed structural floor action.
+- **structural concrete upstand** (`AU-CS-CONCRETE-UPSTAND`) — A continuous or local concrete projection rising above a slab or beam surface to form a structural edge, kerb, wall base or support feature.
+- **structural concrete wall** (`AU-CS-CONCRETE-WALL`) — A vertical or sloping concrete plate member carrying gravity, lateral, retaining or enclosure actions according to its documented structural role.
+- **supplementary cementitious material** (`AU-CS-SUPPLEMENTARY-CEMENTITIOUS-MATERIAL`) — A finely divided mineral material used with cement to contribute to the binder system and alter selected fresh, hardened or durability properties of concrete.
+- **suspended concrete floor system** (`AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM`) — A concrete floor or roof slab system spanning between discrete supports with occupied, service or open space beneath it.
+- **suspended slab formwork assembly** (`AU-CS-SLAB-FORMWORK-ASSEMBLY`) — A horizontal form face supported by joists, bearers, props, frames or falsework to carry reinforcement, fresh concrete and construction actions for a suspended slab.
+- **suspended waffle concrete slab** (`AU-CS-SUSPENDED-WAFFLE-SLAB`) — A suspended floor with a topping flange over intersecting ribs arranged in two directions to form a repeated coffering pattern on the soffit.
+- **suspended waffle slab coffer** (`AU-CS-WAFFLE-SLAB-COFFER`) — A repeated recessed soffit cell bounded by intersecting concrete ribs in a suspended waffle slab.
+- **table form assembly** (`AU-CS-TABLE-FORM-ASSEMBLY`) — A large reusable slab-form module combining a deck, joists, bearers and supporting frames or props so the unit can be moved between repeated floor bays.
+- **transverse reinforcing bar** (`AU-CS-TRANSVERSE-REINFORCING-BAR`) — A reinforcing bar running across the primary member or slab direction to distribute actions, restrain longitudinal bars or provide shear and confinement roles.
+- **two-way concrete slab** (`AU-CS-TWO-WAY-SLAB`) — A suspended slab arranged to distribute significant plate actions in two directions to supporting beams, walls or columns.
+- **unbonded monostrand post-tensioning tendon** (`AU-CS-UNBONDED-MONOSTRAND-TENDON`) — A single prestressing strand coated with corrosion-protective grease and enclosed in an extruded plastic sheath, anchored at its ends without grout bonding along its length.
+
+## Cross-discipline links
+
+- `AU-CS-CEMENTITIOUS-BINDER` commonly used with `AU-CF-CONCRETE-MATERIAL`
+- `AU-CS-CHEMICAL-CONCRETE-ADMIXTURE` commonly used with `AU-CF-CONCRETE-MATERIAL`
+- `AU-CS-CLOSED-STIRRUP` is a `AU-CF-LIGATURE`
+- `AU-CS-COARSE-CONCRETE-AGGREGATE` commonly used with `AU-CF-CONCRETE-MATERIAL`
+- `AU-CS-CONCRETE-BAR-CHAIR` is a `AU-CF-BAR-CHAIR`
+- `AU-CS-CONCRETE-FIBRE-REINFORCEMENT` commonly used with `AU-CF-CONCRETE-MATERIAL`
+- `AU-CS-CONCRETE-JOINT-DOWEL-BAR` is a `AU-CF-REINFORCING-BAR`
+- `AU-CS-CONCRETE-MIXING-WATER` commonly used with `AU-CF-CONCRETE-MATERIAL`
+- `AU-CS-CONCRETE-SLAB-SYSTEM` commonly used with `AU-DB-CONCRETE-BALCONY-ASSEMBLY`
+- `AU-CS-CONCRETE-SLAB-SYSTEM` commonly used with `AU-DB-CONCRETE-WATERPROOFING-SUBSTRATE`
+- `AU-CS-CONCRETE-UPSTAND` commonly used with `AU-DB-TERRACE-PARAPET-HOB-ASSEMBLY`
+- `AU-CS-CONTINUOUS-BAR-CHAIR` is a `AU-CF-BAR-CHAIR`
+- `AU-CS-DEFORMED-REINFORCING-BAR` is a `AU-CF-REINFORCING-BAR`
+- `AU-CS-FINE-CONCRETE-AGGREGATE` commonly used with `AU-CF-CONCRETE-MATERIAL`
+- `AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM` commonly used with `AU-CF-CONCRETE-FORMWORK`
+- `AU-CS-HEADED-REINFORCING-BAR` is a `AU-CF-REINFORCING-BAR`
+- `AU-CS-HOOKED-REINFORCING-BAR` is a `AU-CF-REINFORCING-BAR`
+- `AU-CS-L-SHAPED-REINFORCING-BAR` is a `AU-CF-REINFORCING-BAR`
+- `AU-CS-LONGITUDINAL-REINFORCING-BAR` is a `AU-CF-REINFORCING-BAR`
+- `AU-CS-LONGITUDINAL-REINFORCING-BAR` part of `AU-MA-REINFORCED-MASONRY-BOND-BEAM`
+- `AU-CS-LONGITUDINAL-REINFORCING-BAR` supported by `AU-MA-MASONRY-BAR-POSITIONER`
+- `AU-CS-OPEN-STIRRUP` is a `AU-CF-LIGATURE`
+- `AU-CS-PLAIN-ROUND-REINFORCING-BAR` is a `AU-CF-REINFORCING-BAR`
+- `AU-CS-PLASTIC-BAR-CHAIR` is a `AU-CF-BAR-CHAIR`
+- `AU-CS-PLASTIC-TIPPED-WIRE-BAR-CHAIR` is a `AU-CF-BAR-CHAIR`
+- `AU-CS-PRECAST-BALCONY-PANEL` commonly used with `AU-DB-CONCRETE-BALCONY-ASSEMBLY`
+- `AU-CS-PRECAST-BALCONY-PANEL` commonly used with `AU-DB-CONCRETE-WATERPROOFING-SUBSTRATE`
+- `AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY` commonly used with `AU-CF-REINFORCEMENT-ASSEMBLY`
+- `AU-CS-STARTER-REINFORCING-BAR` is a `AU-CF-REINFORCING-BAR`
+- `AU-CS-TRANSVERSE-REINFORCING-BAR` is a `AU-CF-REINFORCING-BAR`
+- `AU-CS-U-SHAPED-REINFORCING-BAR` is a `AU-CF-REINFORCING-BAR`

@@ -1,0 +1,192 @@
+# Plumbing discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 134
+- Internal relationships: 292
+- Outgoing cross-discipline relationships: 2
+- Distinct supporting sources: 16
+- Distinct linked standards: 18
+- Average overall confidence: 88.2%
+- Objects with a Tier 1 source: 100.0%
+- Objects with two or more sources: 100.0%
+
+## Categories
+
+- backflow assemblies: 4
+- backflow device components: 2
+- backflow devices: 8
+- heated water assemblies: 2
+- heated water circulation: 3
+- heated water pipework: 2
+- heated water temperature control: 3
+- rainwater assemblies: 2
+- rainwater pipework: 1
+- rainwater pumping: 5
+- rainwater tank components: 13
+- rainwater tank supports: 3
+- rainwater tanks: 4
+- rainwater treatment components: 1
+- water heater assemblies: 3
+- water heater components: 8
+- water heater drainage: 5
+- water heater supports: 2
+- water heater units: 4
+- water heater valves: 3
+- water pipe materials: 5
+- water pressure control: 7
+- water service assemblies: 5
+- water service connections: 5
+- water service connectors: 1
+- water service fittings: 9
+- water service identification: 2
+- water service joint systems: 4
+- water service outlets: 1
+- water service pipes: 6
+- water service protection: 3
+- water service supports: 2
+- water service valves: 6
+
+## Objects
+
+- **PVC pressure water pipe** (`AU-PL-PVC-PRESSURE-WATER-PIPE`) — A rigid PVC pressure pipe selected for an approved cold-water, recycled-water, rainwater or other pressure service and joined with matching solvent-cement or rubber-ring fittings.
+- **above-ground rainwater tank** (`AU-PL-ABOVE-GROUND-RAINWATER-TANK`) — A rainwater-storage vessel installed mainly above finished ground, with visible walls, roof or cover, inlet, overflow, outlet, drain and maintenance access.
+- **alternative drinking-water service** (`AU-PL-ALTERNATIVE-DRINKING-WATER-SERVICE`) — A drinking-water service supplied from an approved source other than the normal network utility supply, such as treated roof water, bore water or carted water accepted for the intended use.
+- **atmospheric vacuum breaker** (`AU-PL-ATMOSPHERIC-VACUUM-BREAKER`) — A vacuum-breaker device that opens an atmospheric air inlet when water pressure falls and is used only within the operating and installation limits of its selected protection pathway.
+- **backflow protection system** (`AU-PL-BACKFLOW-PROTECTION-SYSTEM`) — The selected physical air gap, break tank or mechanical-device arrangement that protects a drinking-water service at a property boundary, zone or individual connection from reverse flow.
+- **backflow-device relief drainage assembly** (`AU-PL-BACKFLOW-RELIEF-DRAIN-ASSEMBLY`) — The air-gapped funnel, tundish, drain pipe or floor drainage arrangement receiving discharge from a backflow device relief port without obstructing or pressurising the device.
+- **backflow-device test cock** (`AU-PL-BACKFLOW-TEST-COCK`) — A small valved tapping on a testable backflow assembly used to connect field-test instruments to a nominated pressure zone within the device.
+- **ball isolation valve** (`AU-PL-BALL-ISOLATION-VALVE`) — A quarter-turn inline valve using a bored rotating ball to open or close a water-service flow path.
+- **below-ground water-valve surface box** (`AU-PL-SURFACE-VALVE-BOX`) — A small box and removable marked lid extending from finished surface level down to an otherwise buried water-service valve so the valve can be found and operated.
+- **building water-services system** (`AU-PL-BUILDING-WATER-SERVICES-SYSTEM`) — The coordinated physical network that brings drinking, heated, tempered, non-drinking or rainwater into a property and carries the selected water service to its outlets and connected appliances.
+- **buried rainwater tank** (`AU-PL-BURIED-RAINWATER-TANK`) — A rainwater-storage vessel installed below or partly below finished ground with an access riser and cover, designed for surrounding soil, groundwater and any surface loading conditions.
+- **buried rainwater-tank anti-flotation assembly** (`AU-PL-BURIED-TANK-ANTI-FLOTATION-ASSEMBLY`) — An engineered slab, straps, beams or anchoring arrangement holding a buried rainwater tank down against groundwater buoyancy when its stored-water level is low.
+- **buried-tank access riser** (`AU-PL-BURIED-TANK-ACCESS-RISER`) — A vertical neck extending a buried rainwater tank's access opening up to finished surface level and supporting its removable cover.
+- **cold water service** (`AU-PL-COLD-WATER-SERVICE`) — The pipe, fittings, valves and connected equipment carrying water that is not intentionally heated from its point of connection to the cold-water points of discharge.
+- **cold-water distribution pipe** (`AU-PL-COLD-WATER-DISTRIBUTION-PIPE`) — A pressure-pipe run within the property that carries cold water from the incoming service, manifold or branch to fixtures, appliances or other water-service equipment.
+- **compression water-pipe fitting** (`AU-PL-COMPRESSION-JOINT-FITTING`) — A demountable or semi-demountable pressure fitting that seals and grips a compatible pipe by tightening a nut onto an olive, compression ring or collet assembly.
+- **containment backflow-protection assembly** (`AU-PL-CONTAINMENT-BACKFLOW-ASSEMBLY`) — A backflow-protection arrangement at or near the property water connection that protects the network utility supply from hazards presented by the property as a whole.
+- **continuous-flow water heater** (`AU-PL-CONTINUOUS-FLOW-WATER-HEATER`) — A compact water heater that heats water as it flows through the unit rather than storing the main delivered volume in a tank.
+- **copper water tube** (`AU-PL-COPPER-WATER-TUBE`) — A straight or coiled copper tube selected as pressure pipe for cold, heated or tempered water and joined with compatible capillary, press, compression or threaded transition fittings.
+- **cross-linked polyethylene water pipe** (`AU-PL-PEX-WATER-PIPE`) — A flexible or semi-rigid cross-linked polyethylene pressure pipe used with its compatible fitting system for cold or heated water distribution.
+- **double-check backflow valve** (`AU-PL-DOUBLE-CHECK-BACKFLOW-VALVE`) — A testable mechanical backflow device containing two independently acting check valves in series within one assembly.
+- **drinking water service** (`AU-PL-DRINKING-WATER-SERVICE`) — A cold-water service connected to water accepted for human consumption, food preparation, utensil washing or personal hygiene, using products suitable for contact with drinking water.
+- **dual-check backflow valve** (`AU-PL-DUAL-CHECK-BACKFLOW-VALVE`) — A compact non-testable or product-defined backflow device containing two check mechanisms in series for the protection role permitted by its certification and selected hazard pathway.
+- **dual-check valve with atmospheric port** (`AU-PL-DUAL-CHECK-ATMOSPHERIC-PORT-VALVE`) — A compact backflow device containing two check stages and an intermediate port open to atmosphere for the specific protected connection permitted by its certification.
+- **electric storage water heater** (`AU-PL-ELECTRIC-STORAGE-WATER-HEATER`) — A storage water heater using one or more electric resistance elements and thermostatic controls to heat water inside an insulated vessel.
+- **electrofusion water-pipe fitting** (`AU-PL-ELECTROFUSION-FITTING`) — A polyethylene fitting containing electrical resistance elements that heat and fuse the fitting to prepared compatible PE pipe ends.
+- **expansion control valve** (`AU-PL-EXPANSION-CONTROL-VALVE`) — A pressure-relief valve fitted in the cold-water inlet path to discharge water expanded during normal heating before the storage vessel's temperature/pressure-relief valve operates.
+- **fixture mini stop valve** (`AU-PL-MINI-STOP-VALVE`) — A small accessible isolation valve fitted close to a tap, mixer, cistern or appliance inlet to shut off that individual fixture connection.
+- **fixture water-connection pipe** (`AU-PL-FIXTURE-CONNECTION-PIPE`) — The final short fixed pipe segment connecting a branch or wall outlet to the fixture isolation point, tap, cistern, appliance or flexible connector.
+- **flexible bladder rainwater tank** (`AU-PL-BLADDER-RAINWATER-TANK`) — A closed flexible water-storage bladder installed within a protected underfloor or framed enclosure and connected to separate inlet, vent, overflow and outlet fittings.
+- **flexible water hose assembly** (`AU-PL-FLEXIBLE-WATER-HOSE-ASSEMBLY`) — A manufactured flexible pressure connector with integral end fittings used for the final water connection to a mixer, tap, cistern, appliance or water-heater component.
+- **gas storage water heater** (`AU-PL-GAS-STORAGE-WATER-HEATER`) — A storage water heater using a gas burner and heat-transfer path to heat water in an insulated vessel, with combustion-air and flue connections appropriate to the selected appliance.
+- **gate isolation valve** (`AU-PL-GATE-ISOLATION-VALVE`) — A multi-turn inline valve that raises or lowers a gate across the waterway to isolate a water service with relatively little obstruction when fully open.
+- **heat-pump water-heater assembly** (`AU-PL-HEAT-PUMP-WATER-HEATER-ASSEMBLY`) — A water-heating assembly using a refrigeration circuit to move heat from surrounding air or another source into stored water, formed as an integrated unit or split outdoor unit and cylinder.
+- **heated water service** (`AU-PL-HEATED-WATER-SERVICE`) — The water heater, storage, valves, temperature controls, pipework, insulation and outlets that intentionally heat drinking or rainwater and distribute it to points of discharge.
+- **heated-water circulation pump** (`AU-PL-HOT-WATER-CIRCULATION-PUMP`) — A small inline pump moving water around a heated-water flow-and-return loop to maintain circulation through the selected operating schedule or demand control.
+- **heated-water circulation return pipe** (`AU-PL-HOT-WATER-RETURN-PIPE`) — A dedicated pipe carrying cooled water from the far end or branches of a heated-water circulation loop back toward the heater or storage system.
+- **heated-water distribution pipe** (`AU-PL-HEATED-WATER-DISTRIBUTION-PIPE`) — A temperature-rated pressure pipe carrying intentionally heated water from a water heater or storage outlet toward a temperature-control device or point of discharge.
+- **heated-water recirculation balancing valve** (`AU-PL-HOT-WATER-RECIRCULATION-VALVE`) — A manual, thermostatic or automatic valve in a heated-water return branch used to balance or regulate circulation flow through that branch.
+- **hose tap** (`AU-PL-HOSE-TAP`) — A manually operated water outlet with a hose-connection end, fixed to a wall, post, yard riser or plant area for external or maintenance water use.
+- **hose-connection vacuum breaker** (`AU-PL-HOSE-CONNECTION-VACUUM-BREAKER`) — A compact vacuum-breaker device fitted directly to a hose tap or similar threaded outlet to limit backsiphonage from an attached hose within its certified use.
+- **hot-water storage cylinder** (`AU-PL-HOT-WATER-STORAGE-CYLINDER`) — The pressure vessel within or beside a water-heating system that physically contains the stored heated water, separate from its outer casing, insulation and heat-source components.
+- **individual backflow-protection assembly** (`AU-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY`) — A backflow-protection arrangement immediately upstream of one fixture, appliance, hose connection or item of equipment presenting a cross-connection hazard.
+- **inline water strainer** (`AU-PL-INLINE-WATER-STRAINER`) — A removable screen or basket within an inline body that captures debris before water reaches a valve, pump, meter, heater or temperature-control device.
+- **main water-service stop valve** (`AU-PL-MAIN-STOP-VALVE`) — The accessible manually operated valve that shuts off the main incoming water service to the property or building distribution system.
+- **mains-to-rainwater switching assembly** (`AU-PL-MAINS-RAINWATER-SWITCHING-ASSEMBLY`) — A certified valve, break-tank or controller arrangement that maintains supply to selected outlets by changing between rainwater and drinking-water sources without creating an unprotected cross-connection.
+- **multilayer composite water pipe** (`AU-PL-MULTILAYER-WATER-PIPE`) — A pressure pipe built from bonded polymer and metal or other material layers, used with its specified fittings for cold and heated water plumbing.
+- **non-drinking water service** (`AU-PL-NONDRINKING-WATER-SERVICE`) — A separately identified pipe network carrying water that is not intended or approved for drinking, food preparation, utensil washing or personal hygiene to its permitted outlets.
+- **non-drinking-water service pipe** (`AU-PL-NONDRINKING-WATER-PIPE`) — A visibly identified pressure pipe dedicated to conveying non-drinking water to permitted uses without being mistaken for a drinking-water pipe.
+- **non-return valve** (`AU-PL-NONRETURN-VALVE`) — An inline valve that opens for intended flow and closes when flow reverses, used within equipment or water-service arrangements without automatically providing every required backflow-protection role.
+- **polyethylene property-service pipe** (`AU-PL-PE-PROPERTY-SERVICE-PIPE`) — A polyethylene pressure pipe used mainly below ground for a property water service, rainwater supply, recycled-water supply or another identified pressure application.
+- **press-joint water fitting** (`AU-PL-PRESS-JOINT-FITTING`) — A metal or composite water-service fitting permanently joined by mechanically pressing its socket and seal onto a compatible prepared pipe end.
+- **pressure-limiting valve** (`AU-PL-PRESSURE-LIMITING-VALVE`) — An automatic inline valve selected to limit downstream static pressure to a set maximum for building pipework, fixtures or water-heating equipment.
+- **pressure-reducing valve** (`AU-PL-PRESSURE-REDUCING-VALVE`) — An adjustable automatic valve that reduces a higher inlet pressure to a lower controlled working pressure over its intended flow range.
+- **pressure-type vacuum breaker** (`AU-PL-PRESSURE-VACUUM-BREAKER`) — A mechanical backflow device using a check valve and air-inlet mechanism to admit air and break a backsiphonage condition while the upstream service may remain pressurised.
+- **property water-meter assembly** (`AU-PL-WATER-METER-ASSEMBLY`) — The accessible group containing a water meter and its matching connectors, upstream and downstream pipework, isolation valves and protective box or support where provided.
+- **property water-service pipe** (`AU-PL-PROPERTY-SERVICE-PIPE`) — The pressure pipe running from the water-service point of connection into the property to the main distribution or first controlled branch of the building service.
+- **rainwater first-flush diverter** (`AU-PL-RAINWATER-FIRST-FLUSH-DIVERTER`) — A branch chamber or diversion device that intercepts the initial roof runoff and releases, drains or isolates it before cleaner continuing flow enters the rainwater tank.
+- **rainwater outlet identification sign** (`AU-PL-RAINWATER-OUTLET-SIGN`) — A durable physical label or sign fixed beside a rainwater tap, valve or appliance connection to identify the source and any restricted use.
+- **rainwater pressure-pump assembly** (`AU-PL-RAINWATER-PUMP-ASSEMBLY`) — A pump with suction strainer, isolation, non-return protection, pressure controller and optional vessel that draws from rainwater storage and supplies the rainwater-service pipework.
+- **rainwater pump controller** (`AU-PL-RAINWATER-PUMP-CONTROLLER`) — A pressure, flow or level-responsive controller attached to a rainwater pump assembly to start and stop the pump and provide dry-run or fault protection.
+- **rainwater service** (`AU-PL-RAINWATER-SERVICE`) — The identified pressure-pipe system carrying stored roof-collected rainwater from the tank connection to permitted rainwater points of discharge.
+- **rainwater storage system** (`AU-PL-RAINWATER-STORAGE-SYSTEM`) — The physical tank and its inlet, screening, access, overflow, outlet, drain, base and optional pumping or top-up equipment that receives and stores roof-collected rainwater.
+- **rainwater tank access cover** (`AU-PL-RAINWATER-TANK-ACCESS-COVER`) — A removable, hinged or bolted cover closing the tank inspection and cleaning opening while preventing entry by children, animals, insects, light and surface water as applicable.
+- **rainwater tank anchor** (`AU-PL-RAINWATER-TANK-ANCHOR`) — A strap, bracket, bolt or proprietary hold-down connecting a rainwater tank to its support to resist wind, movement or other selected actions when the tank is empty or partly full.
+- **rainwater tank body** (`AU-PL-RAINWATER-TANK-BODY`) — The water-retaining wall and base shell of a rainwater tank, excluding removable covers, separate fittings, pumps and external support construction.
+- **rainwater tank calming inlet** (`AU-PL-RAINWATER-CALMING-INLET`) — A downward inlet pipe and shaped outlet near the tank floor that slows incoming rainwater and directs it without strongly disturbing settled material.
+- **rainwater tank drain or scour outlet** (`AU-PL-RAINWATER-TANK-DRAIN`) — A low-level valved outlet used to empty or flush settled material and cleaning water from a rainwater tank independently of its normal service outlet.
+- **rainwater tank floating intake** (`AU-PL-RAINWATER-FLOATING-INTAKE`) — A buoyant screened suction fitting connected by flexible hose so water is drawn from below the surface rather than from settled material at the tank bottom.
+- **rainwater tank inlet fitting** (`AU-PL-RAINWATER-TANK-INLET`) — A sealed or screened fitting where roof-water pipework enters the rainwater tank, directing inflow through the selected strainer, calming inlet or first-flush arrangement.
+- **rainwater tank inlet strainer** (`AU-PL-RAINWATER-INLET-STRAINER`) — A removable basket, screen or mesh at a tank inlet that catches leaves and coarse debris while allowing roof water to enter storage.
+- **rainwater tank level gauge** (`AU-PL-RAINWATER-TANK-LEVEL-GAUGE`) — A mechanical, pneumatic, ultrasonic or electronic device physically connected to or aimed into a rainwater tank to indicate its stored water level.
+- **rainwater tank mains top-up assembly** (`AU-PL-RAINWATER-MAINS-TOPUP-ASSEMBLY`) — A controlled drinking-water inlet discharging into rainwater storage through the required physical separation and level control to maintain a minimum tank supply without contaminating the mains.
+- **rainwater tank mosquito-proof screen** (`AU-PL-RAINWATER-MOSQUITO-SCREEN`) — A closely fitted insect-resistant mesh closing a rainwater tank inlet, overflow, vent or other opening while preserving the required water or air flow area.
+- **rainwater tank overflow fitting** (`AU-PL-RAINWATER-TANK-OVERFLOW`) — A high-level tank outlet and connecting pipe that releases inflow above the maximum retained water level to an approved stormwater path without uncontrolled spill at the tank.
+- **rainwater tank service outlet fitting** (`AU-PL-RAINWATER-TANK-OUTLET`) — A sealed low or intermediate-level fitting through the tank wall that connects stored water to a pump suction, gravity tap or rainwater service.
+- **rainwater tank support base** (`AU-PL-RAINWATER-TANK-BASE`) — A level slab, pad, ring beam, compacted base or proprietary frame distributing the full rainwater tank load to ground or building structure without harmful settlement or point loading.
+- **rainwater tank vent** (`AU-PL-RAINWATER-TANK-VENT`) — A screened air opening or short vent pipe that lets air enter and leave a closed rainwater tank as the water level changes.
+- **rainwater top-up float valve** (`AU-PL-RAINWATER-TOPUP-FLOAT-VALVE`) — A level-operated inlet valve using a float, arm or remote pilot to open the protected top-up water path when tank level falls and close it at the selected level.
+- **rainwater-service pipe** (`AU-PL-RAINWATER-SERVICE-PIPE`) — An identified pressure pipe carrying stored rainwater from the tank or pump assembly to a permitted rainwater fixture, appliance or outlet.
+- **reduced-pressure-zone backflow device** (`AU-PL-REDUCED-PRESSURE-ZONE-DEVICE`) — A testable mechanical backflow device containing two check stages and an intermediate relief zone that opens to discharge if the required pressure relationship is lost.
+- **registered air gap** (`AU-PL-REGISTERED-AIR-GAP`) — A measurable open vertical separation between a water-supply outlet and the receiving vessel's overflow level, formed by the actual outlet, air space and receiving opening.
+- **relief-drain tundish** (`AU-PL-RELIEF-DRAIN-TUNDISH`) — An open funnel-shaped fitting providing a visible air break between a relief discharge pipe and a downstream drain while containing normal splashing.
+- **slimline rainwater tank** (`AU-PL-SLIMLINE-RAINWATER-TANK`) — A narrow above-ground rainwater tank shaped to fit beside a wall or within a restricted side setback while retaining its required inlet, overflow, outlet and access fittings.
+- **solar thermal water-heater collector** (`AU-PL-SOLAR-THERMAL-COLLECTOR`) — A glazed or evacuated-tube panel that absorbs solar radiation and transfers heat into water or another heat-transfer fluid circulating through its internal passages.
+- **solar water-heater assembly** (`AU-PL-SOLAR-WATER-HEATER-ASSEMBLY`) — A water-heating system combining one or more roof or ground solar thermal collectors with storage, circulation or thermosiphon pipework, controls and an optional booster.
+- **solar-collector mounting frame** (`AU-PL-SOLAR-COLLECTOR-MOUNTING-FRAME`) — A rail, bracket and fastener frame holding solar thermal collectors at the required roof or ground orientation and transferring their loads to structure.
+- **split heat-pump water-heater outdoor unit** (`AU-PL-HEAT-PUMP-OUTDOOR-UNIT`) — The fan, evaporator, compressor and refrigeration components of a split heat-pump water heater housed separately from the water storage cylinder.
+- **storage water heater** (`AU-PL-STORAGE-WATER-HEATER`) — A water-heating unit containing an insulated vessel that heats and stores a volume of water for later discharge to the heated-water service.
+- **temperature/pressure-relief valve** (`AU-PL-TEMPERATURE-PRESSURE-RELIEF-VALVE`) — A safety valve connected directly to a heated-water storage vessel that opens when its temperature or pressure threshold is reached and discharges through a dedicated drain line.
+- **tempered water service** (`AU-PL-TEMPERED-WATER-SERVICE`) — The downstream pipe network carrying water blended or controlled to a selected delivery-temperature limit from a temperature-control device to nominated personal-hygiene outlets.
+- **tempered-water pipe** (`AU-PL-TEMPERED-WATER-PIPE`) — A pressure pipe downstream of a temperature-control device that carries blended or otherwise limited-temperature water to specified outlets.
+- **tempering valve** (`AU-PL-TEMPERING-VALVE`) — A self-acting mixing valve blending heated and cold water to limit its outlet temperature for the applications permitted by the selected product and regulatory pathway.
+- **thermostatic mixing valve** (`AU-PL-THERMOSTATIC-MIXING-VALVE`) — A thermostatically controlled valve that mixes heated and cold water and actively maintains its outlet near a set temperature within its certified operating conditions.
+- **thermostatically controlled tap** (`AU-PL-THERMOSTATICALLY-CONTROLLED-TAP`) — A point-of-use tap containing an integral thermostatic control that mixes heated and cold water and limits the temperature discharged at that fixture.
+- **water meter** (`AU-PL-WATER-METER`) — An inline measuring unit with defined inlet and outlet connections that records the volume or flow of water passing through a service.
+- **water-distribution manifold** (`AU-PL-WATER-DISTRIBUTION-MANIFOLD`) — A multi-outlet distribution body receiving one water-service inlet and providing separate branch connections, often with individual isolation or identification for each branch.
+- **water-hammer arrestor** (`AU-PL-WATER-HAMMER-ARRESTOR`) — A sealed compressible-chamber device connected near quick-closing valves or appliances to absorb sudden pressure waves in a water-service pipe.
+- **water-heater cold-inlet valve set** (`AU-PL-WATER-HEATER-COLD-INLET-SET`) — The ordered group of cold-water inlet components serving a water heater, commonly including isolation, non-return, pressure control, straining and expansion-control parts selected for the installation.
+- **water-heater condensate drain** (`AU-PL-WATER-HEATER-CONDENSATE-DRAIN`) — A gravity or pumped drain carrying condensate formed by a heat-pump, condensing gas or other water-heating process to an approved discharge point.
+- **water-heater electric element** (`AU-PL-WATER-HEATER-ELECTRIC-ELEMENT`) — A sheathed electric resistance element fitted through a storage vessel or flow chamber to convert electrical energy into heat transferred to the water.
+- **water-heater heat exchanger** (`AU-PL-WATER-HEATER-HEAT-EXCHANGER`) — A coil, plate pack, tube bundle or jacket that transfers heat between a primary energy circuit and the domestic water without intentionally mixing the two fluids.
+- **water-heater installation assembly** (`AU-PL-WATER-HEATER-ASSEMBLY`) — A selected water heater together with its inlet controls, hot outlet, relief valves and drains, temperature-control interface, support, energy connection and required service clearances.
+- **water-heater insulation jacket** (`AU-PL-WATER-HEATER-INSULATION-JACKET`) — The factory or site-applied insulating layer surrounding a hot-water storage cylinder or selected heater surfaces to reduce standing heat loss.
+- **water-heater relief-valve drain line** (`AU-PL-RELIEF-VALVE-DRAIN-LINE`) — A dedicated open-ended drain pipe carrying hot or expansion-water discharge from a TPR or expansion-control valve to a visible safe point without a valve or restriction in the path.
+- **water-heater sacrificial anode** (`AU-PL-WATER-HEATER-SACRIFICIAL-ANODE`) — A replaceable reactive metal rod installed through a storage-cylinder opening so it preferentially corrodes and helps protect compatible metal cylinder surfaces.
+- **water-heater safe tray** (`AU-PL-WATER-HEATER-SAFE-TRAY`) — A shallow watertight tray beneath or around a water heater that catches leakage from the appliance or nearby connections and directs it through a separate tray drain.
+- **water-heater safe-tray drain pipe** (`AU-PL-SAFE-TRAY-DRAIN-PIPE`) — A gravity pipe connected to a water-heater safe-tray outlet that carries collected leakage to a visible or otherwise approved discharge point.
+- **water-heater support plinth** (`AU-PL-WATER-HEATER-PLINTH`) — A raised concrete, masonry, metal or proprietary base supporting a water heater above the surrounding surface and transferring its full operating mass to structure or ground.
+- **water-heater thermostat** (`AU-PL-WATER-HEATER-THERMOSTAT`) — A temperature-sensing control physically fitted to or within a water heater to switch or modulate its heat source around a selected stored-water condition.
+- **water-meter box** (`AU-PL-WATER-METER-BOX`) — A ground, wall or cabinet enclosure protecting a water meter and nearby valves while leaving them accessible for reading, isolation and replacement.
+- **water-pipe adaptor** (`AU-PL-WATER-PIPE-ADAPTOR`) — A pressure fitting connecting different pipe materials, joint systems, thread forms or equipment connections without treating unlike ends as directly interchangeable.
+- **water-pipe clip** (`AU-PL-WATER-PIPE-CLIP`) — A repeated clamp or clip fixing a water pipe to building structure while controlling its position, sag and movement without damaging the pipe or insulation.
+- **water-pipe coupling** (`AU-PL-WATER-PIPE-COUPLING`) — A straight pressure-rated connector joining two aligned pipe ends of the same or compatible size and material system.
+- **water-pipe elbow** (`AU-PL-WATER-PIPE-ELBOW`) — A pressure fitting with two ends that turns a water-service pipe through a manufactured angle without creating a branch.
+- **water-pipe end cap or plug** (`AU-PL-WATER-PIPE-END-CAP`) — A pressure-rated cap or plug that closes the open end or unused socket of a water-service pipe or fitting.
+- **water-pipe flange joint assembly** (`AU-PL-WATER-PIPE-FLANGE-ASSEMBLY`) — A demountable pressure joint formed by two matching flange faces, gasket, bolts, nuts and washers connecting pipework to pipework, valves, pumps or tanks.
+- **water-pipe penetration sleeve** (`AU-PL-WATER-PIPE-PENETRATION-SLEEVE`) — A larger protective tube cast, built or fitted through a wall, floor, footing or similar element so a water pipe can pass without direct damaging contact and with space for sealing or movement.
+- **water-pipe reducer** (`AU-PL-WATER-PIPE-REDUCER`) — A pressure fitting joining two different nominal pipe sizes along one water-service run.
+- **water-pipe support bracket** (`AU-PL-WATER-PIPE-BRACKET`) — A fabricated or proprietary bracket projecting from or spanning between structure to carry one or more pipe clips, valves, manifolds or water-service equipment.
+- **water-pipe tee** (`AU-PL-WATER-PIPE-TEE`) — A three-ended pressure fitting that creates a branch from a water-service pipe or joins two branches into a common run.
+- **water-pipe thermal insulation** (`AU-PL-WATER-PIPE-INSULATION`) — A continuous or sectional insulating layer fitted around cold, heated or tempered water pipe and selected fittings to limit heat gain, heat loss, condensation or freezing exposure.
+- **water-pipe union** (`AU-PL-WATER-PIPE-UNION`) — A demountable three-part or equivalent straight connector that lets pipework or equipment be separated without rotating or cutting the connected pipe runs.
+- **water-pressure booster pump assembly** (`AU-PL-WATER-BOOSTER-PUMP-ASSEMBLY`) — A pump set with isolation, non-return, pressure sensing, controls and optional pressure vessel used to raise water-service pressure for a defined downstream zone.
+- **water-service branch pipe** (`AU-PL-WATER-SERVICE-BRANCH-PIPE`) — A pressure-pipe run leaving a main, riser or manifold to supply one fixture group, room, appliance or smaller set of downstream branches.
+- **water-service break tank** (`AU-PL-WATER-SERVICE-BREAK-TANK`) — A vented intermediate water-storage tank receiving supply through a protected air gap and feeding a separate downstream pump or gravity service.
+- **water-service isolation valve** (`AU-PL-ISOLATION-VALVE`) — A manually or automatically operated inline valve used to stop flow to a service, zone, branch, appliance or backflow device for maintenance or emergency control.
+- **water-service pipe identification marker** (`AU-PL-WATER-SERVICE-IDENTIFICATION-MARKER`) — A durable label, band, printed legend, sleeve colour or marker fixed to a pipe or outlet so the carried water service and flow direction can be recognised.
+- **water-service point-of-connection assembly** (`AU-PL-WATER-POINT-OF-CONNECTION-ASSEMBLY`) — The physical junction where the property water service connects to a network, tank, treatment plant or other approved source, including the nominated pipe and isolation interface.
+- **water-service pressure gauge** (`AU-PL-WATER-PRESSURE-GAUGE`) — A dial or electronic instrument physically connected to a water service through a gauge fitting or test point to display local pressure.
+- **water-service pressure vessel** (`AU-PL-WATER-PRESSURE-VESSEL`) — A sealed tank containing water and a compressible air or gas volume separated by a bladder or diaphragm, used to smooth pump cycling and pressure variation.
+- **water-service pressure-pipe fitting** (`AU-PL-PRESSURE-PIPE-FITTING`) — A manufactured pressure-rated component that joins, turns, divides, reduces, closes or adapts water-service pipes while maintaining the selected service pressure and material compatibility.
+- **water-service riser** (`AU-PL-WATER-SERVICE-RISER`) — A generally vertical water-service pipe carrying cold, heated, tempered, non-drinking or rainwater between building levels or from a buried service into the building.
+- **zone backflow-protection assembly** (`AU-PL-ZONE-BACKFLOW-ASSEMBLY`) — A backflow-protection arrangement installed upstream of a defined building or service zone containing one or more cross-connection hazards.
+
+## Cross-discipline links
+
+- `AU-PL-RAINWATER-TANK-OVERFLOW` connects to `AU-SC-STORMWATER-DRAIN`
+- `AU-PL-WATER-HEATER-ASSEMBLY` commonly used with `AU-EL-WATER-HEATER-ISOLATOR`

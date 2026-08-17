@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://buildgrid.local/schemas/relationship.schema.json",
+  "title": "Buildgrid directed physical-object relationship",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "from_id",
+    "relationship",
+    "to_id",
+    "source_ids",
+    "confidence",
+    "review_status"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^REL-[A-Z0-9-]+$"},
+    "from_id": {"type": "string", "pattern": "^AU-[A-Z0-9-]+$"},
+    "relationship": {
+      "enum": [
+        "is_a",
+        "part_of",
+        "has_part",
+        "connects_to",
+        "attached_to",
+        "supports",
+        "supported_by",
+        "spans_between",
+        "bears_on",
+        "restrains",
+        "braces",
+        "covers",
+        "lined_by",
+        "clad_by",
+        "fixed_by",
+        "sealed_by",
+        "flashed_by",
+        "insulated_by",
+        "penetrates",
+        "surrounds",
+        "adjacent_to",
+        "alternative_to",
+        "commonly_used_with"
+      ]
+    },
+    "to_id": {"type": "string", "pattern": "^AU-[A-Z0-9-]+$"},
+    "source_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "review_status": {
+      "enum": ["accepted", "accepted_pending_review", "research_required", "hold"]
+    }
+  }
+}

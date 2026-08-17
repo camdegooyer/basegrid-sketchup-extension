@@ -1,0 +1,5267 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "ancillary",
+  "relationships": [
+    {
+      "id": "REL-001-AN-ABOVE-GROUND-BUSHFIRE-SHELTER-PART-OF-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-ABOVE-GROUND-BUSHFIRE-SHELTER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-002-AN-ABOVE-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-ABOVE-GROUND-POOL-LINER",
+      "from_id": "AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ABOVE-GROUND-POOL-LINER",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-003-AN-ABOVE-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-ABOVE-GROUND-POOL-TOP-RAIL",
+      "from_id": "AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ABOVE-GROUND-POOL-TOP-RAIL",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-004-AN-ABOVE-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-ABOVE-GROUND-POOL-WALL",
+      "from_id": "AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ABOVE-GROUND-POOL-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-005-AN-ABOVE-GROUND-POOL-ASSEMBLY-PART-OF-AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-006-AN-ABOVE-GROUND-POOL-LINER-PART-OF-AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-ABOVE-GROUND-POOL-LINER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-007-AN-ABOVE-GROUND-POOL-TOP-RAIL-PART-OF-AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-ABOVE-GROUND-POOL-TOP-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-008-AN-ABOVE-GROUND-POOL-WALL-PART-OF-AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-ABOVE-GROUND-POOL-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-009-AN-ACCESS-CONTROL-HARDWARE-SET-HAS-PART-AU-AN-CARD-READER",
+      "from_id": "AU-AN-ACCESS-CONTROL-HARDWARE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-AN-CARD-READER",
+      "source_ids": [
+        "SRC-CAPSTONE-SPECIALIST-OPENINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-010-AN-ACCESS-CONTROL-HARDWARE-SET-HAS-PART-AU-AN-ELECTRIC-STRIKE",
+      "from_id": "AU-AN-ACCESS-CONTROL-HARDWARE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ELECTRIC-STRIKE",
+      "source_ids": [
+        "SRC-CAPSTONE-SPECIALIST-OPENINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-011-AN-ACCESS-CONTROL-HARDWARE-SET-HAS-PART-AU-AN-MAGNETIC-LOCK",
+      "from_id": "AU-AN-ACCESS-CONTROL-HARDWARE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-AN-MAGNETIC-LOCK",
+      "source_ids": [
+        "SRC-CAPSTONE-SPECIALIST-OPENINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-012-AN-ACCESSIBLE-PARKING-BAY-PART-OF-AU-AN-ACCESSIBLE-PATH-OF-TRAVEL",
+      "from_id": "AU-AN-ACCESSIBLE-PARKING-BAY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ACCESSIBLE-PATH-OF-TRAVEL",
+      "source_ids": [
+        "SRC-CAPSTONE-ACCESSIBILITY"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-013-AN-ACCESSIBLE-PATH-OF-TRAVEL-HAS-PART-AU-AN-ACCESSIBLE-PARKING-BAY",
+      "from_id": "AU-AN-ACCESSIBLE-PATH-OF-TRAVEL",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ACCESSIBLE-PARKING-BAY",
+      "source_ids": [
+        "SRC-CAPSTONE-ACCESSIBILITY"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-014-AN-ACCESSIBLE-PATH-OF-TRAVEL-HAS-PART-AU-AN-INSTALLED-GRABRAIL",
+      "from_id": "AU-AN-ACCESSIBLE-PATH-OF-TRAVEL",
+      "relationship": "has_part",
+      "to_id": "AU-AN-INSTALLED-GRABRAIL",
+      "source_ids": [
+        "SRC-CAPSTONE-ACCESSIBILITY"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-015-AN-ACCESSIBLE-PATH-OF-TRAVEL-HAS-PART-AU-AN-TACTILE-GROUND-SURFACE-INDICATOR",
+      "from_id": "AU-AN-ACCESSIBLE-PATH-OF-TRAVEL",
+      "relationship": "has_part",
+      "to_id": "AU-AN-TACTILE-GROUND-SURFACE-INDICATOR",
+      "source_ids": [
+        "SRC-CAPSTONE-ACCESSIBILITY"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-016-AN-ACTIVE-INNER-FLUE-PIPE-PART-OF-AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "from_id": "AU-AN-ACTIVE-INNER-FLUE-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "source_ids": [
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-017-AN-AGRICULTURAL-DRAIN-PART-OF-AU-AN-RETAINING-WALL-SYSTEM",
+      "from_id": "AU-AN-AGRICULTURAL-DRAIN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-RETAINING-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-CIVIL-SITE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-018-AN-ALPINE-DOORWAY-RAISED-THRESHOLD-PART-OF-AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-AN-ALPINE-DOORWAY-RAISED-THRESHOLD",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-020-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY-HAS-PART-AU-AN-ALPINE-DOORWAY-RAISED-THRESHOLD",
+      "from_id": "AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ALPINE-DOORWAY-RAISED-THRESHOLD",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-021-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY-HAS-PART-AU-AN-ALPINE-OPEN-INWARDS-SIGN",
+      "from_id": "AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ALPINE-OPEN-INWARDS-SIGN",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-022-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY-PART-OF-AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-023-AN-ALPINE-OPEN-INWARDS-SIGN-PART-OF-AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-AN-ALPINE-OPEN-INWARDS-SIGN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-024-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY-HAS-PART-AU-AN-ALUMINIUM-POOL-FENCE-PANEL",
+      "from_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ALUMINIUM-POOL-FENCE-PANEL",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-025-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY-HAS-PART-AU-AN-POOL-FENCE-BASE-PLATE-COVER",
+      "from_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FENCE-BASE-PLATE-COVER",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-026-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY-HAS-PART-AU-AN-POOL-FENCE-PANEL-BRACKET",
+      "from_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FENCE-PANEL-BRACKET",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-027-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY-HAS-PART-AU-AN-POOL-FENCE-POST",
+      "from_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FENCE-POST",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE",
+        "SRC-PROTECTOR-POOL-GATE-HINGE",
+        "SRC-PROTECTOR-POOL-GATE-LATCH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-028-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY-HAS-PART-AU-AN-POOL-FENCE-POST-BASE-PLATE",
+      "from_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FENCE-POST-BASE-PLATE",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-029-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY-HAS-PART-AU-AN-POOL-FENCE-POST-CAP",
+      "from_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FENCE-POST-CAP",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-030-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY-PART-OF-AU-AN-POOL-ISOLATION-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-ISOLATION-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-031-AN-ALUMINIUM-POOL-FENCE-PANEL-PART-OF-AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-ALUMINIUM-POOL-FENCE-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-032-AN-ANCILLARY-PHYSICAL-SYSTEM-HAS-PART-AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-033-AN-ANCILLARY-PHYSICAL-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "from_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-BUSHFIRE-VERIFICATION-HANDBOOK-2022",
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-ASI-BUSHFIRE-DESIGN",
+        "SRC-NASH-NS300-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-034-AN-ANCILLARY-PHYSICAL-SYSTEM-HAS-PART-AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "from_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-035-AN-ANCILLARY-PHYSICAL-SYSTEM-HAS-PART-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-036-AN-ANCILLARY-PHYSICAL-SYSTEM-HAS-PART-AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "from_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-037-AN-ANCILLARY-PHYSICAL-SYSTEM-HAS-PART-AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-038-AN-AUTOMATIC-TRANSFER-SWITCH-PART-OF-AU-AN-GENERATOR-SET",
+      "from_id": "AU-AN-AUTOMATIC-TRANSFER-SWITCH",
+      "relationship": "part_of",
+      "to_id": "AU-AN-GENERATOR-SET",
+      "source_ids": [
+        "SRC-CAPSTONE-STANDBY-LIGHTNING"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-039-AN-BUSHFIRE-CONSTRUCTION-JOINT-SEAL-PART-OF-AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-CONSTRUCTION-JOINT-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-BUSHFIRE-VERIFICATION-HANDBOOK-2022",
+        "SRC-SA-AS-3959-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-040-AN-BUSHFIRE-DOOR-BOTTOM-SEAL-PART-OF-AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-DOOR-BOTTOM-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-041-AN-BUSHFIRE-EAVE-SOFFIT-VENT-SCREEN-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-EAVE-SOFFIT-VENT-SCREEN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-042-AN-BUSHFIRE-EMBER-MESH-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-EMBER-MESH",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-043-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-DOOR-BOTTOM-SEAL",
+      "from_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-DOOR-BOTTOM-SEAL",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-044-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-OPENING-PERIMETER-SEAL",
+      "from_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-OPENING-PERIMETER-SEAL",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-045-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-SCREEN-DOOR",
+      "from_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SCREEN-DOOR",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-046-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-SHUTTER-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHUTTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-047-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-WINDOW-SCREEN",
+      "from_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-WINDOW-SCREEN",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-048-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM-PART-OF-AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-049-AN-BUSHFIRE-GUTTER-EMBER-GUARD-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-GUTTER-EMBER-GUARD",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-050-AN-BUSHFIRE-OPENING-PERIMETER-SEAL-PART-OF-AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-OPENING-PERIMETER-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-051-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-CONSTRUCTION-JOINT-SEAL",
+      "from_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-CONSTRUCTION-JOINT-SEAL",
+      "source_ids": [
+        "SRC-ABCB-BUSHFIRE-VERIFICATION-HANDBOOK-2022",
+        "SRC-SA-AS-3959-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-052-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-053-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-SERVICE-PENETRATION-CLOSURE",
+      "from_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SERVICE-PENETRATION-CLOSURE",
+      "source_ids": [
+        "SRC-ABCB-BUSHFIRE-VERIFICATION-HANDBOOK-2022",
+        "SRC-SA-AS-3959-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-054-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-SUBFLOOR-ENCLOSURE",
+      "from_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SUBFLOOR-ENCLOSURE",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-055-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM-HAS-PART-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-056-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM-HAS-PART-AU-AN-SITE-FIREFIGHTING-WATER-SUPPLY-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-SITE-FIREFIGHTING-WATER-SUPPLY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-BUSHFIRE-VERIFICATION-HANDBOOK-2022",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-057-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM-PART-OF-AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-BUSHFIRE-VERIFICATION-HANDBOOK-2022",
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-ASI-BUSHFIRE-DESIGN",
+        "SRC-NASH-NS300-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-058-AN-BUSHFIRE-RIDGE-VENT-SCREEN-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-RIDGE-VENT-SCREEN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-059-AN-BUSHFIRE-ROOF-PENETRATION-CLOSURE-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-ROOF-PENETRATION-CLOSURE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-060-AN-BUSHFIRE-ROOF-PROFILE-CLOSURE-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-ROOF-PROFILE-CLOSURE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-061-AN-BUSHFIRE-ROOF-TO-WALL-CLOSURE-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-ROOF-TO-WALL-CLOSURE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-062-AN-BUSHFIRE-ROOF-VENT-SCREEN-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-ROOF-VENT-SCREEN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-063-AN-BUSHFIRE-SCREEN-DOOR-PART-OF-AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-SCREEN-DOOR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-064-AN-BUSHFIRE-SERVICE-PENETRATION-CLOSURE-PART-OF-AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-SERVICE-PENETRATION-CLOSURE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-BUSHFIRE-VERIFICATION-HANDBOOK-2022",
+        "SRC-SA-AS-3959-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-065-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-066-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-ENTRY-AIRLOCK",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-ENTRY-AIRLOCK",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-067-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-ENTRY-STAIR-OR-LADDER",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-ENTRY-STAIR-OR-LADDER",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-068-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY-PART-OF-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-069-AN-BUSHFIRE-SHELTER-AIR-QUALITY-UNIT-PART-OF-AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-AIR-QUALITY-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-070-AN-BUSHFIRE-SHELTER-CONSTRUCTION-JOINT-PART-OF-AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-CONSTRUCTION-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-071-AN-BUSHFIRE-SHELTER-DOOR-FRAME-PART-OF-AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-072-AN-BUSHFIRE-SHELTER-DOOR-LEAF-PART-OF-AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-073-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH-HAS-PART-AU-AN-BUSHFIRE-SHELTER-DOOR-FRAME",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-FRAME",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-074-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH-HAS-PART-AU-AN-BUSHFIRE-SHELTER-DOOR-LEAF",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-LEAF",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-075-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH-HAS-PART-AU-AN-BUSHFIRE-SHELTER-DOOR-SEAL",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-SEAL",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-076-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH-HAS-PART-AU-AN-BUSHFIRE-SHELTER-MULTIPOINT-LATCH",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-MULTIPOINT-LATCH",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-077-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH-PART-OF-AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-078-AN-BUSHFIRE-SHELTER-DOOR-SEAL-PART-OF-AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-079-AN-BUSHFIRE-SHELTER-EMERGENCY-LIGHTING-PART-OF-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-EMERGENCY-LIGHTING",
+      "relationship": "part_of",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-080-AN-BUSHFIRE-SHELTER-ENTRY-AIRLOCK-PART-OF-AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-ENTRY-AIRLOCK",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-081-AN-BUSHFIRE-SHELTER-ENTRY-STAIR-OR-LADDER-PART-OF-AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-ENTRY-STAIR-OR-LADDER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-082-AN-BUSHFIRE-SHELTER-EXTERNAL-HEAT-SHIELD-PART-OF-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-EXTERNAL-HEAT-SHIELD",
+      "relationship": "part_of",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-083-AN-BUSHFIRE-SHELTER-EXTERNAL-LOCATION-SIGN-PART-OF-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-EXTERNAL-LOCATION-SIGN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-084-AN-BUSHFIRE-SHELTER-FLOOR-SLAB-PART-OF-AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-FLOOR-SLAB",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-085-AN-BUSHFIRE-SHELTER-INTERNAL-CAPACITY-SIGN-PART-OF-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-INTERNAL-CAPACITY-SIGN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-086-AN-BUSHFIRE-SHELTER-MULTIPOINT-LATCH-PART-OF-AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-MULTIPOINT-LATCH",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-DOOR-OR-HATCH",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-087-AN-BUSHFIRE-SHELTER-OPENABLE-VENT-PART-OF-AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-OPENABLE-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-088-AN-BUSHFIRE-SHELTER-PENETRATION-SEAL-PART-OF-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-PENETRATION-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-089-AN-BUSHFIRE-SHELTER-ROOF-SLAB-PART-OF-AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-ROOF-SLAB",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-090-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL-HAS-PART-AU-AN-BUSHFIRE-SHELTER-CONSTRUCTION-JOINT",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-CONSTRUCTION-JOINT",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-091-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL-HAS-PART-AU-AN-BUSHFIRE-SHELTER-FLOOR-SLAB",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-FLOOR-SLAB",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-092-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL-HAS-PART-AU-AN-BUSHFIRE-SHELTER-ROOF-SLAB",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-ROOF-SLAB",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-093-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL-HAS-PART-AU-AN-BUSHFIRE-SHELTER-WALL",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-WALL",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-094-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL-PART-OF-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-095-AN-BUSHFIRE-SHELTER-VENT-DAMPER-PART-OF-AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-VENT-DAMPER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-096-AN-BUSHFIRE-SHELTER-VENT-MESH-PART-OF-AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-VENT-MESH",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-097-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-AIR-QUALITY-UNIT",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-AIR-QUALITY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-098-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-OPENABLE-VENT",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-OPENABLE-VENT",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-099-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-VENT-DAMPER",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-VENT-DAMPER",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-100-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-VENT-MESH",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-VENT-MESH",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-101-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY-PART-OF-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-102-AN-BUSHFIRE-SHELTER-VIEWING-WINDOW-PART-OF-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-VIEWING-WINDOW",
+      "relationship": "part_of",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-103-AN-BUSHFIRE-SHELTER-WALL-PART-OF-AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "from_id": "AU-AN-BUSHFIRE-SHELTER-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-104-AN-BUSHFIRE-SHUTTER-ASSEMBLY-PART-OF-AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-SHUTTER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-105-AN-BUSHFIRE-SUBFLOOR-ENCLOSURE-HAS-PART-AU-AN-BUSHFIRE-SUBFLOOR-SCREEN",
+      "from_id": "AU-AN-BUSHFIRE-SUBFLOOR-ENCLOSURE",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SUBFLOOR-SCREEN",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-106-AN-BUSHFIRE-SUBFLOOR-ENCLOSURE-PART-OF-AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-SUBFLOOR-ENCLOSURE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-107-AN-BUSHFIRE-SUBFLOOR-SCREEN-PART-OF-AU-AN-BUSHFIRE-SUBFLOOR-ENCLOSURE",
+      "from_id": "AU-AN-BUSHFIRE-SUBFLOOR-SCREEN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-SUBFLOOR-ENCLOSURE",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-108-AN-BUSHFIRE-WEEPHOLE-SCREEN-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-WEEPHOLE-SCREEN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-109-AN-BUSHFIRE-WINDOW-SCREEN-PART-OF-AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "from_id": "AU-AN-BUSHFIRE-WINDOW-SCREEN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-EXTERNAL-OPENING-SCREEN-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-110-AN-CARD-READER-PART-OF-AU-AN-ACCESS-CONTROL-HARDWARE-SET",
+      "from_id": "AU-AN-CARD-READER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ACCESS-CONTROL-HARDWARE-SET",
+      "source_ids": [
+        "SRC-CAPSTONE-SPECIALIST-OPENINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-111-AN-CHIMNEY-CROWN-PART-OF-AU-AN-MASONRY-CHIMNEY-ASSEMBLY",
+      "from_id": "AU-AN-CHIMNEY-CROWN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-MASONRY-CHIMNEY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-112-AN-CLEANROOM-PANEL-SYSTEM-HAS-PART-AU-AN-HEPA-FILTER-MODULE",
+      "from_id": "AU-AN-CLEANROOM-PANEL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-HEPA-FILTER-MODULE",
+      "source_ids": [
+        "SRC-CAPSTONE-COMMERCIAL-FITOUT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-113-AN-CONCRETE-POOL-SHELL-ASSEMBLY-PART-OF-AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-CONCRETE-POOL-SHELL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-114-AN-CURTAIN-WALL-MULLION-PART-OF-AU-AN-CURTAIN-WALL-SYSTEM",
+      "from_id": "AU-AN-CURTAIN-WALL-MULLION",
+      "relationship": "part_of",
+      "to_id": "AU-AN-CURTAIN-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-CURTAIN-WALLS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-115-AN-CURTAIN-WALL-PRESSURE-PLATE-CAP-PART-OF-AU-AN-CURTAIN-WALL-SYSTEM",
+      "from_id": "AU-AN-CURTAIN-WALL-PRESSURE-PLATE-CAP",
+      "relationship": "part_of",
+      "to_id": "AU-AN-CURTAIN-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-CURTAIN-WALLS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-116-AN-CURTAIN-WALL-SPANDREL-PANEL-PART-OF-AU-AN-CURTAIN-WALL-SYSTEM",
+      "from_id": "AU-AN-CURTAIN-WALL-SPANDREL-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-CURTAIN-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-CURTAIN-WALLS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-117-AN-CURTAIN-WALL-SYSTEM-HAS-PART-AU-AN-CURTAIN-WALL-MULLION",
+      "from_id": "AU-AN-CURTAIN-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-CURTAIN-WALL-MULLION",
+      "source_ids": [
+        "SRC-CAPSTONE-CURTAIN-WALLS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-118-AN-CURTAIN-WALL-SYSTEM-HAS-PART-AU-AN-CURTAIN-WALL-PRESSURE-PLATE-CAP",
+      "from_id": "AU-AN-CURTAIN-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-CURTAIN-WALL-PRESSURE-PLATE-CAP",
+      "source_ids": [
+        "SRC-CAPSTONE-CURTAIN-WALLS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-119-AN-CURTAIN-WALL-SYSTEM-HAS-PART-AU-AN-CURTAIN-WALL-SPANDREL-PANEL",
+      "from_id": "AU-AN-CURTAIN-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-CURTAIN-WALL-SPANDREL-PANEL",
+      "source_ids": [
+        "SRC-CAPSTONE-CURTAIN-WALLS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-120-AN-CURTAIN-WALL-SYSTEM-HAS-PART-AU-AN-CURTAIN-WALL-TRANSOM",
+      "from_id": "AU-AN-CURTAIN-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-CURTAIN-WALL-TRANSOM",
+      "source_ids": [
+        "SRC-CAPSTONE-CURTAIN-WALLS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-121-AN-CURTAIN-WALL-SYSTEM-HAS-PART-AU-AN-PERIMETER-FIRE-SAFING",
+      "from_id": "AU-AN-CURTAIN-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-PERIMETER-FIRE-SAFING",
+      "source_ids": [
+        "SRC-CAPSTONE-CURTAIN-WALLS",
+        "SRC-CAPSTONE-FIRE-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-122-AN-CURTAIN-WALL-TRANSOM-PART-OF-AU-AN-CURTAIN-WALL-SYSTEM",
+      "from_id": "AU-AN-CURTAIN-WALL-TRANSOM",
+      "relationship": "part_of",
+      "to_id": "AU-AN-CURTAIN-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-CURTAIN-WALLS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-123-AN-DECK-BRACING-STRAP-PART-OF-AU-AN-DECK-DIAGONAL-BRACING-ASSEMBLY",
+      "from_id": "AU-AN-DECK-BRACING-STRAP",
+      "relationship": "part_of",
+      "to_id": "AU-AN-DECK-DIAGONAL-BRACING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-124-AN-DECK-DIAGONAL-BRACING-ASSEMBLY-HAS-PART-AU-AN-DECK-BRACING-STRAP",
+      "from_id": "AU-AN-DECK-DIAGONAL-BRACING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-DECK-BRACING-STRAP",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-125-AN-DECK-DIAGONAL-BRACING-ASSEMBLY-HAS-PART-AU-AN-DECK-STRAP-FIXING",
+      "from_id": "AU-AN-DECK-DIAGONAL-BRACING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-DECK-STRAP-FIXING",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-126-AN-DECK-DIAGONAL-BRACING-ASSEMBLY-PART-OF-AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "from_id": "AU-AN-DECK-DIAGONAL-BRACING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-127-AN-DECK-STRAP-FIXING-PART-OF-AU-AN-DECK-DIAGONAL-BRACING-ASSEMBLY",
+      "from_id": "AU-AN-DECK-STRAP-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-AN-DECK-DIAGONAL-BRACING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-129-AN-DECK-WALL-ATTACHMENT-ASSEMBLY-HAS-PART-AU-AN-DECK-DIAGONAL-BRACING-ASSEMBLY",
+      "from_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-DECK-DIAGONAL-BRACING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-130-AN-DECK-WALL-ATTACHMENT-ASSEMBLY-HAS-PART-AU-AN-JOIST-TO-WALING-CONNECTOR",
+      "from_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-JOIST-TO-WALING-CONNECTOR",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-131-AN-DECK-WALL-ATTACHMENT-ASSEMBLY-HAS-PART-AU-AN-STEEL-WALING-PLATE",
+      "from_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-STEEL-WALING-PLATE",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-132-AN-DECK-WALL-ATTACHMENT-ASSEMBLY-HAS-PART-AU-AN-TIMBER-WALING-PLATE",
+      "from_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-TIMBER-WALING-PLATE",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-133-AN-DECK-WALL-ATTACHMENT-ASSEMBLY-HAS-PART-AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "from_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-134-AN-DECK-WALL-ATTACHMENT-ASSEMBLY-HAS-PART-AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "from_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-135-AN-DECK-WALL-ATTACHMENT-ASSEMBLY-PART-OF-AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-136-AN-ELECTRIC-STRIKE-PART-OF-AU-AN-ACCESS-CONTROL-HARDWARE-SET",
+      "from_id": "AU-AN-ELECTRIC-STRIKE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ACCESS-CONTROL-HARDWARE-SET",
+      "source_ids": [
+        "SRC-CAPSTONE-SPECIALIST-OPENINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-137-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-EAVE-SOFFIT-VENT-SCREEN",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-EAVE-SOFFIT-VENT-SCREEN",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-138-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-EMBER-MESH",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-EMBER-MESH",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-139-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-GUTTER-EMBER-GUARD",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-GUTTER-EMBER-GUARD",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-140-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-RIDGE-VENT-SCREEN",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-RIDGE-VENT-SCREEN",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-141-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-ROOF-PENETRATION-CLOSURE",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-ROOF-PENETRATION-CLOSURE",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-142-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-ROOF-PROFILE-CLOSURE",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-ROOF-PROFILE-CLOSURE",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-143-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-ROOF-TO-WALL-CLOSURE",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-ROOF-TO-WALL-CLOSURE",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-144-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-ROOF-VENT-SCREEN",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-ROOF-VENT-SCREEN",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-145-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-BUSHFIRE-WEEPHOLE-SCREEN",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-WEEPHOLE-SCREEN",
+      "source_ids": [
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-146-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-EMBER-SCREEN-EDGE-SEAL",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-EMBER-SCREEN-EDGE-SEAL",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-147-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-EMBER-SCREEN-FASTENER",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-EMBER-SCREEN-FASTENER",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-148-AN-EMBER-PROTECTION-SYSTEM-HAS-PART-AU-AN-EMBER-SCREEN-FRAME",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-EMBER-SCREEN-FRAME",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-149-AN-EMBER-PROTECTION-SYSTEM-PART-OF-AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "from_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-AS-3959-2018",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-150-AN-EMBER-SCREEN-EDGE-SEAL-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-EMBER-SCREEN-EDGE-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-151-AN-EMBER-SCREEN-FASTENER-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-EMBER-SCREEN-FASTENER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-152-AN-EMBER-SCREEN-FRAME-PART-OF-AU-AN-EMBER-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-EMBER-SCREEN-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-AN-EMBER-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-SA-BUSHFIRE-HANDBOOKS-2026"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-153-AN-ESCALATOR-ASSEMBLY-HAS-PART-AU-AN-ESCALATOR-STEP",
+      "from_id": "AU-AN-ESCALATOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ESCALATOR-STEP",
+      "source_ids": [
+        "SRC-CAPSTONE-VERTICAL-TRANSPORT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-154-AN-ESCALATOR-STEP-PART-OF-AU-AN-ESCALATOR-ASSEMBLY",
+      "from_id": "AU-AN-ESCALATOR-STEP",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ESCALATOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-CAPSTONE-VERTICAL-TRANSPORT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-155-AN-FIBREGLASS-POOL-SHELL-ASSEMBLY-PART-OF-AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-FIBREGLASS-POOL-SHELL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-156-AN-FIRE-HYDRANT-BOOSTER-PART-OF-AU-AN-FIRE-HYDRANT-SYSTEM",
+      "from_id": "AU-AN-FIRE-HYDRANT-BOOSTER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-FIRE-HYDRANT-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-FIRE-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-157-AN-FIRE-HYDRANT-SYSTEM-HAS-PART-AU-AN-FIRE-HYDRANT-BOOSTER",
+      "from_id": "AU-AN-FIRE-HYDRANT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIRE-HYDRANT-BOOSTER",
+      "source_ids": [
+        "SRC-CAPSTONE-FIRE-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-158-AN-FIRE-SPRINKLER-HEAD-PART-OF-AU-AN-FIRE-SPRINKLER-SYSTEM",
+      "from_id": "AU-AN-FIRE-SPRINKLER-HEAD",
+      "relationship": "part_of",
+      "to_id": "AU-AN-FIRE-SPRINKLER-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-FIRE-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-159-AN-FIRE-SPRINKLER-SYSTEM-HAS-PART-AU-AN-FIRE-SPRINKLER-HEAD",
+      "from_id": "AU-AN-FIRE-SPRINKLER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIRE-SPRINKLER-HEAD",
+      "source_ids": [
+        "SRC-CAPSTONE-FIRE-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-160-AN-FIREPLACE-BACK-HEARTH-PART-OF-AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "from_id": "AU-AN-FIREPLACE-BACK-HEARTH",
+      "relationship": "part_of",
+      "to_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-161-AN-FIREPLACE-FRONT-HEARTH-PART-OF-AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "from_id": "AU-AN-FIREPLACE-FRONT-HEARTH",
+      "relationship": "part_of",
+      "to_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-162-AN-FIREPLACE-INNER-MASONRY-LEAF-PART-OF-AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "from_id": "AU-AN-FIREPLACE-INNER-MASONRY-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-163-AN-FIREPLACE-INSERT-ASSEMBLY-PART-OF-AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "from_id": "AU-AN-FIREPLACE-INSERT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-164-AN-FIREPLACE-MASONRY-CAVITY-PART-OF-AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "from_id": "AU-AN-FIREPLACE-MASONRY-CAVITY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-165-AN-FIREPLACE-OPENING-LINTEL-PART-OF-AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "from_id": "AU-AN-FIREPLACE-OPENING-LINTEL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-166-AN-FIREPLACE-OUTER-MASONRY-LEAF-PART-OF-AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "from_id": "AU-AN-FIREPLACE-OUTER-MASONRY-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-167-AN-FIREPLACE-SMOKE-CHAMBER-PART-OF-AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "from_id": "AU-AN-FIREPLACE-SMOKE-CHAMBER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-169-AN-FIREPLACE-THROAT-PART-OF-AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "from_id": "AU-AN-FIREPLACE-THROAT",
+      "relationship": "part_of",
+      "to_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-170-AN-FLASHING-LAP-SEALANT-PART-OF-AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "from_id": "AU-AN-FLASHING-LAP-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-171-AN-FLUE-CEILING-PLATE-PART-OF-AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "from_id": "AU-AN-FLUE-CEILING-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-172-AN-FLUE-ELBOW-OR-OFFSET-PART-OF-AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "from_id": "AU-AN-FLUE-ELBOW-OR-OFFSET",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-173-AN-FLUE-INTERMEDIATE-CASING-PART-OF-AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "from_id": "AU-AN-FLUE-INTERMEDIATE-CASING",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-174-AN-FLUE-JOINT-CLAMP-PART-OF-AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "from_id": "AU-AN-FLUE-JOINT-CLAMP",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "source_ids": [
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-175-AN-FLUE-OUTER-CASING-PART-OF-AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "from_id": "AU-AN-FLUE-OUTER-CASING",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-176-AN-FLUE-STORM-COLLAR-PART-OF-AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "from_id": "AU-AN-FLUE-STORM-COLLAR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "source_ids": [
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-177-AN-FLUE-SUPPORT-BRACKET-PART-OF-AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "from_id": "AU-AN-FLUE-SUPPORT-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-178-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY-HAS-PART-AU-AN-WOOD-HEATER-AIR-CONTROL",
+      "from_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-AIR-CONTROL",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-179-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY-HAS-PART-AU-AN-WOOD-HEATER-ASH-GRATE-ASSEMBLY",
+      "from_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-ASH-GRATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-180-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY-HAS-PART-AU-AN-WOOD-HEATER-BAFFLE",
+      "from_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-BAFFLE",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-181-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY-HAS-PART-AU-AN-WOOD-HEATER-BODY",
+      "from_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-BODY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-182-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY-HAS-PART-AU-AN-WOOD-HEATER-DOOR-ASSEMBLY",
+      "from_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-183-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY-HAS-PART-AU-AN-WOOD-HEATER-FIREBRICK-LINING",
+      "from_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-FIREBRICK-LINING",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-184-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY-HAS-PART-AU-AN-WOOD-HEATER-PEDESTAL-OR-LEGS",
+      "from_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-PEDESTAL-OR-LEGS",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-185-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY-PART-OF-AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "from_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-186-AN-GAS-FLUE-PART-OF-AU-AN-GAS-SERVICE-SYSTEM",
+      "from_id": "AU-AN-GAS-FLUE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-GAS-SERVICE-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-GAS-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-187-AN-GAS-ISOLATION-VALVE-PART-OF-AU-AN-GAS-SERVICE-SYSTEM",
+      "from_id": "AU-AN-GAS-ISOLATION-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-GAS-SERVICE-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-GAS-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-188-AN-GAS-METER-REGULATOR-SET-PART-OF-AU-AN-GAS-SERVICE-SYSTEM",
+      "from_id": "AU-AN-GAS-METER-REGULATOR-SET",
+      "relationship": "part_of",
+      "to_id": "AU-AN-GAS-SERVICE-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-GAS-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-189-AN-GAS-PIPE-PART-OF-AU-AN-GAS-SERVICE-SYSTEM",
+      "from_id": "AU-AN-GAS-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-GAS-SERVICE-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-GAS-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-190-AN-GAS-SERVICE-SYSTEM-HAS-PART-AU-AN-GAS-FLUE",
+      "from_id": "AU-AN-GAS-SERVICE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-GAS-FLUE",
+      "source_ids": [
+        "SRC-CAPSTONE-GAS-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-191-AN-GAS-SERVICE-SYSTEM-HAS-PART-AU-AN-GAS-ISOLATION-VALVE",
+      "from_id": "AU-AN-GAS-SERVICE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-GAS-ISOLATION-VALVE",
+      "source_ids": [
+        "SRC-CAPSTONE-GAS-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-192-AN-GAS-SERVICE-SYSTEM-HAS-PART-AU-AN-GAS-METER-REGULATOR-SET",
+      "from_id": "AU-AN-GAS-SERVICE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-GAS-METER-REGULATOR-SET",
+      "source_ids": [
+        "SRC-CAPSTONE-GAS-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-193-AN-GAS-SERVICE-SYSTEM-HAS-PART-AU-AN-GAS-PIPE",
+      "from_id": "AU-AN-GAS-SERVICE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-GAS-PIPE",
+      "source_ids": [
+        "SRC-CAPSTONE-GAS-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-194-AN-GAS-SERVICE-SYSTEM-HAS-PART-AU-AN-LPG-CYLINDER-BANK",
+      "from_id": "AU-AN-GAS-SERVICE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-LPG-CYLINDER-BANK",
+      "source_ids": [
+        "SRC-CAPSTONE-GAS-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-195-AN-GENERATOR-SET-HAS-PART-AU-AN-AUTOMATIC-TRANSFER-SWITCH",
+      "from_id": "AU-AN-GENERATOR-SET",
+      "relationship": "has_part",
+      "to_id": "AU-AN-AUTOMATIC-TRANSFER-SWITCH",
+      "source_ids": [
+        "SRC-CAPSTONE-STANDBY-LIGHTNING"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-196-AN-GEOGRID-REINFORCEMENT-PART-OF-AU-AN-RETAINING-WALL-SYSTEM",
+      "from_id": "AU-AN-GEOGRID-REINFORCEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-AN-RETAINING-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-CIVIL-SITE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-197-AN-GLASS-POOL-FENCE-ASSEMBLY-HAS-PART-AU-AN-POOL-BARRIER-GLASS-PANEL",
+      "from_id": "AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-BARRIER-GLASS-PANEL",
+      "source_ids": [
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-198-AN-GLASS-POOL-FENCE-ASSEMBLY-HAS-PART-AU-AN-POOL-FENCE-GLASS-SPIGOT",
+      "from_id": "AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FENCE-GLASS-SPIGOT",
+      "source_ids": [
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-199-AN-GLASS-POOL-FENCE-ASSEMBLY-HAS-PART-AU-AN-POOL-GLASS-PANEL-CLAMP",
+      "from_id": "AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-GLASS-PANEL-CLAMP",
+      "source_ids": [
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-200-AN-GLASS-POOL-FENCE-ASSEMBLY-HAS-PART-AU-AN-POOL-SPIGOT-GLASS-PACKER",
+      "from_id": "AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SPIGOT-GLASS-PACKER",
+      "source_ids": [
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-201-AN-GLASS-POOL-FENCE-ASSEMBLY-PART-OF-AU-AN-POOL-ISOLATION-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-ISOLATION-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-202-AN-HEPA-FILTER-MODULE-PART-OF-AU-AN-CLEANROOM-PANEL-SYSTEM",
+      "from_id": "AU-AN-HEPA-FILTER-MODULE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-CLEANROOM-PANEL-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-COMMERCIAL-FITOUT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-203-AN-IN-GROUND-BUSHFIRE-SHELTER-PART-OF-AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "from_id": "AU-AN-IN-GROUND-BUSHFIRE-SHELTER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-204-AN-IN-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-CONCRETE-POOL-SHELL-ASSEMBLY",
+      "from_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-CONCRETE-POOL-SHELL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-205-AN-IN-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-FIBREGLASS-POOL-SHELL-ASSEMBLY",
+      "from_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIBREGLASS-POOL-SHELL-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-206-AN-IN-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-POOL-COPING",
+      "from_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-COPING",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-207-AN-IN-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-POOL-EXCAVATION",
+      "from_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-EXCAVATION",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-208-AN-IN-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-POOL-HYDROSTATIC-RELIEF-ASSEMBLY",
+      "from_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-HYDROSTATIC-RELIEF-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-209-AN-IN-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-POOL-INTERIOR-FINISH",
+      "from_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-INTERIOR-FINISH",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-210-AN-IN-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-POOL-PERIMETER-BOND-BEAM",
+      "from_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-PERIMETER-BOND-BEAM",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-211-AN-IN-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-POOL-PERIMETER-ISOLATION-JOINT",
+      "from_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-PERIMETER-ISOLATION-JOINT",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-212-AN-IN-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-POOL-PREPARED-BASE",
+      "from_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-PREPARED-BASE",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-213-AN-IN-GROUND-POOL-ASSEMBLY-HAS-PART-AU-AN-POOL-SHELL-BACKFILL",
+      "from_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SHELL-BACKFILL",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-214-AN-IN-GROUND-POOL-ASSEMBLY-PART-OF-AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-215-AN-INSTALLED-GRABRAIL-PART-OF-AU-AN-ACCESSIBLE-PATH-OF-TRAVEL",
+      "from_id": "AU-AN-INSTALLED-GRABRAIL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ACCESSIBLE-PATH-OF-TRAVEL",
+      "source_ids": [
+        "SRC-CAPSTONE-ACCESSIBILITY"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-218-AN-JOIST-TO-WALING-CONNECTOR-PART-OF-AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "from_id": "AU-AN-JOIST-TO-WALING-CONNECTOR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-219-AN-LIFT-CAR-PART-OF-AU-AN-LIFT-SYSTEM",
+      "from_id": "AU-AN-LIFT-CAR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-LIFT-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-VERTICAL-TRANSPORT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-220-AN-LIFT-GUIDE-RAIL-PART-OF-AU-AN-LIFT-SYSTEM",
+      "from_id": "AU-AN-LIFT-GUIDE-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-LIFT-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-VERTICAL-TRANSPORT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-221-AN-LIFT-LANDING-DOOR-PART-OF-AU-AN-LIFT-SYSTEM",
+      "from_id": "AU-AN-LIFT-LANDING-DOOR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-LIFT-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-VERTICAL-TRANSPORT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-222-AN-LIFT-SHAFT-WELL-PART-OF-AU-AN-LIFT-SYSTEM",
+      "from_id": "AU-AN-LIFT-SHAFT-WELL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-LIFT-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-VERTICAL-TRANSPORT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-223-AN-LIFT-SYSTEM-HAS-PART-AU-AN-LIFT-CAR",
+      "from_id": "AU-AN-LIFT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-LIFT-CAR",
+      "source_ids": [
+        "SRC-CAPSTONE-VERTICAL-TRANSPORT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-224-AN-LIFT-SYSTEM-HAS-PART-AU-AN-LIFT-GUIDE-RAIL",
+      "from_id": "AU-AN-LIFT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-LIFT-GUIDE-RAIL",
+      "source_ids": [
+        "SRC-CAPSTONE-VERTICAL-TRANSPORT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-225-AN-LIFT-SYSTEM-HAS-PART-AU-AN-LIFT-LANDING-DOOR",
+      "from_id": "AU-AN-LIFT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-LIFT-LANDING-DOOR",
+      "source_ids": [
+        "SRC-CAPSTONE-VERTICAL-TRANSPORT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-226-AN-LIFT-SYSTEM-HAS-PART-AU-AN-LIFT-SHAFT-WELL",
+      "from_id": "AU-AN-LIFT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-LIFT-SHAFT-WELL",
+      "source_ids": [
+        "SRC-CAPSTONE-VERTICAL-TRANSPORT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-227-AN-LIGHTNING-AIR-TERMINAL-PART-OF-AU-AN-LIGHTNING-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-LIGHTNING-AIR-TERMINAL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-LIGHTNING-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-STANDBY-LIGHTNING"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-228-AN-LIGHTNING-DOWN-CONDUCTOR-PART-OF-AU-AN-LIGHTNING-PROTECTION-SYSTEM",
+      "from_id": "AU-AN-LIGHTNING-DOWN-CONDUCTOR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-LIGHTNING-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-STANDBY-LIGHTNING"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-229-AN-LIGHTNING-PROTECTION-SYSTEM-HAS-PART-AU-AN-LIGHTNING-AIR-TERMINAL",
+      "from_id": "AU-AN-LIGHTNING-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-LIGHTNING-AIR-TERMINAL",
+      "source_ids": [
+        "SRC-CAPSTONE-STANDBY-LIGHTNING"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-230-AN-LIGHTNING-PROTECTION-SYSTEM-HAS-PART-AU-AN-LIGHTNING-DOWN-CONDUCTOR",
+      "from_id": "AU-AN-LIGHTNING-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-LIGHTNING-DOWN-CONDUCTOR",
+      "source_ids": [
+        "SRC-CAPSTONE-STANDBY-LIGHTNING"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-231-AN-LPG-CYLINDER-BANK-PART-OF-AU-AN-GAS-SERVICE-SYSTEM",
+      "from_id": "AU-AN-LPG-CYLINDER-BANK",
+      "relationship": "part_of",
+      "to_id": "AU-AN-GAS-SERVICE-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-GAS-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-232-AN-M12-CHEMICAL-WALING-ANCHOR-PART-OF-AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "from_id": "AU-AN-M12-CHEMICAL-WALING-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-233-AN-M12-MECHANICAL-WALING-ANCHOR-PART-OF-AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "from_id": "AU-AN-M12-MECHANICAL-WALING-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-234-AN-M12-WALING-BOLT-PART-OF-AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "from_id": "AU-AN-M12-WALING-BOLT",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-235-AN-MAGNETIC-LOCK-PART-OF-AU-AN-ACCESS-CONTROL-HARDWARE-SET",
+      "from_id": "AU-AN-MAGNETIC-LOCK",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ACCESS-CONTROL-HARDWARE-SET",
+      "source_ids": [
+        "SRC-CAPSTONE-SPECIALIST-OPENINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-236-AN-MASONRY-CHIMNEY-ASSEMBLY-HAS-PART-AU-AN-CHIMNEY-CROWN",
+      "from_id": "AU-AN-MASONRY-CHIMNEY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-CHIMNEY-CROWN",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-237-AN-MASONRY-CHIMNEY-ASSEMBLY-HAS-PART-AU-AN-MASONRY-CHIMNEY-FLUE-PASSAGE",
+      "from_id": "AU-AN-MASONRY-CHIMNEY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-MASONRY-CHIMNEY-FLUE-PASSAGE",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-238-AN-MASONRY-CHIMNEY-ASSEMBLY-PART-OF-AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "from_id": "AU-AN-MASONRY-CHIMNEY-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-239-AN-MASONRY-CHIMNEY-FLUE-PASSAGE-PART-OF-AU-AN-MASONRY-CHIMNEY-ASSEMBLY",
+      "from_id": "AU-AN-MASONRY-CHIMNEY-FLUE-PASSAGE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-MASONRY-CHIMNEY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-240-AN-MASONRY-FIREBOX-ASSEMBLY-PART-OF-AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "from_id": "AU-AN-MASONRY-FIREBOX-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-241-AN-NO14-PARTIAL-THREAD-SCREW-PART-OF-AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "from_id": "AU-AN-NO14-PARTIAL-THREAD-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-242-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY-HAS-PART-AU-AN-FIREPLACE-BACK-HEARTH",
+      "from_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIREPLACE-BACK-HEARTH",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-243-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY-HAS-PART-AU-AN-FIREPLACE-FRONT-HEARTH",
+      "from_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIREPLACE-FRONT-HEARTH",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-244-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY-HAS-PART-AU-AN-FIREPLACE-INNER-MASONRY-LEAF",
+      "from_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIREPLACE-INNER-MASONRY-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-245-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY-HAS-PART-AU-AN-FIREPLACE-MASONRY-CAVITY",
+      "from_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIREPLACE-MASONRY-CAVITY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-246-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY-HAS-PART-AU-AN-FIREPLACE-OPENING-LINTEL",
+      "from_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIREPLACE-OPENING-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-247-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY-HAS-PART-AU-AN-FIREPLACE-OUTER-MASONRY-LEAF",
+      "from_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIREPLACE-OUTER-MASONRY-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-248-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY-HAS-PART-AU-AN-FIREPLACE-SMOKE-CHAMBER",
+      "from_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIREPLACE-SMOKE-CHAMBER",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-249-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY-HAS-PART-AU-AN-FIREPLACE-THROAT",
+      "from_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIREPLACE-THROAT",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-250-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY-HAS-PART-AU-AN-MASONRY-CHIMNEY-ASSEMBLY",
+      "from_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-MASONRY-CHIMNEY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-251-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY-HAS-PART-AU-AN-MASONRY-FIREBOX-ASSEMBLY",
+      "from_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-MASONRY-FIREBOX-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-252-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY-PART-OF-AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "from_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-253-AN-PERIMETER-FIRE-SAFING-PART-OF-AU-AN-CURTAIN-WALL-SYSTEM",
+      "from_id": "AU-AN-PERIMETER-FIRE-SAFING",
+      "relationship": "part_of",
+      "to_id": "AU-AN-CURTAIN-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-CURTAIN-WALLS",
+        "SRC-CAPSTONE-FIRE-SERVICES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-254-AN-POOL-AUXILIARY-SUCTION-OUTLET-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-AUXILIARY-SUCTION-OUTLET",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-255-AN-POOL-BACKWASH-PIPE-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-BACKWASH-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-256-AN-POOL-BARRIER-GLASS-PANEL-PART-OF-AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-BARRIER-GLASS-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-257-AN-POOL-BOUNDARY-BARRIER-ASSEMBLY-PART-OF-AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "from_id": "AU-AN-POOL-BOUNDARY-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-258-AN-POOL-CIRCULATION-PUMP-ASSEMBLY-HAS-PART-AU-AN-POOL-PUMP-ELECTRIC-MOTOR",
+      "from_id": "AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-PUMP-ELECTRIC-MOTOR",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-259-AN-POOL-CIRCULATION-PUMP-ASSEMBLY-HAS-PART-AU-AN-POOL-PUMP-STRAINER-POT-ASSEMBLY",
+      "from_id": "AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-PUMP-STRAINER-POT-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-260-AN-POOL-CIRCULATION-PUMP-ASSEMBLY-HAS-PART-AU-AN-POOL-PUMP-WET-END",
+      "from_id": "AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-PUMP-WET-END",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-261-AN-POOL-CIRCULATION-PUMP-ASSEMBLY-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-262-AN-POOL-COPING-PART-OF-AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-POOL-COPING",
+      "relationship": "part_of",
+      "to_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-263-AN-POOL-COVER-ASSEMBLY-HAS-PART-AU-AN-POOL-COVER-ROLLER",
+      "from_id": "AU-AN-POOL-COVER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-COVER-ROLLER",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-264-AN-POOL-COVER-ASSEMBLY-PART-OF-AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-POOL-COVER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-265-AN-POOL-COVER-ROLLER-PART-OF-AU-AN-POOL-COVER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-COVER-ROLLER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-COVER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-266-AN-POOL-CPR-INSTRUCTION-SIGN-PART-OF-AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-POOL-CPR-INSTRUCTION-SIGN",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-267-AN-POOL-ENTRY-STEP-ASSEMBLY-HAS-PART-AU-AN-POOL-HANDRAIL",
+      "from_id": "AU-AN-POOL-ENTRY-STEP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-HANDRAIL",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-268-AN-POOL-ENTRY-STEP-ASSEMBLY-PART-OF-AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-POOL-ENTRY-STEP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-269-AN-POOL-EXCAVATION-PART-OF-AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-POOL-EXCAVATION",
+      "relationship": "part_of",
+      "to_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-270-AN-POOL-FENCE-BASE-PLATE-COVER-PART-OF-AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FENCE-BASE-PLATE-COVER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-271-AN-POOL-FENCE-GLASS-SPIGOT-PART-OF-AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FENCE-GLASS-SPIGOT",
+      "relationship": "part_of",
+      "to_id": "AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-272-AN-POOL-FENCE-PANEL-BRACKET-PART-OF-AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FENCE-PANEL-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-273-AN-POOL-FENCE-POST-PART-OF-AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FENCE-POST",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE",
+        "SRC-PROTECTOR-POOL-GATE-HINGE",
+        "SRC-PROTECTOR-POOL-GATE-LATCH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-274-AN-POOL-FENCE-POST-BASE-PLATE-PART-OF-AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FENCE-POST-BASE-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-275-AN-POOL-FENCE-POST-CAP-PART-OF-AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FENCE-POST-CAP",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-276-AN-POOL-FILTER-ASSEMBLY-HAS-PART-AU-AN-POOL-FILTER-LATERAL-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FILTER-LATERAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-277-AN-POOL-FILTER-ASSEMBLY-HAS-PART-AU-AN-POOL-FILTER-MEDIA",
+      "from_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FILTER-MEDIA",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-278-AN-POOL-FILTER-ASSEMBLY-HAS-PART-AU-AN-POOL-FILTER-MULTIPORT-VALVE",
+      "from_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FILTER-MULTIPORT-VALVE",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-279-AN-POOL-FILTER-ASSEMBLY-HAS-PART-AU-AN-POOL-FILTER-PRESSURE-GAUGE",
+      "from_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FILTER-PRESSURE-GAUGE",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-280-AN-POOL-FILTER-ASSEMBLY-HAS-PART-AU-AN-POOL-FILTER-TANK",
+      "from_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FILTER-TANK",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-281-AN-POOL-FILTER-ASSEMBLY-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-282-AN-POOL-FILTER-LATERAL-ASSEMBLY-PART-OF-AU-AN-POOL-FILTER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FILTER-LATERAL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-283-AN-POOL-FILTER-MEDIA-PART-OF-AU-AN-POOL-FILTER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FILTER-MEDIA",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-284-AN-POOL-FILTER-MULTIPORT-VALVE-PART-OF-AU-AN-POOL-FILTER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FILTER-MULTIPORT-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-285-AN-POOL-FILTER-PRESSURE-GAUGE-PART-OF-AU-AN-POOL-FILTER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FILTER-PRESSURE-GAUGE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-286-AN-POOL-FILTER-TANK-PART-OF-AU-AN-POOL-FILTER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-FILTER-TANK",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-287-AN-POOL-GATE-ASSEMBLY-HAS-PART-AU-AN-POOL-GATE-LATCH",
+      "from_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-GATE-LATCH",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PROTECTOR-POOL-GATE-LATCH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-288-AN-POOL-GATE-ASSEMBLY-HAS-PART-AU-AN-POOL-GATE-LEAF",
+      "from_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-GATE-LEAF",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE",
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT",
+        "SRC-PROTECTOR-POOL-GATE-HINGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-289-AN-POOL-GATE-ASSEMBLY-HAS-PART-AU-AN-POOL-GATE-SELF-CLOSING-HINGE-PAIR",
+      "from_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-GATE-SELF-CLOSING-HINGE-PAIR",
+      "source_ids": [
+        "SRC-PROTECTOR-POOL-GATE-HINGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-290-AN-POOL-GATE-ASSEMBLY-HAS-PART-AU-AN-POOL-GATE-STOP",
+      "from_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-GATE-STOP",
+      "source_ids": [
+        "SRC-PROTECTOR-POOL-GATE-HINGE",
+        "SRC-PROTECTOR-POOL-GATE-LATCH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-291-AN-POOL-GATE-ASSEMBLY-HAS-PART-AU-AN-POOL-GATE-STRIKER",
+      "from_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-GATE-STRIKER",
+      "source_ids": [
+        "SRC-PROTECTOR-POOL-GATE-LATCH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-292-AN-POOL-GATE-ASSEMBLY-PART-OF-AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "from_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PROTECTOR-POOL-GATE-HINGE",
+        "SRC-PROTECTOR-POOL-GATE-LATCH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-293-AN-POOL-GATE-LATCH-PART-OF-AU-AN-POOL-GATE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-GATE-LATCH",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PROTECTOR-POOL-GATE-LATCH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-294-AN-POOL-GATE-LEAF-PART-OF-AU-AN-POOL-GATE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-GATE-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE",
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT",
+        "SRC-PROTECTOR-POOL-GATE-HINGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-295-AN-POOL-GATE-SELF-CLOSING-HINGE-PAIR-PART-OF-AU-AN-POOL-GATE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-GATE-SELF-CLOSING-HINGE-PAIR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-POOL-GATE-HINGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-296-AN-POOL-GATE-STOP-PART-OF-AU-AN-POOL-GATE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-GATE-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-POOL-GATE-HINGE",
+        "SRC-PROTECTOR-POOL-GATE-LATCH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-297-AN-POOL-GATE-STRIKER-PART-OF-AU-AN-POOL-GATE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-GATE-STRIKER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-POOL-GATE-LATCH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-298-AN-POOL-GLASS-PANEL-CLAMP-PART-OF-AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-GLASS-PANEL-CLAMP",
+      "relationship": "part_of",
+      "to_id": "AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-299-AN-POOL-HANDRAIL-PART-OF-AU-AN-POOL-ENTRY-STEP-ASSEMBLY",
+      "from_id": "AU-AN-POOL-HANDRAIL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-ENTRY-STEP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-300-AN-POOL-HEAT-PUMP-UNIT-PART-OF-AU-AN-POOL-HEATING-ASSEMBLY",
+      "from_id": "AU-AN-POOL-HEAT-PUMP-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-HEATING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-301-AN-POOL-HEATING-ASSEMBLY-HAS-PART-AU-AN-POOL-HEAT-PUMP-UNIT",
+      "from_id": "AU-AN-POOL-HEATING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-HEAT-PUMP-UNIT",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-302-AN-POOL-HEATING-ASSEMBLY-HAS-PART-AU-AN-SOLAR-POOL-HEATING-COLLECTOR",
+      "from_id": "AU-AN-POOL-HEATING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-SOLAR-POOL-HEATING-COLLECTOR",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-303-AN-POOL-HEATING-ASSEMBLY-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-HEATING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-304-AN-POOL-HYDROSTATIC-RELIEF-ASSEMBLY-PART-OF-AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-POOL-HYDROSTATIC-RELIEF-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-305-AN-POOL-INTERIOR-FINISH-PART-OF-AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-POOL-INTERIOR-FINISH",
+      "relationship": "part_of",
+      "to_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-306-AN-POOL-ISOLATION-FENCE-ASSEMBLY-HAS-PART-AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-ISOLATION-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ALUMINIUM-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-307-AN-POOL-ISOLATION-FENCE-ASSEMBLY-HAS-PART-AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-ISOLATION-FENCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-308-AN-POOL-ISOLATION-FENCE-ASSEMBLY-PART-OF-AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "from_id": "AU-AN-POOL-ISOLATION-FENCE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE",
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-309-AN-POOL-ISOLATION-VALVE-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-ISOLATION-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER",
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-310-AN-POOL-LADDER-ASSEMBLY-PART-OF-AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-POOL-LADDER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-311-AN-POOL-PERIMETER-BOND-BEAM-PART-OF-AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-POOL-PERIMETER-BOND-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-312-AN-POOL-PERIMETER-ISOLATION-JOINT-PART-OF-AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-POOL-PERIMETER-ISOLATION-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-313-AN-POOL-PIPE-UNION-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-PIPE-UNION",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER",
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-314-AN-POOL-PLANT-TIME-CONTROL-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-PLANT-TIME-CONTROL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-315-AN-POOL-PREPARED-BASE-PART-OF-AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-POOL-PREPARED-BASE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-316-AN-POOL-PUMP-ELECTRIC-MOTOR-PART-OF-AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "from_id": "AU-AN-POOL-PUMP-ELECTRIC-MOTOR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-317-AN-POOL-PUMP-STRAINER-POT-ASSEMBLY-PART-OF-AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "from_id": "AU-AN-POOL-PUMP-STRAINER-POT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-318-AN-POOL-PUMP-WET-END-PART-OF-AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "from_id": "AU-AN-POOL-PUMP-WET-END",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-319-AN-POOL-RETURN-EYEBALL-PART-OF-AU-AN-POOL-RETURN-INLET-ASSEMBLY",
+      "from_id": "AU-AN-POOL-RETURN-EYEBALL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-RETURN-INLET-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-320-AN-POOL-RETURN-INLET-ASSEMBLY-HAS-PART-AU-AN-POOL-RETURN-EYEBALL",
+      "from_id": "AU-AN-POOL-RETURN-INLET-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-RETURN-EYEBALL",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-321-AN-POOL-RETURN-INLET-ASSEMBLY-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-RETURN-INLET-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-322-AN-POOL-RETURN-PIPE-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-RETURN-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-323-AN-POOL-SAFETY-BARRIER-SYSTEM-HAS-PART-AU-AN-POOL-BOUNDARY-BARRIER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-BOUNDARY-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-324-AN-POOL-SAFETY-BARRIER-SYSTEM-HAS-PART-AU-AN-POOL-GATE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PROTECTOR-POOL-GATE-HINGE",
+        "SRC-PROTECTOR-POOL-GATE-LATCH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-325-AN-POOL-SAFETY-BARRIER-SYSTEM-HAS-PART-AU-AN-POOL-ISOLATION-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-ISOLATION-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE",
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-326-AN-POOL-SAFETY-BARRIER-SYSTEM-PART-OF-AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE",
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-327-AN-POOL-SANITISER-ASSEMBLY-HAS-PART-AU-AN-SALTWATER-CHLORINATOR-CELL",
+      "from_id": "AU-AN-POOL-SANITISER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-SALTWATER-CHLORINATOR-CELL",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-328-AN-POOL-SANITISER-ASSEMBLY-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-SANITISER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-329-AN-POOL-SHELL-BACKFILL-PART-OF-AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SHELL-BACKFILL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-330-AN-POOL-SKIMMER-ASSEMBLY-HAS-PART-AU-AN-POOL-SKIMMER-BASKET",
+      "from_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SKIMMER-BASKET",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-331-AN-POOL-SKIMMER-ASSEMBLY-HAS-PART-AU-AN-POOL-SKIMMER-BODY",
+      "from_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SKIMMER-BODY",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-332-AN-POOL-SKIMMER-ASSEMBLY-HAS-PART-AU-AN-POOL-SKIMMER-LID",
+      "from_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SKIMMER-LID",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-333-AN-POOL-SKIMMER-ASSEMBLY-HAS-PART-AU-AN-POOL-SKIMMER-THROAT",
+      "from_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SKIMMER-THROAT",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-334-AN-POOL-SKIMMER-ASSEMBLY-HAS-PART-AU-AN-POOL-SKIMMER-VACUUM-PLATE",
+      "from_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SKIMMER-VACUUM-PLATE",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-335-AN-POOL-SKIMMER-ASSEMBLY-HAS-PART-AU-AN-POOL-SKIMMER-WEIR",
+      "from_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SKIMMER-WEIR",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-336-AN-POOL-SKIMMER-ASSEMBLY-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-337-AN-POOL-SKIMMER-BASKET-PART-OF-AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SKIMMER-BASKET",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-338-AN-POOL-SKIMMER-BODY-PART-OF-AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SKIMMER-BODY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-339-AN-POOL-SKIMMER-LID-PART-OF-AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SKIMMER-LID",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-340-AN-POOL-SKIMMER-THROAT-PART-OF-AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SKIMMER-THROAT",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-341-AN-POOL-SKIMMER-VACUUM-PLATE-PART-OF-AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SKIMMER-VACUUM-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-342-AN-POOL-SKIMMER-WEIR-PART-OF-AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SKIMMER-WEIR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-343-AN-POOL-SPIGOT-GLASS-PACKER-PART-OF-AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SPIGOT-GLASS-PACKER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-GLASS-POOL-FENCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-344-AN-POOL-SUCTION-COVER-FASTENER-PART-OF-AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SUCTION-COVER-FASTENER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-345-AN-POOL-SUCTION-MANIFOLD-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-SUCTION-MANIFOLD",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-346-AN-POOL-SUCTION-OUTLET-ASSEMBLY-HAS-PART-AU-AN-POOL-SUCTION-COVER-FASTENER",
+      "from_id": "AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SUCTION-COVER-FASTENER",
+      "source_ids": [
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-347-AN-POOL-SUCTION-OUTLET-ASSEMBLY-HAS-PART-AU-AN-POOL-SUCTION-OUTLET-COVER",
+      "from_id": "AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SUCTION-OUTLET-COVER",
+      "source_ids": [
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-348-AN-POOL-SUCTION-OUTLET-ASSEMBLY-HAS-PART-AU-AN-POOL-SUCTION-OUTLET-SUMP",
+      "from_id": "AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SUCTION-OUTLET-SUMP",
+      "source_ids": [
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-349-AN-POOL-SUCTION-OUTLET-ASSEMBLY-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-350-AN-POOL-SUCTION-OUTLET-COVER-PART-OF-AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SUCTION-OUTLET-COVER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-351-AN-POOL-SUCTION-OUTLET-SUMP-PART-OF-AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "from_id": "AU-AN-POOL-SUCTION-OUTLET-SUMP",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-352-AN-POOL-SUCTION-PIPE-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-SUCTION-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM",
+        "SRC-PENTAIR-POOL-PUMPS",
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-353-AN-POOL-VACUUM-RELEASE-DEVICE-PART-OF-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-POOL-VACUUM-RELEASE-DEVICE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-354-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-AUXILIARY-SUCTION-OUTLET",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-AUXILIARY-SUCTION-OUTLET",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-355-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-BACKWASH-PIPE",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-BACKWASH-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-356-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-CIRCULATION-PUMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-357-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-FILTER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-FILTER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-358-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-HEATING-ASSEMBLY",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-HEATING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-359-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-ISOLATION-VALVE",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-ISOLATION-VALVE",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER",
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-360-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-PIPE-UNION",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-PIPE-UNION",
+      "source_ids": [
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER",
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-361-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-PLANT-TIME-CONTROL",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-PLANT-TIME-CONTROL",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-362-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-RETURN-INLET-ASSEMBLY",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-RETURN-INLET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-363-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-RETURN-PIPE",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-RETURN-PIPE",
+      "source_ids": [
+        "SRC-PENTAIR-POOL-PUMPS",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-364-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-SANITISER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SANITISER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-365-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SKIMMER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-MEGASKIM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-366-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-SUCTION-MANIFOLD",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SUCTION-MANIFOLD",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-367-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SUCTION-OUTLET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-368-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-SUCTION-PIPE",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SUCTION-PIPE",
+      "source_ids": [
+        "SRC-PENTAIR-MEGASKIM",
+        "SRC-PENTAIR-POOL-PUMPS",
+        "SRC-PENTAIR-STARGUARD-DRAIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-369-AN-POOL-WATER-RECIRCULATION-SYSTEM-HAS-PART-AU-AN-POOL-VACUUM-RELEASE-DEVICE",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-VACUUM-RELEASE-DEVICE",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-370-AN-POOL-WATER-RECIRCULATION-SYSTEM-PART-OF-AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER",
+        "SRC-PENTAIR-POOL-PUMPS",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-371-AN-POST-AND-PANEL-RETAINING-WALL-PART-OF-AU-AN-RETAINING-WALL-SYSTEM",
+      "from_id": "AU-AN-POST-AND-PANEL-RETAINING-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-RETAINING-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-CIVIL-SITE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-372-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-HAS-PART-AU-AN-ABOVE-GROUND-BUSHFIRE-SHELTER",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ABOVE-GROUND-BUSHFIRE-SHELTER",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-373-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-374-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-EMERGENCY-LIGHTING",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-EMERGENCY-LIGHTING",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-375-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-EXTERNAL-HEAT-SHIELD",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-EXTERNAL-HEAT-SHIELD",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-376-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-EXTERNAL-LOCATION-SIGN",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-EXTERNAL-LOCATION-SIGN",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-377-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-INTERNAL-CAPACITY-SIGN",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-INTERNAL-CAPACITY-SIGN",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-378-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-PENETRATION-SEAL",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-PENETRATION-SEAL",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-379-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-STRUCTURAL-SHELL",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-380-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-VENTILATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-381-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-HAS-PART-AU-AN-BUSHFIRE-SHELTER-VIEWING-WINDOW",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-BUSHFIRE-SHELTER-VIEWING-WINDOW",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-382-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-HAS-PART-AU-AN-IN-GROUND-BUSHFIRE-SHELTER",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-IN-GROUND-BUSHFIRE-SHELTER",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-383-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY-PART-OF-AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-PRIVATE-BUSHFIRE-SHELTER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-PRIVATE-BUSHFIRE-SHELTER-STANDARD",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-384-AN-RETAINING-WALL-SYSTEM-HAS-PART-AU-AN-AGRICULTURAL-DRAIN",
+      "from_id": "AU-AN-RETAINING-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-AGRICULTURAL-DRAIN",
+      "source_ids": [
+        "SRC-CAPSTONE-CIVIL-SITE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-385-AN-RETAINING-WALL-SYSTEM-HAS-PART-AU-AN-GEOGRID-REINFORCEMENT",
+      "from_id": "AU-AN-RETAINING-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-GEOGRID-REINFORCEMENT",
+      "source_ids": [
+        "SRC-CAPSTONE-CIVIL-SITE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-386-AN-RETAINING-WALL-SYSTEM-HAS-PART-AU-AN-POST-AND-PANEL-RETAINING-WALL",
+      "from_id": "AU-AN-RETAINING-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POST-AND-PANEL-RETAINING-WALL",
+      "source_ids": [
+        "SRC-CAPSTONE-CIVIL-SITE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-387-AN-RETAINING-WALL-SYSTEM-HAS-PART-AU-AN-SEGMENTAL-BLOCK-RETAINING-WALL",
+      "from_id": "AU-AN-RETAINING-WALL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-SEGMENTAL-BLOCK-RETAINING-WALL",
+      "source_ids": [
+        "SRC-CAPSTONE-CIVIL-SITE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-388-AN-SALTWATER-CHLORINATOR-CELL-PART-OF-AU-AN-POOL-SANITISER-ASSEMBLY",
+      "from_id": "AU-AN-SALTWATER-CHLORINATOR-CELL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-SANITISER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-389-AN-SEGMENTAL-BLOCK-RETAINING-WALL-PART-OF-AU-AN-RETAINING-WALL-SYSTEM",
+      "from_id": "AU-AN-SEGMENTAL-BLOCK-RETAINING-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-RETAINING-WALL-SYSTEM",
+      "source_ids": [
+        "SRC-CAPSTONE-CIVIL-SITE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-390-AN-SITE-FIREFIGHTING-WATER-SUPPLY-ASSEMBLY-PART-OF-AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "from_id": "AU-AN-SITE-FIREFIGHTING-WATER-SUPPLY-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-BUSHFIRE-RESISTING-ENVELOPE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-BUSHFIRE-VERIFICATION-HANDBOOK-2022",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-391-AN-SOLAR-POOL-HEATING-COLLECTOR-PART-OF-AU-AN-POOL-HEATING-ASSEMBLY",
+      "from_id": "AU-AN-SOLAR-POOL-HEATING-COLLECTOR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-POOL-HEATING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-392-AN-SOLID-FUEL-FLUE-COWL-PART-OF-AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "from_id": "AU-AN-SOLID-FUEL-FLUE-COWL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-393-AN-SOLID-FUEL-FLUE-SYSTEM-HAS-PART-AU-AN-ACTIVE-INNER-FLUE-PIPE",
+      "from_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ACTIVE-INNER-FLUE-PIPE",
+      "source_ids": [
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-394-AN-SOLID-FUEL-FLUE-SYSTEM-HAS-PART-AU-AN-FLUE-CEILING-PLATE",
+      "from_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FLUE-CEILING-PLATE",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-395-AN-SOLID-FUEL-FLUE-SYSTEM-HAS-PART-AU-AN-FLUE-ELBOW-OR-OFFSET",
+      "from_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FLUE-ELBOW-OR-OFFSET",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-396-AN-SOLID-FUEL-FLUE-SYSTEM-HAS-PART-AU-AN-FLUE-INTERMEDIATE-CASING",
+      "from_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FLUE-INTERMEDIATE-CASING",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-397-AN-SOLID-FUEL-FLUE-SYSTEM-HAS-PART-AU-AN-FLUE-JOINT-CLAMP",
+      "from_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FLUE-JOINT-CLAMP",
+      "source_ids": [
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-398-AN-SOLID-FUEL-FLUE-SYSTEM-HAS-PART-AU-AN-FLUE-OUTER-CASING",
+      "from_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FLUE-OUTER-CASING",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-399-AN-SOLID-FUEL-FLUE-SYSTEM-HAS-PART-AU-AN-FLUE-STORM-COLLAR",
+      "from_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FLUE-STORM-COLLAR",
+      "source_ids": [
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-400-AN-SOLID-FUEL-FLUE-SYSTEM-HAS-PART-AU-AN-FLUE-SUPPORT-BRACKET",
+      "from_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FLUE-SUPPORT-BRACKET",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-401-AN-SOLID-FUEL-FLUE-SYSTEM-HAS-PART-AU-AN-SOLID-FUEL-FLUE-COWL",
+      "from_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-SOLID-FUEL-FLUE-COWL",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-402-AN-SOLID-FUEL-FLUE-SYSTEM-PART-OF-AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "from_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-403-AN-SOLID-FUEL-HEATING-SYSTEM-HAS-PART-AU-AN-FIREPLACE-INSERT-ASSEMBLY",
+      "from_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FIREPLACE-INSERT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-404-AN-SOLID-FUEL-HEATING-SYSTEM-HAS-PART-AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "from_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-405-AN-SOLID-FUEL-HEATING-SYSTEM-HAS-PART-AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "from_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-OPEN-MASONRY-FIREPLACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-406-AN-SOLID-FUEL-HEATING-SYSTEM-HAS-PART-AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "from_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-SOLID-FUEL-FLUE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-407-AN-SOLID-FUEL-HEATING-SYSTEM-HAS-PART-AU-AN-WOOD-HEATER-FLOOR-PROTECTOR",
+      "from_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-FLOOR-PROTECTOR",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-408-AN-SOLID-FUEL-HEATING-SYSTEM-HAS-PART-AU-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY",
+      "from_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-409-AN-SOLID-FUEL-HEATING-SYSTEM-PART-OF-AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-FLOMET-WOOD-HEATER-FLUE-KIT",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-410-AN-SPA-POOL-ASSEMBLY-HAS-PART-AU-AN-SPA-SECURE-COVER-ASSEMBLY",
+      "from_id": "AU-AN-SPA-POOL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-SPA-SECURE-COVER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-411-AN-SPA-POOL-ASSEMBLY-PART-OF-AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-SPA-POOL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-412-AN-SPA-SECURE-COVER-ASSEMBLY-PART-OF-AU-AN-SPA-POOL-ASSEMBLY",
+      "from_id": "AU-AN-SPA-SECURE-COVER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SPA-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-413-AN-STEEL-WALING-PLATE-PART-OF-AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "from_id": "AU-AN-STEEL-WALING-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-414-AN-SWIMMING-POOL-PHYSICAL-SYSTEM-HAS-PART-AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-ABOVE-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-415-AN-SWIMMING-POOL-PHYSICAL-SYSTEM-HAS-PART-AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "from_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-IN-GROUND-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-416-AN-SWIMMING-POOL-PHYSICAL-SYSTEM-HAS-PART-AU-AN-POOL-COVER-ASSEMBLY",
+      "from_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-COVER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-417-AN-SWIMMING-POOL-PHYSICAL-SYSTEM-HAS-PART-AU-AN-POOL-CPR-INSTRUCTION-SIGN",
+      "from_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-CPR-INSTRUCTION-SIGN",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-418-AN-SWIMMING-POOL-PHYSICAL-SYSTEM-HAS-PART-AU-AN-POOL-ENTRY-STEP-ASSEMBLY",
+      "from_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-ENTRY-STEP-ASSEMBLY",
+      "source_ids": [
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-NARELLAN-FIBREGLASS-POOL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-419-AN-SWIMMING-POOL-PHYSICAL-SYSTEM-HAS-PART-AU-AN-POOL-LADDER-ASSEMBLY",
+      "from_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-LADDER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-420-AN-SWIMMING-POOL-PHYSICAL-SYSTEM-HAS-PART-AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "from_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-SAFETY-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PROTECTOR-ALUMINIUM-POOL-FENCE",
+        "SRC-PROTECTOR-GLASS-POOL-SPIGOT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-421-AN-SWIMMING-POOL-PHYSICAL-SYSTEM-HAS-PART-AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "from_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-POOL-WATER-RECIRCULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-FREEFLO-SAND-FILTER",
+        "SRC-PENTAIR-POOL-PUMPS",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-422-AN-SWIMMING-POOL-PHYSICAL-SYSTEM-HAS-PART-AU-AN-SPA-POOL-ASSEMBLY",
+      "from_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-AN-SPA-POOL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-423-AN-SWIMMING-POOL-PHYSICAL-SYSTEM-PART-OF-AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "from_id": "AU-AN-SWIMMING-POOL-PHYSICAL-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ANCILLARY-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H7-ANCILLARY",
+        "SRC-COMPASS-FIBREGLASS-POOL-INSTALL",
+        "SRC-PENTAIR-POOL-WHITE-GOODS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-424-AN-TACTILE-GROUND-SURFACE-INDICATOR-PART-OF-AU-AN-ACCESSIBLE-PATH-OF-TRAVEL",
+      "from_id": "AU-AN-TACTILE-GROUND-SURFACE-INDICATOR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-ACCESSIBLE-PATH-OF-TRAVEL",
+      "source_ids": [
+        "SRC-CAPSTONE-ACCESSIBILITY"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-425-AN-TIMBER-WALING-PLATE-PART-OF-AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "from_id": "AU-AN-TIMBER-WALING-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-426-AN-WALING-BOTTOM-FLASHING-PART-OF-AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "from_id": "AU-AN-WALING-BOTTOM-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-427-AN-WALING-JUNCTION-FLASHING-ASSEMBLY-HAS-PART-AU-AN-FLASHING-LAP-SEALANT",
+      "from_id": "AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-FLASHING-LAP-SEALANT",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-428-AN-WALING-JUNCTION-FLASHING-ASSEMBLY-HAS-PART-AU-AN-WALING-BOTTOM-FLASHING",
+      "from_id": "AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WALING-BOTTOM-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-429-AN-WALING-JUNCTION-FLASHING-ASSEMBLY-HAS-PART-AU-AN-WALING-SIDE-FLASHING",
+      "from_id": "AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WALING-SIDE-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-430-AN-WALING-JUNCTION-FLASHING-ASSEMBLY-HAS-PART-AU-AN-WALING-TOP-FLASHING",
+      "from_id": "AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WALING-TOP-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-431-AN-WALING-JUNCTION-FLASHING-ASSEMBLY-PART-OF-AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "from_id": "AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-432-AN-WALING-LARGE-WASHER-PART-OF-AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "from_id": "AU-AN-WALING-LARGE-WASHER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-433-AN-WALING-PLATE-FASTENER-GROUP-HAS-PART-AU-AN-M12-CHEMICAL-WALING-ANCHOR",
+      "from_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "relationship": "has_part",
+      "to_id": "AU-AN-M12-CHEMICAL-WALING-ANCHOR",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-434-AN-WALING-PLATE-FASTENER-GROUP-HAS-PART-AU-AN-M12-MECHANICAL-WALING-ANCHOR",
+      "from_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "relationship": "has_part",
+      "to_id": "AU-AN-M12-MECHANICAL-WALING-ANCHOR",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-435-AN-WALING-PLATE-FASTENER-GROUP-HAS-PART-AU-AN-M12-WALING-BOLT",
+      "from_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "relationship": "has_part",
+      "to_id": "AU-AN-M12-WALING-BOLT",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-436-AN-WALING-PLATE-FASTENER-GROUP-HAS-PART-AU-AN-NO14-PARTIAL-THREAD-SCREW",
+      "from_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "relationship": "has_part",
+      "to_id": "AU-AN-NO14-PARTIAL-THREAD-SCREW",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-437-AN-WALING-PLATE-FASTENER-GROUP-HAS-PART-AU-AN-WALING-LARGE-WASHER",
+      "from_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WALING-LARGE-WASHER",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-438-AN-WALING-PLATE-FASTENER-GROUP-PART-OF-AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "from_id": "AU-AN-WALING-PLATE-FASTENER-GROUP",
+      "relationship": "part_of",
+      "to_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-439-AN-WALING-SIDE-FLASHING-PART-OF-AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "from_id": "AU-AN-WALING-SIDE-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-440-AN-WALING-TOP-FLASHING-PART-OF-AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "from_id": "AU-AN-WALING-TOP-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WALING-JUNCTION-FLASHING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-441-AN-WOOD-HEATER-AIR-CONTROL-PART-OF-AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "from_id": "AU-AN-WOOD-HEATER-AIR-CONTROL",
+      "relationship": "part_of",
+      "to_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-442-AN-WOOD-HEATER-ASH-GRATE-ASSEMBLY-PART-OF-AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "from_id": "AU-AN-WOOD-HEATER-ASH-GRATE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-443-AN-WOOD-HEATER-BAFFLE-PART-OF-AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "from_id": "AU-AN-WOOD-HEATER-BAFFLE",
+      "relationship": "part_of",
+      "to_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-444-AN-WOOD-HEATER-BODY-PART-OF-AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "from_id": "AU-AN-WOOD-HEATER-BODY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-445-AN-WOOD-HEATER-DOOR-ASSEMBLY-HAS-PART-AU-AN-WOOD-HEATER-DOOR-GLASS",
+      "from_id": "AU-AN-WOOD-HEATER-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-DOOR-GLASS",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-446-AN-WOOD-HEATER-DOOR-ASSEMBLY-HAS-PART-AU-AN-WOOD-HEATER-DOOR-LATCH",
+      "from_id": "AU-AN-WOOD-HEATER-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-DOOR-LATCH",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-447-AN-WOOD-HEATER-DOOR-ASSEMBLY-PART-OF-AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "from_id": "AU-AN-WOOD-HEATER-DOOR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-448-AN-WOOD-HEATER-DOOR-GLASS-PART-OF-AU-AN-WOOD-HEATER-DOOR-ASSEMBLY",
+      "from_id": "AU-AN-WOOD-HEATER-DOOR-GLASS",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WOOD-HEATER-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-449-AN-WOOD-HEATER-DOOR-LATCH-PART-OF-AU-AN-WOOD-HEATER-DOOR-ASSEMBLY",
+      "from_id": "AU-AN-WOOD-HEATER-DOOR-LATCH",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WOOD-HEATER-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-450-AN-WOOD-HEATER-FIREBRICK-LINING-PART-OF-AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "from_id": "AU-AN-WOOD-HEATER-FIREBRICK-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-451-AN-WOOD-HEATER-FLOOR-PROTECTOR-PART-OF-AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "from_id": "AU-AN-WOOD-HEATER-FLOOR-PROTECTOR",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-452-AN-WOOD-HEATER-PEDESTAL-OR-LEGS-PART-OF-AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "from_id": "AU-AN-WOOD-HEATER-PEDESTAL-OR-LEGS",
+      "relationship": "part_of",
+      "to_id": "AU-AN-FREESTANDING-WOOD-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-453-AN-WOOD-HEATER-SHIELD-SPACER-PART-OF-AU-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY",
+      "from_id": "AU-AN-WOOD-HEATER-SHIELD-SPACER",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-454-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY-HAS-PART-AU-AN-WOOD-HEATER-SHIELD-SPACER",
+      "from_id": "AU-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-SHIELD-SPACER",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-455-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY-HAS-PART-AU-AN-WOOD-HEATER-WALL-SHIELD-SHEET",
+      "from_id": "AU-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-AN-WOOD-HEATER-WALL-SHIELD-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-456-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY-PART-OF-AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "from_id": "AU-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-AN-SOLID-FUEL-HEATING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-457-AN-WOOD-HEATER-WALL-SHIELD-SHEET-PART-OF-AU-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY",
+      "from_id": "AU-AN-WOOD-HEATER-WALL-SHIELD-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-AN-WOOD-HEATER-WALL-SHIELD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES",
+        "SRC-HEATCHARM-WOOD-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-019-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY-COMMONLY-USED-WITH-AU-SA-ALPINE-EXTERNAL-ACCESS-ASSEMBLY",
+      "from_id": "AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-SA-ALPINE-EXTERNAL-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-128-AN-DECK-WALL-ATTACHMENT-ASSEMBLY-COMMONLY-USED-WITH-AU-DB-ATTACHED-FRAMED-DECK",
+      "from_id": "AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-ATTACHED-FRAMED-DECK",
+      "source_ids": [
+        "SRC-ABCB-HP-DECK-WALING",
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-168-AN-FIREPLACE-THROAT-COMMONLY-USED-WITH-AU-TC-CHIMNEY-FLUE-DAMPER",
+      "from_id": "AU-AN-FIREPLACE-THROAT",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-CHIMNEY-FLUE-DAMPER",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-216-AN-JOIST-TO-WALING-CONNECTOR-COMMONLY-USED-WITH-AU-DB-DECK-JOIST-FIELD",
+      "from_id": "AU-AN-JOIST-TO-WALING-CONNECTOR",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-JOIST-FIELD",
+      "source_ids": [
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-TGA-MSFFL3120-TIMBER-FLOORING-JOISTS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-217-AN-JOIST-TO-WALING-CONNECTOR-COMMONLY-USED-WITH-AU-DB-DECK-JOIST-HANGER",
+      "from_id": "AU-AN-JOIST-TO-WALING-CONNECTOR",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-JOIST-HANGER",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

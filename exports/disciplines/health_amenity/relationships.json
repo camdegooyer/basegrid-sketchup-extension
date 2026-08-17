@@ -1,0 +1,3020 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "health_amenity",
+  "relationships": [
+    {
+      "id": "REL-4612-HA-ACOUSTIC-ACCESS-PANEL-FRAME-PART-OF-AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-ACCESS-PANEL-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4613-HA-ACOUSTIC-ACCESS-PANEL-LEAF-PART-OF-AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-ACCESS-PANEL-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4614-HA-ACOUSTIC-ACCESS-PANEL-SEAL-PART-OF-AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-ACCESS-PANEL-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4618-HA-ACOUSTIC-CAVITY-INSULATION-LAYER-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4619-HA-ACOUSTIC-CEMENT-RENDER-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-CEMENT-RENDER",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4620-HA-ACOUSTIC-ELECTRICAL-BOX-PART-OF-AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-ELECTRICAL-BOX",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4621-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-ELECTRICAL-BOX",
+      "from_id": "AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-ELECTRICAL-BOX",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4622-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY-HAS-PART-AU-HA-ELECTRICAL-BOX-ACOUSTIC-CAULK",
+      "from_id": "AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ELECTRICAL-BOX-ACOUSTIC-CAULK",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4623-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY-HAS-PART-AU-HA-ELECTRICAL-BOX-ACOUSTIC-PAD",
+      "from_id": "AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ELECTRICAL-BOX-ACOUSTIC-PAD",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4624-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY-PART-OF-AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4625-HA-ACOUSTIC-FIBRE-CEMENT-LINING-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-FIBRE-CEMENT-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4626-HA-ACOUSTIC-ISOLATION-CLIP-PART-OF-AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-ISOLATION-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4627-HA-ACOUSTIC-ISOLATION-CLIP-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-ISOLATION-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4628-HA-ACOUSTIC-JOINT-BACKING-PART-OF-AU-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION",
+      "from_id": "AU-HA-ACOUSTIC-JOINT-BACKING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4629-HA-ACOUSTIC-JOINT-BACKING-PART-OF-AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "from_id": "AU-HA-ACOUSTIC-JOINT-BACKING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4630-HA-ACOUSTIC-JOINT-BACKING-PART-OF-AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-JOINT-BACKING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4631-HA-ACOUSTIC-LINING-FIXING-PART-OF-AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-LINING-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4632-HA-ACOUSTIC-LINING-FIXING-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-LINING-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4633-HA-ACOUSTIC-LINING-JOINT-COMPOUND-PART-OF-AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-LINING-JOINT-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4634-HA-ACOUSTIC-LINING-JOINT-COMPOUND-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-LINING-JOINT-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4636-HA-ACOUSTIC-LINING-JOINT-TAPE-PART-OF-AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-LINING-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4637-HA-ACOUSTIC-LINING-JOINT-TAPE-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-LINING-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4640-HA-ACOUSTIC-PERIMETER-SEALANT-PART-OF-AU-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION",
+      "from_id": "AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4641-HA-ACOUSTIC-PERIMETER-SEALANT-PART-OF-AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "from_id": "AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4642-HA-ACOUSTIC-PERIMETER-SEALANT-PART-OF-AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4643-HA-ACOUSTIC-PIPE-WRAP-PART-OF-AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-PIPE-WRAP",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4646-HA-ACOUSTIC-PLASTERBOARD-LINING-PART-OF-AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4647-HA-ACOUSTIC-PLASTERBOARD-LINING-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4648-HA-ACOUSTIC-RESILIENT-CHANNEL-PART-OF-AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-RESILIENT-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4649-HA-ACOUSTIC-RESILIENT-CHANNEL-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-RESILIENT-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4650-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-ACCESS-PANEL-FRAME",
+      "from_id": "AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-ACCESS-PANEL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4651-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-ACCESS-PANEL-LEAF",
+      "from_id": "AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-ACCESS-PANEL-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4652-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-ACCESS-PANEL-SEAL",
+      "from_id": "AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-ACCESS-PANEL-SEAL",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4653-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY-PART-OF-AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4655-HA-ACOUSTIC-WALL-CAVITY-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-WALL-CAVITY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4656-HA-ACOUSTIC-WALL-LEAF-ASSEMBLY-PART-OF-AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-WALL-LEAF-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4657-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION-HAS-PART-AU-HA-ACOUSTIC-JOINT-BACKING",
+      "from_id": "AU-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-JOINT-BACKING",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4658-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION-HAS-PART-AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "from_id": "AU-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4659-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION-PART-OF-AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "from_id": "AU-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION",
+      "relationship": "part_of",
+      "to_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4661-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION-HAS-PART-AU-HA-ACOUSTIC-JOINT-BACKING",
+      "from_id": "AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-JOINT-BACKING",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4662-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION-HAS-PART-AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "from_id": "AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4663-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION-PART-OF-AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "from_id": "AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "relationship": "part_of",
+      "to_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4664-HA-ACOUSTIC-WATER-SUPPLY-PIPE-ASSEMBLY-PART-OF-AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-WATER-SUPPLY-PIPE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4665-HA-ACOUSTIC-WRAP-CLOSURE-TAPE-PART-OF-AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-WRAP-CLOSURE-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4666-HA-BUILT-IN-COOKTOP-PART-OF-AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "from_id": "AU-HA-BUILT-IN-COOKTOP",
+      "relationship": "part_of",
+      "to_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4667-HA-BUILT-IN-OVEN-PART-OF-AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "from_id": "AU-HA-BUILT-IN-OVEN",
+      "relationship": "part_of",
+      "to_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4668-HA-BUILT-IN-OVEN-SUPPORT-SHELF-PART-OF-AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "from_id": "AU-HA-BUILT-IN-OVEN-SUPPORT-SHELF",
+      "relationship": "part_of",
+      "to_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "source_ids": [
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4671-HA-CEILING-ACCESS-PANEL-ASSEMBLY-PART-OF-AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "from_id": "AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4672-HA-CEILING-BULKHEAD-ASSEMBLY-HAS-PART-AU-HA-CEILING-BULKHEAD-FRAME",
+      "from_id": "AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-CEILING-BULKHEAD-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4673-HA-CEILING-BULKHEAD-ASSEMBLY-HAS-PART-AU-HA-CEILING-BULKHEAD-LINING",
+      "from_id": "AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-CEILING-BULKHEAD-LINING",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4674-HA-CEILING-BULKHEAD-ASSEMBLY-PART-OF-AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "from_id": "AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4675-HA-CEILING-BULKHEAD-ASSEMBLY-PART-OF-AU-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY",
+      "from_id": "AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4676-HA-CEILING-BULKHEAD-FRAME-PART-OF-AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "from_id": "AU-HA-CEILING-BULKHEAD-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4677-HA-CEILING-BULKHEAD-LINING-PART-OF-AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "from_id": "AU-HA-CEILING-BULKHEAD-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4678-HA-CLASS1-SOUND-INSULATION-SYSTEM-HAS-PART-AU-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION",
+      "from_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4679-HA-CLASS1-SOUND-INSULATION-SYSTEM-HAS-PART-AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "from_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4680-HA-CLASS1-SOUND-INSULATION-SYSTEM-HAS-PART-AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "from_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-NT-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4681-HA-CLASS1-SOUND-INSULATION-SYSTEM-HAS-PART-AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "from_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4682-HA-CLASS1-SOUND-INSULATION-SYSTEM-HAS-PART-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4683-HA-CLASS1-SOUND-INSULATION-SYSTEM-PART-OF-AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "from_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-NT-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4684-HA-COOKER-ADJUSTABLE-FOOT-PART-OF-AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "from_id": "AU-HA-COOKER-ADJUSTABLE-FOOT",
+      "relationship": "part_of",
+      "to_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "source_ids": [
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4685-HA-COOKER-ANTI-TIP-BRACKET-PART-OF-AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "from_id": "AU-HA-COOKER-ANTI-TIP-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "source_ids": [
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4686-HA-COOKER-ANTI-TIP-LOCK-PIN-PART-OF-AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "from_id": "AU-HA-COOKER-ANTI-TIP-LOCK-PIN",
+      "relationship": "part_of",
+      "to_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "source_ids": [
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4687-HA-COOKING-FACILITY-ASSEMBLY-HAS-PART-AU-HA-BUILT-IN-COOKTOP",
+      "from_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-BUILT-IN-COOKTOP",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4688-HA-COOKING-FACILITY-ASSEMBLY-HAS-PART-AU-HA-BUILT-IN-OVEN",
+      "from_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-BUILT-IN-OVEN",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4689-HA-COOKING-FACILITY-ASSEMBLY-HAS-PART-AU-HA-BUILT-IN-OVEN-SUPPORT-SHELF",
+      "from_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-BUILT-IN-OVEN-SUPPORT-SHELF",
+      "source_ids": [
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4690-HA-COOKING-FACILITY-ASSEMBLY-HAS-PART-AU-HA-COOKER-ADJUSTABLE-FOOT",
+      "from_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-COOKER-ADJUSTABLE-FOOT",
+      "source_ids": [
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4691-HA-COOKING-FACILITY-ASSEMBLY-HAS-PART-AU-HA-COOKER-ANTI-TIP-BRACKET",
+      "from_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-COOKER-ANTI-TIP-BRACKET",
+      "source_ids": [
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4692-HA-COOKING-FACILITY-ASSEMBLY-HAS-PART-AU-HA-COOKER-ANTI-TIP-LOCK-PIN",
+      "from_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-COOKER-ANTI-TIP-LOCK-PIN",
+      "source_ids": [
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4693-HA-COOKING-FACILITY-ASSEMBLY-HAS-PART-AU-HA-FREESTANDING-COOKER",
+      "from_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-FREESTANDING-COOKER",
+      "source_ids": [
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4694-HA-COOKING-FACILITY-ASSEMBLY-PART-OF-AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4695-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-WALL-LEAF-ASSEMBLY",
+      "from_id": "AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-WALL-LEAF-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4696-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-DOUBLE-MASONRY-LEAF-ACOUSTIC-WALL",
+      "from_id": "AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-DOUBLE-MASONRY-LEAF-ACOUSTIC-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4697-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-DOUBLE-STUD-ACOUSTIC-WALL",
+      "from_id": "AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-DOUBLE-STUD-ACOUSTIC-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4698-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY-IS-A-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4699-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4700-HA-DOMESTIC-WASHING-MACHINE-PART-OF-AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "from_id": "AU-HA-DOMESTIC-WASHING-MACHINE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-WASHER-DRAIN-HOSE",
+        "SRC-FP-WASHER-INLET-HOSE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4701-HA-DOUBLE-MASONRY-LEAF-ACOUSTIC-WALL-HAS-PART-AU-HA-RESILIENT-MASONRY-WALL-TIE",
+      "from_id": "AU-HA-DOUBLE-MASONRY-LEAF-ACOUSTIC-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-HA-RESILIENT-MASONRY-WALL-TIE",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4702-HA-DOUBLE-MASONRY-LEAF-ACOUSTIC-WALL-IS-A-AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-DOUBLE-MASONRY-LEAF-ACOUSTIC-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4703-HA-DOUBLE-MASONRY-LEAF-ACOUSTIC-WALL-PART-OF-AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-DOUBLE-MASONRY-LEAF-ACOUSTIC-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4704-HA-DOUBLE-STUD-ACOUSTIC-WALL-IS-A-AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-DOUBLE-STUD-ACOUSTIC-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4705-HA-DOUBLE-STUD-ACOUSTIC-WALL-PART-OF-AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-DOUBLE-STUD-ACOUSTIC-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4706-HA-ELECTRICAL-BOX-ACOUSTIC-CAULK-PART-OF-AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "from_id": "AU-HA-ELECTRICAL-BOX-ACOUSTIC-CAULK",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4708-HA-ELECTRICAL-BOX-ACOUSTIC-PAD-PART-OF-AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "from_id": "AU-HA-ELECTRICAL-BOX-ACOUSTIC-PAD",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4709-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR-HAS-PART-AU-HA-SANITARY-DOOR-LIFT-OFF-HINGE",
+      "from_id": "AU-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SANITARY-DOOR-LIFT-OFF-HINGE",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4710-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR-HAS-PART-AU-HA-SANITARY-DOOR-REMOVABLE-HINGE-PIN",
+      "from_id": "AU-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SANITARY-DOOR-REMOVABLE-HINGE-PIN",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4711-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR-IS-A-AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "from_id": "AU-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR",
+      "relationship": "is_a",
+      "to_id": "AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4712-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR-PART-OF-AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "from_id": "AU-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4713-HA-FLEXIBLE-SERVICE-CONNECTOR-PART-OF-AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "from_id": "AU-HA-FLEXIBLE-SERVICE-CONNECTOR",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4714-HA-FOOD-PREPARATION-BENCH-ASSEMBLY-HAS-PART-AU-HA-KITCHEN-BENCHTOP",
+      "from_id": "AU-HA-FOOD-PREPARATION-BENCH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-KITCHEN-BENCHTOP",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4715-HA-FOOD-PREPARATION-BENCH-ASSEMBLY-HAS-PART-AU-HA-KITCHEN-SINK-CABINET",
+      "from_id": "AU-HA-FOOD-PREPARATION-BENCH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-KITCHEN-SINK-CABINET",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4716-HA-FOOD-PREPARATION-BENCH-ASSEMBLY-PART-OF-AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-FOOD-PREPARATION-BENCH-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4717-HA-FREESTANDING-COOKER-PART-OF-AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "from_id": "AU-HA-FREESTANDING-COOKER",
+      "relationship": "part_of",
+      "to_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "source_ids": [
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4718-HA-GENERAL-SANITARY-COMPARTMENT-ASSEMBLY-HAS-PART-AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "from_id": "AU-HA-GENERAL-SANITARY-COMPARTMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4719-HA-GENERAL-SANITARY-COMPARTMENT-ASSEMBLY-PART-OF-AU-HA-GENERAL-SANITARY-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-GENERAL-SANITARY-COMPARTMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-GENERAL-SANITARY-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4720-HA-GENERAL-SANITARY-FACILITIES-ASSEMBLY-HAS-PART-AU-HA-GENERAL-SANITARY-COMPARTMENT-ASSEMBLY",
+      "from_id": "AU-HA-GENERAL-SANITARY-FACILITIES-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-GENERAL-SANITARY-COMPARTMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4721-HA-GENERAL-SANITARY-FACILITIES-ASSEMBLY-PART-OF-AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-GENERAL-SANITARY-FACILITIES-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4722-HA-HABITABLE-ROOM-DAYLIGHT-OPENING-ASSEMBLY-HAS-PART-AU-HA-ROOFLIGHT-ASSEMBLY",
+      "from_id": "AU-HA-HABITABLE-ROOM-DAYLIGHT-OPENING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ROOFLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT",
+        "SRC-ABCB-HP-ROOM-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4723-HA-HABITABLE-ROOM-DAYLIGHT-OPENING-ASSEMBLY-PART-OF-AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "from_id": "AU-HA-HABITABLE-ROOM-DAYLIGHT-OPENING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4724-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM-HAS-PART-AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "from_id": "AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-NT-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4725-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM-HAS-PART-AU-HA-HABITABLE-ROOM-DAYLIGHT-OPENING-ASSEMBLY",
+      "from_id": "AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-HA-HABITABLE-ROOM-DAYLIGHT-OPENING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4726-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM-HAS-PART-AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4727-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM-HAS-PART-AU-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY",
+      "from_id": "AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4730-HA-INTERNAL-CEILING-CORNICE-PART-OF-AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "from_id": "AU-HA-INTERNAL-CEILING-CORNICE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4733-HA-INTERNAL-CEILING-LINING-ASSEMBLY-HAS-PART-AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY",
+      "from_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4734-HA-INTERNAL-CEILING-LINING-ASSEMBLY-HAS-PART-AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "from_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4735-HA-INTERNAL-CEILING-LINING-ASSEMBLY-HAS-PART-AU-HA-INTERNAL-CEILING-CORNICE",
+      "from_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-INTERNAL-CEILING-CORNICE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4736-HA-INTERNAL-CEILING-LINING-ASSEMBLY-HAS-PART-AU-HA-PLASTERBOARD-CEILING-SHEET",
+      "from_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-PLASTERBOARD-CEILING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4737-HA-INTERNAL-CEILING-LINING-ASSEMBLY-HAS-PART-AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "from_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4738-HA-INTERNAL-CEILING-LINING-ASSEMBLY-PART-OF-AU-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY",
+      "from_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4739-HA-KITCHEN-BENCHTOP-PART-OF-AU-HA-FOOD-PREPARATION-BENCH-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-BENCHTOP",
+      "relationship": "part_of",
+      "to_id": "AU-HA-FOOD-PREPARATION-BENCH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4740-HA-KITCHEN-FACILITIES-ASSEMBLY-HAS-PART-AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-COOKING-FACILITY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4741-HA-KITCHEN-FACILITIES-ASSEMBLY-HAS-PART-AU-HA-FOOD-PREPARATION-BENCH-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-FOOD-PREPARATION-BENCH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4742-HA-KITCHEN-FACILITIES-ASSEMBLY-HAS-PART-AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4743-HA-KITCHEN-FACILITIES-ASSEMBLY-HAS-PART-AU-HA-KITCHEN-SPLASHBACK-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-KITCHEN-SPLASHBACK-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4744-HA-KITCHEN-FACILITIES-ASSEMBLY-PART-OF-AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4745-HA-KITCHEN-SINK-ASSEMBLY-HAS-PART-AU-HA-KITCHEN-SINK-BOWL",
+      "from_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-KITCHEN-SINK-BOWL",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4746-HA-KITCHEN-SINK-ASSEMBLY-HAS-PART-AU-HA-KITCHEN-SINK-CABINET",
+      "from_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-KITCHEN-SINK-CABINET",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4747-HA-KITCHEN-SINK-ASSEMBLY-HAS-PART-AU-HA-KITCHEN-SINK-DRAINER",
+      "from_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-KITCHEN-SINK-DRAINER",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4748-HA-KITCHEN-SINK-ASSEMBLY-HAS-PART-AU-HA-KITCHEN-SINK-FIXTURE",
+      "from_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-KITCHEN-SINK-FIXTURE",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4749-HA-KITCHEN-SINK-ASSEMBLY-HAS-PART-AU-HA-KITCHEN-SINK-TAPSET",
+      "from_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-KITCHEN-SINK-TAPSET",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4750-HA-KITCHEN-SINK-ASSEMBLY-HAS-PART-AU-HA-SINK-BASKET-WASTE",
+      "from_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SINK-BASKET-WASTE",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4751-HA-KITCHEN-SINK-ASSEMBLY-HAS-PART-AU-HA-SINK-MOUNTING-CLIP",
+      "from_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SINK-MOUNTING-CLIP",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4752-HA-KITCHEN-SINK-ASSEMBLY-HAS-PART-AU-HA-SINK-OVERFLOW-FITTING",
+      "from_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SINK-OVERFLOW-FITTING",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4753-HA-KITCHEN-SINK-ASSEMBLY-HAS-PART-AU-HA-SINK-RIM-SEAL",
+      "from_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SINK-RIM-SEAL",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4754-HA-KITCHEN-SINK-ASSEMBLY-PART-OF-AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4755-HA-KITCHEN-SINK-BOWL-PART-OF-AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-SINK-BOWL",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4756-HA-KITCHEN-SINK-CABINET-PART-OF-AU-HA-FOOD-PREPARATION-BENCH-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-SINK-CABINET",
+      "relationship": "part_of",
+      "to_id": "AU-HA-FOOD-PREPARATION-BENCH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4757-HA-KITCHEN-SINK-CABINET-PART-OF-AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-SINK-CABINET",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4758-HA-KITCHEN-SINK-DRAINER-PART-OF-AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-SINK-DRAINER",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4759-HA-KITCHEN-SINK-FIXTURE-PART-OF-AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-SINK-FIXTURE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4760-HA-KITCHEN-SINK-TAPSET-PART-OF-AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-SINK-TAPSET",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4761-HA-KITCHEN-SPLASHBACK-ASSEMBLY-PART-OF-AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-KITCHEN-SPLASHBACK-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4762-HA-LAUNDRY-FACILITIES-ASSEMBLY-HAS-PART-AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "from_id": "AU-HA-LAUNDRY-FACILITIES-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4763-HA-LAUNDRY-FACILITIES-ASSEMBLY-HAS-PART-AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "from_id": "AU-HA-LAUNDRY-FACILITIES-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-WASHER-DRAIN-HOSE",
+        "SRC-FP-WASHER-INLET-HOSE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4764-HA-LAUNDRY-FACILITIES-ASSEMBLY-PART-OF-AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-LAUNDRY-FACILITIES-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-WASHER-DRAIN-HOSE",
+        "SRC-FP-WASHER-INLET-HOSE",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4765-HA-LAUNDRY-RINSE-BYPASS-KIT-PART-OF-AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "from_id": "AU-HA-LAUNDRY-RINSE-BYPASS-KIT",
+      "relationship": "part_of",
+      "to_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4766-HA-LAUNDRY-RINSE-BYPASS-KIT-PART-OF-AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "from_id": "AU-HA-LAUNDRY-RINSE-BYPASS-KIT",
+      "relationship": "part_of",
+      "to_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4767-HA-LAUNDRY-TUB-CABINET-PART-OF-AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "from_id": "AU-HA-LAUNDRY-TUB-CABINET",
+      "relationship": "part_of",
+      "to_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4768-HA-LAUNDRY-TUB-FIXTURE-PART-OF-AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "from_id": "AU-HA-LAUNDRY-TUB-FIXTURE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4769-HA-LAUNDRY-TUB-TAPSET-PART-OF-AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "from_id": "AU-HA-LAUNDRY-TUB-TAPSET",
+      "relationship": "part_of",
+      "to_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4770-HA-LAUNDRY-WASHTUB-ASSEMBLY-HAS-PART-AU-HA-LAUNDRY-RINSE-BYPASS-KIT",
+      "from_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-LAUNDRY-RINSE-BYPASS-KIT",
+      "source_ids": [
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4771-HA-LAUNDRY-WASHTUB-ASSEMBLY-HAS-PART-AU-HA-LAUNDRY-TUB-CABINET",
+      "from_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-LAUNDRY-TUB-CABINET",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4772-HA-LAUNDRY-WASHTUB-ASSEMBLY-HAS-PART-AU-HA-LAUNDRY-TUB-FIXTURE",
+      "from_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-LAUNDRY-TUB-FIXTURE",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4773-HA-LAUNDRY-WASHTUB-ASSEMBLY-HAS-PART-AU-HA-LAUNDRY-TUB-TAPSET",
+      "from_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-LAUNDRY-TUB-TAPSET",
+      "source_ids": [
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4774-HA-LAUNDRY-WASHTUB-ASSEMBLY-HAS-PART-AU-HA-SINK-BASKET-WASTE",
+      "from_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SINK-BASKET-WASTE",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4775-HA-LAUNDRY-WASHTUB-ASSEMBLY-HAS-PART-AU-HA-SINK-MOUNTING-CLIP",
+      "from_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SINK-MOUNTING-CLIP",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4776-HA-LAUNDRY-WASHTUB-ASSEMBLY-HAS-PART-AU-HA-SINK-OVERFLOW-FITTING",
+      "from_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SINK-OVERFLOW-FITTING",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4777-HA-LAUNDRY-WASHTUB-ASSEMBLY-HAS-PART-AU-HA-SINK-RIM-SEAL",
+      "from_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SINK-RIM-SEAL",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4778-HA-LAUNDRY-WASHTUB-ASSEMBLY-PART-OF-AU-HA-LAUNDRY-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-LAUNDRY-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4779-HA-MASONRY-ISOLATED-LINING-ACOUSTIC-WALL-IS-A-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-MASONRY-ISOLATED-LINING-ACOUSTIC-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4780-HA-MASONRY-ISOLATED-LINING-ACOUSTIC-WALL-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-MASONRY-ISOLATED-LINING-ACOUSTIC-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4781-HA-MASSIVE-SINGLE-LEAF-ACOUSTIC-WALL-IS-A-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-MASSIVE-SINGLE-LEAF-ACOUSTIC-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4782-HA-MASSIVE-SINGLE-LEAF-ACOUSTIC-WALL-PART-OF-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-MASSIVE-SINGLE-LEAF-ACOUSTIC-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4784-HA-PERSONAL-WASHING-FACILITY-ASSEMBLY-PART-OF-AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-PERSONAL-WASHING-FACILITY-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4787-HA-PLASTERBOARD-CEILING-SHEET-PART-OF-AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "from_id": "AU-HA-PLASTERBOARD-CEILING-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4788-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY-HAS-PART-AU-HA-GENERAL-SANITARY-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-GENERAL-SANITARY-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4789-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY-HAS-PART-AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-KITCHEN-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-FREESTANDING-COOKER-INSTALL",
+        "SRC-OLIVERI-KITCHEN-SINK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4790-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY-HAS-PART-AU-HA-LAUNDRY-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-LAUNDRY-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-WASHER-DRAIN-HOSE",
+        "SRC-FP-WASHER-INLET-HOSE",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4791-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY-HAS-PART-AU-HA-PERSONAL-WASHING-FACILITY-ASSEMBLY",
+      "from_id": "AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-PERSONAL-WASHING-FACILITY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4792-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY-PART-OF-AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "from_id": "AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4793-HA-RESILIENT-MASONRY-WALL-TIE-PART-OF-AU-HA-DOUBLE-MASONRY-LEAF-ACOUSTIC-WALL",
+      "from_id": "AU-HA-RESILIENT-MASONRY-WALL-TIE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-DOUBLE-MASONRY-LEAF-ACOUSTIC-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4794-HA-RESILIENT-PIPE-CLIP-PART-OF-AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "from_id": "AU-HA-RESILIENT-PIPE-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4795-HA-ROOFLIGHT-ASSEMBLY-HAS-PART-AU-HA-ROOFLIGHT-CURB",
+      "from_id": "AU-HA-ROOFLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ROOFLIGHT-CURB",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4796-HA-ROOFLIGHT-ASSEMBLY-HAS-PART-AU-HA-ROOFLIGHT-LIGHTWELL-ASSEMBLY",
+      "from_id": "AU-HA-ROOFLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ROOFLIGHT-LIGHTWELL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT",
+        "SRC-ABCB-HP-ROOM-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4797-HA-ROOFLIGHT-ASSEMBLY-HAS-PART-AU-HA-ROOFLIGHT-UNIT",
+      "from_id": "AU-HA-ROOFLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ROOFLIGHT-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT",
+        "SRC-ABCB-HP-ROOM-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4798-HA-ROOFLIGHT-ASSEMBLY-PART-OF-AU-HA-HABITABLE-ROOM-DAYLIGHT-OPENING-ASSEMBLY",
+      "from_id": "AU-HA-ROOFLIGHT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-HABITABLE-ROOM-DAYLIGHT-OPENING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT",
+        "SRC-ABCB-HP-ROOM-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4799-HA-ROOFLIGHT-CURB-PART-OF-AU-HA-ROOFLIGHT-ASSEMBLY",
+      "from_id": "AU-HA-ROOFLIGHT-CURB",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ROOFLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4800-HA-ROOFLIGHT-LIGHTWELL-ASSEMBLY-HAS-PART-AU-HA-ROOFLIGHT-LIGHTWELL-LINING",
+      "from_id": "AU-HA-ROOFLIGHT-LIGHTWELL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ROOFLIGHT-LIGHTWELL-LINING",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4801-HA-ROOFLIGHT-LIGHTWELL-ASSEMBLY-PART-OF-AU-HA-ROOFLIGHT-ASSEMBLY",
+      "from_id": "AU-HA-ROOFLIGHT-LIGHTWELL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ROOFLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT",
+        "SRC-ABCB-HP-ROOM-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4802-HA-ROOFLIGHT-LIGHTWELL-LINING-PART-OF-AU-HA-ROOFLIGHT-LIGHTWELL-ASSEMBLY",
+      "from_id": "AU-HA-ROOFLIGHT-LIGHTWELL-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ROOFLIGHT-LIGHTWELL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4803-HA-ROOFLIGHT-UNIT-PART-OF-AU-HA-ROOFLIGHT-ASSEMBLY",
+      "from_id": "AU-HA-ROOFLIGHT-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-HA-ROOFLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-LIGHT",
+        "SRC-ABCB-HP-ROOM-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4804-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY-HAS-PART-AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "from_id": "AU-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-CEILING-BULKHEAD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4805-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY-HAS-PART-AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "from_id": "AU-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4806-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY-PART-OF-AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "from_id": "AU-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4807-HA-SANITARY-DOOR-LIFT-OFF-HINGE-PART-OF-AU-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR",
+      "from_id": "AU-HA-SANITARY-DOOR-LIFT-OFF-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4809-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY-HAS-PART-AU-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR",
+      "from_id": "AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4810-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY-HAS-PART-AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE",
+      "from_id": "AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4811-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY-PART-OF-AU-HA-GENERAL-SANITARY-COMPARTMENT-ASSEMBLY",
+      "from_id": "AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-GENERAL-SANITARY-COMPARTMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4813-HA-SANITARY-DOOR-REMOVABLE-HINGE-PIN-PART-OF-AU-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR",
+      "from_id": "AU-HA-SANITARY-DOOR-REMOVABLE-HINGE-PIN",
+      "relationship": "part_of",
+      "to_id": "AU-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4816-HA-SANITARY-LATCH-EXTERNAL-RELEASE-PART-OF-AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "from_id": "AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4817-HA-SEPARATING-WALL-SERVICE-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "from_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4818-HA-SEPARATING-WALL-SERVICE-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-PIPE-WRAP",
+      "from_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-PIPE-WRAP",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4819-HA-SEPARATING-WALL-SERVICE-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "from_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4820-HA-SEPARATING-WALL-SERVICE-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-WATER-SUPPLY-PIPE-ASSEMBLY",
+      "from_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-WATER-SUPPLY-PIPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4821-HA-SEPARATING-WALL-SERVICE-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-WRAP-CLOSURE-TAPE",
+      "from_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-WRAP-CLOSURE-TAPE",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4822-HA-SEPARATING-WALL-SERVICE-ASSEMBLY-HAS-PART-AU-HA-FLEXIBLE-SERVICE-CONNECTOR",
+      "from_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-FLEXIBLE-SERVICE-CONNECTOR",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4823-HA-SEPARATING-WALL-SERVICE-ASSEMBLY-HAS-PART-AU-HA-RESILIENT-PIPE-CLIP",
+      "from_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-RESILIENT-PIPE-CLIP",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4824-HA-SEPARATING-WALL-SERVICE-ASSEMBLY-PART-OF-AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "from_id": "AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-NT-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4825-HA-SINK-BASKET-WASTE-PART-OF-AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "from_id": "AU-HA-SINK-BASKET-WASTE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4826-HA-SINK-BASKET-WASTE-PART-OF-AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "from_id": "AU-HA-SINK-BASKET-WASTE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4827-HA-SINK-MOUNTING-CLIP-PART-OF-AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "from_id": "AU-HA-SINK-MOUNTING-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4828-HA-SINK-MOUNTING-CLIP-PART-OF-AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "from_id": "AU-HA-SINK-MOUNTING-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4829-HA-SINK-OVERFLOW-FITTING-PART-OF-AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "from_id": "AU-HA-SINK-OVERFLOW-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4830-HA-SINK-OVERFLOW-FITTING-PART-OF-AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "from_id": "AU-HA-SINK-OVERFLOW-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4831-HA-SINK-RIM-SEAL-PART-OF-AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "from_id": "AU-HA-SINK-RIM-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-HA-KITCHEN-SINK-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4832-HA-SINK-RIM-SEAL-PART-OF-AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "from_id": "AU-HA-SINK-RIM-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-HA-LAUNDRY-WASHTUB-ASSEMBLY",
+      "source_ids": [
+        "SRC-OLIVERI-KITCHEN-SINK",
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4833-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-ISOLATION-CLIP",
+      "from_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-ISOLATION-CLIP",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4834-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-JOINT-BACKING",
+      "from_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-JOINT-BACKING",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4835-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-LINING-FIXING",
+      "from_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-LINING-FIXING",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4836-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-LINING-JOINT-COMPOUND",
+      "from_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-LINING-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4837-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-LINING-JOINT-TAPE",
+      "from_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-LINING-JOINT-TAPE",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4838-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "from_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4839-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "from_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4840-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-RESILIENT-CHANNEL",
+      "from_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-RESILIENT-CHANNEL",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4841-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY-PART-OF-AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "from_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4842-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY-PART-OF-AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "from_id": "AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4844-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4845-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-CEMENT-RENDER",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-CEMENT-RENDER",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4846-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-FIBRE-CEMENT-LINING",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-FIBRE-CEMENT-LINING",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4847-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-ISOLATION-CLIP",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-ISOLATION-CLIP",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4848-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-LINING-FIXING",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-LINING-FIXING",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4849-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-LINING-JOINT-COMPOUND",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-LINING-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4850-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-LINING-JOINT-TAPE",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-LINING-JOINT-TAPE",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4851-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4852-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-RESILIENT-CHANNEL",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-RESILIENT-CHANNEL",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4853-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-ACOUSTIC-WALL-CAVITY",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-ACOUSTIC-WALL-CAVITY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4854-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4855-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-MASONRY-ISOLATED-LINING-ACOUSTIC-WALL",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-MASONRY-ISOLATED-LINING-ACOUSTIC-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4856-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-HA-MASSIVE-SINGLE-LEAF-ACOUSTIC-WALL",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-MASSIVE-SINGLE-LEAF-ACOUSTIC-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4857-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-PART-OF-AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-CLASS1-SOUND-INSULATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4858-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY-HAS-PART-AU-HA-DOMESTIC-WASHING-MACHINE",
+      "from_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-DOMESTIC-WASHING-MACHINE",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-WASHER-DRAIN-HOSE",
+        "SRC-FP-WASHER-INLET-HOSE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4859-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY-HAS-PART-AU-HA-LAUNDRY-RINSE-BYPASS-KIT",
+      "from_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-LAUNDRY-RINSE-BYPASS-KIT",
+      "source_ids": [
+        "SRC-OLIVERI-LAUNDRY-TUB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4860-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY-HAS-PART-AU-HA-WASHING-MACHINE-DRAIN-HOSE",
+      "from_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-WASHING-MACHINE-DRAIN-HOSE",
+      "source_ids": [
+        "SRC-FP-WASHER-DRAIN-HOSE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4861-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY-HAS-PART-AU-HA-WASHING-MACHINE-DRAIN-HOSE-GUIDE",
+      "from_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-WASHING-MACHINE-DRAIN-HOSE-GUIDE",
+      "source_ids": [
+        "SRC-FP-WASHER-DRAIN-HOSE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4862-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY-HAS-PART-AU-HA-WASHING-MACHINE-INLET-HOSE",
+      "from_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-HA-WASHING-MACHINE-INLET-HOSE",
+      "source_ids": [
+        "SRC-FP-WASHER-INLET-HOSE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4863-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY-PART-OF-AU-HA-LAUNDRY-FACILITIES-ASSEMBLY",
+      "from_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-HA-LAUNDRY-FACILITIES-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-FP-WASHER-DRAIN-HOSE",
+        "SRC-FP-WASHER-INLET-HOSE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4864-HA-WASHING-MACHINE-DRAIN-HOSE-PART-OF-AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "from_id": "AU-HA-WASHING-MACHINE-DRAIN-HOSE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-FP-WASHER-DRAIN-HOSE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4865-HA-WASHING-MACHINE-DRAIN-HOSE-GUIDE-PART-OF-AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "from_id": "AU-HA-WASHING-MACHINE-DRAIN-HOSE-GUIDE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-FP-WASHER-DRAIN-HOSE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4866-HA-WASHING-MACHINE-INLET-HOSE-PART-OF-AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "from_id": "AU-HA-WASHING-MACHINE-INLET-HOSE",
+      "relationship": "part_of",
+      "to_id": "AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-FP-WASHER-INLET-HOSE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-4615-HA-ACOUSTIC-CAVITY-INSULATION-LAYER-COMMONLY-USED-WITH-AU-TC-GLASS-MINERAL-WOOL-INSULATION",
+      "from_id": "AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-GLASS-MINERAL-WOOL-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4616-HA-ACOUSTIC-CAVITY-INSULATION-LAYER-COMMONLY-USED-WITH-AU-TC-POLYESTER-INSULATION",
+      "from_id": "AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-POLYESTER-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4617-HA-ACOUSTIC-CAVITY-INSULATION-LAYER-COMMONLY-USED-WITH-AU-TC-ROCK-MINERAL-WOOL-INSULATION",
+      "from_id": "AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-ROCK-MINERAL-WOOL-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4635-HA-ACOUSTIC-LINING-JOINT-TAPE-ALTERNATIVE-TO-AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "from_id": "AU-HA-ACOUSTIC-LINING-JOINT-TAPE",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4638-HA-ACOUSTIC-PERIMETER-SEALANT-ALTERNATIVE-TO-AU-IL-PAINTABLE-PERIMETER-GAP-SEALANT",
+      "from_id": "AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PAINTABLE-PERIMETER-GAP-SEALANT",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4639-HA-ACOUSTIC-PERIMETER-SEALANT-COMMONLY-USED-WITH-AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT",
+      "from_id": "AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4644-HA-ACOUSTIC-PLASTERBOARD-LINING-COMMONLY-USED-WITH-AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "from_id": "AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4645-HA-ACOUSTIC-PLASTERBOARD-LINING-COMMONLY-USED-WITH-AU-IL-MULTILAYER-LINING-ASSEMBLY",
+      "from_id": "AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-MULTILAYER-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4654-HA-ACOUSTIC-WALL-CAVITY-COMMONLY-USED-WITH-AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET",
+      "from_id": "AU-HA-ACOUSTIC-WALL-CAVITY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4660-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION-COMMONLY-USED-WITH-AU-FS-WALL-TO-ROOF-FIRE-TERMINATION",
+      "from_id": "AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FS-WALL-TO-ROOF-FIRE-TERMINATION",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4669-HA-CEILING-ACCESS-PANEL-ASSEMBLY-COMMONLY-USED-WITH-AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "from_id": "AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-DUO-EXPOSED-GRID"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4670-HA-CEILING-ACCESS-PANEL-ASSEMBLY-COMMONLY-USED-WITH-AU-TC-ACCESS-HATCH-WEATHERSEAL",
+      "from_id": "AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-ACCESS-HATCH-WEATHERSEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4707-HA-ELECTRICAL-BOX-ACOUSTIC-PAD-COMMONLY-USED-WITH-AU-FS-FIRESTOP-PUTTY-PAD",
+      "from_id": "AU-HA-ELECTRICAL-BOX-ACOUSTIC-PAD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FS-FIRESTOP-PUTTY-PAD",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4728-HA-INTERNAL-CEILING-CORNICE-COMMONLY-USED-WITH-AU-IL-INTERNAL-CORNICE-ADHESIVE",
+      "from_id": "AU-HA-INTERNAL-CEILING-CORNICE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-INTERNAL-CORNICE-ADHESIVE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4729-HA-INTERNAL-CEILING-CORNICE-COMMONLY-USED-WITH-AU-TC-CORNICE-AIR-SEAL",
+      "from_id": "AU-HA-INTERNAL-CEILING-CORNICE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-CORNICE-AIR-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4731-HA-INTERNAL-CEILING-LINING-ASSEMBLY-COMMONLY-USED-WITH-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4732-HA-INTERNAL-CEILING-LINING-ASSEMBLY-COMMONLY-USED-WITH-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4783-HA-PERSONAL-WASHING-FACILITY-ASSEMBLY-IS-A-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-HA-PERSONAL-WASHING-FACILITY-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FACILITIES",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4785-HA-PLASTERBOARD-CEILING-SHEET-COMMONLY-USED-WITH-AU-SF-CEILING-BATTEN",
+      "from_id": "AU-HA-PLASTERBOARD-CEILING-SHEET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-SF-CEILING-BATTEN",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4786-HA-PLASTERBOARD-CEILING-SHEET-COMMONLY-USED-WITH-AU-TF-CEILING-JOIST",
+      "from_id": "AU-HA-PLASTERBOARD-CEILING-SHEET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TF-CEILING-JOIST",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4808-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY-COMMONLY-USED-WITH-AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4812-HA-SANITARY-DOOR-REMOVABLE-HINGE-PIN-COMMONLY-USED-WITH-AU-ID-LOOSE-PIN-BUTT-HINGE",
+      "from_id": "AU-HA-SANITARY-DOOR-REMOVABLE-HINGE-PIN",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-LOOSE-PIN-BUTT-HINGE",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4814-HA-SANITARY-LATCH-EXTERNAL-RELEASE-COMMONLY-USED-WITH-AU-ID-PRIVACY-LATCHSET",
+      "from_id": "AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-PRIVACY-LATCHSET",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4815-HA-SANITARY-LATCH-EXTERNAL-RELEASE-COMMONLY-USED-WITH-AU-ID-PRIVACY-TURN",
+      "from_id": "AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-PRIVACY-TURN",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4843-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY-COMMONLY-USED-WITH-AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

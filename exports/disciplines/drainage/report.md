@@ -1,0 +1,177 @@
+# Drainage discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 128
+- Internal relationships: 259
+- Outgoing cross-discipline relationships: 0
+- Distinct supporting sources: 12
+- Distinct linked standards: 11
+- Average overall confidence: 88.6%
+- Objects with a Tier 1 source: 94.5%
+- Objects with two or more sources: 44.5%
+
+## Categories
+
+- awts components: 7
+- awts disinfection: 3
+- awts effluent handling: 2
+- buried drain installation: 7
+- composting toilet components: 7
+- composting toilet systems: 1
+- dwv access and testing: 3
+- dwv pipe supports: 4
+- dwv pipes and fittings: 8
+- effluent dosing: 4
+- effluent irrigation: 8
+- effluent land application: 1
+- fixture traps: 8
+- greywater systems: 3
+- onsite controls: 3
+- onsite tank access: 2
+- onsite wastewater assemblies: 1
+- primary wastewater treatment: 2
+- pumped sanitary drainage: 9
+- sanitary drainage access: 6
+- sanitary drainage assemblies: 1
+- sanitary drainage gullies: 4
+- sanitary drains: 4
+- sanitary plumbing assemblies: 1
+- sanitary plumbing pipework: 5
+- sanitary ventilation: 10
+- secondary wastewater treatment: 2
+- septic tank components: 7
+- soil absorption systems: 5
+
+## Objects
+
+- **AWTS aeration chamber** (`AU-DR-AWTS-AERATION-CHAMBER`) — A treatment-tank compartment where air and wastewater contact active biological growth on suspended solids or media.
+- **AWTS air blower** (`AU-DR-AWTS-AIR-BLOWER`) — An electrically driven air pump supplying continuous or controlled low-pressure air to treatment diffusers or airlift devices.
+- **AWTS air diffuser** (`AU-DR-AWTS-AIR-DIFFUSER`) — A perforated, porous or membrane device submerged in the aeration chamber to divide supplied air into bubbles and distribute it through the wastewater.
+- **AWTS air-distribution manifold** (`AU-DR-AWTS-AIR-MANIFOLD`) — A network of air pipes, valves and branches distributing blower air to diffusers, airlifts or separate treatment zones.
+- **AWTS biological treatment media** (`AU-DR-AWTS-BIOLOGICAL-MEDIA`) — A fixed, suspended or moving high-surface-area material inside a treatment chamber on which biological growth can develop.
+- **AWTS chlorine dosing unit** (`AU-DR-AWTS-CHLORINATOR`) — A tablet feeder, liquid dosing pump or other controlled device introducing an approved chlorine disinfectant into treated effluent.
+- **AWTS clarification chamber** (`AU-DR-AWTS-CLARIFIER`) — A quiet downstream chamber or hopper where biological solids settle from aerated wastewater before clarified liquid moves to disinfection or storage.
+- **AWTS effluent-disinfection assembly** (`AU-DR-AWTS-DISINFECTION-ASSEMBLY`) — The chlorination, ultraviolet or other certified physical equipment treating secondary effluent before a land-application or reuse pathway that requires disinfection.
+- **AWTS sludge-return airlift** (`AU-DR-AWTS-SLUDGE-RETURN-AIRLIFT`) — A vertical pipe and air-injection device using rising bubbles to lift settled sludge from a clarifier back to an upstream treatment chamber.
+- **AWTS ultraviolet disinfection unit** (`AU-DR-AWTS-UV-DISINFECTION-UNIT`) — An enclosed flow chamber containing an ultraviolet lamp and protective sleeve that irradiates clarified effluent as it passes through.
+- **DWV bend** (`AU-DR-DWV-BEND`) — A curved drain, waste or vent fitting changing pipe direction through a selected angle and sweep radius.
+- **DWV coupling** (`AU-DR-DWV-COUPLING`) — A straight socket, slip, rubber-ring or mechanical fitting joining two aligned DWV pipe ends of the same or nominated compatible size.
+- **DWV end cap** (`AU-DR-DWV-END-CAP`) — A permanently jointed or removable fitting closing the end of a DWV pipe or unused branch while maintaining the sanitary seal.
+- **DWV expansion joint** (`AU-DR-DWV-EXPANSION-JOINT`) — A telescoping or sleeved fitting allowing controlled axial movement in a DWV pipe run while maintaining its seal.
+- **DWV inspection fitting** (`AU-DR-DWV-INSPECTION-FITTING`) — A bend, tee, junction or short pipe fitting with a removable sealed cap positioned to permit inspection, cleaning or testing of sanitary pipework.
+- **DWV junction** (`AU-DR-DWV-JUNCTION`) — A swept branch fitting joining a smaller or equal drain or discharge pipe into a continuing pipe in the intended direction of flow.
+- **DWV reducer** (`AU-DR-DWV-REDUCER`) — A fitting connecting two different DWV pipe sizes while preserving the selected alignment of the invert, crown or centreline.
+- **DWV tee** (`AU-DR-DWV-TEE`) — A three-way DWV fitting with a side branch generally square to the main barrel, shaped for a selected ventilation or vertical-discharge connection.
+- **P-trap** (`AU-DR-P-TRAP`) — A fixture trap whose outlet leaves generally horizontally after the water-seal bend, commonly used where the discharge enters a wall or horizontal branch.
+- **PVC-U DWV pipe** (`AU-DR-PVCU-DWV-PIPE`) — Rigid unplasticised polyvinyl-chloride pipe made as a compatible drain, waste and vent system with solvent-cement or rubber-ring joints according to its application.
+- **S-trap** (`AU-DR-S-TRAP`) — A fixture trap whose outlet turns down after the water-seal bend, commonly used where discharge passes through the floor.
+- **absorption-trench aggregate** (`AU-DR-ABSORPTION-TRENCH-AGGREGATE`) — Clean durable coarse aggregate surrounding and supporting an effluent distribution pipe while creating liquid storage voids and exposed soil-contact area.
+- **absorption-trench arch chamber** (`AU-DR-ABSORPTION-TRENCH-ARCH`) — A repeated open-bottom polymer or concrete chamber creating a protected effluent-distribution void above the trench infiltrative surface without a full aggregate surround.
+- **absorption-trench distribution pipe** (`AU-DR-TRENCH-DISTRIBUTION-PIPE`) — A perforated or open-jointed pipe distributing effluent along an absorption trench or bed rather than carrying it as a sealed through-flow drain.
+- **absorption-trench geotextile cover** (`AU-DR-ABSORPTION-TRENCH-GEOTEXTILE`) — A permeable fabric placed over trench aggregate or selected chamber construction to keep cover soil from migrating into distribution voids.
+- **aerated wastewater treatment system** (`AU-DR-AERATED-WASTEWATER-TREATMENT-SYSTEM`) — A packaged secondary-treatment system that supplies air to biological treatment chambers and normally includes settlement, aeration, clarification, disinfection, pumping and controls.
+- **air-admittance valve** (`AU-DR-AIR-ADMITTANCE-VALVE`) — A one-way mechanical valve that opens under negative pressure to admit air into sanitary pipework and closes to contain foul air.
+- **bottle trap** (`AU-DR-BOTTLE-TRAP`) — A compact vessel-shaped fixture trap with an internal partition or tube creating a water seal and a removable lower body for cleaning.
+- **boundary trap** (`AU-DR-BOUNDARY-TRAP`) — A deep-seal trap near the property sewer boundary that separates the property drain air space from the sewer air space while allowing wastewater to pass.
+- **branch discharge pipe** (`AU-DR-BRANCH-DISCHARGE-PIPE`) — A usually graded sanitary-plumbing pipe receiving discharge from two or more fixture discharge pipes before joining a stack or sanitary drain.
+- **branch drain** (`AU-DR-BRANCH-DRAIN`) — A graded sanitary drain receiving one or more plumbing connections or smaller drains before joining the main drain.
+- **branch vent pipe** (`AU-DR-BRANCH-VENT-PIPE`) — A vent pipe connected to a fixture discharge or branch discharge pipe to protect one or more traps from pressure changes.
+- **common vent** (`AU-DR-COMMON-VENT`) — A vent arrangement serving two nearby fixture traps or discharge connections through a shared vent path.
+- **composting-chamber access hatch** (`AU-DR-COMPOSTING-CHAMBER-ACCESS-HATCH`) — A sealed removable or hinged panel providing service access to composting material, trays, mechanisms and chamber cleaning zones.
+- **composting-toilet drop chute** (`AU-DR-COMPOSTING-TOILET-CHUTE`) — A large smooth-walled vertical or sloping passage connecting a remote composting-toilet pedestal to its treatment chamber.
+- **composting-toilet leachate drain** (`AU-DR-COMPOSTING-TOILET-LEACHATE-DRAIN`) — A small pipe, sump or evaporative connection collecting excess liquid from the bottom of a composting chamber and conveying it to the approved treatment or disposal point.
+- **composting-toilet pedestal** (`AU-DR-COMPOSTING-TOILET-PEDESTAL`) — The user-facing seat, lid and dry bowl or opening that directs excreta into the composting system without a conventional flush trap.
+- **composting-toilet treatment chamber** (`AU-DR-COMPOSTING-CHAMBER`) — A sealed and ventilated vessel or vault holding excreta and bulking material while biological decomposition, storage or dehydration occurs.
+- **composting-toilet vent fan** (`AU-DR-COMPOSTING-TOILET-VENT-FAN`) — A small continuous or controlled extraction fan fitted to the composting-toilet vent to maintain airflow from room or chamber to outdoors.
+- **composting-toilet vent system** (`AU-DR-COMPOSTING-TOILET-VENT`) — A dedicated vent pipe, terminal and optional fan drawing air from the compost chamber to outdoors to control moisture and odour.
+- **disconnector gully** (`AU-DR-DISCONNECTOR-GULLY`) — A trapped drainage fitting with an open or grated inlet that disconnects selected waste discharges from the drain air path and can receive permitted surface discharge.
+- **drain access-shaft cover** (`AU-DR-ACCESS-SHAFT-COVER`) — A removable sealed lid and frame closing an inspection shaft, maintenance shaft or drain access riser at the finished surface.
+- **drain access-shaft riser** (`AU-DR-ACCESS-SHAFT-RISER`) — The vertical shaft tube extending an inspection or terminal-maintenance base to the accessible cover level.
+- **drain inspection opening** (`AU-DR-DRAIN-INSPECTION-OPENING`) — A sealed removable access point connected directly to a sanitary drain so cleaning or inspection equipment can enter the pipe.
+- **drain inspection shaft** (`AU-DR-INSPECTION-SHAFT-ASSEMBLY`) — A vertical access shaft connected through a swept base to a sanitary drain, allowing inspection and maintenance from ground level without person entry.
+- **drain test plug** (`AU-DR-DRAIN-TEST-PLUG`) — A removable mechanical, pneumatic or screw plug temporarily sealing a sanitary pipe opening so a defined pipe section can be tested or protected during construction.
+- **drain-waste-vent pipe** (`AU-DR-DWV-PIPE`) — A pipe selected for gravity sanitary discharge or ventilation rather than for pressurised water supply.
+- **effluent absorption trench** (`AU-DR-EFFLUENT-ABSORPTION-TRENCH`) — A shallow excavated trench containing distribution pipe and aggregate or a proprietary arch, where primary or secondary effluent is spread into the surrounding soil.
+- **effluent distribution box** (`AU-DR-EFFLUENT-DISTRIBUTION-BOX`) — A level chamber dividing gravity effluent from one inlet among two or more outlet pipes leading to parallel trenches or beds.
+- **effluent dosing pump** (`AU-DR-EFFLUENT-DOSING-PUMP`) — A pump delivering measured or timed batches of treated effluent from a dosing tank to a pressure distribution or irrigation network.
+- **effluent dosing siphon** (`AU-DR-EFFLUENT-DOSING-SIPHON`) — A hydraulic siphon that automatically releases a stored tank volume as a rapid gravity dose when liquid reaches its priming level.
+- **effluent dosing tank** (`AU-DR-EFFLUENT-DOSING-TANK`) — A vessel storing a measured volume of effluent between doses so a trench, bed or irrigation zone receives intermittent rather than continuous flow.
+- **effluent dripper line** (`AU-DR-EFFLUENT-DRIPPER-LINE`) — A small polyethylene lateral containing repeated pressure-compensating or selected emitters that release treated effluent into soil along its buried length.
+- **effluent irrigation filter** (`AU-DR-EFFLUENT-IRRIGATION-FILTER`) — A serviceable screen or disc filter removing particles from treated effluent before small emitters and dripper passages.
+- **effluent irrigation flush point** (`AU-DR-EFFLUENT-IRRIGATION-FLUSH-POINT`) — A capped or valved accessible endpoint used to flush accumulated sediment and biological material from dripper laterals or manifolds.
+- **effluent irrigation valve box** (`AU-DR-EFFLUENT-VALVE-BOX`) — A shallow buried enclosure with a removable lid protecting effluent valves, filters, manifolds or flush fittings while keeping them accessible from the surface.
+- **effluent irrigation zone valve** (`AU-DR-EFFLUENT-IRRIGATION-ZONE-VALVE`) — A manual or actuated valve directing filtered treated effluent to one land-application zone while isolating others.
+- **effluent land-application system** (`AU-DR-EFFLUENT-LAND-APPLICATION-SYSTEM`) — The dosing, distribution and soil-contact components that apply primary- or secondary-treated effluent over an approved area at the selected hydraulic and nutrient loading.
+- **fixture discharge pipe** (`AU-DR-FIXTURE-DISCHARGE-PIPE`) — A pipe carrying wastewater from one fixture trap or appliance outlet to a branch, stack or sanitary drain.
+- **fixture trap assembly** (`AU-DR-FIXTURE-TRAP-ASSEMBLY`) — A shaped fitting or integral fixture passage that retains a water seal between a fixture outlet and sanitary pipework while allowing wastewater to discharge.
+- **graded sanitary drain** (`AU-DR-GRADED-SANITARY-DRAIN`) — A below-ground or under-building pipe laid to a continuous fall so wastewater travels by gravity toward sewer or onsite treatment.
+- **greywater diversion assembly** (`AU-DR-GREYWATER-DIVERSION-ASSEMBLY`) — A selectable valve and pipe arrangement diverting untreated greywater from nominated fixtures either to an approved immediate-use application point or back to sanitary drainage.
+- **greywater surge tank** (`AU-DR-GREYWATER-SURGE-TANK`) — A small collection vessel buffering short fixture discharges before greywater treatment, diversion or pumping while retaining a sanitary overflow path.
+- **greywater treatment system** (`AU-DR-GREYWATER-TREATMENT-SYSTEM`) — A certified collection, treatment, disinfection, storage and pumping arrangement producing treated greywater for its approved reuse or land-application purpose.
+- **header vent** (`AU-DR-HEADER-VENT`) — A vent pipe joining two or more stack vents or vent stacks before one combined outdoor terminal.
+- **integral fixture trap** (`AU-DR-INTEGRAL-FIXTURE-TRAP`) — A water-seal passage formed as part of a fixture body rather than installed as a separate detachable fitting.
+- **main sanitary drain** (`AU-DR-MAIN-DRAIN`) — The principal property drain receiving branch drains and carrying their combined wastewater to the sewer connection or onsite wastewater system.
+- **onsite wastewater control panel** (`AU-DR-WASTEWATER-CONTROL-PANEL`) — An electrical enclosure containing relays, timers, protection and user controls for wastewater pumps, blowers, dosing, disinfection and alarms.
+- **onsite wastewater fault alarm** (`AU-DR-WASTEWATER-FAULT-ALARM`) — An audible, visible or remote warning device reporting high liquid level, pump, blower, disinfection or control failure in an onsite wastewater system.
+- **onsite wastewater management system** (`AU-DR-ONSITE-WASTEWATER-MANAGEMENT-SYSTEM`) — The connected tanks, treatment equipment, pumps, controls and land-application components that receive household wastewater where it is treated and managed on the property rather than discharged directly to a sewer.
+- **overflow relief gully** (`AU-DR-OVERFLOW-RELIEF-GULLY`) — A trapped and open drainage fitting set to provide a controlled external overflow point if the downstream sanitary drain or sewer surcharges.
+- **primary wastewater treatment system** (`AU-DR-PRIMARY-WASTEWATER-TREATMENT-SYSTEM`) — A tank-based system that settles heavier solids, retains floating material and anaerobically digests part of the wastewater before effluent moves to further treatment or land application.
+- **property sewer connection** (`AU-DR-PROPERTY-SEWER-CONNECTION`) — The physical fitting, shaft or nominated pipe interface where the property sanitary drain joins the sewerage network.
+- **pumped sanitary drainage system** (`AU-DR-PUMPED-SANITARY-DRAINAGE-SYSTEM`) — A collection well, sewage pump, controls, valves and rising main that lift wastewater from fixtures or drains too low to discharge by gravity to the available downstream drain.
+- **relief vent** (`AU-DR-RELIEF-VENT`) — A vent connection installed to relieve pressure in a discharge stack, branch or drain at a selected location in addition to the main vent route.
+- **rodding point** (`AU-DR-RODDING-POINT`) — A small accessible capped fitting arranged to guide a drain-cleaning rod into a sanitary drain in the useful direction.
+- **sanitary backwater valve** (`AU-DR-BACKWATER-VALVE`) — A normally open drainage valve whose flap or gate closes against reverse flow from a surcharged sewer or downstream drain.
+- **sanitary drain bedding** (`AU-DR-DRAIN-BEDDING`) — Selected granular or controlled material placed and shaped below a buried sanitary pipe to give continuous, graded support without hard points.
+- **sanitary drain concrete encasement** (`AU-DR-DRAIN-CONCRETE-ENCASEMENT`) — A designed concrete surround or cradle protecting or structurally supporting a sanitary drain where cover, loading, ground movement or adjacent construction requires it.
+- **sanitary drain flexible joint** (`AU-DR-DRAIN-FLEXIBLE-JOINT`) — A sealed joint permitting limited angular, axial or shear movement where a sanitary drain crosses between foundations, ground zones or structures likely to move differently.
+- **sanitary drain overlay** (`AU-DR-DRAIN-OVERLAY`) — Selected protective embedment placed above a buried sanitary drain before ordinary trench backfill is introduced.
+- **sanitary drain side-support embedment** (`AU-DR-DRAIN-SIDE-SUPPORT`) — Selected embedment placed and compacted beside a buried flexible drain pipe to support its haunches and help the pipe-soil system resist external load.
+- **sanitary drain trench** (`AU-DR-DRAIN-TRENCH`) — The excavated linear space providing the route, working room and designed depth for a buried sanitary drain and its embedment.
+- **sanitary drain trench backfill** (`AU-DR-DRAIN-TRENCH-BACKFILL`) — Material replacing the remainder of the drain trench above the protective overlay and compacted to support the reinstated surface.
+- **sanitary drainage system** (`AU-DR-SANITARY-DRAINAGE-SYSTEM`) — The graded drains, junctions, gullies, traps, inspection points and any pumping equipment that carry wastewater from the sanitary-plumbing boundary to a sewer connection or onsite wastewater system.
+- **sanitary pipe clip** (`AU-DR-PIPE-CLIP`) — A ring, saddle or snap clip fixing a sanitary discharge or vent pipe to the building while allowing the selected restraint or movement.
+- **sanitary pipe hanger assembly** (`AU-DR-PIPE-HANGER-ASSEMBLY`) — A rod, bracket, channel and clamp arrangement suspending a horizontal sanitary pipe below a floor, roof or support frame.
+- **sanitary pipe penetration sleeve** (`AU-DR-PIPE-PENETRATION-SLEEVE`) — A short larger sleeve or formed opening liner separating a sanitary pipe from concrete, masonry or framing at a penetration and preserving the selected movement and sealing zone.
+- **sanitary plumbing system** (`AU-DR-SANITARY-PLUMBING-SYSTEM`) — The traps, fixture discharge pipes, branches, stacks and vents that carry wastewater from fixtures to the point where sanitary drainage begins while protecting occupied spaces from sewer gases.
+- **sanitary rising main** (`AU-DR-SANITARY-RISING-MAIN`) — A pressure-rated pipe carrying pumped wastewater from a sewage pump to a downstream point where gravity sanitary drainage resumes.
+- **sanitary stack** (`AU-DR-SANITARY-STACK`) — A substantially vertical discharge pipe receiving wastewater from branch or fixture discharge pipes on one or more levels.
+- **sanitary stack clamp** (`AU-DR-STACK-CLAMP`) — A loadbearing clamp or bracket around a vertical sanitary stack that transfers pipe weight and restrains movement at selected levels.
+- **sanitary vent roof flashing** (`AU-DR-VENT-ROOF-FLASHING`) — A shaped roof flashing and flexible or formed collar sealing the weatherproof junction around a sanitary vent pipe through the roof.
+- **sanitary vent terminal cowl** (`AU-DR-VENT-TERMINAL-COWL`) — A weather-resistant terminal fitting at the open end of a sanitary vent that keeps the airway open while discouraging debris, animals or direct rain entry.
+- **sanitary ventilation system** (`AU-DR-SANITARY-VENT-SYSTEM`) — The connected vent pipes, vented stack portions, air-admittance devices and terminals that move air through sanitary plumbing and drainage to protect trap seals and discharge flow.
+- **sanitary-stack base assembly** (`AU-DR-STACK-BASE-ASSEMBLY`) — The bottom bend, junction, access fitting and support arrangement that changes stack flow from vertical to the graded drain.
+- **sanitary-stack offset assembly** (`AU-DR-STACK-OFFSET-ASSEMBLY`) — A pair of bends and connecting pipe shifting a sanitary stack sideways around structure or services while preserving its discharge and ventilation function.
+- **secondary wastewater treatment system** (`AU-DR-SECONDARY-WASTEWATER-TREATMENT-SYSTEM`) — A coordinated treatment plant that follows or includes primary settlement and uses biological, filtration or other processes to produce effluent of a verified higher quality before disposal or reuse.
+- **septic tank assembly** (`AU-DR-SEPTIC-TANK-ASSEMBLY`) — A watertight one- or multi-chamber vessel with inlet, outlet, baffles and access openings that settles solids and stores sludge while primary-treated effluent flows onward.
+- **septic-tank chamber partition** (`AU-DR-SEPTIC-CHAMBER-PARTITION`) — A sealed internal wall with a controlled transfer opening separating septic-tank chambers while allowing liquid to move downstream.
+- **septic-tank effluent filter** (`AU-DR-SEPTIC-EFFLUENT-FILTER`) — A removable screened cartridge at the septic outlet that retains larger suspended solids before primary effluent enters downstream treatment or land application.
+- **septic-tank inlet tee** (`AU-DR-SEPTIC-INLET-TEE`) — A tee or baffle fitting at the septic inlet that turns incoming wastewater down below the liquid surface and keeps the inlet clear of floating scum.
+- **septic-tank outlet tee** (`AU-DR-SEPTIC-OUTLET-TEE`) — A tee or baffle at the septic outlet drawing effluent from below the scum layer while leaving the upper arm open to tank headspace.
+- **septic-tank primary chamber** (`AU-DR-SEPTIC-PRIMARY-CHAMBER`) — The first and usually largest internal tank compartment receiving raw wastewater and holding most settled sludge and floating scum.
+- **septic-tank secondary chamber** (`AU-DR-SEPTIC-SECONDARY-CHAMBER`) — A downstream septic-tank compartment providing further settling and a quieter outlet zone before primary effluent leaves the tank.
+- **septic-tank shell** (`AU-DR-SEPTIC-TANK-SHELL`) — The watertight structural floor, walls and roof forming the main septic-tank vessel and supporting its penetrations and covers.
+- **sewage collection well** (`AU-DR-SEWAGE-COLLECTION-WELL`) — A sealed vessel receiving gravity sanitary discharge and temporarily storing it between sewage-pump operating cycles.
+- **sewage collection-well lid** (`AU-DR-SEWAGE-WELL-LID`) — A removable sealed cover closing a sewage collection well while providing controlled penetrations and pump-maintenance access.
+- **sewage ejector pump** (`AU-DR-SEWAGE-EJECTOR-PUMP`) — A submersible or dry-mounted pump designed to move wastewater and expected solids from a collection well into a sanitary rising main.
+- **sewage high-level alarm** (`AU-DR-SEWAGE-HIGH-LEVEL-ALARM`) — An audible, visible or remotely signalled alarm activated when a sewage collection well rises above its normal pumping range.
+- **sewage-pump isolation valve** (`AU-DR-SEWAGE-PUMP-ISOLATION-VALVE`) — A full-bore valve used to isolate a sewage pump, non-return valve or rising main for maintenance without relying on the pump check valve.
+- **sewage-pump level switch** (`AU-DR-SEWAGE-PUMP-LEVEL-SWITCH`) — A float, pressure, ultrasonic or other sensor detecting wastewater levels to start, stop or alarm the sewage pump system.
+- **sewage-pump non-return valve** (`AU-DR-SEWAGE-PUMP-NONRETURN-VALVE`) — A valve in a sanitary rising main that opens for pumped flow and closes to limit drain-back into the collection well after the pump stops.
+- **stack vent** (`AU-DR-STACK-VENT`) — The upper continuation of a sanitary discharge stack above its highest discharge connection, used as part of the ventilation path.
+- **subsurface effluent irrigation system** (`AU-DR-SUBSURFACE-EFFLUENT-IRRIGATION-SYSTEM`) — A filtered and pressure-controlled network of shallow buried dripper lines applying treated effluent into the root zone across defined irrigation zones.
+- **surface effluent irrigation system** (`AU-DR-SURFACE-EFFLUENT-IRRIGATION-SYSTEM`) — A filtered, pumped and zoned pipe network applying suitably treated and disinfected effluent above the ground through sprays or sprinklers over an approved restricted area.
+- **terminal maintenance shaft** (`AU-DR-TERMINAL-MAINTENANCE-SHAFT`) — A proprietary non-entry shaft at a terminal or selected drainage position that gives surface access for inspection, cleaning and maintenance of connected drains.
+- **trap-primer assembly** (`AU-DR-TRAP-PRIMER-ASSEMBLY`) — A valve or controlled water source and small pipe that periodically delivers water to a floor-waste or other infrequently used trap to replace evaporation losses.
+- **trap-primer line** (`AU-DR-TRAP-PRIMER-LINE`) — The small pipe carrying metered priming water from a trap-primer device to the receiving trap.
+- **trap-primer valve** (`AU-DR-TRAP-PRIMER-VALVE`) — A mechanical, pressure-operated, electronic or fixture-activated valve metering water into a trap-primer line.
+- **treated-effluent pump** (`AU-DR-TREATED-EFFLUENT-PUMP`) — A submersible or dry-mounted pump moving treated wastewater from the plant to a pressure-dosed trench or irrigation network.
+- **treated-effluent pump chamber** (`AU-DR-TREATED-EFFLUENT-PUMP-CHAMBER`) — A final treatment-plant compartment storing treated effluent between pump cycles and holding the irrigation or land-application pump and level controls.
+- **treated-effluent sample point** (`AU-DR-TREATED-EFFLUENT-SAMPLE-POINT`) — An accessible tap, port or small chamber from which representative treated effluent can be collected without entering a treatment tank.
+- **treated-effluent sprinkler** (`AU-DR-EFFLUENT-SPRINKLER`) — A fixed, pop-up or raised emitter discharging treated effluent through one or more nozzles over a defined surface irrigation pattern.
+- **vent stack** (`AU-DR-VENT-STACK`) — A substantially vertical vent-only pipe receiving branch vents and connecting them to an outdoor vent terminal or another permitted vent path.
+- **wastewater-tank access lid** (`AU-DR-WASTEWATER-TANK-ACCESS-LID`) — A removable secured cover closing a wastewater tank or access riser while preventing accidental entry, odour release and surface-water inflow.
+- **wastewater-tank access riser** (`AU-DR-WASTEWATER-TANK-ACCESS-RISER`) — A sealed vertical neck extending a buried wastewater-tank opening to the finished surface so inspection, servicing or desludging can occur without excavation.
+- **waterless composting toilet system** (`AU-DR-WATERLESS-COMPOSTING-TOILET-SYSTEM`) — A toilet pedestal, chute or direct drop, composting chamber, ventilation and liquid-management components that collect and biologically stabilise human excreta without a normal flushing-water discharge.

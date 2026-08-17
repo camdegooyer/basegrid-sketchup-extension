@@ -1,0 +1,3701 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "thermal_condensation",
+  "relationships": [
+    {
+      "id": "REL-7922-TC-ACCESS-HATCH-WEATHERSEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-ACCESS-HATCH-WEATHERSEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7923-TC-AIR-BARRIER-MEMBRANE-IS-A-AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "from_id": "AU-TC-AIR-BARRIER-MEMBRANE",
+      "relationship": "is_a",
+      "to_id": "AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7924-TC-AIR-BARRIER-MEMBRANE-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-AIR-BARRIER-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7925-TC-AIR-BARRIER-MEMBRANE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-AIR-BARRIER-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7926-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-ACCESS-HATCH-WEATHERSEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ACCESS-HATCH-WEATHERSEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7927-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-AIR-BARRIER-MEMBRANE",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-AIR-BARRIER-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7928-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-ARCHITRAVE-AIR-SEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ARCHITRAVE-AIR-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7929-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-AUTOMATIC-DROP-DOOR-SEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-AUTOMATIC-DROP-DOOR-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7930-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-BRUSH-AIR-SEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-BRUSH-AIR-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7931-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-CHIMNEY-FLUE-DAMPER",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-CHIMNEY-FLUE-DAMPER",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7932-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-CLOSE-FITTING-LINING-JOINT",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-CLOSE-FITTING-LINING-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7933-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-COMPRESSIBLE-AIR-SEAL-STRIP",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-COMPRESSIBLE-AIR-SEAL-STRIP",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7934-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-CORNICE-AIR-SEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-CORNICE-AIR-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7935-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-DOOR-BOTTOM-SWEEP",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-DOOR-BOTTOM-SWEEP",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7936-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-DOOR-THRESHOLD-SEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-DOOR-THRESHOLD-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7937-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-ELECTRICAL-OUTLET-AIR-GASKET",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ELECTRICAL-OUTLET-AIR-GASKET",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7938-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-ENVELOPE-JOINT-SEALANT",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ENVELOPE-JOINT-SEALANT",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7939-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-EVAPORATIVE-COOLER-DAMPER",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-EVAPORATIVE-COOLER-DAMPER",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7940-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-EXHAUST-FAN-BACKDRAFT-DAMPER",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-EXHAUST-FAN-BACKDRAFT-DAMPER",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7941-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-EXPANDING-FOAM-AIR-SEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-EXPANDING-FOAM-AIR-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7942-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-FIBROUS-AIR-SEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-FIBROUS-AIR-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7943-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-INTERNAL-LINING-AIR-BARRIER",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-INTERNAL-LINING-AIR-BARRIER",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7944-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7945-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-ROOFLIGHT-CEILING-DIFFUSER",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOFLIGHT-CEILING-DIFFUSER",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7946-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-ROOFLIGHT-SHUTTER",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOFLIGHT-SHUTTER",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7947-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-ROOFLIGHT-WEATHERSEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOFLIGHT-WEATHERSEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7948-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-SERVICE-PENETRATION-AIR-SEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SERVICE-PENETRATION-AIR-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7949-TC-AIR-SEALING-SYSTEM-HAS-PART-AU-TC-SKIRTING-AIR-SEAL",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SKIRTING-AIR-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7950-TC-AIR-SEALING-SYSTEM-PART-OF-AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "from_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7952-TC-ARCHITRAVE-AIR-SEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-ARCHITRAVE-AIR-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7953-TC-AUTOMATIC-DROP-DOOR-SEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-AUTOMATIC-DROP-DOOR-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7954-TC-BLOWN-IN-INSULATION-LAYER-IS-A-AU-TC-LOOSE-FILL-INSULATION",
+      "from_id": "AU-TC-BLOWN-IN-INSULATION-LAYER",
+      "relationship": "is_a",
+      "to_id": "AU-TC-LOOSE-FILL-INSULATION",
+      "source_ids": [
+        "SRC-KNAUF-AU-INSULATION-RANGE",
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7955-TC-BRUSH-AIR-SEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-BRUSH-AIR-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7956-TC-BULK-INSULATION-IS-A-AU-TC-THERMAL-INSULATION-PRODUCT",
+      "from_id": "AU-TC-BULK-INSULATION",
+      "relationship": "is_a",
+      "to_id": "AU-TC-THERMAL-INSULATION-PRODUCT",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7957-TC-CATHEDRAL-SKILLION-ROOF-INSULATION-IS-A-AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-CATHEDRAL-SKILLION-ROOF-INSULATION",
+      "relationship": "is_a",
+      "to_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7958-TC-CEILING-EXHAUST-FAN-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-CEILING-EXHAUST-FAN",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7959-TC-CEILING-INSULATION-LAYER-PART-OF-AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-CEILING-INSULATION-LAYER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7960-TC-CELLULOSE-FIBRE-INSULATION-IS-A-AU-TC-BULK-INSULATION",
+      "from_id": "AU-TC-CELLULOSE-FIBRE-INSULATION",
+      "relationship": "is_a",
+      "to_id": "AU-TC-BULK-INSULATION",
+      "source_ids": [
+        "SRC-SA-AS-3999-2015",
+        "SRC-SA-AS-NZS-4859-1-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7962-TC-CHIMNEY-FLUE-DAMPER-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-CHIMNEY-FLUE-DAMPER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7963-TC-CLOSE-FITTING-LINING-JOINT-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-CLOSE-FITTING-LINING-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7964-TC-COMPRESSIBLE-AIR-SEAL-STRIP-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-COMPRESSIBLE-AIR-SEAL-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7965-TC-CONTINUOUS-INSULATION-FASTENER-PART-OF-AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-CONTINUOUS-INSULATION-FASTENER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7966-TC-CONTINUOUS-INSULATION-LAYER-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-CONTINUOUS-INSULATION-LAYER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7967-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY-HAS-PART-AU-TC-CONTINUOUS-INSULATION-FASTENER",
+      "from_id": "AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-CONTINUOUS-INSULATION-FASTENER",
+      "source_ids": [
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7968-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY-HAS-PART-AU-TC-THERMAL-SPACER-BATTEN",
+      "from_id": "AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-THERMAL-SPACER-BATTEN",
+      "source_ids": [
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7969-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY-HAS-PART-AU-TC-THERMALLY-BROKEN-BRACKET",
+      "from_id": "AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-THERMALLY-BROKEN-BRACKET",
+      "source_ids": [
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7970-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY-PART-OF-AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7972-TC-CORNICE-AIR-SEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-CORNICE-AIR-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7973-TC-DOMESTIC-EXHAUST-DUCT-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-DOMESTIC-EXHAUST-DUCT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7974-TC-DOMESTIC-EXHAUST-DUCT-FITTING-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-DOMESTIC-EXHAUST-DUCT-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7975-TC-DOOR-BOTTOM-SWEEP-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-DOOR-BOTTOM-SWEEP",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7978-TC-DOOR-THRESHOLD-SEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-DOOR-THRESHOLD-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7979-TC-DOOR-UNDERCUT-MAKEUP-AIR-IS-A-AU-TC-MAKEUP-AIR-OPENING",
+      "from_id": "AU-TC-DOOR-UNDERCUT-MAKEUP-AIR",
+      "relationship": "is_a",
+      "to_id": "AU-TC-MAKEUP-AIR-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7980-TC-DOOR-UNDERCUT-MAKEUP-AIR-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-DOOR-UNDERCUT-MAKEUP-AIR",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7981-TC-DOUBLE-LEAF-SUBFLOOR-VENT-PASSAGE-PART-OF-AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-DOUBLE-LEAF-SUBFLOOR-VENT-PASSAGE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7982-TC-DOUBLE-SIDED-MEMBRANE-TAPE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-DOUBLE-SIDED-MEMBRANE-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7983-TC-EAVE-VENT-IS-A-AU-TC-ROOF-VENTILATION-OPENING",
+      "from_id": "AU-TC-EAVE-VENT",
+      "relationship": "is_a",
+      "to_id": "AU-TC-ROOF-VENTILATION-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7984-TC-EAVE-VENT-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-EAVE-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7985-TC-EAVES-INSULATION-STOP-PART-OF-AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-EAVES-INSULATION-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7986-TC-EAVES-INSULATION-STOP-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-EAVES-INSULATION-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7987-TC-ELECTRICAL-OUTLET-AIR-GASKET-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-ELECTRICAL-OUTLET-AIR-GASKET",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7988-TC-ENVELOPE-JOINT-SEALANT-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-ENVELOPE-JOINT-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7989-TC-EPS-INSULATION-BOARD-IS-A-AU-TC-RIGID-INSULATION-BOARD",
+      "from_id": "AU-TC-EPS-INSULATION-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-TC-RIGID-INSULATION-BOARD",
+      "source_ids": [
+        "SRC-SA-AS-NZS-4859-1-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7993-TC-EVAPORATIVE-COOLER-DAMPER-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-EVAPORATIVE-COOLER-DAMPER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7994-TC-EXHAUST-FAN-BACKDRAFT-DAMPER-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-EXHAUST-FAN-BACKDRAFT-DAMPER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7995-TC-EXHAUST-FAN-BACKDRAFT-DAMPER-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-EXHAUST-FAN-BACKDRAFT-DAMPER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7996-TC-EXHAUST-LIGHT-SWITCH-INTERLOCK-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-EXHAUST-LIGHT-SWITCH-INTERLOCK",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7997-TC-EXHAUST-RUN-ON-TIMER-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-EXHAUST-RUN-ON-TIMER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7998-TC-EXPANDING-FOAM-AIR-SEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-EXPANDING-FOAM-AIR-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7999-TC-EXTERNAL-SUBFLOOR-VENT-OPENING-PART-OF-AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-EXTERNAL-SUBFLOOR-VENT-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8000-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY-HAS-PART-AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8001-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY-HAS-PART-AU-TC-FRAMED-WALL-CAVITY-INSULATION",
+      "from_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-FRAMED-WALL-CAVITY-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8002-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY-HAS-PART-AU-TC-MASONRY-CAVITY-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-MASONRY-CAVITY-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8003-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY-HAS-PART-AU-TC-OPENING-PERIMETER-INSULATION",
+      "from_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-OPENING-PERIMETER-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8004-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY-HAS-PART-AU-TC-WALL-THERMAL-BREAK-STRIP",
+      "from_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-WALL-THERMAL-BREAK-STRIP",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8005-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8006-TC-FASCIA-VENT-IS-A-AU-TC-ROOF-VENTILATION-OPENING",
+      "from_id": "AU-TC-FASCIA-VENT",
+      "relationship": "is_a",
+      "to_id": "AU-TC-ROOF-VENTILATION-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8007-TC-FASCIA-VENT-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-FASCIA-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8008-TC-FIBROUS-AIR-SEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-FIBROUS-AIR-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8009-TC-FLOOR-THERMAL-BREAK-LAYER-IS-A-AU-TC-CONTINUOUS-INSULATION-LAYER",
+      "from_id": "AU-TC-FLOOR-THERMAL-BREAK-LAYER",
+      "relationship": "is_a",
+      "to_id": "AU-TC-CONTINUOUS-INSULATION-LAYER",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8010-TC-FLOOR-THERMAL-BREAK-LAYER-PART-OF-AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-FLOOR-THERMAL-BREAK-LAYER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8011-TC-FOIL-FACED-INSULATION-BOARD-IS-A-AU-TC-RIGID-INSULATION-BOARD",
+      "from_id": "AU-TC-FOIL-FACED-INSULATION-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-TC-RIGID-INSULATION-BOARD",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8012-TC-FRAMED-WALL-CAVITY-INSULATION-HAS-PART-AU-TC-INSULATION-RETAINING-WIRE",
+      "from_id": "AU-TC-FRAMED-WALL-CAVITY-INSULATION",
+      "relationship": "has_part",
+      "to_id": "AU-TC-INSULATION-RETAINING-WIRE",
+      "source_ids": [
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8013-TC-FRAMED-WALL-CAVITY-INSULATION-HAS-PART-AU-TC-WALL-CAVITY-INSULATION-LAYER",
+      "from_id": "AU-TC-FRAMED-WALL-CAVITY-INSULATION",
+      "relationship": "has_part",
+      "to_id": "AU-TC-WALL-CAVITY-INSULATION-LAYER",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8014-TC-FRAMED-WALL-CAVITY-INSULATION-PART-OF-AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-FRAMED-WALL-CAVITY-INSULATION",
+      "relationship": "part_of",
+      "to_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8015-TC-GABLE-VENT-IS-A-AU-TC-ROOF-VENTILATION-OPENING",
+      "from_id": "AU-TC-GABLE-VENT",
+      "relationship": "is_a",
+      "to_id": "AU-TC-ROOF-VENTILATION-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8016-TC-GABLE-VENT-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-GABLE-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8018-TC-GLASS-MINERAL-WOOL-INSULATION-IS-A-AU-TC-BULK-INSULATION",
+      "from_id": "AU-TC-GLASS-MINERAL-WOOL-INSULATION",
+      "relationship": "is_a",
+      "to_id": "AU-TC-BULK-INSULATION",
+      "source_ids": [
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8019-TC-INLINE-DUCT-FAN-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-INLINE-DUCT-FAN",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8020-TC-INSULATED-PLASTERBOARD-IS-A-AU-TC-THERMAL-INSULATION-PRODUCT",
+      "from_id": "AU-TC-INSULATED-PLASTERBOARD",
+      "relationship": "is_a",
+      "to_id": "AU-TC-THERMAL-INSULATION-PRODUCT",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8021-TC-INSULATION-BATT-IS-A-AU-TC-BULK-INSULATION",
+      "from_id": "AU-TC-INSULATION-BATT",
+      "relationship": "is_a",
+      "to_id": "AU-TC-BULK-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8022-TC-INSULATION-BLANKET-ROLL-IS-A-AU-TC-BULK-INSULATION",
+      "from_id": "AU-TC-INSULATION-BLANKET-ROLL",
+      "relationship": "is_a",
+      "to_id": "AU-TC-BULK-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8023-TC-INSULATION-CLIP-HANGER-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-INSULATION-CLIP-HANGER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION",
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8024-TC-INSULATION-INFILL-PIECE-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-INSULATION-INFILL-PIECE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8025-TC-INSULATION-RETAINING-WIRE-PART-OF-AU-TC-FRAMED-WALL-CAVITY-INSULATION",
+      "from_id": "AU-TC-INSULATION-RETAINING-WIRE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-FRAMED-WALL-CAVITY-INSULATION",
+      "source_ids": [
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8026-TC-INSULATION-RETAINING-WIRE-PART-OF-AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-INSULATION-RETAINING-WIRE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8027-TC-INSULATION-SUPPORT-NETTING-PART-OF-AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-INSULATION-SUPPORT-NETTING",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-AU-INSULATION-RANGE",
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8028-TC-INSULATION-SUPPORT-NETTING-PART-OF-AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-INSULATION-SUPPORT-NETTING",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-AU-INSULATION-RANGE",
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8029-TC-INSULATION-SUPPORT-STRAP-PART-OF-AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-INSULATION-SUPPORT-STRAP",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-AU-INSULATION-RANGE",
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8030-TC-INSULATION-WINDWASH-FACING-PART-OF-AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-INSULATION-WINDWASH-FACING",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8031-TC-INTERNAL-LINING-AIR-BARRIER-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-INTERNAL-LINING-AIR-BARRIER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8032-TC-INTERNAL-SUBFLOOR-TRANSFER-OPENING-PART-OF-AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-INTERNAL-SUBFLOOR-TRANSFER-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8033-TC-LOOSE-FILL-INSULATION-IS-A-AU-TC-BULK-INSULATION",
+      "from_id": "AU-TC-LOOSE-FILL-INSULATION",
+      "relationship": "is_a",
+      "to_id": "AU-TC-BULK-INSULATION",
+      "source_ids": [
+        "SRC-KNAUF-AU-INSULATION-RANGE",
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8034-TC-MAKEUP-AIR-OPENING-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-MAKEUP-AIR-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-ROOM-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8035-TC-MASONRY-CAVITY-INSULATION-ASSEMBLY-PART-OF-AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-MASONRY-CAVITY-INSULATION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8036-TC-MEMBRANE-CAP-WASHER-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-MEMBRANE-CAP-WASHER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-BRADFORD-ROOF-VENTILATION",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8037-TC-MEMBRANE-FASTENER-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-MEMBRANE-FASTENER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8038-TC-MEMBRANE-FLASHING-TAPE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-MEMBRANE-FLASHING-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8039-TC-MEMBRANE-PENETRATION-PATCH-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-MEMBRANE-PENETRATION-PATCH",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8040-TC-MEMBRANE-PIPE-SLEEVE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-MEMBRANE-PIPE-SLEEVE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8041-TC-MEMBRANE-SEALANT-ADHESIVE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-MEMBRANE-SEALANT-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8042-TC-MEMBRANE-SEAM-OVERLAP-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-MEMBRANE-SEAM-OVERLAP",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8044-TC-MEMBRANE-SEAM-TAPE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-MEMBRANE-SEAM-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8045-TC-MICROPERFORATED-REFLECTIVE-MEMBRANE-IS-A-AU-TC-REFLECTIVE-FOIL-LAMINATE",
+      "from_id": "AU-TC-MICROPERFORATED-REFLECTIVE-MEMBRANE",
+      "relationship": "is_a",
+      "to_id": "AU-TC-REFLECTIVE-FOIL-LAMINATE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8046-TC-MICROPERFORATED-REFLECTIVE-MEMBRANE-IS-A-AU-TC-VAPOUR-PERMEABLE-MEMBRANE",
+      "from_id": "AU-TC-MICROPERFORATED-REFLECTIVE-MEMBRANE",
+      "relationship": "is_a",
+      "to_id": "AU-TC-VAPOUR-PERMEABLE-MEMBRANE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8047-TC-MICROPERFORATED-REFLECTIVE-MEMBRANE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-MICROPERFORATED-REFLECTIVE-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8051-TC-OPENING-PERIMETER-COMPRESSION-SEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8054-TC-OPENING-PERIMETER-INSULATION-PART-OF-AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-OPENING-PERIMETER-INSULATION",
+      "relationship": "part_of",
+      "to_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8056-TC-OUTDOOR-EXHAUST-TERMINAL-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-OUTDOOR-EXHAUST-TERMINAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8057-TC-PHENOLIC-INSULATION-BOARD-IS-A-AU-TC-RIGID-INSULATION-BOARD",
+      "from_id": "AU-TC-PHENOLIC-INSULATION-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-TC-RIGID-INSULATION-BOARD",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8058-TC-PIR-INSULATION-BOARD-IS-A-AU-TC-RIGID-INSULATION-BOARD",
+      "from_id": "AU-TC-PIR-INSULATION-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-TC-RIGID-INSULATION-BOARD",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8059-TC-PITCHED-ROOF-HORIZONTAL-CEILING-INSULATION-IS-A-AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-PITCHED-ROOF-HORIZONTAL-CEILING-INSULATION",
+      "relationship": "is_a",
+      "to_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8062-TC-PLIABLE-BUILDING-MEMBRANE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-1-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8063-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-AIR-BARRIER-MEMBRANE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-AIR-BARRIER-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8064-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-DOUBLE-SIDED-MEMBRANE-TAPE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-DOUBLE-SIDED-MEMBRANE-TAPE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8065-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-MEMBRANE-CAP-WASHER",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-MEMBRANE-CAP-WASHER",
+      "source_ids": [
+        "SRC-BRADFORD-ROOF-VENTILATION",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8066-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-MEMBRANE-FASTENER",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-MEMBRANE-FASTENER",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8067-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-MEMBRANE-FLASHING-TAPE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-MEMBRANE-FLASHING-TAPE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8068-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-MEMBRANE-PENETRATION-PATCH",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-MEMBRANE-PENETRATION-PATCH",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8069-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-MEMBRANE-PIPE-SLEEVE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-MEMBRANE-PIPE-SLEEVE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8070-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-MEMBRANE-SEALANT-ADHESIVE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-MEMBRANE-SEALANT-ADHESIVE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8071-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-MEMBRANE-SEAM-OVERLAP",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-MEMBRANE-SEAM-OVERLAP",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8072-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-MEMBRANE-SEAM-TAPE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-MEMBRANE-SEAM-TAPE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8073-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-MICROPERFORATED-REFLECTIVE-MEMBRANE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-MICROPERFORATED-REFLECTIVE-MEMBRANE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8074-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-1-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8075-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-REFLECTIVE-FOIL-LAMINATE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-REFLECTIVE-FOIL-LAMINATE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-1-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8076-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-VAPOUR-BARRIER-MEMBRANE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-VAPOUR-BARRIER-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8077-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-VAPOUR-CONTROL-MEMBRANE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-VAPOUR-CONTROL-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8078-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-VAPOUR-PERMEABLE-MEMBRANE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-VAPOUR-PERMEABLE-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8079-TC-PLIABLE-MEMBRANE-SYSTEM-HAS-PART-AU-TC-WATER-CONTROL-MEMBRANE",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-WATER-CONTROL-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8080-TC-PLIABLE-MEMBRANE-SYSTEM-PART-OF-AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "from_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-1-2017",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8082-TC-POLYESTER-INSULATION-IS-A-AU-TC-BULK-INSULATION",
+      "from_id": "AU-TC-POLYESTER-INSULATION",
+      "relationship": "is_a",
+      "to_id": "AU-TC-BULK-INSULATION",
+      "source_ids": [
+        "SRC-SA-AS-NZS-4859-1-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8083-TC-POWERED-ROOF-VENT-IS-A-AU-TC-ROOF-VENTILATION-OPENING",
+      "from_id": "AU-TC-POWERED-ROOF-VENT",
+      "relationship": "is_a",
+      "to_id": "AU-TC-ROOF-VENTILATION-OPENING",
+      "source_ids": [
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8084-TC-POWERED-ROOF-VENT-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-POWERED-ROOF-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8085-TC-RANGEHOOD-EXHAUST-ASSEMBLY-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-RANGEHOOD-EXHAUST-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8086-TC-REFLECTIVE-AIRSPACE-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-REFLECTIVE-AIRSPACE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8087-TC-REFLECTIVE-FOIL-LAMINATE-IS-A-AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "from_id": "AU-TC-REFLECTIVE-FOIL-LAMINATE",
+      "relationship": "is_a",
+      "to_id": "AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-1-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8088-TC-REFLECTIVE-FOIL-LAMINATE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-REFLECTIVE-FOIL-LAMINATE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-1-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8089-TC-REFLECTIVE-INSULATION-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-REFLECTIVE-INSULATION",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8090-TC-RIDGE-VENT-IS-A-AU-TC-ROOF-VENTILATION-OPENING",
+      "from_id": "AU-TC-RIDGE-VENT",
+      "relationship": "is_a",
+      "to_id": "AU-TC-ROOF-VENTILATION-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8091-TC-RIDGE-VENT-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-RIDGE-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8092-TC-RIGID-INSULATION-BOARD-IS-A-AU-TC-BULK-INSULATION",
+      "from_id": "AU-TC-RIGID-INSULATION-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-TC-BULK-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8094-TC-ROCK-MINERAL-WOOL-INSULATION-IS-A-AU-TC-BULK-INSULATION",
+      "from_id": "AU-TC-ROCK-MINERAL-WOOL-INSULATION",
+      "relationship": "is_a",
+      "to_id": "AU-TC-BULK-INSULATION",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-NZS-4859-1-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8095-TC-ROOF-CEILING-THERMAL-ASSEMBLY-HAS-PART-AU-TC-CEILING-INSULATION-LAYER",
+      "from_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-CEILING-INSULATION-LAYER",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8096-TC-ROOF-CEILING-THERMAL-ASSEMBLY-HAS-PART-AU-TC-EAVES-INSULATION-STOP",
+      "from_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-EAVES-INSULATION-STOP",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8097-TC-ROOF-CEILING-THERMAL-ASSEMBLY-HAS-PART-AU-TC-INSULATION-SUPPORT-NETTING",
+      "from_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-INSULATION-SUPPORT-NETTING",
+      "source_ids": [
+        "SRC-KNAUF-AU-INSULATION-RANGE",
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8098-TC-ROOF-CEILING-THERMAL-ASSEMBLY-HAS-PART-AU-TC-ROOF-THERMAL-BREAK-STRIP",
+      "from_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOF-THERMAL-BREAK-STRIP",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8099-TC-ROOF-CEILING-THERMAL-ASSEMBLY-HAS-PART-AU-TC-STACKED-INSULATION-LAYERS",
+      "from_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-STACKED-INSULATION-LAYERS",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8100-TC-ROOF-CEILING-THERMAL-ASSEMBLY-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8101-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-EAVE-VENT",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-EAVE-VENT",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8102-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-EAVES-INSULATION-STOP",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-EAVES-INSULATION-STOP",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8103-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-FASCIA-VENT",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-FASCIA-VENT",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8104-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-GABLE-VENT",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-GABLE-VENT",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8105-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-POWERED-ROOF-VENT",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-POWERED-ROOF-VENT",
+      "source_ids": [
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8106-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-RIDGE-VENT",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-RIDGE-VENT",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8107-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-ROOF-SPACE-VENTILATION-VOID",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-VOID",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-CONDENSATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8108-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-ROOF-TILE-VENT",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOF-TILE-VENT",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8109-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-ROOF-VENT-BASE-FLASHING",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOF-VENT-BASE-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8110-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-ROOF-VENTILATION-BAFFLE",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOF-VENTILATION-BAFFLE",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8111-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-ROOF-VENTILATION-OPENING",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOF-VENTILATION-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8112-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-ROTARY-ROOF-VENT",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROTARY-ROOF-VENT",
+      "source_ids": [
+        "SRC-BRADFORD-ROOF-VENTILATION",
+        "SRC-SA-AS-4740-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8113-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-SOFFIT-STRIP-VENT",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SOFFIT-STRIP-VENT",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8114-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-STATIC-ROOF-VENT",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-STATIC-ROOF-VENT",
+      "source_ids": [
+        "SRC-BRADFORD-ROOF-VENTILATION",
+        "SRC-SA-AS-4740-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8115-TC-ROOF-SPACE-VENTILATION-SYSTEM-HAS-PART-AU-TC-VENT-MESH-SCREEN",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-VENT-MESH-SCREEN",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8116-TC-ROOF-SPACE-VENTILATION-SYSTEM-PART-OF-AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8117-TC-ROOF-SPACE-VENTILATION-VOID-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-ROOF-SPACE-VENTILATION-VOID",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-CONDENSATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8118-TC-ROOF-THERMAL-BREAK-STRIP-PART-OF-AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-ROOF-THERMAL-BREAK-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8119-TC-ROOF-TILE-VENT-IS-A-AU-TC-ROOF-VENTILATION-OPENING",
+      "from_id": "AU-TC-ROOF-TILE-VENT",
+      "relationship": "is_a",
+      "to_id": "AU-TC-ROOF-VENTILATION-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8120-TC-ROOF-TILE-VENT-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-ROOF-TILE-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8121-TC-ROOF-VENT-BASE-FLASHING-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-ROOF-VENT-BASE-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8122-TC-ROOF-VENTILATION-BAFFLE-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-ROOF-VENTILATION-BAFFLE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8123-TC-ROOF-VENTILATION-OPENING-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-ROOF-VENTILATION-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8124-TC-ROOFLIGHT-CEILING-DIFFUSER-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-ROOFLIGHT-CEILING-DIFFUSER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8125-TC-ROOFLIGHT-SHUTTER-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-ROOFLIGHT-SHUTTER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8126-TC-ROOFLIGHT-WEATHERSEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-ROOFLIGHT-WEATHERSEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8128-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-CEILING-EXHAUST-FAN",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-CEILING-EXHAUST-FAN",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8129-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-DOMESTIC-EXHAUST-DUCT",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-DOMESTIC-EXHAUST-DUCT",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8130-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-DOMESTIC-EXHAUST-DUCT-FITTING",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-DOMESTIC-EXHAUST-DUCT-FITTING",
+      "source_ids": [
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8131-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-DOOR-UNDERCUT-MAKEUP-AIR",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-DOOR-UNDERCUT-MAKEUP-AIR",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8132-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-EXHAUST-FAN-BACKDRAFT-DAMPER",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-EXHAUST-FAN-BACKDRAFT-DAMPER",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8133-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-EXHAUST-LIGHT-SWITCH-INTERLOCK",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-EXHAUST-LIGHT-SWITCH-INTERLOCK",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8134-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-EXHAUST-RUN-ON-TIMER",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-EXHAUST-RUN-ON-TIMER",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8135-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-INLINE-DUCT-FAN",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-INLINE-DUCT-FAN",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8136-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-MAKEUP-AIR-OPENING",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-MAKEUP-AIR-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-ROOM-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8137-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-OUTDOOR-EXHAUST-TERMINAL",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-OUTDOOR-EXHAUST-TERMINAL",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8138-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-RANGEHOOD-EXHAUST-ASSEMBLY",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-RANGEHOOD-EXHAUST-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8139-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-TRANSFER-AIR-GRILLE",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-TRANSFER-AIR-GRILLE",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8140-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-VENTING-DRYER-EXHAUST-ASSEMBLY",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-VENTING-DRYER-EXHAUST-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8141-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-HAS-PART-AU-TC-WALL-EXHAUST-FAN",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-WALL-EXHAUST-FAN",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8142-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-PART-OF-AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8143-TC-ROTARY-ROOF-VENT-IS-A-AU-TC-ROOF-VENTILATION-OPENING",
+      "from_id": "AU-TC-ROTARY-ROOF-VENT",
+      "relationship": "is_a",
+      "to_id": "AU-TC-ROOF-VENTILATION-OPENING",
+      "source_ids": [
+        "SRC-BRADFORD-ROOF-VENTILATION",
+        "SRC-SA-AS-4740-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8144-TC-ROTARY-ROOF-VENT-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-ROTARY-ROOF-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-BRADFORD-ROOF-VENTILATION",
+        "SRC-SA-AS-4740-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8145-TC-SERVICE-PENETRATION-AIR-SEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-SERVICE-PENETRATION-AIR-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8146-TC-SKIRTING-AIR-SEAL-PART-OF-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-SKIRTING-AIR-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8148-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY-HAS-PART-AU-TC-UNDER-SLAB-INSULATION-BOARD",
+      "from_id": "AU-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-UNDER-SLAB-INSULATION-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8149-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8150-TC-SOFFIT-INSULATION-BOARD-IS-A-AU-TC-RIGID-INSULATION-BOARD",
+      "from_id": "AU-TC-SOFFIT-INSULATION-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-TC-RIGID-INSULATION-BOARD",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8151-TC-SOFFIT-INSULATION-BOARD-PART-OF-AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-SOFFIT-INSULATION-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8152-TC-SOFFIT-STRIP-VENT-IS-A-AU-TC-ROOF-VENTILATION-OPENING",
+      "from_id": "AU-TC-SOFFIT-STRIP-VENT",
+      "relationship": "is_a",
+      "to_id": "AU-TC-ROOF-VENTILATION-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8153-TC-SOFFIT-STRIP-VENT-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-SOFFIT-STRIP-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8154-TC-SPRAYED-FOAM-INSULATION-IS-A-AU-TC-BULK-INSULATION",
+      "from_id": "AU-TC-SPRAYED-FOAM-INSULATION",
+      "relationship": "is_a",
+      "to_id": "AU-TC-BULK-INSULATION",
+      "source_ids": [
+        "SRC-SA-AS-NZS-4859-1-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8155-TC-STACKED-INSULATION-LAYERS-PART-OF-AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-STACKED-INSULATION-LAYERS",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8156-TC-STATIC-ROOF-VENT-IS-A-AU-TC-ROOF-VENTILATION-OPENING",
+      "from_id": "AU-TC-STATIC-ROOF-VENT",
+      "relationship": "is_a",
+      "to_id": "AU-TC-ROOF-VENTILATION-OPENING",
+      "source_ids": [
+        "SRC-BRADFORD-ROOF-VENTILATION",
+        "SRC-SA-AS-4740-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8157-TC-STATIC-ROOF-VENT-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-STATIC-ROOF-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-BRADFORD-ROOF-VENTILATION",
+        "SRC-SA-AS-4740-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8158-TC-SUBFLOOR-BRICK-VENT-IS-A-AU-TC-EXTERNAL-SUBFLOOR-VENT-OPENING",
+      "from_id": "AU-TC-SUBFLOOR-BRICK-VENT",
+      "relationship": "is_a",
+      "to_id": "AU-TC-EXTERNAL-SUBFLOOR-VENT-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8159-TC-SUBFLOOR-BRICK-VENT-PART-OF-AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-SUBFLOOR-BRICK-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8162-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE-PART-OF-AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8163-TC-SUBFLOOR-SPACE-PART-OF-AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-SUBFLOOR-SPACE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8164-TC-SUBFLOOR-VENT-GRILLE-IS-A-AU-TC-EXTERNAL-SUBFLOOR-VENT-OPENING",
+      "from_id": "AU-TC-SUBFLOOR-VENT-GRILLE",
+      "relationship": "is_a",
+      "to_id": "AU-TC-EXTERNAL-SUBFLOOR-VENT-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8165-TC-SUBFLOOR-VENT-GRILLE-PART-OF-AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-SUBFLOOR-VENT-GRILLE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8167-TC-SUBFLOOR-VENTILATION-SYSTEM-HAS-PART-AU-TC-DOUBLE-LEAF-SUBFLOOR-VENT-PASSAGE",
+      "from_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-DOUBLE-LEAF-SUBFLOOR-VENT-PASSAGE",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8168-TC-SUBFLOOR-VENTILATION-SYSTEM-HAS-PART-AU-TC-EXTERNAL-SUBFLOOR-VENT-OPENING",
+      "from_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-EXTERNAL-SUBFLOOR-VENT-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8169-TC-SUBFLOOR-VENTILATION-SYSTEM-HAS-PART-AU-TC-INTERNAL-SUBFLOOR-TRANSFER-OPENING",
+      "from_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-INTERNAL-SUBFLOOR-TRANSFER-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8170-TC-SUBFLOOR-VENTILATION-SYSTEM-HAS-PART-AU-TC-SUBFLOOR-BRICK-VENT",
+      "from_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SUBFLOOR-BRICK-VENT",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8171-TC-SUBFLOOR-VENTILATION-SYSTEM-HAS-PART-AU-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE",
+      "from_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8172-TC-SUBFLOOR-VENTILATION-SYSTEM-HAS-PART-AU-TC-SUBFLOOR-SPACE",
+      "from_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SUBFLOOR-SPACE",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8173-TC-SUBFLOOR-VENTILATION-SYSTEM-HAS-PART-AU-TC-SUBFLOOR-VENT-GRILLE",
+      "from_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SUBFLOOR-VENT-GRILLE",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8174-TC-SUBFLOOR-VENTILATION-SYSTEM-HAS-PART-AU-TC-VENT-MESH-SCREEN",
+      "from_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-VENT-MESH-SCREEN",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8175-TC-SUBFLOOR-VENTILATION-SYSTEM-PART-OF-AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "from_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8176-TC-SUBFLOOR-WALL-INSULATION-ASSEMBLY-HAS-PART-AU-TC-SUBFLOOR-WALL-INSULATION-LAYER",
+      "from_id": "AU-TC-SUBFLOOR-WALL-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SUBFLOOR-WALL-INSULATION-LAYER",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8177-TC-SUBFLOOR-WALL-INSULATION-ASSEMBLY-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-SUBFLOOR-WALL-INSULATION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8178-TC-SUBFLOOR-WALL-INSULATION-LAYER-PART-OF-AU-TC-SUBFLOOR-WALL-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-SUBFLOOR-WALL-INSULATION-LAYER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUBFLOOR-WALL-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8179-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY-HAS-PART-AU-TC-FLOOR-THERMAL-BREAK-LAYER",
+      "from_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-FLOOR-THERMAL-BREAK-LAYER",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8180-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY-HAS-PART-AU-TC-INSULATION-RETAINING-WIRE",
+      "from_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-INSULATION-RETAINING-WIRE",
+      "source_ids": [
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8181-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY-HAS-PART-AU-TC-INSULATION-SUPPORT-NETTING",
+      "from_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-INSULATION-SUPPORT-NETTING",
+      "source_ids": [
+        "SRC-KNAUF-AU-INSULATION-RANGE",
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8182-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY-HAS-PART-AU-TC-INSULATION-SUPPORT-STRAP",
+      "from_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-INSULATION-SUPPORT-STRAP",
+      "source_ids": [
+        "SRC-KNAUF-AU-INSULATION-RANGE",
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8183-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY-HAS-PART-AU-TC-INSULATION-WINDWASH-FACING",
+      "from_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-INSULATION-WINDWASH-FACING",
+      "source_ids": [
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8184-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY-HAS-PART-AU-TC-SOFFIT-INSULATION-BOARD",
+      "from_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SOFFIT-INSULATION-BOARD",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8185-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY-HAS-PART-AU-TC-UNDERFLOOR-INSULATION-LAYER",
+      "from_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-UNDERFLOOR-INSULATION-LAYER",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8186-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8187-TC-THERMAL-CONDENSATION-SYSTEM-HAS-PART-AU-TC-AIR-SEALING-SYSTEM",
+      "from_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-AIR-SEALING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8188-TC-THERMAL-CONDENSATION-SYSTEM-HAS-PART-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-1-2017",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8189-TC-THERMAL-CONDENSATION-SYSTEM-HAS-PART-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8190-TC-THERMAL-CONDENSATION-SYSTEM-HAS-PART-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8191-TC-THERMAL-CONDENSATION-SYSTEM-HAS-PART-AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8192-TC-THERMAL-CONDENSATION-SYSTEM-HAS-PART-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-V2-H6-ENERGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8193-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-CONTINUOUS-INSULATION-LAYER",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-CONTINUOUS-INSULATION-LAYER",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8194-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8195-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-INSULATION-CLIP-HANGER",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-INSULATION-CLIP-HANGER",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION",
+        "SRC-SA-AS-3999-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8196-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-INSULATION-INFILL-PIECE",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-INSULATION-INFILL-PIECE",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8197-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-REFLECTIVE-AIRSPACE",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-REFLECTIVE-AIRSPACE",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8198-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-REFLECTIVE-INSULATION",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-REFLECTIVE-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8199-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8200-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8201-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-SUBFLOOR-WALL-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SUBFLOOR-WALL-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8202-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8203-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-THERMAL-INSULATION-PRODUCT",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-THERMAL-INSULATION-PRODUCT",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-SA-AS-NZS-4859-1-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8204-TC-THERMAL-ENVELOPE-ASSEMBLY-HAS-PART-AU-TC-THERMAL-ISOLATION-PAD",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-TC-THERMAL-ISOLATION-PAD",
+      "source_ids": [
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8205-TC-THERMAL-ENVELOPE-ASSEMBLY-PART-OF-AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "from_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-CONDENSATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-V2-H6-ENERGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8206-TC-THERMAL-INSULATION-PRODUCT-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-THERMAL-INSULATION-PRODUCT",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-SA-AS-NZS-4859-1-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8207-TC-THERMAL-ISOLATION-PAD-PART-OF-AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "from_id": "AU-TC-THERMAL-ISOLATION-PAD",
+      "relationship": "part_of",
+      "to_id": "AU-TC-THERMAL-ENVELOPE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8208-TC-THERMAL-SPACER-BATTEN-PART-OF-AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-THERMAL-SPACER-BATTEN",
+      "relationship": "part_of",
+      "to_id": "AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8209-TC-THERMALLY-BROKEN-BRACKET-PART-OF-AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-THERMALLY-BROKEN-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8210-TC-TRANSFER-AIR-GRILLE-IS-A-AU-TC-MAKEUP-AIR-OPENING",
+      "from_id": "AU-TC-TRANSFER-AIR-GRILLE",
+      "relationship": "is_a",
+      "to_id": "AU-TC-MAKEUP-AIR-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8211-TC-TRANSFER-AIR-GRILLE-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-TRANSFER-AIR-GRILLE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8212-TC-UNDER-SLAB-INSULATION-BOARD-IS-A-AU-TC-RIGID-INSULATION-BOARD",
+      "from_id": "AU-TC-UNDER-SLAB-INSULATION-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-TC-RIGID-INSULATION-BOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8213-TC-UNDER-SLAB-INSULATION-BOARD-PART-OF-AU-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-UNDER-SLAB-INSULATION-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8214-TC-UNDERFLOOR-INSULATION-LAYER-PART-OF-AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "from_id": "AU-TC-UNDERFLOOR-INSULATION-LAYER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8215-TC-VAPOUR-BARRIER-MEMBRANE-IS-A-AU-TC-VAPOUR-CONTROL-MEMBRANE",
+      "from_id": "AU-TC-VAPOUR-BARRIER-MEMBRANE",
+      "relationship": "is_a",
+      "to_id": "AU-TC-VAPOUR-CONTROL-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8216-TC-VAPOUR-BARRIER-MEMBRANE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-VAPOUR-BARRIER-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8217-TC-VAPOUR-CONTROL-MEMBRANE-IS-A-AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "from_id": "AU-TC-VAPOUR-CONTROL-MEMBRANE",
+      "relationship": "is_a",
+      "to_id": "AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8218-TC-VAPOUR-CONTROL-MEMBRANE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-VAPOUR-CONTROL-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8219-TC-VAPOUR-PERMEABLE-MEMBRANE-IS-A-AU-TC-VAPOUR-CONTROL-MEMBRANE",
+      "from_id": "AU-TC-VAPOUR-PERMEABLE-MEMBRANE",
+      "relationship": "is_a",
+      "to_id": "AU-TC-VAPOUR-CONTROL-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8220-TC-VAPOUR-PERMEABLE-MEMBRANE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-VAPOUR-PERMEABLE-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8221-TC-VENT-MESH-SCREEN-PART-OF-AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-VENT-MESH-SCREEN",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOF-SPACE-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8222-TC-VENT-MESH-SCREEN-PART-OF-AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-VENT-MESH-SCREEN",
+      "relationship": "part_of",
+      "to_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION",
+        "SRC-BRADFORD-ROOF-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8223-TC-VENTING-DRYER-EXHAUST-ASSEMBLY-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-VENTING-DRYER-EXHAUST-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8224-TC-WALL-CAVITY-INSULATION-LAYER-PART-OF-AU-TC-FRAMED-WALL-CAVITY-INSULATION",
+      "from_id": "AU-TC-WALL-CAVITY-INSULATION-LAYER",
+      "relationship": "part_of",
+      "to_id": "AU-TC-FRAMED-WALL-CAVITY-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KNAUF-AU-INSULATION-RANGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8225-TC-WALL-EXHAUST-FAN-PART-OF-AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "from_id": "AU-TC-WALL-EXHAUST-FAN",
+      "relationship": "part_of",
+      "to_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-FANTECH-RESIDENTIAL-EXHAUST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8226-TC-WALL-THERMAL-BREAK-STRIP-PART-OF-AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "from_id": "AU-TC-WALL-THERMAL-BREAK-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-ABCB-THERMAL-BRIDGING-GUIDE",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8228-TC-WATER-CONTROL-MEMBRANE-IS-A-AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "from_id": "AU-TC-WATER-CONTROL-MEMBRANE",
+      "relationship": "is_a",
+      "to_id": "AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8229-TC-WATER-CONTROL-MEMBRANE-PART-OF-AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "from_id": "AU-TC-WATER-CONTROL-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-TC-PLIABLE-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8230-TC-XPS-INSULATION-BOARD-IS-A-AU-TC-RIGID-INSULATION-BOARD",
+      "from_id": "AU-TC-XPS-INSULATION-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-TC-RIGID-INSULATION-BOARD",
+      "source_ids": [
+        "SRC-KINGSPAN-AU-RIGID-INSULATION",
+        "SRC-SA-AS-NZS-4859-1-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-7921-TC-ACCESS-HATCH-WEATHERSEAL-COMMONLY-USED-WITH-AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY",
+      "from_id": "AU-TC-ACCESS-HATCH-WEATHERSEAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7951-TC-ARCHITRAVE-AIR-SEAL-COMMONLY-USED-WITH-AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "from_id": "AU-TC-ARCHITRAVE-AIR-SEAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7961-TC-CHIMNEY-FLUE-DAMPER-COMMONLY-USED-WITH-AU-AN-FIREPLACE-THROAT",
+      "from_id": "AU-TC-CHIMNEY-FLUE-DAMPER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-AN-FIREPLACE-THROAT",
+      "source_ids": [
+        "SRC-ABCB-HP-HEATING-APPLIANCES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7971-TC-CORNICE-AIR-SEAL-COMMONLY-USED-WITH-AU-HA-INTERNAL-CEILING-CORNICE",
+      "from_id": "AU-TC-CORNICE-AIR-SEAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-INTERNAL-CEILING-CORNICE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7976-TC-DOOR-THRESHOLD-SEAL-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOOR-THRESHOLD",
+      "from_id": "AU-TC-DOOR-THRESHOLD-SEAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOOR-THRESHOLD",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-RAVEN-AU-WEATHER-SEALS",
+        "SRC-TGA-CPCCCA3010-WINDOWS-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7977-TC-DOOR-THRESHOLD-SEAL-COMMONLY-USED-WITH-AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "from_id": "AU-TC-DOOR-THRESHOLD-SEAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7990-TC-EVAPORATIVE-COOLER-DAMPER-COMMONLY-USED-WITH-AU-ME-EVAPORATIVE-COOLER-ROOF-DROPPER",
+      "from_id": "AU-TC-EVAPORATIVE-COOLER-DAMPER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ME-EVAPORATIVE-COOLER-ROOF-DROPPER",
+      "source_ids": [
+        "SRC-ABCB-HP-MECHANICAL-SERVICES",
+        "SRC-SEELEY-BRAEMAR-EVAP-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7991-TC-EVAPORATIVE-COOLER-DAMPER-COMMONLY-USED-WITH-AU-ME-EVAPORATIVE-COOLING-SYSTEM",
+      "from_id": "AU-TC-EVAPORATIVE-COOLER-DAMPER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ME-EVAPORATIVE-COOLING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-MECHANICAL-SERVICES",
+        "SRC-ENERGY-GOV-AU-HEATING-COOLING",
+        "SRC-SEELEY-BRAEMAR-EVAP-COMPONENTS",
+        "SRC-SEELEY-BRAEMAR-EVAP-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7992-TC-EVAPORATIVE-COOLER-DAMPER-COMMONLY-USED-WITH-AU-ME-PACKAGED-DUCTED-EVAPORATIVE-COOLER",
+      "from_id": "AU-TC-EVAPORATIVE-COOLER-DAMPER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ME-PACKAGED-DUCTED-EVAPORATIVE-COOLER",
+      "source_ids": [
+        "SRC-ENERGY-GOV-AU-HEATING-COOLING",
+        "SRC-SEELEY-BRAEMAR-EVAP-COMPONENTS",
+        "SRC-SEELEY-BRAEMAR-EVAP-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8017-TC-GLASS-MINERAL-WOOL-INSULATION-COMMONLY-USED-WITH-AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "from_id": "AU-TC-GLASS-MINERAL-WOOL-INSULATION",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8043-TC-MEMBRANE-SEAM-TAPE-COMMONLY-USED-WITH-AU-CL-WEATHER-BARRIER-SEAM-TAPE",
+      "from_id": "AU-TC-MEMBRANE-SEAM-TAPE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CL-WEATHER-BARRIER-SEAM-TAPE",
+      "source_ids": [
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-2-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8048-TC-OPENING-PERIMETER-COMPRESSION-SEAL-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOOR-WEATHERING-SYSTEM",
+      "from_id": "AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOOR-WEATHERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8049-TC-OPENING-PERIMETER-COMPRESSION-SEAL-COMMONLY-USED-WITH-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8050-TC-OPENING-PERIMETER-COMPRESSION-SEAL-COMMONLY-USED-WITH-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8052-TC-OPENING-PERIMETER-INSULATION-COMMONLY-USED-WITH-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-TC-OPENING-PERIMETER-INSULATION",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8053-TC-OPENING-PERIMETER-INSULATION-COMMONLY-USED-WITH-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-TC-OPENING-PERIMETER-INSULATION",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8055-TC-OUTDOOR-EXHAUST-TERMINAL-COMMONLY-USED-WITH-AU-ME-VENTILATION-EXHAUST-TERMINAL",
+      "from_id": "AU-TC-OUTDOOR-EXHAUST-TERMINAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ME-VENTILATION-EXHAUST-TERMINAL",
+      "source_ids": [
+        "SRC-MITSUBISHI-AU-LOSSNAY",
+        "SRC-MITSUBISHI-AU-LOSSNAY-SPEC",
+        "SRC-SA-AS1668-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8060-TC-PLIABLE-BUILDING-MEMBRANE-COMMONLY-USED-WITH-AU-CL-WALL-WEATHER-BARRIER",
+      "from_id": "AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CL-WALL-WEATHER-BARRIER",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-1-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8061-TC-PLIABLE-BUILDING-MEMBRANE-COMMONLY-USED-WITH-AU-RO-ROOF-SARKING",
+      "from_id": "AU-TC-PLIABLE-BUILDING-MEMBRANE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-ROOF-SARKING",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE",
+        "SRC-SA-AS-4200-1-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8081-TC-POLYESTER-INSULATION-COMMONLY-USED-WITH-AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "from_id": "AU-TC-POLYESTER-INSULATION",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8093-TC-ROCK-MINERAL-WOOL-INSULATION-COMMONLY-USED-WITH-AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "from_id": "AU-TC-ROCK-MINERAL-WOOL-INSULATION",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8127-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM-COMMONLY-USED-WITH-AU-ME-WHOLE-HOUSE-HEAT-RECOVERY-VENTILATION-SYSTEM",
+      "from_id": "AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ME-WHOLE-HOUSE-HEAT-RECOVERY-VENTILATION-SYSTEM",
+      "source_ids": [
+        "SRC-MITSUBISHI-AU-LOSSNAY",
+        "SRC-MITSUBISHI-AU-LOSSNAY-SPEC",
+        "SRC-SA-AS1668-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8147-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY-COMMONLY-USED-WITH-AU-CF-SLAB-EDGE-INSULATION",
+      "from_id": "AU-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CF-SLAB-EDGE-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8160-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE-COMMONLY-USED-WITH-AU-CF-DAMP-PROOFING-MEMBRANE",
+      "from_id": "AU-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8161-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE-COMMONLY-USED-WITH-AU-DB-LOW-DECK-DRAINAGE-AGGREGATE-LAYER",
+      "from_id": "AU-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-LOW-DECK-DRAINAGE-AGGREGATE-LAYER",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8166-TC-SUBFLOOR-VENTILATION-SYSTEM-COMMONLY-USED-WITH-AU-DB-OPEN-JOINTED-DECK-ASSEMBLY",
+      "from_id": "AU-TC-SUBFLOOR-VENTILATION-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-OPEN-JOINTED-DECK-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H2D8-EXTERNAL-WATERPROOFING",
+        "SRC-MODWOOD-AU-INSTALLATION",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8227-TC-WATER-CONTROL-MEMBRANE-COMMONLY-USED-WITH-AU-CL-WALL-WEATHER-BARRIER",
+      "from_id": "AU-TC-WATER-CONTROL-MEMBRANE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CL-WALL-WEATHER-BARRIER",
+      "source_ids": [
+        "SRC-ABCB-HP-CONDENSATION",
+        "SRC-AMETALIN-MEMBRANES-AND-TAPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

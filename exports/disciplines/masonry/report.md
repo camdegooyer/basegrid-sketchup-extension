@@ -1,0 +1,268 @@
+# Masonry discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 176
+- Internal relationships: 349
+- Outgoing cross-discipline relationships: 20
+- Distinct supporting sources: 41
+- Distinct linked standards: 16
+- Average overall confidence: 88.5%
+- Objects with a Tier 1 source: 96.0%
+- Objects with two or more sources: 91.5%
+
+## Categories
+
+- aac assemblies: 1
+- aac joint materials: 3
+- aac materials: 1
+- aac members: 1
+- aac panel components: 1
+- aac panel elements: 3
+- aac units: 4
+- earth construction: 5
+- earth finishes: 3
+- earth materials: 3
+- earth moisture components: 1
+- earth temporary works: 1
+- earth units: 3
+- masonry bond arrangements: 5
+- masonry cavity components: 3
+- masonry connectors: 9
+- masonry moisture control: 6
+- masonry piers: 3
+- masonry render beads: 5
+- masonry render layers: 6
+- masonry render materials: 3
+- masonry render reinforcement: 3
+- masonry render systems: 1
+- masonry supports: 4
+- masonry unit forms: 4
+- masonry unit uses: 2
+- masonry units: 5
+- mortars and joints: 4
+- movement joint components: 4
+- movement joints: 1
+- opening supports: 3
+- reinforced masonry assemblies: 7
+- reinforced masonry components: 5
+- reinforced masonry openings: 1
+- reinforced masonry units: 5
+- special masonry units: 11
+- stone facade components: 6
+- stone joint materials: 3
+- stone layouts: 2
+- stone masonry assemblies: 5
+- stone special units: 7
+- stone units: 2
+- tie down components: 2
+- ties and fixings: 5
+- unit layout: 1
+- wall assemblies: 8
+- wall layers: 3
+- wall subassemblies: 1
+- wall voids: 1
+
+## Objects
+
+- **AAC U-section unit** (`AU-MA-AAC-U-SECTION`) — A U-shaped AAC unit used as permanent form to a local reinforced and filled horizontal beam, ring beam or opening support within an AAC wall system.
+- **AAC block masonry wall** (`AU-MA-AAC-BLOCK-WALL`) — A wall assembled from AAC masonry blocks with compatible thin joints, opening supports, movement joints, ties or anchors, moisture controls and surface finishes required by the selected system.
+- **AAC closure unit** (`AU-MA-AAC-CLOSURE-UNIT`) — A thin, short or otherwise sized AAC unit used to close a course, cover a junction, complete a return or cap a local AAC assembly.
+- **AAC masonry block** (`AU-MA-AAC-MASONRY-BLOCK`) — An unreinforced or locally reinforced autoclaved aerated concrete unit laid in courses, commonly with thin-bed adhesive, to form an AAC masonry wall.
+- **AAC movement-joint assembly** (`AU-MA-AAC-MOVEMENT-JOINT-ASSEMBLY`) — A deliberate gap and compatible edge, backing and seal components that divide AAC work into panels or separate it from dissimilar structure so documented movement can occur.
+- **AAC panel reinforcement cage** (`AU-MA-AAC-PANEL-REINFORCEMENT-CAGE`) — A factory-positioned protected steel mesh or cage embedded through a reinforced AAC panel or member to provide its designed reinforcement.
+- **AAC patching mortar** (`AU-MA-AAC-PATCH-MORTAR`) — A compatible repair material used to fill local chips, service chases, fixing recesses or surface damage in AAC before the selected finish is applied.
+- **AAC sill unit** (`AU-MA-AAC-SILL-UNIT`) — A shaped or cut AAC unit forming the masonry base below an opening and providing the substrate for the selected sill, flashing and finish detail.
+- **AAC thin-bed adhesive** (`AU-MA-AAC-THIN-BED-ADHESIVE`) — A compatible cementitious adhesive applied in thin joints between AAC blocks or panels instead of ordinary thick masonry mortar in the selected system.
+- **adhered stone veneer system** (`AU-MA-ADHERED-STONE-VENEER-SYSTEM`) — A thin natural or manufactured stone finish bonded to a prepared backing with a documented adhesive or mortar system rather than standing as a separately supported tied masonry leaf.
+- **anchored stone facade system** (`AU-MA-ANCHORED-STONE-FACADE`) — A facade of discrete stone panels or slabs mechanically supported and restrained by brackets, anchors, dowels or cramps attached to a structural backing.
+- **angle masonry lintel** (`AU-MA-ANGLE-LINTEL`) — A steel masonry lintel formed from an angle section, with one leg supporting the masonry bed and the other providing section depth and restraint.
+- **ashlar stone masonry panel** (`AU-MA-ASHLAR-STONE-PANEL`) — Stone masonry made from accurately dressed units laid in regular courses with controlled bed and perpend joints.
+- **autoclaved aerated concrete material** (`AU-MA-AAC-MATERIAL`) — A lightweight cementitious material manufactured with a cellular pore structure and cured in an autoclave, used in masonry blocks and factory-reinforced panels or members.
+- **bond-beam masonry unit** (`AU-MA-BOND-BEAM-MASONRY-UNIT`) — A channelled hollow masonry unit that provides a continuous horizontal space for reinforcement and grout to form a bond beam within a masonry wall.
+- **brick veneer wall** (`AU-MA-BRICK-VENEER-WALL`) — A masonry veneer wall whose outer leaf is constructed predominantly from brick-sized masonry units.
+- **brick-on-edge course** (`AU-MA-BRICK-ON-EDGE-COURSE`) — A course in which bricks are laid on their narrow bed so the larger face is upright, often forming a sill, coping, band or special edge detail.
+- **building earth mixture** (`AU-MA-BUILDING-EARTH-MIXTURE`) — A selected blend of clay, silt, sand, gravel and water, with fibre or stabilising binder where specified, prepared to form mud bricks, rammed earth or an earth finish.
+- **built-in masonry anchor** (`AU-MA-BUILT-IN-MASONRY-ANCHOR`) — An anchoring component placed into masonry joints, units or grout while the wall is built to provide a future or immediate structural connection.
+- **built-in masonry connector** (`AU-MA-MASONRY-CONNECTOR`) — A metal or other durable component built into masonry to connect it to another masonry leaf, wall, frame or structural element, excluding the separately classified ordinary wall tie.
+- **bullnose masonry unit** (`AU-MA-BULLNOSE-MASONRY-UNIT`) — A masonry unit with one or more deliberately rounded exposed arrises for a corner, jamb, sill, pier or wall termination.
+- **calcium silicate brick** (`AU-MA-CALCIUM-SILICATE-BRICK`) — A brick-sized masonry unit manufactured principally from calcium-bearing and siliceous materials and used as a distinct brick material category.
+- **cavity masonry wall** (`AU-MA-CAVITY-MASONRY-WALL`) — A masonry wall formed by two masonry leaves separated by a cavity and connected with wall ties so the leaves act together for face-load restraint while remaining physically separated.
+- **cavity wall tie** (`AU-MA-CAVITY-WALL-TIE`) — A wall tie embedded into both masonry leaves of a cavity wall to transfer face loads between the inner and outer leaves.
+- **cement-lime-sand render** (`AU-MA-CEMENT-LIME-SAND-RENDER`) — A site-mixed or supplied render whose principal binder system uses cement and building lime with graded sand and water for compatible solid backgrounds.
+- **clay brick** (`AU-MA-CLAY-BRICK`) — A brick-sized fired clay masonry unit used in bonded brickwork for structural, veneer or facing applications.
+- **common brick** (`AU-MA-COMMON-BRICK`) — A brick intended primarily for masonry that will be concealed, coated or otherwise not selected for a controlled exposed-face appearance.
+- **compressed earth block** (`AU-MA-COMPRESSED-EARTH-BLOCK`) — An earth masonry unit formed by mechanically compressing a prepared earth mixture in a mould, with no assumption that a cement or lime stabiliser is present.
+- **compressible masonry joint filler** (`AU-MA-COMPRESSIBLE-JOINT-FILLER`) — A compressible strip or sheet placed deeper within a masonry movement joint to keep the gap free of rigid material and permit adjacent panels to move.
+- **concrete brick** (`AU-MA-CONCRETE-BRICK`) — A brick-sized concrete masonry unit intended for uses similar to clay brick while retaining concrete as its material category.
+- **concrete masonry block** (`AU-MA-CONCRETE-BLOCK`) — A block-sized concrete masonry unit, commonly hollow, laid in bonded courses and capable of receiving grout and reinforcement where the system is designed for it.
+- **control-joint masonry unit** (`AU-MA-CONTROL-JOINT-MASONRY-UNIT`) — A special unit with a rebated, keyed or closed-end profile used beside a designed vertical movement joint while maintaining faces, cores and joint-seal geometry.
+- **cored masonry unit** (`AU-MA-CORED-MASONRY-UNIT`) — A masonry unit containing vertical cores while still intended to be supported on mortar across the full bed area.
+- **corner masonry unit** (`AU-MA-CORNER-MASONRY-UNIT`) — A unit whose end and face geometry is manufactured or selected to form a finished masonry corner while maintaining the chosen bond and core arrangement.
+- **double brick wall** (`AU-MA-DOUBLE-BRICK-WALL`) — A cavity masonry wall in which the inner and outer leaves are constructed predominantly from brick-sized masonry units.
+- **earth or mud mortar** (`AU-MA-MUD-MORTAR`) — A workable earth-based jointing mixture used to bed and bond compatible mud bricks or earth blocks, with sand, fibre or stabiliser as specified.
+- **earth render** (`AU-MA-EARTH-RENDER`) — A thicker trowelled or floated plaster made principally from compatible earth, sand and fibre, applied to an earth or other suitable substrate as one or more coats.
+- **earth slurry wall finish** (`AU-MA-EARTH-SLURRY-FINISH`) — A thin brushed or hand-applied earth-rich slurry used to even, colour or repair the surface of compatible mud-brick or earth construction while retaining vapour-compatible behaviour.
+- **earth wall construction system** (`AU-MA-EARTH-CONSTRUCTION-SYSTEM`) — A wall system whose principal solid material is selected earth formed as units or compacted monolithically, together with supports, moisture controls, reinforcement, openings, joints and finishes required by its documented design.
+- **earth-building fibre addition** (`AU-MA-EARTH-FIBRE-ADDITION`) — Short straw or another selected fibre mixed through mud brick, cob, earth mortar or render to limit handling cracks and provide the documented material role.
+- **earth-wall masonry plinth** (`AU-MA-EARTH-WALL-PLINTH`) — A raised durable base of concrete, stone or masonry that supports an earth wall above adjacent ground and splash exposure while coordinating its damp-proof or capillary break.
+- **earth-wall protective sealer film** (`AU-MA-EARTH-WALL-PROTECTIVE-SEALER`) — A selected clear or pigmented film applied to an earth wall surface to reduce dusting or erosion while maintaining the moisture behaviour required by the system.
+- **engaged masonry pier** (`AU-MA-ENGAGED-MASONRY-PIER`) — A pier bonded integrally into a masonry wall so it projects from and locally stiffens the wall rather than standing as a separate isolated support.
+- **face brick** (`AU-MA-FACE-BRICK`) — A brick selected so one or more manufactured faces remain visibly exposed as the finished masonry surface.
+- **flat-bar masonry lintel** (`AU-MA-FLAT-BAR-LINTEL`) — A steel masonry lintel formed from a flat rectangular bar placed beneath and supporting the masonry over an opening.
+- **flexible masonry joint sealant** (`AU-MA-FLEXIBLE-JOINT-SEALANT`) — A flexible sealant bead installed at the exposed face of a masonry movement joint to exclude weather while allowing the joint to open, close or shear within its design movement range.
+- **fully grouted masonry wall** (`AU-MA-FULLY-GROUTED-MASONRY-WALL`) — A masonry wall in which all intended connected hollow cores are filled with grout rather than only selected reinforced cells.
+- **grouted masonry core** (`AU-MA-GROUTED-MASONRY-CORE`) — A connected vertical or horizontal core space in masonry units after it has been filled with specified masonry grout, with reinforcement where scheduled.
+- **half masonry unit** (`AU-MA-HALF-MASONRY-UNIT`) — A manufactured or scheduled masonry unit approximately half the modular length of its matching full unit for maintaining bond at ends, corners and openings.
+- **header brick course** (`AU-MA-HEADER-BRICK-COURSE`) — A brick course in which header faces are exposed and the long dimension of each brick runs into the wall thickness or across adjoining work.
+- **helical masonry tie** (`AU-MA-HELICAL-MASONRY-TIE`) — A stainless or protected helically formed metal tie installed into masonry joints or drilled paths as part of a documented new-work or remedial restraint system.
+- **hollow masonry unit** (`AU-MA-HOLLOW-MASONRY-UNIT`) — A masonry unit with vertical cores and distinct face shells, normally laid with mortar under the face shells rather than across the entire plan area.
+- **horizontally cored masonry unit** (`AU-MA-HORIZONTALLY-CORED-MASONRY-UNIT`) — A masonry unit made with cores that run horizontally when the unit is placed in its intended laying orientation.
+- **inner masonry leaf** (`AU-MA-INNER-MASONRY-LEAF`) — The masonry leaf on the building-interior side of a cavity masonry wall, separated from the outer leaf by the cavity and commonly used as the structurally supporting leaf.
+- **isolated masonry pier** (`AU-MA-ISOLATED-MASONRY-PIER`) — A freestanding vertical masonry support built from bonded units, separate from a continuous wall and used to carry a concentrated building load.
+- **jamb masonry unit** (`AU-MA-JAMB-MASONRY-UNIT`) — A special masonry unit used along the vertical side of an opening to form a controlled reveal, frame interface, closed end or reinforced jamb core.
+- **knockout bond-beam block** (`AU-MA-KNOCKOUT-BOND-BEAM-BLOCK`) — A hollow concrete masonry block with removable web portions intended to be knocked out in selected courses to create a continuous horizontal reinforcement and grout channel.
+- **lime render** (`AU-MA-LIME-RENDER`) — A render in which lime is the principal binder, selected for a compatible substrate and exposure and often used where lower stiffness and vapour permeability are required.
+- **manufactured stone masonry unit** (`AU-MA-MANUFACTURED-STONE-MASONRY-UNIT`) — A factory-made cementitious, aggregate or composite unit shaped and coloured to provide a stone-like masonry face and installed by a documented masonry or veneer system.
+- **masonry bed joint** (`AU-MA-BED-JOINT`) — The horizontal mortar joint between one masonry course and the course immediately above or below it.
+- **masonry bed-joint reinforcement** (`AU-MA-BED-JOINT-REINFORCEMENT`) — Purpose-designed steel reinforcement embedded horizontally in selected mortar bed joints to strengthen the masonry where the structural design recognises it as reinforcement.
+- **masonry bed-joint tying mesh** (`AU-MA-BED-JOINT-TYING-MESH`) — A manufactured mesh strip laid in mortar bed joints as a tying or accessory component, distinct from structural bed-joint reinforcement designed as reinforcement for masonry.
+- **masonry cavity closer** (`AU-MA-MASONRY-CAVITY-CLOSER`) — A shaped component that closes the exposed edge of a wall cavity at an opening, wall end or junction while preserving required moisture, thermal, fire and drainage functions.
+- **masonry cavity fire-barrier assembly** (`AU-MA-MASONRY-CAVITY-FIRE-BARRIER`) — A tested or assessed assembly installed across a masonry wall cavity at a required line to resist fire and smoke spread while addressing ties, openings, movement and adjacent materials.
+- **masonry cleanout unit** (`AU-MA-MASONRY-CLEANOUT-UNIT`) — A special bottom-course hollow unit with a removable or open face that permits mortar droppings and debris to be cleared before a reinforced core is inspected and grouted.
+- **masonry closure unit** (`AU-MA-MASONRY-CLOSURE-UNIT`) — A shorter or specially shaped unit used to close a bond, complete an end or fit a remaining course length without an uncontrolled fragment.
+- **masonry coping or capping unit** (`AU-MA-MASONRY-COPING-UNIT`) — A purpose-shaped unit forming the exposed top of a masonry wall, pier or parapet and directing water away from vulnerable faces and joints.
+- **masonry core fill** (`AU-MA-MASONRY-CORE-FILL`) — Concrete, grout or mortar placed into selected hollow masonry cores so the filled cells become solid and can support reinforcement or improve the pier or wall section as designed.
+- **masonry course** (`AU-MA-MASONRY-COURSE`) — A horizontal row of masonry units laid to a common level and bonded to the courses above and below with mortar joints.
+- **masonry cramp** (`AU-MA-MASONRY-CRAMP`) — A short shaped metal connector built or fixed into masonry to restrain a stone, unit, wall return or abutting component without acting as ordinary distributed reinforcement.
+- **masonry damp-proof course** (`AU-MA-DAMP-PROOF-COURSE`) — A continuous moisture-resistant layer built into a masonry wall to interrupt capillary moisture rising or passing through the wall at the selected level.
+- **masonry fixing strap** (`AU-MA-MASONRY-FIXING-STRAP`) — A metal strap built into masonry and fixed to adjacent framing or another building element to provide restraint or connection at that interface.
+- **masonry flashing** (`AU-MA-MASONRY-FLASHING`) — A shaped moisture-resistant sheet built into a masonry wall to collect water from a cavity or exposed interface and direct it to the outside through an edge or weepholes.
+- **masonry frame cramp** (`AU-MA-MASONRY-FRAME-CRAMP`) — A connector fixed to a door, window or other frame and built into an adjacent masonry joint or core to restrain the frame-to-wall interface.
+- **masonry grout cleanout opening** (`AU-MA-MASONRY-CLEANOUT-OPENING`) — A temporary access opening at the base of a grouted masonry core or zone through which droppings are removed and the core can be inspected before closure and grouting.
+- **masonry grout stop** (`AU-MA-MASONRY-GROUT-STOP`) — A temporary or permanent barrier placed within unit cores or at an end so fluid masonry grout remains within the intended cell, lift or bond-beam region.
+- **masonry head flashing** (`AU-MA-HEAD-FLASHING`) — A flashing installed above a wall opening to intercept water descending through the masonry or cavity and discharge it outward before it reaches the opening head.
+- **masonry joint backer rod** (`AU-MA-BACKER-ROD`) — A compressible round foam rod inserted behind a sealant bead to control the bead depth and provide a non-bonding backing surface in a masonry movement joint.
+- **masonry leaf** (`AU-MA-MASONRY-LEAF`) — One continuous thickness of bonded masonry units within a wall, such as the single leaf of a veneer or one of the two leaves in a cavity wall.
+- **masonry lintel unit** (`AU-MA-MASONRY-LINTEL-UNIT`) — A channelled or otherwise special unit used with reinforcement and grout to form a masonry lintel above an opening.
+- **masonry mortar** (`AU-MA-MASONRY-MORTAR`) — A workable cementitious mixture placed between masonry units that hardens to bond them together, distribute contact and form the visible joints.
+- **masonry perpend** (`AU-MA-PERPEND-JOINT`) — The vertical mortar joint between adjacent masonry units in the same course.
+- **masonry reinforcement** (`AU-MA-MASONRY-REINFORCEMENT`) — Steel bars or purpose-designed reinforcement placed in grouted masonry cores or mortar joints to strengthen a masonry assembly.
+- **masonry reinforcement bar positioner** (`AU-MA-MASONRY-BAR-POSITIONER`) — A small support or clip used inside a hollow masonry core or bond beam to hold reinforcement at its scheduled position during unit laying and grouting.
+- **masonry roof tie-down strap** (`AU-MA-ROOF-TIE-DOWN-STRAP`) — A metal strap built into or anchored through masonry and connected to roof framing so uplift forces can pass from the roof into the supporting wall and foundation load path.
+- **masonry screen block** (`AU-MA-MASONRY-SCREEN-BLOCK`) — A perforated or open-pattern masonry unit used in a non-solid screen wall so deliberate voids repeat through the finished assembly.
+- **masonry shelf angle** (`AU-MA-MASONRY-SHELF-ANGLE`) — A horizontal steel angle fixed to the structure to provide intermittent vertical support to an outer masonry leaf, commonly at floor or frame levels.
+- **masonry shelf-angle anchor** (`AU-MA-SHELF-ANGLE-ANCHOR`) — A cast-in or post-installed anchor forming the structural attachment between a shelf-angle bracket or angle and its concrete, steel or masonry support.
+- **masonry shelf-angle bracket** (`AU-MA-SHELF-ANGLE-BRACKET`) — A discrete steel bracket connecting a masonry shelf angle to the main structure while providing the designed stand-off, vertical support and adjustability.
+- **masonry shelf-angle shim** (`AU-MA-SHELF-ANGLE-SHIM`) — A thin durable plate or packer used between a shelf-angle bracket and its support to establish the documented line, level and bearing condition.
+- **masonry sill flashing** (`AU-MA-SILL-FLASHING`) — A flashing tray or strip at the sill of a wall opening that collects water at the lower opening interface and directs it toward the exterior drainage path.
+- **masonry sill unit** (`AU-MA-SILL-MASONRY-UNIT`) — A sloped, throated or otherwise shaped masonry unit forming the weathering surface and edge below an opening.
+- **masonry slip-joint membrane** (`AU-MA-SLIP-JOINT-MEMBRANE`) — A low-bond or separating membrane placed horizontally between different masonry materials or wall portions so relative movement can occur without rigidly bonding the two sides together.
+- **masonry tie-down rod** (`AU-MA-TIE-DOWN-ROD`) — A steel rod passing through or beside masonry and anchored to the footing or lower structure to provide a continuous tensile tie-down connection to framing above.
+- **masonry unit** (`AU-MA-MASONRY-UNIT`) — A preformed brick-, block- or stone-like component made to be laid with other units in bonded masonry construction.
+- **masonry veneer wall** (`AU-MA-MASONRY-VENEER-WALL`) — A wall arrangement in which a single outer masonry leaf is tied to a separate structural frame and generally carries its own weight while the frame carries the building loads.
+- **masonry veneer wall tie** (`AU-MA-VENEER-WALL-TIE`) — A wall tie that connects a single masonry veneer leaf to a timber, steel or masonry structural backing so face loads pass to that backing.
+- **masonry wall assembly** (`AU-MA-MASONRY-WALL`) — A wall built from masonry units joined with mortar, together with the leaves, cavities, ties, supports, movement joints and moisture-control components required by its particular arrangement.
+- **masonry wall cavity** (`AU-MA-MASONRY-CAVITY`) — The intentional clear vertical space between a masonry leaf and another leaf or framed backing, kept sufficiently open to separate materials and allow moisture drainage.
+- **masonry wall panel** (`AU-MA-MASONRY-WALL-PANEL`) — A continuous portion of masonry wall bounded by wall ends, returns, intersections, openings or movement joints and treated as one geometric and structural wall segment.
+- **masonry wall tie** (`AU-MA-WALL-TIE`) — A shaped metal wire or strap built into masonry to connect two cavity-wall leaves or connect a masonry veneer leaf to its structural backing.
+- **masonry wall-tie fixing** (`AU-MA-WALL-TIE-FIXING`) — The screw, nail, clip or anchor that secures a veneer wall tie to its structural frame or backing where the tie is not built directly into masonry at both ends.
+- **masonry waterproof coating** (`AU-MA-MASONRY-WATERPROOF-COATING`) — A continuous surface-applied coating used on applicable single-leaf masonry to reduce rainwater penetration through the exposed masonry face.
+- **masonry weephole** (`AU-MA-WEEPHOLE`) — A deliberate open gap, commonly occupying a perpend above flashing or at the bottom of a cavity, that lets collected water drain to the outside.
+- **masonry weephole vent insert** (`AU-MA-WEEPHOLE-VENT-INSERT`) — A small manufactured insert placed in an open perpend or formed weephole to preserve an airflow and drainage path while limiting entry of larger pests or debris as its product design permits.
+- **mud brick** (`AU-MA-MUD-BRICK`) — An unfired earth unit made by placing a moist earth mixture, commonly with fibres, into a mould and drying it before laying in a wall.
+- **mud-brick wall** (`AU-MA-MUD-BRICK-WALL`) — A wall constructed from dried mud bricks laid in earth-compatible mortar with designed supports, openings, moisture protection, reinforcement and surface treatment.
+- **natural stone masonry unit** (`AU-MA-NATURAL-STONE-MASONRY-UNIT`) — A piece of naturally occurring stone selected, split, sawn or dressed for use as an individual unit in wall masonry.
+- **open-end concrete masonry block** (`AU-MA-OPEN-END-CONCRETE-BLOCK`) — A concrete masonry block with one or both end webs omitted so units can be placed around reinforcement or combine adjacent cores into a continuous grouted region.
+- **outer masonry leaf** (`AU-MA-OUTER-MASONRY-LEAF`) — The masonry leaf on the exterior side of a cavity masonry wall, exposed to outside weather and separated from the inner leaf by the cavity.
+- **partially grouted masonry wall** (`AU-MA-PARTIALLY-GROUTED-MASONRY-WALL`) — A reinforced masonry wall in which grout is placed only in selected cores, bond beams, jambs or other scheduled regions while remaining cores stay empty.
+- **polymer-modified masonry render** (`AU-MA-POLYMER-MODIFIED-RENDER`) — A proprietary cementitious or mineral render containing polymer modification to provide the selected adhesion, flexibility, water or handling properties for a documented substrate and system.
+- **rammed-earth compacted lift** (`AU-MA-RAMMED-EARTH-LIFT`) — One compacted horizontal layer of prepared earth placed within formwork during rammed-earth construction, identifiable by its placement extent and interface with adjacent lifts.
+- **rammed-earth wall** (`AU-MA-RAMMED-EARTH-WALL`) — A monolithic wall formed by compacting successive layers of a damp earth mixture between temporary forms, then removing the forms to expose or finish the wall.
+- **rammed-earth wall formwork assembly** (`AU-MA-RAMMED-EARTH-FORMWORK-ASSEMBLY`) — A temporary two-sided mould, end stops, walers, ties, props and supports that contains earth during placement and repeated compaction of a rammed-earth wall section.
+- **reinforced AAC floor panel** (`AU-MA-REINFORCED-AAC-FLOOR-PANEL`) — A factory-reinforced AAC panel designed to span between floor supports as part of a complete structural floor system.
+- **reinforced AAC lintel** (`AU-MA-AAC-LINTEL`) — A factory-manufactured reinforced AAC member intended to span a documented opening within a compatible AAC wall system.
+- **reinforced AAC roof panel** (`AU-MA-REINFORCED-AAC-ROOF-PANEL`) — A factory-reinforced AAC panel designed to span between roof supports beneath the complete weatherproof roof build-up.
+- **reinforced AAC stair tread** (`AU-MA-REINFORCED-AAC-STAIR-TREAD`) — A factory-reinforced AAC unit manufactured as a stair tread or step member for a documented compatible stair assembly.
+- **reinforced masonry bond beam** (`AU-MA-REINFORCED-MASONRY-BOND-BEAM`) — A horizontal reinforced and grouted member formed within channelled masonry units so it ties, spans or distributes actions through a masonry wall as designed.
+- **reinforced masonry lintel** (`AU-MA-REINFORCED-MASONRY-LINTEL`) — A horizontal member above an opening formed from masonry lintel or bond-beam units, grout and reinforcement acting together under a documented design.
+- **reinforced masonry pier** (`AU-MA-REINFORCED-MASONRY-PIER`) — A freestanding or engaged pier built from masonry units with scheduled grout and reinforcement so it acts as a designed reinforced masonry support.
+- **reinforced masonry pilaster** (`AU-MA-REINFORCED-MASONRY-PILASTER`) — A local thickened vertical masonry projection integrated with a wall and reinforced or grouted to provide a documented support or stiffening role.
+- **reinforced masonry wall** (`AU-MA-REINFORCED-MASONRY-WALL`) — A masonry wall strengthened by steel reinforcement placed in mortar joints or in grouted unit cores so the reinforcement and masonry act as a designed structural assembly.
+- **remedial masonry wall tie** (`AU-MA-REMEDIAL-WALL-TIE`) — A post-installed connector used to restore or add restraint between existing masonry leaves or between masonry and backing where original ties are missing, deteriorated or inadequate under an approved repair design.
+- **render base coat** (`AU-MA-RENDER-BASE-COAT`) — The principal underlying render layer applied over the prepared background to build thickness, cover mesh or lath and provide a suitable surface for subsequent coats.
+- **render casing or stop bead** (`AU-MA-RENDER-CASING-BEAD`) — A keyed profile that provides a straight controlled termination to a render field at an opening, material change, exposed edge or other boundary.
+- **render corner bead** (`AU-MA-RENDER-CORNER-BEAD`) — A perforated or keyed profile fixed at an external render corner to establish and protect the finished arris while becoming embedded in the render build-up.
+- **render drip bead** (`AU-MA-RENDER-DRIP-BEAD`) — A shaped render profile forming a downward projection and break in the underside surface so water sheds clear instead of tracking back across a soffit or wall face.
+- **render dubbing coat** (`AU-MA-RENDER-DUBBING-COAT`) — A local preliminary render fill used to reduce deep hollows and gross substrate variation before the regular base coat is applied.
+- **render expanded-metal lath** (`AU-MA-RENDER-EXPANDED-METAL-LATH`) — An expanded or formed metal mesh mechanically fixed over a substrate to provide a keyed carrier for solid plaster or render where direct bond is not the selected method.
+- **render finish coat** (`AU-MA-RENDER-FINISH-COAT`) — The outermost trowelled, floated or textured render coat providing the exposed surface or the immediate substrate for a compatible decorative coating.
+- **render float coat** (`AU-MA-RENDER-FLOAT-COAT`) — A ruled and floated render layer used to establish the required plane, curve or texture before a thinner set, texture or coating finish is applied.
+- **render lath fastener** (`AU-MA-RENDER-LATH-FASTENER`) — A corrosion-compatible nail, screw, staple, clip or washer assembly fixing render lath securely to its documented support.
+- **render movement-joint bead** (`AU-MA-RENDER-MOVEMENT-JOINT-BEAD`) — A paired or flexible profile embedded at the edges of a render movement joint to form straight protected arrises and preserve the designed separation or flexible zone.
+- **render reinforcing mesh** (`AU-MA-RENDER-REINFORCING-MESH`) — An alkali-resistant or otherwise compatible mesh embedded within a render coat at full fields, stress points or dissimilar-substrate junctions according to the selected system.
+- **render screed or guide bead** (`AU-MA-RENDER-SCREED-BEAD`) — A linear guide embedded in render work to establish the required plane, curve, thickness or division while providing a rule-off edge during application.
+- **render splatter bond coat** (`AU-MA-RENDER-SPLATTER-BOND-COAT`) — A rough discontinuous or textured first treatment applied to a smooth or high-suction background to create the documented key and suction condition for later render coats.
+- **render substrate preparation layer** (`AU-MA-RENDER-SUBSTRATE-PREPARATION-LAYER`) — A cleaned, repaired, roughened, primed or otherwise treated physical surface layer prepared to receive a render system with the required suction and bond condition.
+- **reverse masonry veneer wall** (`AU-MA-REVERSE-MASONRY-VENEER-WALL`) — A framed wall arrangement with a masonry leaf on the room side of the insulated frame so the masonry mass is exposed to the interior rather than used as the outer weather skin.
+- **rubble stone masonry wall** (`AU-MA-RUBBLE-STONE-WALL`) — Stone masonry using irregular, roughly dressed or undressed stones arranged and packed into a bonded wall or veneer with mortar and smaller packing pieces as specified.
+- **running-bond masonry panel** (`AU-MA-RUNNING-BOND-PANEL`) — A masonry panel whose successive courses are horizontally offset so vertical joints do not normally align through consecutive courses.
+- **single-leaf masonry wall** (`AU-MA-SINGLE-LEAF-MASONRY-WALL`) — A masonry wall only one unit-leaf thick, without a separate masonry leaf or framed structural backing forming the same wall assembly.
+- **sliding masonry anchor** (`AU-MA-SLIDING-MASONRY-ANCHOR`) — A masonry connector with a slot, channel or sliding engagement that restrains selected directions while allowing documented relative movement in another direction.
+- **soldier brick course** (`AU-MA-SOLDIER-BRICK-COURSE`) — A course of bricks stood vertically on end with their narrow long faces commonly exposed, used as an architectural band or opening-head arrangement.
+- **solid masonry unit** (`AU-MA-SOLID-MASONRY-UNIT`) — A masonry unit without cores, although it may have small surface recesses, intended to be supported on mortar across its full bed area.
+- **solid render system** (`AU-MA-SOLID-RENDER-SYSTEM`) — A site-applied plaster or render build-up on a solid substrate, including preparation, bond treatment, base and finish coats, reinforcement, beads, joints and compatible final coating where selected.
+- **solid stone masonry wall** (`AU-MA-SOLID-STONE-MASONRY-WALL`) — A substantial wall built from natural or manufactured stone masonry through its thickness, with mortar, bonds, ties, openings, damp-proofing and supports appropriate to the design.
+- **special-purpose masonry unit** (`AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT`) — A masonry unit manufactured or cut with geometry intended for a particular corner, edge, opening, bond, service, reinforcement or weathering position rather than an ordinary field position.
+- **splayed masonry unit** (`AU-MA-SPLAYED-MASONRY-UNIT`) — A masonry unit with an oblique face or end used to form angled walls, reveals, transitions or decorative profiles without relying on an uncontrolled wedge cut.
+- **stabilised compressed earth block** (`AU-MA-STABILISED-COMPRESSED-EARTH-BLOCK`) — A compressed earth block whose prepared mixture includes a documented stabilising binder such as cement or lime to modify strength or moisture resistance.
+- **stabilised rammed-earth wall** (`AU-MA-STABILISED-RAMMED-EARTH-WALL`) — A rammed-earth wall whose documented mixture includes cement, lime or another stabiliser to modify its strength, erosion resistance or moisture behaviour.
+- **stack-bond masonry panel** (`AU-MA-STACK-BOND-PANEL`) — A masonry panel in which vertical joints intentionally align through successive courses to create a continuous grid and a different joint and reinforcement arrangement from running bond.
+- **steel masonry lintel** (`AU-MA-STEEL-MASONRY-LINTEL`) — A horizontal steel member built into masonry over a door, window or other opening to support the masonry and any assigned loads above the opening.
+- **stone arch keystone** (`AU-MA-STONE-ARCH-KEYSTONE`) — The central or crown voussoir of a masonry arch, often specially shaped or expressed, but structurally meaningful only as part of the complete arch ring and supports.
+- **stone arch voussoir** (`AU-MA-STONE-ARCH-VOUSSOIR`) — An individual wedge-shaped or radially jointed stone unit forming part of the ring of a masonry arch.
+- **stone bedding mortar** (`AU-MA-STONE-BEDDING-MORTAR`) — Mortar selected to form load-bearing beds and filled joints beneath or between stone masonry units while accommodating the stone and wall system requirements.
+- **stone coping** (`AU-MA-STONE-COPING`) — A continuous run of shaped stone pieces capping the exposed top of a wall or parapet with falls, projections and drips appropriate to the weathering detail.
+- **stone facade dowel** (`AU-MA-STONE-FACADE-DOWEL`) — A short metal pin engaging a drilled hole or compatible insert in stone to locate, support or restrain a panel as part of an engineered facade fixing.
+- **stone facade panel** (`AU-MA-STONE-FACADE-PANEL`) — A scheduled slab or panel of natural or manufactured stone prepared with edges, holes, kerfs or inserts for an anchored facade system.
+- **stone facade restraint anchor** (`AU-MA-STONE-FACADE-RESTRAINT-ANCHOR`) — A metal component connecting a stone panel to backing primarily to restrain face movement and transfer wind actions while allowing the movement intended by the facade design.
+- **stone facade support bracket** (`AU-MA-STONE-FACADE-BRACKET`) — A discrete metal support attached to structure and shaped to carry the self-weight of one or more stone facade panels through a bearing, pin, dowel or kerf engagement.
+- **stone lintel** (`AU-MA-STONE-LINTEL`) — A single or assembled stone member designed to span across a wall opening and transfer supported stonework to the jamb bearings.
+- **stone masonry arch** (`AU-MA-STONE-ARCH`) — A curved arrangement of wedge-shaped or carefully jointed stones that spans an opening by transferring compression to its supports and any documented restraint.
+- **stone masonry construction system** (`AU-MA-STONE-MASONRY-SYSTEM`) — A wall or facade system built from natural or manufactured stone units or panels together with mortar, joints, ties, anchors, supports, flashings and movement details appropriate to its construction method.
+- **stone panel anchor kerf** (`AU-MA-STONE-PANEL-KERF`) — A narrow fabricated slot cut into a stone panel edge or back to receive a compatible support or restraint plate as part of an engineered fixing.
+- **stone pointing mortar** (`AU-MA-STONE-POINTING-MORTAR`) — Mortar placed and finished in the exposed outer portion of a stone joint to protect the joint and provide the specified face profile and appearance.
+- **stone quoin** (`AU-MA-STONE-QUOIN`) — A dressed or selected corner stone forming part of the bonded corner and often visually distinguished from the adjoining wall stones.
+- **stone sill** (`AU-MA-STONE-SILL`) — A shaped stone member below an opening with fall, projection and drip geometry intended to shed water clear of the wall face and protect the opening interface.
+- **stone veneer wall tie** (`AU-MA-STONE-VENEER-TIE`) — A tie selected for the thickness, geometry and jointing of a mortared stone veneer leaf and connecting it to the structural backing for face-load restraint.
+- **stonework movement-joint assembly** (`AU-MA-STONE-MOVEMENT-JOINT`) — A deliberate gap and compatible backing, seal and edge treatment dividing stone masonry or facade panels so documented movement can occur without uncontrolled contact.
+- **subfloor masonry pier** (`AU-MA-SUBFLOOR-MASONRY-PIER`) — An isolated masonry pier located beneath a suspended floor to support a bearer, beam or other floor-framing member above the ground.
+- **thin-bed masonry mortar** (`AU-MA-THIN-BED-MORTAR`) — A proprietary masonry bonding material intended to be placed in a much thinner joint than conventional masonry mortar as part of a compatible unit system.
+- **tied stone veneer wall** (`AU-MA-TIED-STONE-VENEER-WALL`) — A single outer leaf of stone units laid in mortar and restrained to a separate structural frame or backing with ties while supported vertically on a footing, ledge or shelf system.
+- **vertical masonry articulation joint** (`AU-MA-VERTICAL-ARTICULATION-JOINT`) — A full-height vertical separation formed through masonry so adjacent wall panels can move relative to each other without forcing the masonry to crack at an uncontrolled location.
+- **wall-to-wall masonry connector** (`AU-MA-WALL-TO-WALL-MASONRY-CONNECTOR`) — A built-in connector joining an intersecting or abutting masonry wall to another wall where the units are not fully bonded together course by course.
+
+## Cross-discipline links
+
+- `AU-MA-AAC-PANEL-REINFORCEMENT-CAGE` part of `AU-CL-REINFORCED-AAC-WALL-PANEL`
+- `AU-MA-CAVITY-MASONRY-WALL` supported by `AU-CF-STRIP-FOOTING-SYSTEM`
+- `AU-MA-ISOLATED-MASONRY-PIER` supported by `AU-CF-PAD-FOOTING`
+- `AU-MA-ISOLATED-MASONRY-PIER` supports `AU-TF-BEARER`
+- `AU-MA-MASONRY-BAR-POSITIONER` supports `AU-CS-LONGITUDINAL-REINFORCING-BAR`
+- `AU-MA-MASONRY-FIXING-STRAP` attached to `AU-TF-WALL-FRAME`
+- `AU-MA-MASONRY-REINFORCEMENT` is a `AU-CF-REINFORCING-BAR`
+- `AU-MA-MASONRY-VENEER-WALL` adjacent to `AU-TF-WALL-FRAME`
+- `AU-MA-MASONRY-WALL` commonly used with `AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY`
+- `AU-MA-MASONRY-WALL` commonly used with `AU-IL-FURRED-MASONRY-LINING-ASSEMBLY`
+- `AU-MA-MASONRY-WALL` commonly used with `AU-IL-INTERNAL-WALL-LINING-ASSEMBLY`
+- `AU-MA-REINFORCED-MASONRY-BOND-BEAM` has part `AU-CS-LONGITUDINAL-REINFORCING-BAR`
+- `AU-MA-REINFORCED-MASONRY-WALL` supported by `AU-CF-STRIP-FOOTING-SYSTEM`
+- `AU-MA-RENDER-FINISH-COAT` alternative to `AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM`
+- `AU-MA-REVERSE-MASONRY-VENEER-WALL` adjacent to `AU-TF-WALL-FRAME`
+- `AU-MA-SINGLE-LEAF-MASONRY-WALL` supported by `AU-CF-STRIP-FOOTING-SYSTEM`
+- `AU-MA-SUBFLOOR-MASONRY-PIER` supports `AU-TF-BEARER`
+- `AU-MA-VENEER-WALL-TIE` attached to `AU-TF-WALL-FRAME`
+- `AU-MA-VENEER-WALL-TIE` commonly used with `AU-SF-WALL-FRAME`
+- `AU-MA-WALL-TIE-FIXING` attached to `AU-TF-WALL-FRAME`

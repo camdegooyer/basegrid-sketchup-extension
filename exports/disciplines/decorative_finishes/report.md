@@ -1,0 +1,173 @@
+# Decorative Finishes discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 105
+- Internal relationships: 284
+- Outgoing cross-discipline relationships: 12
+- Distinct supporting sources: 15
+- Distinct linked standards: 5
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 63.8%
+- Objects with two or more sources: 100.0%
+
+## Categories
+
+- clear timber coatings: 5
+- decorative effect assemblies: 1
+- decorative effect coatings: 4
+- decorative finish assemblies: 1
+- exterior architectural coatings: 1
+- functional decorative coatings: 2
+- hazardous existing coating assemblies: 1
+- hazardous existing coating layers: 2
+- installed wallcovering sheets: 3
+- masonry coating assemblies: 2
+- masonry finish coatings: 2
+- natural fibre wallcoverings: 1
+- opaque architectural coatings: 5
+- paint coat layers: 4
+- paint system assemblies: 6
+- penetrating timber finishes: 2
+- primer and sealer layers: 12
+- relief wallcoverings: 2
+- specialty wallcovering materials: 4
+- surface preparation layers: 5
+- texture coatings: 3
+- timber finish assemblies: 3
+- timber finish preparation layers: 2
+- timber stains: 4
+- wallcovering adhesive layers: 1
+- wallcovering adhesives: 6
+- wallcovering assemblies: 1
+- wallcovering corners and edges: 4
+- wallcovering installation assemblies: 6
+- wallcovering materials: 4
+- wallcovering preparation layers: 3
+- wallcovering seams and edges: 2
+- wallcovering supply units: 1
+
+## Objects
+
+- **PVA wallcovering adhesive** (`AU-DF-PVA-WALLCOVERING-ADHESIVE`) — A polyvinyl-acetate-based adhesive used alone or as a documented additive for compatible heavier, less absorbent or specialist wallcoverings.
+- **aggregate-filled high-build texture coating** (`AU-DF-AGGREGATE-FILLED-HIGH-BUILD-TEXTURE`) — A latex-bound coating with mineral aggregate applied at a visibly raised build to produce a pronounced texture on prepared concrete, render or masonry.
+- **alkali-resistant masonry primer** (`AU-DF-ALKALI-RESISTANT-MASONRY-PRIMER`) — A primer selected to tolerate the alkaline character of prepared concrete, render or masonry and support the nominated coating system.
+- **architectural metal adhesion primer** (`AU-DF-METAL-ADHESION-PRIMER`) — A primer used on selected non-structural or ordinary architectural metal surfaces to establish adhesion for a decorative paint system.
+- **architectural surface finish system** (`AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM`) — The coordinated preparation, primer or sealer, intermediate coats, finish coats or installed wallcovering that creates a completed decorative surface on a building substrate.
+- **cellulose wallpaper adhesive** (`AU-DF-CELLULOSE-WALLPAPER-ADHESIVE`) — A water-mixed cellulose-based paste used to bond compatible lightweight paper or other declared wallcoverings to a suitably prepared substrate.
+- **chalkboard paint** (`AU-DF-CHALKBOARD-PAINT`) — A hard, low-glare finish coating intended to form a reusable chalk-writing field on a suitably smooth prepared surface.
+- **clear lacquer coating** (`AU-DF-LACQUER-CLEAR-COATING`) — A fast-drying clear film finish, commonly spray-applied to compatible internal timber, joinery or furniture-like building components as part of a documented lacquer system.
+- **clear masonry sealer** (`AU-DF-CLEAR-MASONRY-SEALER`) — A transparent or near-transparent coating applied to prepared concrete, masonry or render to modify surface absorption or service behaviour while leaving the substrate visible.
+- **clear timber finish system** (`AU-DF-CLEAR-TIMBER-FINISH-SYSTEM`) — A prepared timber surface carrying a transparent or near-transparent sealer and protective film that leaves grain visible.
+- **clear topcoat over timber stain** (`AU-DF-TIMBER-STAIN-CLEAR-TOPCOAT`) — A compatible transparent protective film applied over a dried timber stain where the complete selected system requires a separate clear topcoat.
+- **combined primer-sealer-undercoat** (`AU-DF-PRIMER-SEALER-UNDERCOAT`) — One formulated coating documented to perform the selected priming, sealing and undercoating roles on a compatible substrate within a particular paint system.
+- **concrete or masonry texture-coating system** (`AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM`) — A prepared concrete, render or masonry surface carrying compatible sealer, aggregate-filled texture layer and any documented protective topcoat.
+- **decorative effect base coat** (`AU-DF-DECORATIVE-BASE-COAT`) — The uniform first visible colour layer beneath a glaze, metallic, pearlescent, mottled or other worked decorative effect.
+- **decorative effect paint system** (`AU-DF-DECORATIVE-EFFECT-PAINT-SYSTEM`) — A base coat, effect material and optional glaze or protective clear coat intentionally worked into a visible pattern, metallic, pearlescent, mottled or other decorative finish.
+- **decorative glaze coat** (`AU-DF-DECORATIVE-GLAZE-COAT`) — A transparent or translucent coloured coating worked over a compatible base coat to produce layered, mottled, dragged, washed or similar decorative variation.
+- **double-cut wallcovering seam** (`AU-DF-WALLCOVERING-DOUBLE-CUT-SEAM`) — A finished butt seam produced by overlapping adjacent wallcovering edges during installation and cutting through both layers so the retained edges meet on the same cut line.
+- **embossed paintable wallpaper** (`AU-DF-ANAGLYPTA-EMBOSSED-WALLPAPER`) — A relief-pattern paper wallcovering intended to be installed in drops and commonly painted after hanging, including products often described by the legacy proprietary term anaglypta.
+- **existing lead-paint encapsulation system** (`AU-DF-LEAD-PAINT-ENCAPSULATION-SYSTEM`) — A documented existing-building management assembly in which a sound or stabilised lead-containing paint field is retained and enclosed beneath a compatible durable lead-free coating system.
+- **exterior acrylic finish coat** (`AU-DF-EXTERIOR-ACRYLIC-FINISH-COAT`) — An opaque exterior water-borne acrylic coating used as the exposed weathering finish over a compatible prepared wall, cladding, render or trim system.
+- **exterior semi-transparent timber stain** (`AU-DF-EXTERIOR-SEMITRANSPARENT-TIMBER-STAIN`) — A pigmented exterior timber coating that leaves grain partly visible while providing documented colour and weathering protection with lower opacity than paint.
+- **exterior timber opaque paint system** (`AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM`) — An opaque primer, undercoat and finish-coat build-up selected for exposed exterior timber boards, trim, doors or joinery.
+- **exterior wall paint system** (`AU-DF-EXTERIOR-WALL-PAINT-SYSTEM`) — A substrate-specific exterior preparation, primer and opaque finish-coat system applied to a wall cladding, render, concrete or masonry surface.
+- **factory-applied ready-paste coating** (`AU-DF-FACTORY-READY-PASTE-COATING`) — A dry factory-applied adhesive coating on the back of pre-pasted wallpaper that is activated by the documented wetting method before the sheet is hung.
+- **fibre-cement primer** (`AU-DF-FIBRE-CEMENT-PRIMER`) — A first coat selected for prepared fibre-cement sheet, board or trim before the compatible decorative coating build-up.
+- **flat ceiling paint** (`AU-DF-FLAT-CEILING-PAINT`) — An opaque architectural paint formulated and selected for ceilings, usually with a flat or matt appearance that limits reflected surface variation.
+- **flock wallcovering** (`AU-DF-FLOCK-WALLCOVERING`) — A decorative wallcovering with short fibres electrostatically or adhesively deposited in a raised pattern on a paper, non-woven or textile base.
+- **galvanised-metal adhesion primer** (`AU-DF-GALVANISED-METAL-ADHESION-PRIMER`) — A compatible primer applied to prepared galvanised or zinc-coated architectural metal where the selected decorative topcoat needs a separate adhesion layer.
+- **grasscloth wallcovering** (`AU-DF-GRASSCLOTH-WALLCOVERING`) — A handmade or machine-arranged natural-fibre wallcovering in which grasses, reeds or similar fibres form the visible face on a backing sheet.
+- **hardwax-oil timber finish** (`AU-DF-HARDWAX-OIL-FINISH`) — A timber finish based on drying oils and waxes that penetrates and leaves a thin surface-enriched finish rather than a conventional thick clear varnish film.
+- **high-adhesion primer** (`AU-DF-HIGH-ADHESION-PRIMER`) — A bonding primer selected for a sound but difficult-to-coat surface such as a dense, glossy or previously factory-finished substrate.
+- **installed wallcovering finish system** (`AU-DF-WALLCOVERING-FINISH-SYSTEM`) — A prepared and sealed wall or ceiling surface carrying compatible adhesive and repeated wallpaper or specialty wallcovering drops with planned seams, pattern and trimmed edges.
+- **installed wallpaper drop** (`AU-DF-WALLPAPER-DROP`) — One cut length of roll-format wallpaper hung as a sheet from the set-out line, usually vertically, and trimmed at its top, bottom, openings and junctions.
+- **internal ceiling paint system** (`AU-DF-INTERNAL-CEILING-PAINT-SYSTEM`) — A prepared ceiling lining or solid soffit carrying compatible sealer or primer and opaque finish coats selected for overhead use.
+- **internal door paint system** (`AU-DF-INTERNAL-DOOR-PAINT-SYSTEM`) — The preparation, priming, undercoating and opaque finish coats applied to selected faces and edges of an internal door leaf and compatible frame or trim.
+- **internal trim paint system** (`AU-DF-INTERNAL-TRIM-PAINT-SYSTEM`) — A higher-contact opaque coating system applied to prepared skirtings, architraves, jambs, window boards, mouldings and similar internal trim.
+- **internal wall paint system** (`AU-DF-INTERNAL-WALL-PAINT-SYSTEM`) — A prepared internal wall surface carrying the selected primer, sealer or undercoat and one or more opaque decorative finish coats.
+- **latex wallcovering adhesive** (`AU-DF-LATEX-WALLCOVERING-ADHESIVE`) — A formulated latex or polymer-dispersion adhesive used for compatible commercial vinyl, textile, foil or other specialist wallcoverings requiring a durable bond.
+- **lead-paint encapsulating coating** (`AU-DF-LEAD-PAINT-ENCAPSULATING-COATING`) — A documented coating layer installed over suitable retained lead paint to form part of a surveyed encapsulation management system.
+- **linen-backed vinyl wallcovering** (`AU-DF-LINEN-BACKED-VINYL-WALLCOVERING`) — A durable vinyl-faced wallcovering laminated to a woven linen or fabric backing, installed in heavy specialist drops with compatible adhesive and seam preparation.
+- **local spot primer** (`AU-DF-LOCAL-SPOT-PRIMER`) — Primer applied only to exposed repairs, bare patches, fixings or other local areas before the full coating schedule continues.
+- **low-profile texture coating** (`AU-DF-LOW-PROFILE-TEXTURE-COATING`) — A decorative coating containing fine aggregate or rheology that intentionally leaves a shallow relief pattern on prepared concrete, render or masonry.
+- **magnetic-receptive paint** (`AU-DF-MAGNETIC-RECEPTIVE-PAINT`) — A heavy decorative base coating containing ferrous material so magnets can be attracted to the finished wall when the documented system and build are provided.
+- **masonry pore filler** (`AU-DF-MASONRY-PORE-FILLER`) — A preparatory material worked into open pores, bugholes or a coarse mineral surface to reduce local voids before a smooth coating system.
+- **metallic effect coat** (`AU-DF-METALLIC-EFFECT-COAT`) — A decorative coating containing metallic or metal-effect flakes that produces direction-sensitive sparkle or lustre over a compatible prepared base.
+- **metallic-foil wallcovering** (`AU-DF-METALLIC-FOIL-WALLCOVERING`) — A wallcovering with a thin metallic foil or metallised decorative face laminated to a flexible backing and installed on an exceptionally smooth compatible substrate.
+- **moulded relief wallcovering** (`AU-DF-RELIEF-WALLCOVERING`) — A relatively heavy wallcovering with a moulded or deeply embossed relief face, commonly supplied in rolls and often painted or otherwise finished after installation.
+- **multi-panel wall mural assembly** (`AU-DF-WALL-MURAL-ASSEMBLY`) — A wallcovering image divided across numbered or ordered panels whose seams and set-out reconstruct one continuous mural composition.
+- **non-woven wallpaper** (`AU-DF-NONWOVEN-WALLPAPER`) — A wallpaper made with a dimensionally stable non-woven fibre backing or body, commonly installed by applying compatible paste to the wall where the product directs.
+- **opaque paint dry film** (`AU-DF-OPAQUE-PAINT-DRY-FILM`) — The permanent solid film left on a surface after an opaque architectural paint coat has dried or cured and its volatile carrier has departed.
+- **paint finish coat** (`AU-DF-PAINT-FINISH-COAT`) — The final exposed coat, or one of the exposed coats of the same finish product, that supplies the scheduled colour, sheen and service surface.
+- **paint intermediate coat** (`AU-DF-PAINT-INTERMEDIATE-COAT`) — A coat positioned between the first preparatory coat and the exposed finish coat, used where the coating schedule requires extra build, opacity or performance.
+- **paint surface repair filler** (`AU-DF-PAINT-SURFACE-REPAIR-FILLER`) — A local filler used to restore small dents, holes, cracks or surface losses before priming and painting, without becoming the structural substrate.
+- **paint undercoat** (`AU-DF-PAINT-UNDERCOAT`) — An intermediate preparatory coat used beneath a finish coat to improve opacity, build, colour uniformity or compatibility within the selected paint system.
+- **paintable perimeter caulk** (`AU-DF-PAINTABLE-PERIMETER-CAULK`) — A flexible paint-compatible bead used at selected low-movement finish junctions such as trim-to-wall gaps before the final coating is applied.
+- **paper wallpaper** (`AU-DF-PAPER-WALLPAPER`) — A decorative wallcovering whose principal face and backing are paper-based, installed in drops with a compatible wall preparation and adhesive method.
+- **paste-the-paper wallcovering assembly** (`AU-DF-PASTE-THE-PAPER-WALLCOVERING-ASSEMBLY`) — A wallcovering system in which adhesive is applied to the back of each cut drop and the material is booked or rested where the selected product requires before hanging.
+- **paste-the-wall wallcovering assembly** (`AU-DF-PASTE-THE-WALL-WALLCOVERING-ASSEMBLY`) — A wallcovering system in which adhesive is spread on the prepared wall immediately ahead of a dry non-woven or compatible covering drop.
+- **pearlescent effect coat** (`AU-DF-PEARLESCENT-EFFECT-COAT`) — A decorative coating containing interference or pearlescent pigments that changes lustre or apparent colour with viewing and lighting conditions.
+- **penetrating timber oil** (`AU-DF-PENETRATING-TIMBER-OIL`) — A low-build oil finish absorbed into prepared timber, usually leaving the grain and surface texture visible with limited film above the face.
+- **penetrating timber oil finish system** (`AU-DF-PENETRATING-TIMBER-OIL-SYSTEM`) — A prepared timber surface treated with one or more penetrating oil coats that soak into surface fibres with little or no continuous surface film.
+- **plasterboard sealer** (`AU-DF-PLASTERBOARD-SEALER`) — A first coat selected to seal new plasterboard paper, stopped joints and local compounds so later coats meet a more consistent receiving surface.
+- **polyurethane clear timber coating** (`AU-DF-POLYURETHANE-CLEAR-COATING`) — A clear film-forming timber coating whose cured binder is polyurethane or polyurethane-modified, selected for the relevant internal or external architectural surface.
+- **pressure-sensitive wallcovering adhesive backing** (`AU-DF-PRESSURE-SENSITIVE-WALLCOVERING-BACKING`) — A tacky factory-applied adhesive layer on a self-adhesive wallcovering that bonds under placement pressure after its temporary release liner is removed.
+- **ready-pasted wallpaper assembly** (`AU-DF-READY-PASTED-WALLPAPER-ASSEMBLY`) — A wallpaper system using a factory-applied dry adhesive on the sheet backing that is activated in the manner specified for the selected product before hanging.
+- **retained existing paint film** (`AU-DF-RETAINED-EXISTING-PAINT-FILM`) — An existing dry paint film deliberately left in place after its adhesion, condition and compatibility with the proposed system have been assessed.
+- **retained lead-paint field** (`AU-DF-LEAD-PAINT-RETAINED-FIELD`) — An existing coating field confirmed by suitable investigation to contain lead and deliberately retained as part of a documented management or encapsulation strategy.
+- **self-adhesive wallcovering assembly** (`AU-DF-SELF-ADHESIVE-WALLCOVERING-ASSEMBLY`) — A wall film or covering supplied with a pressure-sensitive adhesive backing and temporary release liner, installed without wet paste.
+- **shellac sealer coat** (`AU-DF-SHELLAC-SEALER-COAT`) — A thin shellac-based coat used as a clear or amber sealer, barrier or traditional finish on compatible prepared timber within a documented coating build-up.
+- **smooth concrete or masonry coating system** (`AU-DF-CONCRETE-MASONRY-SMOOTH-COATING-SYSTEM`) — A prepared concrete, render or masonry surface carrying pore treatment or sealer as needed and a smooth opaque coating build-up.
+- **smooth masonry finish coat** (`AU-DF-SMOOTH-MASONRY-FINISH-COAT`) — An opaque coating that leaves a substantially smooth painted face on prepared concrete, cement render or masonry without an intentionally aggregate-filled relief profile.
+- **solid-vinyl wallcovering** (`AU-DF-SOLID-VINYL-WALLCOVERING`) — A wallcovering with a substantial continuous vinyl face layer carried on a paper, fabric or non-woven backing and installed with a compatible heavy-duty adhesive.
+- **solvent-borne alkyd enamel** (`AU-DF-SOLVENT-BORNE-ALKYD-ENAMEL`) — An opaque solvent-borne finish coating based principally on an alkyd binder, used on compatible prepared trim, doors and selected metal or timber surfaces.
+- **solvent-borne timber stain** (`AU-DF-SOLVENT-BORNE-TIMBER-STAIN`) — A solvent-borne translucent or penetrating colouring treatment used to change prepared timber colour while retaining visible grain.
+- **solvent-borne timber varnish** (`AU-DF-SOLVENT-BORNE-VARNISH`) — A transparent or translucent solvent-borne film finish that dries or cures over prepared timber to leave the grain visible beneath a protective surface.
+- **specialty textile or natural-fibre wallcovering assembly** (`AU-DF-SPECIALTY-WALLCOVERING-ASSEMBLY`) — A prepared wall carrying product-specific adhesive and a textile, grasscloth, flock, metallic, linen-backed vinyl or other specialist wallcovering with sensitive face and seam requirements.
+- **stain-blocking primer** (`AU-DF-STAIN-BLOCKING-PRIMER`) — A barrier primer applied to a prepared stained area to reduce migration of documented water, smoke, ink or other discolouration into later decorative coats.
+- **starch wallpaper adhesive** (`AU-DF-STARCH-WALLPAPER-ADHESIVE`) — A starch-based paste used to bond compatible paper wallcoverings or lining papers to a prepared substrate, often supplied as powder or ready mix before installation.
+- **tannin-blocking primer** (`AU-DF-TANNIN-BLOCKING-PRIMER`) — A barrier primer selected to limit tannin or other extractive staining from susceptible timber through an opaque coating system.
+- **texture-coating protective topcoat** (`AU-DF-TEXTURE-COATING-PROTECTIVE-TOPCOAT`) — A separate compatible coat applied over an aggregate-filled texture layer where the documented system uses it to complete colour, cleanability or weathering performance.
+- **timber grain filler** (`AU-DF-TIMBER-GRAIN-FILLER`) — A material worked into open timber pores to produce a smoother face before a selected clear or opaque film finish.
+- **timber knot sealer** (`AU-DF-KNOT-SEALER`) — A local barrier coat applied over resinous knots or similar timber features before an opaque coating system where the selected system requires it.
+- **timber primer** (`AU-DF-TIMBER-PRIMER`) — A first opaque coat selected to bond to prepared timber or wood-based substrate and receive the later undercoat and finish coats.
+- **timber sanding sealer** (`AU-DF-TIMBER-SANDING-SEALER`) — A seal coat formulated to raise or bind fibres and provide a readily sanded base before a compatible clear timber finish.
+- **timber stain finish system** (`AU-DF-TIMBER-STAIN-FINISH-SYSTEM`) — A prepared timber surface carrying a transparent or semi-transparent colour treatment, with any required compatible sealer or protective topcoat stored separately.
+- **timber stopping putty** (`AU-DF-TIMBER-STOPPING-PUTTY`) — A small local stopping material pressed into nail holes, shallow checks and minor imperfections in timber or wood-based trim before an opaque or clear finish.
+- **vinyl-coated paper wallpaper** (`AU-DF-VINYL-COATED-PAPER-WALLPAPER`) — A paper-backed wallpaper carrying a thin vinyl or polymer face coating that improves the declared surface cleanability while retaining paper as the main backing.
+- **wall mural panel** (`AU-DF-WALL-MURAL-PANEL`) — One numbered or ordered sheet of a larger printed mural image, sized and positioned so its image edge aligns with the adjacent panel or documented overlap.
+- **wallcovering adhesive film** (`AU-DF-WALLCOVERING-ADHESIVE-FILM`) — The permanent cured or dried adhesive layer bonding an installed wallpaper or specialist wallcovering to its prepared substrate.
+- **wallcovering butt seam** (`AU-DF-WALLCOVERING-BUTT-SEAM`) — The finished narrow junction where two trimmed wallcovering edges meet edge-to-edge without an intentional face overlap.
+- **wallcovering external-corner wrap** (`AU-DF-WALLCOVERING-EXTERNAL-CORNER-WRAP`) — The portion of a compatible wallcovering sheet wrapped around a convex external corner onto the adjoining face where the product and corner condition permit it.
+- **wallcovering internal-corner return** (`AU-DF-WALLCOVERING-INTERNAL-CORNER-RETURN`) — The narrow portion of a wallcovering drop carried through an internal corner onto the adjoining wall before the next sheet is set out or overlapped as documented.
+- **wallcovering primer-sealer** (`AU-DF-WALLCOVERING-PRIMER-SEALER`) — A coating applied to a prepared wall to control porosity, improve adhesive behaviour and help later removal where supported by the wallcovering system.
+- **wallcovering seam-edge colour coating** (`AU-DF-WALLCOVERING-SEAM-EDGE-COLOUR`) — A very narrow compatible colour treatment applied to selected wallcovering cut edges so a contrasting backing is less visible at the finished seam or termination.
+- **wallcovering trimmed edge** (`AU-DF-WALLCOVERING-TRIMMED-EDGE`) — The finished cut edge where a wallcovering terminates against a ceiling, skirting, opening, fitting, trim, feature boundary or other documented stop.
+- **wallpaper border strip** (`AU-DF-WALLPAPER-BORDER`) — A narrow decorative wallcovering strip installed as a horizontal, vertical or shaped band over a prepared surface or compatible base covering.
+- **wallpaper lining paper** (`AU-DF-WALLPAPER-LINING-PAPER`) — A plain paper or fibre sheet installed over a prepared wall before the decorative wallcovering to create a more uniform receiving face or support the selected hanging system.
+- **wallpaper size coat** (`AU-DF-WALLPAPER-SIZE-COAT`) — A thin preparatory coat used in a selected wallpaper system to regulate suction, slip and adhesive working behaviour before hanging.
+- **wallpaper supply roll** (`AU-DF-WALLPAPER-ROLL`) — A factory-wound supply unit of wallpaper or roll-format wallcovering from which installed drops, panels, borders or lining lengths are cut.
+- **water-borne acrylic wall paint** (`AU-DF-WATER-BORNE-ACRYLIC-WALL-PAINT`) — An opaque water-borne architectural coating with an acrylic or related polymer binder, commonly used as the exposed finish on prepared internal walls.
+- **water-borne clear timber coating** (`AU-DF-WATER-BORNE-CLEAR-TIMBER-COATING`) — A transparent or near-transparent water-borne film finish applied to prepared timber so the grain remains visible while the surface gains the documented protection and sheen.
+- **water-borne enamel paint** (`AU-DF-WATER-BORNE-ENAMEL-PAINT`) — A water-borne opaque finish coating formulated to provide a harder, more cleanable enamel-type surface on prepared doors, trim and selected walls.
+- **water-borne timber stain** (`AU-DF-WATER-BORNE-TIMBER-STAIN`) — A water-borne translucent or penetrating colouring treatment applied to prepared timber to change its apparent colour while leaving grain visible.
+- **wet-area decorative paint** (`AU-DF-WET-AREA-DECORATIVE-PAINT`) — An exposed decorative coating selected for a humid or intermittently splashed internal location, installed over the required lining and waterproofing construction rather than replacing it.
+- **woven textile wallcovering** (`AU-DF-WOVEN-TEXTILE-WALLCOVERING`) — A decorative wallcovering with a woven textile face, usually bonded to a backing and installed in directional drops with product-specific adhesive and seam handling.
+
+## Cross-discipline links
+
+- `AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM` commonly used with `AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM`
+- `AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM` commonly used with `AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM`
+- `AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM` commonly used with `AU-IL-INTERNAL-LINING-SYSTEM`
+- `AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM` alternative to `AU-MA-RENDER-FINISH-COAT`
+- `AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM` part of `AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM`
+- `AU-DF-EXTERIOR-WALL-PAINT-SYSTEM` part of `AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM`
+- `AU-DF-INTERNAL-CEILING-PAINT-SYSTEM` part of `AU-IL-INTERNAL-LINING-SYSTEM`
+- `AU-DF-INTERNAL-DOOR-PAINT-SYSTEM` part of `AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM`
+- `AU-DF-INTERNAL-WALL-PAINT-SYSTEM` part of `AU-IL-INTERNAL-WALL-LINING-ASSEMBLY`
+- `AU-DF-PENETRATING-TIMBER-OIL-SYSTEM` commonly used with `AU-DB-DECK-TIMBER-FINISH-SYSTEM`
+- `AU-DF-PENETRATING-TIMBER-OIL-SYSTEM` commonly used with `AU-DB-SOLID-TIMBER-DECKING-BOARD`
+- `AU-DF-WALLCOVERING-FINISH-SYSTEM` part of `AU-IL-INTERNAL-WALL-LINING-ASSEMBLY`

@@ -1,0 +1,4435 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "masonry",
+  "relationships": [
+    {
+      "id": "REL-5817-MA-AAC-BLOCK-WALL-HAS-PART-AU-MA-AAC-LINTEL",
+      "from_id": "AU-MA-AAC-BLOCK-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-AAC-LINTEL",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-SA-AS-5146-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5818-MA-AAC-BLOCK-WALL-HAS-PART-AU-MA-AAC-MASONRY-BLOCK",
+      "from_id": "AU-MA-AAC-BLOCK-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-AAC-MASONRY-BLOCK",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5819-MA-AAC-BLOCK-WALL-HAS-PART-AU-MA-AAC-MOVEMENT-JOINT-ASSEMBLY",
+      "from_id": "AU-MA-AAC-BLOCK-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-AAC-MOVEMENT-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-HEBEL-TECHNICAL-DOCUMENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5820-MA-AAC-BLOCK-WALL-HAS-PART-AU-MA-AAC-THIN-BED-ADHESIVE",
+      "from_id": "AU-MA-AAC-BLOCK-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-AAC-THIN-BED-ADHESIVE",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-HEBEL-TECHNICAL-DOCUMENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5821-MA-AAC-BLOCK-WALL-IS-A-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-AAC-BLOCK-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5822-MA-AAC-CLOSURE-UNIT-IS-A-AU-MA-MASONRY-CLOSURE-UNIT",
+      "from_id": "AU-MA-AAC-CLOSURE-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-CLOSURE-UNIT",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5823-MA-AAC-LINTEL-PART-OF-AU-MA-AAC-BLOCK-WALL",
+      "from_id": "AU-MA-AAC-LINTEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-AAC-BLOCK-WALL",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-SA-AS-5146-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5824-MA-AAC-MASONRY-BLOCK-COMMONLY-USED-WITH-AU-MA-AAC-MATERIAL",
+      "from_id": "AU-MA-AAC-MASONRY-BLOCK",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-AAC-MATERIAL",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5825-MA-AAC-MASONRY-BLOCK-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-AAC-MASONRY-BLOCK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5826-MA-AAC-MASONRY-BLOCK-PART-OF-AU-MA-AAC-BLOCK-WALL",
+      "from_id": "AU-MA-AAC-MASONRY-BLOCK",
+      "relationship": "part_of",
+      "to_id": "AU-MA-AAC-BLOCK-WALL",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5827-MA-AAC-MATERIAL-COMMONLY-USED-WITH-AU-MA-AAC-MASONRY-BLOCK",
+      "from_id": "AU-MA-AAC-MATERIAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-AAC-MASONRY-BLOCK",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5828-MA-AAC-MATERIAL-COMMONLY-USED-WITH-AU-MA-AAC-PATCH-MORTAR",
+      "from_id": "AU-MA-AAC-MATERIAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-AAC-PATCH-MORTAR",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-HEBEL-TECHNICAL-DOCUMENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5829-MA-AAC-MOVEMENT-JOINT-ASSEMBLY-PART-OF-AU-MA-AAC-BLOCK-WALL",
+      "from_id": "AU-MA-AAC-MOVEMENT-JOINT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-MA-AAC-BLOCK-WALL",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-HEBEL-TECHNICAL-DOCUMENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5830-MA-AAC-PANEL-REINFORCEMENT-CAGE-COMMONLY-USED-WITH-AU-MA-REINFORCED-AAC-FLOOR-PANEL",
+      "from_id": "AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-REINFORCED-AAC-FLOOR-PANEL",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-SA-AS-5146-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5831-MA-AAC-PANEL-REINFORCEMENT-CAGE-COMMONLY-USED-WITH-AU-MA-REINFORCED-AAC-ROOF-PANEL",
+      "from_id": "AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-REINFORCED-AAC-ROOF-PANEL",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-SA-AS-5146-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5832-MA-AAC-PANEL-REINFORCEMENT-CAGE-COMMONLY-USED-WITH-AU-MA-REINFORCED-AAC-STAIR-TREAD",
+      "from_id": "AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-REINFORCED-AAC-STAIR-TREAD",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-SA-AS-5146-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5834-MA-AAC-PATCH-MORTAR-COMMONLY-USED-WITH-AU-MA-AAC-MATERIAL",
+      "from_id": "AU-MA-AAC-PATCH-MORTAR",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-AAC-MATERIAL",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-HEBEL-TECHNICAL-DOCUMENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5835-MA-AAC-SILL-UNIT-IS-A-AU-MA-SILL-MASONRY-UNIT",
+      "from_id": "AU-MA-AAC-SILL-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SILL-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5836-MA-AAC-THIN-BED-ADHESIVE-PART-OF-AU-MA-AAC-BLOCK-WALL",
+      "from_id": "AU-MA-AAC-THIN-BED-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-AAC-BLOCK-WALL",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-HEBEL-TECHNICAL-DOCUMENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5837-MA-AAC-U-SECTION-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-AAC-U-SECTION",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-SA-AS-5146-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5838-MA-ADHERED-STONE-VENEER-SYSTEM-IS-A-AU-MA-STONE-MASONRY-SYSTEM",
+      "from_id": "AU-MA-ADHERED-STONE-VENEER-SYSTEM",
+      "relationship": "is_a",
+      "to_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5839-MA-ANCHORED-STONE-FACADE-HAS-PART-AU-MA-STONE-FACADE-BRACKET",
+      "from_id": "AU-MA-ANCHORED-STONE-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-FACADE-BRACKET",
+      "source_ids": [
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5840-MA-ANCHORED-STONE-FACADE-HAS-PART-AU-MA-STONE-FACADE-DOWEL",
+      "from_id": "AU-MA-ANCHORED-STONE-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-FACADE-DOWEL",
+      "source_ids": [
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5841-MA-ANCHORED-STONE-FACADE-HAS-PART-AU-MA-STONE-FACADE-PANEL",
+      "from_id": "AU-MA-ANCHORED-STONE-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-FACADE-PANEL",
+      "source_ids": [
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5842-MA-ANCHORED-STONE-FACADE-HAS-PART-AU-MA-STONE-FACADE-RESTRAINT-ANCHOR",
+      "from_id": "AU-MA-ANCHORED-STONE-FACADE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-FACADE-RESTRAINT-ANCHOR",
+      "source_ids": [
+        "SRC-SA-AS2699-2-2020",
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5843-MA-ANCHORED-STONE-FACADE-IS-A-AU-MA-STONE-MASONRY-SYSTEM",
+      "from_id": "AU-MA-ANCHORED-STONE-FACADE",
+      "relationship": "is_a",
+      "to_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5844-MA-ANGLE-LINTEL-IS-A-AU-MA-STEEL-MASONRY-LINTEL",
+      "from_id": "AU-MA-ANGLE-LINTEL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-STEEL-MASONRY-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5845-MA-ANGLE-LINTEL-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-ANGLE-LINTEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5846-MA-ASHLAR-STONE-PANEL-PART-OF-AU-MA-STONE-MASONRY-SYSTEM",
+      "from_id": "AU-MA-ASHLAR-STONE-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5847-MA-BACKER-ROD-COMMONLY-USED-WITH-AU-MA-FLEXIBLE-JOINT-SEALANT",
+      "from_id": "AU-MA-BACKER-ROD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-FLEXIBLE-JOINT-SEALANT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5848-MA-BACKER-ROD-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-BACKER-ROD",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5849-MA-BED-JOINT-HAS-PART-AU-MA-BED-JOINT-TYING-MESH",
+      "from_id": "AU-MA-BED-JOINT",
+      "relationship": "has_part",
+      "to_id": "AU-MA-BED-JOINT-TYING-MESH",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-AS2699-2-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5850-MA-BED-JOINT-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-BED-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT",
+        "SRC-DICTIONARY-MORTAR"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5851-MA-BED-JOINT-REINFORCEMENT-IS-A-AU-MA-MASONRY-REINFORCEMENT",
+      "from_id": "AU-MA-BED-JOINT-REINFORCEMENT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-REINFORCEMENT",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-5852-MA-BED-JOINT-REINFORCEMENT-PART-OF-AU-MA-REINFORCED-MASONRY-WALL",
+      "from_id": "AU-MA-BED-JOINT-REINFORCEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-5853-MA-BED-JOINT-TYING-MESH-PART-OF-AU-MA-BED-JOINT",
+      "from_id": "AU-MA-BED-JOINT-TYING-MESH",
+      "relationship": "part_of",
+      "to_id": "AU-MA-BED-JOINT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-AS2699-2-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5854-MA-BOND-BEAM-MASONRY-UNIT-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-BOND-BEAM-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5855-MA-BOND-BEAM-MASONRY-UNIT-PART-OF-AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "from_id": "AU-MA-BOND-BEAM-MASONRY-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5856-MA-BRICK-ON-EDGE-COURSE-IS-A-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-BRICK-ON-EDGE-COURSE",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5857-MA-BRICK-VENEER-WALL-IS-A-AU-MA-MASONRY-VENEER-WALL",
+      "from_id": "AU-MA-BRICK-VENEER-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-VENEER-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-RMIT-MASONRY-VENEER",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5858-MA-BUILDING-EARTH-MIXTURE-COMMONLY-USED-WITH-AU-MA-MUD-BRICK",
+      "from_id": "AU-MA-BUILDING-EARTH-MIXTURE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-MUD-BRICK",
+      "source_ids": [
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK",
+        "SRC-YOURHOME-MUD-BRICK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5859-MA-BUILDING-EARTH-MIXTURE-HAS-PART-AU-MA-EARTH-FIBRE-ADDITION",
+      "from_id": "AU-MA-BUILDING-EARTH-MIXTURE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-EARTH-FIBRE-ADDITION",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5860-MA-BUILDING-EARTH-MIXTURE-PART-OF-AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-MA-BUILDING-EARTH-MIXTURE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5861-MA-BUILT-IN-MASONRY-ANCHOR-IS-A-AU-MA-MASONRY-CONNECTOR",
+      "from_id": "AU-MA-BUILT-IN-MASONRY-ANCHOR",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-CONNECTOR",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-AS2699-2-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5862-MA-BULLNOSE-MASONRY-UNIT-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-BULLNOSE-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-SA-ASNZS4455-1-2008",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5863-MA-CALCIUM-SILICATE-BRICK-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-CALCIUM-SILICATE-BRICK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5864-MA-CALCIUM-SILICATE-BRICK-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-CALCIUM-SILICATE-BRICK",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5865-MA-CAVITY-MASONRY-WALL-HAS-PART-AU-MA-CAVITY-WALL-TIE",
+      "from_id": "AU-MA-CAVITY-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-CAVITY-WALL-TIE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5866-MA-CAVITY-MASONRY-WALL-HAS-PART-AU-MA-INNER-MASONRY-LEAF",
+      "from_id": "AU-MA-CAVITY-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-INNER-MASONRY-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5867-MA-CAVITY-MASONRY-WALL-HAS-PART-AU-MA-OUTER-MASONRY-LEAF",
+      "from_id": "AU-MA-CAVITY-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-OUTER-MASONRY-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5868-MA-CAVITY-MASONRY-WALL-IS-A-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-CAVITY-MASONRY-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5870-MA-CAVITY-WALL-TIE-CONNECTS-TO-AU-MA-INNER-MASONRY-LEAF",
+      "from_id": "AU-MA-CAVITY-WALL-TIE",
+      "relationship": "connects_to",
+      "to_id": "AU-MA-INNER-MASONRY-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5871-MA-CAVITY-WALL-TIE-CONNECTS-TO-AU-MA-OUTER-MASONRY-LEAF",
+      "from_id": "AU-MA-CAVITY-WALL-TIE",
+      "relationship": "connects_to",
+      "to_id": "AU-MA-OUTER-MASONRY-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5872-MA-CAVITY-WALL-TIE-IS-A-AU-MA-WALL-TIE",
+      "from_id": "AU-MA-CAVITY-WALL-TIE",
+      "relationship": "is_a",
+      "to_id": "AU-MA-WALL-TIE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5873-MA-CAVITY-WALL-TIE-PART-OF-AU-MA-CAVITY-MASONRY-WALL",
+      "from_id": "AU-MA-CAVITY-WALL-TIE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-CAVITY-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5874-MA-CEMENT-LIME-SAND-RENDER-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-CEMENT-LIME-SAND-RENDER",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS1672-1-1997",
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5875-MA-CLAY-BRICK-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-CLAY-BRICK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5876-MA-CLAY-BRICK-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-CLAY-BRICK",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5877-MA-COMMON-BRICK-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-COMMON-BRICK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-SA-ASNZS4455-1-2008",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5878-MA-COMPRESSED-EARTH-BLOCK-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-COMPRESSED-EARTH-BLOCK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5879-MA-COMPRESSIBLE-JOINT-FILLER-COMMONLY-USED-WITH-AU-MA-FLEXIBLE-JOINT-SEALANT",
+      "from_id": "AU-MA-COMPRESSIBLE-JOINT-FILLER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-FLEXIBLE-JOINT-SEALANT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5880-MA-COMPRESSIBLE-JOINT-FILLER-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-COMPRESSIBLE-JOINT-FILLER",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5881-MA-CONCRETE-BLOCK-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-CONCRETE-BLOCK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5882-MA-CONCRETE-BLOCK-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-CONCRETE-BLOCK",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5883-MA-CONCRETE-BRICK-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-CONCRETE-BRICK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5884-MA-CONCRETE-BRICK-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-CONCRETE-BRICK",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5885-MA-CONTROL-JOINT-MASONRY-UNIT-ADJACENT-TO-AU-MA-VERTICAL-ARTICULATION-JOINT",
+      "from_id": "AU-MA-CONTROL-JOINT-MASONRY-UNIT",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-VERTICAL-ARTICULATION-JOINT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5886-MA-CONTROL-JOINT-MASONRY-UNIT-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-CONTROL-JOINT-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5887-MA-CORED-MASONRY-UNIT-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-CORED-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5888-MA-CORED-MASONRY-UNIT-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-CORED-MASONRY-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5889-MA-CORNER-MASONRY-UNIT-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-CORNER-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5890-MA-DAMP-PROOF-COURSE-COMMONLY-USED-WITH-AU-MA-EARTH-WALL-PLINTH",
+      "from_id": "AU-MA-DAMP-PROOF-COURSE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-EARTH-WALL-PLINTH",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5891-MA-DAMP-PROOF-COURSE-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-DAMP-PROOF-COURSE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-RMIT-MASONRY-FLASHINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5892-MA-DOUBLE-BRICK-WALL-IS-A-AU-MA-CAVITY-MASONRY-WALL",
+      "from_id": "AU-MA-DOUBLE-BRICK-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-CAVITY-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5893-MA-EARTH-CONSTRUCTION-SYSTEM-HAS-PART-AU-MA-BUILDING-EARTH-MIXTURE",
+      "from_id": "AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-BUILDING-EARTH-MIXTURE",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5894-MA-EARTH-CONSTRUCTION-SYSTEM-SUPPORTED-BY-AU-MA-EARTH-WALL-PLINTH",
+      "from_id": "AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "relationship": "supported_by",
+      "to_id": "AU-MA-EARTH-WALL-PLINTH",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5895-MA-EARTH-FIBRE-ADDITION-PART-OF-AU-MA-BUILDING-EARTH-MIXTURE",
+      "from_id": "AU-MA-EARTH-FIBRE-ADDITION",
+      "relationship": "part_of",
+      "to_id": "AU-MA-BUILDING-EARTH-MIXTURE",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5896-MA-EARTH-RENDER-COVERS-AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-MA-EARTH-RENDER",
+      "relationship": "covers",
+      "to_id": "AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5897-MA-EARTH-SLURRY-FINISH-COVERS-AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-MA-EARTH-SLURRY-FINISH",
+      "relationship": "covers",
+      "to_id": "AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5898-MA-EARTH-WALL-PLINTH-COMMONLY-USED-WITH-AU-MA-DAMP-PROOF-COURSE",
+      "from_id": "AU-MA-EARTH-WALL-PLINTH",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-DAMP-PROOF-COURSE",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5899-MA-EARTH-WALL-PLINTH-SUPPORTS-AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-MA-EARTH-WALL-PLINTH",
+      "relationship": "supports",
+      "to_id": "AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5900-MA-EARTH-WALL-PROTECTIVE-SEALER-COVERS-AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-MA-EARTH-WALL-PROTECTIVE-SEALER",
+      "relationship": "covers",
+      "to_id": "AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5901-MA-ENGAGED-MASONRY-PIER-PART-OF-AU-MA-SINGLE-LEAF-MASONRY-WALL",
+      "from_id": "AU-MA-ENGAGED-MASONRY-PIER",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SINGLE-LEAF-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-SINGLE-LEAF-MASONRY",
+        "SRC-DICTIONARY-ENGAGED-PIER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5902-MA-FACE-BRICK-IS-A-AU-MA-CLAY-BRICK",
+      "from_id": "AU-MA-FACE-BRICK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-CLAY-BRICK",
+      "source_ids": [
+        "SRC-SA-ASNZS4455-1-2008",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5903-MA-FLAT-BAR-LINTEL-IS-A-AU-MA-STEEL-MASONRY-LINTEL",
+      "from_id": "AU-MA-FLAT-BAR-LINTEL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-STEEL-MASONRY-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5904-MA-FLAT-BAR-LINTEL-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-FLAT-BAR-LINTEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5905-MA-FLEXIBLE-JOINT-SEALANT-COMMONLY-USED-WITH-AU-MA-BACKER-ROD",
+      "from_id": "AU-MA-FLEXIBLE-JOINT-SEALANT",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-BACKER-ROD",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5906-MA-FLEXIBLE-JOINT-SEALANT-COMMONLY-USED-WITH-AU-MA-COMPRESSIBLE-JOINT-FILLER",
+      "from_id": "AU-MA-FLEXIBLE-JOINT-SEALANT",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-COMPRESSIBLE-JOINT-FILLER",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5907-MA-FLEXIBLE-JOINT-SEALANT-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-FLEXIBLE-JOINT-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5908-MA-FULLY-GROUTED-MASONRY-WALL-HAS-PART-AU-MA-GROUTED-MASONRY-CORE",
+      "from_id": "AU-MA-FULLY-GROUTED-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5909-MA-FULLY-GROUTED-MASONRY-WALL-IS-A-AU-MA-REINFORCED-MASONRY-WALL",
+      "from_id": "AU-MA-FULLY-GROUTED-MASONRY-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5910-MA-GROUTED-MASONRY-CORE-HAS-PART-AU-MA-MASONRY-BAR-POSITIONER",
+      "from_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-BAR-POSITIONER",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SRIA-BAR-CHAIRS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5911-MA-GROUTED-MASONRY-CORE-HAS-PART-AU-MA-MASONRY-CORE-FILL",
+      "from_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-CORE-FILL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5912-MA-GROUTED-MASONRY-CORE-PART-OF-AU-MA-FULLY-GROUTED-MASONRY-WALL",
+      "from_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-FULLY-GROUTED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5913-MA-GROUTED-MASONRY-CORE-PART-OF-AU-MA-PARTIALLY-GROUTED-MASONRY-WALL",
+      "from_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-PARTIALLY-GROUTED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5914-MA-GROUTED-MASONRY-CORE-PART-OF-AU-MA-REINFORCED-MASONRY-PIER",
+      "from_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-PIER",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5915-MA-GROUTED-MASONRY-CORE-PART-OF-AU-MA-REINFORCED-MASONRY-WALL",
+      "from_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5916-MA-HALF-MASONRY-UNIT-IS-A-AU-MA-MASONRY-CLOSURE-UNIT",
+      "from_id": "AU-MA-HALF-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-CLOSURE-UNIT",
+      "source_ids": [
+        "SRC-SA-ASNZS4455-1-2008",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5917-MA-HEAD-FLASHING-ADJACENT-TO-AU-MA-STEEL-MASONRY-LINTEL",
+      "from_id": "AU-MA-HEAD-FLASHING",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-STEEL-MASONRY-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5918-MA-HEAD-FLASHING-IS-A-AU-MA-MASONRY-FLASHING",
+      "from_id": "AU-MA-HEAD-FLASHING",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5919-MA-HEAD-FLASHING-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-HEAD-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5920-MA-HEADER-BRICK-COURSE-IS-A-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-HEADER-BRICK-COURSE",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-THINKBRICK-TECHNICAL-MANUALS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5921-MA-HELICAL-MASONRY-TIE-IS-A-AU-MA-MASONRY-CONNECTOR",
+      "from_id": "AU-MA-HELICAL-MASONRY-TIE",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-CONNECTOR",
+      "source_ids": [
+        "SRC-SA-AS2699-2-2020",
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5922-MA-HOLLOW-MASONRY-UNIT-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-HOLLOW-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5923-MA-HOLLOW-MASONRY-UNIT-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-HOLLOW-MASONRY-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5924-MA-HORIZONTALLY-CORED-MASONRY-UNIT-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-HORIZONTALLY-CORED-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-5925-MA-HORIZONTALLY-CORED-MASONRY-UNIT-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-HORIZONTALLY-CORED-MASONRY-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-5926-MA-INNER-MASONRY-LEAF-CONNECTS-TO-AU-MA-CAVITY-WALL-TIE",
+      "from_id": "AU-MA-INNER-MASONRY-LEAF",
+      "relationship": "connects_to",
+      "to_id": "AU-MA-CAVITY-WALL-TIE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5927-MA-INNER-MASONRY-LEAF-IS-A-AU-MA-MASONRY-LEAF",
+      "from_id": "AU-MA-INNER-MASONRY-LEAF",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5928-MA-INNER-MASONRY-LEAF-PART-OF-AU-MA-CAVITY-MASONRY-WALL",
+      "from_id": "AU-MA-INNER-MASONRY-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-MA-CAVITY-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5929-MA-ISOLATED-MASONRY-PIER-HAS-PART-AU-MA-MASONRY-CORE-FILL",
+      "from_id": "AU-MA-ISOLATED-MASONRY-PIER",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-CORE-FILL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS",
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5930-MA-ISOLATED-MASONRY-PIER-HAS-PART-AU-MA-TIE-DOWN-ROD",
+      "from_id": "AU-MA-ISOLATED-MASONRY-PIER",
+      "relationship": "has_part",
+      "to_id": "AU-MA-TIE-DOWN-ROD",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-ABCB-HP-MASONRY-PIERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5933-MA-JAMB-MASONRY-UNIT-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-JAMB-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5934-MA-KNOCKOUT-BOND-BEAM-BLOCK-IS-A-AU-MA-BOND-BEAM-MASONRY-UNIT",
+      "from_id": "AU-MA-KNOCKOUT-BOND-BEAM-BLOCK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-BOND-BEAM-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5935-MA-LIME-RENDER-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-LIME-RENDER",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS1672-1-1997",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5936-MA-MANUFACTURED-STONE-MASONRY-UNIT-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-MANUFACTURED-STONE-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-TGA-CPCCST3016-SOLID-STONE",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5937-MA-MASONRY-BAR-POSITIONER-PART-OF-AU-MA-GROUTED-MASONRY-CORE",
+      "from_id": "AU-MA-MASONRY-BAR-POSITIONER",
+      "relationship": "part_of",
+      "to_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SRIA-BAR-CHAIRS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5939-MA-MASONRY-CAVITY-HAS-PART-AU-MA-MASONRY-CAVITY-CLOSER",
+      "from_id": "AU-MA-MASONRY-CAVITY",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-CAVITY-CLOSER",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5940-MA-MASONRY-CAVITY-HAS-PART-AU-MA-MASONRY-CAVITY-FIRE-BARRIER",
+      "from_id": "AU-MA-MASONRY-CAVITY",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-CAVITY-FIRE-BARRIER",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5941-MA-MASONRY-CAVITY-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-CAVITY",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-RMIT-MASONRY-TIES-CAVITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5942-MA-MASONRY-CAVITY-CLOSER-PART-OF-AU-MA-MASONRY-CAVITY",
+      "from_id": "AU-MA-MASONRY-CAVITY-CLOSER",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-CAVITY",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5943-MA-MASONRY-CAVITY-FIRE-BARRIER-PART-OF-AU-MA-MASONRY-CAVITY",
+      "from_id": "AU-MA-MASONRY-CAVITY-FIRE-BARRIER",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-CAVITY",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5944-MA-MASONRY-CLEANOUT-OPENING-PART-OF-AU-MA-MASONRY-CLEANOUT-UNIT",
+      "from_id": "AU-MA-MASONRY-CLEANOUT-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-CLEANOUT-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5945-MA-MASONRY-CLEANOUT-UNIT-HAS-PART-AU-MA-MASONRY-CLEANOUT-OPENING",
+      "from_id": "AU-MA-MASONRY-CLEANOUT-UNIT",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-CLEANOUT-OPENING",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5946-MA-MASONRY-CLEANOUT-UNIT-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-MASONRY-CLEANOUT-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5947-MA-MASONRY-CLOSURE-UNIT-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-MASONRY-CLOSURE-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-SA-ASNZS4455-1-2008",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5948-MA-MASONRY-CONNECTOR-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-CONNECTOR",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-SA-AS2699-2-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5949-MA-MASONRY-COPING-UNIT-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-MASONRY-COPING-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5950-MA-MASONRY-CORE-FILL-COMMONLY-USED-WITH-AU-MA-MASONRY-REINFORCEMENT",
+      "from_id": "AU-MA-MASONRY-CORE-FILL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-MASONRY-REINFORCEMENT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS",
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-5951-MA-MASONRY-CORE-FILL-PART-OF-AU-MA-GROUTED-MASONRY-CORE",
+      "from_id": "AU-MA-MASONRY-CORE-FILL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5952-MA-MASONRY-CORE-FILL-PART-OF-AU-MA-ISOLATED-MASONRY-PIER",
+      "from_id": "AU-MA-MASONRY-CORE-FILL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-ISOLATED-MASONRY-PIER",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS",
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5953-MA-MASONRY-CORE-FILL-PART-OF-AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "from_id": "AU-MA-MASONRY-CORE-FILL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5954-MA-MASONRY-CORE-FILL-PART-OF-AU-MA-REINFORCED-MASONRY-LINTEL",
+      "from_id": "AU-MA-MASONRY-CORE-FILL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5955-MA-MASONRY-CORE-FILL-PART-OF-AU-MA-REINFORCED-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-CORE-FILL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS",
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5956-MA-MASONRY-COURSE-HAS-PART-AU-MA-BED-JOINT",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-BED-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT",
+        "SRC-DICTIONARY-MORTAR"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5957-MA-MASONRY-COURSE-HAS-PART-AU-MA-CALCIUM-SILICATE-BRICK",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-CALCIUM-SILICATE-BRICK",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5958-MA-MASONRY-COURSE-HAS-PART-AU-MA-CLAY-BRICK",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-CLAY-BRICK",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5959-MA-MASONRY-COURSE-HAS-PART-AU-MA-CONCRETE-BLOCK",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-CONCRETE-BLOCK",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5960-MA-MASONRY-COURSE-HAS-PART-AU-MA-CONCRETE-BRICK",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-CONCRETE-BRICK",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5961-MA-MASONRY-COURSE-HAS-PART-AU-MA-CORED-MASONRY-UNIT",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-CORED-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5962-MA-MASONRY-COURSE-HAS-PART-AU-MA-HOLLOW-MASONRY-UNIT",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-HOLLOW-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5963-MA-MASONRY-COURSE-HAS-PART-AU-MA-HORIZONTALLY-CORED-MASONRY-UNIT",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-HORIZONTALLY-CORED-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-5964-MA-MASONRY-COURSE-HAS-PART-AU-MA-MASONRY-MORTAR",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-MORTAR",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MORTAR",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5965-MA-MASONRY-COURSE-HAS-PART-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5966-MA-MASONRY-COURSE-HAS-PART-AU-MA-PERPEND-JOINT",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-PERPEND-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-PERPEND"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5967-MA-MASONRY-COURSE-HAS-PART-AU-MA-SOLID-MASONRY-UNIT",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-SOLID-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5968-MA-MASONRY-COURSE-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-COURSE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5969-MA-MASONRY-CRAMP-IS-A-AU-MA-MASONRY-CONNECTOR",
+      "from_id": "AU-MA-MASONRY-CRAMP",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-CONNECTOR",
+      "source_ids": [
+        "SRC-SA-AS2699-2-2020",
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5971-MA-MASONRY-FIXING-STRAP-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-FIXING-STRAP",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5972-MA-MASONRY-FLASHING-ADJACENT-TO-AU-MA-WEEPHOLE",
+      "from_id": "AU-MA-MASONRY-FLASHING",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-WEEPHOLE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-DICTIONARY-WEEPHOLE",
+        "SRC-RMIT-MASONRY-FLASHINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5973-MA-MASONRY-FLASHING-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-RMIT-MASONRY-FLASHINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5974-MA-MASONRY-FRAME-CRAMP-IS-A-AU-MA-MASONRY-CONNECTOR",
+      "from_id": "AU-MA-MASONRY-FRAME-CRAMP",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-CONNECTOR",
+      "source_ids": [
+        "SRC-SA-AS2699-2-2020",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5975-MA-MASONRY-GROUT-STOP-PART-OF-AU-MA-REINFORCED-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-GROUT-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5976-MA-MASONRY-LEAF-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5977-MA-MASONRY-LINTEL-UNIT-IS-A-AU-MA-BOND-BEAM-MASONRY-UNIT",
+      "from_id": "AU-MA-MASONRY-LINTEL-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-BOND-BEAM-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5978-MA-MASONRY-LINTEL-UNIT-PART-OF-AU-MA-REINFORCED-MASONRY-LINTEL",
+      "from_id": "AU-MA-MASONRY-LINTEL-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5979-MA-MASONRY-MORTAR-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-MASONRY-MORTAR",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MORTAR",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5980-MA-MASONRY-REINFORCEMENT-COMMONLY-USED-WITH-AU-MA-MASONRY-CORE-FILL",
+      "from_id": "AU-MA-MASONRY-REINFORCEMENT",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-MASONRY-CORE-FILL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS",
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-5982-MA-MASONRY-REINFORCEMENT-PART-OF-AU-MA-REINFORCED-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-REINFORCEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-5983-MA-MASONRY-SCREEN-BLOCK-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-MASONRY-SCREEN-BLOCK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5984-MA-MASONRY-SHELF-ANGLE-HAS-PART-AU-MA-SHELF-ANGLE-ANCHOR",
+      "from_id": "AU-MA-MASONRY-SHELF-ANGLE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-SHELF-ANGLE-ANCHOR",
+      "source_ids": [
+        "SRC-SA-AS5216-2021",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5985-MA-MASONRY-SHELF-ANGLE-HAS-PART-AU-MA-SHELF-ANGLE-BRACKET",
+      "from_id": "AU-MA-MASONRY-SHELF-ANGLE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-SHELF-ANGLE-BRACKET",
+      "source_ids": [
+        "SRC-SA-AS2699-3-2020",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5986-MA-MASONRY-SHELF-ANGLE-HAS-PART-AU-MA-SHELF-ANGLE-SHIM",
+      "from_id": "AU-MA-MASONRY-SHELF-ANGLE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-SHELF-ANGLE-SHIM",
+      "source_ids": [
+        "SRC-SA-AS2699-3-2020",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5987-MA-MASONRY-SHELF-ANGLE-SUPPORTS-AU-MA-OUTER-MASONRY-LEAF",
+      "from_id": "AU-MA-MASONRY-SHELF-ANGLE",
+      "relationship": "supports",
+      "to_id": "AU-MA-OUTER-MASONRY-LEAF",
+      "source_ids": [
+        "SRC-SA-AS2699-3-2020",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5988-MA-MASONRY-UNIT-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-MASONRY-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5990-MA-MASONRY-VENEER-WALL-HAS-PART-AU-MA-VENEER-WALL-TIE",
+      "from_id": "AU-MA-MASONRY-VENEER-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-VENEER-WALL-TIE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE",
+        "SRC-RMIT-MASONRY-TIES-CAVITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5991-MA-MASONRY-VENEER-WALL-HAS-PART-AU-MA-WALL-TIE-FIXING",
+      "from_id": "AU-MA-MASONRY-VENEER-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-WALL-TIE-FIXING",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5992-MA-MASONRY-VENEER-WALL-IS-A-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-VENEER-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-RMIT-MASONRY-VENEER",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5996-MA-MASONRY-WALL-HAS-PART-AU-MA-ANGLE-LINTEL",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-ANGLE-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5997-MA-MASONRY-WALL-HAS-PART-AU-MA-BACKER-ROD",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-BACKER-ROD",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5998-MA-MASONRY-WALL-HAS-PART-AU-MA-COMPRESSIBLE-JOINT-FILLER",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-COMPRESSIBLE-JOINT-FILLER",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5999-MA-MASONRY-WALL-HAS-PART-AU-MA-DAMP-PROOF-COURSE",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-DAMP-PROOF-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-RMIT-MASONRY-FLASHINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6000-MA-MASONRY-WALL-HAS-PART-AU-MA-FLAT-BAR-LINTEL",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-FLAT-BAR-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6001-MA-MASONRY-WALL-HAS-PART-AU-MA-FLEXIBLE-JOINT-SEALANT",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-FLEXIBLE-JOINT-SEALANT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6002-MA-MASONRY-WALL-HAS-PART-AU-MA-HEAD-FLASHING",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-HEAD-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6003-MA-MASONRY-WALL-HAS-PART-AU-MA-MASONRY-CAVITY",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-CAVITY",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-RMIT-MASONRY-TIES-CAVITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6004-MA-MASONRY-WALL-HAS-PART-AU-MA-MASONRY-CONNECTOR",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-CONNECTOR",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-SA-AS2699-2-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6005-MA-MASONRY-WALL-HAS-PART-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6006-MA-MASONRY-WALL-HAS-PART-AU-MA-MASONRY-FIXING-STRAP",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-FIXING-STRAP",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6007-MA-MASONRY-WALL-HAS-PART-AU-MA-MASONRY-FLASHING",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-RMIT-MASONRY-FLASHINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6008-MA-MASONRY-WALL-HAS-PART-AU-MA-MASONRY-LEAF",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6009-MA-MASONRY-WALL-HAS-PART-AU-MA-MASONRY-WALL-PANEL",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-WALL-PANEL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-ABCB-HP-SINGLE-LEAF-MASONRY",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6010-MA-MASONRY-WALL-HAS-PART-AU-MA-ROOF-TIE-DOWN-STRAP",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-ROOF-TIE-DOWN-STRAP",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6011-MA-MASONRY-WALL-HAS-PART-AU-MA-SILL-FLASHING",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-SILL-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6012-MA-MASONRY-WALL-HAS-PART-AU-MA-SLIP-JOINT-MEMBRANE",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-SLIP-JOINT-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6013-MA-MASONRY-WALL-HAS-PART-AU-MA-STEEL-MASONRY-LINTEL",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STEEL-MASONRY-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-DICTIONARY-LINTEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6014-MA-MASONRY-WALL-HAS-PART-AU-MA-THIN-BED-MORTAR",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-THIN-BED-MORTAR",
+      "source_ids": [
+        "SRC-DICTIONARY-MORTAR"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6015-MA-MASONRY-WALL-HAS-PART-AU-MA-TIE-DOWN-ROD",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-TIE-DOWN-ROD",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-ABCB-HP-MASONRY-PIERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6016-MA-MASONRY-WALL-HAS-PART-AU-MA-VERTICAL-ARTICULATION-JOINT",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-VERTICAL-ARTICULATION-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6017-MA-MASONRY-WALL-HAS-PART-AU-MA-WALL-TIE",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-WALL-TIE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE",
+        "SRC-RMIT-MASONRY-TIES-CAVITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6018-MA-MASONRY-WALL-HAS-PART-AU-MA-WEEPHOLE",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-WEEPHOLE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-DICTIONARY-WEEPHOLE",
+        "SRC-RMIT-MASONRY-FLASHINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6019-MA-MASONRY-WALL-PANEL-ADJACENT-TO-AU-MA-VERTICAL-ARTICULATION-JOINT",
+      "from_id": "AU-MA-MASONRY-WALL-PANEL",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-VERTICAL-ARTICULATION-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6020-MA-MASONRY-WALL-PANEL-HAS-PART-AU-MA-RUNNING-BOND-PANEL",
+      "from_id": "AU-MA-MASONRY-WALL-PANEL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RUNNING-BOND-PANEL",
+      "source_ids": [
+        "SRC-THINKBRICK-TECHNICAL-MANUALS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6021-MA-MASONRY-WALL-PANEL-HAS-PART-AU-MA-STACK-BOND-PANEL",
+      "from_id": "AU-MA-MASONRY-WALL-PANEL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STACK-BOND-PANEL",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6022-MA-MASONRY-WALL-PANEL-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-WALL-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-ABCB-HP-SINGLE-LEAF-MASONRY",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6023-MA-MASONRY-WATERPROOF-COATING-PART-OF-AU-MA-SINGLE-LEAF-MASONRY-WALL",
+      "from_id": "AU-MA-MASONRY-WATERPROOF-COATING",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SINGLE-LEAF-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6024-MA-MUD-BRICK-COMMONLY-USED-WITH-AU-MA-BUILDING-EARTH-MIXTURE",
+      "from_id": "AU-MA-MUD-BRICK",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-BUILDING-EARTH-MIXTURE",
+      "source_ids": [
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK",
+        "SRC-YOURHOME-MUD-BRICK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6025-MA-MUD-BRICK-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-MUD-BRICK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK",
+        "SRC-YOURHOME-MUD-BRICK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6026-MA-MUD-BRICK-PART-OF-AU-MA-MUD-BRICK-WALL",
+      "from_id": "AU-MA-MUD-BRICK",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MUD-BRICK-WALL",
+      "source_ids": [
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK",
+        "SRC-YOURHOME-MUD-BRICK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6027-MA-MUD-BRICK-WALL-HAS-PART-AU-MA-MUD-BRICK",
+      "from_id": "AU-MA-MUD-BRICK-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MUD-BRICK",
+      "source_ids": [
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK",
+        "SRC-YOURHOME-MUD-BRICK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6028-MA-MUD-BRICK-WALL-HAS-PART-AU-MA-MUD-MORTAR",
+      "from_id": "AU-MA-MUD-BRICK-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MUD-MORTAR",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6029-MA-MUD-BRICK-WALL-IS-A-AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-MA-MUD-BRICK-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK",
+        "SRC-YOURHOME-MUD-BRICK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6030-MA-MUD-MORTAR-PART-OF-AU-MA-MUD-BRICK-WALL",
+      "from_id": "AU-MA-MUD-MORTAR",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MUD-BRICK-WALL",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6031-MA-NATURAL-STONE-MASONRY-UNIT-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-NATURAL-STONE-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-TGA-CPCCST3016-SOLID-STONE",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6032-MA-OPEN-END-CONCRETE-BLOCK-IS-A-AU-MA-HOLLOW-MASONRY-UNIT",
+      "from_id": "AU-MA-OPEN-END-CONCRETE-BLOCK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-HOLLOW-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6033-MA-OUTER-MASONRY-LEAF-CONNECTS-TO-AU-MA-CAVITY-WALL-TIE",
+      "from_id": "AU-MA-OUTER-MASONRY-LEAF",
+      "relationship": "connects_to",
+      "to_id": "AU-MA-CAVITY-WALL-TIE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6034-MA-OUTER-MASONRY-LEAF-IS-A-AU-MA-MASONRY-LEAF",
+      "from_id": "AU-MA-OUTER-MASONRY-LEAF",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6035-MA-OUTER-MASONRY-LEAF-PART-OF-AU-MA-CAVITY-MASONRY-WALL",
+      "from_id": "AU-MA-OUTER-MASONRY-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-MA-CAVITY-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6036-MA-OUTER-MASONRY-LEAF-SUPPORTED-BY-AU-MA-MASONRY-SHELF-ANGLE",
+      "from_id": "AU-MA-OUTER-MASONRY-LEAF",
+      "relationship": "supported_by",
+      "to_id": "AU-MA-MASONRY-SHELF-ANGLE",
+      "source_ids": [
+        "SRC-SA-AS2699-3-2020",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6037-MA-PARTIALLY-GROUTED-MASONRY-WALL-HAS-PART-AU-MA-GROUTED-MASONRY-CORE",
+      "from_id": "AU-MA-PARTIALLY-GROUTED-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6038-MA-PARTIALLY-GROUTED-MASONRY-WALL-IS-A-AU-MA-REINFORCED-MASONRY-WALL",
+      "from_id": "AU-MA-PARTIALLY-GROUTED-MASONRY-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6039-MA-PERPEND-JOINT-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-PERPEND-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-PERPEND"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6040-MA-POLYMER-MODIFIED-RENDER-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-POLYMER-MODIFIED-RENDER",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6041-MA-RAMMED-EARTH-FORMWORK-ASSEMBLY-COMMONLY-USED-WITH-AU-MA-RAMMED-EARTH-WALL",
+      "from_id": "AU-MA-RAMMED-EARTH-FORMWORK-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-RAMMED-EARTH-WALL",
+      "source_ids": [
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6042-MA-RAMMED-EARTH-LIFT-PART-OF-AU-MA-RAMMED-EARTH-WALL",
+      "from_id": "AU-MA-RAMMED-EARTH-LIFT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-RAMMED-EARTH-WALL",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6043-MA-RAMMED-EARTH-WALL-COMMONLY-USED-WITH-AU-MA-RAMMED-EARTH-FORMWORK-ASSEMBLY",
+      "from_id": "AU-MA-RAMMED-EARTH-WALL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-RAMMED-EARTH-FORMWORK-ASSEMBLY",
+      "source_ids": [
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6044-MA-RAMMED-EARTH-WALL-HAS-PART-AU-MA-RAMMED-EARTH-LIFT",
+      "from_id": "AU-MA-RAMMED-EARTH-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RAMMED-EARTH-LIFT",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6045-MA-RAMMED-EARTH-WALL-IS-A-AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-MA-RAMMED-EARTH-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-EARTH-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6046-MA-REINFORCED-AAC-FLOOR-PANEL-COMMONLY-USED-WITH-AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "from_id": "AU-MA-REINFORCED-AAC-FLOOR-PANEL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-SA-AS-5146-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6047-MA-REINFORCED-AAC-ROOF-PANEL-COMMONLY-USED-WITH-AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "from_id": "AU-MA-REINFORCED-AAC-ROOF-PANEL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-SA-AS-5146-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6048-MA-REINFORCED-AAC-STAIR-TREAD-COMMONLY-USED-WITH-AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "from_id": "AU-MA-REINFORCED-AAC-STAIR-TREAD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-SA-AS-5146-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6050-MA-REINFORCED-MASONRY-BOND-BEAM-HAS-PART-AU-MA-BOND-BEAM-MASONRY-UNIT",
+      "from_id": "AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-BOND-BEAM-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6051-MA-REINFORCED-MASONRY-BOND-BEAM-HAS-PART-AU-MA-MASONRY-CORE-FILL",
+      "from_id": "AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-CORE-FILL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6052-MA-REINFORCED-MASONRY-BOND-BEAM-PART-OF-AU-MA-REINFORCED-MASONRY-WALL",
+      "from_id": "AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6053-MA-REINFORCED-MASONRY-LINTEL-HAS-PART-AU-MA-MASONRY-CORE-FILL",
+      "from_id": "AU-MA-REINFORCED-MASONRY-LINTEL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-CORE-FILL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6054-MA-REINFORCED-MASONRY-LINTEL-HAS-PART-AU-MA-MASONRY-LINTEL-UNIT",
+      "from_id": "AU-MA-REINFORCED-MASONRY-LINTEL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-LINTEL-UNIT",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6055-MA-REINFORCED-MASONRY-LINTEL-PART-OF-AU-MA-REINFORCED-MASONRY-WALL",
+      "from_id": "AU-MA-REINFORCED-MASONRY-LINTEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6056-MA-REINFORCED-MASONRY-PIER-HAS-PART-AU-MA-GROUTED-MASONRY-CORE",
+      "from_id": "AU-MA-REINFORCED-MASONRY-PIER",
+      "relationship": "has_part",
+      "to_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6057-MA-REINFORCED-MASONRY-PIER-IS-A-AU-MA-ISOLATED-MASONRY-PIER",
+      "from_id": "AU-MA-REINFORCED-MASONRY-PIER",
+      "relationship": "is_a",
+      "to_id": "AU-MA-ISOLATED-MASONRY-PIER",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6058-MA-REINFORCED-MASONRY-PILASTER-PART-OF-AU-MA-REINFORCED-MASONRY-WALL",
+      "from_id": "AU-MA-REINFORCED-MASONRY-PILASTER",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6059-MA-REINFORCED-MASONRY-WALL-HAS-PART-AU-MA-BED-JOINT-REINFORCEMENT",
+      "from_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-BED-JOINT-REINFORCEMENT",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6060-MA-REINFORCED-MASONRY-WALL-HAS-PART-AU-MA-GROUTED-MASONRY-CORE",
+      "from_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-GROUTED-MASONRY-CORE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6061-MA-REINFORCED-MASONRY-WALL-HAS-PART-AU-MA-MASONRY-CORE-FILL",
+      "from_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-CORE-FILL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS",
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6062-MA-REINFORCED-MASONRY-WALL-HAS-PART-AU-MA-MASONRY-GROUT-STOP",
+      "from_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-GROUT-STOP",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6063-MA-REINFORCED-MASONRY-WALL-HAS-PART-AU-MA-MASONRY-REINFORCEMENT",
+      "from_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-REINFORCEMENT",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6064-MA-REINFORCED-MASONRY-WALL-HAS-PART-AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "from_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6065-MA-REINFORCED-MASONRY-WALL-HAS-PART-AU-MA-REINFORCED-MASONRY-LINTEL",
+      "from_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-REINFORCED-MASONRY-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6066-MA-REINFORCED-MASONRY-WALL-HAS-PART-AU-MA-REINFORCED-MASONRY-PILASTER",
+      "from_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-REINFORCED-MASONRY-PILASTER",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6067-MA-REINFORCED-MASONRY-WALL-IS-A-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6069-MA-REMEDIAL-WALL-TIE-IS-A-AU-MA-MASONRY-CONNECTOR",
+      "from_id": "AU-MA-REMEDIAL-WALL-TIE",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-CONNECTOR",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-AS2699-2-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6070-MA-RENDER-BASE-COAT-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-BASE-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6071-MA-RENDER-CASING-BEAD-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-CASING-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6072-MA-RENDER-CORNER-BEAD-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-CORNER-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6073-MA-RENDER-DRIP-BEAD-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-DRIP-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6074-MA-RENDER-DUBBING-COAT-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-DUBBING-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6075-MA-RENDER-EXPANDED-METAL-LATH-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-EXPANDED-METAL-LATH",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6077-MA-RENDER-FINISH-COAT-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-FINISH-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6078-MA-RENDER-FLOAT-COAT-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-FLOAT-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6079-MA-RENDER-LATH-FASTENER-FIXED-BY-AU-MA-RENDER-EXPANDED-METAL-LATH",
+      "from_id": "AU-MA-RENDER-LATH-FASTENER",
+      "relationship": "fixed_by",
+      "to_id": "AU-MA-RENDER-EXPANDED-METAL-LATH",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6080-MA-RENDER-MOVEMENT-JOINT-BEAD-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-MOVEMENT-JOINT-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6081-MA-RENDER-REINFORCING-MESH-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-REINFORCING-MESH",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6082-MA-RENDER-SCREED-BEAD-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-SCREED-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6083-MA-RENDER-SPLATTER-BOND-COAT-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-SPLATTER-BOND-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6084-MA-RENDER-SUBSTRATE-PREPARATION-LAYER-PART-OF-AU-MA-SOLID-RENDER-SYSTEM",
+      "from_id": "AU-MA-RENDER-SUBSTRATE-PREPARATION-LAYER",
+      "relationship": "part_of",
+      "to_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6086-MA-REVERSE-MASONRY-VENEER-WALL-IS-A-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-REVERSE-MASONRY-VENEER-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6087-MA-ROOF-TIE-DOWN-STRAP-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-ROOF-TIE-DOWN-STRAP",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6088-MA-RUBBLE-STONE-WALL-IS-A-AU-MA-SOLID-STONE-MASONRY-WALL",
+      "from_id": "AU-MA-RUBBLE-STONE-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SOLID-STONE-MASONRY-WALL",
+      "source_ids": [
+        "SRC-TGA-CPCCST3016-SOLID-STONE",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6089-MA-RUNNING-BOND-PANEL-PART-OF-AU-MA-MASONRY-WALL-PANEL",
+      "from_id": "AU-MA-RUNNING-BOND-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL-PANEL",
+      "source_ids": [
+        "SRC-THINKBRICK-TECHNICAL-MANUALS",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6090-MA-SHELF-ANGLE-ANCHOR-PART-OF-AU-MA-MASONRY-SHELF-ANGLE",
+      "from_id": "AU-MA-SHELF-ANGLE-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-SHELF-ANGLE",
+      "source_ids": [
+        "SRC-SA-AS5216-2021",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6091-MA-SHELF-ANGLE-BRACKET-PART-OF-AU-MA-MASONRY-SHELF-ANGLE",
+      "from_id": "AU-MA-SHELF-ANGLE-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-SHELF-ANGLE",
+      "source_ids": [
+        "SRC-SA-AS2699-3-2020",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6092-MA-SHELF-ANGLE-SHIM-PART-OF-AU-MA-MASONRY-SHELF-ANGLE",
+      "from_id": "AU-MA-SHELF-ANGLE-SHIM",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-SHELF-ANGLE",
+      "source_ids": [
+        "SRC-SA-AS2699-3-2020",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6093-MA-SILL-FLASHING-ADJACENT-TO-AU-MA-SILL-MASONRY-UNIT",
+      "from_id": "AU-MA-SILL-FLASHING",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-SILL-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6094-MA-SILL-FLASHING-IS-A-AU-MA-MASONRY-FLASHING",
+      "from_id": "AU-MA-SILL-FLASHING",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6095-MA-SILL-FLASHING-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-SILL-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6096-MA-SILL-MASONRY-UNIT-ADJACENT-TO-AU-MA-SILL-FLASHING",
+      "from_id": "AU-MA-SILL-MASONRY-UNIT",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-SILL-FLASHING",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6097-MA-SILL-MASONRY-UNIT-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-SILL-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6098-MA-SINGLE-LEAF-MASONRY-WALL-HAS-PART-AU-MA-ENGAGED-MASONRY-PIER",
+      "from_id": "AU-MA-SINGLE-LEAF-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-ENGAGED-MASONRY-PIER",
+      "source_ids": [
+        "SRC-ABCB-HP-SINGLE-LEAF-MASONRY",
+        "SRC-DICTIONARY-ENGAGED-PIER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6099-MA-SINGLE-LEAF-MASONRY-WALL-HAS-PART-AU-MA-MASONRY-WATERPROOF-COATING",
+      "from_id": "AU-MA-SINGLE-LEAF-MASONRY-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-MASONRY-WATERPROOF-COATING",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6100-MA-SINGLE-LEAF-MASONRY-WALL-IS-A-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-SINGLE-LEAF-MASONRY-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-SINGLE-LEAF-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6102-MA-SLIDING-MASONRY-ANCHOR-IS-A-AU-MA-MASONRY-CONNECTOR",
+      "from_id": "AU-MA-SLIDING-MASONRY-ANCHOR",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-CONNECTOR",
+      "source_ids": [
+        "SRC-SA-AS2699-2-2020",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6103-MA-SLIP-JOINT-MEMBRANE-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-SLIP-JOINT-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6104-MA-SOLDIER-BRICK-COURSE-IS-A-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-SOLDIER-BRICK-COURSE",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-SA-ASNZS4455-1-2008",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6105-MA-SOLID-MASONRY-UNIT-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-SOLID-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6106-MA-SOLID-MASONRY-UNIT-PART-OF-AU-MA-MASONRY-COURSE",
+      "from_id": "AU-MA-SOLID-MASONRY-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-COURSE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6107-MA-SOLID-RENDER-SYSTEM-COVERS-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "covers",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6108-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-CEMENT-LIME-SAND-RENDER",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-CEMENT-LIME-SAND-RENDER",
+      "source_ids": [
+        "SRC-SA-AS1672-1-1997",
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6109-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-LIME-RENDER",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-LIME-RENDER",
+      "source_ids": [
+        "SRC-SA-AS1672-1-1997",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6110-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-POLYMER-MODIFIED-RENDER",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-POLYMER-MODIFIED-RENDER",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6111-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-BASE-COAT",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-BASE-COAT",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6112-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-CASING-BEAD",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-CASING-BEAD",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6113-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-CORNER-BEAD",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-CORNER-BEAD",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6114-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-DRIP-BEAD",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-DRIP-BEAD",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6115-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-DUBBING-COAT",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-DUBBING-COAT",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6116-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-EXPANDED-METAL-LATH",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-EXPANDED-METAL-LATH",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6117-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-FINISH-COAT",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-FINISH-COAT",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6118-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-FLOAT-COAT",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-FLOAT-COAT",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6119-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-MOVEMENT-JOINT-BEAD",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-MOVEMENT-JOINT-BEAD",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6120-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-REINFORCING-MESH",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-REINFORCING-MESH",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6121-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-SCREED-BEAD",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-SCREED-BEAD",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6122-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-SPLATTER-BOND-COAT",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-SPLATTER-BOND-COAT",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6123-MA-SOLID-RENDER-SYSTEM-HAS-PART-AU-MA-RENDER-SUBSTRATE-PREPARATION-LAYER",
+      "from_id": "AU-MA-SOLID-RENDER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-RENDER-SUBSTRATE-PREPARATION-LAYER",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6124-MA-SOLID-STONE-MASONRY-WALL-IS-A-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-SOLID-STONE-MASONRY-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-TGA-CPCCST3016-SOLID-STONE",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6125-MA-SPECIAL-PURPOSE-MASONRY-UNIT-IS-A-AU-MA-MASONRY-UNIT",
+      "from_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6126-MA-SPLAYED-MASONRY-UNIT-IS-A-AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "from_id": "AU-MA-SPLAYED-MASONRY-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-MA-SPECIAL-PURPOSE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-SA-ASNZS4455-1-2008",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6127-MA-STABILISED-COMPRESSED-EARTH-BLOCK-IS-A-AU-MA-COMPRESSED-EARTH-BLOCK",
+      "from_id": "AU-MA-STABILISED-COMPRESSED-EARTH-BLOCK",
+      "relationship": "is_a",
+      "to_id": "AU-MA-COMPRESSED-EARTH-BLOCK",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6128-MA-STABILISED-RAMMED-EARTH-WALL-IS-A-AU-MA-RAMMED-EARTH-WALL",
+      "from_id": "AU-MA-STABILISED-RAMMED-EARTH-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-RAMMED-EARTH-WALL",
+      "source_ids": [
+        "SRC-YOURHOME-MUD-BRICK",
+        "SRC-YOURHOME-RAMMED-EARTH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6129-MA-STACK-BOND-PANEL-PART-OF-AU-MA-MASONRY-WALL-PANEL",
+      "from_id": "AU-MA-STACK-BOND-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL-PANEL",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6130-MA-STEEL-MASONRY-LINTEL-ADJACENT-TO-AU-MA-HEAD-FLASHING",
+      "from_id": "AU-MA-STEEL-MASONRY-LINTEL",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-HEAD-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6131-MA-STEEL-MASONRY-LINTEL-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-STEEL-MASONRY-LINTEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-DICTIONARY-LINTEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6132-MA-STONE-ARCH-HAS-PART-AU-MA-STONE-ARCH-VOUSSOIR",
+      "from_id": "AU-MA-STONE-ARCH",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-ARCH-VOUSSOIR",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6133-MA-STONE-ARCH-PART-OF-AU-MA-STONE-MASONRY-SYSTEM",
+      "from_id": "AU-MA-STONE-ARCH",
+      "relationship": "part_of",
+      "to_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6134-MA-STONE-ARCH-KEYSTONE-IS-A-AU-MA-STONE-ARCH-VOUSSOIR",
+      "from_id": "AU-MA-STONE-ARCH-KEYSTONE",
+      "relationship": "is_a",
+      "to_id": "AU-MA-STONE-ARCH-VOUSSOIR",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6135-MA-STONE-ARCH-VOUSSOIR-PART-OF-AU-MA-STONE-ARCH",
+      "from_id": "AU-MA-STONE-ARCH-VOUSSOIR",
+      "relationship": "part_of",
+      "to_id": "AU-MA-STONE-ARCH",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6136-MA-STONE-BEDDING-MORTAR-PART-OF-AU-MA-STONE-MASONRY-SYSTEM",
+      "from_id": "AU-MA-STONE-BEDDING-MORTAR",
+      "relationship": "part_of",
+      "to_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6137-MA-STONE-COPING-PART-OF-AU-MA-STONE-MASONRY-SYSTEM",
+      "from_id": "AU-MA-STONE-COPING",
+      "relationship": "part_of",
+      "to_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6138-MA-STONE-FACADE-BRACKET-PART-OF-AU-MA-ANCHORED-STONE-FACADE",
+      "from_id": "AU-MA-STONE-FACADE-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-MA-ANCHORED-STONE-FACADE",
+      "source_ids": [
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6139-MA-STONE-FACADE-BRACKET-SUPPORTS-AU-MA-STONE-FACADE-PANEL",
+      "from_id": "AU-MA-STONE-FACADE-BRACKET",
+      "relationship": "supports",
+      "to_id": "AU-MA-STONE-FACADE-PANEL",
+      "source_ids": [
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6140-MA-STONE-FACADE-DOWEL-PART-OF-AU-MA-ANCHORED-STONE-FACADE",
+      "from_id": "AU-MA-STONE-FACADE-DOWEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-ANCHORED-STONE-FACADE",
+      "source_ids": [
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6141-MA-STONE-FACADE-PANEL-HAS-PART-AU-MA-STONE-PANEL-KERF",
+      "from_id": "AU-MA-STONE-FACADE-PANEL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-PANEL-KERF",
+      "source_ids": [
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6142-MA-STONE-FACADE-PANEL-PART-OF-AU-MA-ANCHORED-STONE-FACADE",
+      "from_id": "AU-MA-STONE-FACADE-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-ANCHORED-STONE-FACADE",
+      "source_ids": [
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6143-MA-STONE-FACADE-PANEL-SUPPORTED-BY-AU-MA-STONE-FACADE-BRACKET",
+      "from_id": "AU-MA-STONE-FACADE-PANEL",
+      "relationship": "supported_by",
+      "to_id": "AU-MA-STONE-FACADE-BRACKET",
+      "source_ids": [
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6144-MA-STONE-FACADE-RESTRAINT-ANCHOR-PART-OF-AU-MA-ANCHORED-STONE-FACADE",
+      "from_id": "AU-MA-STONE-FACADE-RESTRAINT-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-MA-ANCHORED-STONE-FACADE",
+      "source_ids": [
+        "SRC-SA-AS2699-2-2020",
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6145-MA-STONE-FACADE-RESTRAINT-ANCHOR-RESTRAINS-AU-MA-STONE-FACADE-PANEL",
+      "from_id": "AU-MA-STONE-FACADE-RESTRAINT-ANCHOR",
+      "relationship": "restrains",
+      "to_id": "AU-MA-STONE-FACADE-PANEL",
+      "source_ids": [
+        "SRC-SA-AS2699-2-2020",
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6146-MA-STONE-LINTEL-PART-OF-AU-MA-STONE-MASONRY-SYSTEM",
+      "from_id": "AU-MA-STONE-LINTEL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6147-MA-STONE-MASONRY-SYSTEM-HAS-PART-AU-MA-ASHLAR-STONE-PANEL",
+      "from_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-ASHLAR-STONE-PANEL",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6148-MA-STONE-MASONRY-SYSTEM-HAS-PART-AU-MA-STONE-ARCH",
+      "from_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-ARCH",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6149-MA-STONE-MASONRY-SYSTEM-HAS-PART-AU-MA-STONE-BEDDING-MORTAR",
+      "from_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-BEDDING-MORTAR",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6150-MA-STONE-MASONRY-SYSTEM-HAS-PART-AU-MA-STONE-COPING",
+      "from_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-COPING",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6151-MA-STONE-MASONRY-SYSTEM-HAS-PART-AU-MA-STONE-LINTEL",
+      "from_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-LINTEL",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6152-MA-STONE-MASONRY-SYSTEM-HAS-PART-AU-MA-STONE-MOVEMENT-JOINT",
+      "from_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-MOVEMENT-JOINT",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6153-MA-STONE-MASONRY-SYSTEM-HAS-PART-AU-MA-STONE-POINTING-MORTAR",
+      "from_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-POINTING-MORTAR",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6154-MA-STONE-MASONRY-SYSTEM-HAS-PART-AU-MA-STONE-SILL",
+      "from_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-SILL",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6155-MA-STONE-MOVEMENT-JOINT-PART-OF-AU-MA-STONE-MASONRY-SYSTEM",
+      "from_id": "AU-MA-STONE-MOVEMENT-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6156-MA-STONE-PANEL-KERF-PART-OF-AU-MA-STONE-FACADE-PANEL",
+      "from_id": "AU-MA-STONE-PANEL-KERF",
+      "relationship": "part_of",
+      "to_id": "AU-MA-STONE-FACADE-PANEL",
+      "source_ids": [
+        "SRC-TGA-CPCCST3014-ANCHORED-STONE",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6157-MA-STONE-POINTING-MORTAR-PART-OF-AU-MA-STONE-MASONRY-SYSTEM",
+      "from_id": "AU-MA-STONE-POINTING-MORTAR",
+      "relationship": "part_of",
+      "to_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6158-MA-STONE-QUOIN-IS-A-AU-MA-NATURAL-STONE-MASONRY-UNIT",
+      "from_id": "AU-MA-STONE-QUOIN",
+      "relationship": "is_a",
+      "to_id": "AU-MA-NATURAL-STONE-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6159-MA-STONE-SILL-PART-OF-AU-MA-STONE-MASONRY-SYSTEM",
+      "from_id": "AU-MA-STONE-SILL",
+      "relationship": "part_of",
+      "to_id": "AU-MA-STONE-MASONRY-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-TGA-CPCCST3016-SOLID-STONE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6160-MA-STONE-VENEER-TIE-PART-OF-AU-MA-TIED-STONE-VENEER-WALL",
+      "from_id": "AU-MA-STONE-VENEER-TIE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-TIED-STONE-VENEER-WALL",
+      "source_ids": [
+        "SRC-SA-AS2699-1-2020",
+        "SRC-TGA-CPCCST3012-STONE-VENEER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6161-MA-SUBFLOOR-MASONRY-PIER-IS-A-AU-MA-ISOLATED-MASONRY-PIER",
+      "from_id": "AU-MA-SUBFLOOR-MASONRY-PIER",
+      "relationship": "is_a",
+      "to_id": "AU-MA-ISOLATED-MASONRY-PIER",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6163-MA-THIN-BED-MORTAR-IS-A-AU-MA-MASONRY-MORTAR",
+      "from_id": "AU-MA-THIN-BED-MORTAR",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-MORTAR",
+      "source_ids": [
+        "SRC-DICTIONARY-MORTAR"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6164-MA-THIN-BED-MORTAR-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-THIN-BED-MORTAR",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-DICTIONARY-MORTAR"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6165-MA-TIE-DOWN-ROD-PART-OF-AU-MA-ISOLATED-MASONRY-PIER",
+      "from_id": "AU-MA-TIE-DOWN-ROD",
+      "relationship": "part_of",
+      "to_id": "AU-MA-ISOLATED-MASONRY-PIER",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-ABCB-HP-MASONRY-PIERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6166-MA-TIE-DOWN-ROD-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-TIE-DOWN-ROD",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-ABCB-HP-MASONRY-PIERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6167-MA-TIED-STONE-VENEER-WALL-HAS-PART-AU-MA-STONE-VENEER-TIE",
+      "from_id": "AU-MA-TIED-STONE-VENEER-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-MA-STONE-VENEER-TIE",
+      "source_ids": [
+        "SRC-SA-AS2699-1-2020",
+        "SRC-TGA-CPCCST3012-STONE-VENEER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6168-MA-TIED-STONE-VENEER-WALL-IS-A-AU-MA-MASONRY-VENEER-WALL",
+      "from_id": "AU-MA-TIED-STONE-VENEER-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-VENEER-WALL",
+      "source_ids": [
+        "SRC-TGA-CPCCST3012-STONE-VENEER",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6171-MA-VENEER-WALL-TIE-IS-A-AU-MA-WALL-TIE",
+      "from_id": "AU-MA-VENEER-WALL-TIE",
+      "relationship": "is_a",
+      "to_id": "AU-MA-WALL-TIE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE",
+        "SRC-RMIT-MASONRY-TIES-CAVITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6172-MA-VENEER-WALL-TIE-PART-OF-AU-MA-MASONRY-VENEER-WALL",
+      "from_id": "AU-MA-VENEER-WALL-TIE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-VENEER-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE",
+        "SRC-RMIT-MASONRY-TIES-CAVITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6173-MA-VERTICAL-ARTICULATION-JOINT-ADJACENT-TO-AU-MA-CONTROL-JOINT-MASONRY-UNIT",
+      "from_id": "AU-MA-VERTICAL-ARTICULATION-JOINT",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-CONTROL-JOINT-MASONRY-UNIT",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-ASNZS4455-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6174-MA-VERTICAL-ARTICULATION-JOINT-ADJACENT-TO-AU-MA-MASONRY-WALL-PANEL",
+      "from_id": "AU-MA-VERTICAL-ARTICULATION-JOINT",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-MASONRY-WALL-PANEL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6175-MA-VERTICAL-ARTICULATION-JOINT-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-VERTICAL-ARTICULATION-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6176-MA-VERTICAL-ARTICULATION-JOINT-SEALED-BY-AU-MA-FLEXIBLE-JOINT-SEALANT",
+      "from_id": "AU-MA-VERTICAL-ARTICULATION-JOINT",
+      "relationship": "sealed_by",
+      "to_id": "AU-MA-FLEXIBLE-JOINT-SEALANT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-RMIT-MASONRY-ARTICULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6177-MA-WALL-TIE-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-WALL-TIE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE",
+        "SRC-RMIT-MASONRY-TIES-CAVITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6178-MA-WALL-TIE-FIXING-ATTACHED-TO-AU-MA-VENEER-WALL-TIE",
+      "from_id": "AU-MA-WALL-TIE-FIXING",
+      "relationship": "attached_to",
+      "to_id": "AU-MA-VENEER-WALL-TIE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6180-MA-WALL-TIE-FIXING-PART-OF-AU-MA-MASONRY-VENEER-WALL",
+      "from_id": "AU-MA-WALL-TIE-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-VENEER-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6181-MA-WALL-TO-WALL-MASONRY-CONNECTOR-IS-A-AU-MA-MASONRY-CONNECTOR",
+      "from_id": "AU-MA-WALL-TO-WALL-MASONRY-CONNECTOR",
+      "relationship": "is_a",
+      "to_id": "AU-MA-MASONRY-CONNECTOR",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SA-AS2699-2-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6182-MA-WEEPHOLE-ADJACENT-TO-AU-MA-MASONRY-FLASHING",
+      "from_id": "AU-MA-WEEPHOLE",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-MASONRY-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-DICTIONARY-WEEPHOLE",
+        "SRC-RMIT-MASONRY-FLASHINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6183-MA-WEEPHOLE-HAS-PART-AU-MA-WEEPHOLE-VENT-INSERT",
+      "from_id": "AU-MA-WEEPHOLE",
+      "relationship": "has_part",
+      "to_id": "AU-MA-WEEPHOLE-VENT-INSERT",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6184-MA-WEEPHOLE-PART-OF-AU-MA-MASONRY-WALL",
+      "from_id": "AU-MA-WEEPHOLE",
+      "relationship": "part_of",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-DICTIONARY-WEEPHOLE",
+        "SRC-RMIT-MASONRY-FLASHINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6185-MA-WEEPHOLE-VENT-INSERT-PART-OF-AU-MA-WEEPHOLE",
+      "from_id": "AU-MA-WEEPHOLE-VENT-INSERT",
+      "relationship": "part_of",
+      "to_id": "AU-MA-WEEPHOLE",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-WEATHERPROOFING",
+        "SRC-THINKBRICK-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-5833-MA-AAC-PANEL-REINFORCEMENT-CAGE-PART-OF-AU-CL-REINFORCED-AAC-WALL-PANEL",
+      "from_id": "AU-MA-AAC-PANEL-REINFORCEMENT-CAGE",
+      "relationship": "part_of",
+      "to_id": "AU-CL-REINFORCED-AAC-WALL-PANEL",
+      "source_ids": [
+        "SRC-HEBEL-AAC-TECHNICAL-MANUAL",
+        "SRC-SA-AS-5146-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5869-MA-CAVITY-MASONRY-WALL-SUPPORTED-BY-AU-CF-STRIP-FOOTING-SYSTEM",
+      "from_id": "AU-MA-CAVITY-MASONRY-WALL",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5931-MA-ISOLATED-MASONRY-PIER-SUPPORTED-BY-AU-CF-PAD-FOOTING",
+      "from_id": "AU-MA-ISOLATED-MASONRY-PIER",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-PAD-FOOTING",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5932-MA-ISOLATED-MASONRY-PIER-SUPPORTS-AU-TF-BEARER",
+      "from_id": "AU-MA-ISOLATED-MASONRY-PIER",
+      "relationship": "supports",
+      "to_id": "AU-TF-BEARER",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5938-MA-MASONRY-BAR-POSITIONER-SUPPORTS-AU-CS-LONGITUDINAL-REINFORCING-BAR",
+      "from_id": "AU-MA-MASONRY-BAR-POSITIONER",
+      "relationship": "supports",
+      "to_id": "AU-CS-LONGITUDINAL-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SRIA-BAR-CHAIRS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5970-MA-MASONRY-FIXING-STRAP-ATTACHED-TO-AU-TF-WALL-FRAME",
+      "from_id": "AU-MA-MASONRY-FIXING-STRAP",
+      "relationship": "attached_to",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5981-MA-MASONRY-REINFORCEMENT-IS-A-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-MA-MASONRY-REINFORCEMENT",
+      "relationship": "is_a",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-5989-MA-MASONRY-VENEER-WALL-ADJACENT-TO-AU-TF-WALL-FRAME",
+      "from_id": "AU-MA-MASONRY-VENEER-WALL",
+      "relationship": "adjacent_to",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-RMIT-MASONRY-VENEER",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5993-MA-MASONRY-WALL-COMMONLY-USED-WITH-AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5994-MA-MASONRY-WALL-COMMONLY-USED-WITH-AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5995-MA-MASONRY-WALL-COMMONLY-USED-WITH-AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-MA-MASONRY-WALL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6049-MA-REINFORCED-MASONRY-BOND-BEAM-HAS-PART-AU-CS-LONGITUDINAL-REINFORCING-BAR",
+      "from_id": "AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-LONGITUDINAL-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6068-MA-REINFORCED-MASONRY-WALL-SUPPORTED-BY-AU-CF-STRIP-FOOTING-SYSTEM",
+      "from_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6076-MA-RENDER-FINISH-COAT-ALTERNATIVE-TO-AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "from_id": "AU-MA-RENDER-FINISH-COAT",
+      "relationship": "alternative_to",
+      "to_id": "AU-DF-CONCRETE-MASONRY-TEXTURE-COATING-SYSTEM",
+      "source_ids": [
+        "SRC-TGA-CPCCSP2001-PLASTER-MATERIALS",
+        "SRC-TGA-CPCCSP3001-RENDER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6085-MA-REVERSE-MASONRY-VENEER-WALL-ADJACENT-TO-AU-TF-WALL-FRAME",
+      "from_id": "AU-MA-REVERSE-MASONRY-VENEER-WALL",
+      "relationship": "adjacent_to",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6101-MA-SINGLE-LEAF-MASONRY-WALL-SUPPORTED-BY-AU-CF-STRIP-FOOTING-SYSTEM",
+      "from_id": "AU-MA-SINGLE-LEAF-MASONRY-WALL",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SINGLE-LEAF-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6162-MA-SUBFLOOR-MASONRY-PIER-SUPPORTS-AU-TF-BEARER",
+      "from_id": "AU-MA-SUBFLOOR-MASONRY-PIER",
+      "relationship": "supports",
+      "to_id": "AU-TF-BEARER",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6169-MA-VENEER-WALL-TIE-ATTACHED-TO-AU-TF-WALL-FRAME",
+      "from_id": "AU-MA-VENEER-WALL-TIE",
+      "relationship": "attached_to",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE",
+        "SRC-RMIT-MASONRY-TIES-CAVITIES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6170-MA-VENEER-WALL-TIE-COMMONLY-USED-WITH-AU-SF-WALL-FRAME",
+      "from_id": "AU-MA-VENEER-WALL-TIE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6179-MA-WALL-TIE-FIXING-ATTACHED-TO-AU-TF-WALL-FRAME",
+      "from_id": "AU-MA-WALL-TIE-FIXING",
+      "relationship": "attached_to",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-COMPONENTS",
+        "SRC-DICTIONARY-WALL-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

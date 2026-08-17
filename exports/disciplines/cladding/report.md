@@ -1,0 +1,210 @@
+# Cladding discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 135
+- Internal relationships: 299
+- Outgoing cross-discipline relationships: 18
+- Distinct supporting sources: 28
+- Distinct linked standards: 14
+- Average overall confidence: 88.6%
+- Objects with a Tier 1 source: 48.1%
+- Objects with two or more sources: 76.3%
+
+## Categories
+
+- aac cladding components: 2
+- advanced cladding assemblies: 11
+- cladding assemblies: 3
+- cladding cavities: 1
+- cladding cavity components: 1
+- cladding finishes: 1
+- cladding fixings: 5
+- cladding joint components: 3
+- cladding joints: 7
+- cladding profiles: 2
+- cladding supports: 5
+- cladding trims: 4
+- cladding units: 7
+- continuous insulation components: 2
+- eifs components: 10
+- facade fire and cavity components: 2
+- facade support components: 10
+- facade support systems: 1
+- material cladding assemblies: 8
+- metal cassette components: 4
+- metal cladding profiles: 3
+- metal cladding units: 1
+- metal panel components: 3
+- opening flashings: 3
+- opening weathering: 1
+- rainscreen components: 4
+- sandwich panel components: 5
+- soffit assemblies: 1
+- soffit components: 2
+- terracotta components: 3
+- timber cladding profiles: 4
+- vinyl wpc components: 9
+- wall flashings: 5
+- wall membranes: 2
+
+## Objects
+
+- **EIFS adhesive bed** (`AU-CL-EIFS-ADHESIVE-BED`) — A compatible adhesive layer, beads or patches used to bond EIFS insulation panels to the prepared backing where the selected system permits adhesive fixing.
+- **EIFS control joint** (`AU-CL-EIFS-CONTROL-JOINT`) — A deliberate separation line through EIFS finish layers that accommodates movement or divides wall fields according to the selected system.
+- **EIFS corner bead** (`AU-CL-EIFS-CORNER-BEAD`) — A corner profile embedded in EIFS base coat and finish to form, protect or reinforce an external rendered arris.
+- **EIFS diagonal opening mesh patch** (`AU-CL-EIFS-DIAGONAL-MESH-PATCH`) — A local diagonal reinforcing mesh patch embedded at the corner of an EIFS opening or other stress concentration.
+- **EIFS insulated render wall system** (`AU-CL-EIFS-WALL-SYSTEM`) — An external insulated finish system made from insulation boards or panels with adhesive or mechanical fixings, reinforced base coat, trims and a textured finish coat.
+- **EIFS insulation panel** (`AU-CL-EIFS-INSULATION-PANEL`) — A rigid insulation board or panel forming the body of an external insulated render system before mesh, base coat and finish are applied.
+- **EIFS mechanical fixing washer** (`AU-CL-EIFS-MECHANICAL-FIXING-WASHER`) — A disc, washer or fixing head used with a screw or anchor to mechanically hold EIFS insulation panels to the supporting wall.
+- **EIFS reinforced base coat** (`AU-CL-EIFS-BASE-COAT`) — The render-like base layer applied over EIFS insulation panels to embed reinforcing mesh and prepare the surface for finish coats.
+- **EIFS reinforcing mesh** (`AU-CL-EIFS-REINFORCING-MESH`) — A fabric mesh embedded in the EIFS base coat across field areas, corners, joints and local stress points.
+- **EIFS starter track** (`AU-CL-EIFS-STARTER-TRACK`) — A base profile or rail that supports, aligns or terminates the bottom edge of EIFS insulation panels and render build-up.
+- **EIFS textured finish coat** (`AU-CL-EIFS-FINISH-COAT`) — The outer coloured or textured coating applied over the EIFS base coat to form the visible rendered facade surface.
+- **WPC cladding board** (`AU-CL-WPC-CLADDING-BOARD`) — A long wood-plastic composite board used as a visible cladding member with face-fix, concealed-clip or proprietary trim details.
+- **WPC cladding hidden clip** (`AU-CL-WPC-HIDDEN-CLIP`) — A concealed metal or plastic clip that engages a WPC board groove and fixes the board to its support while maintaining a gap.
+- **WPC starter or end clip** (`AU-CL-WPC-STARTER-END-CLIP`) — A special clip used to start, finish or restrain the first or last WPC cladding board in a field.
+- **aluminium composite panel** (`AU-CL-ALUMINIUM-COMPOSITE-PANEL`) — A laminated flat panel with aluminium skins bonded to a core, used as a facade sheet or routed cassette material where the selected product is accepted.
+- **cassette fixing cleat** (`AU-CL-CASSETTE-CLEAT`) — A small angle, plate or proprietary connector fixed to a cassette return or rail to support, locate or restrain the cassette module.
+- **cassette panel stiffener** (`AU-CL-CASSETTE-STIFFENER`) — A concealed bar, angle or bonded member fixed to the back of a cassette panel to limit panel deflection or oil-canning as documented.
+- **cassette return fold** (`AU-CL-CASSETTE-RETURN-FOLD`) — The folded edge leg of a cassette or routed panel that turns back from the visible face to create depth, stiffness or a fixing edge.
+- **cavity EIFS wall system** (`AU-CL-CAVITY-EIFS-WALL-SYSTEM`) — An insulated render system installed over battens or another spacer arrangement so a drainage cavity remains behind the insulation and rendered face.
+- **cladding base flashing** (`AU-CL-CLADDING-BASE-FLASHING`) — A continuous flashing or formed base profile at the bottom of a cladding field that terminates the weather barrier or cavity and discharges water clear of the wall below.
+- **cladding board butt joint** (`AU-CL-BOARD-BUTT-JOINT`) — The end-to-end interface between two cladding boards in the same run, supported and weathered by the specified cut, gap, joiner, flashing or seal detail.
+- **cladding board lap joint** (`AU-CL-BOARD-LAP-JOINT`) — The overlapping interface where the lower part of one cladding board covers the upper part or thinner edge of the board below so water is shed outward.
+- **cladding board or sheet joiner** (`AU-CL-CLADDING-JOINER`) — A purpose-made metal or plastic profile that receives adjacent cladding board ends or sheet edges and forms the documented alignment, movement and weathering joint.
+- **cladding cavity vent and closure strip** (`AU-CL-CAVITY-VENT-CLOSURE-STRIP`) — A perforated or slotted strip at a cavity opening that keeps the drainage or ventilation path open while limiting entry of insects, vermin or debris to the documented aperture size.
+- **cladding cut-edge sealer or primer** (`AU-CL-CUT-EDGE-SEALER`) — A compatible liquid treatment applied to freshly cut or exposed cladding edges where the product system requires sealing, priming, corrosion repair or moisture protection before installation or finishing.
+- **cladding drainage cavity** (`AU-CL-CLADDING-CAVITY`) — The continuous clear space behind cavity-fixed cladding and outside the inner weather-control layer through which incidental water can drain and air can move where the system permits.
+- **cladding expansion gap** (`AU-CL-CLADDING-EXPANSION-GAP`) — A deliberate clear separation between cladding units or fields sized and located so the materials or building can move without crushing, buckling or uncontrolled cracking.
+- **cladding joint backing strip** (`AU-CL-JOINT-BACKING-STRIP`) — A continuous strip behind a cladding joint that blocks a direct view or water path and provides the specified backing, drainage or sealing surface.
+- **cladding joint bond-breaker tape** (`AU-CL-BOND-BREAKER-TAPE`) — A non-bonding tape placed at the back of a sealant joint so the sealant adheres to the two side faces rather than bonding on three sides.
+- **cladding movement joint assembly** (`AU-CL-CLADDING-MOVEMENT-JOINT`) — A deliberate break between cladding fields that permits specified movement and maintains weathering through a gap, flashing, backing, sealant, trim or cover arrangement.
+- **cladding shiplap joint** (`AU-CL-SHIPLAP-JOINT`) — The fitted stepped interface formed when opposing rebates on adjacent shiplap boards overlap each other.
+- **cladding stop trim** (`AU-CL-CLADDING-STOP-TRIM`) — A linear edge profile that receives and finishes the exposed end of cladding at an opening, abutment, change of material or other termination.
+- **cladding tongue-and-groove joint** (`AU-CL-TONGUE-GROOVE-JOINT`) — The fitted linear interface where the tongue of one cladding board engages the groove of the adjacent board.
+- **composite metal panel facade assembly** (`AU-CL-COMPOSITE-METAL-PANEL-FACADE`) — A facade assembly using laminated metal-faced panels, commonly routed, folded or captured into cassette, tray or flat-sheet arrangements.
+- **concealed wall-cladding fixing clip** (`AU-CL-CONCEALED-CLADDING-CLIP`) — A hidden connector fixed to wall supports or engaged in a board or sheet edge so cladding is restrained without an exposed primary fastener through its face.
+- **concealed-fixed metal wall cladding sheet** (`AU-CL-CONCEALED-FIXED-METAL-WALL-SHEET`) — A solid profiled metal wall sheet shaped to engage hidden clips or interlocking seams so primary fixings are concealed behind the weathering face.
+- **continuous external insulation wall layer** (`AU-CL-CONTINUOUS-EXTERNAL-INSULATION-WALL`) — A wall layer where rigid insulation boards are placed continuously outside the structural framing or substrate and behind the cladding support or finish system.
+- **corrugated metal wall cladding sheet** (`AU-CL-CORRUGATED-METAL-WALL-SHEET`) — A solid metal wall sheet with a repeating curved corrugated profile and a side lap formed by overlapping matching corrugations.
+- **direct-fixed cladding wall assembly** (`AU-CL-DIRECT-FIXED-CLADDING-WALL`) — An external wall arrangement in which cladding is fixed directly to the wall frame or immediate substrate without a deliberately drained cavity behind it.
+- **drained horizontal cladding batten** (`AU-CL-DRAINED-HORIZONTAL-BATTEN`) — A horizontal cladding support shaped, notched, castellated or discontinuously installed so vertical water and air paths remain through the cavity.
+- **drained-cavity cladding wall assembly** (`AU-CL-DRAINED-CAVITY-CLADDING-WALL`) — An external wall arrangement with a deliberate clear space between cladding and the inner water-control layer, formed by battens or furring so incidental water can drain and the rear of the cladding can dry.
+- **eaves soffit lining trimmer** (`AU-CL-SOFFIT-TRIMMER`) — A repeated or perimeter support member below the eaves that provides fixing lines for soffit sheets and frames sheet edges, joints and penetrations.
+- **expressed cladding sheet joint** (`AU-CL-EXPRESSED-SHEET-JOINT`) — A deliberately visible gap between sheet or panel edges, detailed with backing, flashing, sealant or an open drained path as part of the selected cladding system.
+- **exterior hardboard cladding-board assembly** (`AU-CL-HARDBOARD-BOARD-CLADDING`) — An external wall cladding assembly of exterior-grade hardboard boards installed with the specified laps or fitted joints, fixings, expansion details, coatings and flashings.
+- **exterior hardboard sheet wall cladding assembly** (`AU-CL-HARDBOARD-SHEET-CLADDING`) — An external cladding assembly of exterior-grade hardboard sheets fixed to a support grid with compatible joiners, movement gaps, coatings and opening flashings.
+- **exterior hardboard wall cladding board** (`AU-CL-HARDBOARD-CLADDING-BOARD`) — A long narrow exterior-grade wet-process fibreboard cladding unit formed for an overlapping, rebated, spline or other documented external joint.
+- **exterior hardboard wall cladding sheet** (`AU-CL-HARDBOARD-CLADDING-SHEET`) — A broad exterior-grade hardboard sheet, often grooved or textured, used as one module in an external wall cladding system.
+- **external cladding corner trim** (`AU-CL-EXTERNAL-CORNER-TRIM`) — A visible linear profile covering or forming the junction where cladding turns around an external wall corner, installed over the system corner flashing and supports.
+- **external cladding joint sealant** (`AU-CL-CLADDING-JOINT-SEALANT`) — A compatible flexible sealant bead installed in a cladding joint or around a trim to restrict water and air entry while accommodating the specified movement.
+- **external cladding nail** (`AU-CL-CLADDING-NAIL`) — A corrosion-compatible nail selected to fix a cladding board or sheet through any batten and into the supporting framing with the required head, shank and penetration.
+- **external cladding screw** (`AU-CL-CLADDING-SCREW`) — A corrosion-compatible screw selected to fasten cladding, clips, trims or flashings to timber or metal supports with the required head, thread, washer and penetration.
+- **external eaves and soffit lining assembly** (`AU-CL-EAVES-SOFFIT-LINING-SYSTEM`) — The external underside lining below eaves, overhangs or similar sheltered projections, including sheets, trimmers or framing supports, fixings, joints, vents and perimeter trims.
+- **external insulation long screw** (`AU-CL-EXTERNAL-INSULATION-LONG-SCREW`) — A long screw or fastener that passes through external insulation to hold battens, rails, washers or cladding supports back to the structure.
+- **external insulation washer plate** (`AU-CL-EXTERNAL-INSULATION-WASHER-PLATE`) — A disc, plate or washer that spreads fastener load over rigid external insulation board or a facade support interface.
+- **external wall cladding corner flashing** (`AU-CL-CORNER-FLASHING`) — A continuous folded or pliable flashing behind an internal or external cladding corner that provides a secondary weather path beneath the visible corner joint or trim.
+- **external wall cladding system** (`AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM`) — The weather-exposed wall assembly outside the structural wall, including the selected boards, sheets or panels and the supports, membrane, cavity, joints, fixings, trims and flashings required by that system.
+- **external wall opening flashing assembly** (`AU-CL-OPENING-FLASHING-SYSTEM`) — The coordinated head, sill and jamb flashings and seals around a window, door or other wall opening that collect and discharge water to the outside without relying on the cladding face alone.
+- **external wall opening head flashing** (`AU-CL-WINDOW-DOOR-HEAD-FLASHING`) — A flashing above a window, door or other wall opening that intercepts water from the cladding or cavity above and projects or drains it to the exterior clear of the opening head.
+- **external wall opening jamb flashing** (`AU-CL-WINDOW-DOOR-JAMB-FLASHING`) — A vertical flashing or membrane return at the side of a wall opening that connects the frame or reveal to the wall weather barrier and directs water down to the sill flashing.
+- **external wall opening sill flashing** (`AU-CL-WINDOW-DOOR-SILL-FLASHING`) — A tray, flap or sloping flashing below a window, door or other opening that collects water from the frame and jambs and drains it outward over or through the cladding system.
+- **external wall service penetration flashing** (`AU-CL-SERVICE-PENETRATION-FLASHING`) — A collar, boot, tray or folded flashing that connects a pipe, conduit, duct, box or other wall penetration to the cladding and inner weather barrier and drains water outward.
+- **external wall weather barrier** (`AU-CL-WALL-WEATHER-BARRIER`) — A pliable membrane or sarking layer installed outside the wall frame or substrate and behind cladding to form a continuous secondary water-control and air-control layer with classified vapour properties.
+- **facade cavity barrier** (`AU-CL-FACADE-CAVITY-BARRIER`) — A horizontal, vertical or perimeter barrier installed in a facade cavity to subdivide concealed spaces according to a selected fire or compartmentation detail.
+- **facade fixed-point connection** (`AU-CL-FACADE-FIXED-POINT`) — A selected facade rail, bracket or panel connection that restrains movement in the nominated direction and acts as the datum for expansion or tolerance.
+- **facade hook plate** (`AU-CL-FACADE-HOOK-PLATE`) — A plate or bracket shaped to hook a facade panel, cassette or terracotta unit onto a rail or matching receiver.
+- **facade panel clip** (`AU-CL-FACADE-PANEL-CLIP`) — A small metal or proprietary connector that engages a facade panel edge, kerf, groove or back fixing and attaches it to a rail or bracket.
+- **facade rail splice plate** (`AU-CL-FACADE-RAIL-SPLICE-PLATE`) — A connector plate or insert used to join two facade rail lengths while maintaining alignment and any required movement gap.
+- **facade sliding-point connection** (`AU-CL-FACADE-SLIDING-POINT`) — A facade connection detailed with a slot, clearance or compatible fastener condition so the connected panel or rail can move in a nominated direction.
+- **facade stand-off spacer** (`AU-CL-FACADE-STANDOFF`) — A spacer or stand-off component that holds a rail, clip or panel fixing a controlled distance away from the backing wall or support.
+- **facade support bracket** (`AU-CL-FACADE-BRACKET`) — A discrete metal bracket fixed to backing structure to hold a facade rail or panel support away from the wall.
+- **facade thermal isolation pad** (`AU-CL-FACADE-THERMAL-ISOLATION-PAD`) — A small pad or washer placed at a bracket or fixing interface to reduce direct thermal bridging and separate dissimilar materials.
+- **fibre-cement board wall cladding assembly** (`AU-CL-FIBRE-CEMENT-BOARD-CLADDING`) — An external cladding assembly of lapped or profiled fibre-cement boards fixed to framing or battens with compatible nails or screws, joints, trims, coating and flashings.
+- **fibre-cement cladding nail** (`AU-CL-FIBRE-CEMENT-NAIL`) — A corrosion-compatible nail with a head and shank selected for fixing fibre-cement boards or sheets to a suitable support without unacceptable breakout or overdriving.
+- **fibre-cement eaves or soffit lining sheet** (`AU-CL-FIBRE-CEMENT-SOFFIT-SHEET`) — A fibre-cement sheet installed as the exposed underside lining of an eave, soffit or sheltered external projection.
+- **fibre-cement sheet wall cladding assembly** (`AU-CL-FIBRE-CEMENT-SHEET-CLADDING`) — An external wall cladding assembly of fibre-cement sheets or panels fixed on an edge and field grid with compatible joints, backing, sealants or trims, coatings and flashings.
+- **fibre-cement wall cladding board** (`AU-CL-FIBRE-CEMENT-CLADDING-BOARD`) — A long narrow fibre-cement external cladding unit formed for lapped, shiplap or another documented board joint.
+- **fibre-cement wall cladding sheet** (`AU-CL-FIBRE-CEMENT-CLADDING-SHEET`) — A flat or textured fibre-cement sheet used as one module in an external wall cladding or soffit system.
+- **horizontal facade rail** (`AU-CL-HORIZONTAL-FACADE-RAIL`) — A horizontal metal rail used to support, hook, clip or align facade panels or terracotta units.
+- **horizontal inter-storey cladding flashing** (`AU-CL-HORIZONTAL-INTERSTOREY-FLASHING`) — A continuous horizontal flashing at a floor line or other cladding break that separates wall fields, drains the upper field outward and accommodates documented building or material movement.
+- **horizontal structural cladding batten** (`AU-CL-HORIZONTAL-STRUCTURAL-BATTEN`) — A horizontal secondary member designed to support vertical or diagonal cladding and transfer its actions back to the structural wall.
+- **insulated sandwich panel wall assembly** (`AU-CL-INSULATED-SANDWICH-PANEL-WALL`) — A wall assembly made from factory-bonded insulated panels with metal skins, an insulation core, edge joints, fasteners, seals and flashings.
+- **internal cladding corner trim** (`AU-CL-INTERNAL-CORNER-TRIM`) — A visible linear profile covering or forming the re-entrant junction where cladding from two wall faces meets at an internal corner.
+- **metal cassette facade assembly** (`AU-CL-METAL-CASSETTE-FACADE`) — A facade assembly using folded metal tray or cassette panels fixed to rails, cleats or brackets with expressed, sealed or drained joints.
+- **metal cassette tray panel** (`AU-CL-METAL-CASSETTE-TRAY`) — A folded metal panel module with returns or tray edges that create depth and fixing zones behind the visible face.
+- **metal honeycomb facade panel** (`AU-CL-METAL-HONEYCOMB-PANEL`) — A composite facade panel with metal face sheets bonded to a honeycomb core, used where a selected product system documents the support and edge details.
+- **metal wall furring channel** (`AU-CL-WALL-FURRING-CHANNEL`) — A cold-formed metal channel or top-hat section fixed to the wall structure to align and support sheet or panel cladding away from the primary frame.
+- **open rainscreen joint** (`AU-CL-OPEN-RAINSCREEN-JOINT`) — A visible unsealed gap between rainscreen panels that remains deliberately open while hidden backing details manage weathering.
+- **open-jointed rainscreen facade assembly** (`AU-CL-OPEN-JOINTED-RAINSCREEN-FACADE`) — A rainscreen facade where deliberate visible gaps remain between panels and the cavity, membrane, flashings and baffles behind them manage water and air movement.
+- **open-state intumescent facade cavity barrier** (`AU-CL-OPEN-STATE-INTUMESCENT-CAVITY-BARRIER`) — A ventilating cavity barrier that leaves an air path in normal conditions and uses an intumescent component to close the opening when activated by fire.
+- **profiled metal wall cladding sheet** (`AU-CL-PROFILED-METAL-WALL-SHEET`) — A solid metal wall sheet formed with repeated ribs, pans, corrugations or seams so it spans between wall supports and overlaps or engages adjacent sheets.
+- **rail-and-bracket facade support system** (`AU-CL-RAIL-BRACKET-FACADE-SUPPORT-SYSTEM`) — A support subframe of rails, brackets, anchors and isolation pieces that spaces facade panels away from the backing wall and transfers their actions to structure.
+- **rainscreen facade panel** (`AU-CL-RAINSCREEN-PANEL`) — A discrete flat, profiled or textured panel used as one visible module in a rainscreen facade.
+- **rainscreen joint baffle** (`AU-CL-RAINSCREEN-JOINT-BAFFLE`) — A hidden profile or strip placed behind an open facade joint to interrupt water entry, shadow the backing layer or form part of a pressure-managed joint.
+- **rainscreen panel joint** (`AU-CL-RAINSCREEN-PANEL-JOINT`) — The controlled gap or interface line between adjacent rainscreen panels, including any backing strip, baffle, seal or gasket required by the selected system.
+- **rebated bevel-back timber weatherboard** (`AU-CL-REBATED-BEVEL-WEATHERBOARD`) — A bevelled timber weatherboard with a machined rebate that locates or overlaps the adjacent course while retaining a sloping external face.
+- **reinforced AAC external wall panel** (`AU-CL-REINFORCED-AAC-WALL-PANEL`) — A factory-made autoclaved aerated concrete wall panel containing cast-in reinforcement and installed as one unit of a documented external wall system.
+- **reinforced AAC panel external wall assembly** (`AU-CL-AAC-PANEL-CLADDING`) — A supplied external wall system of reinforced autoclaved aerated concrete panels, supports or fixings, panel joints, coatings, flashings and movement details installed to a documented system.
+- **reinforced AAC panel fixing or bracket** (`AU-CL-AAC-PANEL-FIXING`) — A documented bracket, cleat, screw or anchor assembly that supports or restrains a reinforced AAC wall panel and transfers its actions to the structural frame or support.
+- **rusticated timber cladding board** (`AU-CL-RUSTICATED-CLADDING-BOARD`) — A horizontally installed profiled timber board with a rebated or tongued joint and an expressed groove or shadow line at each course.
+- **sandwich panel fastener and sealing washer** (`AU-CL-SANDWICH-PANEL-FASTENER-WASHER`) — A screw or other fastener with a sealing washer used to fix insulated sandwich panels to supports or flashings.
+- **sandwich panel inner metal liner** (`AU-CL-SANDWICH-PANEL-INNER-LINER`) — The internal metal sheet face of an insulated sandwich wall panel, visible or concealed on the inside of the panel assembly.
+- **sandwich panel insulation core** (`AU-CL-SANDWICH-PANEL-CORE`) — The factory-bonded insulation body between the inner and outer skins of an insulated sandwich panel.
+- **sandwich panel outer metal skin** (`AU-CL-SANDWICH-PANEL-OUTER-SKIN`) — The external metal sheet face of an insulated sandwich wall panel, including its finish, profile and weather-exposed surface.
+- **sandwich panel side-lap joint** (`AU-CL-SANDWICH-PANEL-SIDE-LAP`) — The shaped longitudinal edge joint where adjacent sandwich panels interlock, overlap, seal or fasten together.
+- **shiplap cladding board** (`AU-CL-SHIPLAP-CLADDING-BOARD`) — A cladding board with opposing edge rebates that overlap adjacent boards to create a stepped fitted joint while allowing the boards to remain substantially in one plane.
+- **solid metal facade plate** (`AU-CL-SOLID-METAL-FACADE-PLATE`) — A solid metal plate or sheet panel used as a facade module without a bonded non-metal core.
+- **solid metal sheet wall cladding assembly** (`AU-CL-METAL-SHEET-WALL-CLADDING`) — A wall cladding assembly of solid profiled or formed metal sheets fixed to girts, battens or other immediate supports with compatible laps, clips or fasteners, flashings and closures.
+- **splayed timber weatherboard** (`AU-CL-SPLAYED-WEATHERBOARD`) — A tapered or bevelled timber weatherboard laid horizontally so the thinner upper edge sits behind the thicker lower edge of the board above.
+- **structural plywood cladding sheet** (`AU-CL-STRUCTURAL-PLYWOOD-CLADDING-SHEET`) — A structural-grade plywood sheet used as an external cladding module, with its exposed edges, gaps, fixings and finish detailed for exterior service.
+- **structural plywood wall cladding assembly** (`AU-CL-PLYWOOD-SHEET-CLADDING`) — An external wall assembly of structural plywood sheets fixed to framing or battens with detailed edge support, movement joints, weathering finish and flashings; any structural bracing role is separately scheduled.
+- **terracotta baguette** (`AU-CL-TERRACOTTA-BAGUETTE`) — A long hollow or solid terracotta member used as a sunscreen, screen, louvre or decorative linear element in a facade.
+- **terracotta facade clip** (`AU-CL-TERRACOTTA-CLIP`) — A metal clip or holder that supports or restrains a terracotta facade tile, panel or baguette on its carrier rail.
+- **terracotta facade tile or panel** (`AU-CL-TERRACOTTA-FACADE-TILE`) — A fired-clay facade tile or panel module hung, clipped or otherwise supported on a terracotta rainscreen support system.
+- **terracotta rainscreen facade assembly** (`AU-CL-TERRACOTTA-RAINSCREEN-FACADE`) — A ventilated facade assembly using fired-clay terracotta tiles, panels or baguettes supported on rails, clips and gaskets.
+- **timber board wall cladding assembly** (`AU-CL-TIMBER-BOARD-CLADDING`) — An external cladding assembly of overlapping or interlocking timber boards fixed horizontally, vertically or diagonally with compatible supports, membrane, fixings, joints, finishes and flashings.
+- **timber weatherboard** (`AU-CL-TIMBER-WEATHERBOARD`) — A timber cladding board shaped and installed to shed water as part of an overlapping or interlocking external wall covering.
+- **tongue-and-groove cladding board** (`AU-CL-TONGUE-GROOVE-CLADDING-BOARD`) — A profiled cladding board with a projecting tongue on one edge and a matching groove on the other so adjacent boards interlock along their length.
+- **trapezoidal-rib metal wall cladding sheet** (`AU-CL-TRAPEZOIDAL-METAL-WALL-SHEET`) — A solid metal wall sheet with repeated angular ribs and pans and a side-lap detail specific to its profile.
+- **ventilated rainscreen facade assembly** (`AU-CL-VENTILATED-RAINSCREEN-FACADE`) — An external cladding arrangement where panels or boards sit on an offset support system with a drained and ventilated cavity behind the weathering face.
+- **vertical cladding cavity batten** (`AU-CL-VERTICAL-CAVITY-BATTEN`) — A vertical wall batten that supports horizontal or sheet cladding while preserving predominantly vertical drainage routes behind the cladding.
+- **vertical cladding joint flashing** (`AU-CL-VERTICAL-JOINT-FLASHING`) — A narrow vertical flashing behind a board or sheet joint that intercepts water passing the face joint and drains it downward within the wall weathering system.
+- **vertical facade carrier rail** (`AU-CL-VERTICAL-CARRIER-RAIL`) — A vertical metal rail that receives panel clips, screws, hooks or cassette fixings in a facade support system.
+- **vinyl cladding J-channel** (`AU-CL-VINYL-J-CHANNEL`) — A J-shaped trim profile that receives cut ends or edges of vinyl cladding boards at openings, sides, soffits or terminations.
+- **vinyl cladding board** (`AU-CL-VINYL-CLADDING-BOARD`) — A long uPVC or vinyl cladding board with a visible face, lock edge and fixing hem or slot as part of a board cladding system.
+- **vinyl cladding corner post** (`AU-CL-VINYL-CORNER-POST`) — A vertical vinyl profile at an external or internal corner that receives cladding board ends from adjacent wall faces.
+- **vinyl cladding lock edge** (`AU-CL-VINYL-LOCK-EDGE`) — The shaped edge of a vinyl board that snaps, hooks or laps into the matching edge of the adjacent board.
+- **vinyl cladding nail hem** (`AU-CL-VINYL-NAIL-HEM`) — The fixing flange along a vinyl board or accessory containing slots or holes for nails or screws while allowing board movement.
+- **vinyl cladding starter strip** (`AU-CL-VINYL-STARTER-STRIP`) — A base profile fixed to the wall to receive and align the first course of vinyl cladding boards.
+- **vinyl or uPVC board cladding assembly** (`AU-CL-VINYL-UPVC-CLADDING`) — A lightweight external cladding assembly using interlocking vinyl or uPVC boards with starter strips, channels, corner posts and movement clearances.
+- **wall cladding batten** (`AU-CL-WALL-CLADDING-BATTEN`) — A repeated secondary member fixed to the wall frame or substrate to support cladding, establish its fixing grid and, where configured, form a drainage cavity.
+- **wall cladding board** (`AU-CL-WALL-CLADDING-BOARD`) — A long narrow external cladding unit installed in repeated courses or runs with lapped, rebated, shiplap, tongue-and-groove or other detailed edges.
+- **wall cladding sheet** (`AU-CL-WALL-CLADDING-SHEET`) — A broad, relatively thin external cladding unit fixed as a rectangular or profiled module to framing, battens or girts with detailed edges, joints and openings.
+- **wall weather-barrier seam tape** (`AU-CL-WEATHER-BARRIER-SEAM-TAPE`) — A compatible adhesive tape applied over selected laps, cuts, repairs or junctions in a wall weather barrier to maintain the documented water or air-control continuity.
+- **wall-cladding rivet** (`AU-CL-WALLING-RIVET`) — A corrosion-compatible blind or solid rivet used to join thin metal cladding, flashings or trims where the selected walling system permits a riveted connection.
+- **wood-plastic composite board cladding assembly** (`AU-CL-WPC-BOARD-CLADDING`) — An external cladding assembly using wood-plastic composite boards fixed with clips, screws or trims over a support grid.
+
+## Cross-discipline links
+
+- `AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM` commonly used with `AU-DB-WALL-CLADDING-MEMBRANE-TERMINATION`
+- `AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM` commonly used with `AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM`
+- `AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM` commonly used with `AU-SF-WALL-FRAME`
+- `AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM` commonly used with `AU-TF-WALL-FRAME`
+- `AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM` has part `AU-DF-EXTERIOR-TIMBER-OPAQUE-PAINT-SYSTEM`
+- `AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM` has part `AU-DF-EXTERIOR-WALL-PAINT-SYSTEM`
+- `AU-CL-FACADE-CAVITY-BARRIER` commonly used with `AU-FS-PASSIVE-FIRESTOP-SYSTEM`
+- `AU-CL-FIBRE-CEMENT-SOFFIT-SHEET` commonly used with `AU-DB-BALCONY-SOFFIT-ENCLOSURE-ASSEMBLY`
+- `AU-CL-OPENING-FLASHING-SYSTEM` commonly used with `AU-WD-GLAZED-DOOR-ASSEMBLY`
+- `AU-CL-OPENING-FLASHING-SYSTEM` commonly used with `AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY`
+- `AU-CL-OPENING-FLASHING-SYSTEM` commonly used with `AU-WD-WINDOW-ASSEMBLY`
+- `AU-CL-REINFORCED-AAC-WALL-PANEL` has part `AU-MA-AAC-PANEL-REINFORCEMENT-CAGE`
+- `AU-CL-SERVICE-PENETRATION-FLASHING` commonly used with `AU-DB-SERVICE-MEMBRANE-PENETRATION`
+- `AU-CL-SOFFIT-TRIMMER` commonly used with `AU-DB-BALCONY-SOFFIT-ENCLOSURE-ASSEMBLY`
+- `AU-CL-WALL-FURRING-CHANNEL` alternative to `AU-IL-WALL-LINING-FURRING-CHANNEL`
+- `AU-CL-WALL-WEATHER-BARRIER` commonly used with `AU-TC-PLIABLE-BUILDING-MEMBRANE`
+- `AU-CL-WALL-WEATHER-BARRIER` commonly used with `AU-TC-WATER-CONTROL-MEMBRANE`
+- `AU-CL-WEATHER-BARRIER-SEAM-TAPE` commonly used with `AU-TC-MEMBRANE-SEAM-TAPE`

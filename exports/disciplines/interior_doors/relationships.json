@@ -1,0 +1,3679 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "interior_doors",
+  "relationships": [
+    {
+      "id": "REL-4867-ID-BLOCKBOARD-CORE-FLUSH-DOOR-LEAF-IS-A-AU-ID-FLUSH-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-BLOCKBOARD-CORE-FLUSH-DOOR-LEAF",
+      "relationship": "is_a",
+      "to_id": "AU-ID-FLUSH-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4868-ID-BLOCKBOARD-CORE-FLUSH-DOOR-LEAF-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-BLOCKBOARD-CORE-FLUSH-DOOR-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4869-ID-BUTT-HINGE-LEAF-PART-OF-AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "from_id": "AU-ID-BUTT-HINGE-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4870-ID-BUTT-HINGE-PIN-PART-OF-AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "from_id": "AU-ID-BUTT-HINGE-PIN",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4872-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-CAVITY-SLIDER-LOCK-BODY",
+      "from_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CAVITY-SLIDER-LOCK-BODY",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4873-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-CAVITY-SLIDER-LOCK-STRIKE",
+      "from_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CAVITY-SLIDER-LOCK-STRIKE",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4874-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-CAVITY-SLIDER-SOFT-CLOSE-DAMPER",
+      "from_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CAVITY-SLIDER-SOFT-CLOSE-DAMPER",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4875-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-CAVITY-SLIDER-STRIKE-BOX",
+      "from_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CAVITY-SLIDER-STRIKE-BOX",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4877-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY-PART-OF-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4879-ID-CAVITY-SLIDER-HOOK-BOLT-PART-OF-AU-ID-CAVITY-SLIDER-LOCK-BODY",
+      "from_id": "AU-ID-CAVITY-SLIDER-HOOK-BOLT",
+      "relationship": "part_of",
+      "to_id": "AU-ID-CAVITY-SLIDER-LOCK-BODY",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4880-ID-CAVITY-SLIDER-LOCK-BODY-HAS-PART-AU-ID-CAVITY-SLIDER-HOOK-BOLT",
+      "from_id": "AU-ID-CAVITY-SLIDER-LOCK-BODY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CAVITY-SLIDER-HOOK-BOLT",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4881-ID-CAVITY-SLIDER-LOCK-BODY-PART-OF-AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-CAVITY-SLIDER-LOCK-BODY",
+      "relationship": "part_of",
+      "to_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4882-ID-CAVITY-SLIDER-LOCK-STRIKE-PART-OF-AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-CAVITY-SLIDER-LOCK-STRIKE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4883-ID-CAVITY-SLIDER-SOFT-CLOSE-DAMPER-PART-OF-AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-CAVITY-SLIDER-SOFT-CLOSE-DAMPER",
+      "relationship": "part_of",
+      "to_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4886-ID-CAVITY-SLIDER-SQUARE-SET-REVEAL-ALTERNATIVE-TO-AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "from_id": "AU-ID-CAVITY-SLIDER-SQUARE-SET-REVEAL",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4888-ID-CAVITY-SLIDER-STRIKE-BOX-PART-OF-AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-CAVITY-SLIDER-STRIKE-BOX",
+      "relationship": "part_of",
+      "to_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4889-ID-CONCEALED-INTERNAL-DOOR-HINGE-ALTERNATIVE-TO-AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "from_id": "AU-ID-CONCEALED-INTERNAL-DOOR-HINGE",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4894-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY-HAS-PART-AU-ID-DOOR-CLOSER-ARM",
+      "from_id": "AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-CLOSER-ARM",
+      "source_ids": [
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4895-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY-HAS-PART-AU-ID-DOOR-CLOSER-SLIDE-RAIL",
+      "from_id": "AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-CLOSER-SLIDE-RAIL",
+      "source_ids": [
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4896-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY-HAS-PART-AU-ID-SURFACE-DOOR-CLOSER-BODY",
+      "from_id": "AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-SURFACE-DOOR-CLOSER-BODY",
+      "source_ids": [
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4897-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY-PART-OF-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4898-ID-DOOR-ARCHITRAVE-HEAD-PART-OF-AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "from_id": "AU-ID-DOOR-ARCHITRAVE-HEAD",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "source_ids": [
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4899-ID-DOOR-ARCHITRAVE-JAMB-PART-OF-AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "from_id": "AU-ID-DOOR-ARCHITRAVE-JAMB",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "source_ids": [
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4900-ID-DOOR-CLOSER-ARM-ALTERNATIVE-TO-AU-ID-DOOR-CLOSER-SLIDE-RAIL",
+      "from_id": "AU-ID-DOOR-CLOSER-ARM",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-DOOR-CLOSER-SLIDE-RAIL",
+      "source_ids": [
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4901-ID-DOOR-CLOSER-ARM-PART-OF-AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "from_id": "AU-ID-DOOR-CLOSER-ARM",
+      "relationship": "part_of",
+      "to_id": "AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4902-ID-DOOR-CLOSER-SLIDE-RAIL-ALTERNATIVE-TO-AU-ID-DOOR-CLOSER-ARM",
+      "from_id": "AU-ID-DOOR-CLOSER-SLIDE-RAIL",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-DOOR-CLOSER-ARM",
+      "source_ids": [
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4903-ID-DOOR-CLOSER-SLIDE-RAIL-PART-OF-AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "from_id": "AU-ID-DOOR-CLOSER-SLIDE-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4904-ID-DOOR-HANDLE-BACKPLATE-ALTERNATIVE-TO-AU-ID-DOOR-HANDLE-ROSE",
+      "from_id": "AU-ID-DOOR-HANDLE-BACKPLATE",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-DOOR-HANDLE-ROSE",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4906-ID-DOOR-HANDLE-ROSE-ALTERNATIVE-TO-AU-ID-DOOR-HANDLE-BACKPLATE",
+      "from_id": "AU-ID-DOOR-HANDLE-ROSE",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-DOOR-HANDLE-BACKPLATE",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4910-ID-DOOR-LATCH-STRIKE-PLATE-PART-OF-AU-ID-KEYED-INTERNAL-LOCKSET",
+      "from_id": "AU-ID-DOOR-LATCH-STRIKE-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4911-ID-DOOR-LATCH-STRIKE-PLATE-PART-OF-AU-ID-PASSAGE-LATCHSET",
+      "from_id": "AU-ID-DOOR-LATCH-STRIKE-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-PASSAGE-LATCHSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4912-ID-DOOR-LATCH-STRIKE-PLATE-PART-OF-AU-ID-PRIVACY-LATCHSET",
+      "from_id": "AU-ID-DOOR-LATCH-STRIKE-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-PRIVACY-LATCHSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4913-ID-DOOR-LEAF-BOTTOM-RAIL-COMMONLY-USED-WITH-AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-DOOR-LEAF-BOTTOM-RAIL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4914-ID-DOOR-LEAF-BOTTOM-RAIL-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-DOOR-LEAF-BOTTOM-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4915-ID-DOOR-LEAF-EDGE-LIPPING-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-DOOR-LEAF-EDGE-LIPPING",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4916-ID-DOOR-LEAF-LOCK-BLOCK-COMMONLY-USED-WITH-AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "from_id": "AU-ID-DOOR-LEAF-LOCK-BLOCK",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4917-ID-DOOR-LEAF-LOCK-BLOCK-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-DOOR-LEAF-LOCK-BLOCK",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4918-ID-DOOR-LEAF-MID-RAIL-COMMONLY-USED-WITH-AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-DOOR-LEAF-MID-RAIL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4919-ID-DOOR-LEAF-MID-RAIL-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-DOOR-LEAF-MID-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4920-ID-DOOR-LEAF-MUNTIN-COMMONLY-USED-WITH-AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-DOOR-LEAF-MUNTIN",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4921-ID-DOOR-LEAF-MUNTIN-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-DOOR-LEAF-MUNTIN",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4922-ID-DOOR-LEAF-PANEL-COMMONLY-USED-WITH-AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-DOOR-LEAF-PANEL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4923-ID-DOOR-LEAF-PANEL-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-DOOR-LEAF-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4924-ID-DOOR-LEAF-STILE-COMMONLY-USED-WITH-AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-DOOR-LEAF-STILE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4925-ID-DOOR-LEAF-STILE-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-DOOR-LEAF-STILE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4926-ID-DOOR-LEAF-TOP-RAIL-COMMONLY-USED-WITH-AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-DOOR-LEAF-TOP-RAIL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4927-ID-DOOR-LEAF-TOP-RAIL-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-DOOR-LEAF-TOP-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4929-ID-DOOR-LOCK-CYLINDER-PART-OF-AU-ID-KEYED-INTERNAL-LOCKSET",
+      "from_id": "AU-ID-DOOR-LOCK-CYLINDER",
+      "relationship": "part_of",
+      "to_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4930-ID-DOOR-LOCK-ESCUTCHEON-PART-OF-AU-ID-KEYED-INTERNAL-LOCKSET",
+      "from_id": "AU-ID-DOOR-LOCK-ESCUTCHEON",
+      "relationship": "part_of",
+      "to_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4932-ID-DOOR-MEETING-ASTRAGAL-PART-OF-AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "from_id": "AU-ID-DOOR-MEETING-ASTRAGAL",
+      "relationship": "part_of",
+      "to_id": "AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4933-ID-DOOR-STRIKE-DUST-BOX-PART-OF-AU-ID-KEYED-INTERNAL-LOCKSET",
+      "from_id": "AU-ID-DOOR-STRIKE-DUST-BOX",
+      "relationship": "part_of",
+      "to_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4934-ID-DOOR-STRIKE-DUST-BOX-PART-OF-AU-ID-PASSAGE-LATCHSET",
+      "from_id": "AU-ID-DOOR-STRIKE-DUST-BOX",
+      "relationship": "part_of",
+      "to_id": "AU-ID-PASSAGE-LATCHSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4935-ID-DOOR-STRIKE-DUST-BOX-PART-OF-AU-ID-PRIVACY-LATCHSET",
+      "from_id": "AU-ID-DOOR-STRIKE-DUST-BOX",
+      "relationship": "part_of",
+      "to_id": "AU-ID-PRIVACY-LATCHSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4937-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY-HAS-PART-AU-ID-DOOR-MEETING-ASTRAGAL",
+      "from_id": "AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-MEETING-ASTRAGAL",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4938-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY-HAS-PART-AU-ID-INACTIVE-LEAF-FLUSH-BOLT",
+      "from_id": "AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INACTIVE-LEAF-FLUSH-BOLT",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4939-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY-PART-OF-AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4940-ID-DUMMY-DOOR-FURNITURE-SET-PART-OF-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-DUMMY-DOOR-FURNITURE-SET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4941-ID-FIXED-PIN-BUTT-HINGE-ALTERNATIVE-TO-AU-ID-LOOSE-PIN-BUTT-HINGE",
+      "from_id": "AU-ID-FIXED-PIN-BUTT-HINGE",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-LOOSE-PIN-BUTT-HINGE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4942-ID-FIXED-PIN-BUTT-HINGE-IS-A-AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "from_id": "AU-ID-FIXED-PIN-BUTT-HINGE",
+      "relationship": "is_a",
+      "to_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4944-ID-FLOOR-MOUNTED-DOOR-STOP-PART-OF-AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "from_id": "AU-ID-FLOOR-MOUNTED-DOOR-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4945-ID-FLUSH-FINISH-STEEL-DOOR-FRAME-ALTERNATIVE-TO-AU-ID-TIMBER-INTERNAL-DOOR-JAMB-SET",
+      "from_id": "AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-TIMBER-INTERNAL-DOOR-JAMB-SET",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4946-ID-FLUSH-FINISH-STEEL-DOOR-FRAME-COMMONLY-USED-WITH-AU-ID-FLUSH-FRAME-FINISHING-FLANGE",
+      "from_id": "AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-FLUSH-FRAME-FINISHING-FLANGE",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4947-ID-FLUSH-FINISH-STEEL-DOOR-FRAME-COMMONLY-USED-WITH-AU-ID-FLUSH-FRAME-LATCH-INSERT",
+      "from_id": "AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-FLUSH-FRAME-LATCH-INSERT",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4949-ID-FLUSH-FINISH-STEEL-DOOR-FRAME-PART-OF-AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "from_id": "AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4950-ID-FLUSH-FRAME-FINISHING-FLANGE-COMMONLY-USED-WITH-AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "from_id": "AU-ID-FLUSH-FRAME-FINISHING-FLANGE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4952-ID-FLUSH-FRAME-FINISHING-FLANGE-PART-OF-AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "from_id": "AU-ID-FLUSH-FRAME-FINISHING-FLANGE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4953-ID-FLUSH-FRAME-LATCH-INSERT-COMMONLY-USED-WITH-AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "from_id": "AU-ID-FLUSH-FRAME-LATCH-INSERT",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4954-ID-FLUSH-FRAME-LATCH-INSERT-PART-OF-AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "from_id": "AU-ID-FLUSH-FRAME-LATCH-INSERT",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4956-ID-FLUSH-INTERNAL-DOOR-LEAF-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-FLUSH-INTERNAL-DOOR-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4957-ID-FLUSH-LEAF-FACE-SKIN-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-FLUSH-LEAF-FACE-SKIN",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4958-ID-FLUSH-LEAF-PERIMETER-FRAME-COMMONLY-USED-WITH-AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "from_id": "AU-ID-FLUSH-LEAF-PERIMETER-FRAME",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4959-ID-FLUSH-LEAF-PERIMETER-FRAME-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-FLUSH-LEAF-PERIMETER-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4960-ID-FOLDING-DOOR-ALIGNER-PART-OF-AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-FOLDING-DOOR-ALIGNER",
+      "relationship": "part_of",
+      "to_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4961-ID-FOLDING-DOOR-BOTTOM-PIVOT-PART-OF-AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-FOLDING-DOOR-BOTTOM-PIVOT",
+      "relationship": "part_of",
+      "to_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4962-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-FOLDING-DOOR-ALIGNER",
+      "from_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FOLDING-DOOR-ALIGNER",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4963-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-FOLDING-DOOR-BOTTOM-PIVOT",
+      "from_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FOLDING-DOOR-BOTTOM-PIVOT",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4964-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-FOLDING-DOOR-HEAD-TRACK",
+      "from_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FOLDING-DOOR-HEAD-TRACK",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4965-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-FOLDING-DOOR-INTERPANEL-HINGE",
+      "from_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FOLDING-DOOR-INTERPANEL-HINGE",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4966-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-FOLDING-DOOR-JAMB-BRACKET",
+      "from_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FOLDING-DOOR-JAMB-BRACKET",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4967-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-FOLDING-DOOR-TOP-GUIDE",
+      "from_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FOLDING-DOOR-TOP-GUIDE",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4968-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-FOLDING-DOOR-TOP-PIVOT",
+      "from_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FOLDING-DOOR-TOP-PIVOT",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4969-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-FOLDING-DOOR-TRACK-STOP",
+      "from_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FOLDING-DOOR-TRACK-STOP",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4971-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY-PART-OF-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4973-ID-FOLDING-DOOR-HEAD-TRACK-PART-OF-AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-FOLDING-DOOR-HEAD-TRACK",
+      "relationship": "part_of",
+      "to_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4974-ID-FOLDING-DOOR-INTERPANEL-HINGE-PART-OF-AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-FOLDING-DOOR-INTERPANEL-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4975-ID-FOLDING-DOOR-JAMB-BRACKET-PART-OF-AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-FOLDING-DOOR-JAMB-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4976-ID-FOLDING-DOOR-TOP-GUIDE-PART-OF-AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-FOLDING-DOOR-TOP-GUIDE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4977-ID-FOLDING-DOOR-TOP-PIVOT-PART-OF-AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-FOLDING-DOOR-TOP-PIVOT",
+      "relationship": "part_of",
+      "to_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4978-ID-FOLDING-DOOR-TRACK-STOP-PART-OF-AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-FOLDING-DOOR-TRACK-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4980-ID-GLAZED-INTERNAL-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "from_id": "AU-ID-GLAZED-INTERNAL-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4982-ID-GLAZED-INTERNAL-DOOR-LEAF-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-GLAZED-INTERNAL-DOOR-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4983-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-DOOR-LEAF-LOCK-BLOCK",
+      "from_id": "AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-DOOR-LEAF-LOCK-BLOCK",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4984-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-FLUSH-LEAF-PERIMETER-FRAME",
+      "from_id": "AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-FLUSH-LEAF-PERIMETER-FRAME",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4985-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-HONEYCOMB-CORE-INFILL",
+      "from_id": "AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-HONEYCOMB-CORE-INFILL",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4986-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF-IS-A-AU-ID-FLUSH-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "relationship": "is_a",
+      "to_id": "AU-ID-FLUSH-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4987-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4989-ID-HONEYCOMB-CORE-INFILL-COMMONLY-USED-WITH-AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "from_id": "AU-ID-HONEYCOMB-CORE-INFILL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4990-ID-HONEYCOMB-CORE-INFILL-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-HONEYCOMB-CORE-INFILL",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4991-ID-INACTIVE-LEAF-FLUSH-BOLT-PART-OF-AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "from_id": "AU-ID-INACTIVE-LEAF-FLUSH-BOLT",
+      "relationship": "part_of",
+      "to_id": "AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4992-ID-INTERNAL-DOOR-ARCHITRAVE-SET-ALTERNATIVE-TO-AU-ID-CAVITY-SLIDER-SQUARE-SET-REVEAL",
+      "from_id": "AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-CAVITY-SLIDER-SQUARE-SET-REVEAL",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4994-ID-INTERNAL-DOOR-ARCHITRAVE-SET-HAS-PART-AU-ID-DOOR-ARCHITRAVE-HEAD",
+      "from_id": "AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-ARCHITRAVE-HEAD",
+      "source_ids": [
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4995-ID-INTERNAL-DOOR-ARCHITRAVE-SET-HAS-PART-AU-ID-DOOR-ARCHITRAVE-JAMB",
+      "from_id": "AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-ARCHITRAVE-JAMB",
+      "source_ids": [
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4996-ID-INTERNAL-DOOR-ARCHITRAVE-SET-PART-OF-AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4997-ID-INTERNAL-DOOR-BUTT-HINGE-ALTERNATIVE-TO-AU-ID-CONCEALED-INTERNAL-DOOR-HINGE",
+      "from_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-CONCEALED-INTERNAL-DOOR-HINGE",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4998-ID-INTERNAL-DOOR-BUTT-HINGE-ALTERNATIVE-TO-AU-ID-INTERNAL-DOOR-PIVOT-SET",
+      "from_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-INTERNAL-DOOR-PIVOT-SET",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5000-ID-INTERNAL-DOOR-BUTT-HINGE-HAS-PART-AU-ID-BUTT-HINGE-LEAF",
+      "from_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "relationship": "has_part",
+      "to_id": "AU-ID-BUTT-HINGE-LEAF",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5001-ID-INTERNAL-DOOR-BUTT-HINGE-HAS-PART-AU-ID-BUTT-HINGE-PIN",
+      "from_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "relationship": "has_part",
+      "to_id": "AU-ID-BUTT-HINGE-PIN",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5002-ID-INTERNAL-DOOR-BUTT-HINGE-HAS-PART-AU-ID-INTERNAL-DOOR-HINGE-SCREW",
+      "from_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-HINGE-SCREW",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5004-ID-INTERNAL-DOOR-BUTT-HINGE-PART-OF-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5010-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM-HAS-PART-AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5011-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM-HAS-PART-AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5012-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM-HAS-PART-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5013-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM-HAS-PART-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5015-ID-INTERNAL-DOOR-DEADBOLT-PART-OF-AU-ID-KEYED-INTERNAL-LOCKSET",
+      "from_id": "AU-ID-INTERNAL-DOOR-DEADBOLT",
+      "relationship": "part_of",
+      "to_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5018-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY-HAS-PART-AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "from_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5019-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY-HAS-PART-AU-ID-FLUSH-FRAME-FINISHING-FLANGE",
+      "from_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FLUSH-FRAME-FINISHING-FLANGE",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5020-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY-HAS-PART-AU-ID-FLUSH-FRAME-LATCH-INSERT",
+      "from_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FLUSH-FRAME-LATCH-INSERT",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5021-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY-HAS-PART-AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "from_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5022-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY-HAS-PART-AU-ID-REBATED-INTERNAL-DOOR-JAMB-SET",
+      "from_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-REBATED-INTERNAL-DOOR-JAMB-SET",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5023-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY-HAS-PART-AU-ID-SPLIT-INTERNAL-DOOR-JAMB-SET",
+      "from_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-SPLIT-INTERNAL-DOOR-JAMB-SET",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5024-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY-HAS-PART-AU-ID-TIMBER-INTERNAL-DOOR-JAMB-SET",
+      "from_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-TIMBER-INTERNAL-DOOR-JAMB-SET",
+      "source_ids": [
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5026-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY-PART-OF-AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5029-ID-INTERNAL-DOOR-GLAZING-APERTURE-COMMONLY-USED-WITH-AU-ID-GLAZED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-GLAZED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5030-ID-INTERNAL-DOOR-GLAZING-APERTURE-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5032-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-HAS-PART-AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5033-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-HAS-PART-AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5034-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-HAS-PART-AU-ID-DUMMY-DOOR-FURNITURE-SET",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DUMMY-DOOR-FURNITURE-SET",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5035-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-HAS-PART-AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5036-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-HAS-PART-AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5037-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-HAS-PART-AU-ID-INTERNAL-DOOR-PIVOT-SET",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-PIVOT-SET",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5038-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-HAS-PART-AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5039-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-HAS-PART-AU-ID-KEYED-INTERNAL-LOCKSET",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5040-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-HAS-PART-AU-ID-PASSAGE-LATCHSET",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-PASSAGE-LATCHSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5041-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-HAS-PART-AU-ID-PRIVACY-LATCHSET",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-PRIVACY-LATCHSET",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5042-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-HAS-PART-AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5043-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-PART-OF-AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5044-ID-INTERNAL-DOOR-HINGE-SCREW-PART-OF-AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "from_id": "AU-ID-INTERNAL-DOOR-HINGE-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5045-ID-INTERNAL-DOOR-KNOB-ALTERNATIVE-TO-AU-ID-INTERNAL-DOOR-LEVER-HANDLE",
+      "from_id": "AU-ID-INTERNAL-DOOR-KNOB",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEVER-HANDLE",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5047-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-BLOCKBOARD-CORE-FLUSH-DOOR-LEAF",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-BLOCKBOARD-CORE-FLUSH-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5048-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-DOOR-LEAF-BOTTOM-RAIL",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LEAF-BOTTOM-RAIL",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5049-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-DOOR-LEAF-EDGE-LIPPING",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LEAF-EDGE-LIPPING",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5050-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-DOOR-LEAF-LOCK-BLOCK",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LEAF-LOCK-BLOCK",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5051-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-DOOR-LEAF-MID-RAIL",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LEAF-MID-RAIL",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5052-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-DOOR-LEAF-MUNTIN",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LEAF-MUNTIN",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5053-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-DOOR-LEAF-PANEL",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LEAF-PANEL",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5054-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-DOOR-LEAF-STILE",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LEAF-STILE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5055-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-DOOR-LEAF-TOP-RAIL",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LEAF-TOP-RAIL",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5056-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-FLUSH-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FLUSH-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5057-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-FLUSH-LEAF-FACE-SKIN",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FLUSH-LEAF-FACE-SKIN",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5058-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-FLUSH-LEAF-PERIMETER-FRAME",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FLUSH-LEAF-PERIMETER-FRAME",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5059-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-GLAZED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-GLAZED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5060-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5061-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-HONEYCOMB-CORE-INFILL",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-HONEYCOMB-CORE-INFILL",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5062-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5063-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-INTERNAL-DOOR-LOUVRE-BLADE",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-LOUVRE-BLADE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5064-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-LOUVRED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-LOUVRED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5065-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5066-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-HAS-PART-AU-ID-SOLID-CORE-FLUSH-DOOR-LEAF",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-SOLID-CORE-FLUSH-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS-1905-1-2015",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5068-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-PART-OF-AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5069-ID-INTERNAL-DOOR-LEVER-HANDLE-ALTERNATIVE-TO-AU-ID-INTERNAL-DOOR-KNOB",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEVER-HANDLE",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-INTERNAL-DOOR-KNOB",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5072-ID-INTERNAL-DOOR-LOUVRE-BLADE-COMMONLY-USED-WITH-AU-ID-LOUVRED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-INTERNAL-DOOR-LOUVRE-BLADE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-LOUVRED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5073-ID-INTERNAL-DOOR-LOUVRE-BLADE-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-LOUVRE-BLADE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5074-ID-INTERNAL-DOOR-PIVOT-SET-ALTERNATIVE-TO-AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "from_id": "AU-ID-INTERNAL-DOOR-PIVOT-SET",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5075-ID-INTERNAL-DOOR-PIVOT-SET-PART-OF-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-INTERNAL-DOOR-PIVOT-SET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5077-ID-INTERNAL-DOOR-STOP-ASSEMBLY-HAS-PART-AU-ID-FLOOR-MOUNTED-DOOR-STOP",
+      "from_id": "AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FLOOR-MOUNTED-DOOR-STOP",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5078-ID-INTERNAL-DOOR-STOP-ASSEMBLY-HAS-PART-AU-ID-MAGNETIC-DOOR-STOP-HOLDER",
+      "from_id": "AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-MAGNETIC-DOOR-STOP-HOLDER",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5079-ID-INTERNAL-DOOR-STOP-ASSEMBLY-HAS-PART-AU-ID-WALL-MOUNTED-DOOR-STOP",
+      "from_id": "AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-WALL-MOUNTED-DOOR-STOP",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5080-ID-INTERNAL-DOOR-STOP-ASSEMBLY-PART-OF-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5084-ID-INTERNAL-SLIDING-TRACK-STOP-PART-OF-AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-SLIDING-TRACK-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5086-ID-KEYED-INTERNAL-LOCKSET-HAS-PART-AU-ID-DOOR-LATCH-STRIKE-PLATE",
+      "from_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LATCH-STRIKE-PLATE",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5087-ID-KEYED-INTERNAL-LOCKSET-HAS-PART-AU-ID-DOOR-LOCK-CYLINDER",
+      "from_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LOCK-CYLINDER",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5088-ID-KEYED-INTERNAL-LOCKSET-HAS-PART-AU-ID-DOOR-LOCK-ESCUTCHEON",
+      "from_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LOCK-ESCUTCHEON",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5089-ID-KEYED-INTERNAL-LOCKSET-HAS-PART-AU-ID-DOOR-STRIKE-DUST-BOX",
+      "from_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-STRIKE-DUST-BOX",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5090-ID-KEYED-INTERNAL-LOCKSET-HAS-PART-AU-ID-INTERNAL-DOOR-DEADBOLT",
+      "from_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-DEADBOLT",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5091-ID-KEYED-INTERNAL-LOCKSET-HAS-PART-AU-ID-MORTICE-LOCK-BODY",
+      "from_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-MORTICE-LOCK-BODY",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5093-ID-KEYED-INTERNAL-LOCKSET-PART-OF-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5095-ID-LATCH-FACEPLATE-PART-OF-AU-ID-TUBULAR-LATCH",
+      "from_id": "AU-ID-LATCH-FACEPLATE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-TUBULAR-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5096-ID-LOOSE-PIN-BUTT-HINGE-ALTERNATIVE-TO-AU-ID-FIXED-PIN-BUTT-HINGE",
+      "from_id": "AU-ID-LOOSE-PIN-BUTT-HINGE",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-FIXED-PIN-BUTT-HINGE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5098-ID-LOOSE-PIN-BUTT-HINGE-IS-A-AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "from_id": "AU-ID-LOOSE-PIN-BUTT-HINGE",
+      "relationship": "is_a",
+      "to_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5100-ID-LOUVRED-INTERNAL-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-INTERNAL-DOOR-LOUVRE-BLADE",
+      "from_id": "AU-ID-LOUVRED-INTERNAL-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-INTERNAL-DOOR-LOUVRE-BLADE",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5102-ID-LOUVRED-INTERNAL-DOOR-LEAF-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-LOUVRED-INTERNAL-DOOR-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5103-ID-MAGNETIC-DOOR-STOP-HOLDER-PART-OF-AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "from_id": "AU-ID-MAGNETIC-DOOR-STOP-HOLDER",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5104-ID-MORTICE-LOCK-BODY-PART-OF-AU-ID-KEYED-INTERNAL-LOCKSET",
+      "from_id": "AU-ID-MORTICE-LOCK-BODY",
+      "relationship": "part_of",
+      "to_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5105-ID-PANELLED-INTERNAL-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-DOOR-LEAF-BOTTOM-RAIL",
+      "from_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-DOOR-LEAF-BOTTOM-RAIL",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5106-ID-PANELLED-INTERNAL-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-DOOR-LEAF-MID-RAIL",
+      "from_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-DOOR-LEAF-MID-RAIL",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5107-ID-PANELLED-INTERNAL-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-DOOR-LEAF-MUNTIN",
+      "from_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-DOOR-LEAF-MUNTIN",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5108-ID-PANELLED-INTERNAL-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-DOOR-LEAF-PANEL",
+      "from_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-DOOR-LEAF-PANEL",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5109-ID-PANELLED-INTERNAL-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-DOOR-LEAF-STILE",
+      "from_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-DOOR-LEAF-STILE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5110-ID-PANELLED-INTERNAL-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-DOOR-LEAF-TOP-RAIL",
+      "from_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-DOOR-LEAF-TOP-RAIL",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5112-ID-PANELLED-INTERNAL-DOOR-LEAF-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5113-ID-PASSAGE-LATCHSET-HAS-PART-AU-ID-DOOR-LATCH-STRIKE-PLATE",
+      "from_id": "AU-ID-PASSAGE-LATCHSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LATCH-STRIKE-PLATE",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5114-ID-PASSAGE-LATCHSET-HAS-PART-AU-ID-DOOR-STRIKE-DUST-BOX",
+      "from_id": "AU-ID-PASSAGE-LATCHSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-STRIKE-DUST-BOX",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5115-ID-PASSAGE-LATCHSET-HAS-PART-AU-ID-TUBULAR-LATCH",
+      "from_id": "AU-ID-PASSAGE-LATCHSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-TUBULAR-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5117-ID-PASSAGE-LATCHSET-PART-OF-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-PASSAGE-LATCHSET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5120-ID-PRIVACY-LATCHSET-HAS-PART-AU-ID-DOOR-LATCH-STRIKE-PLATE",
+      "from_id": "AU-ID-PRIVACY-LATCHSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-LATCH-STRIKE-PLATE",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5121-ID-PRIVACY-LATCHSET-HAS-PART-AU-ID-DOOR-STRIKE-DUST-BOX",
+      "from_id": "AU-ID-PRIVACY-LATCHSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-STRIKE-DUST-BOX",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5122-ID-PRIVACY-LATCHSET-HAS-PART-AU-ID-PRIVACY-TURN",
+      "from_id": "AU-ID-PRIVACY-LATCHSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-PRIVACY-TURN",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5123-ID-PRIVACY-LATCHSET-HAS-PART-AU-ID-TUBULAR-LATCH",
+      "from_id": "AU-ID-PRIVACY-LATCHSET",
+      "relationship": "has_part",
+      "to_id": "AU-ID-TUBULAR-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5125-ID-PRIVACY-LATCHSET-PART-OF-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-PRIVACY-LATCHSET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5128-ID-PRIVACY-TURN-PART-OF-AU-ID-PRIVACY-LATCHSET",
+      "from_id": "AU-ID-PRIVACY-TURN",
+      "relationship": "part_of",
+      "to_id": "AU-ID-PRIVACY-LATCHSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5129-ID-REBATED-INTERNAL-DOOR-JAMB-SET-ALTERNATIVE-TO-AU-ID-SPLIT-INTERNAL-DOOR-JAMB-SET",
+      "from_id": "AU-ID-REBATED-INTERNAL-DOOR-JAMB-SET",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-SPLIT-INTERNAL-DOOR-JAMB-SET",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5131-ID-REBATED-INTERNAL-DOOR-JAMB-SET-PART-OF-AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "from_id": "AU-ID-REBATED-INTERNAL-DOOR-JAMB-SET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5132-ID-SLIDING-DOOR-TRACK-PELMET-PART-OF-AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-SLIDING-DOOR-TRACK-PELMET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5134-ID-SOLID-CORE-FLUSH-DOOR-LEAF-IS-A-AU-ID-FLUSH-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-SOLID-CORE-FLUSH-DOOR-LEAF",
+      "relationship": "is_a",
+      "to_id": "AU-ID-FLUSH-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS-1905-1-2015",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5135-ID-SOLID-CORE-FLUSH-DOOR-LEAF-PART-OF-AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "from_id": "AU-ID-SOLID-CORE-FLUSH-DOOR-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS-1905-1-2015",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5136-ID-SPLIT-INTERNAL-DOOR-JAMB-SET-ALTERNATIVE-TO-AU-ID-REBATED-INTERNAL-DOOR-JAMB-SET",
+      "from_id": "AU-ID-SPLIT-INTERNAL-DOOR-JAMB-SET",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-REBATED-INTERNAL-DOOR-JAMB-SET",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5138-ID-SPLIT-INTERNAL-DOOR-JAMB-SET-PART-OF-AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "from_id": "AU-ID-SPLIT-INTERNAL-DOOR-JAMB-SET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5139-ID-SPRING-LATCH-BOLT-PART-OF-AU-ID-TUBULAR-LATCH",
+      "from_id": "AU-ID-SPRING-LATCH-BOLT",
+      "relationship": "part_of",
+      "to_id": "AU-ID-TUBULAR-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5140-ID-SURFACE-DOOR-CLOSER-BODY-PART-OF-AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "from_id": "AU-ID-SURFACE-DOOR-CLOSER-BODY",
+      "relationship": "part_of",
+      "to_id": "AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5141-ID-SURFACE-SLIDER-ANTI-JUMP-FITTING-PART-OF-AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-SURFACE-SLIDER-ANTI-JUMP-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5142-ID-SURFACE-SLIDER-FLOOR-GUIDE-PART-OF-AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-SURFACE-SLIDER-FLOOR-GUIDE",
+      "relationship": "part_of",
+      "to_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5143-ID-SURFACE-SLIDER-TRACK-BRACKET-PART-OF-AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-SURFACE-SLIDER-TRACK-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5144-ID-SURFACE-SLIDER-WALL-SPACER-PART-OF-AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "from_id": "AU-ID-SURFACE-SLIDER-WALL-SPACER",
+      "relationship": "part_of",
+      "to_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5145-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-INTERNAL-SLIDING-TRACK-STOP",
+      "from_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-SLIDING-TRACK-STOP",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5146-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-SLIDING-DOOR-TRACK-PELMET",
+      "from_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-SLIDING-DOOR-TRACK-PELMET",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5147-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-SURFACE-SLIDER-ANTI-JUMP-FITTING",
+      "from_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-SURFACE-SLIDER-ANTI-JUMP-FITTING",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5148-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-SURFACE-SLIDER-FLOOR-GUIDE",
+      "from_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-SURFACE-SLIDER-FLOOR-GUIDE",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5149-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-SURFACE-SLIDER-TRACK-BRACKET",
+      "from_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-SURFACE-SLIDER-TRACK-BRACKET",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5150-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY-HAS-PART-AU-ID-SURFACE-SLIDER-WALL-SPACER",
+      "from_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-SURFACE-SLIDER-WALL-SPACER",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5152-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY-PART-OF-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5154-ID-TIMBER-INTERNAL-DOOR-JAMB-SET-ALTERNATIVE-TO-AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "from_id": "AU-ID-TIMBER-INTERNAL-DOOR-JAMB-SET",
+      "relationship": "alternative_to",
+      "to_id": "AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5156-ID-TIMBER-INTERNAL-DOOR-JAMB-SET-PART-OF-AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "from_id": "AU-ID-TIMBER-INTERNAL-DOOR-JAMB-SET",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5157-ID-TUBULAR-LATCH-HAS-PART-AU-ID-LATCH-FACEPLATE",
+      "from_id": "AU-ID-TUBULAR-LATCH",
+      "relationship": "has_part",
+      "to_id": "AU-ID-LATCH-FACEPLATE",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5158-ID-TUBULAR-LATCH-HAS-PART-AU-ID-SPRING-LATCH-BOLT",
+      "from_id": "AU-ID-TUBULAR-LATCH",
+      "relationship": "has_part",
+      "to_id": "AU-ID-SPRING-LATCH-BOLT",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5159-ID-TUBULAR-LATCH-PART-OF-AU-ID-PASSAGE-LATCHSET",
+      "from_id": "AU-ID-TUBULAR-LATCH",
+      "relationship": "part_of",
+      "to_id": "AU-ID-PASSAGE-LATCHSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5160-ID-TUBULAR-LATCH-PART-OF-AU-ID-PRIVACY-LATCHSET",
+      "from_id": "AU-ID-TUBULAR-LATCH",
+      "relationship": "part_of",
+      "to_id": "AU-ID-PRIVACY-LATCHSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5161-ID-WALL-MOUNTED-DOOR-STOP-PART-OF-AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "from_id": "AU-ID-WALL-MOUNTED-DOOR-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-4871-ID-CAVITY-SLIDER-CLOSING-JAMB-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-CAVITY-SLIDER-CLOSING-JAMB",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4876-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY-IS-A-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4878-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4884-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING-COMMONLY-USED-WITH-AU-LH-CAVITY-SLIDER-SPLIT-STUD",
+      "from_id": "AU-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-LH-CAVITY-SLIDER-SPLIT-STUD",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4885-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4887-ID-CAVITY-SLIDER-SQUARE-SET-REVEAL-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-CAVITY-SLIDER-SQUARE-SET-REVEAL",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4890-ID-CONCEALED-INTERNAL-DOOR-HINGE-IS-A-AU-LH-INTERNAL-DOOR-HINGE",
+      "from_id": "AU-ID-CONCEALED-INTERNAL-DOOR-HINGE",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-HINGE",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4891-ID-CONCEALED-INTERNAL-DOOR-HINGE-PART-OF-AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-CONCEALED-INTERNAL-DOOR-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4892-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOOR-CLOSER-ASSEMBLY",
+      "from_id": "AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOOR-CLOSER-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS4145-5-2011",
+        "SRC-TGA-CPCCCA3010-WINDOWS-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4893-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY-COMMONLY-USED-WITH-AU-FS-SELF-CLOSING-DOOR-CLOSER",
+      "from_id": "AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FS-SELF-CLOSING-DOOR-CLOSER",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4905-ID-DOOR-HANDLE-BACKPLATE-PART-OF-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-DOOR-HANDLE-BACKPLATE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4907-ID-DOOR-HANDLE-ROSE-PART-OF-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-DOOR-HANDLE-ROSE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4908-ID-DOOR-HANDLE-SPINDLE-PART-OF-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-DOOR-HANDLE-SPINDLE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4909-ID-DOOR-LATCH-STRIKE-PLATE-ALTERNATIVE-TO-AU-EL-ELECTRIC-DOOR-STRIKE",
+      "from_id": "AU-ID-DOOR-LATCH-STRIKE-PLATE",
+      "relationship": "alternative_to",
+      "to_id": "AU-EL-ELECTRIC-DOOR-STRIKE",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4928-ID-DOOR-LOCK-CYLINDER-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOOR-MORTICE-LOCKSET",
+      "from_id": "AU-ID-DOOR-LOCK-CYLINDER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOOR-MORTICE-LOCKSET",
+      "source_ids": [
+        "SRC-SA-AS4145-2-2008",
+        "SRC-TGA-CPCCCA3010-WINDOWS-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4931-ID-DOOR-MEETING-ASTRAGAL-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOUBLE-DOOR-ASTRAGAL",
+      "from_id": "AU-ID-DOOR-MEETING-ASTRAGAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOUBLE-DOOR-ASTRAGAL",
+      "source_ids": [
+        "SRC-HUME-ENTRANCE-DOORS",
+        "SRC-TGA-CPCCCA3010-WINDOWS-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4936-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY-COMMONLY-USED-WITH-AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4943-ID-FIXED-PIN-BUTT-HINGE-PART-OF-AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-FIXED-PIN-BUTT-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4948-ID-FLUSH-FINISH-STEEL-DOOR-FRAME-IS-A-AU-LH-INTERNAL-DOOR-FRAME",
+      "from_id": "AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-FRAME",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4951-ID-FLUSH-FRAME-FINISHING-FLANGE-COMMONLY-USED-WITH-AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "from_id": "AU-ID-FLUSH-FRAME-FINISHING-FLANGE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4955-ID-FLUSH-INTERNAL-DOOR-LEAF-IS-A-AU-LH-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-FLUSH-INTERNAL-DOOR-LEAF",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4970-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY-IS-A-AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4972-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY-PART-OF-AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4979-ID-GLAZED-INTERNAL-DOOR-LEAF-COMMONLY-USED-WITH-AU-GL-GLAZING-BEAD",
+      "from_id": "AU-ID-GLAZED-INTERNAL-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-GL-GLAZING-BEAD",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4981-ID-GLAZED-INTERNAL-DOOR-LEAF-IS-A-AU-LH-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-GLAZED-INTERNAL-DOOR-LEAF",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4988-ID-HONEYCOMB-CORE-INFILL-COMMONLY-USED-WITH-AU-ED-HONEYCOMB-EXTERNAL-DOOR-CORE",
+      "from_id": "AU-ID-HONEYCOMB-CORE-INFILL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-HONEYCOMB-EXTERNAL-DOOR-CORE",
+      "source_ids": [
+        "SRC-CORINTHIAN-DOOR-CONSTRUCTION",
+        "SRC-HUME-ENTRANCE-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4993-ID-INTERNAL-DOOR-ARCHITRAVE-SET-COMMONLY-USED-WITH-AU-TC-ARCHITRAVE-AIR-SEAL",
+      "from_id": "AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-ARCHITRAVE-AIR-SEAL",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4999-ID-INTERNAL-DOOR-BUTT-HINGE-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOOR-BUTT-HINGE",
+      "from_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOOR-BUTT-HINGE",
+      "source_ids": [
+        "SRC-SA-AS4145-1-2008",
+        "SRC-TGA-CPCCCA3010-WINDOWS-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5003-ID-INTERNAL-DOOR-BUTT-HINGE-IS-A-AU-LH-INTERNAL-DOOR-HINGE",
+      "from_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-HINGE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5005-ID-INTERNAL-DOOR-BUTT-HINGE-PART-OF-AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5006-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM-COMMONLY-USED-WITH-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-A5-PAINTING-BOUNDARY",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5007-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM-COMMONLY-USED-WITH-AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5008-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM-COMMONLY-USED-WITH-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5009-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM-HAS-PART-AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "from_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-INTERNAL-DOOR-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5014-ID-INTERNAL-DOOR-DEADBOLT-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOOR-DEADBOLT",
+      "from_id": "AU-ID-INTERNAL-DOOR-DEADBOLT",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOOR-DEADBOLT",
+      "source_ids": [
+        "SRC-SA-AS4145-2-2008",
+        "SRC-TGA-CPCCCA3010-WINDOWS-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5016-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY-COMMONLY-USED-WITH-AU-WD-FRAME-FIXING",
+      "from_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-FRAME-FIXING",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5017-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY-COMMONLY-USED-WITH-AU-WD-FRAME-PACKER",
+      "from_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-FRAME-PACKER",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5025-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY-IS-A-AU-LH-INTERNAL-DOOR-FRAME",
+      "from_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-FRAME",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5027-ID-INTERNAL-DOOR-GLAZING-APERTURE-COMMONLY-USED-WITH-AU-GL-GLASS-PANE",
+      "from_id": "AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-GL-GLASS-PANE",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5028-ID-INTERNAL-DOOR-GLAZING-APERTURE-COMMONLY-USED-WITH-AU-GL-GLAZING-BEAD",
+      "from_id": "AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-GL-GLAZING-BEAD",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5031-ID-INTERNAL-DOOR-HARDWARE-SYSTEM-COMMONLY-USED-WITH-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5046-ID-INTERNAL-DOOR-KNOB-PART-OF-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-INTERNAL-DOOR-KNOB",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5067-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY-IS-A-AU-LH-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5070-ID-INTERNAL-DOOR-LEVER-HANDLE-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOOR-LEVER-HANDLE-SET",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEVER-HANDLE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOOR-LEVER-HANDLE-SET",
+      "source_ids": [
+        "SRC-SA-AS4145-1-2008",
+        "SRC-TGA-CPCCCA3010-WINDOWS-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5071-ID-INTERNAL-DOOR-LEVER-HANDLE-PART-OF-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-INTERNAL-DOOR-LEVER-HANDLE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5076-ID-INTERNAL-DOOR-PIVOT-SET-PART-OF-AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-DOOR-PIVOT-SET",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5081-ID-INTERNAL-SLIDING-DOOR-EDGE-PULL-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-SLIDING-DOOR-EDGE-PULL",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-LOCKWOOD-INTERNAL-SLIDING-PULLS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5082-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-SLIDING-PULLS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5083-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL-PART-OF-AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL",
+      "relationship": "part_of",
+      "to_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-SLIDING-PULLS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5085-ID-INTERNAL-SLIDING-TRACK-STOP-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-INTERNAL-SLIDING-TRACK-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5092-ID-KEYED-INTERNAL-LOCKSET-IS-A-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5094-ID-KEYED-INTERNAL-LOCKSET-PART-OF-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5097-ID-LOOSE-PIN-BUTT-HINGE-COMMONLY-USED-WITH-AU-HA-SANITARY-DOOR-REMOVABLE-HINGE-PIN",
+      "from_id": "AU-ID-LOOSE-PIN-BUTT-HINGE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-SANITARY-DOOR-REMOVABLE-HINGE-PIN",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5099-ID-LOOSE-PIN-BUTT-HINGE-PART-OF-AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-LOOSE-PIN-BUTT-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5101-ID-LOUVRED-INTERNAL-DOOR-LEAF-IS-A-AU-LH-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-LOUVRED-INTERNAL-DOOR-LEAF",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-VENTILATION",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5111-ID-PANELLED-INTERNAL-DOOR-LEAF-IS-A-AU-LH-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-ID-PANELLED-INTERNAL-DOOR-LEAF",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5116-ID-PASSAGE-LATCHSET-IS-A-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-PASSAGE-LATCHSET",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5118-ID-PASSAGE-LATCHSET-PART-OF-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-PASSAGE-LATCHSET",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5119-ID-PRIVACY-LATCHSET-COMMONLY-USED-WITH-AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE",
+      "from_id": "AU-ID-PRIVACY-LATCHSET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5124-ID-PRIVACY-LATCHSET-IS-A-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-PRIVACY-LATCHSET",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5126-ID-PRIVACY-LATCHSET-PART-OF-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-ID-PRIVACY-LATCHSET",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5127-ID-PRIVACY-TURN-COMMONLY-USED-WITH-AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE",
+      "from_id": "AU-ID-PRIVACY-TURN",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5130-ID-REBATED-INTERNAL-DOOR-JAMB-SET-IS-A-AU-LH-INTERNAL-DOOR-FRAME",
+      "from_id": "AU-ID-REBATED-INTERNAL-DOOR-JAMB-SET",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-FRAME",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5133-ID-SOLID-CORE-FLUSH-DOOR-LEAF-COMMONLY-USED-WITH-AU-FS-SOLID-CORE-DOOR-LEAF",
+      "from_id": "AU-ID-SOLID-CORE-FLUSH-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FS-SOLID-CORE-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS-1905-1-2015",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5137-ID-SPLIT-INTERNAL-DOOR-JAMB-SET-IS-A-AU-LH-INTERNAL-DOOR-FRAME",
+      "from_id": "AU-ID-SPLIT-INTERNAL-DOOR-JAMB-SET",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-FRAME",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5151-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY-IS-A-AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5153-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY-PART-OF-AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5155-ID-TIMBER-INTERNAL-DOOR-JAMB-SET-IS-A-AU-LH-INTERNAL-DOOR-FRAME",
+      "from_id": "AU-ID-TIMBER-INTERNAL-DOOR-JAMB-SET",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOOR-FRAME",
+      "source_ids": [
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

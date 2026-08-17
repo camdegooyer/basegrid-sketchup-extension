@@ -1,0 +1,356 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "site_civil",
+  "relationships": [
+    {
+      "id": "REL-7648-SC-CONTROLLED-FILL-PART-OF-AU-SC-PREPARED-BUILDING-PLATFORM",
+      "from_id": "AU-SC-CONTROLLED-FILL",
+      "relationship": "part_of",
+      "to_id": "AU-SC-PREPARED-BUILDING-PLATFORM",
+      "source_ids": [
+        "SRC-ABCB-HP-EARTHWORKS",
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7650-SC-FILL-EMBANKMENT-PART-OF-AU-SC-PREPARED-BUILDING-PLATFORM",
+      "from_id": "AU-SC-FILL-EMBANKMENT",
+      "relationship": "part_of",
+      "to_id": "AU-SC-PREPARED-BUILDING-PLATFORM",
+      "source_ids": [
+        "SRC-ABCB-HP-EARTHWORKS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7651-SC-PREPARED-BUILDING-PLATFORM-HAS-PART-AU-SC-CONTROLLED-FILL",
+      "from_id": "AU-SC-PREPARED-BUILDING-PLATFORM",
+      "relationship": "has_part",
+      "to_id": "AU-SC-CONTROLLED-FILL",
+      "source_ids": [
+        "SRC-ABCB-HP-EARTHWORKS",
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7652-SC-PREPARED-BUILDING-PLATFORM-HAS-PART-AU-SC-FILL-EMBANKMENT",
+      "from_id": "AU-SC-PREPARED-BUILDING-PLATFORM",
+      "relationship": "has_part",
+      "to_id": "AU-SC-FILL-EMBANKMENT",
+      "source_ids": [
+        "SRC-ABCB-HP-EARTHWORKS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7653-SC-PREPARED-BUILDING-PLATFORM-HAS-PART-AU-SC-QUARRY-SAND-BEDDING",
+      "from_id": "AU-SC-PREPARED-BUILDING-PLATFORM",
+      "relationship": "has_part",
+      "to_id": "AU-SC-QUARRY-SAND-BEDDING",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7654-SC-PREPARED-BUILDING-PLATFORM-HAS-PART-AU-SC-ROLLED-FILL",
+      "from_id": "AU-SC-PREPARED-BUILDING-PLATFORM",
+      "relationship": "has_part",
+      "to_id": "AU-SC-ROLLED-FILL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7656-SC-QUARRY-SAND-BEDDING-PART-OF-AU-SC-PREPARED-BUILDING-PLATFORM",
+      "from_id": "AU-SC-QUARRY-SAND-BEDDING",
+      "relationship": "part_of",
+      "to_id": "AU-SC-PREPARED-BUILDING-PLATFORM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7658-SC-ROLLED-FILL-PART-OF-AU-SC-PREPARED-BUILDING-PLATFORM",
+      "from_id": "AU-SC-ROLLED-FILL",
+      "relationship": "part_of",
+      "to_id": "AU-SC-PREPARED-BUILDING-PLATFORM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7660-SC-SILT-PIT-CONNECTS-TO-AU-SC-STORMWATER-DRAIN",
+      "from_id": "AU-SC-SILT-PIT",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-STORMWATER-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7661-SC-SILT-PIT-CONNECTS-TO-AU-SC-SUBSOIL-DRAIN",
+      "from_id": "AU-SC-SILT-PIT",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-SUBSOIL-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7662-SC-SILT-PIT-PART-OF-AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+      "from_id": "AU-SC-SILT-PIT",
+      "relationship": "part_of",
+      "to_id": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7663-SC-SOAKER-WELL-CONNECTS-TO-AU-SC-STORMWATER-DRAIN",
+      "from_id": "AU-SC-SOAKER-WELL",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-STORMWATER-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7667-SC-STORMWATER-DRAIN-CONNECTS-TO-AU-SC-SILT-PIT",
+      "from_id": "AU-SC-STORMWATER-DRAIN",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-SILT-PIT",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7668-SC-STORMWATER-DRAIN-CONNECTS-TO-AU-SC-SOAKER-WELL",
+      "from_id": "AU-SC-STORMWATER-DRAIN",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-SOAKER-WELL",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7669-SC-STORMWATER-DRAIN-CONNECTS-TO-AU-SC-STORMWATER-TANK",
+      "from_id": "AU-SC-STORMWATER-DRAIN",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-STORMWATER-TANK",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7670-SC-STORMWATER-TANK-CONNECTS-TO-AU-SC-STORMWATER-DRAIN",
+      "from_id": "AU-SC-STORMWATER-TANK",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-STORMWATER-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7671-SC-SUBSOIL-DRAIN-CONNECTS-TO-AU-SC-SILT-PIT",
+      "from_id": "AU-SC-SUBSOIL-DRAIN",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-SILT-PIT",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7672-SC-SUBSOIL-DRAIN-CONNECTS-TO-AU-SC-SUMP",
+      "from_id": "AU-SC-SUBSOIL-DRAIN",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-SUMP",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7673-SC-SUBSOIL-DRAIN-PART-OF-AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+      "from_id": "AU-SC-SUBSOIL-DRAIN",
+      "relationship": "part_of",
+      "to_id": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7674-SC-SUBSOIL-DRAINAGE-SYSTEM-HAS-PART-AU-SC-SILT-PIT",
+      "from_id": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SC-SILT-PIT",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7675-SC-SUBSOIL-DRAINAGE-SYSTEM-HAS-PART-AU-SC-SUBSOIL-DRAIN",
+      "from_id": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SC-SUBSOIL-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7676-SC-SUBSOIL-DRAINAGE-SYSTEM-HAS-PART-AU-SC-SUMP",
+      "from_id": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SC-SUMP",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7677-SC-SUMP-CONNECTS-TO-AU-SC-SUBSOIL-DRAIN",
+      "from_id": "AU-SC-SUMP",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-SUBSOIL-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7678-SC-SUMP-PART-OF-AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+      "from_id": "AU-SC-SUMP",
+      "relationship": "part_of",
+      "to_id": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SITE-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-7649-SC-CONTROLLED-FILL-SUPPORTS-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-SC-CONTROLLED-FILL",
+      "relationship": "supports",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-EARTHWORKS",
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7655-SC-QUARRY-SAND-BEDDING-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-SC-QUARRY-SAND-BEDDING",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7657-SC-QUARRY-SAND-BEDDING-SUPPORTS-AU-CF-DAMP-PROOFING-MEMBRANE",
+      "from_id": "AU-SC-QUARRY-SAND-BEDDING",
+      "relationship": "supports",
+      "to_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7659-SC-ROLLED-FILL-SUPPORTS-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-SC-ROLLED-FILL",
+      "relationship": "supports",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7664-SC-STORMWATER-DRAIN-CONNECTS-TO-AU-PL-RAINWATER-TANK-OVERFLOW",
+      "from_id": "AU-SC-STORMWATER-DRAIN",
+      "relationship": "connects_to",
+      "to_id": "AU-PL-RAINWATER-TANK-OVERFLOW",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7665-SC-STORMWATER-DRAIN-CONNECTS-TO-AU-RD-DOWNPIPE",
+      "from_id": "AU-SC-STORMWATER-DRAIN",
+      "relationship": "connects_to",
+      "to_id": "AU-RD-DOWNPIPE",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7666-SC-STORMWATER-DRAIN-CONNECTS-TO-AU-RD-DOWNPIPE-STORMWATER-ADAPTOR",
+      "from_id": "AU-SC-STORMWATER-DRAIN",
+      "relationship": "connects_to",
+      "to_id": "AU-RD-DOWNPIPE-STORMWATER-ADAPTOR",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

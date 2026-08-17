@@ -1,0 +1,207 @@
+# Safe Movement Access discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 157
+- Internal relationships: 312
+- Outgoing cross-discipline relationships: 6
+- Distinct supporting sources: 15
+- Distinct linked standards: 5
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 57.3%
+- Objects with two or more sources: 51.0%
+
+## Categories
+
+- access assemblies: 3
+- barrier assemblies: 13
+- barrier components: 8
+- barrier connections: 12
+- barrier gate components: 4
+- barrier infill: 6
+- glass barrier components: 18
+- glass barriers: 1
+- handrail assemblies: 3
+- handrail components: 11
+- landing components: 6
+- ramp components: 7
+- ramp landing assemblies: 3
+- stair assemblies: 11
+- stair connections: 8
+- stair finishes: 2
+- stair steps: 12
+- stair supports: 6
+- stair surfaces: 6
+- wire barrier components: 16
+- wire barriers: 1
+
+## Objects
+
+- **access-path retaining-wall barrier assembly** (`AU-SA-RETAINING-WALL-ACCESS-BARRIER-ASSEMBLY`) — A barrier installed along a retaining-wall edge where that wall forms part of or directly adjoins a delineated access path to or between buildings.
+- **alpine external trafficable access assembly** (`AU-SA-ALPINE-EXTERNAL-ACCESS-ASSEMBLY`) — An external stairway, ramp, access bridge or similar trafficable structure serving a building in an alpine area and detailed for snow, ice, drainage, open surfaces and open barrier construction under the selected path.
+- **barrier baluster** (`AU-SA-BARRIER-BALUSTER`) — A repeated slender vertical or near-vertical member between a tread, string, bottom rail or floor and the barrier top rail or handrail.
+- **barrier base levelling packer or grout** (`AU-SA-BARRIER-BASE-PACKER-GROUT`) — A non-shrink grout bed, engineered packer or shim below a barrier base plate or channel used to level the support and provide full documented bearing.
+- **barrier bottom rail** (`AU-SA-BARRIER-BOTTOM-RAIL`) — The lowest continuous rail supporting the feet of balusters, panels, mesh or vertical wires above the trafficable surface or stair string.
+- **barrier corner post** (`AU-SA-BARRIER-CORNER-POST`) — A post at a barrier change of direction, shaped and connected to support rail, panel or wire runs meeting from two or more plan directions.
+- **barrier end post** (`AU-SA-BARRIER-END-POST`) — A barrier post terminating a rail, wire, panel or handrail run and carrying the resulting end connection and, for tensioned wire, unbalanced terminal forces.
+- **barrier gate hinge** (`AU-SA-BARRIER-GATE-HINGE`) — A hinge or pivot set connecting the barrier gate leaf to its support post and allowing controlled rotation while carrying leaf weight and applied actions.
+- **barrier gate latch** (`AU-SA-BARRIER-GATE-LATCH`) — A mechanical catch, bolt, magnetic latch or lock securing a barrier gate leaf to its latch post in the closed position.
+- **barrier gate leaf** (`AU-SA-BARRIER-GATE-LEAF`) — The framed openable panel of a barrier gate, containing rails and infill selected to continue the surrounding fall-protection geometry when closed.
+- **barrier gate stop** (`AU-SA-BARRIER-GATE-STOP`) — A fixed bumper, block or plate limiting barrier-gate travel and establishing its closed or maximum-open position without overloading hinges or adjacent barrier parts.
+- **barrier infill panel** (`AU-SA-BARRIER-INFILL-PANEL`) — A discrete solid or apertured panel fitted within a barrier bay between posts, rails, channels, clamps or standoffs.
+- **barrier infill panel clamp** (`AU-SA-BARRIER-PANEL-CLAMP`) — A two-part clamp, glazing clip or bracket gripping the edge or face of an infill panel and connecting it to a post, rail or structural support.
+- **barrier intermediate post** (`AU-SA-BARRIER-INTERMEDIATE-POST`) — A repeated post between barrier ends or corners that supports rails, infill panels or wire ropes and controls the effective span of those components.
+- **barrier intermediate rail** (`AU-SA-BARRIER-INTERMEDIATE-RAIL`) — A horizontal or sloping rail between the barrier top and bottom that supports infill or forms part of a rail-only barrier arrangement.
+- **barrier picket** (`AU-SA-BARRIER-PICKET`) — A usually plain metal or timber vertical infill member fixed between barrier rails or directly to a supporting frame in a repeated picket pattern.
+- **barrier post anchor** (`AU-SA-BARRIER-POST-ANCHOR`) — A cast-in or post-installed bolt, screw, stud or chemical-anchor assembly securing a barrier base plate, shoe or bracket to concrete, masonry, steel or timber structure.
+- **barrier post base cover** (`AU-SA-BARRIER-BASE-COVER`) — A decorative or weather-shedding escutcheon fitted over a post base plate, anchor nuts or mounting socket without providing the primary structural connection.
+- **barrier post base plate** (`AU-SA-BARRIER-POST-BASE-PLATE`) — A steel or aluminium plate welded, bolted or mechanically fixed to the bottom of a barrier post and anchored to the top face of a slab, deck or supporting member.
+- **barrier post shoe or socket** (`AU-SA-BARRIER-POST-SHOE`) — A proprietary or fabricated socket, stirrup or shoe receiving the base of a timber or metal barrier post and connecting it to the host structure.
+- **barrier post waterproofing collar or flashing** (`AU-SA-BARRIER-POST-WATERPROOF-COLLAR`) — A formed collar, boot, flange or membrane flashing sealing the penetration or base of a barrier post through an external deck, balcony or landing waterproofing system.
+- **barrier rail end cap** (`AU-SA-BARRIER-RAIL-END-CAP`) — A fitted plug or cover closing the exposed end of a hollow or open barrier rail profile.
+- **barrier rail joiner** (`AU-SA-BARRIER-RAIL-JOINER`) — An internal sleeve, dowel, splice plate, socket or proprietary fitting joining two rail lengths in line or through a change in direction.
+- **barrier rail or panel wall bracket** (`AU-SA-BARRIER-TO-WALL-BRACKET`) — A fitting connecting the end of a barrier rail, panel frame or handrail to a wall, column or substantial post at the end of a barrier run.
+- **barrier rail, panel or fitting fastener** (`AU-SA-BARRIER-ASSEMBLY-FASTENER`) — A screw, bolt, rivet, pin or proprietary fixing securing rails, balusters, panels, clamps, brackets and covers within a barrier system, distinct from the primary host anchor.
+- **barrier support post** (`AU-SA-BARRIER-POST`) — A vertical structural member supporting barrier rails, panels, wire terminals or handrails and transferring their actions through its base or side connection to the building structure.
+- **barrier top rail** (`AU-SA-BARRIER-TOP-RAIL`) — The upper continuous rail connecting barrier posts or panels and forming the top edge of the barrier, whether or not it also has a suitable handrail role.
+- **barrier-top handrail assembly** (`AU-SA-BARRIER-TOP-HANDRAIL-ASSEMBLY`) — A graspable top rail or separate rail mounted on a stair or ramp barrier so one physical system provides both fall protection and the required handhold.
+- **central mono-stringer stair support** (`AU-SA-MONO-STRINGER-ASSEMBLY`) — A stair support arrangement using one central sloping beam or fabricated spine with individual brackets or arms extending to carry each tread.
+- **closed-riser stair assembly** (`AU-SA-CLOSED-RISER-STAIR-ASSEMBLY`) — A stairway whose vertical spaces between successive treads are closed by riser boards, concrete faces, metal pans or another continuous construction.
+- **core-drilled glass spigot socket** (`AU-SA-CORE-DRILLED-GLASS-SPIGOT-SOCKET`) — A drilled cylindrical recess in a concrete or masonry host receiving a glass-spigot stem and its compatible grout or anchoring compound.
+- **curved or geometric stair assembly** (`AU-SA-CURVED-GEOMETRIC-STAIR-ASSEMBLY`) — A stairway following a curved, elliptical or other non-rectilinear plan using purpose-set strings, treads, newels and handrails rather than a simple central-pole spiral arrangement.
+- **cut timber stair stringer** (`AU-SA-CUT-TIMBER-STRINGER`) — A sloping timber member with a stepped upper profile cut to form horizontal tread seats and vertical riser faces for direct support of the steps.
+- **doorway threshold step assembly** (`AU-SA-THRESHOLD-STEP-ASSEMBLY`) — A controlled stepped transition at a doorway where the threshold is above the adjoining surface, including the door sill, step treads and risers, landing interface and weathering details.
+- **expanded-metal barrier infill panel** (`AU-SA-EXPANDED-METAL-INFILL-PANEL`) — A sheet slit and stretched into a rigid diamond or shaped mesh with integral strands, cut and framed as a barrier panel or alpine trafficable-side infill.
+- **external building-serving stair assembly** (`AU-SA-EXTERNAL-STAIR-ASSEMBLY`) — A stairway outside the weather envelope that directly serves access to, from or within the building and is detailed for weather, drainage, durability and wet surface conditions.
+- **fall-barrier access gate assembly** (`AU-SA-BARRIER-GATE-ASSEMBLY`) — An openable leaf within a fall-prevention barrier, complete with frame or posts, hinges, latch, stops, infill and clearances selected to preserve the barrier when closed.
+- **fall-prevention barrier system** (`AU-SA-FALL-PREVENTION-BARRIER-SYSTEM`) — A continuous physical construction along a hazardous trafficable edge or relevant opening that resists people falling over, through or between its components.
+- **fascia-mounted glass barrier channel** (`AU-SA-GLASS-BARRIER-FASCIA-CHANNEL`) — A continuous glazing shoe fixed to the vertical face of a slab, landing, deck or stair edge so the glass panels rise outside the trafficable surface.
+- **framed ramp support assembly** (`AU-SA-RAMP-SUPPORT-FRAME`) — The sloping beams or stringers, joists, bearers, posts, bracing and connections supporting an elevated timber, steel or composite ramp deck.
+- **full-tread slip-resistant safety plate** (`AU-SA-FULL-TREAD-SAFETY-PLATE`) — A rigid textured plate fixed over most or all of a stair tread surface to provide a durable slip-resistant overlay and often an integral nosing.
+- **glass barrier assembly** (`AU-SA-GLASS-BARRIER-ASSEMBLY`) — A fall-prevention barrier using structural or infill safety-glass panels together with the selected posts, channels, spigots, clamps, standoffs, gaskets, handrail or top rail and anchors.
+- **glass barrier channel anchor group** (`AU-SA-GLASS-CHANNEL-ANCHOR-GROUP`) — The repeated anchors, washers, nuts, holes, backing and local host zones fixing a continuous glazing channel to its slab, deck, fascia or edge beam.
+- **glass barrier channel drainage opening** (`AU-SA-GLASS-CHANNEL-DRAINAGE-OPENING`) — A formed or drilled weep opening allowing water entering a glazing shoe or base channel to drain to a documented exterior path.
+- **glass barrier channel end cover** (`AU-SA-GLASS-CHANNEL-END-COVER`) — A fitted plate or cap closing the exposed cut end of a glass base or fascia channel and finishing the barrier termination.
+- **glass barrier channel gasket** (`AU-SA-GLASS-CHANNEL-GASKET`) — A continuous or segmented elastomeric extrusion between a glass barrier panel and metal channel, clamp or cap to cushion the glass and close the visible joint.
+- **glass barrier channel wedge** (`AU-SA-GLASS-CHANNEL-WEDGE`) — A proprietary rigid or adjustable block inserted between glass and glazing channel to clamp, align and transfer panel reactions into the channel.
+- **glass barrier panel clamp** (`AU-SA-GLASS-PANEL-CLAMP`) — A metal clamp with compatible gaskets gripping the edge or face of a glass barrier panel and fixing it to a post, rail or support frame.
+- **glass barrier setting block** (`AU-SA-GLASS-SETTING-BLOCK`) — A small compatible resilient block beneath or beside a glass panel that locates it, maintains edge clearance and supports its dead load within a channel, frame or clamp system.
+- **glass barrier spigot assembly** (`AU-SA-GLASS-BARRIER-SPIGOT`) — A short metal support gripping the lower edge of a glass barrier panel and connected by a base plate or embedded stem to the deck, slab or supporting member.
+- **glass barrier standoff button** (`AU-SA-GLASS-STANDOFF-BUTTON`) — A circular point fixing passing through a prepared glass hole and spacing the panel away from the vertical face of a stair stringer, slab, fascia or structural frame.
+- **glass barrier top cap rail** (`AU-SA-GLASS-BARRIER-TOP-CAP-RAIL`) — A continuous metal or timber profile fitted over the top edges of adjacent glass barrier panels to protect edges, link panels and contribute to post-breakage or structural behaviour where documented.
+- **glass spigot base plate** (`AU-SA-GLASS-SPIGOT-BASE-PLATE`) — A top-mounted plate integral with or bolted to a glass spigot and anchored to a deck, slab or structural support.
+- **glass-mounted handrail assembly** (`AU-SA-GLASS-MOUNTED-HANDRAIL`) — A graspable rail offset from and supported by brackets fixed through or clamped to a glass barrier panel, distinct from a cap rail directly over the glass edge.
+- **glass-mounted handrail bracket** (`AU-SA-GLASS-HANDRAIL-BRACKET`) — A stand-off saddle or clamp connecting a handrail to a glass barrier panel using a prepared glass hole or compatible clamp and isolation gaskets.
+- **graspable handrail member** (`AU-SA-GRASPABLE-HANDRAIL-MEMBER`) — The continuous timber or metal rail physically shaped and positioned for a user's hand to grip while moving along a stair flight or ramp.
+- **half-turn stair assembly** (`AU-SA-HALF-TURN-STAIR-ASSEMBLY`) — A stairway with adjacent flights running in opposing directions and connected by a half landing or permitted winder arrangement.
+- **handrail bend or elbow fitting** (`AU-SA-HANDRAIL-BEND-ELBOW`) — A curved, mitred or adjustable fitting changing a handrail's direction or slope through a corner, landing transition or return.
+- **handrail bracket fixing or anchor** (`AU-SA-HANDRAIL-FIXING-ANCHOR`) — A screw, bolt, masonry anchor or other fixing securing a handrail bracket or end return through the wall finish into verified structural backing or substrate.
+- **handrail bracket spacer or standoff** (`AU-SA-HANDRAIL-BRACKET-SPACER`) — A solid spacer between a handrail bracket plate and wall or post used to clear thick finishes, align the rail or establish the designed hand clearance.
+- **handrail end cap** (`AU-SA-HANDRAIL-END-CAP`) — A fitted plug or plate closing the open end of a hollow handrail profile when the rail terminates without a shaped return.
+- **handrail end return** (`AU-SA-HANDRAIL-END-RETURN`) — A curved or angled terminal piece returning the handrail end toward a wall, post, floor or itself to remove an exposed snagging end and complete the handhold.
+- **handrail joiner** (`AU-SA-HANDRAIL-JOINER`) — An internal dowel, sleeve, splice plate or shaped fitting joining adjacent handrail lengths while keeping the handhold aligned and smooth.
+- **handrail wall backing or blocking** (`AU-SA-HANDRAIL-WALL-BACKING`) — A timber block, steel plate, nogging, stud arrangement or other structural insert behind a wall lining positioned to receive handrail bracket fixings.
+- **handrail wall bracket** (`AU-SA-HANDRAIL-WALL-BRACKET`) — A metal or timber bracket projecting from a wall and supporting a handrail at a controlled offset, with a wall plate, arm, saddle and fixings.
+- **handrail wall rosette or flange cover** (`AU-SA-HANDRAIL-WALL-ROSETTE`) — A decorative or finishing plate around a handrail end, wall bracket stem or return where it meets the wall surface.
+- **handrail-to-post bracket** (`AU-SA-HANDRAIL-POST-BRACKET`) — A saddle, stem or articulated fitting connecting a handrail to the top or side of a barrier post or newel.
+- **housed timber stair stringer** (`AU-SA-HOUSED-TIMBER-STRINGER`) — A sloping timber string with grooves or housings cut into its inside face to receive tread and riser ends, usually tightened with wedges in traditional construction.
+- **housed-stair tread or riser wedge** (`AU-SA-TREAD-RISER-WEDGE`) — A tapered timber piece driven and glued into the wedge-shaped pocket behind a housed tread or riser end to tighten it against the string housing.
+- **infill glass barrier panel** (`AU-SA-INFILL-GLASS-BARRIER-PANEL`) — A safety-glass panel retained inside a separate structural post-and-rail frame, where the frame provides the main continuous barrier support and the panel closes the opening between members.
+- **landing edge apron or fascia** (`AU-SA-LANDING-APRON-FASCIA`) — A vertical board, plate or trim closing and finishing the exposed edge of a landing frame below the trafficable surface.
+- **landing or deck barrier assembly** (`AU-SA-LANDING-DECK-BARRIER-ASSEMBLY`) — A substantially level barrier run protecting the edge of a stair landing, balcony, deck, verandah or similar trafficable surface.
+- **landing support beam** (`AU-SA-LANDING-BEAM`) — A horizontal timber or steel member carrying landing joists, deck edges or stair-stringer reactions between posts, walls or other supports.
+- **landing support post** (`AU-SA-LANDING-SUPPORT-POST`) — A vertical timber, steel or concrete member supporting an elevated stair or ramp landing and transferring its loads to a footing or lower structure.
+- **landing walking-surface finish** (`AU-SA-LANDING-WALKING-FINISH`) — The exposed finish on a stair or ramp landing, including the slip-resistant treatment near a stair edge where that treatment is provided by the surface rather than a separate strip.
+- **metal grating stair tread** (`AU-SA-GRATING-STAIR-TREAD`) — An open metal grating panel made with bearing bars and cross bars, commonly fitted with a front nosing and side plates for bolting to stair supports.
+- **metal stair pan** (`AU-SA-METAL-STAIR-PAN`) — A folded steel tray forming the underside, rear and front containment for a tread infill such as concrete, screed, stone or another finish.
+- **open-riser clear opening** (`AU-SA-OPEN-RISER-OPENING`) — The actual clear void between the rear of one tread and the underside or front edge of the tread above in an open-riser stair.
+- **open-riser stair assembly** (`AU-SA-OPEN-RISER-STAIR-ASSEMBLY`) — A stairway in which one or more vertical spaces between adjacent treads remain open rather than being closed by solid riser boards or faces.
+- **openable-window supplementary barrier assembly** (`AU-SA-WINDOW-BARRIER-RAIL-ASSEMBLY`) — A fixed rail, panel, wall or glazing arrangement in front of or below an openable window that provides the required barrier height and opening control in the selected fall-protection path.
+- **panel-infill barrier assembly** (`AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY`) — A barrier using solid, slotted, perforated, mesh or glazed panels fixed between posts, rails, channels, clamps or standoffs.
+- **pedestrian circulation surface assembly** (`AU-SA-PEDESTRIAN-CIRCULATION-SURFACE-ASSEMBLY`) — A floor, path, landing, tread or ramp surface and its supporting layers where a person walks while moving to or within a building.
+- **perforated or mesh barrier assembly** (`AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY`) — A panel barrier whose infill contains repeated manufactured apertures through perforated sheet, expanded metal, woven or welded mesh.
+- **perforated-metal barrier infill panel** (`AU-SA-PERFORATED-METAL-INFILL-PANEL`) — A metal sheet with punched or laser-cut apertures and formed or framed edges used as a barrier infill panel.
+- **post-and-rail barrier assembly** (`AU-SA-POST-AND-RAIL-BARRIER-ASSEMBLY`) — A barrier formed mainly by spaced vertical posts carrying a top rail and one or more intermediate or bottom rails, with or without separate infill.
+- **precast concrete stair tread or step unit** (`AU-SA-PRECAST-CONCRETE-STAIR-TREAD`) — A factory-formed concrete step unit with an integral tread and often riser face, bearing seats and cast-in or drilled connections to a supporting stair frame.
+- **quarter-turn stair assembly** (`AU-SA-QUARTER-TURN-STAIR-ASSEMBLY`) — A stairway that changes plan direction by about a quarter turn using a landing or permitted group of winders between flights.
+- **ramp edge upstand** (`AU-SA-RAMP-EDGE-UPSTAND`) — A low continuous kerb, board or raised edge fixed along an open side of a ramp or landing to define the deck edge and limit wheels, feet or objects slipping off the surface where selected by the design path.
+- **ramp movement-joint cover** (`AU-SA-RAMP-JOINT-COVER`) — A trafficable cover plate or proprietary profile bridging a movement or construction joint across a ramp or landing while allowing the intended relative movement.
+- **ramp or landing drainage channel** (`AU-SA-RAMP-DRAINAGE-CHANNEL`) — A linear channel and grate intercepting surface water at or across an external ramp, landing or doorway transition without creating an unsafe step or opening.
+- **ramp slip-resistant finish** (`AU-SA-RAMP-SLIP-RESISTANT-FINISH`) — The tested exposed ramp surface or applied coating, sheet, strip or aggregate treatment providing the required slip-resistance classification for its expected wet or dry condition.
+- **ramp stringer or sloping support beam** (`AU-SA-RAMP-STRINGER-BEAM`) — A primary sloping timber or steel member carrying an elevated ramp deck between landings or support frames.
+- **ramp trafficable deck or slab** (`AU-SA-RAMP-DECK-SURFACE`) — The continuous sloping structural surface of a ramp, formed by a concrete slab, timber or composite decking, sheet panel, steel plate or grating.
+- **residential building-serving ramp assembly** (`AU-SA-RAMP-ASSEMBLY`) — A sloping pedestrian construction serving an external doorway or located within a building, including its trafficable surface, supports, landings, joints, edge protection and handrails where selected.
+- **residential safe-movement and fall-protection system** (`AU-SA-SAFE-MOVEMENT-SYSTEM`) — The coordinated walking surfaces, stairs, ramps, landings, thresholds, handrails and fall-prevention barriers that allow people to move to and within a house or associated Class 10 building.
+- **residential stairway assembly** (`AU-SA-STAIRWAY-ASSEMBLY`) — A complete construction of one or more flights and landings that provides stepped movement between floor levels, including supports, treads, risers or open-riser gaps, finishes, barriers and handrails where selected.
+- **side-mounted barrier post bracket** (`AU-SA-BARRIER-FASCIA-MOUNT-BRACKET`) — A plate, angle or proprietary bracket fixing a barrier post or glazing channel to the vertical fascia or edge face of a deck, landing, balcony or stair.
+- **slip-resistant stair nosing strip assembly** (`AU-SA-SLIP-RESISTANT-NOSING-STRIP`) — A tested strip, carrier profile or bonded insert fixed at or near the tread nosing to provide a defined slip-resistant walking band.
+- **solid wall or parapet barrier assembly** (`AU-SA-SOLID-WALL-BARRIER-ASSEMBLY`) — A solid framed, masonry, concrete or panel wall forming the required barrier at a trafficable edge, with a finished top and structurally connected base.
+- **spiral stair assembly** (`AU-SA-SPIRAL-STAIR-ASSEMBLY`) — A stairway whose tapered treads wind around a central pole or support while rising through a circular or near-circular plan.
+- **spiral stair tread** (`AU-SA-SPIRAL-STAIR-TREAD`) — A radial tapered tread with a centre-pole connection and an outer edge supporting or connecting to the spiral stair barrier and handrail system.
+- **stainless-steel barrier wire rope** (`AU-SA-BARRIER-WIRE-ROPE`) — A stranded stainless-steel wire rope installed as one horizontal, vertical or near-vertical tensioned run within a wire barrier system.
+- **stair assembly screw, bolt or fixing** (`AU-SA-STAIR-ASSEMBLY-FASTENER`) — A selected screw, bolt, coach screw, anchor, pin or proprietary fastener securing stair treads, risers, brackets, stringers or landing components.
+- **stair flight assembly** (`AU-SA-STAIR-FLIGHT-ASSEMBLY`) — A continuous sloping run of steps between landings or floor levels, formed by its supports, treads, risers or openings, nosings, finishes and associated edge protection.
+- **stair newel post** (`AU-SA-STAIR-NEWEL-POST`) — A substantial post at the start, end, turn or landing of a stair balustrade that anchors handrails and barrier components and may also connect to strings or landing framing.
+- **stair nosing carrier profile** (`AU-SA-NOSING-CARRIER-PROFILE`) — A metal or rigid polymer extrusion fixed to the tread edge that supports a replaceable slip-resistant insert and protects the nosing.
+- **stair nosing slip-resistant insert** (`AU-SA-NOSING-SLIP-INSERT`) — A replaceable abrasive, elastomeric or composite strip locked or bonded into a stair nosing carrier to form the exposed slip-resistant band.
+- **stair or ramp handrail system** (`AU-SA-HANDRAIL-SYSTEM`) — A continuous graspable rail and its brackets, posts, joiners, returns, end fittings and anchors provided beside a stair flight or ramp to assist balance and movement.
+- **stair or ramp landing assembly** (`AU-SA-LANDING-ASSEMBLY`) — A substantially level trafficable platform at the top, bottom or intermediate point of a stairway or ramp, including its structure, substrate, finish, edges and connections.
+- **stair or ramp landing deck substrate** (`AU-SA-LANDING-DECK-SUBSTRATE`) — The structural or load-spreading panel, boards or slab surface forming the body of a landing beneath its exposed walking finish.
+- **stair or ramp landing support frame** (`AU-SA-LANDING-SUPPORT-FRAME`) — The beams, joists, trimmers, posts, ledgers and connections supporting a framed landing between stair flights, ramp runs or a doorway.
+- **stair pan tread infill** (`AU-SA-STAIR-PAN-INFILL`) — The concrete, screed, resin, stone or other solid fill placed inside a metal stair pan to create the final tread body and receive the walking finish.
+- **stair riser closure** (`AU-SA-STAIR-RISER`) — The vertical or near-vertical physical face closing the space between successive stair treads, formed by a board, panel, concrete face, folded pan or other solid construction.
+- **stair skirt board** (`AU-SA-STAIR-SKIRT-BOARD`) — A sloping finish board fitted at the junction of a stair flight and wall, following the tread and riser profile or covering the wall-side string.
+- **stair soffit lining** (`AU-SA-STAIR-SOFFIT-LINING`) — A board or sheet lining fixed beneath a stair flight to create a finished sloping underside and conceal strings, tread backs or services.
+- **stair stringer bearing seat** (`AU-SA-STRINGER-BEARING-SEAT`) — A shaped timber seat, steel plate, masonry ledge or concrete pad providing direct bearing beneath a stair stringer end.
+- **stair stringer bottom connection assembly** (`AU-SA-STRINGER-BOTTOM-CONNECTION`) — The seat cut, bearing plate, cleat, anchor and local substrate that support and restrain the lower end of a stair stringer at a floor, footing or landing.
+- **stair stringer connection cleat** (`AU-SA-STRINGER-CLEAT`) — An angle, plate, block or fabricated fitting connecting a stair stringer end or side to a landing beam, floor frame, wall or support post.
+- **stair stringer support system** (`AU-SA-STAIR-STRINGER-SYSTEM`) — The one or more sloping structural members and associated cleats, housings, brackets, bearings and anchors that support a stair flight's treads and risers.
+- **stair stringer top connection assembly** (`AU-SA-STRINGER-TOP-CONNECTION`) — The bearing, notch, hanger, cleat, end plate, bolts and local floor framing that connect the top of a stair stringer to an upper landing or floor edge.
+- **stair tread** (`AU-SA-STAIR-TREAD`) — The substantially horizontal trafficable part of one step on which a person places a foot, including its front nosing geometry but excluding any separately applied finish or nosing strip.
+- **stair tread finish layer** (`AU-SA-STAIR-TREAD-FINISH`) — The exposed walking finish applied over a structural stair tread, such as timber overlay, tile, stone, resilient flooring, carpet or coating.
+- **stair tread nosing** (`AU-SA-STAIR-NOSING`) — The front edge or projecting profile of a stair tread that defines the visible step edge and the datum from which stair going and barrier or handrail heights may be measured.
+- **stair tread support bracket** (`AU-SA-STAIR-TREAD-BRACKET`) — A steel, aluminium or timber bracket projecting from a stringer, spine, wall or post to support and fix one stair tread.
+- **stair tread-to-riser glue block** (`AU-SA-TREAD-RISER-GLUE-BLOCK`) — A small timber block glued and sometimes pinned or screwed beneath the junction of a tread and riser to reinforce the corner and limit relative movement.
+- **stair-flight barrier assembly** (`AU-SA-STAIR-BARRIER-ASSEMBLY`) — A fall-prevention barrier following an open side of a stair flight, measured relative to the tread nosing line and coordinated with the sloping handrail where present.
+- **stair-to-landing barrier transition assembly** (`AU-SA-BARRIER-HEIGHT-TRANSITION-ASSEMBLY`) — The local sloping or shaped rail, post and infill arrangement where a stair or ramp barrier changes to the level landing barrier geometry.
+- **steel channel or hollow-section stair stringer** (`AU-SA-STEEL-SECTION-STRINGER`) — A channel, rectangular hollow section or other rolled or formed steel section used as a sloping stair-flight support with attached tread brackets or pans.
+- **steel plate stair stringer** (`AU-SA-STEEL-PLATE-STRINGER`) — A flat or profiled steel plate running along or beneath a stair flight and carrying welded or bolted tread brackets, cleats or pans.
+- **steel plate stair tread** (`AU-SA-STEEL-PLATE-STAIR-TREAD`) — A fabricated flat, folded or chequered steel plate forming one stair tread and attached to brackets, stringers or a stair pan system.
+- **straight-flight stair assembly** (`AU-SA-STRAIGHT-STAIR-ASSEMBLY`) — A stairway whose flight or aligned flights rise in one plan direction without winders or a curved walking line.
+- **structural glass barrier panel** (`AU-SA-STRUCTURAL-GLASS-BARRIER-PANEL`) — A safety-glass panel forming the principal structural barrier between its base or point supports and top edge, rather than acting only as infill inside a separate load-carrying frame.
+- **tensioned wire-rope barrier assembly** (`AU-SA-WIRE-BARRIER-ASSEMBLY`) — A barrier formed by horizontal, vertical or near-vertical tensioned stainless-steel wire ropes connected through posts and support rails with terminals, tensioners and direction-change fittings.
+- **timber stair riser board** (`AU-SA-TIMBER-RISER-BOARD`) — A solid or engineered timber board housed or fixed between stair treads and strings to form the closed vertical face of a traditional timber step.
+- **timber stair tread** (`AU-SA-TIMBER-STAIR-TREAD`) — A solid, laminated or engineered timber tread shaped with a nosing and fixed to strings, housings, cleats or brackets.
+- **top-mounted glass barrier base-channel assembly** (`AU-SA-GLASS-BARRIER-BASE-CHANNEL`) — A continuous aluminium or steel channel anchored to the top face of a slab, deck or edge beam and gripping the lower edge of a line of glass barrier panels with wedges and gaskets.
+- **trafficable-edge barrier assembly** (`AU-SA-TRAFFICABLE-EDGE-BARRIER-ASSEMBLY`) — A barrier following the edge of a floor, corridor, balcony, deck, verandah, mezzanine, access bridge, roof space with general access or delineated access path.
+- **vertical-baluster barrier assembly** (`AU-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY`) — A post-and-rail or stair barrier whose primary infill is a repeated row of vertical balusters or pickets between a lower support and top rail or handrail.
+- **wall-mounted handrail assembly** (`AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY`) — A handrail fixed beside a stair or ramp by repeated brackets anchored through finishes into verified wall framing, masonry, concrete or structural backing.
+- **winder stair assembly** (`AU-SA-WINDER-STAIR-ASSEMBLY`) — A turning stairway using a controlled group of tapered treads instead of all or part of a quarter or half landing.
+- **winder stair tread** (`AU-SA-WINDER-TREAD`) — A tapered stair tread used within a turning flight, with different inner and outer depths and a going measured on the applicable walking line.
+- **wire-barrier direction-change pulley block** (`AU-SA-WIRE-DIRECTION-PULLEY`) — A small wheel and support block guiding a continuous vertical or near-vertical barrier wire around a direction change without permanently kinking it.
+- **wire-barrier eye bolt or eye fitting** (`AU-SA-WIRE-EYE-BOLT-FITTING`) — A threaded or welded eye fixed to a barrier post, wall or frame and used as the attachment point for a fork terminal, turnbuckle, wire eye or saddle.
+- **wire-barrier intermediate guide fitting** (`AU-SA-WIRE-INTERMEDIATE-GUIDE`) — A small eye, guide, comb or spacer fixed between main posts to maintain individual wire position without serving as the principal structural end terminal.
+- **wire-barrier pass-through bush** (`AU-SA-WIRE-PASS-THROUGH-BUSH`) — A nylon, polymer or metal-lined bush fitted into a post or rail hole to guide barrier wire, protect it from sharp edges and isolate dissimilar materials.
+- **wire-barrier saddle fitting** (`AU-SA-WIRE-SADDLE-FITTING`) — A small U-shaped or pad-eye-style fitting screwed or bolted to a support to receive a wire loop, thimble, shackle or turnbuckle.
+- **wire-barrier support rail** (`AU-SA-WIRE-BARRIER-SUPPORT-RAIL`) — A rigid rail spanning between posts to support, turn or space vertical and near-vertical wire runs without losing the designed system tension.
+- **wire-barrier swage stud** (`AU-SA-WIRE-SWAGE-STUD`) — A stainless-steel terminal with a tubular end permanently swaged onto wire rope and a threaded stud end passing through or engaging a post fitting.
+- **wire-barrier swaged fork or jaw terminal** (`AU-SA-WIRE-SWAGED-FORK-TERMINAL`) — A wire-rope end fitting permanently swaged to the cable and terminating in a clevis fork or jaw that pins to an eye, lug or turnbuckle.
+- **wire-barrier swageless terminal** (`AU-SA-WIRE-SWAGELESS-TERMINAL`) — A mechanical wire-rope end fitting assembled with internal wedges or jaws using hand tools rather than permanently compressing a swage sleeve.
+- **wire-barrier tension lock-off device** (`AU-SA-WIRE-TENSION-LOCK-OFF`) — A lock nut, jam nut, locking pin, thread adhesive or proprietary retainer preventing a wire tensioner or terminal from rotating loose in service.
+- **wire-barrier termination cover** (`AU-SA-WIRE-TERMINATION-COVER`) — A cap, sleeve or guarded finishing piece covering a sharp wire tail, swage end, exposed thread or terminal projection at a barrier end.
+- **wire-barrier turnbuckle or tensioner** (`AU-SA-WIRE-TURNBUCKLE-TENSIONER`) — An adjustable threaded fitting connected between a barrier wire and its support so rotation changes the wire length and installed tension.
+- **wire-rope crimp ferrule** (`AU-SA-WIRE-CRIMP-FERRULE`) — A metal sleeve compressed around a folded or paired wire-rope segment to form an eye or retain the cable in a documented hand-crimped terminal arrangement.
+- **wire-rope terminal thimble** (`AU-SA-WIRE-ROPE-THIMBLE`) — A grooved metal fitting inside a looped wire-rope eye that maintains the bend radius and protects the wire from crushing and wear at a pin, saddle or eye bolt.
+- **wire-terminal bevel washer** (`AU-SA-WIRE-ANGLED-POST-WASHER`) — A wedge-shaped or spherical washer allowing a wire terminal nut or fitting to bear squarely against an angled stair post or sloping support face.
+- **woven or welded mesh barrier infill** (`AU-SA-WOVEN-WELDED-MESH-INFILL`) — A barrier panel made from intersecting wires that are woven or welded and supported by a perimeter frame, tensioning system or direct fixings.
+
+## Cross-discipline links
+
+- `AU-SA-ALPINE-EXTERNAL-ACCESS-ASSEMBLY` commonly used with `AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY`
+- `AU-SA-BARRIER-POST-ANCHOR` commonly used with `AU-DB-BARRIER-POST-FRAMING-SUPPORT`
+- `AU-SA-BARRIER-POST-WATERPROOF-COLLAR` commonly used with `AU-DB-BARRIER-POST-FRAMING-SUPPORT`
+- `AU-SA-BARRIER-POST-WATERPROOF-COLLAR` commonly used with `AU-DB-BARRIER-POST-MEMBRANE-PENETRATION`
+- `AU-SA-LANDING-DECK-BARRIER-ASSEMBLY` commonly used with `AU-DB-EXTERNAL-TRAFFICABLE-PLATFORM-SYSTEM`
+- `AU-SA-LANDING-DECK-BARRIER-ASSEMBLY` commonly used with `AU-DB-FRAMED-BALCONY-ASSEMBLY`

@@ -1,0 +1,2026 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "site_civil",
+  "objects": [
+    {
+      "id": "AU-SC-CONTROLLED-FILL",
+      "canonical_name": "controlled fill",
+      "preferred_australian_name": "controlled fill",
+      "object_type": "layer",
+      "discipline": "site_civil",
+      "category": "earth_fill",
+      "definition_plain": "Selected soil or sand placed in controlled layers and mechanically compacted to form a documented supporting layer beneath or beside construction.",
+      "definition_technical": null,
+      "primary_function": [
+        "Raise or shape the building platform",
+        "Provide prepared support below slabs and edge beams where permitted",
+        "Replace unsuitable or excavated material with compacted material"
+      ],
+      "orientation": [
+        "horizontal",
+        "varies"
+      ],
+      "typical_materials": [
+        "selected sand",
+        "selected clay",
+        "approved fill material"
+      ],
+      "geometry_class": "volumetric_element",
+      "aliases": [
+        {
+          "term": "engineered fill",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.78
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "compacted fill",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.72
+        }
+      ],
+      "not_synonyms": [
+        "rolled fill",
+        "uncontrolled fill",
+        "natural soil"
+      ],
+      "part_of_assemblies": [
+        "AU-SC-PREPARED-BUILDING-PLATFORM"
+      ],
+      "common_attributes": [
+        "material type",
+        "source",
+        "placed depth",
+        "layer thickness",
+        "compaction method",
+        "test results",
+        "surface level",
+        "extent"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-1289-6-3-3-1997",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-2870-2011",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-CONTROLLED-FILL-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Controlled fill is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-EARTHWORKS",
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-SC-CONTROLLED-FILL-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "Selected soil or sand placed in controlled layers and mechanically compacted to form a documented supporting layer beneath or beside construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-EARTHWORKS",
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-SC-CONTROLLED-FILL-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Raise or shape the building platform; Provide prepared support below slabs and edge beams where permitted; Replace unsuitable or excavated material with compacted material",
+          "source_ids": [
+            "SRC-ABCB-HP-EARTHWORKS",
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Placed volume built from compacted layers",
+        "typical_placement": "Within fill zones of the building platform and below applicable slabs or beams",
+        "host_object": "AU-CF-FOUNDATION-MATERIAL",
+        "start_relationship": "Prepared lower surface",
+        "end_relationship": "Designed fill surface",
+        "opening_relationship": "Interrupted by excavations, services and deepened supports",
+        "load_bearing_role": "Prepared ground support where the design permits"
+      },
+      "search_text": "controlled fill | engineered fill",
+      "ai_aliases": [
+        "engineered fill"
+      ],
+      "natural_language_examples": [
+        "Draw a controlled fill.",
+        "Select the controlled fill."
+      ],
+      "disambiguation_terms": [
+        "rolled fill",
+        "uncontrolled fill",
+        "natural soil"
+      ],
+      "negative_terms": [
+        "rolled fill",
+        "uncontrolled fill",
+        "natural soil"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-EARTHWORKS",
+            "SRC-ABCB-HP-FOOTINGS"
+          ]
+        }
+      ],
+      "notes": [
+        "The ontology does not assign compaction acceptance values; those depend on the applicable provision and project specification."
+      ]
+    },
+    {
+      "id": "AU-SC-FILL-EMBANKMENT",
+      "canonical_name": "unretained fill embankment",
+      "preferred_australian_name": "unretained fill embankment",
+      "object_type": "foundation_element",
+      "discipline": "site_civil",
+      "category": "earthworks",
+      "definition_plain": "A shaped mass of placed and compacted earth that raises the site and is held by its own stable side slope rather than a retaining wall.",
+      "definition_technical": null,
+      "primary_function": [
+        "Raise or reshape site levels",
+        "Create a stable sloping edge to a fill area",
+        "Support landscape or building-platform areas where permitted"
+      ],
+      "orientation": [
+        "sloping",
+        "varies"
+      ],
+      "typical_materials": [
+        "compacted soil fill"
+      ],
+      "geometry_class": "volumetric_element",
+      "aliases": [
+        {
+          "term": "fill batter",
+          "type": "trade_slang",
+          "region": "Australia",
+          "confidence": 0.82
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "batter",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.72
+        }
+      ],
+      "not_synonyms": [
+        "retaining wall",
+        "natural slope"
+      ],
+      "part_of_assemblies": [
+        "AU-SC-PREPARED-BUILDING-PLATFORM"
+      ],
+      "common_attributes": [
+        "toe line",
+        "crest line",
+        "height",
+        "slope",
+        "fill material",
+        "compaction",
+        "drainage",
+        "allotment relationship"
+      ],
+      "standard_references": [],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-FILL-EMBANKMENT-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Unretained fill embankment is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-EARTHWORKS"
+          ],
+          "confidence": 0.85
+        },
+        {
+          "id": "AU-SC-FILL-EMBANKMENT-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A shaped mass of placed and compacted earth that raises the site and is held by its own stable side slope rather than a retaining wall.",
+          "source_ids": [
+            "SRC-ABCB-HP-EARTHWORKS"
+          ],
+          "confidence": 0.76
+        },
+        {
+          "id": "AU-SC-FILL-EMBANKMENT-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Raise or reshape site levels; Create a stable sloping edge to a fill area; Support landscape or building-platform areas where permitted",
+          "source_ids": [
+            "SRC-ABCB-HP-EARTHWORKS"
+          ],
+          "confidence": 0.76
+        }
+      ],
+      "confidence": {
+        "existence": 0.85,
+        "definition": 0.76,
+        "aliases": 0.72,
+        "relationships": 0.71,
+        "overall": 0.73
+      },
+      "review_status": "accepted_pending_review",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Continuous shaped earth volume between crest and toe",
+        "typical_placement": "At the edge of a raised fill zone",
+        "host_object": "AU-CF-FOUNDATION-MATERIAL",
+        "start_relationship": "Embankment extent",
+        "end_relationship": "Embankment extent",
+        "opening_relationship": null,
+        "load_bearing_role": "Self-supporting earthwork, subject to site constraints"
+      },
+      "search_text": "unretained fill embankment | fill batter",
+      "ai_aliases": [
+        "fill batter"
+      ],
+      "natural_language_examples": [
+        "Draw a unretained fill embankment.",
+        "Select the unretained fill embankment."
+      ],
+      "disambiguation_terms": [
+        "retaining wall",
+        "natural slope"
+      ],
+      "negative_terms": [
+        "retaining wall",
+        "natural slope"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-EARTHWORKS"
+          ]
+        }
+      ],
+      "notes": [
+        "The batter is the sloping face; the embankment is the placed earth mass. Trade usage needs a broader regional check."
+      ]
+    },
+    {
+      "id": "AU-SC-PREPARED-BUILDING-PLATFORM",
+      "canonical_name": "prepared building platform",
+      "preferred_australian_name": "prepared building platform",
+      "object_type": "assembly",
+      "discipline": "site_civil",
+      "category": "site_preparation",
+      "definition_plain": "The shaped and compacted ground area prepared to receive a building's footing or slab system and direct surface water appropriately.",
+      "definition_technical": null,
+      "primary_function": [
+        "Provide a stable working and founding area",
+        "Establish the required site levels below the building",
+        "Support site drainage away from the building"
+      ],
+      "orientation": [
+        "horizontal",
+        "varies"
+      ],
+      "typical_materials": [
+        "natural soil",
+        "controlled fill",
+        "rolled fill",
+        "bedding sand"
+      ],
+      "geometry_class": "volumetric_element",
+      "aliases": [
+        {
+          "term": "building pad",
+          "type": "trade_slang",
+          "region": "Australia",
+          "confidence": 0.82
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "house pad",
+          "type": "trade_slang",
+          "region": "Australia",
+          "confidence": 0.76
+        }
+      ],
+      "not_synonyms": [
+        "concrete pad footing",
+        "slab-on-ground"
+      ],
+      "part_of_assemblies": [],
+      "common_attributes": [
+        "platform boundary",
+        "surface levels",
+        "cut areas",
+        "fill areas",
+        "fill type",
+        "compaction evidence",
+        "drainage falls",
+        "foundation interface"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-1289-6-3-3-1997",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-2870-2011",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-PREPARED-BUILDING-PLATFORM-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Prepared building platform is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-SCOPE",
+            "SRC-ABCB-HP-EARTHWORKS",
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-SC-PREPARED-BUILDING-PLATFORM-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "The shaped and compacted ground area prepared to receive a building's footing or slab system and direct surface water appropriately.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-SCOPE",
+            "SRC-ABCB-HP-EARTHWORKS",
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-SC-PREPARED-BUILDING-PLATFORM-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Provide a stable working and founding area; Establish the required site levels below the building; Support site drainage away from the building",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-SCOPE",
+            "SRC-ABCB-HP-EARTHWORKS",
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": null,
+        "typical_placement": "Within and around the building footprint",
+        "host_object": "AU-CF-FOUNDATION-MATERIAL",
+        "start_relationship": null,
+        "end_relationship": null,
+        "opening_relationship": "Excavated for footing trenches, beams, pads and services",
+        "load_bearing_role": "Site substrate supporting the foundation system"
+      },
+      "search_text": "prepared building platform | building pad",
+      "ai_aliases": [
+        "building pad"
+      ],
+      "natural_language_examples": [
+        "Draw a prepared building platform.",
+        "Select the prepared building platform."
+      ],
+      "disambiguation_terms": [
+        "concrete pad footing",
+        "slab-on-ground"
+      ],
+      "negative_terms": [
+        "concrete pad footing",
+        "slab-on-ground"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-SCOPE",
+            "SRC-ABCB-HP-EARTHWORKS",
+            "SRC-ABCB-HP-FOOTINGS"
+          ]
+        }
+      ],
+      "notes": [
+        "This assembly records physical ground and fill geometry; cut and compaction procedures remain process metadata."
+      ]
+    },
+    {
+      "id": "AU-SC-QUARRY-SAND-BEDDING",
+      "canonical_name": "clean quarry sand bedding layer",
+      "preferred_australian_name": "clean quarry sand bedding layer",
+      "object_type": "layer",
+      "discipline": "site_civil",
+      "category": "earth_fill",
+      "definition_plain": "A level layer of clean quarry sand placed over supporting fill to provide an even surface beneath the under-slab layers.",
+      "definition_technical": null,
+      "primary_function": [
+        "Level and smooth the prepared fill surface",
+        "Provide a bedding surface below the slab membrane",
+        "Reduce sharp contact points beneath flexible underlay"
+      ],
+      "orientation": [
+        "horizontal"
+      ],
+      "typical_materials": [
+        "clean quarry sand"
+      ],
+      "geometry_class": "planar_layer",
+      "aliases": [
+        {
+          "term": "sand blinding",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.75
+        },
+        {
+          "term": "bedding sand",
+          "type": "preferred_synonym",
+          "region": "Australia",
+          "confidence": 0.82
+        }
+      ],
+      "possible_aliases_requiring_review": [],
+      "not_synonyms": [
+        "controlled sand fill",
+        "graded stone termite barrier"
+      ],
+      "part_of_assemblies": [
+        "AU-SC-PREPARED-BUILDING-PLATFORM",
+        "AU-CF-SLAB-ON-GROUND-ASSEMBLY"
+      ],
+      "common_attributes": [
+        "boundary",
+        "depth",
+        "material source",
+        "surface level",
+        "compaction or screeding method"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-2870-2011",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-QUARRY-SAND-BEDDING-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Clean quarry sand bedding layer is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-SC-QUARRY-SAND-BEDDING-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A level layer of clean quarry sand placed over supporting fill to provide an even surface beneath the under-slab layers.",
+          "source_ids": [
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-SC-QUARRY-SAND-BEDDING-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Level and smooth the prepared fill surface; Provide a bedding surface below the slab membrane; Reduce sharp contact points beneath flexible underlay",
+          "source_ids": [
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Continuous level layer over applicable fill area",
+        "typical_placement": "Above fill and below the damp-proofing membrane",
+        "host_object": "AU-SC-PREPARED-BUILDING-PLATFORM",
+        "start_relationship": null,
+        "end_relationship": null,
+        "opening_relationship": "Interrupted by beam and footing excavations where applicable",
+        "load_bearing_role": "Bedding and levelling layer"
+      },
+      "search_text": "clean quarry sand bedding layer | sand blinding | bedding sand",
+      "ai_aliases": [
+        "sand blinding",
+        "bedding sand"
+      ],
+      "natural_language_examples": [
+        "Draw a clean quarry sand bedding layer.",
+        "Select the clean quarry sand bedding layer."
+      ],
+      "disambiguation_terms": [
+        "controlled sand fill",
+        "graded stone termite barrier"
+      ],
+      "negative_terms": [
+        "controlled sand fill",
+        "graded stone termite barrier"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-FOOTINGS"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "AU-SC-ROLLED-FILL",
+      "canonical_name": "rolled fill",
+      "preferred_australian_name": "rolled fill",
+      "object_type": "layer",
+      "discipline": "site_civil",
+      "category": "earth_fill",
+      "definition_plain": "Sand or clay fill placed in layers and compacted by repeated rolling with suitable mechanical equipment under the Housing Provisions method.",
+      "definition_technical": null,
+      "primary_function": [
+        "Raise and level the slab-support area",
+        "Provide compacted fill below construction within its permitted use"
+      ],
+      "orientation": [
+        "horizontal",
+        "varies"
+      ],
+      "typical_materials": [
+        "sand",
+        "clay"
+      ],
+      "geometry_class": "volumetric_element",
+      "aliases": [],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "machine-compacted fill",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.65
+        }
+      ],
+      "not_synonyms": [
+        "controlled fill",
+        "uncontrolled fill"
+      ],
+      "part_of_assemblies": [
+        "AU-SC-PREPARED-BUILDING-PLATFORM"
+      ],
+      "common_attributes": [
+        "material type",
+        "source",
+        "placed depth",
+        "layer thickness",
+        "rolling equipment",
+        "surface level",
+        "extent"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-1289-6-3-3-1997",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-2870-2011",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-ROLLED-FILL-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Rolled fill is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-SC-ROLLED-FILL-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "Sand or clay fill placed in layers and compacted by repeated rolling with suitable mechanical equipment under the Housing Provisions method.",
+          "source_ids": [
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-SC-ROLLED-FILL-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Raise and level the slab-support area; Provide compacted fill below construction within its permitted use",
+          "source_ids": [
+            "SRC-ABCB-HP-FOOTINGS"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.9,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Placed volume built from rolled layers",
+        "typical_placement": "Below a slab in applicable platform fill zones",
+        "host_object": "AU-CF-FOUNDATION-MATERIAL",
+        "start_relationship": "Prepared lower surface",
+        "end_relationship": "Designed fill surface",
+        "opening_relationship": "Interrupted by footings, services and other excavations",
+        "load_bearing_role": "Prepared slab support within its applicable limits"
+      },
+      "search_text": "rolled fill",
+      "ai_aliases": [],
+      "natural_language_examples": [
+        "Draw a rolled fill.",
+        "Select the rolled fill."
+      ],
+      "disambiguation_terms": [
+        "controlled fill",
+        "uncontrolled fill"
+      ],
+      "negative_terms": [
+        "controlled fill",
+        "uncontrolled fill"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-FOOTINGS"
+          ]
+        }
+      ],
+      "notes": [
+        "Controlled fill and rolled fill are separate NCC construction categories and must not be merged merely because both are compacted."
+      ]
+    },
+    {
+      "id": "AU-SC-SILT-PIT",
+      "canonical_name": "silt pit",
+      "preferred_australian_name": "silt pit",
+      "object_type": "drain",
+      "discipline": "site_civil",
+      "category": "site_drainage",
+      "definition_plain": "An accessible underground chamber that receives drainage water, allows heavier sediment to settle below the outlet and connects to a downstream drain.",
+      "definition_technical": null,
+      "primary_function": [
+        "Collect sediment before water enters the downstream line",
+        "Provide a transition between drain inlets and outlet",
+        "Allow cleaning and maintenance"
+      ],
+      "orientation": [
+        "vertical"
+      ],
+      "typical_materials": [
+        "concrete",
+        "plastic",
+        "masonry",
+        "metal or polymer cover"
+      ],
+      "geometry_class": "discrete_component",
+      "aliases": [
+        {
+          "term": "silt trap",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.8
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "catch pit",
+          "type": "regional_synonym",
+          "region": "United Kingdom",
+          "confidence": 0.66
+        }
+      ],
+      "not_synonyms": [
+        "stormwater inlet pit",
+        "pump sump"
+      ],
+      "part_of_assemblies": [
+        "AU-SC-SUBSOIL-DRAINAGE-SYSTEM"
+      ],
+      "common_attributes": [
+        "length",
+        "width",
+        "depth",
+        "sump depth",
+        "inlet inverts",
+        "outlet invert",
+        "cover",
+        "access",
+        "material"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-NZS-3500-3-2021",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-SILT-PIT-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Silt pit is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-SC-SILT-PIT-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "An accessible underground chamber that receives drainage water, allows heavier sediment to settle below the outlet and connects to a downstream drain.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-SC-SILT-PIT-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Collect sediment before water enters the downstream line; Provide a transition between drain inlets and outlet; Allow cleaning and maintenance",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "width",
+          "height",
+          "thickness"
+        ],
+        "repetition_pattern": "Discrete chamber at drain collection or transition points",
+        "typical_placement": "Below ground with an accessible cover",
+        "host_object": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+        "start_relationship": null,
+        "end_relationship": null,
+        "opening_relationship": "Has inlet, outlet and maintenance openings",
+        "load_bearing_role": "Sediment collection and drainage junction"
+      },
+      "search_text": "silt pit | silt trap",
+      "ai_aliases": [
+        "silt trap"
+      ],
+      "natural_language_examples": [
+        "Draw a silt pit.",
+        "Select the silt pit."
+      ],
+      "disambiguation_terms": [
+        "stormwater inlet pit",
+        "pump sump"
+      ],
+      "negative_terms": [
+        "stormwater inlet pit",
+        "pump sump"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "AU-SC-SOAKER-WELL",
+      "canonical_name": "soaker well",
+      "preferred_australian_name": "soaker well",
+      "object_type": "drain",
+      "discipline": "site_civil",
+      "category": "site_drainage",
+      "definition_plain": "An underground chamber that receives stormwater and allows it to soak into suitable surrounding soil as an on-site disposal method.",
+      "definition_technical": null,
+      "primary_function": [
+        "Temporarily store incoming stormwater",
+        "Disperse water into permeable surrounding ground",
+        "Reduce direct discharge from the site where approved"
+      ],
+      "orientation": [
+        "vertical"
+      ],
+      "typical_materials": [
+        "perforated concrete",
+        "plastic",
+        "masonry",
+        "surrounding drainage aggregate"
+      ],
+      "geometry_class": "discrete_component",
+      "aliases": [
+        {
+          "term": "soakwell",
+          "type": "spelling_variant",
+          "region": "Australia",
+          "confidence": 0.94
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "soak pit",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.78
+        }
+      ],
+      "not_synonyms": [
+        "sump",
+        "rainwater tank"
+      ],
+      "part_of_assemblies": [],
+      "common_attributes": [
+        "diameter",
+        "width",
+        "depth",
+        "storage volume",
+        "wall perforations",
+        "surround material",
+        "inlet invert",
+        "cover",
+        "soil infiltration basis"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-NZS-3500-3-2021",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-SOAKER-WELL-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Soaker well is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-SC-SOAKER-WELL-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "An underground chamber that receives stormwater and allows it to soak into suitable surrounding soil as an on-site disposal method.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-SC-SOAKER-WELL-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Temporarily store incoming stormwater; Disperse water into permeable surrounding ground; Reduce direct discharge from the site where approved",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "width",
+          "height",
+          "thickness"
+        ],
+        "repetition_pattern": "One or more discrete chambers sized and spaced to the site design",
+        "typical_placement": "Below ground in suitable permeable soil away from affected structures and boundaries as designed",
+        "host_object": "AU-CF-FOUNDATION-MATERIAL",
+        "start_relationship": null,
+        "end_relationship": null,
+        "opening_relationship": "Has stormwater inlet and maintenance access",
+        "load_bearing_role": "On-site stormwater infiltration"
+      },
+      "search_text": "soaker well | soakwell",
+      "ai_aliases": [
+        "soakwell"
+      ],
+      "natural_language_examples": [
+        "Draw a soaker well.",
+        "Select the soaker well."
+      ],
+      "disambiguation_terms": [
+        "sump",
+        "rainwater tank"
+      ],
+      "negative_terms": [
+        "sump",
+        "rainwater tank"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ]
+        }
+      ],
+      "notes": [
+        "Suitability and location depend on soil, groundwater and authority requirements; the ontology supplies no automatic siting rule."
+      ]
+    },
+    {
+      "id": "AU-SC-STORMWATER-DRAIN",
+      "canonical_name": "underground stormwater drain",
+      "preferred_australian_name": "underground stormwater drain",
+      "object_type": "drain",
+      "discipline": "site_civil",
+      "category": "site_drainage",
+      "definition_plain": "A buried solid-wall pipe and fitting run that conveys roof or site stormwater to an approved discharge or on-site system.",
+      "definition_technical": null,
+      "primary_function": [
+        "Carry stormwater below ground",
+        "Connect pits, downpipes and on-site stormwater components",
+        "Discharge water without flowing back into the building"
+      ],
+      "orientation": [
+        "horizontal",
+        "sloping"
+      ],
+      "typical_materials": [
+        "uPVC",
+        "other approved drainage pipe material"
+      ],
+      "geometry_class": "continuous_run",
+      "aliases": [
+        {
+          "term": "stormwater pipe",
+          "type": "preferred_synonym",
+          "region": "Australia",
+          "confidence": 0.92
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "stormwater line",
+          "type": "trade_slang",
+          "region": "Australia",
+          "confidence": 0.82
+        }
+      ],
+      "not_synonyms": [
+        "subsoil drain",
+        "sanitary drain"
+      ],
+      "part_of_assemblies": [],
+      "common_attributes": [
+        "path",
+        "diameter",
+        "pipe class",
+        "material",
+        "invert levels",
+        "fall",
+        "fittings",
+        "cover",
+        "discharge point"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-NZS-3500-3-2021",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-1273-1991",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-STORMWATER-DRAIN-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Underground stormwater drain is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-SC-STORMWATER-DRAIN-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A buried solid-wall pipe and fitting run that conveys roof or site stormwater to an approved discharge or on-site system.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-SC-STORMWATER-DRAIN-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Carry stormwater below ground; Connect pits, downpipes and on-site stormwater components; Discharge water without flowing back into the building",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Continuous graded pipe network with branches and fittings",
+        "typical_placement": "Below ground between collection and discharge points",
+        "host_object": "AU-CF-FOUNDATION-MATERIAL",
+        "start_relationship": "Downpipe, pit or collection point",
+        "end_relationship": "Approved discharge or on-site system",
+        "opening_relationship": "Connects through pit and tank walls and routes around footings",
+        "load_bearing_role": "Stormwater conveyance"
+      },
+      "search_text": "underground stormwater drain | stormwater pipe",
+      "ai_aliases": [
+        "stormwater pipe"
+      ],
+      "natural_language_examples": [
+        "Draw a underground stormwater drain.",
+        "Select the underground stormwater drain."
+      ],
+      "disambiguation_terms": [
+        "subsoil drain",
+        "sanitary drain"
+      ],
+      "negative_terms": [
+        "subsoil drain",
+        "sanitary drain"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "AU-SC-STORMWATER-TANK",
+      "canonical_name": "stormwater detention or retention tank",
+      "preferred_australian_name": "stormwater detention or retention tank",
+      "object_type": "unit",
+      "discipline": "site_civil",
+      "category": "site_drainage",
+      "definition_plain": "A tank in a stormwater system that temporarily stores collected runoff for controlled release, reuse or retention on the property.",
+      "definition_technical": null,
+      "primary_function": [
+        "Receive and store stormwater",
+        "Limit or delay discharge according to the system design",
+        "Provide water for reuse where configured"
+      ],
+      "orientation": [
+        "vertical",
+        "horizontal"
+      ],
+      "typical_materials": [
+        "polyethylene",
+        "concrete",
+        "steel",
+        "fibreglass"
+      ],
+      "geometry_class": "volumetric_element",
+      "aliases": [
+        {
+          "term": "stormwater tank",
+          "type": "preferred_synonym",
+          "region": "Australia",
+          "confidence": 0.94
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "rainwater tank",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.75
+        },
+        {
+          "term": "detention tank",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.82
+        }
+      ],
+      "not_synonyms": [
+        "potable water tank",
+        "soaker well"
+      ],
+      "part_of_assemblies": [],
+      "common_attributes": [
+        "storage volume",
+        "detention volume",
+        "retention volume",
+        "material",
+        "above or below ground",
+        "inlet",
+        "overflow",
+        "controlled outlet",
+        "access",
+        "pump"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-NZS-3500-3-2021",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-STORMWATER-TANK-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Stormwater detention or retention tank is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.85
+        },
+        {
+          "id": "AU-SC-STORMWATER-TANK-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A tank in a stormwater system that temporarily stores collected runoff for controlled release, reuse or retention on the property.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.76
+        },
+        {
+          "id": "AU-SC-STORMWATER-TANK-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Receive and store stormwater; Limit or delay discharge according to the system design; Provide water for reuse where configured",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.76
+        }
+      ],
+      "confidence": {
+        "existence": 0.85,
+        "definition": 0.76,
+        "aliases": 0.72,
+        "relationships": 0.71,
+        "overall": 0.73
+      },
+      "review_status": "accepted_pending_review",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "One or more tanks connected into the site stormwater system",
+        "typical_placement": "Above or below ground at the designed collection and discharge location",
+        "host_object": null,
+        "start_relationship": null,
+        "end_relationship": null,
+        "opening_relationship": "Has inlets, overflow, outlet, access and optional pump penetrations",
+        "load_bearing_role": "Stormwater storage and flow control"
+      },
+      "search_text": "stormwater detention or retention tank | stormwater tank",
+      "ai_aliases": [
+        "stormwater tank"
+      ],
+      "natural_language_examples": [
+        "Draw a stormwater detention or retention tank.",
+        "Select the stormwater detention or retention tank."
+      ],
+      "disambiguation_terms": [
+        "potable water tank",
+        "soaker well"
+      ],
+      "negative_terms": [
+        "potable water tank",
+        "soaker well"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ]
+        }
+      ],
+      "notes": [
+        "Detention, retention and rainwater reuse tanks overlap physically but have different hydraulic roles; a later drainage pass should split product instances by configured function."
+      ]
+    },
+    {
+      "id": "AU-SC-SUBSOIL-DRAIN",
+      "canonical_name": "subsoil drain",
+      "preferred_australian_name": "subsoil drain",
+      "object_type": "drain",
+      "discipline": "site_civil",
+      "category": "site_drainage",
+      "definition_plain": "A graded underground drainage run, commonly using perforated pipe and surrounding filter material, that collects water from the soil.",
+      "definition_technical": null,
+      "primary_function": [
+        "Admit subsurface water along its run",
+        "Carry collected water to a pit, sump or outlet"
+      ],
+      "orientation": [
+        "horizontal",
+        "sloping"
+      ],
+      "typical_materials": [
+        "perforated plastic pipe",
+        "filter aggregate",
+        "geotextile"
+      ],
+      "geometry_class": "continuous_run",
+      "aliases": [
+        {
+          "term": "sub-soil drain",
+          "type": "spelling_variant",
+          "region": "Australia",
+          "confidence": 0.95
+        },
+        {
+          "term": "ag drain",
+          "type": "trade_slang",
+          "region": "Australia",
+          "confidence": 0.84
+        },
+        {
+          "term": "agricultural drain",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.78
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "French drain",
+          "type": "related_but_not_synonym",
+          "region": "International",
+          "confidence": 0.68
+        }
+      ],
+      "not_synonyms": [
+        "solid stormwater drain",
+        "surface channel drain"
+      ],
+      "part_of_assemblies": [
+        "AU-SC-SUBSOIL-DRAINAGE-SYSTEM"
+      ],
+      "common_attributes": [
+        "path",
+        "diameter",
+        "pipe class",
+        "perforation type",
+        "invert level",
+        "fall",
+        "filter aggregate",
+        "geotextile",
+        "outlet"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-NZS-3500-3-2021",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-2870-2011",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-SUBSOIL-DRAIN-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Subsoil drain is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-SC-SUBSOIL-DRAIN-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A graded underground drainage run, commonly using perforated pipe and surrounding filter material, that collects water from the soil.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-SC-SUBSOIL-DRAIN-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Admit subsurface water along its run; Carry collected water to a pit, sump or outlet",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Continuous graded run with branches where designed",
+        "typical_placement": "Below ground adjacent to the area requiring interception",
+        "host_object": "AU-CF-FOUNDATION-MATERIAL",
+        "start_relationship": "Collection run start",
+        "end_relationship": "Silt pit, sump or outlet",
+        "opening_relationship": "Connects through pit walls at inlets",
+        "load_bearing_role": "Subsurface water conveyance"
+      },
+      "search_text": "subsoil drain | sub-soil drain | ag drain | agricultural drain",
+      "ai_aliases": [
+        "sub-soil drain",
+        "ag drain",
+        "agricultural drain"
+      ],
+      "natural_language_examples": [
+        "Draw a subsoil drain.",
+        "Select the subsoil drain."
+      ],
+      "disambiguation_terms": [
+        "solid stormwater drain",
+        "surface channel drain"
+      ],
+      "negative_terms": [
+        "solid stormwater drain",
+        "surface channel drain"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+      "canonical_name": "subsoil drainage system",
+      "preferred_australian_name": "subsoil drainage system",
+      "object_type": "assembly",
+      "discipline": "site_civil",
+      "category": "site_drainage",
+      "definition_plain": "An underground drainage assembly that collects subsurface water and conveys it away from footings, basement walls, retaining walls or the area beneath a building.",
+      "definition_technical": null,
+      "primary_function": [
+        "Intercept and collect subsurface water",
+        "Reduce water build-up beside below-ground construction",
+        "Discharge collected water to a maintained drainage point"
+      ],
+      "orientation": [
+        "horizontal",
+        "sloping",
+        "varies"
+      ],
+      "typical_materials": [
+        "perforated drainage pipe",
+        "filter aggregate",
+        "geotextile",
+        "pits and drainage pipe"
+      ],
+      "geometry_class": "volumetric_element",
+      "aliases": [
+        {
+          "term": "sub-soil drainage system",
+          "type": "spelling_variant",
+          "region": "Australia",
+          "confidence": 0.95
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "ag drain system",
+          "type": "trade_slang",
+          "region": "Australia",
+          "confidence": 0.8
+        }
+      ],
+      "not_synonyms": [
+        "surface water drainage",
+        "roof stormwater drainage"
+      ],
+      "part_of_assemblies": [],
+      "common_attributes": [
+        "drain path",
+        "invert levels",
+        "fall",
+        "pipe type",
+        "filter aggregate",
+        "filter fabric",
+        "outlet",
+        "maintenance access"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-NZS-3500-3-2021",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        },
+        {
+          "standard_id": "AS-2870-2011",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Subsoil drainage system is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "An underground drainage assembly that collects subsurface water and conveys it away from footings, basement walls, retaining walls or the area beneath a building.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Intercept and collect subsurface water; Reduce water build-up beside below-ground construction; Discharge collected water to a maintained drainage point",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "length",
+          "breadth",
+          "depth"
+        ],
+        "repetition_pattern": "Graded collection runs connected to pits or outlets",
+        "typical_placement": "Below ground near applicable footings, walls or uphill cut areas",
+        "host_object": "AU-CF-FOUNDATION-MATERIAL",
+        "start_relationship": "Drainage collection extent",
+        "end_relationship": "Silt pit, sump or approved discharge",
+        "opening_relationship": "Routes around footings and penetrates pits at inlets",
+        "load_bearing_role": "Water collection and conveyance assembly"
+      },
+      "search_text": "subsoil drainage system | sub-soil drainage system",
+      "ai_aliases": [
+        "sub-soil drainage system"
+      ],
+      "natural_language_examples": [
+        "Draw a subsoil drainage system.",
+        "Select the subsoil drainage system."
+      ],
+      "disambiguation_terms": [
+        "surface water drainage",
+        "roof stormwater drainage"
+      ],
+      "negative_terms": [
+        "surface water drainage",
+        "roof stormwater drainage"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ]
+        }
+      ],
+      "notes": [
+        "Subsoil drainage can change soil moisture and must not be placed by a generic tool without site-specific design input."
+      ]
+    },
+    {
+      "id": "AU-SC-SUMP",
+      "canonical_name": "drainage sump",
+      "preferred_australian_name": "drainage sump",
+      "object_type": "drain",
+      "discipline": "site_civil",
+      "category": "site_drainage",
+      "definition_plain": "A low chamber or pit that receives drainage water for gravity discharge, storage or pumping to a suitable outlet.",
+      "definition_technical": null,
+      "primary_function": [
+        "Collect water at a low point",
+        "Provide storage below connected drain inverts",
+        "Permit water to discharge or be pumped onward"
+      ],
+      "orientation": [
+        "vertical"
+      ],
+      "typical_materials": [
+        "concrete",
+        "plastic",
+        "masonry"
+      ],
+      "geometry_class": "discrete_component",
+      "aliases": [
+        {
+          "term": "sump pit",
+          "type": "preferred_synonym",
+          "region": "Australia",
+          "confidence": 0.88
+        }
+      ],
+      "possible_aliases_requiring_review": [
+        {
+          "term": "pump pit",
+          "type": "related_but_not_synonym",
+          "region": "Australia",
+          "confidence": 0.72
+        }
+      ],
+      "not_synonyms": [
+        "silt pit",
+        "soaker well"
+      ],
+      "part_of_assemblies": [
+        "AU-SC-SUBSOIL-DRAINAGE-SYSTEM"
+      ],
+      "common_attributes": [
+        "length",
+        "width",
+        "depth",
+        "storage volume",
+        "inlet inverts",
+        "outlet",
+        "pump provision",
+        "cover",
+        "access"
+      ],
+      "standard_references": [
+        {
+          "standard_id": "AS-NZS-3500-3-2021",
+          "relationship": "Referenced or supporting technical standard for this object family; exact rules require the applicable licensed edition and project inputs.",
+          "verification_status": "verified"
+        }
+      ],
+      "ncc_references": [
+        {
+          "document": "ABCB Housing Provisions",
+          "clause": "Parts 3.1 to 3.3",
+          "relationship": "Site preparation, earthworks and site-drainage scope and physical system references.",
+          "verification_status": "verified"
+        }
+      ],
+      "claims": [
+        {
+          "id": "AU-SC-SUMP-CLAIM-EXISTENCE",
+          "claim_type": "existence",
+          "text": "Drainage sump is used as a distinct physical object or assembly in Australian site civil construction.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "id": "AU-SC-SUMP-CLAIM-DEFINITION",
+          "claim_type": "definition",
+          "text": "A low chamber or pit that receives drainage water for gravity discharge, storage or pumping to a suitable outlet.",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        },
+        {
+          "id": "AU-SC-SUMP-CLAIM-FUNCTION",
+          "claim_type": "function",
+          "text": "Collect water at a low point; Provide storage below connected drain inverts; Permit water to discharge or be pumped onward",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ],
+          "confidence": 0.92
+        }
+      ],
+      "confidence": {
+        "existence": 0.96,
+        "definition": 0.92,
+        "aliases": 0.88,
+        "relationships": 0.87,
+        "overall": 0.89
+      },
+      "review_status": "accepted",
+      "regional_usage": {
+        "Australia": "preferred",
+        "New_Zealand": "unknown",
+        "United_Kingdom": "unknown",
+        "United_States": "unknown"
+      },
+      "cad_attributes": {
+        "dimensional_axes": [
+          "width",
+          "height",
+          "thickness"
+        ],
+        "repetition_pattern": "Discrete low-point chamber",
+        "typical_placement": "At the low point of a drainage system with access for maintenance",
+        "host_object": "AU-SC-SUBSOIL-DRAINAGE-SYSTEM",
+        "start_relationship": null,
+        "end_relationship": null,
+        "opening_relationship": "Has drain inlets, outlet or pump connection, and access opening",
+        "load_bearing_role": "Water collection chamber"
+      },
+      "search_text": "drainage sump | sump pit",
+      "ai_aliases": [
+        "sump pit"
+      ],
+      "natural_language_examples": [
+        "Draw a drainage sump.",
+        "Select the drainage sump."
+      ],
+      "disambiguation_terms": [
+        "silt pit",
+        "soaker well"
+      ],
+      "negative_terms": [
+        "silt pit",
+        "soaker well"
+      ],
+      "external_mappings": {
+        "ifc": [],
+        "revit": [],
+        "sketchup": [],
+        "cost_codes": [],
+        "material_library": []
+      },
+      "history": [
+        {
+          "timestamp": "2026-08-16T00:00:00+10:00",
+          "action": "Created in the Australian building-object ontology research programme.",
+          "agent": "Codex",
+          "source_ids": [
+            "SRC-ABCB-HP-SITE-DRAINAGE"
+          ]
+        }
+      ],
+      "notes": []
+    }
+  ]
+}

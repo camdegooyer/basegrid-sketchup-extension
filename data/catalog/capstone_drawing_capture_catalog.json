@@ -1,0 +1,632 @@
+{
+  "schema_version": "0.1.0",
+  "catalogue": "Australian capstone SketchUp drawing object families",
+  "discipline": "ancillary",
+  "default_standards": [],
+  "ncc_references": [
+    {"document": "NCC Volumes One and Two", "clause": "drawing ontology context", "relationship": "This catalogue captures broad physical building object families for SketchUp drawing tools. It is not a compliance rule set."}
+  ],
+  "objects": [
+    {
+      "id": "AU-AN-LIFT-SYSTEM", "name": "lift system", "object_type": "assembly", "category": "vertical_transport",
+      "definition": "A vertical transport assembly made from a lift well or shaft, car, doors, guide equipment, drive equipment, controls and safety clearances.",
+      "functions": ["Move people or goods between levels", "Coordinate a shaft, pit, headroom and landings", "Expose major drawable lift parts"],
+      "orientation": ["vertical"], "materials": ["steel", "aluminium", "glass", "concrete", "electrical equipment"], "geometry": "volumetric_element",
+      "aliases": [{"term": "elevator", "type": "regional_synonym", "region": "Australia", "confidence": 0.86}], "possible_aliases": [{"term": "vertical transport", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.75}], "not_synonyms": ["platform lift", "stair lift", "service riser"],
+      "part_of": [], "attributes": ["lift type", "travel", "shaft size", "pit depth", "headroom", "door type", "landings", "car size", "drive type", "service access"],
+      "sources": ["SRC-CAPSTONE-VERTICAL-TRANSPORT"], "cad": {"pattern": "Shaft volume with car and landing door components", "placement": "Between served floor levels", "host": "building levels", "start": "Lowest landing or pit", "end": "Highest landing and overrun", "opening": "Landing doors at each served level", "load": "Specialist transport equipment"},
+      "notes": ["Use for coordination drawings only. Supplier lift drawings govern exact dimensions and clearances."], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-LIFT-SHAFT-WELL", "name": "lift shaft or well", "object_type": "assembly", "category": "vertical_transport",
+      "definition": "The vertical enclosure or void that contains the lift car, guide equipment, pit and headroom zones.",
+      "functions": ["Reserve lift travel space", "Coordinate landings and walls", "Show pit and overrun zones"],
+      "orientation": ["vertical"], "materials": ["concrete", "masonry", "steel framing", "fire-rated linings"], "geometry": "opening",
+      "aliases": [{"term": "lift well", "type": "preferred_synonym", "region": "Australia", "confidence": 0.9}], "possible_aliases": [{"term": "elevator shaft", "type": "regional_synonym", "region": "Australia", "confidence": 0.82}], "not_synonyms": ["service shaft", "stair shaft"],
+      "part_of": ["AU-AN-LIFT-SYSTEM"], "attributes": ["clear internal size", "wall type", "pit", "headroom", "landing openings", "fire rating", "access panels", "services"],
+      "sources": ["SRC-CAPSTONE-VERTICAL-TRANSPORT"], "cad": {"pattern": "Vertical rectangular or custom shaft volume", "placement": "Aligned through floors", "host": "building structure", "start": "Pit floor", "end": "Overrun top", "opening": "Landing door openings", "load": "Enclosure and coordination void"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-LIFT-CAR", "name": "lift car", "object_type": "other_physical_object", "category": "vertical_transport",
+      "definition": "The moving passenger or goods compartment within a lift system.",
+      "functions": ["Represent the occupied lift compartment", "Coordinate door openings and internal size", "Show car finishes at concept level"],
+      "orientation": ["vertical"], "materials": ["steel", "stainless steel", "glass", "floor finish", "ceiling panel"], "geometry": "volumetric_element",
+      "aliases": [{"term": "lift cabin", "type": "preferred_synonym", "region": "Australia", "confidence": 0.86}], "possible_aliases": [], "not_synonyms": ["lift shaft", "platform lift platform"],
+      "part_of": ["AU-AN-LIFT-SYSTEM"], "attributes": ["width", "depth", "height", "rated use", "door side", "control panel", "handrail", "finish"],
+      "sources": ["SRC-CAPSTONE-VERTICAL-TRANSPORT"], "cad": {"pattern": "Movable box inside shaft", "placement": "Inside lift shaft", "host": "AU-AN-LIFT-SHAFT-WELL", "start": "Car floor", "end": "Car ceiling", "opening": "Car doors align to landing doors", "load": "Equipment component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-LIFT-LANDING-DOOR", "name": "lift landing door", "object_type": "other_physical_object", "category": "vertical_transport",
+      "definition": "The door assembly at a floor landing that closes the lift shaft opening.",
+      "functions": ["Close each shaft opening", "Coordinate landing access", "Align to the lift car door"],
+      "orientation": ["vertical"], "materials": ["steel", "stainless steel", "glass", "door hardware"], "geometry": "opening",
+      "aliases": [{"term": "lift entrance door", "type": "preferred_synonym", "region": "Australia", "confidence": 0.84}], "possible_aliases": [], "not_synonyms": ["ordinary internal door", "lift car door"],
+      "part_of": ["AU-AN-LIFT-SYSTEM"], "attributes": ["door type", "clear opening", "fire rating", "landing level", "jambs", "sill", "indicator", "call button"],
+      "sources": ["SRC-CAPSTONE-VERTICAL-TRANSPORT"], "cad": {"pattern": "Door set at each lift landing", "placement": "In lift shaft wall at floor level", "host": "AU-AN-LIFT-SHAFT-WELL", "start": "Threshold", "end": "Door head", "opening": "Lift landing opening", "load": "Non-structural opening equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-LIFT-GUIDE-RAIL", "name": "lift guide rail", "object_type": "other_physical_object", "category": "vertical_transport",
+      "definition": "A vertical rail that guides movement of the lift car or counterweight inside the lift well.",
+      "functions": ["Represent vertical equipment rails", "Coordinate rail offsets in shaft", "Support basic lift-system anatomy"],
+      "orientation": ["vertical"], "materials": ["steel"], "geometry": "linear_member",
+      "aliases": [], "possible_aliases": [{"term": "guide track", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.72}], "not_synonyms": ["wall stud", "handrail"],
+      "part_of": ["AU-AN-LIFT-SYSTEM"], "attributes": ["rail position", "rail size", "brackets", "fixing points", "served travel"],
+      "sources": ["SRC-CAPSTONE-VERTICAL-TRANSPORT"], "cad": {"pattern": "Continuous vertical rails in shaft", "placement": "Inside lift shaft beside car travel", "host": "AU-AN-LIFT-SHAFT-WELL", "start": "Pit zone", "end": "Headroom zone", "opening": "Clear of landing door openings", "load": "Equipment guide component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-PLATFORM-LIFT", "name": "platform lift", "object_type": "assembly", "category": "vertical_transport",
+      "definition": "A compact lifting platform used where a lift-like accessible connection is required over a limited height or in a constrained location.",
+      "functions": ["Provide accessible vertical movement", "Coordinate platform, guards and gates", "Represent a supplier-specific lifting unit"],
+      "orientation": ["vertical"], "materials": ["steel", "aluminium", "glass", "electrical equipment"], "geometry": "volumetric_element",
+      "aliases": [{"term": "disabled access lift", "type": "exact_synonym", "region": "Australia", "confidence": 0.76}], "possible_aliases": [{"term": "wheelchair lift", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.82}], "not_synonyms": ["passenger lift", "staircase"],
+      "part_of": [], "attributes": ["platform size", "travel", "gates", "guards", "landing clearances", "controls", "pit or ramp", "power"],
+      "sources": ["SRC-CAPSTONE-VERTICAL-TRANSPORT", "SRC-CAPSTONE-ACCESSIBILITY"], "cad": {"pattern": "Platform, enclosure and landing gates", "placement": "At accessible level changes", "host": "floor levels", "start": "Lower landing", "end": "Upper landing", "opening": "Platform gates", "load": "Specialist transport equipment"},
+      "notes": ["Exact geometry depends heavily on the selected product."], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-ESCALATOR-ASSEMBLY", "name": "escalator assembly", "object_type": "assembly", "category": "vertical_transport",
+      "definition": "A moving stair system including truss, moving steps, handrails, balustrades and landing plates.",
+      "functions": ["Move people between adjacent levels", "Coordinate escalator opening and incline", "Expose major drawable escalator parts"],
+      "orientation": ["inclined"], "materials": ["steel", "aluminium", "glass", "rubber", "electrical equipment"], "geometry": "volumetric_element",
+      "aliases": [], "possible_aliases": [{"term": "moving stair", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.72}], "not_synonyms": ["staircase", "moving walkway"],
+      "part_of": [], "attributes": ["rise", "incline", "step width", "truss depth", "balustrade", "landing plate", "pit", "clearances"],
+      "sources": ["SRC-CAPSTONE-VERTICAL-TRANSPORT"], "cad": {"pattern": "Inclined equipment volume with step band and handrails", "placement": "Between two public floor levels", "host": "building structure", "start": "Lower landing pit", "end": "Upper landing pit", "opening": "Floor openings at both ends", "load": "Specialist transport equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-ESCALATOR-STEP", "name": "escalator step", "object_type": "other_physical_object", "category": "vertical_transport",
+      "definition": "A moving tread component within an escalator step band.",
+      "functions": ["Show step pitch and direction", "Represent the moving walking surface", "Coordinate comb plate zones"],
+      "orientation": ["inclined", "horizontal"], "materials": ["aluminium", "steel"], "geometry": "discrete_component",
+      "aliases": [], "possible_aliases": [], "not_synonyms": ["stair tread", "floor tile"],
+      "part_of": ["AU-AN-ESCALATOR-ASSEMBLY"], "attributes": ["step width", "step pitch", "riser", "tread groove", "direction", "return zone"],
+      "sources": ["SRC-CAPSTONE-VERTICAL-TRANSPORT"], "cad": {"pattern": "Repeated steps along escalator incline", "placement": "Within escalator truss", "host": "AU-AN-ESCALATOR-ASSEMBLY", "start": "Lower comb plate", "end": "Upper comb plate", "opening": "Not applicable", "load": "Moving equipment component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-FIRE-SPRINKLER-SYSTEM", "name": "fire sprinkler system", "object_type": "assembly", "category": "fire_services",
+      "definition": "A fixed fire suppression system made from sprinkler heads, pipework, valves, supports and control equipment.",
+      "functions": ["Show sprinkler coverage hardware", "Coordinate pipe routes and heads", "Represent a specialist fire service at model level"],
+      "orientation": ["horizontal", "vertical"], "materials": ["steel pipe", "copper", "sprinkler heads", "valves", "supports"], "geometry": "continuous_run",
+      "aliases": [{"term": "sprinkler installation", "type": "preferred_synonym", "region": "Australia", "confidence": 0.82}], "possible_aliases": [], "not_synonyms": ["hose reel system", "hydrant system"],
+      "part_of": [], "attributes": ["system type", "pipe size", "head layout", "valve set", "zone", "clearances", "supports", "water supply"],
+      "sources": ["SRC-CAPSTONE-FIRE-SERVICES"], "cad": {"pattern": "Pipes with repeated sprinkler heads", "placement": "Ceilings, soffits or exposed service zones", "host": "building services zone", "start": "Water supply or valve set", "end": "Branch pipe ends", "opening": "Heads penetrate ceilings where concealed", "load": "Fire service"},
+      "notes": ["Hydraulic design and coverage rules are outside the drawing ontology."], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-FIRE-SPRINKLER-HEAD", "name": "fire sprinkler head", "object_type": "other_physical_object", "category": "fire_services",
+      "definition": "A discharge device fitted to sprinkler pipework.",
+      "functions": ["Mark sprinkler locations", "Coordinate ceiling penetrations", "Show pendant, upright, sidewall or concealed head type"],
+      "orientation": ["downward", "upward", "sidewall"], "materials": ["brass", "stainless steel", "glass bulb", "escutcheon"], "geometry": "discrete_component",
+      "aliases": [{"term": "sprinkler", "type": "abbreviation", "region": "Australia", "confidence": 0.9}], "possible_aliases": [], "not_synonyms": ["smoke detector", "ceiling diffuser"],
+      "part_of": ["AU-AN-FIRE-SPRINKLER-SYSTEM"], "attributes": ["head type", "finish", "temperature rating", "escutcheon", "ceiling offset", "coverage zone"],
+      "sources": ["SRC-CAPSTONE-FIRE-SERVICES"], "cad": {"pattern": "Repeated point fixtures on branch pipes", "placement": "On sprinkler pipe at ceiling or wall", "host": "AU-AN-FIRE-SPRINKLER-SYSTEM", "start": "Pipe connection", "end": "Deflector", "opening": "Ceiling hole where concealed", "load": "Fire service outlet"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-FIRE-HYDRANT-SYSTEM", "name": "fire hydrant system", "object_type": "assembly", "category": "fire_services",
+      "definition": "A fixed firefighting water system with hydrant pipework, landing valves, booster connections and associated equipment.",
+      "functions": ["Coordinate hydrant risers and outlets", "Show brigade booster location", "Represent major fixed firefighting water hardware"],
+      "orientation": ["vertical", "horizontal"], "materials": ["steel pipe", "valves", "cabinets", "supports"], "geometry": "continuous_run",
+      "aliases": [], "possible_aliases": [], "not_synonyms": ["sprinkler system", "domestic cold water"],
+      "part_of": [], "attributes": ["riser", "landing valves", "booster", "pipe size", "zone", "clearances", "cabinet", "water supply"],
+      "sources": ["SRC-CAPSTONE-FIRE-SERVICES"], "cad": {"pattern": "Riser and branch pipe network with landing valves", "placement": "Fire stairs, corridors, service risers and external booster area", "host": "building services zone", "start": "Water supply or booster", "end": "Hydrant outlets", "opening": "Cabinet or wall openings where enclosed", "load": "Fire service"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-FIRE-HYDRANT-BOOSTER", "name": "fire hydrant booster", "object_type": "other_physical_object", "category": "fire_services",
+      "definition": "An external connection assembly used by fire services to boost a hydrant or sprinkler water system.",
+      "functions": ["Show brigade connection point", "Coordinate cabinet, valves and clearances", "Connect external hardstand to fire water system"],
+      "orientation": ["vertical"], "materials": ["steel", "brass", "valves", "cabinet"], "geometry": "volumetric_element",
+      "aliases": [{"term": "booster assembly", "type": "preferred_synonym", "region": "Australia", "confidence": 0.82}], "possible_aliases": [], "not_synonyms": ["gas meter", "ordinary hose tap"],
+      "part_of": ["AU-AN-FIRE-HYDRANT-SYSTEM"], "attributes": ["connection count", "cabinet", "valves", "location", "hardstand relationship", "signage", "clearances"],
+      "sources": ["SRC-CAPSTONE-FIRE-SERVICES"], "cad": {"pattern": "External valve and coupling cabinet or assembly", "placement": "Outside building in fire brigade access area", "host": "AU-AN-FIRE-HYDRANT-SYSTEM", "start": "Fire service pipe", "end": "Booster couplings", "opening": "Cabinet door", "load": "Fire service equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-FIRE-HOSE-REEL", "name": "fire hose reel", "object_type": "other_physical_object", "category": "fire_services",
+      "definition": "A wall-mounted or cabinet-mounted reel and hose used for first-attack firefighting.",
+      "functions": ["Show hose reel locations", "Coordinate cabinet and access zone", "Connect to fire water pipework"],
+      "orientation": ["vertical"], "materials": ["steel", "rubber hose", "brass valve", "cabinet"], "geometry": "discrete_component",
+      "aliases": [{"term": "hose reel", "type": "abbreviation", "region": "Australia", "confidence": 0.92}], "possible_aliases": [], "not_synonyms": ["hydrant landing valve", "garden hose"],
+      "part_of": [], "attributes": ["reel diameter", "cabinet", "valve", "hose length", "mounting height", "coverage intent", "signage"],
+      "sources": ["SRC-CAPSTONE-FIRE-SERVICES"], "cad": {"pattern": "Round reel or cabinet on wall", "placement": "Corridors, exits or service areas", "host": "wall or cabinet recess", "start": "Water connection", "end": "Nozzle", "opening": "Cabinet opening if recessed", "load": "Fire service fixture"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-FIRE-EXTINGUISHER", "name": "fire extinguisher", "object_type": "other_physical_object", "category": "fire_services",
+      "definition": "A portable firefighting cylinder mounted on a wall bracket, stand or cabinet.",
+      "functions": ["Show extinguisher locations", "Coordinate cabinets and signs", "Represent portable fire equipment"],
+      "orientation": ["vertical"], "materials": ["steel cylinder", "valve", "hose", "bracket"], "geometry": "volumetric_element",
+      "aliases": [{"term": "portable extinguisher", "type": "preferred_synonym", "region": "Australia", "confidence": 0.84}], "possible_aliases": [], "not_synonyms": ["fire hose reel", "gas cylinder"],
+      "part_of": [], "attributes": ["type", "capacity", "bracket", "cabinet", "signage", "mounting height", "hazard served"],
+      "sources": ["SRC-CAPSTONE-FIRE-SERVICES"], "cad": {"pattern": "Cylinder on bracket or inside cabinet", "placement": "Near exits, hazard areas or fire points", "host": "wall or stand", "start": "Bracket", "end": "Cylinder top", "opening": "Cabinet door if enclosed", "load": "Portable fire equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-FIRE-INDICATOR-PANEL", "name": "fire indicator panel", "object_type": "other_physical_object", "category": "fire_services",
+      "definition": "A fire alarm control and display panel mounted in a cabinet or enclosure.",
+      "functions": ["Show fire alarm panel location", "Coordinate access and wall space", "Represent alarm control equipment"],
+      "orientation": ["vertical"], "materials": ["steel cabinet", "electronics", "glass", "labels"], "geometry": "volumetric_element",
+      "aliases": [{"term": "FIP", "type": "abbreviation", "region": "Australia", "confidence": 0.94}], "possible_aliases": [{"term": "fire alarm panel", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.86}], "not_synonyms": ["switchboard", "security panel"],
+      "part_of": [], "attributes": ["panel size", "cabinet", "mimic", "annunciator", "access zone", "incoming cables", "location"],
+      "sources": ["SRC-CAPSTONE-FIRE-SERVICES"], "cad": {"pattern": "Wall-mounted control cabinet", "placement": "Fire control point or entry area", "host": "wall", "start": "Cabinet bottom", "end": "Cabinet top", "opening": "Cabinet door swing", "load": "Fire alarm equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-SMOKE-CONTROL-FAN", "name": "smoke control fan", "object_type": "other_physical_object", "category": "fire_services",
+      "definition": "A fan used as part of a smoke exhaust, smoke spill, pressurisation or smoke-control system.",
+      "functions": ["Represent smoke-control plant", "Coordinate ducts and access", "Separate life-safety fan objects from ordinary ventilation fans"],
+      "orientation": ["horizontal", "vertical"], "materials": ["steel casing", "motor", "impeller", "mounts"], "geometry": "volumetric_element",
+      "aliases": [{"term": "smoke exhaust fan", "type": "preferred_synonym", "region": "Australia", "confidence": 0.84}], "possible_aliases": [{"term": "stair pressurisation fan", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.78}], "not_synonyms": ["bathroom exhaust fan", "rangehood fan"],
+      "part_of": [], "attributes": ["fan type", "duty", "fire rating", "duct connection", "access clearance", "mounting", "power supply"],
+      "sources": ["SRC-CAPSTONE-FIRE-SERVICES"], "cad": {"pattern": "Mechanical fan box connected to ducts", "placement": "Plant room, roof, shaft or smoke-control zone", "host": "mechanical services", "start": "Inlet duct", "end": "Discharge duct", "opening": "Access panel and duct penetrations", "load": "Life-safety mechanical equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-FIRE-SMOKE-DAMPER", "name": "fire smoke damper", "object_type": "other_physical_object", "category": "fire_services",
+      "definition": "A damper installed in ductwork or a wall/floor penetration to control fire and smoke spread.",
+      "functions": ["Show damper locations", "Coordinate access panels", "Link duct penetrations to fire/smoke separation"],
+      "orientation": ["vertical", "horizontal"], "materials": ["steel", "actuator", "fusible link or controls"], "geometry": "discrete_component",
+      "aliases": [{"term": "fire/smoke damper", "type": "preferred_synonym", "region": "Australia", "confidence": 0.92}], "possible_aliases": [{"term": "fire damper", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.86}], "not_synonyms": ["volume control damper", "louvre"],
+      "part_of": [], "attributes": ["damper type", "rating", "orientation", "duct size", "access panel", "actuator", "wall or floor type"],
+      "sources": ["SRC-CAPSTONE-FIRE-SERVICES"], "cad": {"pattern": "Inserted block across a duct or penetration", "placement": "At fire/smoke compartment boundaries or duct branches", "host": "ductwork or rated construction", "start": "Damper frame", "end": "Damper sleeve", "opening": "Duct opening and access panel", "load": "Life-safety duct component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-GAS-SERVICE-SYSTEM", "name": "gas service system", "object_type": "assembly", "category": "gas_services",
+      "definition": "A gas installation drawing family including supply point, meter or cylinder bank, regulators, pipework, isolation valves, appliance connections and flues where relevant.",
+      "functions": ["Represent gas supply hardware", "Coordinate pipe routes and appliances", "Keep combustion flues visible as physical objects"],
+      "orientation": ["horizontal", "vertical"], "materials": ["copper", "steel", "polyethylene", "brass valves", "gas appliances"], "geometry": "continuous_run",
+      "aliases": [{"term": "gas installation", "type": "preferred_synonym", "region": "Australia", "confidence": 0.84}], "possible_aliases": [{"term": "LPG installation", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.78}], "not_synonyms": ["water service", "electrical service"],
+      "part_of": [], "attributes": ["gas type", "supply point", "pipe route", "valves", "regulator", "appliances", "flues", "ventilation", "licensed evidence"],
+      "sources": ["SRC-CAPSTONE-GAS-SERVICES"], "cad": {"pattern": "Pipe network with equipment points and flue paths", "placement": "External walls, roof spaces, plant rooms and appliance locations", "host": "building services zone", "start": "Meter, regulator or cylinder bank", "end": "Appliance connections and flue terminals", "opening": "Wall or roof penetrations for pipes and flues", "load": "Gas service"},
+      "notes": ["Do not use this ontology as gas design advice."], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-GAS-METER-REGULATOR-SET", "name": "gas meter and regulator set", "object_type": "other_physical_object", "category": "gas_services",
+      "definition": "A gas metering and pressure-control assembly at the gas supply point.",
+      "functions": ["Show the gas entry equipment", "Coordinate external wall or boundary location", "Connect supply to internal gas pipework"],
+      "orientation": ["vertical"], "materials": ["metal meter", "brass regulator", "steel bracket", "pipework"], "geometry": "volumetric_element",
+      "aliases": [{"term": "gas meter set", "type": "preferred_synonym", "region": "Australia", "confidence": 0.86}], "possible_aliases": [], "not_synonyms": ["water meter", "electrical meter box"],
+      "part_of": ["AU-AN-GAS-SERVICE-SYSTEM"], "attributes": ["meter type", "regulator", "clearances", "wall mount", "pipe connections", "protective cover", "authority point"],
+      "sources": ["SRC-CAPSTONE-GAS-SERVICES"], "cad": {"pattern": "External equipment cluster with incoming and outgoing pipes", "placement": "External wall, boundary or meter location", "host": "AU-AN-GAS-SERVICE-SYSTEM", "start": "Incoming supply", "end": "Consumer gas pipe", "opening": "Wall penetration if pipe enters building", "load": "Gas service equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-GAS-PIPE", "name": "gas pipe", "object_type": "other_physical_object", "category": "gas_services",
+      "definition": "A pipe carrying natural gas or LPG within a gas service system.",
+      "functions": ["Route gas between supply and appliances", "Coordinate penetrations and supports", "Distinguish gas pipework from water and drainage"],
+      "orientation": ["horizontal", "vertical", "inclined"], "materials": ["copper", "steel", "polyethylene", "stainless steel"], "geometry": "continuous_run",
+      "aliases": [{"term": "gas line", "type": "exact_synonym", "region": "Australia", "confidence": 0.84}], "possible_aliases": [], "not_synonyms": ["water pipe", "conduit", "flue"],
+      "part_of": ["AU-AN-GAS-SERVICE-SYSTEM"], "attributes": ["material", "diameter", "route", "supports", "sleeves", "isolation valves", "pressure zone", "appliance served"],
+      "sources": ["SRC-CAPSTONE-GAS-SERVICES"], "cad": {"pattern": "Linear pipe route with valves and appliance branches", "placement": "External, roof, ceiling, wall or floor service zones as documented", "host": "AU-AN-GAS-SERVICE-SYSTEM", "start": "Supply equipment", "end": "Appliance connection", "opening": "Wall or floor sleeves where penetrated", "load": "Gas service pipe"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-GAS-ISOLATION-VALVE", "name": "gas isolation valve", "object_type": "other_physical_object", "category": "gas_services",
+      "definition": "A valve used to isolate a gas appliance, branch or section of gas pipework.",
+      "functions": ["Show isolation points", "Coordinate access", "Connect gas branches to appliances"],
+      "orientation": ["inline"], "materials": ["brass", "steel", "handle"], "geometry": "discrete_component",
+      "aliases": [{"term": "gas shut-off valve", "type": "preferred_synonym", "region": "Australia", "confidence": 0.86}], "possible_aliases": [], "not_synonyms": ["water stop tap", "switch"],
+      "part_of": ["AU-AN-GAS-SERVICE-SYSTEM"], "attributes": ["valve type", "pipe size", "access", "appliance served", "label", "location"],
+      "sources": ["SRC-CAPSTONE-GAS-SERVICES"], "cad": {"pattern": "Inline valve symbol or small 3D fitting on gas pipe", "placement": "On gas pipe near appliances or branches", "host": "AU-AN-GAS-PIPE", "start": "Upstream pipe", "end": "Downstream pipe", "opening": "Not applicable", "load": "Gas fitting"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-GAS-FLUE", "name": "gas appliance flue", "object_type": "other_physical_object", "category": "gas_services",
+      "definition": "A duct, pipe or terminal path that discharges combustion products from a gas appliance to outside air.",
+      "functions": ["Draw combustion discharge routes", "Coordinate roof or wall penetrations", "Keep flues separate from ordinary exhaust ducts"],
+      "orientation": ["vertical", "horizontal", "inclined"], "materials": ["stainless steel", "galvanised steel", "aluminium", "proprietary flue components"], "geometry": "continuous_run",
+      "aliases": [{"term": "flue pipe", "type": "preferred_synonym", "region": "Australia", "confidence": 0.86}], "possible_aliases": [{"term": "balanced flue", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.76}], "not_synonyms": ["rangehood duct", "plumbing vent"],
+      "part_of": ["AU-AN-GAS-SERVICE-SYSTEM"], "attributes": ["flue type", "diameter", "route", "terminal", "appliance served", "clearances", "supports", "penetrations"],
+      "sources": ["SRC-CAPSTONE-GAS-SERVICES"], "cad": {"pattern": "Linear flue route from appliance to terminal", "placement": "From gas appliance through wall, ceiling or roof to outside", "host": "gas appliance", "start": "Appliance flue spigot", "end": "External terminal", "opening": "Wall or roof penetration", "load": "Combustion discharge path"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-LPG-CYLINDER-BANK", "name": "LPG cylinder bank", "object_type": "assembly", "category": "gas_services",
+      "definition": "A grouped external LPG cylinder installation with cylinders, restraints, regulator, valves and connection pipework.",
+      "functions": ["Show LPG storage cylinders", "Coordinate external location and clearances", "Connect cylinders to the gas service system"],
+      "orientation": ["vertical"], "materials": ["steel cylinders", "chains or restraints", "regulator", "valves", "concrete pad"], "geometry": "volumetric_element",
+      "aliases": [{"term": "gas bottle bank", "type": "exact_synonym", "region": "Australia", "confidence": 0.82}], "possible_aliases": [], "not_synonyms": ["fire extinguisher bank", "water tank"],
+      "part_of": ["AU-AN-GAS-SERVICE-SYSTEM"], "attributes": ["cylinder count", "capacity", "pad", "restraints", "regulator", "clearances", "screening", "delivery access"],
+      "sources": ["SRC-CAPSTONE-GAS-SERVICES"], "cad": {"pattern": "Repeated vertical cylinders on pad with regulator set", "placement": "External gas storage area", "host": "site or external wall", "start": "Cylinder bases", "end": "Cylinder valves", "opening": "Not applicable", "load": "Gas storage equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-CURTAIN-WALL-SYSTEM", "name": "curtain wall system", "object_type": "assembly", "category": "commercial_facades",
+      "definition": "A non-loadbearing external wall system of mullions, transoms, glazing, panels, pressure plates, caps, seals, anchors and perimeter interfaces.",
+      "functions": ["Represent commercial glazed facade systems", "Coordinate grids, panels and anchors", "Expose major curtain-wall parts for SketchUp tools"],
+      "orientation": ["vertical"], "materials": ["aluminium", "glass", "steel anchors", "gaskets", "sealants", "spandrel panels"], "geometry": "panel",
+      "aliases": [{"term": "commercial curtain wall", "type": "preferred_synonym", "region": "Australia", "confidence": 0.88}], "possible_aliases": [{"term": "window wall", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.72}], "not_synonyms": ["domestic window", "stud wall", "shopfront automatically"],
+      "part_of": [], "attributes": ["grid", "mullions", "transoms", "glazing", "spandrels", "anchors", "stack joints", "perimeter seals", "fire safing", "drainage"],
+      "sources": ["SRC-CAPSTONE-CURTAIN-WALLS"], "cad": {"pattern": "Facade grid with vertical and horizontal framing members", "placement": "External face of commercial building structure", "host": "slab edges and structural frame", "start": "Base or sill line", "end": "Parapet or top transom", "opening": "Panel cells accept vision glass, doors or spandrels", "load": "Non-loadbearing facade system"},
+      "notes": ["Use for modelling anatomy only. Engineering, wind, thermal, waterproofing and fire-stopping are separate evidence."], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-CURTAIN-WALL-MULLION", "name": "curtain wall mullion", "object_type": "other_physical_object", "category": "commercial_facades",
+      "definition": "A vertical framing member in a curtain wall grid.",
+      "functions": ["Set vertical facade module lines", "Support or capture glazing and panels", "Carry facade loads to anchors as designed"],
+      "orientation": ["vertical"], "materials": ["aluminium", "steel", "thermal break", "gaskets"], "geometry": "linear_member",
+      "aliases": [{"term": "vertical mullion", "type": "preferred_synonym", "region": "Australia", "confidence": 0.84}], "possible_aliases": [], "not_synonyms": ["wall stud", "window jamb"],
+      "part_of": ["AU-AN-CURTAIN-WALL-SYSTEM"], "attributes": ["profile", "module spacing", "depth", "cap type", "anchors", "gaskets", "drainage", "stack joint"],
+      "sources": ["SRC-CAPSTONE-CURTAIN-WALLS"], "cad": {"pattern": "Repeated vertical profiles", "placement": "Within curtain wall facade grid", "host": "AU-AN-CURTAIN-WALL-SYSTEM", "start": "Base anchor or stack joint", "end": "Top anchor or stack joint", "opening": "Bounds glass and panel cells", "load": "Facade frame component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-CURTAIN-WALL-TRANSOM", "name": "curtain wall transom", "object_type": "other_physical_object", "category": "commercial_facades",
+      "definition": "A horizontal framing member in a curtain wall grid.",
+      "functions": ["Set horizontal facade module lines", "Support or capture glazing and panels", "Coordinate sill, head and stack-joint conditions"],
+      "orientation": ["horizontal"], "materials": ["aluminium", "steel", "thermal break", "gaskets"], "geometry": "linear_member",
+      "aliases": [{"term": "horizontal transom", "type": "preferred_synonym", "region": "Australia", "confidence": 0.84}], "possible_aliases": [], "not_synonyms": ["window head only", "nogging"],
+      "part_of": ["AU-AN-CURTAIN-WALL-SYSTEM"], "attributes": ["profile", "height line", "cap type", "drainage", "gaskets", "panel support", "joint"],
+      "sources": ["SRC-CAPSTONE-CURTAIN-WALLS"], "cad": {"pattern": "Repeated horizontal profiles", "placement": "Within curtain wall facade grid", "host": "AU-AN-CURTAIN-WALL-SYSTEM", "start": "Left mullion", "end": "Right mullion", "opening": "Bounds glass and panel cells", "load": "Facade frame component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-CURTAIN-WALL-PRESSURE-PLATE-CAP", "name": "curtain wall pressure plate and cover cap", "object_type": "other_physical_object", "category": "commercial_facades",
+      "definition": "External capture hardware that clamps glazing or panels to curtain wall framing and covers the fixing line.",
+      "functions": ["Show captured-glazing face hardware", "Coordinate facade sightlines", "Distinguish capped systems from structurally glazed joints"],
+      "orientation": ["vertical", "horizontal"], "materials": ["aluminium", "stainless steel screws", "gaskets"], "geometry": "linear_member",
+      "aliases": [{"term": "pressure cap", "type": "abbreviation", "region": "Australia", "confidence": 0.82}], "possible_aliases": [{"term": "cover cap", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.84}], "not_synonyms": ["architrave", "flashing only"],
+      "part_of": ["AU-AN-CURTAIN-WALL-SYSTEM"], "attributes": ["cap width", "plate type", "gasket", "fixing spacing", "finish", "orientation"],
+      "sources": ["SRC-CAPSTONE-CURTAIN-WALLS"], "cad": {"pattern": "Narrow external strips on mullions and transoms", "placement": "Outside curtain wall glass or panel edges", "host": "AU-AN-CURTAIN-WALL-SYSTEM", "start": "Grid member start", "end": "Grid member end", "opening": "Frames each glass or panel cell", "load": "Facade capture hardware"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-CURTAIN-WALL-SPANDREL-PANEL", "name": "curtain wall spandrel panel", "object_type": "other_physical_object", "category": "commercial_facades",
+      "definition": "An opaque panel zone in a curtain wall, commonly used to conceal slab edges, structure or services.",
+      "functions": ["Represent opaque facade zones", "Coordinate slab-edge concealment", "Separate vision glass from spandrel glass or panels"],
+      "orientation": ["vertical"], "materials": ["glass", "metal panel", "insulated panel", "backpan", "insulation"], "geometry": "panel",
+      "aliases": [{"term": "spandrel glass", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.82}], "possible_aliases": [], "not_synonyms": ["vision glass", "parapet cladding automatically"],
+      "part_of": ["AU-AN-CURTAIN-WALL-SYSTEM"], "attributes": ["panel type", "module", "backpan", "insulation", "colour", "fire interface", "slab edge relation"],
+      "sources": ["SRC-CAPSTONE-CURTAIN-WALLS"], "cad": {"pattern": "Opaque panels within selected facade grid cells", "placement": "At slab edges, plant zones or opaque facade areas", "host": "AU-AN-CURTAIN-WALL-SYSTEM", "start": "Cell bottom", "end": "Cell top", "opening": "Occupies cell instead of clear vision glass", "load": "Facade infill component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-PERIMETER-FIRE-SAFING", "name": "curtain wall perimeter fire safing", "object_type": "other_physical_object", "category": "commercial_facades",
+      "definition": "A fire-resistant closure at the gap between a facade system and the edge of a floor or fire-rated construction.",
+      "functions": ["Show facade-to-slab fire separation", "Coordinate slab edge gaps", "Keep fire-stopping visible in facade sections"],
+      "orientation": ["horizontal"], "materials": ["mineral wool", "fire sealant", "sheet metal closure", "proprietary firestop"], "geometry": "continuous_run",
+      "aliases": [{"term": "slab edge firestop", "type": "preferred_synonym", "region": "Australia", "confidence": 0.84}], "possible_aliases": [{"term": "fire safing", "type": "abbreviation", "region": "Australia", "confidence": 0.86}], "not_synonyms": ["ordinary backing rod", "weather seal only"],
+      "part_of": ["AU-AN-CURTAIN-WALL-SYSTEM"], "attributes": ["gap width", "rating", "material", "sealant", "compression", "slab edge", "facade anchor conflict"],
+      "sources": ["SRC-CAPSTONE-CURTAIN-WALLS", "SRC-CAPSTONE-FIRE-SERVICES"], "cad": {"pattern": "Continuous barrier line at slab edge behind facade", "placement": "Between floor edge and curtain wall", "host": "AU-AN-CURTAIN-WALL-SYSTEM", "start": "Facade bay start", "end": "Facade bay end", "opening": "Interrupted only where detailed firestop systems allow", "load": "Life-safety fire barrier component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-AUTOMATIC-SLIDING-DOOR", "name": "automatic sliding door assembly", "object_type": "assembly", "category": "specialist_openings",
+      "definition": "An entrance door system with sliding leaves, head operator, sensors, tracks, side screens and control hardware.",
+      "functions": ["Represent powered sliding entrances", "Coordinate opening width, sensors and head unit", "Separate automatic doors from manual sliding doors"],
+      "orientation": ["vertical"], "materials": ["aluminium", "glass", "steel track", "motor operator", "sensors"], "geometry": "opening",
+      "aliases": [{"term": "auto sliding door", "type": "abbreviation", "region": "Australia", "confidence": 0.88}], "possible_aliases": [{"term": "automatic entry door", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.78}], "not_synonyms": ["manual sliding door", "roller door"],
+      "part_of": [], "attributes": ["clear opening", "leaf count", "operator", "sensors", "side screens", "track", "power", "access control", "breakout function"],
+      "sources": ["SRC-CAPSTONE-SPECIALIST-OPENINGS"], "cad": {"pattern": "Sliding door leaves under powered head track", "placement": "Main entries and commercial openings", "host": "wall opening or shopfront", "start": "Floor track or threshold", "end": "Operator head", "opening": "Sliding clear opening", "load": "Powered door equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-REVOLVING-DOOR", "name": "revolving door assembly", "object_type": "assembly", "category": "specialist_openings",
+      "definition": "A circular or polygonal entrance door system with rotating leaves inside a drum or enclosure.",
+      "functions": ["Represent commercial revolving entries", "Coordinate circular footprint and canopy", "Show side screens and central shaft"],
+      "orientation": ["vertical"], "materials": ["glass", "aluminium", "stainless steel", "motor operator"], "geometry": "opening",
+      "aliases": [], "possible_aliases": [], "not_synonyms": ["hinged door", "automatic sliding door"],
+      "part_of": [], "attributes": ["diameter", "leaf count", "enclosure", "operator", "canopy", "security", "side pass door", "floor ring"],
+      "sources": ["SRC-CAPSTONE-SPECIALIST-OPENINGS"], "cad": {"pattern": "Circular entrance enclosure with rotating leaves", "placement": "Main commercial entrances", "host": "facade opening", "start": "Floor ring", "end": "Canopy or head enclosure", "opening": "Rotating compartments", "load": "Powered or manual entrance equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-RAPID-ROLLER-DOOR", "name": "rapid roller door", "object_type": "assembly", "category": "specialist_openings",
+      "definition": "A powered high-speed flexible or fabric roller door used for industrial, warehouse or specialist controlled openings.",
+      "functions": ["Show high-speed door openings", "Coordinate side guides and head roll", "Separate rapid doors from ordinary garage roller doors"],
+      "orientation": ["vertical"], "materials": ["fabric curtain", "steel guides", "motor", "head drum"], "geometry": "opening",
+      "aliases": [{"term": "high-speed roller door", "type": "preferred_synonym", "region": "Australia", "confidence": 0.9}], "possible_aliases": [], "not_synonyms": ["sectional garage door", "fire shutter"],
+      "part_of": [], "attributes": ["opening size", "curtain type", "side guides", "head drum", "motor", "sensors", "controls", "speed"],
+      "sources": ["SRC-CAPSTONE-SPECIALIST-OPENINGS"], "cad": {"pattern": "Vertical opening with head roll and side guides", "placement": "Industrial or controlled-environment openings", "host": "wall opening", "start": "Floor threshold", "end": "Head drum", "opening": "Rapid door clear opening", "load": "Powered opening equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-LOADING-DOCK-LEVELLER", "name": "loading dock leveller", "object_type": "assembly", "category": "specialist_openings",
+      "definition": "A hinged or telescopic platform installed at a loading dock to bridge between building floor and vehicle deck.",
+      "functions": ["Coordinate dock equipment", "Show pit and moving platform", "Connect warehouse floor to truck loading zone"],
+      "orientation": ["horizontal"], "materials": ["steel plate", "hydraulic equipment", "edge angles", "concrete pit"], "geometry": "volumetric_element",
+      "aliases": [{"term": "dock leveler", "type": "spelling_variant", "region": "Australia", "confidence": 0.8}], "possible_aliases": [], "not_synonyms": ["ramp", "threshold plate"],
+      "part_of": [], "attributes": ["platform size", "lip type", "pit size", "operation", "vehicle relation", "bumpers", "door relation", "safe access"],
+      "sources": ["SRC-CAPSTONE-SPECIALIST-OPENINGS"], "cad": {"pattern": "Recessed platform at dock edge", "placement": "At loading dock door opening", "host": "concrete dock floor", "start": "Pit rear hinge", "end": "Dock lip", "opening": "Dock door opening adjacent", "load": "Loading equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-ACCESS-CONTROL-HARDWARE-SET", "name": "access control hardware set", "object_type": "assembly", "category": "specialist_openings",
+      "definition": "A coordinated door-security hardware set including reader, lock, controller, request-to-exit device, power and cabling interfaces.",
+      "functions": ["Show controlled-door hardware", "Coordinate electrical/security parts at openings", "Keep lock, reader and controller as separable objects"],
+      "orientation": ["vertical"], "materials": ["electronics", "steel", "plastic", "cabling"], "geometry": "discrete_component",
+      "aliases": [{"term": "controlled door set", "type": "preferred_synonym", "region": "Australia", "confidence": 0.82}], "possible_aliases": [{"term": "security door hardware", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.78}], "not_synonyms": ["ordinary door furniture", "alarm panel"],
+      "part_of": [], "attributes": ["reader type", "lock type", "controller", "egress device", "power supply", "cable route", "door status", "fail state"],
+      "sources": ["SRC-CAPSTONE-SPECIALIST-OPENINGS"], "cad": {"pattern": "Door hardware points linked by cable routes", "placement": "At controlled doors and nearby wall/ceiling spaces", "host": "door assembly", "start": "Controller or power supply", "end": "Door hardware", "opening": "Controlled door opening", "load": "Security and access equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-CARD-READER", "name": "card reader", "object_type": "other_physical_object", "category": "specialist_openings",
+      "definition": "A wall, frame or mullion mounted credential reader used to request access through a controlled opening.",
+      "functions": ["Show access reader location", "Coordinate mounting height and cable route", "Connect to a controlled door hardware set"],
+      "orientation": ["vertical"], "materials": ["plastic", "electronics", "cabling"], "geometry": "discrete_component",
+      "aliases": [{"term": "access reader", "type": "preferred_synonym", "region": "Australia", "confidence": 0.86}], "possible_aliases": [{"term": "swipe reader", "type": "exact_synonym", "region": "Australia", "confidence": 0.76}], "not_synonyms": ["light switch", "intercom handset"],
+      "part_of": ["AU-AN-ACCESS-CONTROL-HARDWARE-SET"], "attributes": ["reader type", "mounting", "height", "cable route", "door served", "weather exposure"],
+      "sources": ["SRC-CAPSTONE-SPECIALIST-OPENINGS"], "cad": {"pattern": "Small wall or mullion device near door", "placement": "Entry side of controlled opening", "host": "wall, frame or mullion", "start": "Back box", "end": "Face plate", "opening": "Controls nearby door", "load": "Access-control device"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-ELECTRIC-STRIKE", "name": "electric strike", "object_type": "other_physical_object", "category": "specialist_openings",
+      "definition": "An electrically controlled strike fitted to a door frame to release or secure a latch.",
+      "functions": ["Show powered lock hardware", "Coordinate frame preparation", "Link access control to door latching"],
+      "orientation": ["vertical"], "materials": ["steel", "electronics", "cabling"], "geometry": "discrete_component",
+      "aliases": [], "possible_aliases": [{"term": "electric door release", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.78}], "not_synonyms": ["magnetic lock", "ordinary strike plate"],
+      "part_of": ["AU-AN-ACCESS-CONTROL-HARDWARE-SET"], "attributes": ["strike type", "fail state", "frame type", "power", "cable route", "latch compatibility"],
+      "sources": ["SRC-CAPSTONE-SPECIALIST-OPENINGS"], "cad": {"pattern": "Small hardware insert in door frame", "placement": "Latch side of controlled door frame", "host": "door frame", "start": "Frame recess", "end": "Strike face", "opening": "Door leaf latch interface", "load": "Access-control locking hardware"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-MAGNETIC-LOCK", "name": "magnetic lock", "object_type": "other_physical_object", "category": "specialist_openings",
+      "definition": "An electromagnetic lock with a magnet and armature plate used to secure a controlled door.",
+      "functions": ["Show maglock hardware", "Coordinate head or frame mounting", "Connect to access control and egress devices"],
+      "orientation": ["horizontal", "vertical"], "materials": ["steel", "aluminium", "electronics", "cabling"], "geometry": "discrete_component",
+      "aliases": [{"term": "maglock", "type": "abbreviation", "region": "Australia", "confidence": 0.92}], "possible_aliases": [], "not_synonyms": ["electric strike", "door closer"],
+      "part_of": ["AU-AN-ACCESS-CONTROL-HARDWARE-SET"], "attributes": ["holding force", "mounting bracket", "fail state", "power", "door swing", "egress interface"],
+      "sources": ["SRC-CAPSTONE-SPECIALIST-OPENINGS"], "cad": {"pattern": "Magnet on frame and plate on door leaf", "placement": "Head or jamb of controlled door", "host": "door assembly", "start": "Frame magnet", "end": "Door armature", "opening": "Controlled door opening", "load": "Access-control locking hardware"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-ACCESSIBLE-PATH-OF-TRAVEL", "name": "accessible path of travel", "object_type": "assembly", "category": "accessibility",
+      "definition": "A continuous route made from floor surfaces, ramps, landings, doors, circulation spaces and access features that physically supports accessible movement.",
+      "functions": ["Coordinate accessible route geometry", "Group ramps, doors, landings and clearances", "Make access-related physical objects discoverable"],
+      "orientation": ["horizontal", "inclined"], "materials": ["concrete", "timber", "floor finishes", "door hardware", "handrails", "TGSI"], "geometry": "continuous_run",
+      "aliases": [{"term": "accessible route", "type": "preferred_synonym", "region": "Australia", "confidence": 0.82}], "possible_aliases": [], "not_synonyms": ["emergency egress path automatically", "corridor only"],
+      "part_of": [], "attributes": ["route width", "surface", "door clearances", "landings", "ramps", "turning zones", "TGSI", "handrails", "crossfall"],
+      "sources": ["SRC-CAPSTONE-ACCESSIBILITY"], "cad": {"pattern": "Connected floor, ramp and opening sequence", "placement": "Between accessible building entries, amenities and spaces", "host": "floors and site paths", "start": "Accessible entry or origin", "end": "Accessible destination", "opening": "Doors and gates on route", "load": "Access coordination route"},
+      "notes": ["This is a physical drawing grouping, not a rules engine."], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-TACTILE-GROUND-SURFACE-INDICATOR", "name": "tactile ground surface indicator", "object_type": "other_physical_object", "category": "accessibility",
+      "definition": "A surface treatment with raised tactile features used to warn or direct pedestrians at specific locations.",
+      "functions": ["Show tactile warning or directional surface", "Coordinate stair, ramp, platform and hazard interfaces", "Distinguish tactile units from ordinary floor finish"],
+      "orientation": ["horizontal"], "materials": ["stainless steel", "polyurethane", "ceramic", "concrete", "adhesive"], "geometry": "planar_layer",
+      "aliases": [{"term": "TGSI", "type": "abbreviation", "region": "Australia", "confidence": 0.94}, {"term": "tactiles", "type": "abbreviation", "region": "Australia", "confidence": 0.86}], "possible_aliases": [], "not_synonyms": ["floor tile", "anti-slip strip"],
+      "part_of": ["AU-AN-ACCESSIBLE-PATH-OF-TRAVEL"], "attributes": ["type", "setout", "module", "colour contrast", "fixing", "substrate", "location", "hazard relation"],
+      "sources": ["SRC-CAPSTONE-ACCESSIBILITY"], "cad": {"pattern": "Array of raised dots or bars on walking surface", "placement": "At stairs, ramps, crossings, platforms or decision points as documented", "host": "floor or path surface", "start": "Setout edge", "end": "Setout edge", "opening": "Not applicable", "load": "Surface accessibility component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-INSTALLED-GRABRAIL", "name": "installed grabrail", "object_type": "other_physical_object", "category": "accessibility",
+      "definition": "A fixed rail used for support in accessible sanitary, shower, change or circulation areas.",
+      "functions": ["Show accessible support rails", "Coordinate backing and fixing points", "Represent straight, angled, drop-down or wraparound rail shapes"],
+      "orientation": ["horizontal", "vertical", "angled"], "materials": ["stainless steel", "powder-coated steel", "fixings", "wall backing"], "geometry": "linear_member",
+      "aliases": [{"term": "grab rail", "type": "spelling_variant", "region": "Australia", "confidence": 0.94}], "possible_aliases": [], "not_synonyms": ["handrail automatically", "towel rail"],
+      "part_of": ["AU-AN-ACCESSIBLE-PATH-OF-TRAVEL"], "attributes": ["rail type", "diameter", "length", "height", "projection", "fixings", "backing", "fixture served"],
+      "sources": ["SRC-CAPSTONE-ACCESSIBILITY"], "cad": {"pattern": "Tubular rail fixed to wall or floor", "placement": "Beside WC, shower, bath, change table or accessible route as documented", "host": "wall or floor", "start": "First fixing flange", "end": "Last fixing flange", "opening": "Not applicable", "load": "Accessible support fixture"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-ACCESSIBLE-SANITARY-FIXTURE-SET", "name": "accessible sanitary fixture set", "object_type": "assembly", "category": "accessibility",
+      "definition": "A coordinated accessible sanitary group including WC pan, basin, grabrails, circulation spaces, accessories and service connections.",
+      "functions": ["Group accessible toilet-room fixtures", "Coordinate pan, basin, rails and accessories", "Support room-level SketchUp placement"],
+      "orientation": ["horizontal", "vertical"], "materials": ["ceramic", "stainless steel", "laminate", "plumbing fixtures", "wall linings"], "geometry": "volumetric_element",
+      "aliases": [{"term": "accessible toilet fitout", "type": "preferred_synonym", "region": "Australia", "confidence": 0.82}], "possible_aliases": [{"term": "ambulant fixture set", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.72}], "not_synonyms": ["standard toilet suite", "bathroom vanity only"],
+      "part_of": [], "attributes": ["WC pan", "basin", "grabrails", "toilet roll holder", "mirror", "hand dryer", "clearances", "door swing", "services"],
+      "sources": ["SRC-CAPSTONE-ACCESSIBILITY"], "cad": {"pattern": "Fixture group with rails and accessory positions", "placement": "Accessible sanitary compartments and rooms", "host": "wet area room", "start": "Room floor", "end": "Accessory mounting heights", "opening": "Door clearance affects layout", "load": "Sanitary accessibility fitout"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-ACCESSIBLE-PARKING-BAY", "name": "accessible parking bay", "object_type": "assembly", "category": "accessibility",
+      "definition": "A marked parking space with adjacent shared area, kerb ramp or access connection, wheel stops, bollards or signage where documented.",
+      "functions": ["Show accessible car space layout", "Coordinate shared zone and access path", "Represent physical markings and protection objects"],
+      "orientation": ["horizontal"], "materials": ["line marking paint", "concrete", "asphalt", "signs", "wheel stops", "bollards"], "geometry": "planar_layer",
+      "aliases": [{"term": "disabled parking space", "type": "exact_synonym", "region": "Australia", "confidence": 0.78}], "possible_aliases": [], "not_synonyms": ["ordinary car space", "loading bay"],
+      "part_of": ["AU-AN-ACCESSIBLE-PATH-OF-TRAVEL"], "attributes": ["bay size", "shared zone", "line marking", "signage", "wheel stop", "bollard", "kerb ramp", "surface fall"],
+      "sources": ["SRC-CAPSTONE-ACCESSIBILITY"], "cad": {"pattern": "Painted bay and shared-zone markings with associated fixtures", "placement": "Car park or site access area", "host": "pavement", "start": "Bay boundary", "end": "Shared-zone boundary", "opening": "Connection to path of travel", "load": "Site access object"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-FIXED-ACCESS-LADDER", "name": "fixed access ladder", "object_type": "assembly", "category": "accessibility",
+      "definition": "A fixed ladder, cage, gate or platform arrangement used to access roofs, plant, pits or service zones.",
+      "functions": ["Show maintenance access hardware", "Coordinate fall protection and landings", "Connect service areas across vertical height"],
+      "orientation": ["vertical", "inclined"], "materials": ["galvanised steel", "aluminium", "stainless steel", "fixings"], "geometry": "volumetric_element",
+      "aliases": [{"term": "service ladder", "type": "preferred_synonym", "region": "Australia", "confidence": 0.78}], "possible_aliases": [{"term": "roof access ladder", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.82}], "not_synonyms": ["stair", "temporary ladder"],
+      "part_of": [], "attributes": ["height", "rungs", "stiles", "cage", "gate", "landings", "fixings", "fall protection", "access hatch"],
+      "sources": ["SRC-CAPSTONE-ACCESSIBILITY"], "cad": {"pattern": "Vertical ladder with rungs and stiles", "placement": "Walls, shafts, roofs or plant areas", "host": "structure or wall", "start": "Lower access level", "end": "Upper access level", "opening": "Roof hatch or platform opening where present", "load": "Maintenance access component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-COMMERCIAL-KITCHEN-EXHAUST-HOOD", "name": "commercial kitchen exhaust hood", "object_type": "assembly", "category": "commercial_fitout",
+      "definition": "A canopy or exhaust hood over commercial cooking equipment, including filters, capture hood body, lights, fire service interfaces and duct connection.",
+      "functions": ["Show kitchen exhaust capture equipment", "Coordinate cooking line, duct riser and ceiling space", "Separate commercial hood from domestic rangehood"],
+      "orientation": ["horizontal"], "materials": ["stainless steel", "grease filters", "duct connection", "lights", "fire suppression nozzles"], "geometry": "volumetric_element",
+      "aliases": [{"term": "kitchen canopy hood", "type": "preferred_synonym", "region": "Australia", "confidence": 0.86}], "possible_aliases": [], "not_synonyms": ["domestic rangehood", "ordinary ceiling diffuser"],
+      "part_of": [], "attributes": ["hood size", "filter bank", "exhaust duct", "make-up air", "cooking equipment served", "fire suppression", "clearances", "cleaning access"],
+      "sources": ["SRC-CAPSTONE-COMMERCIAL-FITOUT"], "cad": {"pattern": "Stainless canopy over cooking equipment with duct takeoff", "placement": "Commercial kitchen cook line", "host": "ceiling/structure and cooking equipment layout", "start": "Hood face", "end": "Duct connection", "opening": "Ceiling or wall duct penetration", "load": "Mechanical kitchen equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-GREASE-ARRESTOR", "name": "grease arrestor", "object_type": "other_physical_object", "category": "commercial_fitout",
+      "definition": "A plumbing treatment unit that intercepts grease and solids from commercial kitchen wastewater before discharge.",
+      "functions": ["Show grease-treatment equipment", "Coordinate floor, external or below-ground location", "Connect kitchen wastes to drainage"],
+      "orientation": ["horizontal"], "materials": ["polyethylene", "concrete", "fibreglass", "steel lids", "pipework"], "geometry": "volumetric_element",
+      "aliases": [{"term": "grease trap", "type": "exact_synonym", "region": "Australia", "confidence": 0.9}], "possible_aliases": [], "not_synonyms": ["stormwater pit", "septic tank"],
+      "part_of": [], "attributes": ["capacity", "inlet", "outlet", "access lids", "venting", "location", "trade waste connection", "maintenance access"],
+      "sources": ["SRC-CAPSTONE-COMMERCIAL-FITOUT"], "cad": {"pattern": "Tank or chamber with inlet, outlet and access lids", "placement": "Below floor, external yard or plant zone", "host": "drainage network", "start": "Kitchen waste inlet", "end": "Drainage outlet", "opening": "Access covers", "load": "Trade waste equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-LABORATORY-BENCH", "name": "laboratory bench", "object_type": "assembly", "category": "commercial_fitout",
+      "definition": "A fixed specialist bench with worktop, under-bench storage, service outlets and chemical-resistant finishes.",
+      "functions": ["Represent lab work surfaces", "Coordinate service points and cabinets", "Separate laboratory joinery from ordinary kitchen joinery"],
+      "orientation": ["horizontal"], "materials": ["laminate", "phenolic resin", "stainless steel", "powder-coated steel", "service fittings"], "geometry": "volumetric_element",
+      "aliases": [{"term": "lab bench", "type": "abbreviation", "region": "Australia", "confidence": 0.92}], "possible_aliases": [], "not_synonyms": ["kitchen bench", "office desk"],
+      "part_of": [], "attributes": ["bench type", "worktop", "base cabinets", "service outlets", "sink", "splashback", "chemical storage", "clearances"],
+      "sources": ["SRC-CAPSTONE-COMMERCIAL-FITOUT"], "cad": {"pattern": "Bench run with service modules and storage", "placement": "Laboratory rooms and teaching spaces", "host": "floor and wall services", "start": "Bench start", "end": "Bench end", "opening": "Cabinet doors and service penetrations", "load": "Specialist joinery"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-FUME-CUPBOARD", "name": "fume cupboard", "object_type": "assembly", "category": "commercial_fitout",
+      "definition": "A ventilated laboratory enclosure with sash, work chamber, exhaust duct connection, services and base cabinet or support frame.",
+      "functions": ["Show specialist lab exhaust enclosure", "Coordinate ductwork and service outlets", "Represent sash and working aperture"],
+      "orientation": ["vertical"], "materials": ["steel", "glass", "laminate", "ductwork", "service fittings"], "geometry": "volumetric_element",
+      "aliases": [{"term": "fume hood", "type": "regional_synonym", "region": "Australia", "confidence": 0.84}], "possible_aliases": [], "not_synonyms": ["rangehood", "clean bench"],
+      "part_of": [], "attributes": ["cupboard type", "width", "sash", "worktop", "exhaust duct", "services", "base cabinet", "access clearances"],
+      "sources": ["SRC-CAPSTONE-COMMERCIAL-FITOUT"], "cad": {"pattern": "Tall cabinet with sash and exhaust connection", "placement": "Laboratory wall or island bench line", "host": "floor and exhaust duct", "start": "Base cabinet", "end": "Top exhaust spigot", "opening": "Sash opening", "load": "Specialist laboratory equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-CLEANROOM-PANEL-SYSTEM", "name": "cleanroom panel system", "object_type": "assembly", "category": "commercial_fitout",
+      "definition": "A controlled-environment room envelope made from cleanroom wall panels, ceiling panels, doors, glazing, coves, seals and service penetrations.",
+      "functions": ["Represent cleanroom envelope objects", "Coordinate sealed panels and doors", "Keep cleanroom parts separate from ordinary plasterboard partitions"],
+      "orientation": ["vertical", "horizontal"], "materials": ["insulated panels", "coated steel", "aluminium", "sealants", "glazing", "HEPA modules"], "geometry": "volumetric_element",
+      "aliases": [{"term": "controlled environment panel system", "type": "preferred_synonym", "region": "Australia", "confidence": 0.76}], "possible_aliases": [], "not_synonyms": ["ordinary internal partition", "coolroom automatically"],
+      "part_of": [], "attributes": ["panel type", "ceiling grid", "doors", "view panels", "coves", "seals", "penetrations", "airlocks", "HEPA modules"],
+      "sources": ["SRC-CAPSTONE-COMMERCIAL-FITOUT"], "cad": {"pattern": "Sealed wall and ceiling panel envelope", "placement": "Cleanroom, pharmacy, lab or production area as documented", "host": "building floor and services", "start": "Floor cove", "end": "Ceiling panel", "opening": "Cleanroom doors, windows and service penetrations", "load": "Specialist room envelope"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-HEPA-FILTER-MODULE", "name": "HEPA filter module", "object_type": "other_physical_object", "category": "commercial_fitout",
+      "definition": "A ceiling or duct-mounted high-efficiency filter module serving a cleanroom or controlled environment.",
+      "functions": ["Show cleanroom air terminal equipment", "Coordinate ceiling grid and service access", "Separate HEPA modules from ordinary diffusers"],
+      "orientation": ["horizontal", "vertical"], "materials": ["filter media", "metal frame", "gaskets", "housing"], "geometry": "discrete_component",
+      "aliases": [{"term": "HEPA module", "type": "abbreviation", "region": "Australia", "confidence": 0.94}], "possible_aliases": [{"term": "fan filter unit", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.76}], "not_synonyms": ["standard air diffuser", "return air grille"],
+      "part_of": ["AU-AN-CLEANROOM-PANEL-SYSTEM"], "attributes": ["module size", "filter type", "housing", "gasket", "ceiling interface", "access", "airflow direction"],
+      "sources": ["SRC-CAPSTONE-COMMERCIAL-FITOUT"], "cad": {"pattern": "Rectangular filter module in cleanroom ceiling", "placement": "Ceiling grid or duct terminal", "host": "cleanroom ceiling or duct", "start": "Ceiling plane", "end": "Filter housing depth", "opening": "Ceiling penetration", "load": "Specialist air terminal"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-GENERATOR-SET", "name": "standby generator set", "object_type": "assembly", "category": "standby_power_and_lightning",
+      "definition": "A packaged engine-generator unit with enclosure, alternator, fuel system, exhaust, controls and connection to standby power equipment.",
+      "functions": ["Show standby power plant", "Coordinate plinth, exhaust, ventilation and access", "Connect generator to switchgear and fuel storage"],
+      "orientation": ["horizontal"], "materials": ["steel enclosure", "engine", "alternator", "fuel tank", "exhaust", "controls"], "geometry": "volumetric_element",
+      "aliases": [{"term": "backup generator", "type": "exact_synonym", "region": "Australia", "confidence": 0.86}, {"term": "genset", "type": "trade_slang", "region": "Australia", "confidence": 0.84}], "possible_aliases": [], "not_synonyms": ["battery inverter", "switchboard"],
+      "part_of": [], "attributes": ["capacity", "enclosure", "plinth", "fuel tank", "exhaust", "ventilation", "ATS", "access clearances", "noise attenuation"],
+      "sources": ["SRC-CAPSTONE-STANDBY-LIGHTNING"], "cad": {"pattern": "Large plant item on plinth with exhaust and cable interfaces", "placement": "Plant room, external enclosure or roof plant area", "host": "plant platform or slab", "start": "Plinth", "end": "Exhaust outlet or enclosure top", "opening": "Ventilation and access openings", "load": "Electrical standby plant"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-AUTOMATIC-TRANSFER-SWITCH", "name": "automatic transfer switch", "object_type": "other_physical_object", "category": "standby_power_and_lightning",
+      "definition": "Electrical switching equipment that transfers load between normal supply and standby generator supply.",
+      "functions": ["Show standby power switching equipment", "Coordinate wall or floor mounted cabinet", "Link generator set to switchboards"],
+      "orientation": ["vertical"], "materials": ["steel enclosure", "electrical switchgear", "copper busbar", "controls"], "geometry": "volumetric_element",
+      "aliases": [{"term": "ATS", "type": "abbreviation", "region": "Australia", "confidence": 0.94}], "possible_aliases": [], "not_synonyms": ["ordinary light switch", "generator set"],
+      "part_of": ["AU-AN-GENERATOR-SET"], "attributes": ["rating", "enclosure", "mounting", "incoming normal supply", "generator supply", "outgoing load", "controls", "clearances"],
+      "sources": ["SRC-CAPSTONE-STANDBY-LIGHTNING"], "cad": {"pattern": "Electrical cabinet near generator or switchboard", "placement": "Electrical room or plant area", "host": "wall or floor", "start": "Cabinet base", "end": "Cabinet top", "opening": "Door swing and cable entries", "load": "Electrical switching equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-LIGHTNING-PROTECTION-SYSTEM", "name": "lightning protection system", "object_type": "assembly", "category": "standby_power_and_lightning",
+      "definition": "A protection system made from air terminals, roof conductors, down conductors, bonds and earth terminations.",
+      "functions": ["Show roof lightning hardware", "Coordinate down-conductor routes", "Connect roof protection to earth termination"],
+      "orientation": ["horizontal", "vertical"], "materials": ["copper", "aluminium", "stainless steel", "clamps", "earth electrodes"], "geometry": "continuous_run",
+      "aliases": [{"term": "LPS", "type": "abbreviation", "region": "Australia", "confidence": 0.82}], "possible_aliases": [], "not_synonyms": ["electrical wiring system", "roof plumbing"],
+      "part_of": [], "attributes": ["air terminals", "roof conductors", "down conductors", "bonds", "earth electrodes", "test links", "routes", "fixings"],
+      "sources": ["SRC-CAPSTONE-STANDBY-LIGHTNING"], "cad": {"pattern": "Roof and wall conductor network with terminals and earth points", "placement": "Roof edges, ridges, plant and external walls", "host": "building envelope and earth", "start": "Air terminals or roof conductors", "end": "Earth terminations", "opening": "Penetrations where conductors pass through construction", "load": "Electrical protection system"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-LIGHTNING-AIR-TERMINAL", "name": "lightning air terminal", "object_type": "other_physical_object", "category": "standby_power_and_lightning",
+      "definition": "A rod or terminal installed at a roof, mast or exposed point as part of a lightning protection system.",
+      "functions": ["Show lightning collection points", "Coordinate roof penetrations and brackets", "Connect to roof or down conductors"],
+      "orientation": ["vertical"], "materials": ["copper", "aluminium", "stainless steel", "brackets"], "geometry": "linear_member",
+      "aliases": [{"term": "lightning rod", "type": "exact_synonym", "region": "Australia", "confidence": 0.9}], "possible_aliases": [], "not_synonyms": ["antenna", "flagpole"],
+      "part_of": ["AU-AN-LIGHTNING-PROTECTION-SYSTEM"], "attributes": ["height", "base", "material", "conductor connection", "roof interface", "served zone"],
+      "sources": ["SRC-CAPSTONE-STANDBY-LIGHTNING"], "cad": {"pattern": "Vertical rod on roof or mast", "placement": "High points, roof edges, plant or nominated protection points", "host": "roof or structure", "start": "Mounting base", "end": "Rod tip", "opening": "Roof penetration if any", "load": "Lightning protection component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-LIGHTNING-DOWN-CONDUCTOR", "name": "lightning down conductor", "object_type": "other_physical_object", "category": "standby_power_and_lightning",
+      "definition": "A conductor route carrying lightning protection continuity from roof-level conductors down to earth termination.",
+      "functions": ["Show vertical conductor routes", "Coordinate facade fixings and test links", "Connect roof protection to earth"],
+      "orientation": ["vertical"], "materials": ["copper", "aluminium", "stainless steel", "fixing clips"], "geometry": "continuous_run",
+      "aliases": [{"term": "downlead", "type": "exact_synonym", "region": "Australia", "confidence": 0.74}], "possible_aliases": [], "not_synonyms": ["downpipe", "electrical conduit"],
+      "part_of": ["AU-AN-LIGHTNING-PROTECTION-SYSTEM"], "attributes": ["route", "material", "fixing spacing", "test link", "bonding", "earth connection", "protection"],
+      "sources": ["SRC-CAPSTONE-STANDBY-LIGHTNING"], "cad": {"pattern": "Vertical conductor fixed to facade or structure", "placement": "External walls, shafts or protected routes", "host": "building envelope", "start": "Roof conductor", "end": "Earth termination", "opening": "Sleeves or penetrations where concealed", "load": "Lightning protection conductor"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-RETAINING-WALL-SYSTEM", "name": "retaining wall system", "object_type": "assembly", "category": "civil_site",
+      "definition": "A site wall system retaining soil, including wall elements, footing or embedment, drainage, backfill, geogrid or posts where applicable.",
+      "functions": ["Represent soil-retaining site walls", "Coordinate drainage and backfill zones", "Expose wall family parts for SketchUp site tools"],
+      "orientation": ["vertical"], "materials": ["concrete", "masonry", "timber", "steel", "geogrid", "drainage aggregate"], "geometry": "volumetric_element",
+      "aliases": [{"term": "retaining structure", "type": "preferred_synonym", "region": "Australia", "confidence": 0.78}], "possible_aliases": [{"term": "garden retaining wall", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.72}], "not_synonyms": ["boundary fence", "freestanding screen wall"],
+      "part_of": [], "attributes": ["wall type", "height", "embedment", "footing", "backfill", "ag drain", "weep holes", "geogrid", "surcharge", "engineer evidence"],
+      "sources": ["SRC-CAPSTONE-CIVIL-SITE"], "cad": {"pattern": "Wall line with retained soil side and drainage zone", "placement": "Site level changes and excavations", "host": "site terrain", "start": "Wall start", "end": "Wall end", "opening": "Drain outlets and steps where documented", "load": "Soil-retaining structure"},
+      "notes": ["Engineering design is outside the ontology."], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-SEGMENTAL-BLOCK-RETAINING-WALL", "name": "segmental block retaining wall", "object_type": "assembly", "category": "civil_site",
+      "definition": "A retaining wall made from interlocking concrete or masonry blocks, commonly with drainage aggregate and optional geogrid reinforcement.",
+      "functions": ["Draw modular retaining blocks", "Coordinate cap blocks and drainage", "Represent geogrid-reinforced layouts where documented"],
+      "orientation": ["vertical"], "materials": ["concrete blocks", "cap units", "geogrid", "drainage aggregate", "ag pipe"], "geometry": "volumetric_element",
+      "aliases": [{"term": "block retaining wall", "type": "preferred_synonym", "region": "Australia", "confidence": 0.86}], "possible_aliases": [], "not_synonyms": ["brick veneer wall", "concrete sleeper wall"],
+      "part_of": ["AU-AN-RETAINING-WALL-SYSTEM"], "attributes": ["block size", "courses", "setback", "cap", "geogrid layers", "drainage", "base", "height"],
+      "sources": ["SRC-CAPSTONE-CIVIL-SITE"], "cad": {"pattern": "Stacked block courses following retaining wall line", "placement": "At site level changes", "host": "AU-AN-RETAINING-WALL-SYSTEM", "start": "Base course", "end": "Cap course", "opening": "Drain outlets where shown", "load": "Retaining wall facing and structure as designed"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-POST-AND-PANEL-RETAINING-WALL", "name": "post and panel retaining wall", "object_type": "assembly", "category": "civil_site",
+      "definition": "A retaining wall made from vertical posts and horizontal panels or sleepers spanning between posts.",
+      "functions": ["Draw sleeper retaining walls", "Coordinate post spacing and panel stack", "Show drainage behind wall"],
+      "orientation": ["vertical"], "materials": ["concrete sleepers", "steel posts", "timber sleepers", "ag pipe", "gravel"], "geometry": "continuous_run",
+      "aliases": [{"term": "sleeper retaining wall", "type": "preferred_synonym", "region": "Australia", "confidence": 0.88}], "possible_aliases": [], "not_synonyms": ["fence only", "stud wall"],
+      "part_of": ["AU-AN-RETAINING-WALL-SYSTEM"], "attributes": ["post type", "post spacing", "panel height", "embedment", "drainage", "backfill", "cap", "height"],
+      "sources": ["SRC-CAPSTONE-CIVIL-SITE"], "cad": {"pattern": "Repeated vertical posts with stacked panels between", "placement": "At site level changes", "host": "AU-AN-RETAINING-WALL-SYSTEM", "start": "First post", "end": "Last post", "opening": "Drain outlet interruptions", "load": "Retaining wall structure as designed"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-GEOGRID-REINFORCEMENT", "name": "geogrid reinforcement", "object_type": "other_physical_object", "category": "civil_site",
+      "definition": "A geosynthetic reinforcement layer placed in retained soil behind selected retaining wall systems.",
+      "functions": ["Show reinforced soil layers", "Coordinate layer length and elevation", "Connect wall facing to retained soil zone"],
+      "orientation": ["horizontal"], "materials": ["polymer geogrid", "compacted fill"], "geometry": "mesh",
+      "aliases": [{"term": "soil reinforcement grid", "type": "preferred_synonym", "region": "Australia", "confidence": 0.76}], "possible_aliases": [], "not_synonyms": ["reo mesh", "waterproof membrane"],
+      "part_of": ["AU-AN-RETAINING-WALL-SYSTEM"], "attributes": ["layer elevation", "embedment length", "grid type", "connection", "fill type", "wrap", "wall face"],
+      "sources": ["SRC-CAPSTONE-CIVIL-SITE"], "cad": {"pattern": "Horizontal mesh layers extending behind wall", "placement": "In compacted backfill behind retaining wall", "host": "AU-AN-RETAINING-WALL-SYSTEM", "start": "Wall face connection", "end": "Reinforcement tail", "opening": "Avoid penetrations unless designed", "load": "Soil reinforcement"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-AGRICULTURAL-DRAIN", "name": "agricultural drain behind retaining wall", "object_type": "other_physical_object", "category": "civil_site",
+      "definition": "A perforated drainage pipe and aggregate zone used to relieve water behind a retaining wall or site structure.",
+      "functions": ["Show retaining wall drainage", "Coordinate outlet points", "Separate subsoil drains from stormwater roof drains"],
+      "orientation": ["horizontal", "falling"], "materials": ["perforated pipe", "filter sock", "drainage aggregate", "geotextile"], "geometry": "continuous_run",
+      "aliases": [{"term": "ag drain", "type": "abbreviation", "region": "Australia", "confidence": 0.92}, {"term": "subsoil drain", "type": "preferred_synonym", "region": "Australia", "confidence": 0.86}], "possible_aliases": [], "not_synonyms": ["sewer pipe", "electrical conduit"],
+      "part_of": ["AU-AN-RETAINING-WALL-SYSTEM"], "attributes": ["pipe diameter", "fall", "aggregate", "geotextile", "outlet", "cleanout", "wall relation"],
+      "sources": ["SRC-CAPSTONE-CIVIL-SITE"], "cad": {"pattern": "Perforated pipe at base of drainage aggregate", "placement": "Behind retaining wall at base or drainage layer", "host": "AU-AN-RETAINING-WALL-SYSTEM", "start": "High end or cleanout", "end": "Outlet point", "opening": "Outlet penetration", "load": "Site drainage component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-STORMWATER-DETENTION-OUTLET", "name": "stormwater detention outlet control", "object_type": "other_physical_object", "category": "civil_site",
+      "definition": "An orifice, weir, plate, valve or outlet assembly that controls discharge from an on-site stormwater detention volume.",
+      "functions": ["Show detention control hardware", "Coordinate tank or pit outlet", "Separate outlet control from ordinary pipework"],
+      "orientation": ["vertical", "horizontal"], "materials": ["PVC", "steel plate", "concrete pit", "stainless screen", "pipework"], "geometry": "discrete_component",
+      "aliases": [{"term": "OSD outlet control", "type": "preferred_synonym", "region": "Australia", "confidence": 0.82}], "possible_aliases": [{"term": "orifice plate", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.84}], "not_synonyms": ["stormwater pipe", "floor waste"],
+      "part_of": [], "attributes": ["control type", "orifice size", "weir level", "screen", "pit", "overflow", "downstream pipe", "maintenance access"],
+      "sources": ["SRC-CAPSTONE-CIVIL-SITE"], "cad": {"pattern": "Outlet fitting or plate inside detention pit or tank", "placement": "At detention tank, basin or control pit outlet", "host": "stormwater detention system", "start": "Storage volume", "end": "Outlet pipe", "opening": "Access lid or pit opening", "load": "Stormwater control component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-GROSS-POLLUTANT-TRAP", "name": "gross pollutant trap", "object_type": "assembly", "category": "civil_site",
+      "definition": "A stormwater treatment device that captures litter, coarse sediment or gross pollutants before discharge.",
+      "functions": ["Show stormwater treatment equipment", "Coordinate pit, inlet, outlet and access covers", "Separate GPTs from ordinary pits"],
+      "orientation": ["horizontal"], "materials": ["concrete", "fibreglass", "stainless steel screens", "pipework", "access covers"], "geometry": "volumetric_element",
+      "aliases": [{"term": "GPT", "type": "abbreviation", "region": "Australia", "confidence": 0.9}], "possible_aliases": [{"term": "stormwater treatment pit", "type": "related_but_not_synonym", "region": "Australia", "confidence": 0.72}], "not_synonyms": ["silt fence", "ordinary stormwater pit"],
+      "part_of": [], "attributes": ["device type", "inlet", "outlet", "screen", "sediment chamber", "access covers", "bypass", "maintenance area"],
+      "sources": ["SRC-CAPSTONE-CIVIL-SITE"], "cad": {"pattern": "Treatment chamber with inlet, outlet and access covers", "placement": "Stormwater line before discharge or reuse", "host": "stormwater network", "start": "Inlet pipe", "end": "Outlet pipe", "opening": "Access covers", "load": "Stormwater treatment equipment"},
+      "notes": [], "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "AU-AN-TRENCH-GRATE-DRAIN", "name": "trench grate drain", "object_type": "assembly", "category": "civil_site",
+      "definition": "A linear surface drainage channel with removable grate, channel body, outlets and end caps.",
+      "functions": ["Collect surface water along a line", "Coordinate driveway, threshold and paved-area drainage", "Expose grate and channel as separate drawable parts"],
+      "orientation": ["horizontal", "falling"], "materials": ["polymer concrete", "concrete", "galvanised steel", "stainless steel", "cast iron", "plastic"], "geometry": "continuous_run",
+      "aliases": [{"term": "linear drain", "type": "preferred_synonym", "region": "Australia", "confidence": 0.84}, {"term": "strip drain", "type": "exact_synonym", "region": "Australia", "confidence": 0.78}], "possible_aliases": [], "not_synonyms": ["floor waste", "box gutter"],
+      "part_of": [], "attributes": ["channel width", "grate type", "fall", "outlet", "end cap", "load class", "pavement interface", "cleaning access"],
+      "sources": ["SRC-CAPSTONE-CIVIL-SITE"], "cad": {"pattern": "Long narrow channel with top grate", "placement": "Driveways, paths, thresholds, courtyards and paved areas", "host": "pavement or slab", "start": "Channel start", "end": "Outlet or channel end", "opening": "Grate opening and outlet pipe", "load": "Surface drainage component"},
+      "notes": [], "review_status": "accepted_pending_review"
+    }
+  ]
+}
+

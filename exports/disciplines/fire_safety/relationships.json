@@ -1,0 +1,3703 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "fire_safety",
+  "relationships": [
+    {
+      "id": "REL-4219-FS-ALARM-ACTIVATED-EVACUATION-LIGHT-FITTING-PART-OF-AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "from_id": "AU-FS-ALARM-ACTIVATED-EVACUATION-LIGHT-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4220-FS-ALARM-BACKUP-BATTERY-PART-OF-AU-FS-HEAT-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-ALARM-BACKUP-BATTERY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4221-FS-ALARM-BACKUP-BATTERY-PART-OF-AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "from_id": "AU-FS-ALARM-BACKUP-BATTERY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4222-FS-ALARM-MAINS-CONNECTOR-PART-OF-AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "from_id": "AU-FS-ALARM-MAINS-CONNECTOR",
+      "relationship": "part_of",
+      "to_id": "AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4223-FS-ALARM-RELAY-MODULE-PART-OF-AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "from_id": "AU-FS-ALARM-RELAY-MODULE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4224-FS-ALARM-RELAY-MODULE-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-ALARM-RELAY-MODULE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4225-FS-ALARM-SOUNDER-PART-OF-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-ALARM-SOUNDER",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4226-FS-ALARM-SOUNDER-PART-OF-AU-FS-HEAT-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-ALARM-SOUNDER",
+      "relationship": "part_of",
+      "to_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4227-FS-ALARM-STATUS-INDICATOR-PART-OF-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-ALARM-STATUS-INDICATOR",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4228-FS-ALARM-STATUS-INDICATOR-PART-OF-AU-FS-HEAT-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-ALARM-STATUS-INDICATOR",
+      "relationship": "part_of",
+      "to_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4229-FS-ALARM-TEST-HUSH-CONTROL-PART-OF-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-ALARM-TEST-HUSH-CONTROL",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4230-FS-ALARM-TEST-HUSH-CONTROL-PART-OF-AU-FS-HEAT-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-ALARM-TEST-HUSH-CONTROL",
+      "relationship": "part_of",
+      "to_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4231-FS-BATTERY-POWERED-SMOKE-ALARM-HAS-PART-AU-FS-REPLACEABLE-ALARM-BATTERY",
+      "from_id": "AU-FS-BATTERY-POWERED-SMOKE-ALARM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-REPLACEABLE-ALARM-BATTERY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4232-FS-BATTERY-POWERED-SMOKE-ALARM-HAS-PART-AU-FS-SEALED-LITHIUM-ALARM-BATTERY",
+      "from_id": "AU-FS-BATTERY-POWERED-SMOKE-ALARM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SEALED-LITHIUM-ALARM-BATTERY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4233-FS-BATTERY-POWERED-SMOKE-ALARM-IS-A-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-BATTERY-POWERED-SMOKE-ALARM",
+      "relationship": "is_a",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4234-FS-BATTERY-POWERED-SMOKE-ALARM-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-BATTERY-POWERED-SMOKE-ALARM",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4236-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-CABLE-COATING",
+      "from_id": "AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-CABLE-COATING",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4237-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-PILLOW",
+      "from_id": "AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-PILLOW",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4238-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-PLUG",
+      "from_id": "AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-PLUG",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4239-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4240-FS-CAST-IN-FIRE-COLLAR-IS-A-AU-FS-FIRE-COLLAR",
+      "from_id": "AU-FS-CAST-IN-FIRE-COLLAR",
+      "relationship": "is_a",
+      "to_id": "AU-FS-FIRE-COLLAR",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4241-FS-CAST-IN-FIRE-COLLAR-PART-OF-AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-CAST-IN-FIRE-COLLAR",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4242-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM-HAS-PART-AU-FS-ALARM-ACTIVATED-EVACUATION-LIGHT-FITTING",
+      "from_id": "AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-ACTIVATED-EVACUATION-LIGHT-FITTING",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4243-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM-HAS-PART-AU-FS-ALARM-RELAY-MODULE",
+      "from_id": "AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-RELAY-MODULE",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4244-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM-HAS-PART-AU-FS-INTEGRATED-ALARM-EVACUATION-LIGHT",
+      "from_id": "AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-INTEGRATED-ALARM-EVACUATION-LIGHT",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4245-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4246-FS-COATED-FIRESTOP-BATT-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-COATED-FIRESTOP-BATT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4247-FS-COATED-FIRESTOP-BOARD-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-COATED-FIRESTOP-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4248-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-ALARM-RELAY-MODULE",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-RELAY-MODULE",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4249-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-BATTERY-POWERED-SMOKE-ALARM",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-BATTERY-POWERED-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4250-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4251-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4252-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-HARDWIRED-ALARM-INTERCONNECT-CABLE",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-HARDWIRED-ALARM-INTERCONNECT-CABLE",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4253-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-HEAT-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-1603-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4254-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-HEAT-ALARM-DURABLE-NOTICE",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-HEAT-ALARM-DURABLE-NOTICE",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4255-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-IONISATION-SMOKE-ALARM",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-IONISATION-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4256-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4257-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-MULTISENSOR-SMOKE-HEAT-ALARM",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-MULTISENSOR-SMOKE-HEAT-ALARM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4258-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-PHOTOELECTRIC-SMOKE-ALARM",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-PHOTOELECTRIC-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4259-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-REMOTE-ALARM-CONTROL",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-REMOTE-ALARM-CONTROL",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4260-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-TACTILE-ALARM-VIBRATION-PAD",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-TACTILE-ALARM-VIBRATION-PAD",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4261-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-VISUAL-ALARM-STROBE",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-VISUAL-ALARM-STROBE",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4262-FS-DOMESTIC-ALARM-SYSTEM-HAS-PART-AU-FS-WIRELESS-ALARM-INTERCONNECT-MODULE",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-WIRELESS-ALARM-INTERCONNECT-MODULE",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4263-FS-DOMESTIC-ALARM-SYSTEM-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-ABCB-V2-H3-FIRE-SAFETY",
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4264-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY-HAS-PART-AU-FS-ALARM-SOUNDER",
+      "from_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-SOUNDER",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4265-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY-HAS-PART-AU-FS-ALARM-STATUS-INDICATOR",
+      "from_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-STATUS-INDICATOR",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4266-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY-HAS-PART-AU-FS-ALARM-TEST-HUSH-CONTROL",
+      "from_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-TEST-HUSH-CONTROL",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4267-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY-HAS-PART-AU-FS-INTEGRATED-ALARM-EVACUATION-LIGHT",
+      "from_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-INTEGRATED-ALARM-EVACUATION-LIGHT",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4268-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY-HAS-PART-AU-FS-SMOKE-ALARM-HEAD",
+      "from_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SMOKE-ALARM-HEAD",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4269-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY-HAS-PART-AU-FS-SMOKE-ALARM-MOUNTING-BASE",
+      "from_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SMOKE-ALARM-MOUNTING-BASE",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4270-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY-HAS-PART-AU-FS-SMOKE-CHAMBER-INSECT-SCREEN",
+      "from_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SMOKE-CHAMBER-INSECT-SCREEN",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4271-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY-HAS-PART-AU-FS-WIRELESS-INTERCONNECT-ALARM-BASE",
+      "from_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-WIRELESS-INTERCONNECT-ALARM-BASE",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4272-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4273-FS-ELECTRICAL-BOX-CAVITY-FIRE-PACKING-PART-OF-AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "from_id": "AU-FS-ELECTRICAL-BOX-CAVITY-FIRE-PACKING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4274-FS-ELECTRICAL-BOX-FIRE-HOOD-PART-OF-AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "from_id": "AU-FS-ELECTRICAL-BOX-FIRE-HOOD",
+      "relationship": "part_of",
+      "to_id": "AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4275-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY-HAS-PART-AU-FS-ELECTRICAL-BOX-CAVITY-FIRE-PACKING",
+      "from_id": "AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ELECTRICAL-BOX-CAVITY-FIRE-PACKING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4276-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY-HAS-PART-AU-FS-ELECTRICAL-BOX-FIRE-HOOD",
+      "from_id": "AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ELECTRICAL-BOX-FIRE-HOOD",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4277-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-PUTTY-PAD",
+      "from_id": "AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-PUTTY-PAD",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4278-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY-PART-OF-AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "from_id": "AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4280-FS-FIRE-ACOUSTIC-SEALANT-JOINT-PART-OF-AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4281-FS-FIRE-ACOUSTIC-SEALANT-JOINT-PART-OF-AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4282-FS-FIRE-COLLAR-PART-OF-AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-COLLAR",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4284-FS-FIRE-LINING-SCREW-PART-OF-AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-LINING-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4285-FS-FIRE-LINING-SCREW-PART-OF-AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-LINING-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4286-FS-FIRE-PROTECTED-HORIZONTAL-PROJECTION-ASSEMBLY-HAS-PART-AU-FS-FIRE-PROTECTIVE-FLOOR-CEILING-COVERING",
+      "from_id": "AU-FS-FIRE-PROTECTED-HORIZONTAL-PROJECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-PROTECTIVE-FLOOR-CEILING-COVERING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-HP-GARAGE-TOP-FIRE",
+        "SRC-GYPROCK-RED-BOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4287-FS-FIRE-PROTECTED-HORIZONTAL-PROJECTION-ASSEMBLY-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-FIRE-PROTECTED-HORIZONTAL-PROJECTION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4288-FS-FIRE-PROTECTION-BOARD-PART-OF-AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "from_id": "AU-FS-FIRE-PROTECTION-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4289-FS-FIRE-PROTECTION-BOARD-PART-OF-AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "from_id": "AU-FS-FIRE-PROTECTION-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4290-FS-FIRE-PROTECTION-BOARD-ENCLOSURE-HAS-PART-AU-FS-FIRE-PROTECTION-ENCLOSURE-CORNER",
+      "from_id": "AU-FS-FIRE-PROTECTION-BOARD-ENCLOSURE",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-PROTECTION-ENCLOSURE-CORNER",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4291-FS-FIRE-PROTECTION-BOARD-ENCLOSURE-HAS-PART-AU-FS-FIRE-PROTECTION-ENCLOSURE-FIXING",
+      "from_id": "AU-FS-FIRE-PROTECTION-BOARD-ENCLOSURE",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-PROTECTION-ENCLOSURE-FIXING",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4292-FS-FIRE-PROTECTION-BOARD-ENCLOSURE-PART-OF-AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "from_id": "AU-FS-FIRE-PROTECTION-BOARD-ENCLOSURE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4293-FS-FIRE-PROTECTION-CONCRETE-ENCASEMENT-PART-OF-AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "from_id": "AU-FS-FIRE-PROTECTION-CONCRETE-ENCASEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4294-FS-FIRE-PROTECTION-ENCLOSURE-CORNER-PART-OF-AU-FS-FIRE-PROTECTION-BOARD-ENCLOSURE",
+      "from_id": "AU-FS-FIRE-PROTECTION-ENCLOSURE-CORNER",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-PROTECTION-BOARD-ENCLOSURE",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4295-FS-FIRE-PROTECTION-ENCLOSURE-FIXING-PART-OF-AU-FS-FIRE-PROTECTION-BOARD-ENCLOSURE",
+      "from_id": "AU-FS-FIRE-PROTECTION-ENCLOSURE-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-PROTECTION-BOARD-ENCLOSURE",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4296-FS-FIRE-PROTECTIVE-COATING-PRIMER-PART-OF-AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "from_id": "AU-FS-FIRE-PROTECTIVE-COATING-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4297-FS-FIRE-PROTECTIVE-COATING-TOPCOAT-PART-OF-AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "from_id": "AU-FS-FIRE-PROTECTIVE-COATING-TOPCOAT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4298-FS-FIRE-PROTECTIVE-FLOOR-CEILING-COVERING-PART-OF-AU-FS-FIRE-PROTECTED-HORIZONTAL-PROJECTION-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-PROTECTIVE-FLOOR-CEILING-COVERING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-PROTECTED-HORIZONTAL-PROJECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-HP-GARAGE-TOP-FIRE",
+        "SRC-GYPROCK-RED-BOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4299-FS-FIRE-PROTECTIVE-FLOOR-CEILING-COVERING-PART-OF-AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-PROTECTIVE-FLOOR-CEILING-COVERING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-HP-GARAGE-TOP-FIRE",
+        "SRC-GYPROCK-RED-BOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4300-FS-FIRE-RESISTANT-DOORSET-HAS-PART-AU-FS-PROTECTED-OPENING-DOOR-FRAME",
+      "from_id": "AU-FS-FIRE-RESISTANT-DOORSET",
+      "relationship": "has_part",
+      "to_id": "AU-FS-PROTECTED-OPENING-DOOR-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4301-FS-FIRE-RESISTANT-DOORSET-HAS-PART-AU-FS-PROTECTED-OPENING-DOOR-LATCH",
+      "from_id": "AU-FS-FIRE-RESISTANT-DOORSET",
+      "relationship": "has_part",
+      "to_id": "AU-FS-PROTECTED-OPENING-DOOR-LATCH",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4302-FS-FIRE-RESISTANT-DOORSET-HAS-PART-AU-FS-SELF-CLOSING-DOOR-CLOSER",
+      "from_id": "AU-FS-FIRE-RESISTANT-DOORSET",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SELF-CLOSING-DOOR-CLOSER",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4303-FS-FIRE-RESISTANT-DOORSET-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-FIRE-RESISTANT-DOORSET",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS-1530-4-2014",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4304-FS-FIRE-RESISTANT-GLAZING-PANE-PART-OF-AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTANT-GLAZING-PANE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4305-FS-FIRE-RESISTANT-GLAZING-SEAL-PART-OF-AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTANT-GLAZING-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4306-FS-FIRE-RESISTANT-LINING-JOINT-COMPOUND-PART-OF-AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTANT-LINING-JOINT-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4307-FS-FIRE-RESISTANT-LINING-JOINT-COMPOUND-PART-OF-AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTANT-LINING-JOINT-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4309-FS-FIRE-RESISTANT-LINING-JOINT-TAPE-PART-OF-AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4310-FS-FIRE-RESISTANT-LINING-JOINT-TAPE-PART-OF-AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4313-FS-FIRE-RESISTANT-PLASTERBOARD-LINING-PART-OF-AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4314-FS-FIRE-RESISTANT-PLASTERBOARD-LINING-PART-OF-AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4315-FS-FIRE-RESISTING-EXTERNAL-WALL-ASSEMBLY-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-FIRE-RESISTING-EXTERNAL-WALL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-ABCB-V2-H3-FIRE-SAFETY",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4316-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY-HAS-PART-AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT",
+      "from_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4317-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY-HAS-PART-AU-FS-FIRE-LINING-SCREW",
+      "from_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-LINING-SCREW",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4318-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY-HAS-PART-AU-FS-FIRE-PROTECTIVE-FLOOR-CEILING-COVERING",
+      "from_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-PROTECTIVE-FLOOR-CEILING-COVERING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-HP-GARAGE-TOP-FIRE",
+        "SRC-GYPROCK-RED-BOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4319-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY-HAS-PART-AU-FS-FIRE-RESISTANT-LINING-JOINT-COMPOUND",
+      "from_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTANT-LINING-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4320-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY-HAS-PART-AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE",
+      "from_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4321-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY-HAS-PART-AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "from_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4322-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY-HAS-PART-AU-FS-SEPARATING-WALL-MINERAL-WOOL-INSULATION",
+      "from_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SEPARATING-WALL-MINERAL-WOOL-INSULATION",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4323-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-HP-GARAGE-TOP-FIRE",
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4325-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-V2-H3-FIRE-SAFETY",
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4326-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION-HAS-PART-AU-FS-HOLLOW-GLASS-BLOCK-OPENING",
+      "from_id": "AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "relationship": "has_part",
+      "to_id": "AU-FS-HOLLOW-GLASS-BLOCK-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4327-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION-HAS-PART-AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "relationship": "has_part",
+      "to_id": "AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4328-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION-HAS-PART-AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4329-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1530-4-2014",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4330-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-ABCB-V2-H3-FIRE-SAFETY",
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4331-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-FIRE-PROTECTED-HORIZONTAL-PROJECTION-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-PROTECTED-HORIZONTAL-PROJECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4332-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-FIRE-RESISTANT-DOORSET",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTANT-DOORSET",
+      "source_ids": [
+        "SRC-SA-AS-1530-4-2014",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4333-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-FIRE-RESISTING-EXTERNAL-WALL-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTING-EXTERNAL-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-ABCB-V2-H3-FIRE-SAFETY",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4334-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-HP-GARAGE-TOP-FIRE",
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4335-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-V2-H3-FIRE-SAFETY",
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4336-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1530-4-2014",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4337-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-GARAGE-TOP-FIRE-SEPARATION-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-GARAGE-TOP-FIRE-SEPARATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-GARAGE-TOP-FIRE",
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-ABCB-V2-H3-FIRE-SAFETY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4338-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4339-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-MASONRY-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-MASONRY-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4340-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4341-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-ROOF-SPACE-FIRE-SEPARATION-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ROOF-SPACE-FIRE-SEPARATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4342-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4343-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-WALL-TO-ROOF-FIRE-TERMINATION",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-WALL-TO-ROOF-FIRE-TERMINATION",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4344-FS-FIRE-SAFETY-SYSTEM-HAS-PART-AU-FS-WALL-TO-VENEER-FIRE-CLOSURE",
+      "from_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-WALL-TO-VENEER-FIRE-CLOSURE",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4345-FS-FIRE-SEPARATION-BASE-TRACK-PART-OF-AU-FS-SEPARATING-WALL-FRAME",
+      "from_id": "AU-FS-FIRE-SEPARATION-BASE-TRACK",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SEPARATING-WALL-FRAME",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4346-FS-FIRE-SEPARATION-DEFLECTION-HEAD-PART-OF-AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-SEPARATION-DEFLECTION-HEAD",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4347-FS-FIRE-SEPARATION-WALL-CLIP-PART-OF-AU-FS-SEPARATING-WALL-FRAME",
+      "from_id": "AU-FS-FIRE-SEPARATION-WALL-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SEPARATING-WALL-FRAME",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4348-FS-FIRESTOP-BACKING-MATERIAL-PART-OF-AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-BACKING-MATERIAL",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4349-FS-FIRESTOP-BACKING-MATERIAL-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-BACKING-MATERIAL",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4350-FS-FIRESTOP-BANDAGE-PART-OF-AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-BANDAGE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4351-FS-FIRESTOP-CABLE-COATING-PART-OF-AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-CABLE-COATING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4352-FS-FIRESTOP-CONTROL-JOINT-SEAL-PART-OF-AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-CONTROL-JOINT-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4353-FS-FIRESTOP-FIXING-PART-OF-AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "from_id": "AU-FS-FIRESTOP-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4354-FS-FIRESTOP-IDENTIFICATION-LABEL-PART-OF-AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "from_id": "AU-FS-FIRESTOP-IDENTIFICATION-LABEL",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1851-2012"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4355-FS-FIRESTOP-MORTAR-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-MORTAR",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4356-FS-FIRESTOP-MOVEMENT-JOINT-FILL-PART-OF-AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-MOVEMENT-JOINT-FILL",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4357-FS-FIRESTOP-PILLOW-PART-OF-AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-PILLOW",
+      "relationship": "part_of",
+      "to_id": "AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4358-FS-FIRESTOP-PILLOW-PART-OF-AU-FS-MULTI-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-PILLOW",
+      "relationship": "part_of",
+      "to_id": "AU-FS-MULTI-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4359-FS-FIRESTOP-PLUG-PART-OF-AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-PLUG",
+      "relationship": "part_of",
+      "to_id": "AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4361-FS-FIRESTOP-PUTTY-PAD-PART-OF-AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-PUTTY-PAD",
+      "relationship": "part_of",
+      "to_id": "AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4362-FS-FIRESTOP-SLEEVE-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-SLEEVE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4363-FS-FIRESTOP-WRAP-PART-OF-AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FIRESTOP-WRAP",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4364-FS-FLEXIBLE-FIRESTOP-SEALANT-PART-OF-AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FLEXIBLE-FIRESTOP-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4365-FS-FLEXIBLE-FIRESTOP-SEALANT-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-FLEXIBLE-FIRESTOP-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4366-FS-GARAGE-TOP-FIRE-SEPARATION-ASSEMBLY-HAS-PART-AU-FS-HEAT-ALARM-DURABLE-NOTICE",
+      "from_id": "AU-FS-GARAGE-TOP-FIRE-SEPARATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-HEAT-ALARM-DURABLE-NOTICE",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4367-FS-GARAGE-TOP-FIRE-SEPARATION-ASSEMBLY-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-GARAGE-TOP-FIRE-SEPARATION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GARAGE-TOP-FIRE",
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-ABCB-V2-H3-FIRE-SAFETY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4368-FS-GLASS-BLOCK-JOINT-PART-OF-AU-FS-HOLLOW-GLASS-BLOCK-OPENING",
+      "from_id": "AU-FS-GLASS-BLOCK-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-HOLLOW-GLASS-BLOCK-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4369-FS-HARDWIRED-ALARM-INTERCONNECT-CABLE-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-HARDWIRED-ALARM-INTERCONNECT-CABLE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4370-FS-HEAT-ALARM-ASSEMBLY-HAS-PART-AU-FS-ALARM-BACKUP-BATTERY",
+      "from_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-BACKUP-BATTERY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4371-FS-HEAT-ALARM-ASSEMBLY-HAS-PART-AU-FS-ALARM-SOUNDER",
+      "from_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-SOUNDER",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4372-FS-HEAT-ALARM-ASSEMBLY-HAS-PART-AU-FS-ALARM-STATUS-INDICATOR",
+      "from_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-STATUS-INDICATOR",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4373-FS-HEAT-ALARM-ASSEMBLY-HAS-PART-AU-FS-ALARM-TEST-HUSH-CONTROL",
+      "from_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-TEST-HUSH-CONTROL",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4374-FS-HEAT-ALARM-ASSEMBLY-HAS-PART-AU-FS-HEAT-ALARM-SENSOR",
+      "from_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-HEAT-ALARM-SENSOR",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-1603-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4375-FS-HEAT-ALARM-ASSEMBLY-HAS-PART-AU-FS-SMOKE-ALARM-MOUNTING-BASE",
+      "from_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SMOKE-ALARM-MOUNTING-BASE",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4376-FS-HEAT-ALARM-ASSEMBLY-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-1603-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4377-FS-HEAT-ALARM-DURABLE-NOTICE-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-HEAT-ALARM-DURABLE-NOTICE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4378-FS-HEAT-ALARM-DURABLE-NOTICE-PART-OF-AU-FS-GARAGE-TOP-FIRE-SEPARATION-ASSEMBLY",
+      "from_id": "AU-FS-HEAT-ALARM-DURABLE-NOTICE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-GARAGE-TOP-FIRE-SEPARATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4379-FS-HEAT-ALARM-SENSOR-PART-OF-AU-FS-HEAT-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-HEAT-ALARM-SENSOR",
+      "relationship": "part_of",
+      "to_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-1603-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4380-FS-HEAT-ALARM-SENSOR-PART-OF-AU-FS-MULTISENSOR-SMOKE-HEAT-ALARM",
+      "from_id": "AU-FS-HEAT-ALARM-SENSOR",
+      "relationship": "part_of",
+      "to_id": "AU-FS-MULTISENSOR-SMOKE-HEAT-ALARM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-1603-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4381-FS-HOLLOW-GLASS-BLOCK-PART-OF-AU-FS-HOLLOW-GLASS-BLOCK-OPENING",
+      "from_id": "AU-FS-HOLLOW-GLASS-BLOCK",
+      "relationship": "part_of",
+      "to_id": "AU-FS-HOLLOW-GLASS-BLOCK-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4382-FS-HOLLOW-GLASS-BLOCK-OPENING-HAS-PART-AU-FS-GLASS-BLOCK-JOINT",
+      "from_id": "AU-FS-HOLLOW-GLASS-BLOCK-OPENING",
+      "relationship": "has_part",
+      "to_id": "AU-FS-GLASS-BLOCK-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4383-FS-HOLLOW-GLASS-BLOCK-OPENING-HAS-PART-AU-FS-HOLLOW-GLASS-BLOCK",
+      "from_id": "AU-FS-HOLLOW-GLASS-BLOCK-OPENING",
+      "relationship": "has_part",
+      "to_id": "AU-FS-HOLLOW-GLASS-BLOCK",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4384-FS-HOLLOW-GLASS-BLOCK-OPENING-PART-OF-AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "from_id": "AU-FS-HOLLOW-GLASS-BLOCK-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4385-FS-INTEGRATED-ALARM-EVACUATION-LIGHT-PART-OF-AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "from_id": "AU-FS-INTEGRATED-ALARM-EVACUATION-LIGHT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4386-FS-INTEGRATED-ALARM-EVACUATION-LIGHT-PART-OF-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-INTEGRATED-ALARM-EVACUATION-LIGHT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4387-FS-INTUMESCENT-FIRESTOP-SEALANT-PART-OF-AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-INTUMESCENT-FIRESTOP-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4388-FS-INTUMESCENT-FIRESTOP-SEALANT-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-INTUMESCENT-FIRESTOP-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4389-FS-INTUMESCENT-STRUCTURAL-FIRE-COATING-PART-OF-AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "from_id": "AU-FS-INTUMESCENT-STRUCTURAL-FIRE-COATING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4390-FS-IONISATION-SENSOR-CHAMBER-PART-OF-AU-FS-IONISATION-SMOKE-ALARM",
+      "from_id": "AU-FS-IONISATION-SENSOR-CHAMBER",
+      "relationship": "part_of",
+      "to_id": "AU-FS-IONISATION-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4391-FS-IONISATION-SMOKE-ALARM-HAS-PART-AU-FS-IONISATION-SENSOR-CHAMBER",
+      "from_id": "AU-FS-IONISATION-SMOKE-ALARM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-IONISATION-SENSOR-CHAMBER",
+      "source_ids": [
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4392-FS-IONISATION-SMOKE-ALARM-IS-A-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-IONISATION-SMOKE-ALARM",
+      "relationship": "is_a",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4393-FS-IONISATION-SMOKE-ALARM-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-IONISATION-SMOKE-ALARM",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4394-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4395-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-FS-FIRE-LINING-SCREW",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-LINING-SCREW",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4396-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-FS-FIRE-RESISTANT-LINING-JOINT-COMPOUND",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTANT-LINING-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4397-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4398-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4399-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-FS-FIRE-SEPARATION-DEFLECTION-HEAD",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-SEPARATION-DEFLECTION-HEAD",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4400-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-FS-SEPARATING-WALL-CAVITY",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SEPARATING-WALL-CAVITY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-GYPROCK-RED-BOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4401-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-FS-SEPARATING-WALL-FRAME",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SEPARATING-WALL-FRAME",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4402-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-FS-SEPARATING-WALL-MINERAL-WOOL-INSULATION",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SEPARATING-WALL-MINERAL-WOOL-INSULATION",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4403-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-HAS-PART-AU-FS-SHAFTLINER-PANEL",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SHAFTLINER-PANEL",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4404-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-IS-A-AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4405-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4406-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-BACKING-MATERIAL",
+      "from_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-BACKING-MATERIAL",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4407-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-CONTROL-JOINT-SEAL",
+      "from_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-CONTROL-JOINT-SEAL",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4408-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-MOVEMENT-JOINT-FILL",
+      "from_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-MOVEMENT-JOINT-FILL",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4409-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FLEXIBLE-FIRESTOP-SEALANT",
+      "from_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FLEXIBLE-FIRESTOP-SEALANT",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4410-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-INTUMESCENT-FIRESTOP-SEALANT",
+      "from_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-INTUMESCENT-FIRESTOP-SEALANT",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4411-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY-PART-OF-AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "from_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4412-FS-MAINS-POWERED-SMOKE-ALARM-HAS-PART-AU-FS-ALARM-BACKUP-BATTERY",
+      "from_id": "AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-BACKUP-BATTERY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4413-FS-MAINS-POWERED-SMOKE-ALARM-HAS-PART-AU-FS-ALARM-MAINS-CONNECTOR",
+      "from_id": "AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ALARM-MAINS-CONNECTOR",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4414-FS-MAINS-POWERED-SMOKE-ALARM-HAS-PART-AU-FS-REPLACEABLE-ALARM-BATTERY",
+      "from_id": "AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-REPLACEABLE-ALARM-BATTERY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4415-FS-MAINS-POWERED-SMOKE-ALARM-HAS-PART-AU-FS-SEALED-LITHIUM-ALARM-BATTERY",
+      "from_id": "AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SEALED-LITHIUM-ALARM-BATTERY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4416-FS-MAINS-POWERED-SMOKE-ALARM-IS-A-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "relationship": "is_a",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4417-FS-MAINS-POWERED-SMOKE-ALARM-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4418-FS-MASONRY-SEPARATING-WALL-ASSEMBLY-IS-A-AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-MASONRY-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4419-FS-MASONRY-SEPARATING-WALL-ASSEMBLY-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-MASONRY-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4420-FS-MINERAL-FIBRE-FIRE-PACKING-PART-OF-AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "from_id": "AU-FS-MINERAL-FIBRE-FIRE-PACKING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4421-FS-MULTI-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-PILLOW",
+      "from_id": "AU-FS-MULTI-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-PILLOW",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4422-FS-MULTI-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-MULTI-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4423-FS-MULTISENSOR-SMOKE-HEAT-ALARM-HAS-PART-AU-FS-HEAT-ALARM-SENSOR",
+      "from_id": "AU-FS-MULTISENSOR-SMOKE-HEAT-ALARM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-HEAT-ALARM-SENSOR",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-1603-3-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4424-FS-MULTISENSOR-SMOKE-HEAT-ALARM-HAS-PART-AU-FS-PHOTOELECTRIC-SENSOR-CHAMBER",
+      "from_id": "AU-FS-MULTISENSOR-SMOKE-HEAT-ALARM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-PHOTOELECTRIC-SENSOR-CHAMBER",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4425-FS-MULTISENSOR-SMOKE-HEAT-ALARM-IS-A-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-MULTISENSOR-SMOKE-HEAT-ALARM",
+      "relationship": "is_a",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4426-FS-MULTISENSOR-SMOKE-HEAT-ALARM-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-MULTISENSOR-SMOKE-HEAT-ALARM",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4427-FS-NONCOMBUSTIBLE-ROOF-SPACE-VERTICAL-LINING-PART-OF-AU-FS-ROOF-SPACE-FIRE-SEPARATION-ASSEMBLY",
+      "from_id": "AU-FS-NONCOMBUSTIBLE-ROOF-SPACE-VERTICAL-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-ROOF-SPACE-FIRE-SEPARATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4428-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY-HAS-PART-AU-FS-FIRE-RESISTANT-GLAZING-PANE",
+      "from_id": "AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTANT-GLAZING-PANE",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4429-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY-HAS-PART-AU-FS-FIRE-RESISTANT-GLAZING-SEAL",
+      "from_id": "AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-RESISTANT-GLAZING-SEAL",
+      "source_ids": [
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4430-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY-HAS-PART-AU-FS-NONOPENABLE-FIRE-WINDOW-FRAME",
+      "from_id": "AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-NONOPENABLE-FIRE-WINDOW-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4431-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY-PART-OF-AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "from_id": "AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4432-FS-NONOPENABLE-FIRE-WINDOW-FRAME-PART-OF-AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "from_id": "AU-FS-NONOPENABLE-FIRE-WINDOW-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4434-FS-PASSIVE-FIRESTOP-SYSTEM-HAS-PART-AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "from_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4435-FS-PASSIVE-FIRESTOP-SYSTEM-HAS-PART-AU-FS-FIRE-PROTECTION-BOARD",
+      "from_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-PROTECTION-BOARD",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4436-FS-PASSIVE-FIRESTOP-SYSTEM-HAS-PART-AU-FS-FIRESTOP-FIXING",
+      "from_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-FIXING",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4437-FS-PASSIVE-FIRESTOP-SYSTEM-HAS-PART-AU-FS-FIRESTOP-IDENTIFICATION-LABEL",
+      "from_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-IDENTIFICATION-LABEL",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1851-2012"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4438-FS-PASSIVE-FIRESTOP-SYSTEM-HAS-PART-AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4439-FS-PASSIVE-FIRESTOP-SYSTEM-HAS-PART-AU-FS-MINERAL-FIBRE-FIRE-PACKING",
+      "from_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-MINERAL-FIBRE-FIRE-PACKING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4440-FS-PASSIVE-FIRESTOP-SYSTEM-HAS-PART-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4441-FS-PASSIVE-FIRESTOP-SYSTEM-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4442-FS-PHOTOELECTRIC-SENSOR-CHAMBER-PART-OF-AU-FS-MULTISENSOR-SMOKE-HEAT-ALARM",
+      "from_id": "AU-FS-PHOTOELECTRIC-SENSOR-CHAMBER",
+      "relationship": "part_of",
+      "to_id": "AU-FS-MULTISENSOR-SMOKE-HEAT-ALARM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4443-FS-PHOTOELECTRIC-SENSOR-CHAMBER-PART-OF-AU-FS-PHOTOELECTRIC-SMOKE-ALARM",
+      "from_id": "AU-FS-PHOTOELECTRIC-SENSOR-CHAMBER",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PHOTOELECTRIC-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4444-FS-PHOTOELECTRIC-SMOKE-ALARM-HAS-PART-AU-FS-PHOTOELECTRIC-SENSOR-CHAMBER",
+      "from_id": "AU-FS-PHOTOELECTRIC-SMOKE-ALARM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-PHOTOELECTRIC-SENSOR-CHAMBER",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4445-FS-PHOTOELECTRIC-SMOKE-ALARM-IS-A-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-PHOTOELECTRIC-SMOKE-ALARM",
+      "relationship": "is_a",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4446-FS-PHOTOELECTRIC-SMOKE-ALARM-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-PHOTOELECTRIC-SMOKE-ALARM",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-SMOKE-ALARMS",
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4447-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-CAST-IN-FIRE-COLLAR",
+      "from_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-CAST-IN-FIRE-COLLAR",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4448-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRE-COLLAR",
+      "from_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-COLLAR",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4449-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-BANDAGE",
+      "from_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-BANDAGE",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4450-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-WRAP",
+      "from_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-WRAP",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4451-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-RETROFIT-FIRE-COLLAR",
+      "from_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-RETROFIT-FIRE-COLLAR",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4452-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4453-FS-PROTECTED-OPENING-DOOR-FRAME-PART-OF-AU-FS-FIRE-RESISTANT-DOORSET",
+      "from_id": "AU-FS-PROTECTED-OPENING-DOOR-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTANT-DOORSET",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4454-FS-PROTECTED-OPENING-DOOR-FRAME-PART-OF-AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "from_id": "AU-FS-PROTECTED-OPENING-DOOR-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4455-FS-PROTECTED-OPENING-DOOR-LATCH-PART-OF-AU-FS-FIRE-RESISTANT-DOORSET",
+      "from_id": "AU-FS-PROTECTED-OPENING-DOOR-LATCH",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTANT-DOORSET",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4456-FS-PROTECTED-OPENING-DOOR-LATCH-PART-OF-AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "from_id": "AU-FS-PROTECTED-OPENING-DOOR-LATCH",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4457-FS-REMOTE-ALARM-CONTROL-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-REMOTE-ALARM-CONTROL",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4458-FS-REPLACEABLE-ALARM-BATTERY-IS-A-AU-FS-ALARM-BACKUP-BATTERY",
+      "from_id": "AU-FS-REPLACEABLE-ALARM-BATTERY",
+      "relationship": "is_a",
+      "to_id": "AU-FS-ALARM-BACKUP-BATTERY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4459-FS-REPLACEABLE-ALARM-BATTERY-PART-OF-AU-FS-BATTERY-POWERED-SMOKE-ALARM",
+      "from_id": "AU-FS-REPLACEABLE-ALARM-BATTERY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-BATTERY-POWERED-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4460-FS-REPLACEABLE-ALARM-BATTERY-PART-OF-AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "from_id": "AU-FS-REPLACEABLE-ALARM-BATTERY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4461-FS-RETROFIT-FIRE-COLLAR-IS-A-AU-FS-FIRE-COLLAR",
+      "from_id": "AU-FS-RETROFIT-FIRE-COLLAR",
+      "relationship": "is_a",
+      "to_id": "AU-FS-FIRE-COLLAR",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4462-FS-RETROFIT-FIRE-COLLAR-PART-OF-AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-RETROFIT-FIRE-COLLAR",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4463-FS-ROOF-SPACE-FIRE-SEPARATION-ASSEMBLY-HAS-PART-AU-FS-NONCOMBUSTIBLE-ROOF-SPACE-VERTICAL-LINING",
+      "from_id": "AU-FS-ROOF-SPACE-FIRE-SEPARATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-NONCOMBUSTIBLE-ROOF-SPACE-VERTICAL-LINING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4464-FS-ROOF-SPACE-FIRE-SEPARATION-ASSEMBLY-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-ROOF-SPACE-FIRE-SEPARATION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4465-FS-SEALED-LITHIUM-ALARM-BATTERY-IS-A-AU-FS-ALARM-BACKUP-BATTERY",
+      "from_id": "AU-FS-SEALED-LITHIUM-ALARM-BATTERY",
+      "relationship": "is_a",
+      "to_id": "AU-FS-ALARM-BACKUP-BATTERY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4466-FS-SEALED-LITHIUM-ALARM-BATTERY-PART-OF-AU-FS-BATTERY-POWERED-SMOKE-ALARM",
+      "from_id": "AU-FS-SEALED-LITHIUM-ALARM-BATTERY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-BATTERY-POWERED-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4467-FS-SEALED-LITHIUM-ALARM-BATTERY-PART-OF-AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "from_id": "AU-FS-SEALED-LITHIUM-ALARM-BATTERY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-MAINS-POWERED-SMOKE-ALARM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4469-FS-SELF-CLOSING-DOOR-CLOSER-PART-OF-AU-FS-FIRE-RESISTANT-DOORSET",
+      "from_id": "AU-FS-SELF-CLOSING-DOOR-CLOSER",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTANT-DOORSET",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4470-FS-SELF-CLOSING-DOOR-CLOSER-PART-OF-AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "from_id": "AU-FS-SELF-CLOSING-DOOR-CLOSER",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4471-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY-HAS-PART-AU-FS-PROTECTED-OPENING-DOOR-FRAME",
+      "from_id": "AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-PROTECTED-OPENING-DOOR-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4472-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY-HAS-PART-AU-FS-PROTECTED-OPENING-DOOR-LATCH",
+      "from_id": "AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-PROTECTED-OPENING-DOOR-LATCH",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4473-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY-HAS-PART-AU-FS-SELF-CLOSING-DOOR-CLOSER",
+      "from_id": "AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SELF-CLOSING-DOOR-CLOSER",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL",
+        "SRC-SA-AS-1905-1-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4474-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY-HAS-PART-AU-FS-SOLID-CORE-DOOR-LEAF",
+      "from_id": "AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SOLID-CORE-DOOR-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4475-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY-PART-OF-AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "from_id": "AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4476-FS-SEPARATING-WALL-CAVITY-PART-OF-AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-SEPARATING-WALL-CAVITY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-GYPROCK-RED-BOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4477-FS-SEPARATING-WALL-FRAME-HAS-PART-AU-FS-FIRE-SEPARATION-BASE-TRACK",
+      "from_id": "AU-FS-SEPARATING-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-SEPARATION-BASE-TRACK",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4478-FS-SEPARATING-WALL-FRAME-HAS-PART-AU-FS-FIRE-SEPARATION-WALL-CLIP",
+      "from_id": "AU-FS-SEPARATING-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-SEPARATION-WALL-CLIP",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4479-FS-SEPARATING-WALL-FRAME-PART-OF-AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-SEPARATING-WALL-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4480-FS-SEPARATING-WALL-MINERAL-WOOL-INSULATION-PART-OF-AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "from_id": "AU-FS-SEPARATING-WALL-MINERAL-WOOL-INSULATION",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4481-FS-SEPARATING-WALL-MINERAL-WOOL-INSULATION-PART-OF-AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-SEPARATING-WALL-MINERAL-WOOL-INSULATION",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4482-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4483-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-COATED-FIRESTOP-BATT",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-COATED-FIRESTOP-BATT",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4484-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-COATED-FIRESTOP-BOARD",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-COATED-FIRESTOP-BOARD",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4485-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-BACKING-MATERIAL",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-BACKING-MATERIAL",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4486-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-MORTAR",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-MORTAR",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4487-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FIRESTOP-SLEEVE",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRESTOP-SLEEVE",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4488-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-FLEXIBLE-FIRESTOP-SEALANT",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FLEXIBLE-FIRESTOP-SEALANT",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4489-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-INTUMESCENT-FIRESTOP-SEALANT",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-INTUMESCENT-FIRESTOP-SEALANT",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4490-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-MULTI-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-MULTI-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4491-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4492-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-SERVICE-PENETRATION-OPENING",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SERVICE-PENETRATION-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4493-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-HAS-PART-AU-FS-SERVICE-SUPPORT-NEAR-FIRESTOP",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SERVICE-SUPPORT-NEAR-FIRESTOP",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4494-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY-PART-OF-AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "from_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4495-FS-SERVICE-PENETRATION-OPENING-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-SERVICE-PENETRATION-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4496-FS-SERVICE-SUPPORT-NEAR-FIRESTOP-PART-OF-AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "from_id": "AU-FS-SERVICE-SUPPORT-NEAR-FIRESTOP",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-4072-1-2005"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4497-FS-SHAFTLINER-PANEL-PART-OF-AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-SHAFTLINER-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4498-FS-SMOKE-ALARM-HEAD-PART-OF-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-SMOKE-ALARM-HEAD",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS",
+        "SRC-SA-AS-3786-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4499-FS-SMOKE-ALARM-MOUNTING-BASE-PART-OF-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-SMOKE-ALARM-MOUNTING-BASE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4500-FS-SMOKE-ALARM-MOUNTING-BASE-PART-OF-AU-FS-HEAT-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-SMOKE-ALARM-MOUNTING-BASE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-HEAT-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4501-FS-SMOKE-CHAMBER-INSECT-SCREEN-ATTACHED-TO-AU-FS-IONISATION-SENSOR-CHAMBER",
+      "from_id": "AU-FS-SMOKE-CHAMBER-INSECT-SCREEN",
+      "relationship": "attached_to",
+      "to_id": "AU-FS-IONISATION-SENSOR-CHAMBER",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4502-FS-SMOKE-CHAMBER-INSECT-SCREEN-ATTACHED-TO-AU-FS-PHOTOELECTRIC-SENSOR-CHAMBER",
+      "from_id": "AU-FS-SMOKE-CHAMBER-INSECT-SCREEN",
+      "relationship": "attached_to",
+      "to_id": "AU-FS-PHOTOELECTRIC-SENSOR-CHAMBER",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4503-FS-SMOKE-CHAMBER-INSECT-SCREEN-PART-OF-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-SMOKE-CHAMBER-INSECT-SCREEN",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4505-FS-SOLID-CORE-DOOR-LEAF-PART-OF-AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "from_id": "AU-FS-SOLID-CORE-DOOR-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4506-FS-SPRAYED-FIRE-RESISTIVE-MATERIAL-PART-OF-AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "from_id": "AU-FS-SPRAYED-FIRE-RESISTIVE-MATERIAL",
+      "relationship": "part_of",
+      "to_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4507-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM-HAS-PART-AU-FS-FIRE-PROTECTION-BOARD",
+      "from_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-PROTECTION-BOARD",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4508-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM-HAS-PART-AU-FS-FIRE-PROTECTION-BOARD-ENCLOSURE",
+      "from_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-PROTECTION-BOARD-ENCLOSURE",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4509-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM-HAS-PART-AU-FS-FIRE-PROTECTION-CONCRETE-ENCASEMENT",
+      "from_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-PROTECTION-CONCRETE-ENCASEMENT",
+      "source_ids": [
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4510-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM-HAS-PART-AU-FS-FIRE-PROTECTIVE-COATING-PRIMER",
+      "from_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-PROTECTIVE-COATING-PRIMER",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4511-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM-HAS-PART-AU-FS-FIRE-PROTECTIVE-COATING-TOPCOAT",
+      "from_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-FIRE-PROTECTIVE-COATING-TOPCOAT",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4512-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM-HAS-PART-AU-FS-INTUMESCENT-STRUCTURAL-FIRE-COATING",
+      "from_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-INTUMESCENT-STRUCTURAL-FIRE-COATING",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4513-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM-HAS-PART-AU-FS-SPRAYED-FIRE-RESISTIVE-MATERIAL",
+      "from_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-FS-SPRAYED-FIRE-RESISTIVE-MATERIAL",
+      "source_ids": [
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4514-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS",
+        "SRC-SA-AS-1530-4-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4515-FS-TACTILE-ALARM-VIBRATION-PAD-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-TACTILE-ALARM-VIBRATION-PAD",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4516-FS-TOP-OF-WALL-FIRE-PACKING-IS-A-AU-FS-MINERAL-FIBRE-FIRE-PACKING",
+      "from_id": "AU-FS-TOP-OF-WALL-FIRE-PACKING",
+      "relationship": "is_a",
+      "to_id": "AU-FS-MINERAL-FIBRE-FIRE-PACKING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4517-FS-TOP-OF-WALL-FIRE-PACKING-PART-OF-AU-FS-WALL-TO-ROOF-FIRE-TERMINATION",
+      "from_id": "AU-FS-TOP-OF-WALL-FIRE-PACKING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-WALL-TO-ROOF-FIRE-TERMINATION",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4518-FS-VENEER-JUNCTION-FIRE-PACKING-IS-A-AU-FS-MINERAL-FIBRE-FIRE-PACKING",
+      "from_id": "AU-FS-VENEER-JUNCTION-FIRE-PACKING",
+      "relationship": "is_a",
+      "to_id": "AU-FS-MINERAL-FIBRE-FIRE-PACKING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4519-FS-VENEER-JUNCTION-FIRE-PACKING-PART-OF-AU-FS-WALL-TO-VENEER-FIRE-CLOSURE",
+      "from_id": "AU-FS-VENEER-JUNCTION-FIRE-PACKING",
+      "relationship": "part_of",
+      "to_id": "AU-FS-WALL-TO-VENEER-FIRE-CLOSURE",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4520-FS-VISUAL-ALARM-STROBE-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-VISUAL-ALARM-STROBE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4522-FS-WALL-TO-ROOF-FIRE-TERMINATION-HAS-PART-AU-FS-TOP-OF-WALL-FIRE-PACKING",
+      "from_id": "AU-FS-WALL-TO-ROOF-FIRE-TERMINATION",
+      "relationship": "has_part",
+      "to_id": "AU-FS-TOP-OF-WALL-FIRE-PACKING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4523-FS-WALL-TO-ROOF-FIRE-TERMINATION-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-WALL-TO-ROOF-FIRE-TERMINATION",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING",
+        "SRC-ABCB-HP-FIRE-SEPARATION-EXTERNAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4524-FS-WALL-TO-VENEER-FIRE-CLOSURE-HAS-PART-AU-FS-VENEER-JUNCTION-FIRE-PACKING",
+      "from_id": "AU-FS-WALL-TO-VENEER-FIRE-CLOSURE",
+      "relationship": "has_part",
+      "to_id": "AU-FS-VENEER-JUNCTION-FIRE-PACKING",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4525-FS-WALL-TO-VENEER-FIRE-CLOSURE-PART-OF-AU-FS-FIRE-SAFETY-SYSTEM",
+      "from_id": "AU-FS-WALL-TO-VENEER-FIRE-CLOSURE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-FIRE-SAFETY-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FIRE-PROTECTION-SEPARATING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4526-FS-WIRELESS-ALARM-INTERCONNECT-MODULE-PART-OF-AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "from_id": "AU-FS-WIRELESS-ALARM-INTERCONNECT-MODULE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-ALARM-SYSTEM",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4527-FS-WIRELESS-INTERCONNECT-ALARM-BASE-IS-A-AU-FS-SMOKE-ALARM-MOUNTING-BASE",
+      "from_id": "AU-FS-WIRELESS-INTERCONNECT-ALARM-BASE",
+      "relationship": "is_a",
+      "to_id": "AU-FS-SMOKE-ALARM-MOUNTING-BASE",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4528-FS-WIRELESS-INTERCONNECT-ALARM-BASE-PART-OF-AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "from_id": "AU-FS-WIRELESS-INTERCONNECT-ALARM-BASE",
+      "relationship": "part_of",
+      "to_id": "AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY",
+      "source_ids": [
+        "SRC-BROOKS-DOMESTIC-ALARMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-4235-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY-COMMONLY-USED-WITH-AU-EL-CABLE-SLEEVE",
+      "from_id": "AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-EL-CABLE-SLEEVE",
+      "source_ids": [
+        "SRC-ABCB-HP-ELECTRICAL-SERVICES",
+        "SRC-NSW-ELECTRICAL-STANDARDS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4279-FS-FIRE-ACOUSTIC-SEALANT-JOINT-COMMONLY-USED-WITH-AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "from_id": "AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4283-FS-FIRE-LINING-SCREW-ALTERNATIVE-TO-AU-IL-PLASTERBOARD-SCREW",
+      "from_id": "AU-FS-FIRE-LINING-SCREW",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PLASTERBOARD-SCREW",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4308-FS-FIRE-RESISTANT-LINING-JOINT-TAPE-ALTERNATIVE-TO-AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "from_id": "AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4311-FS-FIRE-RESISTANT-PLASTERBOARD-LINING-COMMONLY-USED-WITH-AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "from_id": "AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4312-FS-FIRE-RESISTANT-PLASTERBOARD-LINING-COMMONLY-USED-WITH-AU-IL-MULTILAYER-LINING-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-MULTILAYER-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4324-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY-COMMONLY-USED-WITH-AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "from_id": "AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4360-FS-FIRESTOP-PUTTY-PAD-COMMONLY-USED-WITH-AU-HA-ELECTRICAL-BOX-ACOUSTIC-PAD",
+      "from_id": "AU-FS-FIRESTOP-PUTTY-PAD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-ELECTRICAL-BOX-ACOUSTIC-PAD",
+      "source_ids": [
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4433-FS-PASSIVE-FIRESTOP-SYSTEM-COMMONLY-USED-WITH-AU-CL-FACADE-CAVITY-BARRIER",
+      "from_id": "AU-FS-PASSIVE-FIRESTOP-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CL-FACADE-CAVITY-BARRIER",
+      "source_ids": [
+        "SRC-ABCB-V2-H2-WEATHERPROOFING",
+        "SRC-PROMAT-FIRESTOP-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4468-FS-SELF-CLOSING-DOOR-CLOSER-COMMONLY-USED-WITH-AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "from_id": "AU-FS-SELF-CLOSING-DOOR-CLOSER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-5-2011"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4504-FS-SOLID-CORE-DOOR-LEAF-COMMONLY-USED-WITH-AU-ID-SOLID-CORE-FLUSH-DOOR-LEAF",
+      "from_id": "AU-FS-SOLID-CORE-DOOR-LEAF",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-SOLID-CORE-FLUSH-DOOR-LEAF",
+      "source_ids": [
+        "SRC-HUME-FLUSH-DOORS",
+        "SRC-SA-AS-1905-1-2015",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4521-FS-WALL-TO-ROOF-FIRE-TERMINATION-COMMONLY-USED-WITH-AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "from_id": "AU-FS-WALL-TO-ROOF-FIRE-TERMINATION",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION",
+      "source_ids": [
+        "SRC-ABCB-HP-SOUND-INSULATION",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

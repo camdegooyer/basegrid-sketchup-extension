@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://buildgrid.local/schemas/source.schema.json",
+  "title": "Buildgrid research source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "url",
+    "publisher",
+    "title",
+    "source_tier",
+    "retrieved_at",
+    "access_status",
+    "content_hash",
+    "license_notes",
+    "robots_status",
+    "terms_status"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"},
+    "url": {"type": "string", "format": "uri"},
+    "publisher": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "source_tier": {"type": "integer", "minimum": 1, "maximum": 5},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "access_status": {
+      "enum": ["public_html", "public_pdf", "metadata_only", "search_index_excerpt"]
+    },
+    "content_hash": {"type": ["string", "null"]},
+    "license_notes": {"type": ["string", "null"]},
+    "robots_status": {
+      "enum": ["allowed", "disallowed", "not_checked_no_crawl"]
+    },
+    "terms_status": {
+      "enum": ["checked", "not_checked"]
+    },
+    "notes": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    }
+  }
+}

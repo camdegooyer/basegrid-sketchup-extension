@@ -1,0 +1,436 @@
+# Electrical discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 306
+- Internal relationships: 734
+- Outgoing cross-discipline relationships: 6
+- Distinct supporting sources: 45
+- Distinct linked standards: 13
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 69.6%
+- Objects with two or more sources: 76.5%
+
+## Categories
+
+- automatic controls: 3
+- battery storage assemblies: 1
+- battery storage components: 3
+- battery storage controls: 3
+- battery storage conversion: 3
+- battery storage identification: 1
+- battery storage protection: 3
+- battery storage supports: 1
+- battery storage wiring: 1
+- cable anatomy: 2
+- cable conductors: 3
+- cable connection components: 6
+- cable entry components: 2
+- cable management assemblies: 1
+- cable management components: 6
+- cable management fittings: 6
+- cable management supports: 5
+- cable protection components: 2
+- circuit assemblies: 5
+- circuit components: 1
+- communications active equipment: 3
+- communications assemblies: 1
+- communications cables: 6
+- communications distribution: 3
+- communications lead in: 2
+- communications outlet components: 3
+- communications outlets: 4
+- communications pathways: 2
+- door release components: 1
+- doorbell assemblies: 1
+- doorbell components: 4
+- earthing assemblies: 2
+- earthing components: 10
+- electrical cables: 7
+- electrical identification: 4
+- electrical installation assemblies: 1
+- equipment connection assemblies: 1
+- equipment connection components: 9
+- ev charging assemblies: 1
+- ev charging components: 3
+- ev charging controls: 1
+- ev charging equipment: 2
+- ev charging identification: 1
+- ev charging protection: 1
+- ev charging supports: 2
+- intercom assemblies: 1
+- intercom components: 3
+- lighting assemblies: 4
+- lighting components: 1
+- luminaire components: 11
+- luminaire supports: 2
+- luminaire variants: 9
+- metering components: 5
+- network termination equipment: 4
+- outlet assemblies: 1
+- outlet components: 3
+- outlet mounting components: 5
+- outlet variants: 7
+- satellite reception components: 3
+- security alarm assemblies: 1
+- security alarm controls: 3
+- security alarm detectors: 3
+- security alarm notification: 2
+- security alarm power: 1
+- solar pv arrays: 2
+- solar pv assemblies: 1
+- solar pv bonding components: 2
+- solar pv conversion: 1
+- solar pv conversion components: 4
+- solar pv identification: 1
+- solar pv module components: 4
+- solar pv modules: 1
+- solar pv monitoring: 2
+- solar pv protection: 4
+- solar pv racking: 1
+- solar pv racking components: 8
+- solar pv wiring components: 3
+- strip lighting components: 2
+- supply assemblies: 1
+- supply components: 12
+- switchboard assemblies: 2
+- switchboard components: 5
+- switchboard connections: 6
+- switchboard devices: 7
+- switching assemblies: 1
+- switching components: 1
+- switching variants: 7
+- television distribution components: 2
+- television reception assemblies: 2
+- television reception components: 3
+- television reception supports: 2
+- temporary site distribution: 3
+- temporary site electrical: 1
+- temporary site identification: 1
+- temporary site lighting: 2
+- temporary site protection: 1
+- temporary site wiring: 2
+- track lighting components: 2
+- video security assemblies: 1
+- video security components: 2
+- video security supports: 2
+
+## Objects
+
+- **Ethernet network switch** (`AU-EL-NETWORK-SWITCH`) — A powered active network device with multiple Ethernet ports that interconnects wired data outlets and other local-network equipment.
+- **LED driver** (`AU-EL-LED-DRIVER`) — An electronic power supply that converts the incoming electrical supply into the controlled current or voltage required by a compatible LED module or strip.
+- **LED lighting strip** (`AU-EL-LED-STRIP`) — A flexible or rigid narrow circuit board carrying repeated light-emitting diodes, resistors and connection pads along a cuttable linear strip.
+- **LED strip aluminium channel** (`AU-EL-LED-STRIP-CHANNEL`) — An extruded aluminium surface, recessed or corner profile that supports LED strip, spreads heat and accepts a compatible diffuser and end caps.
+- **MEN link** (`AU-EL-MEN-LINK`) — A removable or fixed conductor or link at the main switchboard that connects the installation neutral to the main earthing terminal in the multiple earthed neutral arrangement.
+- **RJ45 communications patch panel** (`AU-EL-RJ45-PATCH-PANEL`) — A fixed rack, DIN-rail or cabinet support containing multiple labelled RJ45 termination positions for permanent balanced customer cabling.
+- **RJ45 data outlet mechanism** (`AU-EL-RJ45-DATA-MECHANISM`) — A modular eight-position socket and rear termination component used at data outlets or patch panels for balanced copper customer cabling.
+- **Wi-Fi router or residential gateway** (`AU-EL-WIFI-ROUTER-GATEWAY`) — A powered customer device that routes traffic between the premises network and an internet service and commonly provides wireless access and local Ethernet ports.
+- **aerial consumer mains** (`AU-EL-AERIAL-CONSUMER-MAINS`) — Customer-side insulated mains conductors run above ground from the applicable supply boundary to the main switchboard or metering equipment.
+- **aerial power cable** (`AU-EL-AERIAL-POWER-CABLE`) — An insulated power cable designed for a supported or self-supporting above-ground span between buildings, poles or equipment within a property installation.
+- **air-conditioning equipment isolator** (`AU-EL-HVAC-ISOLATOR`) — A local isolating switch, commonly in a weatherproof enclosure, serving an air-conditioning or heat-pump outdoor unit or other fixed HVAC equipment.
+- **alarm door or window magnetic contact** (`AU-EL-ALARM-DOOR-WINDOW-CONTACT`) — A reed-switch sensor and matching magnet fixed to adjacent moving and fixed parts of a door or window to detect opening.
+- **antenna mast mounting bracket** (`AU-EL-ANTENNA-MOUNTING-BRACKET`) — A proprietary roof, fascia, gutter-line, gable or wall bracket that clamps the antenna mast and transfers its loads to verified building structure.
+- **armoured power cable** (`AU-EL-ARMOURED-POWER-CABLE`) — A power cable with metallic wire or tape armour around its insulated cores to provide additional mechanical protection for demanding or buried routes.
+- **balanced twisted-pair data cable** (`AU-EL-BALANCED-DATA-CABLE`) — A fixed multi-pair balanced copper customer cable, commonly category-rated, used for Ethernet, voice, control or power-over-Ethernet links.
+- **battery DC protection and isolation unit** (`AU-EL-BESS-DC-PROTECTION-ISOLATION-UNIT`) — An enclosure or coordinated device set containing selected battery DC isolation, overcurrent protection, contactors, terminals and labels between battery and power-conversion equipment.
+- **battery backup transfer equipment** (`AU-EL-BESS-BACKUP-TRANSFER-EQUIPMENT`) — A gateway, transfer switch, contactor assembly or coordinated switching arrangement that disconnects selected installation loads from the grid and supplies them from a compatible battery system during an outage.
+- **battery energy-storage DC cable** (`AU-EL-BESS-DC-CABLE`) — A flexible or fixed insulated cable carrying high-current battery DC between battery units, protection and power-conversion equipment.
+- **battery energy-storage label and sign set** (`AU-EL-BESS-LABEL-SET`) — The durable physical labels and warning or emergency signs fixed to battery equipment, switchboards, isolation devices and relevant access points.
+- **battery energy-system control gateway** (`AU-EL-BESS-CONTROL-GATEWAY`) — A system controller that coordinates battery, inverter, meter, grid and backup equipment and provides monitoring and communications.
+- **battery inverter** (`AU-EL-BATTERY-INVERTER`) — A bidirectional power-conversion unit that converts battery DC to AC and AC to controlled DC charging, without necessarily accepting direct PV input.
+- **battery inverter-charger** (`AU-EL-BATTERY-INVERTER-CHARGER`) — A bidirectional device used in stand-alone or backup-capable arrangements to charge batteries from an AC source and invert stored DC energy to AC loads.
+- **battery management system** (`AU-EL-BATTERY-MANAGEMENT-SYSTEM`) — The electronic monitoring and control unit, whether separate or built into a battery, that supervises cell or module voltage, temperature, current and safe operating limits.
+- **battery unit mounting bracket or base** (`AU-EL-BESS-MOUNTING-BRACKET-OR-BASE`) — A proprietary wall bracket, floor stand, plinth or base plate that locates and anchors a compatible stationary battery unit.
+- **battery-system emergency stop device** (`AU-EL-BESS-EMERGENCY-STOP`) — A physical emergency stop button, switch or control station provided by a selected battery-system design to initiate the documented shutdown function.
+- **battery-system impact bollard** (`AU-EL-BESS-IMPACT-BOLLARD`) — A fixed post installed where selected to protect battery equipment from vehicle or equipment impact.
+- **blank electrical accessory plate** (`AU-EL-BLANK-ACCESSORY-PLATE`) — A solid faceplate fixed over an unused or terminated wall box, bracket or accessory opening to close the cut-out while retaining authorised access to any enclosed conductors.
+- **cable trunking cover** (`AU-EL-TRUNKING-COVER`) — A removable or hinged strip that closes the open face of compatible cable trunking while allowing later access to the cables inside.
+- **cable trunking divider** (`AU-EL-TRUNKING-DIVIDER`) — A continuous internal partition fitted into compatible trunking to create separate compartments for power, communications or other documented cable groups.
+- **ceiling electrical outlet** (`AU-EL-CEILING-OUTLET`) — A fixed ceiling-mounted connection point with terminals or a compatible plug base for connecting a luminaire, fan, smoke alarm or other ceiling equipment to installation wiring.
+- **ceiling equipment plug base** (`AU-EL-CEILING-PLUG-BASE`) — A fixed socketed base at a ceiling outlet that mates with a compatible equipment plug to provide a detachable connection for a luminaire, fan or alarm product.
+- **coaxial F-type connector** (`AU-EL-COAXIAL-F-CONNECTOR`) — A threaded coaxial cable connector fitted to cable ends, splitters, amplifiers, outlets or equipment to maintain the radio-frequency signal path and shielding.
+- **coaxial amplifier power injector** (`AU-EL-COAXIAL-POWER-INJECTOR`) — An indoor device that combines DC power from a power supply onto the coaxial cable while passing television signals between the outlet and receiver.
+- **coaxial communications cable** (`AU-EL-COAXIAL-COMMUNICATIONS-CABLE`) — A shielded cable with a central conductor, dielectric, outer conductor and sheath used for television, satellite or applicable network services.
+- **coaxial signal splitter** (`AU-EL-COAXIAL-SPLITTER`) — A passive or active multiport device that divides one coaxial radio-frequency signal path into two or more outputs, with power passing only where the selected device permits it.
+- **coaxial television outlet assembly** (`AU-EL-COAXIAL-TV-OUTLET-ASSEMBLY`) — A fixed wall or cabinet outlet with a coaxial connector, faceplate, mounting support and cable termination for terrestrial television, satellite or applicable HFC service.
+- **communications lead-in conduit** (`AU-EL-COMMUNICATIONS-LEAD-IN-CONDUIT`) — A buried or surface-routed conduit forming the protected pathway for a network lead-in cable between the property boundary and premises equipment.
+- **communications outlet faceplate** (`AU-EL-COMMUNICATIONS-FACEPLATE`) — The visible plate that supports, surrounds and labels one or more communications connector mechanisms at a wall, floor or furniture outlet.
+- **communications patch cord** (`AU-EL-COMMUNICATIONS-PATCH-CORD`) — A short flexible factory- or site-terminated cord used to connect patch panels, network equipment, outlets and end devices without becoming the permanent fixed cable run.
+- **communications service pit** (`AU-EL-COMMUNICATIONS-PIT`) — An accessible below-ground chamber and removable lid used for communications cable access, direction changes or a network boundary connection.
+- **concealed cable protection plate** (`AU-EL-CABLE-PROTECTION-PLATE`) — A metal plate fixed over a framing zone where concealed electrical cable passes near a surface, intended to resist nails or screws entering the cable route.
+- **conductive service bonding connection** (`AU-EL-CONDUCTIVE-SERVICE-BOND`) — A bonding conductor, clamp or terminal arrangement connecting a selected conductive building service such as metallic water pipework to the electrical earthing system where required by the installation design.
+- **conductor end ferrule** (`AU-EL-CONDUCTOR-FERRULE`) — A thin metal sleeve crimped over the stripped strands of a flexible conductor to keep them together for insertion into a compatible terminal.
+- **conduit draw wire** (`AU-EL-CONDUIT-DRAW-WIRE`) — A cord, tape or wire left through an empty or occupied conduit so cables can be pulled through the internal pathway during installation or later alteration.
+- **conduit termination bush** (`AU-EL-CONDUIT-TERMINATION-BUSH`) — A smooth insulating or metal-edged fitting at the end of conduit that shields cable insulation from the cut conduit edge and may retain the conduit at an enclosure entry.
+- **construction extension lead** (`AU-EL-CONSTRUCTION-EXTENSION-LEAD`) — A heavy-duty flexible cord set with plug and connector or socket used to extend temporary power to tools and equipment on a construction site.
+- **construction socket-outlet bank** (`AU-EL-CONSTRUCTION-SOCKET-OUTLET-BANK`) — A group of robust protected socket-outlets incorporated in or mounted with a construction switchboard or portable distribution assembly.
+- **construction switchboard** (`AU-EL-CONSTRUCTION-SWITCHBOARD`) — A robust temporary distribution board containing main or local switches, protective devices, RCDs, socket-outlets, earthing terminals, covers and labels for construction work.
+- **construction switchboard stand** (`AU-EL-CONSTRUCTION-SWITCHBOARD-STAND`) — A freestanding frame, post or base made to support a temporary construction switchboard above ground and resist expected site movement, wind and cable forces.
+- **consumer mains** (`AU-EL-CONSUMER-MAINS`) — The customer installation conductors carrying supply from the point of supply to the main switchboard, including an aerial, underground or enclosed route as selected.
+- **cooker control switch** (`AU-EL-COOKER-CONTROL-SWITCH`) — A fixed high-rated switch or isolation control serving an electric cooktop, oven or cooking appliance circuit and mounted at the scheduled accessible control location.
+- **corrugated electrical conduit** (`AU-EL-CORRUGATED-CONDUIT`) — A flexible or pliable ribbed polymer conduit used to route electrical cable through curves, cavities, slabs or equipment connections according to its selected duty and fittings.
+- **customer communications cabling distribution system** (`AU-EL-CUSTOMER-CABLING-DISTRIBUTION-SYSTEM`) — The customer-owned fixed cabling, central terminations, patching and room outlets installed on the premises side of the network interface.
+- **dedicated appliance socket-outlet** (`AU-EL-DEDICATED-APPLIANCE-SOCKET-OUTLET`) — A fixed socket-outlet assigned and usually positioned for one identified appliance or equipment item rather than general portable use.
+- **dedicated fixed-appliance final subcircuit** (`AU-EL-DEDICATED-APPLIANCE-FINAL-SUBCIRCUIT`) — A final subcircuit assigned to one fixed appliance or one defined equipment group and ending at its isolator, connection unit, socket-outlet or equipment terminals.
+- **domestic earthing and MEN system** (`AU-EL-EARTHING-MEN-SYSTEM`) — The main earthing conductor, earth electrode, protective earthing conductors, earthing terminals, MEN connection and required bonding components that provide the house installation's earthing path.
+- **domestic electrical installation** (`AU-EL-DOMESTIC-ELECTRICAL-INSTALLATION`) — The fixed supply, metering, switchboards, wiring, protection, earthing, outlets, lighting points and connected fixed equipment forming the electrical installation of a house and its associated structures.
+- **doorbell push button** (`AU-EL-DOORBELL-PUSH-BUTTON`) — A weather-resistant momentary push-button unit installed at an entry to initiate a doorbell or chime signal.
+- **doorbell transformer or power supply** (`AU-EL-DOORBELL-TRANSFORMER`) — A dedicated transformer or electronic supply that converts mains power to the low voltage required by a wired doorbell, chime or compatible video device.
+- **double switched socket-outlet** (`AU-EL-DOUBLE-SOCKET-OUTLET`) — A fixed socket-outlet accessory with two plug aperture sets and one or two associated switches in one common mounting assembly.
+- **downlight trim or bezel** (`AU-EL-DOWNLIGHT-TRIM`) — The visible ring, flange or shaped bezel around a recessed downlight aperture that covers the ceiling cut edge and retains or finishes the optical assembly.
+- **earth electrode clamp** (`AU-EL-EARTH-ELECTRODE-CLAMP`) — A corrosion-resistant mechanical connector securing the main earthing conductor to the earth electrode while keeping the electrical joint inspectable where required.
+- **earth electrode inspection enclosure** (`AU-EL-EARTH-ELECTRODE-INSPECTION-ENCLOSURE`) — A small ground-level pit, box or cover protecting the top of an earth electrode and its clamp while permitting inspection and test access.
+- **electric door strike** (`AU-EL-ELECTRIC-DOOR-STRIKE`) — An electrically operated strike plate installed in a door frame to release or retain a compatible latch when commanded by intercom or access-control equipment.
+- **electric lampholder** (`AU-EL-LAMPHOLDER`) — An insulating socket with metal contacts and terminals that mechanically holds and electrically connects a compatible replaceable lamp cap.
+- **electric water-heater isolator** (`AU-EL-WATER-HEATER-ISOLATOR`) — A local isolating switch or connection control serving an electric storage, instantaneous or heat-pump water heater and positioned for the selected equipment and environment.
+- **electric-vehicle charger mounting post** (`AU-EL-EVSE-MOUNTING-POST`) — A proprietary or engineered freestanding post that carries EVSE, cable holsters and associated equipment above a footing or slab.
+- **electric-vehicle charging cable holster** (`AU-EL-EVSE-CABLE-HOLSTER`) — A wall- or pedestal-mounted bracket, hook or connector dock that stores an EV charging cable and vehicle connector when not in use.
+- **electric-vehicle charging connector** (`AU-EL-EV-VEHICLE-CONNECTOR`) — A hand-held or cable-end plug that mates with the vehicle inlet and contains power, protective and control contacts in a keyed housing.
+- **electric-vehicle charging label set** (`AU-EL-EVSE-LABEL-SET`) — The durable physical labels identifying the EV charging circuit, protective devices, isolator, charger and any load-management or emergency controls.
+- **electric-vehicle charging load-management controller** (`AU-EL-EVSE-LOAD-MANAGEMENT-CONTROLLER`) — A controller and associated metering interface that limits or schedules EV charging in response to house load, supply capacity, tariffs, solar generation or other configured conditions.
+- **electric-vehicle home charging installation** (`AU-EL-EV-HOME-CHARGING-INSTALLATION`) — The dedicated or socket-based electrical arrangement used to charge an electric vehicle at a house, including selected EV supply equipment, circuit, protection, isolation, cable management, controls, mounting and labels.
+- **electric-vehicle supply-equipment charging socket** (`AU-EL-EVSE-CHARGING-SOCKET`) — A fixed socket on untethered EVSE that receives a compatible detachable vehicle charging lead.
+- **electric-vehicle supply-equipment local isolator** (`AU-EL-EVSE-LOCAL-ISOLATOR`) — A fixed switch-disconnector installed where the selected EVSE circuit design requires local isolation of the charging equipment.
+- **electrical accessory faceplate** (`AU-EL-OUTLET-FACEPLATE`) — The visible insulating, metal or decorative plate surrounding socket, switch, data or control mechanisms and covering the wall cut-out and mounting grid.
+- **electrical active conductor** (`AU-EL-ACTIVE-CONDUCTOR`) — An insulated current-carrying conductor connected to an active supply phase and routed as part of a cable or wiring system to deliver voltage to equipment and outlets.
+- **electrical adaptable box** (`AU-EL-ADAPTABLE-BOX`) — A general-purpose enclosure with a removable lid and configurable cable or conduit entries used for wiring joints, terminals, controls or transitions where a standard accessory box is unsuitable.
+- **electrical bonding clamp** (`AU-EL-BONDING-CLAMP`) — A purpose-made clamp fixed around a conductive pipe, bar or other approved part to connect an equipotential bonding conductor without relying on incidental contact.
+- **electrical cable catenary wire** (`AU-EL-CATENARY-WIRE`) — A tensioned steel support wire spanning between anchors so electrical cables can be clipped or tied along an overhead route without relying on the cable for its own span support.
+- **electrical cable cleat** (`AU-EL-CABLE-CLEAT`) — A robust clamp fixed to structure or tray to restrain one cable or a cable group against movement from weight, vibration or electrical fault forces.
+- **electrical cable clip** (`AU-EL-CABLE-CLIP`) — A small purpose-made clip fixed over or around one or more cables to support and position them against a framing member, wall, soffit or catenary system.
+- **electrical cable entry bush** (`AU-EL-CABLE-ENTRY-BUSH`) — A smooth insulating bush or grommet fitted into an enclosure or sheet-metal hole to protect a cable or conductor from the cut edge without necessarily sealing or gripping it.
+- **electrical cable gland** (`AU-EL-CABLE-GLAND`) — A threaded or clamped fitting at an enclosure entry that grips a cable, protects its sheath and may provide strain relief, sealing, armour termination or electrical bonding.
+- **electrical cable marker** (`AU-EL-CABLE-MARKER`) — A sleeve, tag, clip or printed label fixed around or beside a cable or conductor to identify its circuit, phase, destination, source or function.
+- **electrical cable outer sheath** (`AU-EL-CABLE-SHEATH`) — The continuous outer polymeric or elastomeric covering around a cable's insulated conductors, fillers, screen or armour that protects and holds the cable construction together.
+- **electrical cable penetration sleeve** (`AU-EL-CABLE-SLEEVE`) — A short tube through a wall, floor, slab or other building element that protects electrical cables at the opening and forms a controlled interface for sealing or firestopping.
+- **electrical cable tie** (`AU-EL-CABLE-TIE`) — A flexible toothed strap with an integral locking head used to bundle or retain cables to a suitable support without serving as the only support where its material or duty is unsuitable.
+- **electrical cable tray** (`AU-EL-CABLE-TRAY`) — An open metal or polymer support with a solid, perforated, mesh or ladder form that carries groups of cables along an accessible route.
+- **electrical cable trunking** (`AU-EL-CABLE-TRUNKING`) — A rectangular or profiled surface cable enclosure with a removable cover and compatible bends, branches, dividers and outlet fittings.
+- **electrical cartridge fuse** (`AU-EL-CARTRIDGE-FUSE`) — A replaceable cylindrical or blade-ended fuse link containing a calibrated element that melts to interrupt overcurrent when installed in its compatible holder.
+- **electrical circuit identification label** (`AU-EL-CIRCUIT-IDENTIFICATION-LABEL`) — A durable label fixed beside a switch, breaker, isolator, outlet or cable to identify its circuit, source, controlled equipment or function.
+- **electrical conductor insulation** (`AU-EL-CONDUCTOR-INSULATION`) — A continuous non-conductive covering directly around an electrical conductor that separates it from other conductors, accessible parts and the surrounding wiring system.
+- **electrical conduit adaptor** (`AU-EL-CONDUIT-ADAPTOR`) — A fitting that terminates a conduit at a box, enclosure or different conduit system and provides the required thread, socket, locknut, seal or size transition.
+- **electrical conduit bend** (`AU-EL-CONDUIT-BEND`) — A formed curve or elbow fitting that changes the direction of an electrical conduit while maintaining a protected internal cable path and suitable draw radius.
+- **electrical conduit coupling** (`AU-EL-CONDUIT-COUPLING`) — A straight socketed, threaded or compression fitting joining two compatible electrical conduit lengths while preserving alignment and cable protection.
+- **electrical conduit saddle** (`AU-EL-CONDUIT-SADDLE`) — A one-hole, two-hole or clip-style support fixed over electrical conduit to hold it at regular positions against a wall, soffit, frame or other substrate.
+- **electrical crimp lug** (`AU-EL-CRIMP-LUG`) — A metal barrel permanently crimped onto a stranded conductor with a palm, ring, fork or pin end that bolts or inserts into an equipment terminal.
+- **electrical distribution sub-board** (`AU-EL-SUB-BOARD`) — A downstream distribution board supplied by a submain and containing isolation, protective devices, links, earthing terminals and outgoing circuits for a defined building area or outbuilding.
+- **electrical earth electrode** (`AU-EL-EARTH-ELECTRODE`) — A conductive rod, strip, plate or other approved electrode installed in contact with the ground and connected to the main earthing conductor.
+- **electrical earthing terminal** (`AU-EL-EARTHING-TERMINAL`) — A screw, clamp, stud or terminal provided on electrical equipment or an accessory for connecting a protective earthing or bonding conductor.
+- **electrical equipment plug** (`AU-EL-EQUIPMENT-PLUG`) — A male connector with insulated body, pins, cable termination and strain relief fitted to an appliance cord or ceiling equipment lead for connection to a compatible socket.
+- **electrical final subcircuit** (`AU-EL-FINAL-SUBCIRCUIT`) — A protected circuit extending from a switchboard protective device to one or more final outlets, lights, isolators or fixed-equipment connection points without supplying another switchboard.
+- **electrical flexible cord** (`AU-EL-FLEXIBLE-CORD`) — A flexible multicore cable made with fine-stranded conductors and a flexible sheath for connecting movable or fixed equipment where the selected connection permits movement or vibration.
+- **electrical fuse carrier** (`AU-EL-FUSE-CARRIER`) — An insulating holder with contacts, terminals and a removable carrier or cover that houses a compatible fuse and connects it into a circuit.
+- **electrical inspection and test tag** (`AU-EL-ELECTRICAL-TEST-TAG`) — A durable physical tag or label attached to tested portable electrical equipment, lead, RCD or temporary assembly to display the recorded inspection status and relevant date information.
+- **electrical installation main switch** (`AU-EL-MAIN-SWITCH`) — A switch or circuit-breaker device in the main switchboard identified to isolate the whole installation supply or a defined source such as grid, solar or battery supply.
+- **electrical junction box** (`AU-EL-JUNCTION-BOX`) — An enclosed accessible box containing cable or conductor joints, terminals and entries at a branch or transition in a fixed electrical wiring system.
+- **electrical neutral conductor** (`AU-EL-NEUTRAL-CONDUCTOR`) — An insulated current-carrying conductor connected to the installation neutral that completes the normal circuit path back from loads to the supply arrangement.
+- **electrical property connection pit** (`AU-EL-PROPERTY-CONNECTION-PIT`) — An accessible underground chamber and cover at or near a property connection that houses distributor cable joints, service terminations or draw-in access where the network arrangement uses a pit.
+- **electrical push-button switch** (`AU-EL-PUSH-BUTTON-SWITCH`) — A momentary or maintained button mechanism that changes contact state when pressed and can directly switch a load or send a control input to a relay, timer or automation system.
+- **electrical service point of attachment** (`AU-EL-POINT-OF-ATTACHMENT`) — The nominated building attachment location and hardware where an overhead electricity service is mechanically secured before its electrical connection continues toward the installation.
+- **electrical service protection device** (`AU-EL-SERVICE-PROTECTION-DEVICE`) — A distributor-approved fuse, circuit breaker or other protective device at the electricity service interface that protects service conductors and associated equipment according to the network arrangement.
+- **electrical submain** (`AU-EL-SUBMAIN`) — A set of conductors carrying supply from one switchboard to another switchboard or distribution point rather than directly to a final point of use.
+- **electrical surface mounting block** (`AU-EL-SURFACE-MOUNTING-BLOCK`) — A shallow or deep enclosure fixed on a finished surface to space and support a socket, switch or control plate while containing rear terminals and cable entry.
+- **electrical terminal block** (`AU-EL-TERMINAL-BLOCK`) — An insulated body containing one or more metal terminals that join or terminate conductors with screws, springs or other documented clamping mechanisms.
+- **electrical wall-switch mechanism** (`AU-EL-WALL-SWITCH-MECHANISM`) — A modular or integral manually operated switch with contacts, actuator and terminals that controls a fixed lighting or equipment circuit from a wall plate.
+- **electrical wallboard mounting bracket** (`AU-EL-WALLBOARD-MOUNTING-BRACKET`) — A metal or polymer clip or bracket fixed to a stud or gripping the lining edge to support a flush electrical accessory where a full wall box is not used.
+- **electrical warning label** (`AU-EL-ELECTRICAL-WARNING-LABEL`) — A durable sign or label fixed to electrical equipment to warn of a specific electrical hazard, multiple supply, generated supply, battery, solar DC or other documented condition.
+- **electrical wiring enclosure system** (`AU-EL-WIRING-ENCLOSURE-SYSTEM`) — A coordinated conduit, trunking, duct or tray arrangement with bends, couplings, supports, boxes and entry fittings that routes and protects electrical cables or individual conductors.
+- **electricity meter** (`AU-EL-ELECTRICITY-METER`) — A fixed metering device connected at the supply interface to measure electrical energy imported from, and where configured exported to, the electricity network.
+- **electricity meter enclosure** (`AU-EL-METER-ENCLOSURE`) — A weather-resistant or indoor cabinet housing electricity meters, meter panels and associated service or switching equipment while providing controlled access for the distributor and occupants.
+- **electricity meter panel** (`AU-EL-METER-PANEL`) — A rigid insulating or approved mounting panel within a meter enclosure that supports electricity meters, service equipment and their wiring clearances.
+- **electricity service fuse** (`AU-EL-SERVICE-FUSE`) — A replaceable fuse link and carrier used as the service protection device in a network-approved supply arrangement.
+- **electricity supply connection assembly** (`AU-EL-SUPPLY-CONNECTION-ASSEMBLY`) — The physical overhead or underground components that connect a property electrical installation to the electricity distributor at the applicable network boundary.
+- **equipotential bonding conductor** (`AU-EL-EQUIPOTENTIAL-BONDING-CONDUCTOR`) — A conductor joining selected conductive parts or services to the earthing system so their accessible electrical potential is controlled together in the documented installation arrangement.
+- **exterior floodlight** (`AU-EL-EXTERIOR-FLOODLIGHT`) — A weatherproof directional luminaire with a broad or selected beam, aiming bracket, LED module or lamp, driver and sealed cable entry for lighting outdoor areas or building surfaces.
+- **final subcircuit distribution system** (`AU-EL-FINAL-SUBCIRCUIT-DISTRIBUTION-SYSTEM`) — The protected outgoing circuits, cables, wiring enclosures, junctions and final connection points carrying electricity from a switchboard to lights, socket-outlets and fixed equipment.
+- **fixed IP security camera** (`AU-EL-IP-SECURITY-CAMERA`) — A fixed digital camera that receives power locally or over Ethernet and sends video over a data network.
+- **fixed LED strip lighting assembly** (`AU-EL-LED-STRIP-LIGHTING-ASSEMBLY`) — A linear lighting system comprising flexible or rigid LED strip, a compatible extra-low-voltage driver, wiring, connectors and optional aluminium channel, diffuser and end caps.
+- **fixed USB charging outlet** (`AU-EL-USB-CHARGING-OUTLET`) — A fixed wall or panel accessory containing a mains-powered extra-low-voltage power supply and one or more USB charging sockets, sometimes combined with ordinary power outlets.
+- **fixed appliance connection unit** (`AU-EL-FIXED-APPLIANCE-CONNECTION-UNIT`) — A small enclosure or wall accessory containing terminals, cable clamps and sometimes a switch or fuse for permanently connecting a fixed appliance flex to installation wiring.
+- **fixed appliance electrical connection system** (`AU-EL-FIXED-APPLIANCE-CONNECTION-SYSTEM`) — The dedicated circuit endpoint, local isolator or control, connection unit, flexible tail or socket-outlet and cable entries that connect one fixed appliance to the building electrical installation.
+- **fixed appliance isolator** (`AU-EL-APPLIANCE-ISOLATOR`) — A manually operated switch designed and positioned to disconnect all required live conductors supplying identified fixed equipment for servicing or emergency isolation.
+- **fixed data outlet assembly** (`AU-EL-DATA-OUTLET-ASSEMBLY`) — A complete wall, floor or furniture-mounted communications outlet containing one or more data connector mechanisms, faceplate, mounting support and fixed-cable terminations.
+- **fixed daylight sensor** (`AU-EL-DAYLIGHT-SENSOR`) — A fixed photosensor that measures ambient light and switches or adjusts compatible lighting through a relay, dimmer or control system.
+- **fixed doorbell chime** (`AU-EL-DOORBELL-CHIME`) — An internal powered sounder that produces an audible doorbell tone when triggered by a push button, video doorbell or compatible controller.
+- **fixed doorbell system** (`AU-EL-DOORBELL-SYSTEM`) — A fixed visitor-annunciation system comprising an external push button or video doorbell, internal chime or sounder, wiring or radio link and a power source where required.
+- **fixed electrical timer switch** (`AU-EL-TIMER-SWITCH`) — A wall-plate or DIN-mounted control containing a clock, countdown or programmable timing function that switches a lighting or equipment circuit according to time settings.
+- **fixed light-switch installation** (`AU-EL-LIGHT-SWITCH-INSTALLATION`) — The complete wall, ceiling or surface control point comprising switch or dimmer mechanisms, faceplate, grid, mounting box or bracket, cable terminations and any labels or seals.
+- **fixed lighting dimmer** (`AU-EL-DIMMER`) — An electronic or electromechanical control mechanism that varies compatible lighting output by controlling the electrical supply or sending a documented dimming signal.
+- **fixed lighting installation** (`AU-EL-FIXED-LIGHTING-INSTALLATION`) — The luminaires, lighting points, supports, drivers, switches, sensors, control wiring and final subcircuits permanently installed to illuminate a house, associated structures and outdoor areas.
+- **fixed lighting point** (`AU-EL-LIGHTING-POINT`) — A scheduled physical connection and mounting location for one luminaire or luminaire group, including its cable termination, outlet or plug base and structural support interface.
+- **fixed luminaire assembly** (`AU-EL-LUMINAIRE-ASSEMBLY`) — A complete fixed light fitting containing a housing, light source or lampholder, optical parts, electrical control gear, terminals and mounting components needed to produce and direct light.
+- **fixed motion sensor** (`AU-EL-MOTION-SENSOR`) — A fixed sensor using passive infrared, microwave or another selected technology to detect movement or occupancy and switch or signal a lighting or equipment control.
+- **fixed smart switch or relay** (`AU-EL-SMART-SWITCH-RELAY`) — A mains-connected switch or relay with local electronics and wired or wireless communications that controls a circuit from physical inputs, automation commands or schedules.
+- **fixed step or path luminaire** (`AU-EL-STEP-PATH-LUMINAIRE`) — A small recessed, surface or bollard-mounted luminaire positioned to illuminate steps, paths, decks or low-level circulation surfaces.
+- **fixed telephone cable** (`AU-EL-TELEPHONE-CABLE`) — A fixed copper-pair customer cable retained or installed for analogue voice, intercom or compatible low-voltage communications uses.
+- **fixed telephone outlet assembly** (`AU-EL-TELEPHONE-OUTLET-ASSEMBLY`) — A complete fixed outlet with a telephone connector mechanism, faceplate, mounting support and cable termination for a selected voice or legacy telephone service.
+- **fixed video doorbell** (`AU-EL-FIXED-VIDEO-DOORBELL`) — A compact external unit combining doorbell button, camera, microphone, speaker and wired or wireless network connection, with fixed power or battery depending on the selected product.
+- **fixed wall luminaire** (`AU-EL-WALL-LUMINAIRE`) — A luminaire mounted to a wall or vertical structure with its base covering the cable entry and supporting a shade, diffuser, lamp or integrated LED body.
+- **fixed wireless access point** (`AU-EL-WIRELESS-ACCESS-POINT`) — A fixed powered device connected to the wired network to provide Wi-Fi coverage at a selected position in the house.
+- **floor-mounted socket-outlet** (`AU-EL-FLOOR-SOCKET-OUTLET`) — A socket-outlet housed in a floor box or flush floor fitting with a lid, trim and cable entry arranged to protect the outlet from foot traffic, debris and cleaning exposure.
+- **flush electrical wall box** (`AU-EL-FLUSH-WALL-BOX`) — A recessed metal or polymer box fixed within a wall, ceiling, concrete element or panel to contain wiring terminations and support a flush-mounted electrical accessory.
+- **glass-break alarm detector** (`AU-EL-ALARM-GLASS-BREAK-DETECTOR`) — A fixed acoustic, vibration or shock sensor selected to detect characteristic breaking of protected glazing.
+- **grid-connected solar photovoltaic system** (`AU-EL-GRID-CONNECTED-PV-SYSTEM`) — A complete installed system of photovoltaic modules, mounting, DC wiring, conversion, protection, switching, metering and labels connected to a house electrical installation and electricity network.
+- **high-current household socket-outlet** (`AU-EL-HIGH-CURRENT-SOCKET-OUTLET`) — A fixed Australian-pattern socket-outlet with a rating above the common general-use outlet, shaped or marked for a compatible higher-current plug and dedicated equipment connection.
+- **hybrid solar and battery inverter** (`AU-EL-HYBRID-SOLAR-BATTERY-INVERTER`) — A power-conversion unit with compatible PV DC inputs, battery DC interface and AC grid or load connection in one coordinated product.
+- **insulated wire connector** (`AU-EL-WIRE-CONNECTOR`) — A small insulated screw, spring, lever or crimp connector joining prepared conductor ends inside a suitable enclosure.
+- **integrated LED light module** (`AU-EL-INTEGRATED-LED-MODULE`) — A circuit board or packaged optical unit carrying LEDs and thermal interfaces as a built-in light source inside a luminaire rather than a standard replaceable lamp.
+- **intermediate light switch** (`AU-EL-INTERMEDIATE-SWITCH`) — A crossover switch inserted between two two-way switches to add a third or further control location for the same lighting load.
+- **internal communications pathway conduit** (`AU-EL-INTERNAL-COMMUNICATIONS-PATHWAY-CONDUIT`) — A dedicated conduit or duct route within the building that carries network or customer communications cable between external equipment, a network termination location, a cabinet or outlets.
+- **intruder-alarm backup battery** (`AU-EL-ALARM-BACKUP-BATTERY`) — A small rechargeable battery installed in or beside an alarm panel to keep the system operating for a limited period when mains power fails.
+- **intruder-alarm communications module** (`AU-EL-ALARM-COMMUNICATOR`) — A cellular, IP or other communications unit that sends alarm events and receives authorised commands between the premises panel, users or monitoring service.
+- **intruder-alarm control panel** (`AU-EL-ALARM-CONTROL-PANEL`) — A secure enclosure containing the alarm controller, zone terminals, power supply, backup battery space, communications interfaces and output circuits.
+- **intruder-alarm keypad** (`AU-EL-ALARM-KEYPAD`) — A fixed user interface with keys, indicators or display used to arm, disarm, acknowledge and inspect an alarm system.
+- **intruder-alarm siren** (`AU-EL-ALARM-SIREN`) — An internal or external sounder driven by the alarm panel or a wireless receiver to provide a high-level audible alarm.
+- **intruder-alarm strobe light** (`AU-EL-ALARM-STROBE`) — A fixed flashing visual indicator driven by the alarm system, commonly integrated with an external siren enclosure or mounted separately.
+- **lighting final subcircuit** (`AU-EL-LIGHTING-FINAL-SUBCIRCUIT`) — A final subcircuit arranged to supply and control fixed luminaires, lighting points and their associated switches, sensors or dimmers.
+- **lighting transformer** (`AU-EL-LIGHTING-TRANSFORMER`) — A magnetic or electronic device that changes the supply voltage to the lower voltage required by a compatible lamp or lighting system.
+- **linear batten luminaire** (`AU-EL-LINEAR-BATTEN-LUMINAIRE`) — A long narrow surface or suspended luminaire with a linear lamp or LED module, internal control gear, gear tray and diffuser or reflector.
+- **luminaire diffuser or lens** (`AU-EL-LUMINAIRE-DIFFUSER`) — A transparent, translucent or patterned optical cover in front of a luminaire light source that protects the source and spreads, redirects or shapes emitted light.
+- **luminaire mounting bracket** (`AU-EL-LUMINAIRE-MOUNTING-BRACKET`) — A metal or polymer bracket, strap, yoke or mounting plate that fixes a luminaire to building structure and transfers its weight and adjustment loads.
+- **luminaire reflector** (`AU-EL-LUMINAIRE-REFLECTOR`) — A shaped reflective surface behind or around a lamp or LED source that redirects light into the intended beam or distribution.
+- **main earthing conductor** (`AU-EL-MAIN-EARTHING-CONDUCTOR`) — The conductor connecting the main earthing terminal or earth bar of an electrical installation to its earth electrode.
+- **main switch for inverter supply** (`AU-EL-PV-INVERTER-SUPPLY-MAIN-SWITCH`) — The labelled switch or circuit breaker at a switchboard that controls the AC supply from an inverter energy system to the installation.
+- **main switchboard** (`AU-EL-MAIN-SWITCHBOARD`) — The principal switchboard containing the installation main switch or switches and distributing supply to submains and final subcircuits through protective and control devices.
+- **metal electrical conduit** (`AU-EL-METAL-CONDUIT`) — A rigid or flexible metallic tube and fitting system that mechanically protects electrical conductors and may require electrical continuity and earthing across its joints.
+- **metering and main switchboard assembly** (`AU-EL-METERING-MAIN-SWITCHBOARD-ASSEMBLY`) — The coordinated enclosure or adjacent enclosures containing the electricity meter, main switches, protective devices, distribution links, earthing terminals, covers and labels at the principal control point of a house installation.
+- **metering isolation device** (`AU-EL-METER-ISOLATION-DEVICE`) — A switch or isolating device installed in a metering arrangement to disconnect supply to specified metering or downstream equipment where the distributor-approved design provides one.
+- **miniature circuit breaker** (`AU-EL-MCB`) — A resettable modular protective device that opens a circuit when current exceeds its overcurrent or short-circuit operating characteristics.
+- **modular battery cabinet** (`AU-EL-BESS-BATTERY-CABINET`) — A purpose-made enclosure and internal support system containing multiple battery modules, busbars, monitoring, protection and cable entries.
+- **modular comb busbar** (`AU-EL-COMB-BUSBAR`) — An insulated distribution bar with repeated teeth or pins spaced to feed a row of compatible modular switchboard devices.
+- **multicore electrical cable** (`AU-EL-MULTICORE-CABLE`) — A cable containing two or more separately insulated conductors within one common sheath or protective covering.
+- **nbn battery-backup unit** (`AU-EL-NBN-BATTERY-BACKUP-UNIT`) — Legacy or separately selected enclosure containing a rechargeable battery and control equipment to supply compatible nbn premises equipment for a limited time during a mains outage.
+- **nbn network termination device** (`AU-EL-NBN-NETWORK-TERMINATION-DEVICE`) — The nbn connection box that terminates the access network at the premises and presents service interfaces for the customer's router or other compatible equipment.
+- **nbn power supply unit** (`AU-EL-NBN-POWER-SUPPLY-UNIT`) — A dedicated power supply that converts mains power to the low-voltage supply required by applicable nbn network termination equipment.
+- **nbn premises connection device** (`AU-EL-NBN-PREMISES-CONNECTION-DEVICE`) — A weather-resistant external utility box at the premises that terminates or transitions the nbn lead-in before the internal pathway or network termination equipment.
+- **network video recorder** (`AU-EL-NETWORK-VIDEO-RECORDER`) — A powered digital recording unit that receives IP camera streams, stores video and provides playback, network and display interfaces.
+- **one-way light switch** (`AU-EL-ONE-WAY-SWITCH`) — A switch mechanism with one controlled input-output path used to turn a lighting load on or off from one control location.
+- **optical-fibre termination tray** (`AU-EL-OPTICAL-TERMINATION-TRAY`) — A shaped internal tray or cassette that supports optical splices, connectors and controlled loops of fibre inside a termination enclosure.
+- **optical-fibre wall outlet assembly** (`AU-EL-FIBRE-WALL-OUTLET-ASSEMBLY`) — A protected fixed enclosure or faceplate that stores, terminates and presents one or more optical-fibre connectors at a premises equipment or room location.
+- **overhead electrical service bracket** (`AU-EL-SERVICE-BRACKET`) — A metal bracket, hook, eye or mast fitting fixed to structure to carry the mechanical load of an overhead electricity service at its attachment point.
+- **overhead electricity service connection** (`AU-EL-OVERHEAD-SERVICE-CONNECTION`) — An electricity service arrangement using aerial distributor conductors, a building point of attachment and customer-side conductors or terminals to bring supply to the property.
+- **overhead service line** (`AU-EL-OVERHEAD-SERVICE-LINE`) — The distributor-side aerial conductor or bundled cable spanning from the electricity network to the property's agreed point of supply or attachment.
+- **passive infrared alarm detector** (`AU-EL-ALARM-PIR-DETECTOR`) — A fixed sensor that detects changes in infrared energy within a designed field of view and reports them to an alarm panel.
+- **pedestal-mounted electric-vehicle supply equipment** (`AU-EL-PEDESTAL-EVSE`) — A charging unit mounted on a dedicated freestanding pedestal or post with underground or concealed supply and communication entries.
+- **pendant ceiling rose or canopy** (`AU-EL-CEILING-ROSE`) — A shallow ceiling cover that conceals pendant wiring terminals, suspension fixings and the ceiling opening while providing a cord grip or support interface.
+- **pendant lighting flex** (`AU-EL-PENDANT-FLEX`) — A flexible insulated cord descending from a ceiling rose or canopy to supply a pendant lampholder or luminaire, with strain relief at both ends.
+- **pendant luminaire** (`AU-EL-PENDANT-LUMINAIRE`) — A luminaire suspended below a ceiling by a flexible cord, chain, rod or cable system with a ceiling rose or canopy covering the connection and support point.
+- **photovoltaic AC isolator** (`AU-EL-PV-AC-ISOLATOR`) — An AC switch-disconnector installed where required by the selected PV inverter and switchboard arrangement to isolate the inverter output circuit.
+- **photovoltaic DC combiner box** (`AU-EL-PV-DC-COMBINER-BOX`) — An enclosure that brings multiple PV string circuits together and contains selected terminals, fuses, surge protection, isolation or monitoring before an inverter input.
+- **photovoltaic DC isolation or disconnection device** (`AU-EL-PV-DC-ISOLATION-DEVICE`) — A switch-disconnector, connector-based disconnection point or other documented means used to isolate or disconnect PV DC circuits at a selected location.
+- **photovoltaic DC plug-and-socket connector pair** (`AU-EL-PV-DC-CONNECTOR-PAIR`) — A matched polarised plug and socket pair terminating photovoltaic module leads or solar cables to make a touch-protected DC connection.
+- **photovoltaic DC power optimiser** (`AU-EL-PV-DC-POWER-OPTIMISER`) — A module-level DC-to-DC electronic device connected between a PV module and string circuit to control that module's operating point and provide selected monitoring or safety functions.
+- **photovoltaic DC solar cable** (`AU-EL-PV-DC-SOLAR-CABLE`) — A purpose-selected insulated and sheathed cable carrying photovoltaic DC current between module strings, combiners, isolation equipment and inverter inputs.
+- **photovoltaic array** (`AU-EL-PV-ARRAY`) — The connected group of photovoltaic modules, strings, racking, module-level wiring and associated array-side equipment at one generation area.
+- **photovoltaic cell laminate** (`AU-EL-PV-CELL-LAMINATE`) — The sealed stack of interconnected photovoltaic cells, conductors and encapsulating layers between the module front and rear sheets.
+- **photovoltaic energy monitoring meter** (`AU-EL-PV-ENERGY-METER`) — A dedicated meter or sensor unit measuring PV generation, grid flow or site consumption for inverter control and monitoring, distinct from the distributor revenue meter.
+- **photovoltaic installation label set** (`AU-EL-PV-LABEL-SET`) — The collection of durable physical labels and warning signs fixed to PV switchboards, isolators, cables, equipment and relevant access points.
+- **photovoltaic inverter installation** (`AU-EL-PV-INVERTER-INSTALLATION`) — The selected inverter or module-level converters, mounting, DC and AC connections, local isolation or protection, communications and labels that connect a PV array to the electrical installation.
+- **photovoltaic inverter wall bracket** (`AU-EL-PV-INVERTER-WALL-BRACKET`) — A proprietary bracket or backplate fixed to building structure to carry and locate a compatible wall-mounted inverter.
+- **photovoltaic microinverter** (`AU-EL-PV-MICROINVERTER`) — A small weather-exposed inverter connected to one or a few PV modules and mounted beneath the array to produce AC at module level.
+- **photovoltaic module** (`AU-EL-PV-MODULE`) — A factory-assembled weather-exposed unit of interconnected photovoltaic cells, encapsulation, front sheet, back layer, frame where present, junction box and output leads.
+- **photovoltaic module bonding clip** (`AU-EL-PV-BONDING-CLIP`) — A small conductive serrated clip or washer installed between compatible module frame and clamp or rail to create a documented bonding connection.
+- **photovoltaic module cable clip** (`AU-EL-PV-CABLE-CLIP`) — A UV- and environment-resistant clip securing solar cables to module frames or racking so they do not rest on the roof or move against sharp edges.
+- **photovoltaic module end clamp** (`AU-EL-PV-MODULE-END-CLAMP`) — A proprietary clamp at the outer edge of a PV module row restraining one module frame to a mounting rail or support.
+- **photovoltaic module frame** (`AU-EL-PV-MODULE-FRAME`) — The perimeter extrusion around a framed photovoltaic module that protects panel edges and provides documented clamping or fixing zones.
+- **photovoltaic module front glass** (`AU-EL-PV-MODULE-FRONT-GLASS`) — The transparent weather-facing glass sheet protecting the photovoltaic cells while admitting light.
+- **photovoltaic module junction box** (`AU-EL-PV-MODULE-JUNCTION-BOX`) — A sealed rear-mounted enclosure containing module output terminals, bypass components and attached output leads.
+- **photovoltaic module mid clamp** (`AU-EL-PV-MODULE-MID-CLAMP`) — A proprietary clamp fitted between adjacent PV modules to restrain both module frames to a mounting rail or support.
+- **photovoltaic monitoring gateway** (`AU-EL-PV-MONITORING-GATEWAY`) — A dedicated communications device, whether separate or installed as an inverter option, that collects PV system data and connects it to local or remote monitoring.
+- **photovoltaic mounting rail** (`AU-EL-PV-MOUNTING-RAIL`) — An extruded structural profile supporting module clamps and spanning between roof interfaces in a rail-based PV mounting system.
+- **photovoltaic mounting tilt leg** (`AU-EL-PV-TILT-LEG`) — A front, rear or adjustable support member that raises PV rails or modules above the supporting plane to create a selected tilt angle.
+- **photovoltaic mounting-rail splice** (`AU-EL-PV-RAIL-SPLICE`) — A proprietary internal or external connector joining aligned lengths of PV mounting rail while allowing the selected structural and expansion behaviour.
+- **photovoltaic racking grounding lug** (`AU-EL-PV-GROUNDING-LUG`) — A listed or documented metal terminal fixed to PV rail or racking to connect a bonding or earthing conductor.
+- **photovoltaic racking hanger bolt** (`AU-EL-PV-HANGER-BOLT`) — A long threaded fixing with a structural screw or stud end, sealing arrangement and mounting hardware used to support PV racking above selected roofs.
+- **photovoltaic roof interface** (`AU-EL-PV-ROOF-INTERFACE`) — A selected bracket, clamp, foot or adaptor connecting PV rail or support hardware to a particular roof cladding and structural support arrangement.
+- **photovoltaic roof mounting system** (`AU-EL-PV-ROOF-MOUNTING-SYSTEM`) — The engineered rails, roof interfaces, hooks or clamps, splices, module clamps, fasteners and bonding parts supporting a rooftop PV array.
+- **photovoltaic string** (`AU-EL-PV-STRING`) — A designed series-connected group of photovoltaic modules and their interconnecting leads forming one DC source circuit.
+- **photovoltaic string inverter** (`AU-EL-PV-STRING-INVERTER`) — A central or distributed power-electronic unit accepting one or more PV string DC inputs and producing grid-compatible AC output.
+- **photovoltaic tile-roof hook** (`AU-EL-PV-TILE-ROOF-HOOK`) — A shaped metal bracket fixed below roof tiles to supporting structure and projecting between or around tiles to carry a PV rail.
+- **pool equipotential bonding assembly** (`AU-EL-POOL-EQUIPOTENTIAL-BONDING-ASSEMBLY`) — The conductors, clamps, lugs and accessible bonding points connecting selected conductive pool reinforcement, shells, fittings, equipment and nearby conductive parts into the documented equipotential bonding arrangement.
+- **portable residual-current device unit** (`AU-EL-PORTABLE-RCD-UNIT`) — A portable or inline residual-current protective device with plug, socket or short leads used as supplementary protection for connected equipment where the site arrangement requires it.
+- **powered lighting track** (`AU-EL-LIGHTING-TRACK`) — A rigid aluminium or polymer profile containing insulated continuous conductors and a mechanical slot that accepts compatible track-luminaire adaptors.
+- **premises optical-fibre cable** (`AU-EL-OPTICAL-FIBRE-CABLE`) — A fixed communications cable containing one or more optical fibres and protective layers for network lead-in, backbone or premises distribution.
+- **protective earthing conductor** (`AU-EL-PROTECTIVE-EARTHING-CONDUCTOR`) — A conductor connecting exposed conductive equipment parts and circuit earth terminals back to the switchboard earthing terminal so protective devices can operate under an earth fault.
+- **recessed LED downlight** (`AU-EL-RECESSED-LED-DOWNLIGHT`) — A compact LED luminaire inserted through a ceiling cut-out so its body and driver sit above the lining while its trim, lens and light opening remain visible below.
+- **recessed downlight guard** (`AU-EL-DOWNLIGHT-GUARD`) — A purpose-made protective cage or cover installed over a recessed luminaire in a ceiling or roof space to maintain a documented separation from loose insulation or stored material where the selected luminaire arrangement requires it.
+- **replaceable LED lamp** (`AU-EL-LED-LAMP`) — A replaceable lamp containing LED packages, an internal electronic driver, heat-spreading body, optical envelope and a cap for a standard lampholder.
+- **replaceable electric lamp** (`AU-EL-LAMP`) — A replaceable light source with a glass or polymer envelope and standardised cap that fits a compatible lampholder within a luminaire.
+- **residential CCTV system** (`AU-EL-RESIDENTIAL-CCTV-SYSTEM`) — A fixed video-surveillance system of cameras, mounting hardware, cable or wireless links, power, network equipment, recording and selected viewing components.
+- **residential battery energy storage system** (`AU-EL-BATTERY-ENERGY-STORAGE-SYSTEM`) — A complete installed system of one or more rechargeable battery units, power-conversion equipment, controls, protection, isolation, cabling, mounting, labels and any selected backup switching.
+- **residential communications cabinet** (`AU-EL-COMMUNICATIONS-CABINET`) — An accessible wall-mounted or recessed enclosure that houses communications patching, splitters, power supplies and selected active network equipment.
+- **residential communications cabling system** (`AU-EL-COMMUNICATIONS-CABLING-SYSTEM`) — The fixed pathways, customer cabling, termination hardware, outlets and selected network, television or satellite equipment serving communications within a house.
+- **residential intruder alarm system** (`AU-EL-INTRUDER-ALARM-SYSTEM`) — A fixed security system of control panel, power supply, backup battery, keypads, detectors, sounders, communications and cabling that detects and reports selected intrusion or tamper events.
+- **residential satellite reception system** (`AU-EL-SATELLITE-RECEPTION-SYSTEM`) — A selected external dish, mount, low-noise block converter and coaxial distribution arrangement used to receive satellite television or broadband signals.
+- **residential video intercom system** (`AU-EL-VIDEO-INTERCOM-SYSTEM`) — A fixed communications system of one or more outdoor door stations, indoor stations, power or PoE equipment, cabling and selected door-release hardware.
+- **residual current circuit-breaker** (`AU-EL-RCCB`) — A residual-current protective switching device without integral overcurrent protection, used with separate overcurrent protection for the circuit or group it protects.
+- **residual current circuit-breaker with overcurrent protection** (`AU-EL-RCBO`) — A modular protective device combining residual-current protection and circuit-breaker overcurrent protection for one circuit in a single unit.
+- **rigid PVC electrical conduit** (`AU-EL-RIGID-PVC-CONDUIT`) — A straight rigid polymer tube joined with conduit fittings to provide a protected electrical wiring path through concealed, surface, underground or external locations suited to the selected product duty.
+- **satellite coaxial multiswitch** (`AU-EL-SATELLITE-MULTISWITCH`) — A powered or passive multi-input, multi-output switching device that distributes satellite LNB feeds, and sometimes terrestrial television, to multiple receiver outlets.
+- **satellite dish reflector** (`AU-EL-SATELLITE-DISH-REFLECTOR`) — A shaped metal reflector that collects satellite radio-frequency energy and focuses it toward the feed and low-noise block converter.
+- **satellite low-noise block converter** (`AU-EL-SATELLITE-LNB`) — The powered receiver head at the dish focus that amplifies and converts satellite signals to frequencies carried by coaxial cable.
+- **security camera junction box** (`AU-EL-SECURITY-CAMERA-JUNCTION-BOX`) — A weather-resistant adaptor enclosure behind or beside a camera that houses cable connectors, service loops or power terminations and provides a mounting surface.
+- **security camera mounting bracket** (`AU-EL-SECURITY-CAMERA-BRACKET`) — A product-compatible base, arm, pendant, pole or corner bracket that supports and aims a fixed security camera.
+- **single switched socket-outlet** (`AU-EL-SINGLE-SOCKET-OUTLET`) — A fixed socket-outlet accessory with one plug aperture set and its associated switch where the selected product is switched.
+- **single-insulated electrical conductor** (`AU-EL-SINGLE-INSULATED-CONDUCTOR`) — One insulated conductor supplied without a common outer cable sheath and installed with other conductors inside an approved wiring enclosure or equipment space.
+- **smart electricity meter** (`AU-EL-SMART-METER`) — An electronic electricity meter that records interval energy data and includes communications equipment for remote reading, service functions or tariff operation.
+- **socket-outlet final subcircuit** (`AU-EL-SOCKET-OUTLET-FINAL-SUBCIRCUIT`) — A final subcircuit supplying one or more fixed socket-outlets through its protective device, cable, junctions and protective earthing path.
+- **socket-outlet installation** (`AU-EL-SOCKET-OUTLET-INSTALLATION`) — The complete fixed power-point installation comprising socket mechanism, local switch where provided, faceplate, mounting box or bracket, cable terminations, earthing and any weather or acoustic seals.
+- **socket-outlet mechanism** (`AU-EL-SOCKET-MECHANISM`) — The modular insulating body, contacts and terminals forming one plug aperture set for installation in a compatible grid, plate, panel or combined outlet assembly.
+- **socket-outlet safety shutter** (`AU-EL-SOCKET-SAFETY-SHUTTER`) — An internal movable barrier within a socket-outlet that blocks access to live contact openings until compatible plug pins operate the shutter mechanism together.
+- **stationary battery module** (`AU-EL-BESS-BATTERY-MODULE`) — A replaceable or factory-installed grouping of connected battery cells with terminals and monitoring interfaces forming part of a larger battery unit or cabinet.
+- **stationary battery unit** (`AU-EL-BESS-BATTERY-UNIT`) — A factory-assembled stationary battery product containing cells or modules, enclosure, terminals and usually internal monitoring and protective components.
+- **surface-mounted ceiling luminaire** (`AU-EL-SURFACE-CEILING-LUMINAIRE`) — A luminaire whose body or mounting base fixes against the ceiling surface without placing the main housing in a ceiling recess.
+- **surge protection device** (`AU-EL-SURGE-PROTECTION-DEVICE`) — A device connected between live conductors and the earthing system to limit transient overvoltage by diverting surge current through a controlled protective path.
+- **switchboard DIN rail** (`AU-EL-DIN-RAIL`) — A standardised metal mounting rail fixed inside an enclosure to support clip-on circuit breakers, RCBOs, switches and other modular electrical devices.
+- **switchboard active link** (`AU-EL-ACTIVE-LINK`) — An insulated terminal block or bar joining one incoming active conductor to multiple outgoing active conductors within a switchboard arrangement.
+- **switchboard busbar** (`AU-EL-SWITCHBOARD-BUSBAR`) — A rigid conductive bar within a switchboard that distributes current between an incoming connection and multiple devices or outgoing circuits.
+- **switchboard circuit schedule** (`AU-EL-SWITCHBOARD-SCHEDULE`) — A fixed printed, engraved or handwritten schedule at a switchboard that maps each protective or switching device to the circuit, area or equipment it controls.
+- **switchboard earth bar** (`AU-EL-EARTH-BAR`) — A conductive terminal bar bonded to the switchboard earthing arrangement for terminating protective earthing conductors, the main earthing conductor and selected bonding conductors.
+- **switchboard enclosure** (`AU-EL-SWITCHBOARD-ENCLOSURE`) — A metal or insulating cabinet that contains and protects switchboard devices, busbars, links and wiring while providing mounting surfaces and controlled access.
+- **switchboard enclosure door** (`AU-EL-SWITCHBOARD-DOOR`) — A hinged or removable outer cover closing a switchboard enclosure while allowing ordinary access to labelled device controls and the internal escutcheon.
+- **switchboard escutcheon** (`AU-EL-ESCUTCHEON`) — An internal protective panel with device apertures that screens live switchboard parts while leaving approved switch handles and indicators accessible.
+- **switchboard neutral link** (`AU-EL-NEUTRAL-LINK`) — An insulated terminal bar within a switchboard that joins the incoming neutral to outgoing neutral conductors while keeping their circuit terminations organised and accessible for testing.
+- **switchboard pole filler** (`AU-EL-POLE-FILLER`) — A small insulating blank fitted into an unused modular-device opening in a switchboard escutcheon to close the gap and preserve protection from contact with internal parts.
+- **switched active conductor** (`AU-EL-SWITCHED-ACTIVE-CONDUCTOR`) — An active conductor downstream of a switch, relay, dimmer or control device that becomes energised according to the control state and feeds the controlled load.
+- **switched socket-outlet assembly** (`AU-EL-SOCKET-OUTLET-ASSEMBLY`) — A fixed electrical accessory combining one or more Australian socket apertures, associated switching where provided, terminals, insulating body and a mounting grid or faceplate.
+- **telecommunications lead-in cable** (`AU-EL-TELECOMMUNICATIONS-LEAD-IN-CABLE`) — The network cable entering the premises through the lead-in pathway, using optical fibre, copper pair or coaxial construction according to the access technology.
+- **telecommunications lead-in system** (`AU-EL-TELECOMMUNICATIONS-LEAD-IN-SYSTEM`) — The selected external pit, pathway, lead-in cable and premises connection equipment that carry a telecommunications service from the network boundary to the building.
+- **television antenna mast** (`AU-EL-ANTENNA-MAST`) — A vertical or inclined tubular member supporting a terrestrial antenna, masthead equipment or small satellite equipment above the building.
+- **television masthead amplifier** (`AU-EL-MASTHEAD-AMPLIFIER`) — A weather-resistant powered radio-frequency amplifier mounted near the receiving antenna to increase or condition the signal before distribution losses.
+- **temporary cable ramp or protector** (`AU-EL-CONSTRUCTION-CABLE-RAMP`) — A portable ramped cover with one or more cable channels placed over temporary leads at a pedestrian or vehicle crossing.
+- **temporary construction electrical installation** (`AU-EL-TEMPORARY-CONSTRUCTION-ELECTRICAL-INSTALLATION`) — The temporary switchboards, construction wiring, socket-outlets, flexible cords, protection, lighting, supports and identification used to supply building work before removal or incorporation of permanent equipment.
+- **temporary construction lighting string** (`AU-EL-TEMPORARY-LIGHTING-STRING`) — A flexible temporary cable assembly with repeated guarded lamp or LED units suspended or supported along a work route or area.
+- **temporary construction work light** (`AU-EL-TEMPORARY-WORK-LIGHT`) — A relocatable or temporarily fixed luminaire with stand, guard, lead and plug used to illuminate construction work areas.
+- **terrestrial television antenna** (`AU-EL-TERRESTRIAL-TV-ANTENNA`) — An external array of conductive elements and a feed connection selected and aimed to receive local terrestrial television frequencies.
+- **terrestrial television antenna reception system** (`AU-EL-TV-ANTENNA-RECEPTION-SYSTEM`) — The roof- or mast-mounted antenna, structural support, optional amplification, coaxial distribution and outlets used to receive and distribute terrestrial television signals.
+- **tethered electric-vehicle charging cable** (`AU-EL-EVSE-TETHERED-CHARGING-CABLE`) — A flexible permanently attached charging cable connecting fixed EVSE to a vehicle connector, with control conductors and strain relief.
+- **thermoplastic-sheathed building cable** (`AU-EL-TPS-CABLE`) — A flat or circular multicore building cable with individually insulated conductors enclosed by a thermoplastic outer sheath, commonly used for fixed house wiring.
+- **track lighting assembly** (`AU-EL-TRACK-LIGHTING-ASSEMBLY`) — A fixed powered track with live conductors, end and feed fittings, mechanical supports and movable adaptor-mounted luminaires that can be repositioned along the track.
+- **track luminaire adaptor** (`AU-EL-TRACK-LUMINAIRE-ADAPTOR`) — A keyed fitting at the top of a track luminaire that locks into compatible lighting track and makes electrical contact with the selected track conductors.
+- **track-mounted spotlight** (`AU-EL-TRACK-SPOTLIGHT`) — A compact directional luminaire with a track adaptor, rotating or tilting joint, light source, driver and optical body for adjustable display or task lighting.
+- **two-way light switch** (`AU-EL-TWO-WAY-SWITCH`) — A changeover switch mechanism used with another two-way switch to control the same lighting load from two different locations.
+- **underground electrical service cable** (`AU-EL-UNDERGROUND-SERVICE-CABLE`) — A power cable selected for the buried or underground service route between the distribution connection and property service equipment.
+- **underground electrical service conduit** (`AU-EL-UNDERGROUND-SERVICE-CONDUIT`) — A buried conduit or duct providing a protected draw-in pathway for electricity service cables between property connection and service equipment.
+- **underground electricity service connection** (`AU-EL-UNDERGROUND-SERVICE-CONNECTION`) — An electricity service arrangement using a buried cable route, conduit or duct and any pit or termination equipment between the distributor network and the property installation.
+- **underground power cable** (`AU-EL-UNDERGROUND-POWER-CABLE`) — A sheathed power cable selected for a buried circuit or submain route, installed in conduit or another approved protected underground arrangement.
+- **video intercom door station** (`AU-EL-VIDEO-INTERCOM-DOOR-STATION`) — A weather-exposed visitor unit containing a camera, microphone, speaker, call button and selected PIN, card or other access modules in a surface or flush enclosure.
+- **video intercom indoor station** (`AU-EL-VIDEO-INTERCOM-INDOOR-STATION`) — A fixed indoor screen, handset or touch interface that receives door calls, displays video, supports two-way audio and operates selected release or security functions.
+- **video intercom power supply** (`AU-EL-INTERCOM-POWER-SUPPLY`) — A dedicated power supply, controller or PoE injector that provides the required low-voltage power and sometimes data distribution for intercom stations.
+- **wall-mounted electric-vehicle supply equipment** (`AU-EL-WALL-MOUNTED-EVSE`) — A fixed wall-mounted control and protection unit that communicates with and supplies a connected electric vehicle through a tethered cable or vehicle connector socket.
+- **weatherproof batten luminaire** (`AU-EL-WEATHERPROOF-BATTEN-LUMINAIRE`) — A linear batten luminaire with a sealed body, gasketed diffuser, cable glands and corrosion-resistant clips selected for damp, dusty or outdoor service.
+- **weatherproof electrical switch** (`AU-EL-WEATHERPROOF-SWITCH`) — A switch mechanism enclosed behind a gasketed cover or sealed actuator in a surface housing selected for outdoor, wet or dusty conditions.
+- **weatherproof rotary isolator** (`AU-EL-WEATHERPROOF-ISOLATOR`) — A rotary isolation switch in a sealed surface enclosure with gasketed cover, cable entries and an identified handle for outdoor or wet-location equipment.
+- **weatherproof socket-outlet** (`AU-EL-WEATHERPROOF-SOCKET-OUTLET`) — A socket-outlet assembly with a sealed housing, gasketed cover or flap and cable entries selected to protect its live parts in an outdoor or wet environment.
+
+## Cross-discipline links
+
+- `AU-EL-CABLE-SLEEVE` commonly used with `AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY`
+- `AU-EL-ELECTRIC-DOOR-STRIKE` alternative to `AU-ID-DOOR-LATCH-STRIKE-PLATE`
+- `AU-EL-HVAC-ISOLATOR` commonly used with `AU-ME-AIR-TO-WATER-HEAT-PUMP-UNIT`
+- `AU-EL-HVAC-ISOLATOR` commonly used with `AU-ME-OUTDOOR-CONDENSING-UNIT`
+- `AU-EL-HVAC-ISOLATOR` commonly used with `AU-ME-REFRIGERATED-AIR-CONDITIONING-SYSTEM`
+- `AU-EL-WATER-HEATER-ISOLATOR` commonly used with `AU-PL-WATER-HEATER-ASSEMBLY`

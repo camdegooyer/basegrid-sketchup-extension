@@ -1,0 +1,164 @@
+# Fire Safety discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 115
+- Internal relationships: 298
+- Outgoing cross-discipline relationships: 12
+- Distinct supporting sources: 14
+- Distinct linked standards: 14
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 84.3%
+- Objects with two or more sources: 71.3%
+
+## Categories
+
+- alarm accessibility components: 2
+- alarm assemblies: 2
+- alarm components: 21
+- alarm devices: 7
+- fire resistant wall floor components: 15
+- fire safety assemblies: 1
+- fire separation assemblies: 7
+- firestop assemblies: 7
+- firestop components: 24
+- protected opening assemblies: 5
+- protected opening components: 9
+- roof junction fire components: 4
+- structural fire protection: 9
+- wall junction fire components: 2
+
+## Objects
+
+- **Class 1b smoke-alarm-activated evacuation-lighting system** (`AU-FS-CLASS-1B-EVACUATION-LIGHTING-SYSTEM`) — The smoke-alarm-activated lighting serving the relevant Class 1b corridor, hallway or area, provided either by a light within the alarm or by connected fixed lighting.
+- **battery-powered domestic smoke alarm** (`AU-FS-BATTERY-POWERED-SMOKE-ALARM`) — A domestic smoke alarm whose operating power comes from a replaceable or sealed battery and which may include hardwired or wireless interconnection according to the product.
+- **board structural-fire-protection enclosure** (`AU-FS-FIRE-PROTECTION-BOARD-ENCLOSURE`) — A box or profile-following enclosure of fire-protection boards, corner joints, supports, fixings and seals around a structural member or service.
+- **cable-penetration firestop assembly** (`AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY`) — A tested seal around one cable, a defined cable bundle, conduit or cable tray passing through fire-resistant construction.
+- **cast-in fire collar or device** (`AU-FS-CAST-IN-FIRE-COLLAR`) — A proprietary firestop device positioned in formwork or floor construction before concrete placement so its body and intumescent closure become integrated around the later service opening.
+- **coated firestop opening board** (`AU-FS-COATED-FIRESTOP-BOARD`) — A rigid or semi-rigid coated board cut to close a service opening and combined with perimeter and service-specific seals in a tested firestop system.
+- **coated mineral-fibre firestop batt** (`AU-FS-COATED-FIRESTOP-BATT`) — A dense mineral-wool slab factory- or site-coated with an ablative or endothermic compound, cut and fitted as an infill panel around services in a tested opening system.
+- **common roof-space fire-separation assembly** (`AU-FS-ROOF-SPACE-FIRE-SEPARATION-ASSEMBLY`) — A vertical non-combustible separation and its supports, joints and perimeter packing within an eave, verandah or similar space open to a roof space shared by more than one dwelling.
+- **compressible firestop movement-joint fill** (`AU-FS-FIRESTOP-MOVEMENT-JOINT-FILL`) — A compressible mineral-fibre, intumescent foam, preformed strip or other tested fill installed within a fire-resistant movement joint behind or instead of an exposed seal.
+- **domestic alarm backup battery** (`AU-FS-ALARM-BACKUP-BATTERY`) — A replaceable or sealed electrochemical cell or battery pack retained within a mains-powered alarm or base to power warning functions during loss of mains supply.
+- **domestic alarm relay module** (`AU-FS-ALARM-RELAY-MODULE`) — A compatible wired or wireless interface containing relay contacts or electronic outputs that allows an interconnected alarm activation to control lighting, warning accessories or another documented device.
+- **domestic alarm sounder** (`AU-FS-ALARM-SOUNDER`) — The piezoelectric horn, sound aperture and drive circuit built into or connected to a smoke or heat alarm to produce the audible warning pattern.
+- **domestic alarm status indicator** (`AU-FS-ALARM-STATUS-INDICATOR`) — One or more visible light-emitting indicators on an alarm showing power, normal polling, alarm origin, silence, memory, fault or wireless status through product-specific colours and flash patterns.
+- **domestic alarm test-and-hush control** (`AU-FS-ALARM-TEST-HUSH-CONTROL`) — A push button, touch surface or remote-compatible switch on a smoke or heat alarm used to test its sensor, electronics and sounder and to silence permitted nuisance or fault signals temporarily.
+- **domestic alarm vibration pad** (`AU-FS-TACTILE-ALARM-VIBRATION-PAD`) — A portable or bed-mounted vibrating device linked to a compatible alarm system to provide tactile warning to a sleeping or hearing-impaired occupant.
+- **domestic heat alarm assembly** (`AU-FS-HEAT-ALARM-ASSEMBLY`) — An alarm device that responds to a fixed temperature, rate of temperature rise or other certified thermal criterion and includes its sounder, power, base and interconnect functions.
+- **domestic interconnected alarm system** (`AU-FS-DOMESTIC-ALARM-SYSTEM`) — The coordinated set of smoke alarms and any permitted heat alarms, mounting bases, power supplies, backup batteries, interconnects, controls, warning devices and required notices within one dwelling or relevant garage arrangement.
+- **domestic smoke alarm assembly** (`AU-FS-DOMESTIC-SMOKE-ALARM-ASSEMBLY`) — A household smoke alarm product comprising its sensing chamber, electronics, sounder, indicators, test and silence control, enclosure, mounting base and power arrangement.
+- **domestic visual alarm warning device** (`AU-FS-VISUAL-ALARM-STROBE`) — A high-intensity flashing light or strobe linked to compatible domestic alarms to provide a visual warning, particularly for occupants who may not hear the audible signal.
+- **electrical-box cavity fire-resisting packing** (`AU-FS-ELECTRICAL-BOX-CAVITY-FIRE-PACKING`) — Mineral fibre or other suitable fire-resisting material packed into the locally framed cavity immediately behind an electrical switch, socket or outlet in a hollow separating wall.
+- **electrical-box fire hood** (`AU-FS-ELECTRICAL-BOX-FIRE-HOOD`) — A tested preformed flexible or rigid enclosure placed behind a recessed electrical box, light fitting or similar device to protect the opening in a fire-resistant lining.
+- **electrical-box fire-protection assembly** (`AU-FS-ELECTRICAL-BOX-FIRE-PROTECTION-ASSEMBLY`) — The framed recess, electrical box, surrounding or rear mineral-fibre packing, firestop pad or hood and lining repair used where a switch, socket or outlet is installed in a hollow separating wall.
+- **fire-and-acoustic perimeter sealant joint** (`AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT`) — A compatible flexible sealant joint at the perimeter, base, head, layer joint or small gap of a tested wall or ceiling system where both fire and acoustic continuity are documented.
+- **fire-protected horizontal projection assembly** (`AU-FS-FIRE-PROTECTED-HORIZONTAL-PROJECTION-ASSEMBLY`) — A balcony, floor, verandah, soffit or similar horizontal projection at a separating wall, including its protected underside, supporting members and wall continuation.
+- **fire-protection board enclosure corner joint** (`AU-FS-FIRE-PROTECTION-ENCLOSURE-CORNER`) — The butt, rebate, mitre, overlapping or proprietary corner connection between fire-protection boards enclosing a structural member.
+- **fire-protection board enclosure fixing** (`AU-FS-FIRE-PROTECTION-ENCLOSURE-FIXING`) — A steel screw, staple, pin, clip or angle fixing specified to hold fire-protection boards and support members in an enclosure.
+- **fire-protective coating primer** (`AU-FS-FIRE-PROTECTIVE-COATING-PRIMER`) — A corrosion-control or adhesion primer proven compatible with the substrate and selected intumescent or other fire-protective coating system.
+- **fire-protective coating topcoat** (`AU-FS-FIRE-PROTECTIVE-COATING-TOPCOAT`) — A compatible protective or decorative sealer applied over an intumescent or other fire-protective coating to suit the documented environment without restricting its fire reaction.
+- **fire-protective floor or beam underside covering** (`AU-FS-FIRE-PROTECTIVE-FLOOR-CEILING-COVERING`) — A continuous protective board, sheet or spray covering fixed beneath combustible or metal floor construction and incorporated beams to provide the selected fire-protection path.
+- **fire-resistant doorset** (`AU-FS-FIRE-RESISTANT-DOORSET`) — A tested fire-resistant door assembly supplied and installed as a coordinated leaf, frame, hardware, seals, fixings, wall interface and identification system.
+- **fire-resistant glazing pane** (`AU-FS-FIRE-RESISTANT-GLAZING-PANE`) — A documented wired, laminated, gel-filled, ceramic or other fire-resistant transparent or translucent pane used within a tested opening-protection system.
+- **fire-resistant glazing seal** (`AU-FS-FIRE-RESISTANT-GLAZING-SEAL`) — A tested gasket, tape, setting compound, intumescent liner or sealant between fire-resistant glazing and its frame or bead.
+- **fire-resistant lining joint compound** (`AU-FS-FIRE-RESISTANT-LINING-JOINT-COMPOUND`) — A compatible setting or drying compound applied with joint tape over board joints, fastener heads, corners and returns in a documented fire-resistant lining system.
+- **fire-resistant lining joint tape** (`AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE`) — Paper, glass-fibre or other documented tape embedded across joints in fire-resistant board linings as part of the selected joint-treatment system.
+- **fire-resistant plasterboard lining** (`AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING`) — A gypsum plasterboard sheet manufactured for use as one or more specified layers in a tested fire-resistant wall, ceiling, soffit, column or beam system.
+- **fire-resisting external wall assembly** (`AU-FS-FIRE-RESISTING-EXTERNAL-WALL-ASSEMBLY`) — An external wall, including its framing or masonry, linings, cladding, junctions and protected openings, constructed for the required fire exposure where separation distances trigger protection.
+- **fire-resisting separating floor assembly** (`AU-FS-FIRE-RESISTING-SEPARATING-FLOOR-ASSEMBLY`) — A floor and ceiling or soffit build-up whose structure, protective underside, supports, edge junctions and service openings collectively provide the documented fire separation.
+- **fire-resisting separating wall assembly** (`AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY`) — A continuous wall assembly separating Class 1 buildings, or a Class 1 building from a non-associated Class 10a building, including its full base-to-roof extent and all junction and service details.
+- **fire-resisting wall opening-protection assembly** (`AU-FS-FIRE-RESISTING-WALL-OPENING-PROTECTION`) — A complete window, door or other permitted construction installed in an opening through a fire-resisting external wall, including frame, leaf or glazing, closer, seals, fixings and perimeter interface.
+- **fire-separating shaftliner panel** (`AU-FS-SHAFTLINER-PANEL`) — A thick fire-resistant gypsum or composite panel captured in a proprietary stud-and-track wall system, commonly forming a central protective layer in lightweight separating construction.
+- **fire-separating wall base track** (`AU-FS-FIRE-SEPARATION-BASE-TRACK`) — The continuous steel channel or documented timber member locating separating-wall studs or shaftliner panels at their base and fixed through the selected perimeter seal to the support.
+- **fire-separating wall deflection head** (`AU-FS-FIRE-SEPARATION-DEFLECTION-HEAD`) — A head-track, stud-clearance, lining, slip, packing and seal arrangement allowing the structure above a fire-separating wall to deflect without crushing the wall or opening a fire path.
+- **fire-separation service-penetration opening** (`AU-FS-SERVICE-PENETRATION-OPENING`) — The deliberately cut, drilled, cast or formed void through a fire-resistant wall or floor that receives one or more services and their complete firestop system.
+- **fire-separation wall clip** (`AU-FS-FIRE-SEPARATION-WALL-CLIP`) — A proprietary steel clip connecting leaves, shaftliner framing or adjacent structural frames in a lightweight separating-wall system while preserving the selected breakaway, movement or restraint behaviour.
+- **fire-system lining screw** (`AU-FS-FIRE-LINING-SCREW`) — A steel screw of the type, length, gauge, head and corrosion protection specified to fasten a particular layer of fire-resistant lining to framing or furring.
+- **firestop backing material** (`AU-FS-FIRESTOP-BACKING-MATERIAL`) — A mineral-wool strip, backing rod, ceramic fibre or other documented material positioned behind a firestop sealant to control its depth, shape and adhesion faces.
+- **firestop cable coating** (`AU-FS-FIRESTOP-CABLE-COATING`) — An ablative, intumescent or other tested coating applied over cables or cable bundles for a documented length adjacent to a penetration or along a cable route.
+- **firestop control-joint seal** (`AU-FS-FIRESTOP-CONTROL-JOINT-SEAL`) — The backing, compressible fill and exposed seal installed along a control joint in fire-resistant construction to retain the documented fire performance.
+- **firestop mortar** (`AU-FS-FIRESTOP-MORTAR`) — A cementitious, gypsum or proprietary fire-resistant mortar placed into a service opening to create a rigid supporting seal around documented services or sleeves.
+- **firestop penetration sleeve** (`AU-FS-FIRESTOP-SLEEVE`) — A metal or other tested tube, box or formed liner built into a wall or floor opening to define the service passage and receive a compatible firestop system.
+- **firestop pipe bandage** (`AU-FS-FIRESTOP-BANDAGE`) — A flexible fire-protective strip wrapped around a non-combustible pipe, combustible insulation or another documented service near the penetration to limit heat transfer or burning insulation effects.
+- **firestop putty pad** (`AU-FS-FIRESTOP-PUTTY-PAD`) — A malleable preformed intumescent or fire-resistant pad wrapped around the outside or rear of an electrical box or another documented small service item.
+- **firestop system fixing** (`AU-FS-FIRESTOP-FIXING`) — A steel anchor, screw, washer, bracket, strap, pin or other documented fixing retaining a collar, board, batt, wrap, mesh or firestop support to the host construction.
+- **firestop system identification label** (`AU-FS-FIRESTOP-IDENTIFICATION-LABEL`) — A durable label or tag fixed beside a firestop installation to identify the system, installer, date, rating, service or inspection information needed for traceability.
+- **flexible firestop sealant** (`AU-FS-FLEXIBLE-FIRESTOP-SEALANT`) — A tested flexible acrylic, silicone or other sealant installed over suitable backing to protect a service annulus or linear joint while accommodating documented movement.
+- **garage-top dwelling fire-separation assembly** (`AU-FS-GARAGE-TOP-FIRE-SEPARATION-ASSEMBLY`) — The walls, separating floor, protected ceiling or soffit, supporting elements and service treatments between a garage-top dwelling and a non-associated private garage.
+- **garage-top heat-alarm durable notice** (`AU-FS-HEAT-ALARM-DURABLE-NOTICE`) — A permanently fixed, legible notice at the relevant dwelling and non-associated garage identifying the installed heat alarm and its interconnection with the dwelling smoke alarms where required by the jurisdictional path.
+- **hardwired smoke-alarm interconnect cable** (`AU-FS-HARDWIRED-ALARM-INTERCONNECT-CABLE`) — The compatible fixed wiring conductor or cable linking alarm interconnect terminals so activation of one alarm initiates the warning outputs of other alarms in the same system.
+- **heat-alarm sensing element** (`AU-FS-HEAT-ALARM-SENSOR`) — A thermistor, bimetallic element or other certified thermal sensor exposed through or thermally coupled to the heat-alarm enclosure.
+- **hollow glass block** (`AU-FS-HOLLOW-GLASS-BLOCK`) — A factory-made translucent hollow glass masonry unit laid or assembled with matching units to fill a non-openable opening.
+- **hollow glass-block joint** (`AU-FS-GLASS-BLOCK-JOINT`) — The mortar, spacer, sealant or proprietary channel joint separating and connecting hollow glass blocks within a panel and at its perimeter.
+- **hollow glass-block opening assembly** (`AU-FS-HOLLOW-GLASS-BLOCK-OPENING`) — A non-openable translucent infill panel built from hollow glass blocks, joints, perimeter channels or reinforcement and seals within a permitted external-wall opening.
+- **intumescent fire collar** (`AU-FS-FIRE-COLLAR`) — A steel or other durable housing containing intumescent material, fitted around a combustible pipe or service so expansion under fire can close the opening left as the service softens or burns away.
+- **intumescent firestop sealant** (`AU-FS-INTUMESCENT-FIRESTOP-SEALANT`) — A cartridge or bulk-applied compound that seals a joint or annular gap and expands when heated to close spaces or combustible-service voids within its tested application.
+- **intumescent firestop wrap** (`AU-FS-FIRESTOP-WRAP`) — A flexible strip or roll of intumescent material wrapped in a specified number of layers around a combustible service and recessed, sleeved or retained at the penetration.
+- **intumescent structural fire-protective coating** (`AU-FS-INTUMESCENT-STRUCTURAL-FIRE-COATING`) — A reactive coating system applied to a prepared structural member that swells under fire exposure to form an insulating char, including compatible primer and protective topcoat where required.
+- **ionisation domestic smoke alarm** (`AU-FS-IONISATION-SMOKE-ALARM`) — A domestic smoke alarm whose sensing chamber detects changes in an ionised air current and includes the product's warning, power and mounting components.
+- **lightweight fire-separating wall assembly** (`AU-FS-LIGHTWEIGHT-SEPARATING-WALL-ASSEMBLY`) — A tested framed separating wall made from specified studs, tracks, cavities, fire-resistant lining layers, fixings, joints, seals and junction details.
+- **lightweight separating-wall frame** (`AU-FS-SEPARATING-WALL-FRAME`) — The selected studs, tracks, noggings, clips and local opening members that support lining layers and maintain the geometry of a tested lightweight separating wall.
+- **linear-joint firestop assembly** (`AU-FS-LINEAR-JOINT-FIRESTOP-ASSEMBLY`) — A tested fire-resistant joint system extending along a construction, control or movement gap between fire-resistant elements, including backing, fill, seal and edge preparation.
+- **mains-powered domestic smoke alarm** (`AU-FS-MAINS-POWERED-SMOKE-ALARM`) — A domestic smoke alarm connected to the building consumer mains supply and normally fitted with a documented backup battery and interconnection terminals or module.
+- **masonry fire-separating wall assembly** (`AU-FS-MASONRY-SEPARATING-WALL-ASSEMBLY`) — A separating wall formed from a continuous masonry leaf or leaves with mortar joints, supports, junctions and opening protection, using the applicable masonry construction path.
+- **masonry-veneer junction fire-resisting packing** (`AU-FS-VENEER-JUNCTION-FIRE-PACKING`) — The mineral-fibre or other suitable fire-resisting packing installed vertically between a separating-wall end and the external masonry veneer while retaining weatherproofing and drainage paths.
+- **mineral-fibre fire-resisting gap packing** (`AU-FS-MINERAL-FIBRE-FIRE-PACKING`) — Mineral fibre or another documented fire-resisting material compressed or fitted into a construction gap to close a fire path while accommodating the junction geometry.
+- **mixed-service penetration firestop assembly** (`AU-FS-MULTI-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY`) — One evidence-backed opening system containing a documented combination of pipes, cables, conduits, trays or other services with their spacing, infill and support arrangement.
+- **multi-sensor smoke-and-heat alarm** (`AU-FS-MULTISENSOR-SMOKE-HEAT-ALARM`) — A domestic alarm product combining a smoke-sensing technology with a thermal sensor and using both inputs according to its certified product logic.
+- **non-combustible roof-space vertical lining** (`AU-FS-NONCOMBUSTIBLE-ROOF-SPACE-VERTICAL-LINING`) — The vertical non-combustible sheet or panel that physically divides a common eave, verandah or similar space open to the roof space between dwellings.
+- **non-openable fire window assembly** (`AU-FS-NONOPENABLE-FIRE-WINDOW-ASSEMBLY`) — A fixed, non-openable window product with documented fire resistance, comprising its frame, fire-resistant glazing, retention, seals, fixings and wall perimeter detail.
+- **non-openable fire-window frame** (`AU-FS-NONOPENABLE-FIRE-WINDOW-FRAME`) — The fixed tested perimeter frame, rebates, beads and anchors that supports fire-resistant glazing in a non-openable fire-window assembly.
+- **passive firestop system** (`AU-FS-PASSIVE-FIRESTOP-SYSTEM`) — The tested or assessed combination of opening, host wall or floor, penetrating service or joint, firestop products, supports, fixings and identification that restores the required fire separation.
+- **photoelectric domestic smoke alarm** (`AU-FS-PHOTOELECTRIC-SMOKE-ALARM`) — A domestic smoke alarm whose sensing chamber detects smoke through scattered or transmitted light and includes the product's warning, power and mounting components.
+- **pipe-penetration firestop assembly** (`AU-FS-PIPE-PENETRATION-FIRESTOP-ASSEMBLY`) — A service-penetration system selected for a specific plastic, metal, composite or insulated pipe, host construction, opening and orientation.
+- **protected-opening door closer** (`AU-FS-SELF-CLOSING-DOOR-CLOSER`) — A surface-mounted, concealed, floor-spring or hinge-integrated mechanism that returns the protected door leaf to its closed position after opening.
+- **protected-opening door frame** (`AU-FS-PROTECTED-OPENING-DOOR-FRAME`) — The fixed head, jambs, stops, anchors and perimeter interface supporting a solid-core protected-opening door or tested fire-resistant doorset.
+- **protected-opening door latch** (`AU-FS-PROTECTED-OPENING-DOOR-LATCH`) — A latch or lockset that holds a self-closing protected door leaf in its closed position without preventing normal release for egress.
+- **remote smoke-alarm control** (`AU-FS-REMOTE-ALARM-CONTROL`) — A wall-mounted or portable compatible control used to test, locate, silence, reset or display memory for interconnected domestic alarms.
+- **removable firestop pillow** (`AU-FS-FIRESTOP-PILLOW`) — A compressible fabric or polymer pillow containing mineral or intumescent fill, packed in a documented arrangement around cables or services where later access may be required.
+- **removable firestop plug** (`AU-FS-FIRESTOP-PLUG`) — A preformed cylindrical, conical or shaped compressible firestop unit inserted into a compatible small opening or sleeve around cables or as a temporary spare-opening closure.
+- **replaceable smoke-alarm battery** (`AU-FS-REPLACEABLE-ALARM-BATTERY`) — A user- or service-replaceable alkaline, lithium or other approved cell connected through a battery clip or contacts inside the alarm's accessible compartment.
+- **replaceable smoke-alarm head** (`AU-FS-SMOKE-ALARM-HEAD`) — The removable sensing and warning body of a modular domestic smoke alarm that twists, slides or clips onto a compatible powered or passive mounting base.
+- **residential fire-safety construction system** (`AU-FS-FIRE-SAFETY-SYSTEM`) — The coordinated passive and active construction used to limit fire spread, protect separating elements and openings, and warn occupants in a Class 1 or associated Class 10 building.
+- **retrofit fire collar** (`AU-FS-RETROFIT-FIRE-COLLAR`) — A split, hinged or segmented fire collar installed around an existing service after the pipe or cable is in place and mechanically fixed to the host surface.
+- **rigid fire-protection board** (`AU-FS-FIRE-PROTECTION-BOARD`) — A rigid calcium-silicate, vermiculite, gypsum, fibre-cement or other tested board used to line or enclose construction for passive fire protection.
+- **sealed long-life alarm battery** (`AU-FS-SEALED-LITHIUM-ALARM-BATTERY`) — A non-removable lithium cell or battery pack permanently connected within an alarm for its stated service life and isolated or activated by the product's mounting arrangement where provided.
+- **self-closing solid-core fire-separation door assembly** (`AU-FS-SELF-CLOSING-SOLID-CORE-DOOR-ASSEMBLY`) — The Housing Provisions external-wall opening alternative made from a solid-core door leaf of the required construction, frame, hinges, latch and a device that returns the leaf to closed position.
+- **separating-wall cavity** (`AU-FS-SEPARATING-WALL-CAVITY`) — A deliberate clear or insulated space between wall leaves, framing rows or lining layers in a fire-separating wall, bounded by the tested assembly and interrupted only by documented components.
+- **separating-wall mineral-wool insulation** (`AU-FS-SEPARATING-WALL-MINERAL-WOOL-INSULATION`) — Mineral-wool batts or slabs installed within a separating wall or floor cavity as the product, density, thickness and fit specified by the selected tested system.
+- **separating-wall-to-masonry-veneer fire closure** (`AU-FS-WALL-TO-VENEER-FIRE-CLOSURE`) — The mineral-fibre or other suitable fire-resisting closure in the gap between a separating wall and an external masonry veneer, arranged with the weatherproofing layers.
+- **separating-wall-to-roof fire termination** (`AU-FS-WALL-TO-ROOF-FIRE-TERMINATION`) — The detailed top junction where a separating or fire-resisting external wall meets the roof covering, eaves lining, fascia, gutter or flashing and every residual gap is closed as required.
+- **service support adjacent to firestop** (`AU-FS-SERVICE-SUPPORT-NEAR-FIRESTOP`) — A pipe clamp, cable-tray bracket, hanger, saddle or other support located near a penetration to hold the service in the position and loading condition assumed by the firestop system.
+- **service-penetration firestop assembly** (`AU-FS-SERVICE-PENETRATION-FIRESTOP-ASSEMBLY`) — A passive firestop system around one or more pipes, cables, conduits, ducts or mixed services passing through a fire-resistant wall or floor.
+- **smoke alarm with integrated evacuation light** (`AU-FS-INTEGRATED-ALARM-EVACUATION-LIGHT`) — A smoke alarm product incorporating a lamp or light-emitting array that illuminates the associated Class 1b evacuation area when the alarm is activated.
+- **smoke-alarm ionisation sensing chamber** (`AU-FS-IONISATION-SENSOR-CHAMBER`) — The screened chamber, electrodes and sealed low-activity source inside an ionisation smoke alarm that measures changes to ionised current as smoke enters.
+- **smoke-alarm mains connector and terminal block** (`AU-FS-ALARM-MAINS-CONNECTOR`) — The plug, fly lead or terminal block connecting a mains-powered alarm base to active, neutral, earth or loop and interconnect conductors as provided by the compatible product.
+- **smoke-alarm mounting base** (`AU-FS-SMOKE-ALARM-MOUNTING-BASE`) — A screw-fixed plate or shallow enclosure attached to the ceiling or wall that locates the alarm head and may carry mains, interconnect, relay or wireless contacts.
+- **smoke-alarm photoelectric sensing chamber** (`AU-FS-PHOTOELECTRIC-SENSOR-CHAMBER`) — The baffled optical chamber, light source, receiver and insect or dust screen inside a photoelectric smoke alarm where entering smoke changes the measured light signal.
+- **smoke-alarm sensing-chamber insect screen** (`AU-FS-SMOKE-CHAMBER-INSECT-SCREEN`) — A fine mesh or perforated barrier over the sensing-chamber air path that limits insect and larger dust entry while admitting smoke within the certified product design.
+- **smoke-alarm-activated evacuation light fitting** (`AU-FS-ALARM-ACTIVATED-EVACUATION-LIGHT-FITTING`) — A separate fixed luminaire in a Class 1b corridor, hallway or served area wired or controlled to illuminate when the associated smoke alarm activates.
+- **solid-core fire-separation door leaf** (`AU-FS-SOLID-CORE-DOOR-LEAF`) — A hinged solid-core door leaf of the material, thickness and construction selected for the Housing Provisions protected-opening alternative.
+- **sprayed fire-resistive material** (`AU-FS-SPRAYED-FIRE-RESISTIVE-MATERIAL`) — A wet- or dry-sprayed cementitious, gypsum, vermiculite, mineral-fibre or proprietary material built to a documented thickness on structural steel, concrete, decks or ducts.
+- **structural fire-protection concrete encasement** (`AU-FS-FIRE-PROTECTION-CONCRETE-ENCASEMENT`) — A concrete or grout body cast around a steel or other structural member, with reinforcement, cover, joints and connections detailed to provide structural and fire-protection roles.
+- **structural fire-protection system** (`AU-FS-STRUCTURAL-FIRE-PROTECTION-SYSTEM`) — A selected board enclosure, spray, intumescent coating or encasement applied around a structural member as a complete evidence-backed system with preparation, fixings and finishes.
+- **top-of-wall fire-resisting packing** (`AU-FS-TOP-OF-WALL-FIRE-PACKING`) — The mineral-fibre or other suitable fire-resisting packing closing the residual gap between the top of a separating wall and the underside of a non-combustible roof covering or protected construction.
+- **wireless smoke-alarm interconnect module** (`AU-FS-WIRELESS-ALARM-INTERCONNECT-MODULE`) — A radio transmitter and receiver module fitted inside an alarm head or base so compatible smoke, heat and accessory devices share alarm and control signals.
+- **wireless-interconnect smoke-alarm base** (`AU-FS-WIRELESS-INTERCONNECT-ALARM-BASE`) — A compatible alarm mounting base containing or receiving a radio module so alarm activation and control signals can be shared without a dedicated interconnect conductor between devices.
+
+## Cross-discipline links
+
+- `AU-FS-CABLE-PENETRATION-FIRESTOP-ASSEMBLY` commonly used with `AU-EL-CABLE-SLEEVE`
+- `AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT` commonly used with `AU-HA-ACOUSTIC-PERIMETER-SEALANT`
+- `AU-FS-FIRE-LINING-SCREW` alternative to `AU-IL-PLASTERBOARD-SCREW`
+- `AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE` alternative to `AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE`
+- `AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING` commonly used with `AU-HA-ACOUSTIC-PLASTERBOARD-LINING`
+- `AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING` commonly used with `AU-IL-MULTILAYER-LINING-ASSEMBLY`
+- `AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY` commonly used with `AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY`
+- `AU-FS-FIRESTOP-PUTTY-PAD` commonly used with `AU-HA-ELECTRICAL-BOX-ACOUSTIC-PAD`
+- `AU-FS-PASSIVE-FIRESTOP-SYSTEM` commonly used with `AU-CL-FACADE-CAVITY-BARRIER`
+- `AU-FS-SELF-CLOSING-DOOR-CLOSER` commonly used with `AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY`
+- `AU-FS-SOLID-CORE-DOOR-LEAF` commonly used with `AU-ID-SOLID-CORE-FLUSH-DOOR-LEAF`
+- `AU-FS-WALL-TO-ROOF-FIRE-TERMINATION` commonly used with `AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION`

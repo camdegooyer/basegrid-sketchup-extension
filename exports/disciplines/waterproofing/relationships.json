@@ -1,0 +1,2428 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "waterproofing",
+  "relationships": [
+    {
+      "id": "REL-8637-WP-BATH-LIP-WATERSTOP-PART-OF-AU-WP-INSERTED-BATH-ASSEMBLY",
+      "from_id": "AU-WP-BATH-LIP-WATERSTOP",
+      "relationship": "part_of",
+      "to_id": "AU-WP-INSERTED-BATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8638-WP-BATH-OR-SPA-VESSEL-PART-OF-AU-WP-BATH-SURROUND-ASSEMBLY",
+      "from_id": "AU-WP-BATH-OR-SPA-VESSEL",
+      "relationship": "part_of",
+      "to_id": "AU-WP-BATH-SURROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8639-WP-BATH-SHELF-PART-OF-AU-WP-INSERTED-BATH-ASSEMBLY",
+      "from_id": "AU-WP-BATH-SHELF",
+      "relationship": "part_of",
+      "to_id": "AU-WP-INSERTED-BATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8640-WP-BATH-SURROUND-ASSEMBLY-HAS-PART-AU-WP-BATH-OR-SPA-VESSEL",
+      "from_id": "AU-WP-BATH-SURROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-BATH-OR-SPA-VESSEL",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8641-WP-BATH-SURROUND-ASSEMBLY-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-BATH-SURROUND-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8643-WP-BOND-BREAKER-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-BOND-BREAKER",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-SA-AS-NZS-4858-2004"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8645-WP-BOND-BREAKER-BACKING-ROD-IS-A-AU-WP-BOND-BREAKER",
+      "from_id": "AU-WP-BOND-BREAKER-BACKING-ROD",
+      "relationship": "is_a",
+      "to_id": "AU-WP-BOND-BREAKER",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8646-WP-BOND-BREAKER-BACKING-ROD-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-BOND-BREAKER-BACKING-ROD",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8648-WP-BOND-BREAKER-FILLET-IS-A-AU-WP-BOND-BREAKER",
+      "from_id": "AU-WP-BOND-BREAKER-FILLET",
+      "relationship": "is_a",
+      "to_id": "AU-WP-BOND-BREAKER",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8649-WP-BOND-BREAKER-FILLET-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-BOND-BREAKER-FILLET",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8651-WP-BOND-BREAKER-TAPE-IS-A-AU-WP-BOND-BREAKER",
+      "from_id": "AU-WP-BOND-BREAKER-TAPE",
+      "relationship": "is_a",
+      "to_id": "AU-WP-BOND-BREAKER",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8652-WP-BOND-BREAKER-TAPE-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-BOND-BREAKER-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8653-WP-CEMENT-RENDER-WALL-SUBSTRATE-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-CEMENT-RENDER-WALL-SUBSTRATE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8655-WP-COMPRESSED-FC-FLOOR-SHEET-IS-A-AU-WP-WET-AREA-FLOOR-SUBSTRATE",
+      "from_id": "AU-WP-COMPRESSED-FC-FLOOR-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-FLOOR-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8656-WP-COMPRESSED-FC-FLOOR-SHEET-PART-OF-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-COMPRESSED-FC-FLOOR-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8657-WP-CONCRETE-WET-AREA-SUBSTRATE-COMMONLY-USED-WITH-AU-WP-WET-AREA-MEMBRANE",
+      "from_id": "AU-WP-CONCRETE-WET-AREA-SUBSTRATE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WP-WET-AREA-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8658-WP-CONCRETE-WET-AREA-SUBSTRATE-IS-A-AU-WP-WET-AREA-FLOOR-SUBSTRATE",
+      "from_id": "AU-WP-CONCRETE-WET-AREA-SUBSTRATE",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-FLOOR-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8660-WP-DRAINAGE-FLANGE-PART-OF-AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "from_id": "AU-WP-DRAINAGE-FLANGE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8661-WP-DRAINAGE-RISER-PART-OF-AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "from_id": "AU-WP-DRAINAGE-RISER",
+      "relationship": "part_of",
+      "to_id": "AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8663-WP-ENCLOSED-SHOWER-ASSEMBLY-IS-A-AU-WP-SHOWER-AREA-ASSEMBLY",
+      "from_id": "AU-WP-ENCLOSED-SHOWER-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-WP-SHOWER-AREA-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8664-WP-EXTERNAL-MEMBRANE-SYSTEM-HAS-PART-AU-WP-EXTERNAL-VERTICAL-FLASHING",
+      "from_id": "AU-WP-EXTERNAL-MEMBRANE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-EXTERNAL-VERTICAL-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8665-WP-EXTERNAL-MEMBRANE-SYSTEM-IS-A-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-EXTERNAL-MEMBRANE-SYSTEM",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8666-WP-EXTERNAL-MEMBRANE-SYSTEM-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-EXTERNAL-MEMBRANE-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8667-WP-EXTERNAL-VERTICAL-FLASHING-PART-OF-AU-WP-EXTERNAL-MEMBRANE-SYSTEM",
+      "from_id": "AU-WP-EXTERNAL-VERTICAL-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-WP-EXTERNAL-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8669-WP-FALL-FORMING-SCREED-PART-OF-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-FALL-FORMING-SCREED",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8671-WP-FASTENER-PENETRATION-SEAL-IS-A-AU-WP-WET-AREA-PENETRATION-SEAL",
+      "from_id": "AU-WP-FASTENER-PENETRATION-SEAL",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-PENETRATION-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8672-WP-FASTENER-PENETRATION-SEAL-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-FASTENER-PENETRATION-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8674-WP-FC-WET-AREA-WALL-SHEET-IS-A-AU-WP-WET-AREA-WALL-SUBSTRATE",
+      "from_id": "AU-WP-FC-WET-AREA-WALL-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-WALL-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8675-WP-FC-WET-AREA-WALL-SHEET-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-FC-WET-AREA-WALL-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8676-WP-FLEXIBLE-TILE-SEALANT-JOINT-PART-OF-AU-WP-TILED-WET-AREA-FLOOR",
+      "from_id": "AU-WP-FLEXIBLE-TILE-SEALANT-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8677-WP-FLEXIBLE-TILE-SEALANT-JOINT-PART-OF-AU-WP-TILED-WET-AREA-WALL",
+      "from_id": "AU-WP-FLEXIBLE-TILE-SEALANT-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8678-WP-FLOOR-WASTE-ASSEMBLY-HAS-PART-AU-WP-FLOOR-WASTE-BODY",
+      "from_id": "AU-WP-FLOOR-WASTE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-FLOOR-WASTE-BODY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8679-WP-FLOOR-WASTE-ASSEMBLY-HAS-PART-AU-WP-FLOOR-WASTE-GRATE",
+      "from_id": "AU-WP-FLOOR-WASTE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-FLOOR-WASTE-GRATE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8680-WP-FLOOR-WASTE-ASSEMBLY-PART-OF-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-FLOOR-WASTE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ABCB-WATERPROOFING-HOUSES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8681-WP-FLOOR-WASTE-BODY-PART-OF-AU-WP-FLOOR-WASTE-ASSEMBLY",
+      "from_id": "AU-WP-FLOOR-WASTE-BODY",
+      "relationship": "part_of",
+      "to_id": "AU-WP-FLOOR-WASTE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8682-WP-FLOOR-WASTE-GRATE-PART-OF-AU-WP-FLOOR-WASTE-ASSEMBLY",
+      "from_id": "AU-WP-FLOOR-WASTE-GRATE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-FLOOR-WASTE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8683-WP-HOB-SHOWER-ASSEMBLY-HAS-PART-AU-WP-SHOWER-HOB",
+      "from_id": "AU-WP-HOB-SHOWER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-SHOWER-HOB",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8684-WP-HOB-SHOWER-ASSEMBLY-IS-A-AU-WP-ENCLOSED-SHOWER-ASSEMBLY",
+      "from_id": "AU-WP-HOB-SHOWER-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-WP-ENCLOSED-SHOWER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8685-WP-IN-SITU-SHOWER-TRAY-ASSEMBLY-IS-A-AU-WP-SHOWER-AREA-ASSEMBLY",
+      "from_id": "AU-WP-IN-SITU-SHOWER-TRAY-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-WP-SHOWER-AREA-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8686-WP-INSERTED-BATH-ASSEMBLY-HAS-PART-AU-WP-BATH-LIP-WATERSTOP",
+      "from_id": "AU-WP-INSERTED-BATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-BATH-LIP-WATERSTOP",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8687-WP-INSERTED-BATH-ASSEMBLY-HAS-PART-AU-WP-BATH-SHELF",
+      "from_id": "AU-WP-INSERTED-BATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-BATH-SHELF",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8688-WP-INSERTED-BATH-ASSEMBLY-HAS-PART-AU-WP-VESSEL-UPTURN-LIP",
+      "from_id": "AU-WP-INSERTED-BATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-VESSEL-UPTURN-LIP",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8689-WP-INSERTED-BATH-ASSEMBLY-IS-A-AU-WP-BATH-SURROUND-ASSEMBLY",
+      "from_id": "AU-WP-INSERTED-BATH-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-WP-BATH-SURROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8690-WP-INTERNAL-MEMBRANE-SYSTEM-IS-A-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-INTERNAL-MEMBRANE-SYSTEM",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8691-WP-INTERNAL-MEMBRANE-SYSTEM-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-INTERNAL-MEMBRANE-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8692-WP-INTERNAL-VERTICAL-FLASHING-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-INTERNAL-VERTICAL-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8693-WP-LEVEL-THRESHOLD-SHOWER-ASSEMBLY-HAS-PART-AU-WP-SHOWER-SCREEN-INVERTED-CHANNEL",
+      "from_id": "AU-WP-LEVEL-THRESHOLD-SHOWER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-SHOWER-SCREEN-INVERTED-CHANNEL",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8694-WP-LEVEL-THRESHOLD-SHOWER-ASSEMBLY-IS-A-AU-WP-SHOWER-AREA-ASSEMBLY",
+      "from_id": "AU-WP-LEVEL-THRESHOLD-SHOWER-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-WP-SHOWER-AREA-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8695-WP-LINEAR-DRAIN-CHANNEL-PART-OF-AU-WP-LINEAR-FLOOR-DRAIN-ASSEMBLY",
+      "from_id": "AU-WP-LINEAR-DRAIN-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-WP-LINEAR-FLOOR-DRAIN-ASSEMBLY",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8696-WP-LINEAR-FLOOR-DRAIN-ASSEMBLY-HAS-PART-AU-WP-LINEAR-DRAIN-CHANNEL",
+      "from_id": "AU-WP-LINEAR-FLOOR-DRAIN-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-LINEAR-DRAIN-CHANNEL",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8697-WP-LINEAR-FLOOR-DRAIN-ASSEMBLY-IS-A-AU-WP-FLOOR-WASTE-ASSEMBLY",
+      "from_id": "AU-WP-LINEAR-FLOOR-DRAIN-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-WP-FLOOR-WASTE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8698-WP-LINEAR-FLOOR-DRAIN-ASSEMBLY-PART-OF-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-LINEAR-FLOOR-DRAIN-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8699-WP-LIQUID-APPLIED-MEMBRANE-IS-A-AU-WP-WET-AREA-MEMBRANE",
+      "from_id": "AU-WP-LIQUID-APPLIED-MEMBRANE",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-MEMBRANE",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-SA-AS-NZS-4858-2004"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8700-WP-MEMBRANE-CORNER-BAND-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-MEMBRANE-CORNER-BAND",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8701-WP-MEMBRANE-DRAINAGE-CONNECTION-HAS-PART-AU-WP-DRAINAGE-FLANGE",
+      "from_id": "AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-WP-DRAINAGE-FLANGE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8702-WP-MEMBRANE-DRAINAGE-CONNECTION-HAS-PART-AU-WP-DRAINAGE-RISER",
+      "from_id": "AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-WP-DRAINAGE-RISER",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8703-WP-MEMBRANE-DRAINAGE-CONNECTION-HAS-PART-AU-WP-PUDDLE-FLANGE",
+      "from_id": "AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "relationship": "has_part",
+      "to_id": "AU-WP-PUDDLE-FLANGE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8704-WP-MEMBRANE-DRAINAGE-CONNECTION-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8706-WP-MEMBRANE-PENETRATION-COLLAR-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-MEMBRANE-PENETRATION-COLLAR",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8707-WP-MEMBRANE-PRIMER-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-MEMBRANE-PRIMER",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8708-WP-MEMBRANE-REINFORCEMENT-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-MEMBRANE-REINFORCEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8709-WP-MOSAIC-TILE-SHEET-PART-OF-AU-WP-TILED-WET-AREA-FLOOR",
+      "from_id": "AU-WP-MOSAIC-TILE-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "source_ids": [
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8710-WP-MOSAIC-TILE-SHEET-PART-OF-AU-WP-TILED-WET-AREA-WALL",
+      "from_id": "AU-WP-MOSAIC-TILE-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-WALL",
+      "source_ids": [
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8711-WP-PERIMETER-FLASHING-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-PERIMETER-FLASHING",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8712-WP-PREDECORATED-FC-WALL-SHEET-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-PREDECORATED-FC-WALL-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8713-WP-PREFORMED-SHOWER-BASE-ASSEMBLY-HAS-PART-AU-WP-PREFORMED-SHOWER-BASE-UNIT",
+      "from_id": "AU-WP-PREFORMED-SHOWER-BASE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-PREFORMED-SHOWER-BASE-UNIT",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8714-WP-PREFORMED-SHOWER-BASE-ASSEMBLY-HAS-PART-AU-WP-SHOWER-BASE-SUPPORT",
+      "from_id": "AU-WP-PREFORMED-SHOWER-BASE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-SHOWER-BASE-SUPPORT",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8715-WP-PREFORMED-SHOWER-BASE-ASSEMBLY-HAS-PART-AU-WP-VESSEL-UPTURN-LIP",
+      "from_id": "AU-WP-PREFORMED-SHOWER-BASE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-VESSEL-UPTURN-LIP",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8716-WP-PREFORMED-SHOWER-BASE-ASSEMBLY-IS-A-AU-WP-SHOWER-AREA-ASSEMBLY",
+      "from_id": "AU-WP-PREFORMED-SHOWER-BASE-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-WP-SHOWER-AREA-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8717-WP-PREFORMED-SHOWER-BASE-UNIT-PART-OF-AU-WP-PREFORMED-SHOWER-BASE-ASSEMBLY",
+      "from_id": "AU-WP-PREFORMED-SHOWER-BASE-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-WP-PREFORMED-SHOWER-BASE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8718-WP-PROPRIETARY-PENETRATION-FLANGE-IS-A-AU-WP-WET-AREA-PENETRATION-SEAL",
+      "from_id": "AU-WP-PROPRIETARY-PENETRATION-FLANGE",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-PENETRATION-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8719-WP-PROPRIETARY-PENETRATION-FLANGE-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-PROPRIETARY-PENETRATION-FLANGE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8720-WP-PUDDLE-FLANGE-IS-A-AU-WP-DRAINAGE-FLANGE",
+      "from_id": "AU-WP-PUDDLE-FLANGE",
+      "relationship": "is_a",
+      "to_id": "AU-WP-DRAINAGE-FLANGE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8721-WP-PUDDLE-FLANGE-PART-OF-AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "from_id": "AU-WP-PUDDLE-FLANGE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8722-WP-SANITARY-ACRYLIC-LINING-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-SANITARY-ACRYLIC-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8723-WP-SHEET-MEMBRANE-IS-A-AU-WP-WET-AREA-MEMBRANE",
+      "from_id": "AU-WP-SHEET-MEMBRANE",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-MEMBRANE",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-SA-AS-NZS-4858-2004"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8724-WP-SHOWER-AREA-ASSEMBLY-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-SHOWER-AREA-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8725-WP-SHOWER-BASE-SUPPORT-PART-OF-AU-WP-PREFORMED-SHOWER-BASE-ASSEMBLY",
+      "from_id": "AU-WP-SHOWER-BASE-SUPPORT",
+      "relationship": "part_of",
+      "to_id": "AU-WP-PREFORMED-SHOWER-BASE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8726-WP-SHOWER-HOB-PART-OF-AU-WP-HOB-SHOWER-ASSEMBLY",
+      "from_id": "AU-WP-SHOWER-HOB",
+      "relationship": "part_of",
+      "to_id": "AU-WP-HOB-SHOWER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8728-WP-SHOWER-SCREEN-INVERTED-CHANNEL-PART-OF-AU-WP-LEVEL-THRESHOLD-SHOWER-ASSEMBLY",
+      "from_id": "AU-WP-SHOWER-SCREEN-INVERTED-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-WP-LEVEL-THRESHOLD-SHOWER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8729-WP-SHOWER-STEPDOWN-PART-OF-AU-WP-STEPDOWN-SHOWER-ASSEMBLY",
+      "from_id": "AU-WP-SHOWER-STEPDOWN",
+      "relationship": "part_of",
+      "to_id": "AU-WP-STEPDOWN-SHOWER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8730-WP-STAINLESS-STEEL-WET-AREA-SURFACE-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-STAINLESS-STEEL-WET-AREA-SURFACE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8731-WP-STEPDOWN-SHOWER-ASSEMBLY-HAS-PART-AU-WP-SHOWER-STEPDOWN",
+      "from_id": "AU-WP-STEPDOWN-SHOWER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-SHOWER-STEPDOWN",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8732-WP-STEPDOWN-SHOWER-ASSEMBLY-IS-A-AU-WP-SHOWER-AREA-ASSEMBLY",
+      "from_id": "AU-WP-STEPDOWN-SHOWER-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-WP-SHOWER-AREA-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8733-WP-SUBSTRATE-LEVELLING-COMPOUND-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-SUBSTRATE-LEVELLING-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8734-WP-THERMOSETTING-LAMINATE-LINING-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-THERMOSETTING-LAMINATE-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8735-WP-TILE-ADHESIVE-PART-OF-AU-WP-TILED-WET-AREA-FLOOR",
+      "from_id": "AU-WP-TILE-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8736-WP-TILE-ADHESIVE-PART-OF-AU-WP-TILED-WET-AREA-WALL",
+      "from_id": "AU-WP-TILE-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-WALL",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8737-WP-TILE-BED-PART-OF-AU-WP-TILED-WET-AREA-FLOOR",
+      "from_id": "AU-WP-TILE-BED",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8738-WP-TILE-EDGE-TRIM-PART-OF-AU-WP-TILED-WET-AREA-FLOOR",
+      "from_id": "AU-WP-TILE-EDGE-TRIM",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8739-WP-TILE-EDGE-TRIM-PART-OF-AU-WP-TILED-WET-AREA-WALL",
+      "from_id": "AU-WP-TILE-EDGE-TRIM",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-WALL",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8740-WP-TILE-GROUT-PART-OF-AU-WP-TILED-WET-AREA-FLOOR",
+      "from_id": "AU-WP-TILE-GROUT",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8741-WP-TILE-GROUT-PART-OF-AU-WP-TILED-WET-AREA-WALL",
+      "from_id": "AU-WP-TILE-GROUT",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-WALL",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8742-WP-TILE-MOVEMENT-JOINT-PART-OF-AU-WP-TILED-WET-AREA-FLOOR",
+      "from_id": "AU-WP-TILE-MOVEMENT-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8744-WP-TILED-WET-AREA-FLOOR-HAS-PART-AU-WP-FLEXIBLE-TILE-SEALANT-JOINT",
+      "from_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WP-FLEXIBLE-TILE-SEALANT-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8745-WP-TILED-WET-AREA-FLOOR-HAS-PART-AU-WP-MOSAIC-TILE-SHEET",
+      "from_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WP-MOSAIC-TILE-SHEET",
+      "source_ids": [
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8746-WP-TILED-WET-AREA-FLOOR-HAS-PART-AU-WP-TILE-ADHESIVE",
+      "from_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WP-TILE-ADHESIVE",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8747-WP-TILED-WET-AREA-FLOOR-HAS-PART-AU-WP-TILE-BED",
+      "from_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WP-TILE-BED",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8748-WP-TILED-WET-AREA-FLOOR-HAS-PART-AU-WP-TILE-EDGE-TRIM",
+      "from_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WP-TILE-EDGE-TRIM",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8749-WP-TILED-WET-AREA-FLOOR-HAS-PART-AU-WP-TILE-GROUT",
+      "from_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WP-TILE-GROUT",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8750-WP-TILED-WET-AREA-FLOOR-HAS-PART-AU-WP-TILE-MOVEMENT-JOINT",
+      "from_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WP-TILE-MOVEMENT-JOINT",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8751-WP-TILED-WET-AREA-FLOOR-HAS-PART-AU-WP-WET-AREA-FLOOR-TILE",
+      "from_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-FLOOR-TILE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8752-WP-TILED-WET-AREA-FLOOR-IS-A-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8753-WP-TILED-WET-AREA-WALL-HAS-PART-AU-WP-FLEXIBLE-TILE-SEALANT-JOINT",
+      "from_id": "AU-WP-TILED-WET-AREA-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-WP-FLEXIBLE-TILE-SEALANT-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8754-WP-TILED-WET-AREA-WALL-HAS-PART-AU-WP-MOSAIC-TILE-SHEET",
+      "from_id": "AU-WP-TILED-WET-AREA-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-WP-MOSAIC-TILE-SHEET",
+      "source_ids": [
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8755-WP-TILED-WET-AREA-WALL-HAS-PART-AU-WP-TILE-ADHESIVE",
+      "from_id": "AU-WP-TILED-WET-AREA-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-WP-TILE-ADHESIVE",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8756-WP-TILED-WET-AREA-WALL-HAS-PART-AU-WP-TILE-EDGE-TRIM",
+      "from_id": "AU-WP-TILED-WET-AREA-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-WP-TILE-EDGE-TRIM",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8757-WP-TILED-WET-AREA-WALL-HAS-PART-AU-WP-TILE-GROUT",
+      "from_id": "AU-WP-TILED-WET-AREA-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-WP-TILE-GROUT",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8758-WP-TILED-WET-AREA-WALL-HAS-PART-AU-WP-WET-AREA-WALL-TILE",
+      "from_id": "AU-WP-TILED-WET-AREA-WALL",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-WALL-TILE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8759-WP-TILED-WET-AREA-WALL-IS-A-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-TILED-WET-AREA-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8760-WP-UNENCLOSED-SHOWER-ASSEMBLY-IS-A-AU-WP-SHOWER-AREA-ASSEMBLY",
+      "from_id": "AU-WP-UNENCLOSED-SHOWER-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-WP-SHOWER-AREA-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ABCB-WATERPROOFING-HOUSES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8761-WP-VESSEL-UPTURN-LIP-PART-OF-AU-WP-INSERTED-BATH-ASSEMBLY",
+      "from_id": "AU-WP-VESSEL-UPTURN-LIP",
+      "relationship": "part_of",
+      "to_id": "AU-WP-INSERTED-BATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8762-WP-VESSEL-UPTURN-LIP-PART-OF-AU-WP-PREFORMED-SHOWER-BASE-ASSEMBLY",
+      "from_id": "AU-WP-VESSEL-UPTURN-LIP",
+      "relationship": "part_of",
+      "to_id": "AU-WP-PREFORMED-SHOWER-BASE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8763-WP-WATER-RESISTANT-FLEXIBLE-WALL-SHEET-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-WATER-RESISTANT-FLEXIBLE-WALL-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8764-WP-WATER-RESISTANT-PLASTERBOARD-IS-A-AU-WP-WET-AREA-WALL-SUBSTRATE",
+      "from_id": "AU-WP-WATER-RESISTANT-PLASTERBOARD",
+      "relationship": "is_a",
+      "to_id": "AU-WP-WET-AREA-WALL-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8765-WP-WATER-RESISTANT-PLASTERBOARD-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-WATER-RESISTANT-PLASTERBOARD",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8767-WP-WATER-RESISTANT-SHEET-FLOOR-PART-OF-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-WATER-RESISTANT-SHEET-FLOOR",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8769-WP-WATERPROOF-FLEXIBLE-SHEET-FLOOR-PART-OF-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-WATERPROOF-FLEXIBLE-SHEET-FLOOR",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8770-WP-WATERPROOF-SHEET-JOINT-PART-OF-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-WATERPROOF-SHEET-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8772-WP-WATERSTOP-ANGLE-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-WATERSTOP-ANGLE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8773-WP-WET-AREA-CUT-EDGE-SEAL-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-CUT-EDGE-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8774-WP-WET-AREA-DOORWAY-TERMINATION-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-WET-AREA-DOORWAY-TERMINATION",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8775-WP-WET-AREA-FLOOR-ASSEMBLY-HAS-PART-AU-WP-COMPRESSED-FC-FLOOR-SHEET",
+      "from_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-COMPRESSED-FC-FLOOR-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8776-WP-WET-AREA-FLOOR-ASSEMBLY-HAS-PART-AU-WP-FALL-FORMING-SCREED",
+      "from_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-FALL-FORMING-SCREED",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8777-WP-WET-AREA-FLOOR-ASSEMBLY-HAS-PART-AU-WP-FLOOR-WASTE-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-FLOOR-WASTE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ABCB-WATERPROOFING-HOUSES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8778-WP-WET-AREA-FLOOR-ASSEMBLY-HAS-PART-AU-WP-LINEAR-FLOOR-DRAIN-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-LINEAR-FLOOR-DRAIN-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8779-WP-WET-AREA-FLOOR-ASSEMBLY-HAS-PART-AU-WP-WATER-RESISTANT-SHEET-FLOOR",
+      "from_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WATER-RESISTANT-SHEET-FLOOR",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8780-WP-WET-AREA-FLOOR-ASSEMBLY-HAS-PART-AU-WP-WATERPROOF-FLEXIBLE-SHEET-FLOOR",
+      "from_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WATERPROOF-FLEXIBLE-SHEET-FLOOR",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8781-WP-WET-AREA-FLOOR-ASSEMBLY-HAS-PART-AU-WP-WATERPROOF-SHEET-JOINT",
+      "from_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WATERPROOF-SHEET-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8782-WP-WET-AREA-FLOOR-ASSEMBLY-HAS-PART-AU-WP-WET-AREA-FLOOR-SUBSTRATE",
+      "from_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-FLOOR-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8783-WP-WET-AREA-FLOOR-ASSEMBLY-HAS-PART-AU-WP-WET-AREA-SHEET-JOINT",
+      "from_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-SHEET-JOINT",
+      "source_ids": [
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8784-WP-WET-AREA-FLOOR-ASSEMBLY-HAS-PART-AU-WP-WET-AREA-SUBSTRATE-FIXING",
+      "from_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-SUBSTRATE-FIXING",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8785-WP-WET-AREA-FLOOR-ASSEMBLY-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8786-WP-WET-AREA-FLOOR-SUBSTRATE-PART-OF-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-FLOOR-SUBSTRATE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8787-WP-WET-AREA-FLOOR-TILE-PART-OF-AU-WP-TILED-WET-AREA-FLOOR",
+      "from_id": "AU-WP-WET-AREA-FLOOR-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8788-WP-WET-AREA-MEMBRANE-COMMONLY-USED-WITH-AU-WP-CONCRETE-WET-AREA-SUBSTRATE",
+      "from_id": "AU-WP-WET-AREA-MEMBRANE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WP-CONCRETE-WET-AREA-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8789-WP-WET-AREA-MEMBRANE-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-WET-AREA-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-SA-AS-NZS-4858-2004"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8790-WP-WET-AREA-PENETRATION-SEAL-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-WET-AREA-PENETRATION-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8791-WP-WET-AREA-SHEET-JOINT-PART-OF-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-SHEET-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8792-WP-WET-AREA-SHEET-JOINT-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-SHEET-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8793-WP-WET-AREA-SUBSTRATE-FIXING-PART-OF-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-SUBSTRATE-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8794-WP-WET-AREA-SUBSTRATE-FIXING-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-SUBSTRATE-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8796-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-CEMENT-RENDER-WALL-SUBSTRATE",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-CEMENT-RENDER-WALL-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8797-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-FC-WET-AREA-WALL-SHEET",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-FC-WET-AREA-WALL-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8798-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-PREDECORATED-FC-WALL-SHEET",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-PREDECORATED-FC-WALL-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8799-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-SANITARY-ACRYLIC-LINING",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-SANITARY-ACRYLIC-LINING",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8800-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-THERMOSETTING-LAMINATE-LINING",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-THERMOSETTING-LAMINATE-LINING",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8801-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-WATER-RESISTANT-FLEXIBLE-WALL-SHEET",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WATER-RESISTANT-FLEXIBLE-WALL-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8802-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-WATER-RESISTANT-PLASTERBOARD",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WATER-RESISTANT-PLASTERBOARD",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8803-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-WET-AREA-CUT-EDGE-SEAL",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-CUT-EDGE-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8804-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-WET-AREA-SHEET-JOINT",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-SHEET-JOINT",
+      "source_ids": [
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8805-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-WET-AREA-SUBSTRATE-FIXING",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-SUBSTRATE-FIXING",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8806-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-WET-AREA-WALL-NICHE",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-WALL-NICHE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8807-WP-WET-AREA-WALL-ASSEMBLY-HAS-PART-AU-WP-WET-AREA-WALL-SUBSTRATE",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-WALL-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8808-WP-WET-AREA-WALL-ASSEMBLY-PART-OF-AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8809-WP-WET-AREA-WALL-NICHE-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-WALL-NICHE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8810-WP-WET-AREA-WALL-SUBSTRATE-PART-OF-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-WALL-SUBSTRATE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8811-WP-WET-AREA-WALL-TILE-PART-OF-AU-WP-TILED-WET-AREA-WALL",
+      "from_id": "AU-WP-WET-AREA-WALL-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-WP-TILED-WET-AREA-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8812-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-BATH-SURROUND-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-BATH-SURROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8813-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-BOND-BREAKER",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-BOND-BREAKER",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-SA-AS-NZS-4858-2004"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8814-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-BOND-BREAKER-BACKING-ROD",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-BOND-BREAKER-BACKING-ROD",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8815-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-BOND-BREAKER-FILLET",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-BOND-BREAKER-FILLET",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8816-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-BOND-BREAKER-TAPE",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-BOND-BREAKER-TAPE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8817-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-EXTERNAL-MEMBRANE-SYSTEM",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-EXTERNAL-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8818-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-FASTENER-PENETRATION-SEAL",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-FASTENER-PENETRATION-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8819-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-INTERNAL-MEMBRANE-SYSTEM",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-INTERNAL-MEMBRANE-SYSTEM",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8820-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-INTERNAL-VERTICAL-FLASHING",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-INTERNAL-VERTICAL-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8821-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-MEMBRANE-CORNER-BAND",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-MEMBRANE-CORNER-BAND",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8822-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-MEMBRANE-DRAINAGE-CONNECTION",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8823-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-MEMBRANE-PENETRATION-COLLAR",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-MEMBRANE-PENETRATION-COLLAR",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8824-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-MEMBRANE-PRIMER",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-MEMBRANE-PRIMER",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8825-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-MEMBRANE-REINFORCEMENT",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-MEMBRANE-REINFORCEMENT",
+      "source_ids": [
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8826-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-PERIMETER-FLASHING",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-PERIMETER-FLASHING",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8827-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-PROPRIETARY-PENETRATION-FLANGE",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-PROPRIETARY-PENETRATION-FLANGE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8828-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-SHOWER-AREA-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-SHOWER-AREA-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ABCB-V2-H4-WET-AREAS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8829-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-STAINLESS-STEEL-WET-AREA-SURFACE",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-STAINLESS-STEEL-WET-AREA-SURFACE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8830-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-SUBSTRATE-LEVELLING-COMPOUND",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-SUBSTRATE-LEVELLING-COMPOUND",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8831-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-WATERSTOP-ANGLE",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WATERSTOP-ANGLE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8832-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-WET-AREA-DOORWAY-TERMINATION",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-DOORWAY-TERMINATION",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8833-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8834-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-WET-AREA-MEMBRANE",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-SA-AS-NZS-4858-2004"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8835-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-WET-AREA-PENETRATION-SEAL",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-PENETRATION-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-ARDEX-INTERNAL-WET-AREA-SPECS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8836-WP-WET-AREA-WATERPROOFING-SYSTEM-HAS-PART-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-WATERPROOFING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025",
+        "SRC-KNAUF-WET-AREA-SYSTEM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-8642-WP-BOND-BREAKER-COMMONLY-USED-WITH-AU-DB-EXTERNAL-MEMBRANE-BOND-BREAKER",
+      "from_id": "AU-WP-BOND-BREAKER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-EXTERNAL-MEMBRANE-BOND-BREAKER",
+      "source_ids": [
+        "SRC-HIA-AS4654-2-OVERVIEW",
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8644-WP-BOND-BREAKER-BACKING-ROD-COMMONLY-USED-WITH-AU-DB-EXTERNAL-BACKING-ROD",
+      "from_id": "AU-WP-BOND-BREAKER-BACKING-ROD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-EXTERNAL-BACKING-ROD",
+      "source_ids": [
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8647-WP-BOND-BREAKER-FILLET-COMMONLY-USED-WITH-AU-DB-EXTERNAL-SEALANT-FILLET",
+      "from_id": "AU-WP-BOND-BREAKER-FILLET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-EXTERNAL-SEALANT-FILLET",
+      "source_ids": [
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8650-WP-BOND-BREAKER-TAPE-COMMONLY-USED-WITH-AU-DB-EXTERNAL-BOND-BREAKER-TAPE",
+      "from_id": "AU-WP-BOND-BREAKER-TAPE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-EXTERNAL-BOND-BREAKER-TAPE",
+      "source_ids": [
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8654-WP-COMPRESSED-FC-FLOOR-SHEET-COMMONLY-USED-WITH-AU-FF-FIBRE-CEMENT-FLOOR-UNDERLAY-SHEET",
+      "from_id": "AU-WP-COMPRESSED-FC-FLOOR-SHEET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-FIBRE-CEMENT-FLOOR-UNDERLAY-SHEET",
+      "source_ids": [
+        "SRC-DUNLOP-FLOOR-LEVELLERS",
+        "SRC-SA-AS-3958-2023",
+        "SRC-SA-AS1884-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8659-WP-DRAINAGE-FLANGE-COMMONLY-USED-WITH-AU-DB-BALCONY-DRAINAGE-FLANGE",
+      "from_id": "AU-WP-DRAINAGE-FLANGE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-BALCONY-DRAINAGE-FLANGE",
+      "source_ids": [
+        "SRC-SA-AS4654-2-2012",
+        "SRC-STORMTECH-BALCONY-DRAINAGE",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8662-WP-ENCLOSED-SHOWER-ASSEMBLY-COMMONLY-USED-WITH-AU-GL-SHOWER-SCREEN-ASSEMBLY",
+      "from_id": "AU-WP-ENCLOSED-SHOWER-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-GL-SHOWER-SCREEN-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8668-WP-FALL-FORMING-SCREED-ALTERNATIVE-TO-AU-FF-DRY-AREA-BONDED-FLOOR-SCREED",
+      "from_id": "AU-WP-FALL-FORMING-SCREED",
+      "relationship": "alternative_to",
+      "to_id": "AU-FF-DRY-AREA-BONDED-FLOOR-SCREED",
+      "source_ids": [
+        "SRC-ARDEX-FLOOR-PREPARATION",
+        "SRC-DUNLOP-FLOOR-LEVELLERS",
+        "SRC-SA-AS-3958-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8670-WP-FASTENER-PENETRATION-SEAL-COMMONLY-USED-WITH-AU-DB-EXTERNAL-FASTENER-PENETRATION-SEAL",
+      "from_id": "AU-WP-FASTENER-PENETRATION-SEAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-EXTERNAL-FASTENER-PENETRATION-SEAL",
+      "source_ids": [
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8673-WP-FC-WET-AREA-WALL-SHEET-COMMONLY-USED-WITH-AU-IL-GENERAL-INTERNAL-FIBRE-CEMENT-SHEET",
+      "from_id": "AU-WP-FC-WET-AREA-WALL-SHEET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-GENERAL-INTERNAL-FIBRE-CEMENT-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8705-WP-MEMBRANE-PENETRATION-COLLAR-COMMONLY-USED-WITH-AU-DB-MEMBRANE-PENETRATION-COLLAR",
+      "from_id": "AU-WP-MEMBRANE-PENETRATION-COLLAR",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-MEMBRANE-PENETRATION-COLLAR",
+      "source_ids": [
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8727-WP-SHOWER-SCREEN-INVERTED-CHANNEL-COMMONLY-USED-WITH-AU-GL-SHOWER-SCREEN-ASSEMBLY",
+      "from_id": "AU-WP-SHOWER-SCREEN-INVERTED-CHANNEL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-GL-SHOWER-SCREEN-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8743-WP-TILED-WET-AREA-FLOOR-ALTERNATIVE-TO-AU-FF-DRY-AREA-TILED-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-TILED-WET-AREA-FLOOR",
+      "relationship": "alternative_to",
+      "to_id": "AU-FF-DRY-AREA-TILED-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ARDEX-FLOOR-PREPARATION",
+        "SRC-SA-AS-3958-2023",
+        "SRC-SA-AS13006-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8766-WP-WATER-RESISTANT-SHEET-FLOOR-COMMONLY-USED-WITH-AU-FF-RESILIENT-SHEET-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-WATER-RESISTANT-SHEET-FLOOR",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-RESILIENT-SHEET-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ARFA-RESILIENT-TECHNICAL",
+        "SRC-FORBO-RESILIENT-INSTALL",
+        "SRC-POLYFLOR-SHEET-INSTALL",
+        "SRC-SA-AS1884-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8768-WP-WATERPROOF-FLEXIBLE-SHEET-FLOOR-COMMONLY-USED-WITH-AU-FF-RESILIENT-SHEET-FLOOR-ASSEMBLY",
+      "from_id": "AU-WP-WATERPROOF-FLEXIBLE-SHEET-FLOOR",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-RESILIENT-SHEET-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ARFA-RESILIENT-TECHNICAL",
+        "SRC-FORBO-RESILIENT-INSTALL",
+        "SRC-POLYFLOR-SHEET-INSTALL",
+        "SRC-SA-AS1884-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8771-WP-WATERSTOP-ANGLE-COMMONLY-USED-WITH-AU-DB-EXTERNAL-WATERSTOP-ANGLE",
+      "from_id": "AU-WP-WATERSTOP-ANGLE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-EXTERNAL-WATERSTOP-ANGLE",
+      "source_ids": [
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8795-WP-WET-AREA-WALL-ASSEMBLY-COMMONLY-USED-WITH-AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "from_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

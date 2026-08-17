@@ -1,0 +1,325 @@
+# Mechanical discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 220
+- Internal relationships: 547
+- Outgoing cross-discipline relationships: 9
+- Distinct supporting sources: 22
+- Distinct linked standards: 14
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 38.6%
+- Objects with two or more sources: 84.5%
+
+## Categories
+
+- acoustic air components: 1
+- air conditioner internal components: 11
+- air conditioning equipment: 5
+- air conditioning systems: 4
+- air control components: 4
+- air distribution assemblies: 1
+- air distribution components: 1
+- air terminal components: 10
+- commissioning components: 1
+- condensate drainage assemblies: 1
+- condensate drainage components: 7
+- duct access components: 1
+- duct connection components: 1
+- duct fittings: 10
+- duct insulation components: 4
+- duct joint and seal components: 6
+- duct support components: 5
+- equipment access components: 1
+- equipment support assemblies: 1
+- equipment support components: 7
+- evaporative cooling air components: 2
+- evaporative cooling controls: 1
+- evaporative cooling duct components: 2
+- evaporative cooling equipment: 4
+- evaporative cooling supports: 2
+- evaporative cooling systems: 1
+- evaporative cooling water components: 7
+- external air terminal components: 3
+- flexible duct anatomy: 3
+- flexible duct components: 1
+- heat recovery ventilation air components: 3
+- heat recovery ventilation condensate components: 1
+- heat recovery ventilation connections: 1
+- heat recovery ventilation controls: 1
+- heat recovery ventilation equipment: 3
+- heat recovery ventilation filtration: 2
+- heat recovery ventilation supports: 1
+- hydronic air and dirt components: 5
+- hydronic control valves: 5
+- hydronic distribution assemblies: 1
+- hydronic distribution components: 2
+- hydronic distribution pipework: 3
+- hydronic emitter assemblies: 2
+- hydronic fill and drain components: 2
+- hydronic heat source assemblies: 1
+- hydronic heat source equipment: 1
+- hydronic heating systems: 1
+- hydronic instruments: 2
+- hydronic pipe fittings: 5
+- hydronic pipe supports: 1
+- hydronic plant components: 3
+- hydronic radiator components: 3
+- hydronic radiator connections: 1
+- hydronic radiator controls: 4
+- hydronic radiator supports: 2
+- hydronic safety and pressure components: 2
+- hydronic system controls: 4
+- indoor unit forms: 4
+- mechanical control assemblies: 1
+- mechanical control components: 7
+- mechanical system assemblies: 1
+- plenum and airbox components: 5
+- refrigerant distribution components: 2
+- refrigerant pipework assemblies: 1
+- refrigerant pipework components: 8
+- rigid duct components: 3
+- service penetration components: 3
+- underfloor heating controls: 1
+- underfloor heating distribution components: 7
+- underfloor heating emitter components: 2
+- underfloor heating fixings: 3
+- underfloor heating floor layers: 1
+- whole house ventilation systems: 1
+
+## Objects
+
+- **HVAC Wi-Fi control gateway** (`AU-ME-HVAC-WIFI-GATEWAY`) — A fixed interface module that links compatible mechanical equipment or a zone controller to a local wireless network for remote monitoring and commands.
+- **HVAC wall controller** (`AU-ME-HVAC-WALL-CONTROLLER`) — A fixed wall-mounted user interface that commands heating, cooling or ventilation equipment and may contain a room-temperature sensor and schedule functions.
+- **HVAC zone temperature sensor** (`AU-ME-ZONE-TEMPERATURE-SENSOR`) — A wall, ceiling or controller-integrated sensor that measures temperature in a controlled HVAC zone and sends it to the zone or equipment controller.
+- **air-conditioner control board** (`AU-ME-AIR-CONDITIONER-CONTROL-BOARD`) — An electronic printed-circuit assembly inside air-conditioning equipment that receives sensors and commands and controls motors, valves, compressor operation and communications.
+- **air-conditioner equipment casing** (`AU-ME-AIR-CONDITIONER-CASING`) — The outer cabinet panels, grilles and fixed chassis surfaces enclosing an indoor or outdoor air-conditioning unit while preserving its air and service openings.
+- **air-conditioner handheld remote controller** (`AU-ME-HVAC-HANDHELD-REMOTE`) — A portable user-control handset supplied with compatible air-conditioning equipment, often stored in a fixed wall cradle but not hard-wired to the building.
+- **air-conditioner outdoor-unit ground base** (`AU-ME-OUTDOOR-UNIT-GROUND-BASE`) — A level concrete slab, precast pad or proprietary ground base supporting an outdoor mechanical unit above stable, drained ground.
+- **air-conditioner outdoor-unit wall bracket** (`AU-ME-OUTDOOR-UNIT-WALL-BRACKET`) — A pair or frame of projecting metal brackets anchored to a wall to support a split-system outdoor unit above ground.
+- **air-conditioner return-air filter** (`AU-ME-AIR-CONDITIONER-FILTER`) — A removable porous element at an indoor-unit or return-air intake that captures dust and debris before air passes through the coil and fan.
+- **air-conditioning condensate drain pipe** (`AU-ME-CONDENSATE-DRAIN-PIPE`) — A graded pipe carrying condensate from an air-conditioning or ventilation unit drain outlet toward an approved discharge point or pump chamber.
+- **air-conditioning condensate drain trap** (`AU-ME-CONDENSATE-DRAIN-TRAP`) — A shaped condensate-drain fitting that maintains a water seal or pressure break where required by the equipment pressure and drainage arrangement.
+- **air-conditioning condensate drainage assembly** (`AU-ME-CONDENSATE-DRAINAGE-ASSEMBLY`) — The drain pan outlet, graded drain pipe, fittings, trap where selected, pump where required, insulation, supports and lawful discharge connection that remove water condensed at cooling equipment.
+- **air-conditioning condensate pump** (`AU-ME-CONDENSATE-PUMP`) — A small automatic pump and reservoir or inline pumping unit that lifts condensate where continuous gravity drainage cannot be achieved.
+- **air-conditioning indoor blower fan** (`AU-ME-INDOOR-BLOWER-FAN`) — A motor-driven fan within an indoor unit that draws air through the filter and heat exchanger and discharges conditioned air to the room or ductwork.
+- **air-conditioning indoor heat-exchanger coil** (`AU-ME-INDOOR-HEAT-EXCHANGER-COIL`) — A finned refrigerant coil inside an indoor unit that exchanges heat between the refrigerant circuit and room or return air.
+- **air-conditioning outdoor heat-exchanger coil** (`AU-ME-OUTDOOR-HEAT-EXCHANGER-COIL`) — A finned refrigerant coil inside an outdoor unit that exchanges heat between the refrigerant circuit and outdoor air.
+- **air-conditioning outdoor propeller fan** (`AU-ME-OUTDOOR-PROPELLER-FAN`) — A motor-driven axial fan within an outdoor unit that moves outdoor air through the heat-exchanger coil and discharges it clear of the unit.
+- **air-conditioning refrigerant compressor** (`AU-ME-REFRIGERANT-COMPRESSOR`) — A motor-driven component within refrigerating equipment that raises refrigerant pressure and circulates refrigerant through the vapour-compression circuit.
+- **air-conditioning service capping** (`AU-ME-AIRCON-SERVICE-CAPPING`) — A surface-mounted protective trunking system that encloses refrigerant pipes, condensate drain and associated cable along an exposed wall route.
+- **air-to-air heat-recovery core** (`AU-ME-AIR-TO-AIR-HEAT-RECOVERY-CORE`) — A removable heat exchanger containing adjacent but separated passages through which outgoing and incoming air transfer heat without normally mixing.
+- **air-to-water hydronic heat-pump unit** (`AU-ME-AIR-TO-WATER-HEAT-PUMP-UNIT`) — A heat-pump unit that transfers heat between outdoor air and a hydronic water circuit, either as one outdoor package or as matched indoor and outdoor modules.
+- **brazed refrigerant-pipe joint** (`AU-ME-REFRIGERANT-BRAZED-JOINT`) — A permanent capillary or socket joint between compatible refrigerant tubes or fittings made with an approved brazing process and filler metal.
+- **bulkhead air-conditioning indoor unit** (`AU-ME-BULKHEAD-INDOOR-UNIT`) — A compact concealed indoor fan-coil unit installed within a ceiling bulkhead and connected to short supply and return openings or ducts.
+- **ceiling air diffuser** (`AU-ME-CEILING-AIR-DIFFUSER`) — A ceiling-mounted supply terminal shaped to distribute air across one or more directions with a designed spread and induction pattern.
+- **ceiling-cassette air-conditioning indoor unit** (`AU-ME-CEILING-CASSETTE-INDOOR-UNIT`) — A recessed ceiling indoor unit with its equipment body above the ceiling and a visible intake-and-discharge fascia at ceiling level.
+- **circular duct coupling** (`AU-ME-CIRCULAR-DUCT-COUPLING`) — A short male, female or sleeved fitting joining two circular duct sections of the same nominal size.
+- **circular duct elbow** (`AU-ME-CIRCULAR-DUCT-ELBOW`) — A curved or segmented circular fitting that changes the direction of a round duct route.
+- **circular-duct ring hanger** (`AU-ME-CIRCULAR-DUCT-RING-HANGER`) — A split ring, band or saddle that surrounds or cradles rigid circular duct and connects it to a rod or bracket support.
+- **condensate drain terminal fitting** (`AU-ME-CONDENSATE-DRAIN-TERMINAL`) — The visible adaptor, elbow, nozzle or other end fitting where an air-conditioning condensate drain discharges to its documented destination.
+- **condensate drain-pipe fitting** (`AU-ME-CONDENSATE-DRAIN-FITTING`) — A bend, coupling, tee, reducer, adaptor or inspection fitting used to join and route air-conditioning condensate pipework.
+- **condensate high-level float switch** (`AU-ME-CONDENSATE-FLOAT-SWITCH`) — A water-level sensing switch in a condensate pan, reservoir or drain line that stops equipment or raises an alarm when drainage is blocked or water rises abnormally.
+- **condensate-pipe insulation** (`AU-ME-CONDENSATE-PIPE-INSULATION`) — A closed-cell sleeve around condensate drainage pipework used where the pipe surface may become cold enough to form unwanted external condensation.
+- **cooling-duct vapour barrier** (`AU-ME-COOLING-DUCT-VAPOUR-BARRIER`) — A continuous low-permeance facing, jacket or sealed membrane on the warm side of cooling-duct insulation that limits water-vapour entry into the insulation.
+- **double-deflection supply grille** (`AU-ME-DOUBLE-DEFLECTION-SUPPLY-GRILLE`) — A wall or duct-mounted supply grille with two banks of adjustable blades, usually oriented at right angles to provide horizontal and vertical air-direction control.
+- **duct access door** (`AU-ME-DUCT-ACCESS-DOOR`) — A framed removable or hinged door in a duct or plenum that allows inspection, cleaning or service of internal components.
+- **duct airflow test port** (`AU-ME-DUCT-AIRFLOW-TEST-PORT`) — A small sealed opening, plug or nipple in ductwork that permits insertion of a pressure, temperature or airflow measuring probe.
+- **duct branch take-off fitting** (`AU-ME-DUCT-BRANCH-TAKEOFF`) — A collar, shoe or formed fitting fixed to a main duct opening to start a branch duct.
+- **duct collar or spigot** (`AU-ME-DUCT-COLLAR-SPIGOT`) — A short circular or rectangular neck fixed to equipment, a plenum, duct or terminal box to receive a connected duct.
+- **duct connection gasket** (`AU-ME-DUCT-CONNECTION-GASKET`) — A compressible strip, ring or moulded seal between mating duct flanges, equipment faces or fitting connections.
+- **duct reducer** (`AU-ME-DUCT-REDUCER`) — A tapered or stepped fitting connecting ducts of the same general shape but different sizes.
+- **duct sealant or mastic** (`AU-ME-DUCT-SEALANT-MASTIC`) — A compatible brush-, gun- or bead-applied sealing compound used at duct seams, joints, fittings and penetrations to limit air leakage.
+- **duct sealing tape** (`AU-ME-DUCT-SEALING-TAPE`) — A pressure-sensitive adhesive tape selected to seal flexible-duct jackets, protective sheeting, insulation facings or compatible duct joints.
+- **duct shape transition** (`AU-ME-DUCT-SHAPE-TRANSITION`) — A fabricated fitting changing duct cross-section between circular, oval, square or rectangular shapes and possibly between unequal sizes.
+- **duct silencer** (`AU-ME-DUCT-SILENCER`) — A lined or baffled duct section designed to reduce sound travelling along an air path while allowing airflow through it.
+- **duct tee fitting** (`AU-ME-DUCT-TEE`) — A three-way fitting with a main air passage and a branch generally meeting at or near a right angle.
+- **duct wall-support bracket** (`AU-ME-DUCT-WALL-SUPPORT-BRACKET`) — A cantilever, angle or framed bracket anchored to a wall to support horizontal or vertical ductwork.
+- **duct wye fitting** (`AU-ME-DUCT-WYE`) — A three-way Y-shaped fitting that divides or combines airflow through two angled branches.
+- **duct-damper actuator** (`AU-ME-DUCT-DAMPER-ACTUATOR`) — An electric motor or thermal drive attached to a damper shaft or linkage to move the blade in response to a control signal.
+- **duct-support threaded rod** (`AU-ME-DUCT-SUPPORT-THREADED-ROD`) — A vertical threaded steel rod connecting a duct trapeze, ring hanger or bracket to an overhead structural anchor.
+- **ducted HVAC zone controller** (`AU-ME-ZONE-CONTROLLER`) — A fixed user interface and control processor that manages room zones, sensors and motorised dampers in a ducted heating or cooling system.
+- **ducted air-conditioning zone-control system** (`AU-ME-DUCTED-ZONE-CONTROL-SYSTEM`) — A coordinated set of controller, room or zone sensors, interface modules, actuators and motorised duct dampers that varies airflow to selected groups of rooms.
+- **ducted evaporative-cooling system** (`AU-ME-EVAPORATIVE-COOLING-SYSTEM`) — A fixed cooling system that draws outdoor air through wetted evaporative media and distributes the cooled air through ducts to rooms, with water supply, drainage, controls and an air-relief strategy.
+- **ducted reverse-cycle air-conditioning system** (`AU-ME-DUCTED-REVERSE-CYCLE-SYSTEM`) — A split heat-pump system with a concealed indoor fan-coil unit connected to supply and return ductwork that heats or cools multiple spaces.
+- **ducted split-system indoor fan-coil unit** (`AU-ME-DUCTED-FAN-COIL-UNIT`) — A concealed split-system indoor unit designed for connection to supply and return ductwork, containing a refrigerant coil, blower, filter interface and condensate pan.
+- **evaporative-cooler blower** (`AU-ME-EVAPORATIVE-COOLER-BLOWER`) — The fan wheel and housing that draw air through wet media and force cooled air into the supply duct.
+- **evaporative-cooler cabinet** (`AU-ME-EVAPORATIVE-COOLER-CABINET`) — The weather-exposed enclosure, structural shell and removable access faces surrounding a packaged evaporative cooler's internal parts.
+- **evaporative-cooler drain and bleed pipe** (`AU-ME-EVAPORATIVE-COOLER-DRAIN-PIPE`) — A routed pipe carrying dumped, overflow or bleed water away from an evaporative cooler to the selected lawful discharge point.
+- **evaporative-cooler drain or bleed valve** (`AU-ME-EVAPORATIVE-COOLER-DRAIN-VALVE`) — A manual or automatic valve that releases reservoir water for draining, cleaning or water-quality bleed control.
+- **evaporative-cooler duct transition** (`AU-ME-EVAPORATIVE-COOLER-DUCT-TRANSITION`) — A rigid tapered fitting changing the cooler or dropper discharge size or shape to match the connected supply-air plenum or duct.
+- **evaporative-cooler fan motor** (`AU-ME-EVAPORATIVE-COOLER-FAN-MOTOR`) — The electric motor that drives an evaporative cooler blower directly or through a belt and pulley arrangement.
+- **evaporative-cooler float valve** (`AU-ME-EVAPORATIVE-COOLER-FLOAT-VALVE`) — A mechanically operated inlet valve whose float maintains the working water level in an evaporative cooler reservoir.
+- **evaporative-cooler roof dropper duct** (`AU-ME-EVAPORATIVE-COOLER-ROOF-DROPPER`) — A short usually vertical rigid duct passing through the roof zone between a roof-mounted evaporative cooler and the internal supply duct network.
+- **evaporative-cooler roof flashing** (`AU-ME-EVAPORATIVE-COOLER-ROOF-FLASHING`) — A shaped weatherproofing component around the cooler dropper, curb or support penetration where it passes through a roof covering.
+- **evaporative-cooler roof support** (`AU-ME-EVAPORATIVE-COOLER-ROOF-SUPPORT`) — A proprietary stand, curb or framed support that transfers a roof-mounted evaporative cooler's operating and environmental loads to the building structure.
+- **evaporative-cooler wall controller** (`AU-ME-EVAPORATIVE-COOLER-CONTROLLER`) — A fixed user control and sensor interface for operating an evaporative cooler's fan, pump, drain cycles and optional automatic modes.
+- **evaporative-cooler water reservoir** (`AU-ME-EVAPORATIVE-COOLER-WATER-RESERVOIR`) — The basin or sump in the base of an evaporative cooler that holds recirculating water below the media and pump.
+- **evaporative-cooler water-circulation pump** (`AU-ME-EVAPORATIVE-WATER-CIRCULATION-PUMP`) — A small pump that lifts water from the cooler reservoir to the distribution header above the cooling media.
+- **evaporative-cooler water-distribution header** (`AU-ME-EVAPORATIVE-WATER-DISTRIBUTION-HEADER`) — A small pipe, manifold or channel that spreads pumped water across the upper edges of evaporative-cooling media panels.
+- **evaporative-cooler water-inlet connection** (`AU-ME-EVAPORATIVE-COOLER-WATER-INLET-CONNECTION`) — The cooler-side fitting or flexible connection joining the building water supply to the cooler float valve or inlet assembly.
+- **evaporative-cooling media panel** (`AU-ME-EVAPORATIVE-COOLING-MEDIA-PANEL`) — A porous replaceable panel kept wet so incoming outdoor air loses sensible heat as some water evaporates.
+- **evaporative-media retaining frame** (`AU-ME-EVAPORATIVE-MEDIA-RETAINING-FRAME`) — A removable or fixed perimeter frame that locates an evaporative-cooling media panel and maintains its air and water path.
+- **exposed-duct protective jacket** (`AU-ME-EXPOSED-DUCT-PROTECTIVE-JACKET`) — A weather-resistant outer sheeting or sleeve enclosing duct insulation in an exposed, underfloor, attached-garage or roof-space location where protection from damp is required.
+- **external rigid-duct insulation** (`AU-ME-EXTERNAL-DUCT-INSULATION`) — A continuous thermal-insulation layer fitted around the outside of rigid ductwork and fittings.
+- **filter return-air grille** (`AU-ME-FILTER-RETURN-AIR-GRILLE`) — A hinged or removable return-air grille assembly with rails, clips or a frame holding a replaceable or washable air filter behind the visible face.
+- **flexible equipment-to-duct connector** (`AU-ME-FLEXIBLE-EQUIPMENT-DUCT-CONNECTOR`) — A short flexible fabric or elastomeric connection between vibrating mechanical equipment and rigid ductwork or a plenum.
+- **flexible-duct draw band** (`AU-ME-FLEXIBLE-DUCT-DRAW-BAND`) — A tensioned band or heavy-duty tie around flexible duct inner core at a spigot, used with sealant or compatible tape to retain and seal the connection.
+- **flexible-duct inner core** (`AU-ME-FLEXIBLE-DUCT-INNER-CORE`) — The air-carrying flexible tube inside insulated flexible duct, formed from a reinforced laminated membrane around a helical wire or similar support.
+- **flexible-duct outer jacket** (`AU-ME-FLEXIBLE-DUCT-OUTER-JACKET`) — The flexible outer sleeve enclosing and protecting the thermal insulation of insulated flexible duct.
+- **flexible-duct support strap** (`AU-ME-FLEXIBLE-DUCT-SUPPORT-STRAP`) — A broad strap or sling supporting insulated flexible duct from structure without crushing the insulation or sharply deforming the air core.
+- **flexible-duct thermal insulation** (`AU-ME-FLEXIBLE-DUCT-INSULATION`) — The annular bulk-insulation layer surrounding the inner core of insulated flexible duct.
+- **floor supply register** (`AU-ME-FLOOR-SUPPLY-REGISTER`) — A load-resistant floor-mounted supply grille, commonly with adjustable blades or a damper, connected to underfloor ductwork or a floor terminal box.
+- **floor-console split-system indoor unit** (`AU-ME-FLOOR-CONSOLE-INDOOR-UNIT`) — A low-level indoor air-conditioning unit fixed at or near floor level, with room-air intake and one or more conditioned-air discharge paths.
+- **heat-pump refrigerant reversing valve** (`AU-ME-REFRIGERANT-REVERSING-VALVE`) — A multi-port valve in a reverse-cycle refrigerant circuit that changes the direction of refrigerant flow so the indoor and outdoor coils exchange heating and cooling roles.
+- **heat-recovery ventilation bypass damper** (`AU-ME-HEAT-RECOVERY-BYPASS-DAMPER`) — A motorised or passive air-control blade that diverts one air path around the heat-recovery core when heat exchange is not wanted or when protection logic requires it.
+- **heat-recovery ventilation condensate pan** (`AU-ME-HEAT-RECOVERY-CONDENSATE-PAN`) — A shallow internal tray that collects water forming or draining below an HRV heat exchanger in units designed for condensate drainage.
+- **heat-recovery ventilation duct port** (`AU-ME-HEAT-RECOVERY-DUCT-PORT`) — A flanged, spigotted or socketed unit connection joining one of an HRV's four labelled air paths to its corresponding duct.
+- **heat-recovery ventilation extract fan** (`AU-ME-HEAT-RECOVERY-EXTRACT-FAN`) — The fan inside a balanced ventilation unit that moves stale indoor air through the extract path and heat-recovery core to the outdoor exhaust duct.
+- **heat-recovery ventilation extract-air filter** (`AU-ME-HEAT-RECOVERY-EXTRACT-AIR-FILTER`) — A removable filter in the indoor extract-air path that protects the heat-recovery core and extract fan from lint and household dust.
+- **heat-recovery ventilation outdoor-air filter** (`AU-ME-HEAT-RECOVERY-OUTDOOR-AIR-FILTER`) — A removable filter panel in the outdoor-air supply path before sensitive unit components or room supply ducts.
+- **heat-recovery ventilation supply fan** (`AU-ME-HEAT-RECOVERY-SUPPLY-FAN`) — The fan inside a balanced ventilation unit that moves outdoor air through the intake, filter and heat-recovery core into the dwelling supply ducts.
+- **heat-recovery ventilation unit casing** (`AU-ME-HEAT-RECOVERY-VENTILATION-UNIT-CASING`) — The insulated enclosure and internal divider system that holds HRV components and keeps the supply and extract air paths physically separated.
+- **heat-recovery ventilation unit hanging bracket** (`AU-ME-HEAT-RECOVERY-UNIT-HANGING-BRACKET`) — A manufacturer-provided lug, rail or bracket used with rods or anchors to suspend or fix an HRV unit independently of its ducts.
+- **heat-recovery ventilation wall controller** (`AU-ME-HEAT-RECOVERY-WALL-CONTROLLER`) — A fixed user interface and control device for selecting HRV airflow, operating mode, bypass, schedules and maintenance indications.
+- **hydronic automatic air vent** (`AU-ME-HYDRONIC-AUTOMATIC-AIR-VENT`) — A float-operated valve that automatically releases accumulated air from a hydronic circuit while retaining heating water under normal pressure.
+- **hydronic column radiator** (`AU-ME-HYDRONIC-COLUMN-RADIATOR`) — A water-filled radiator formed from repeated vertical columns or sections joined into a freestanding or wall-supported heating body.
+- **hydronic differential-pressure bypass valve** (`AU-ME-HYDRONIC-DIFFERENTIAL-BYPASS-VALVE`) — An adjustable valve connecting hydronic flow to return that opens when differential pressure rises above its set value.
+- **hydronic heated towel rail** (`AU-ME-HYDRONIC-HEATED-TOWEL-RAIL`) — A wall-mounted water-filled emitter made from rails or tubes, intended to warm towels and contribute heat to a bathroom or similar space.
+- **hydronic heating Y-strainer** (`AU-ME-HYDRONIC-Y-STRAINER`) — A Y-shaped in-line fitting containing a removable perforated or mesh screen that captures larger solid particles from heating water.
+- **hydronic heating balancing valve** (`AU-ME-HYDRONIC-BALANCING-VALVE`) — An adjustable valve with a known or measurable flow characteristic used to set and verify the design water flow through a hydronic circuit.
+- **hydronic heating buffer tank** (`AU-ME-HYDRONIC-BUFFER-TANK`) — An insulated water vessel added to a hydronic circuit to increase system water volume, reduce short cycling or hydraulically stabilise heat-source and emitter flows.
+- **hydronic heating check valve** (`AU-ME-HYDRONIC-CHECK-VALVE`) — A one-way valve that opens with intended hydronic flow and closes when flow reverses or stops.
+- **hydronic heating circulation pump** (`AU-ME-HYDRONIC-CIRCULATION-PUMP`) — A pump installed in the heating-water circuit to create the pressure difference needed to circulate water through pipes, valves and emitters.
+- **hydronic heating dirt separator** (`AU-ME-HYDRONIC-DIRT-SEPARATOR`) — An enlarged-flow device that slows or directs heating water so suspended solid particles settle or separate into a serviceable collection chamber.
+- **hydronic heating distribution pipework assembly** (`AU-ME-HYDRONIC-DISTRIBUTION-PIPEWORK-ASSEMBLY`) — The connected closed-loop flow and return pipe network, including insulation, fittings, supports and distribution components, between a hydronic heat source and its emitters.
+- **hydronic heating expansion vessel** (`AU-ME-HYDRONIC-EXPANSION-VESSEL`) — A pressure vessel, commonly divided by a flexible diaphragm, that accepts the increase in heating-water volume as system temperature rises.
+- **hydronic heating fill connection assembly** (`AU-ME-HYDRONIC-FILL-CONNECTION-ASSEMBLY`) — The physical valves, connection fitting and any selected backflow-control or flexible link used to introduce permitted fill water into a sealed hydronic circuit.
+- **hydronic heating flow header** (`AU-ME-HYDRONIC-FLOW-HEADER`) — A larger distribution tube or fabricated header receiving heated water and dividing it among two or more downstream circuits.
+- **hydronic heating flow pipe** (`AU-ME-HYDRONIC-FLOW-PIPE`) — A pipe segment whose system role is to carry heated water away from the heat source or distribution header toward an emitter or manifold.
+- **hydronic heating heat-source assembly** (`AU-ME-HYDRONIC-HEAT-SOURCE-ASSEMBLY`) — The selected equipment and immediate water connections that add heat to a residential hydronic circuit, excluding the wider distribution network and room emitters.
+- **hydronic heating hydraulic separator** (`AU-ME-HYDRONIC-HYDRAULIC-SEPARATOR`) — A low-resistance vessel or enlarged header with paired primary and secondary connections that allows different hydronic circuits to operate at partly independent flow rates.
+- **hydronic heating isolation valve** (`AU-ME-HYDRONIC-ISOLATION-VALVE`) — A full-closing valve used to stop heating-water flow so a component, branch or zone can be serviced without draining the entire system.
+- **hydronic heating magnetic filter** (`AU-ME-HYDRONIC-MAGNETIC-FILTER`) — A serviceable in-line body containing a magnet and often a mesh or separation chamber to capture ferrous corrosion debris from heating water.
+- **hydronic heating mixing valve** (`AU-ME-HYDRONIC-MIXING-VALVE`) — A three-way or four-way valve that blends hotter flow water with cooler return water or diverts streams to control the temperature supplied to a hydronic circuit.
+- **hydronic heating pipe adaptor** (`AU-ME-HYDRONIC-PIPE-ADAPTOR`) — A fitting that joins hydronic components with different pipe sizes, materials, joint systems, thread forms or connection standards.
+- **hydronic heating pipe elbow** (`AU-ME-HYDRONIC-PIPE-ELBOW`) — A two-ended hydronic fitting that changes the direction of a heating-water pipe route through a stated angle.
+- **hydronic heating pipe fitting** (`AU-ME-HYDRONIC-PIPE-FITTING`) — A pressure-rated component joining hydronic pipe segments or equipment connections while changing direction, branch arrangement, size, material or joint form.
+- **hydronic heating pipe insulation** (`AU-ME-HYDRONIC-PIPE-INSULATION`) — A continuous insulating sleeve or wrap fitted around central-heating water pipes and fittings to reduce heat loss and protect temperature performance.
+- **hydronic heating pipe support clip** (`AU-ME-HYDRONIC-PIPE-SUPPORT-CLIP`) — A clip, clamp or insulated pipe support that fixes a hydronic flow or return pipe to the building while allowing the movement and insulation treatment required by the design.
+- **hydronic heating pipe tee** (`AU-ME-HYDRONIC-PIPE-TEE`) — A three-ended hydronic fitting that creates or combines a branch in heating-water flow or return pipework.
+- **hydronic heating pressure gauge** (`AU-ME-HYDRONIC-PRESSURE-GAUGE`) — A dial or electronic instrument permanently connected to a hydronic circuit to show water pressure during filling, operation and servicing.
+- **hydronic heating pressure-relief valve** (`AU-ME-HYDRONIC-PRESSURE-RELIEF-VALVE`) — A spring-loaded safety valve that opens at a set system pressure and discharges heating water to limit dangerous overpressure.
+- **hydronic heating return header** (`AU-ME-HYDRONIC-RETURN-HEADER`) — A larger collection tube or fabricated header receiving cooler water from two or more circuits and combining it toward the heat source.
+- **hydronic heating return pipe** (`AU-ME-HYDRONIC-RETURN-PIPE`) — A pipe segment whose system role is to carry cooler water from an emitter, manifold or return header back toward the heat source.
+- **hydronic heating room thermostat** (`AU-ME-HYDRONIC-ROOM-THERMOSTAT`) — A fixed room-temperature sensor and user control that requests heat from a hydronic zone controller, actuator, valve, pump or heat source.
+- **hydronic heating system drain valve** (`AU-ME-HYDRONIC-SYSTEM-DRAIN-VALVE`) — A valve or drain cock at a low point that permits heating water to be removed from a circuit, item of equipment or isolated zone.
+- **hydronic heating wiring centre** (`AU-ME-HYDRONIC-WIRING-CENTRE`) — An enclosed low-voltage or mains control connection unit coordinating room thermostats, manifold actuators, zone valves, pumps and a heat-source demand signal.
+- **hydronic manual air vent** (`AU-ME-HYDRONIC-MANUAL-AIR-VENT`) — A small manually opened valve at a radiator, high point or component that allows trapped air and a small amount of water to be released during filling or maintenance.
+- **hydronic motorised zone valve** (`AU-ME-HYDRONIC-MOTORISED-ZONE-VALVE`) — An electrically actuated in-line valve that opens, closes or diverts heating-water flow to a hydronic zone or circuit group.
+- **hydronic outdoor-temperature sensor** (`AU-ME-HYDRONIC-OUTDOOR-TEMPERATURE-SENSOR`) — A weather-resistant external air-temperature sensor used by a hydronic controller to adjust heating-water temperature or output with outdoor conditions.
+- **hydronic pipe coupling or union** (`AU-ME-HYDRONIC-PIPE-COUPLING-OR-UNION`) — A straight two-ended component joining aligned hydronic pipe ends, with a union form permitting later separation without rotating the pipes.
+- **hydronic radiator assembly** (`AU-ME-HYDRONIC-RADIATOR-ASSEMBLY`) — A wall or floor-mounted water-heating emitter with radiator body, brackets, flow and return connections, control and balancing valves and an air vent.
+- **hydronic radiator floor foot** (`AU-ME-HYDRONIC-RADIATOR-FLOOR-FOOT`) — A proprietary leg or pedestal supporting a radiator body from the floor, often used with wall restraints for stability.
+- **hydronic radiator lockshield valve** (`AU-ME-HYDRONIC-RADIATOR-LOCKSHIELD-VALVE`) — A capped adjustable radiator valve normally set during balancing and left protected from casual user adjustment.
+- **hydronic radiator union tail** (`AU-ME-HYDRONIC-RADIATOR-UNION-TAIL`) — A threaded or sealed connector inserted into a radiator tapping and coupled by a union nut to a radiator valve body.
+- **hydronic radiator wall bracket** (`AU-ME-HYDRONIC-RADIATOR-WALL-BRACKET`) — A shaped metal bracket fixed to wall structure that locates and supports a water-filled radiator body at the required stand-off and elevation.
+- **hydronic underfloor-heating assembly** (`AU-ME-HYDRONIC-UNDERFLOOR-HEATING-ASSEMBLY`) — A hydronic emitter made from one or more heating-pipe circuits fixed within or below a floor and connected to a distribution manifold, controls and the hydronic flow and return system.
+- **hydronic underfloor-heating manifold assembly** (`AU-ME-UNDERFLOOR-HEATING-MANIFOLD-ASSEMBLY`) — A paired flow-and-return distribution assembly connecting the main hydronic circuit to multiple individually identifiable underfloor pipe loops.
+- **hydronic underfloor-heating pipe loop** (`AU-ME-UNDERFLOOR-HEATING-PIPE-LOOP`) — One continuous heating-pipe circuit leaving a manifold flow port, following a planned floor pattern and returning to the paired return port without concealed intermediate joints unless specifically designed.
+- **hydronic water-temperature sensor** (`AU-ME-HYDRONIC-WATER-TEMPERATURE-SENSOR`) — A contact, immersion or pocket-mounted sensor that measures hydronic flow, return, tank or mixed-circuit water temperature for control or monitoring.
+- **indoor-unit condensate tray** (`AU-ME-INDOOR-UNIT-CONDENSATE-TRAY`) — A shaped pan beneath a cooling coil that collects condensed water and directs it to one or more drain outlets.
+- **insulated duct splitter fitting** (`AU-ME-INSULATED-DUCT-SPLITTER`) — A multi-outlet insulated fitting that divides airflow from one fan-coil or main duct connection into two or more branch ducts and may accept balancing or motorised dampers.
+- **insulated flexible air duct** (`AU-ME-INSULATED-FLEXIBLE-AIR-DUCT`) — A factory-made bendable circular duct with a flexible inner air core, surrounding thermal insulation and an outer jacket, commonly supplied in compressed lengths for residential systems.
+- **internal duct liner** (`AU-ME-INTERNAL-DUCT-LINER`) — An insulation and acoustic-absorption layer fixed to the inside face of rigid ductwork or a plenum and exposed to the air stream through a suitable facing.
+- **linear-slot air diffuser** (`AU-ME-LINEAR-SLOT-DIFFUSER`) — A long narrow supply or return terminal with one or more slots and, on supply models, internal pattern controllers that direct air along the ceiling or into the room.
+- **linear-slot diffuser cushion-head box** (`AU-ME-LINEAR-SLOT-CUSHION-HEAD-BOX`) — A long shallow plenum box behind a linear-slot diffuser that receives one or more round or rectangular ducts and distributes air along the slot length.
+- **manual volume-control damper** (`AU-ME-MANUAL-VOLUME-CONTROL-DAMPER`) — A manually set blade or blade set within a duct or fitting that throttles airflow for branch balancing.
+- **mechanical air duct** (`AU-ME-AIR-DUCT`) — A closed passage made from flexible or rigid construction that carries supply, return, outdoor or exhaust air as part of a mechanical air-distribution system.
+- **mechanical air-distribution system** (`AU-ME-AIR-DISTRIBUTION-SYSTEM`) — The connected ducts, fittings, plenums, dampers, supports, insulation, seals, supply outlets and return inlets that move air between mechanical equipment and rooms.
+- **mechanical air-terminal pest screen** (`AU-ME-AIR-TERMINAL-PEST-SCREEN`) — A corrosion-resistant mesh or grille layer across an outdoor air terminal that limits entry by insects, birds or small animals while preserving designed airflow.
+- **mechanical anti-vibration mount** (`AU-ME-ANTI-VIBRATION-MOUNT`) — An elastomeric pad, bush, spring or proprietary isolator placed between mechanical equipment and its support to reduce vibration transmission.
+- **mechanical outdoor-air intake terminal** (`AU-ME-OUTDOOR-AIR-INTAKE-TERMINAL`) — A weather-protected wall or roof hood, louvre or cowl where a mechanical ventilation duct draws outdoor air into the building.
+- **mechanical-equipment access panel** (`AU-ME-MECHANICAL-EQUIPMENT-ACCESS-PANEL`) — A removable or hinged panel in a mechanical unit or adjacent building lining that provides access to filters, controls, drains, valves or other serviceable components.
+- **mechanical-equipment mounting foot** (`AU-ME-MECHANICAL-EQUIPMENT-MOUNTING-FOOT`) — A discrete foot, rail or proprietary mounting block between mechanical equipment and its slab, platform, roof or bracket support.
+- **mechanical-equipment service platform** (`AU-ME-MECHANICAL-EQUIPMENT-PLATFORM`) — A permanent platform, deck or framed shelf supporting mechanical equipment and sometimes providing a maintained access surface around it.
+- **mechanical-equipment support assembly** (`AU-ME-MECHANICAL-EQUIPMENT-SUPPORT-ASSEMBLY`) — The brackets, bases, frames, feet, anchors and vibration-control components that hold fixed mechanical equipment at its documented position.
+- **mechanical-pipe escutcheon** (`AU-ME-MECHANICAL-PIPE-ESCUTCHEON`) — A split or one-piece trim plate fitted around mechanical pipework where it passes through a visible wall, floor or ceiling surface.
+- **mechanical-service penetration seal** (`AU-ME-MECHANICAL-PENETRATION-SEAL`) — A selected sealant, gasket, flashing or tested sealing system closing the gap between mechanical services, sleeves and the penetrated construction.
+- **mechanical-service wall sleeve** (`AU-ME-MECHANICAL-SERVICE-WALL-SLEEVE`) — A rigid tube or formed liner through a wall, floor or ceiling opening that protects mechanical pipes, drains or cables and defines a sealable penetration path.
+- **mechanical-ventilation outdoor exhaust terminal** (`AU-ME-VENTILATION-EXHAUST-TERMINAL`) — A weather-protected wall or roof hood, louvre or cowl where mechanical ventilation ductwork discharges air outdoors.
+- **motorised zone damper** (`AU-ME-MOTORISED-ZONE-DAMPER`) — A duct damper fitted with an electric actuator that opens, closes or modulates airflow to a controlled room zone.
+- **multi-directional ceiling outlet** (`AU-ME-MULTI-DIRECTIONAL-OUTLET`) — A square or rectangular ceiling supply diffuser with individually adjustable blades or segments that direct air in several selected directions.
+- **multi-split air-conditioning system** (`AU-ME-MULTI-SPLIT-AIR-CONDITIONING-SYSTEM`) — A split air-conditioning arrangement in which two or more individually controlled indoor units connect through refrigerant pipework to one outdoor unit.
+- **multi-split outdoor unit** (`AU-ME-MULTI-SPLIT-OUTDOOR-UNIT`) — An outdoor refrigerating unit designed to connect to two or more compatible, individually controlled indoor units through a branching refrigerant network.
+- **multi-split refrigerant branch box** (`AU-ME-MULTI-SPLIT-BRANCH-BOX`) — A proprietary enclosed fitting assembly that divides or controls refrigerant flow between one multi-split outdoor unit and several indoor-unit branches.
+- **packaged ducted evaporative cooler** (`AU-ME-PACKAGED-DUCTED-EVAPORATIVE-COOLER`) — A factory-made outdoor-air cooling unit containing wetted media, a water system and a fan, connected to a building supply-air duct system.
+- **packaged heat-recovery ventilation unit** (`AU-ME-PACKAGED-HEAT-RECOVERY-VENTILATION-UNIT`) — A fixed mechanical-ventilation unit containing separate supply and extract air paths, fans, filters and an air-to-air heat exchanger in one casing.
+- **packaged window-or-wall air conditioner** (`AU-ME-PACKAGED-WINDOW-WALL-AIR-CONDITIONER`) — A self-contained room air conditioner installed through a window or wall opening, with indoor and outdoor air sides contained within one casing.
+- **pre-insulated rigid duct panel** (`AU-ME-PREINSULATED-RIGID-DUCT-PANEL`) — A rigid insulation board or composite panel faced with vapour-control and protective layers and fabricated into rectangular duct or fittings.
+- **rectangular duct elbow** (`AU-ME-RECTANGULAR-DUCT-ELBOW`) — A fabricated rectangular fitting that changes duct direction, with a radius, square throat, turning vanes or other documented internal geometry.
+- **rectangular sheet-metal air duct** (`AU-ME-RECTANGULAR-SHEET-METAL-DUCT`) — A rigid rectangular duct formed from sheet metal with longitudinal seams, transverse joints and reinforcement suited to its size and pressure.
+- **rectangular-duct turning vane** (`AU-ME-RECTANGULAR-ELBOW-TURNING-VANE`) — A curved internal blade within a rectangular duct elbow that guides airflow through a sharp change in direction.
+- **refrigerant branch joint** (`AU-ME-REFRIGERANT-BRANCH-JOINT`) — A purpose-designed refrigerant fitting that divides or combines a main refrigerant line into compatible branch lines for multi-unit systems.
+- **refrigerant expansion device** (`AU-ME-REFRIGERANT-EXPANSION-DEVICE`) — A metering component that reduces refrigerant pressure and controls flow into an evaporating heat exchanger.
+- **refrigerant flare joint** (`AU-ME-REFRIGERANT-FLARE-JOINT`) — A demountable refrigerant-pipe connection formed by a flared copper tube end compressed against a compatible fitting by a flare nut.
+- **refrigerant gas pipe** (`AU-ME-REFRIGERANT-GAS-PIPE`) — The larger-diameter copper tube in a typical split-system pipe pair that carries low-pressure suction gas or, according to operating mode and circuit design, hot refrigerant gas.
+- **refrigerant liquid pipe** (`AU-ME-REFRIGERANT-LIQUID-PIPE`) — The smaller-diameter copper tube in a typical split-system pipe pair that carries predominantly liquid refrigerant between indoor and outdoor equipment according to circuit mode and design.
+- **refrigerant service valve** (`AU-ME-REFRIGERANT-SERVICE-VALVE`) — A valve at refrigerating equipment or pipework that provides isolation, charging, evacuation, pressure testing or service connection functions for the refrigerant circuit.
+- **refrigerant-pipe insulation** (`AU-ME-REFRIGERANT-PIPE-INSULATION`) — A continuous closed-cell thermal-insulation sleeve or wrap around refrigerant pipework that limits heat transfer and surface condensation and may require weather protection outdoors.
+- **refrigerant-pipe support clip** (`AU-ME-REFRIGERANT-PIPE-CLIP`) — A clip, clamp or saddle that fixes refrigerant pipework and its insulation or protective insert to a wall, frame, channel or other support.
+- **refrigerated air-conditioning system** (`AU-ME-REFRIGERATED-AIR-CONDITIONING-SYSTEM`) — A fixed vapour-compression system that moves heat between indoor and outdoor air through one or more indoor units, outdoor equipment, refrigerant pipework, condensate drainage, controls and electrical connections.
+- **residential hydronic heating system** (`AU-ME-HYDRONIC-HEATING-SYSTEM`) — A closed or controlled water-based heating system with a heat source, circulation equipment, flow and return piping, safety and fill components, controls and room or floor emitters.
+- **residential mechanical-services installation** (`AU-ME-RESIDENTIAL-MECHANICAL-INSTALLATION`) — The fixed heating, cooling, air-distribution, mechanical-ventilation, condensate and control equipment installed to serve a house, excluding portable appliances and the separate electrical, gas and sanitary-drainage systems that connect to it.
+- **return-air box** (`AU-ME-RETURN-AIR-BOX`) — A box behind a return-air grille that connects the grille face to one or more return ducts and may hold a filter frame.
+- **return-air grille** (`AU-ME-RETURN-AIR-GRILLE`) — A large framed grille through which room air enters a return-air box, plenum or duct on its way back to mechanical equipment.
+- **return-air plenum** (`AU-ME-RETURN-AIR-PLENUM`) — A chamber on the return side of mechanical equipment that collects air from one or more return paths and delivers it to the filter and indoor unit.
+- **rigid circular air duct** (`AU-ME-RIGID-CIRCULAR-AIR-DUCT`) — A rigid round duct made from spiral-lock, longitudinal-seam or moulded sections used to carry mechanical air.
+- **rigid-duct longitudinal seam** (`AU-ME-DUCT-LONGITUDINAL-SEAM`) — A folded, locked, welded or otherwise joined longitudinal edge connection closing a sheet-metal duct section along its length.
+- **rigid-duct transverse joint** (`AU-ME-DUCT-TRANSVERSE-JOINT`) — A flange, slip, socket, coupling or proprietary joint connecting adjacent rigid duct sections across the airflow direction.
+- **rigid-duct trapeze support** (`AU-ME-RIGID-DUCT-TRAPEZE-SUPPORT`) — A horizontal channel or angle beneath rigid duct, suspended by two or more rods from structure to form a trapeze support.
+- **roof mechanical-equipment support frame** (`AU-ME-ROOF-PLANT-SUPPORT-FRAME`) — A raised metal frame or proprietary roof stand that carries a mechanical unit above a roof and transfers its loads to designated structural supports.
+- **round ceiling air diffuser** (`AU-ME-ROUND-CEILING-DIFFUSER`) — A circular ceiling diffuser with concentric cones, a disc or adjustable central element that spreads supply air radially or in a selected pattern.
+- **single-split air-conditioning system** (`AU-ME-SINGLE-SPLIT-AIR-CONDITIONING-SYSTEM`) — A split air-conditioning arrangement with one indoor unit connected by refrigerant pipework to one matching outdoor unit.
+- **split-system indoor unit** (`AU-ME-INDOOR-AIR-CONDITIONING-UNIT`) — The indoor part of a split air-conditioning system, containing an indoor heat exchanger, fan, filter, condensate pan, air openings, casing and controls or control interfaces.
+- **split-system outdoor unit** (`AU-ME-OUTDOOR-CONDENSING-UNIT`) — The outdoor part of a split air-conditioning or heat-pump system, containing the compressor, outdoor heat exchanger, fan, valves, controls and casing connected to indoor equipment by refrigerant pipework.
+- **split-system refrigerant pipework assembly** (`AU-ME-REFRIGERANT-PIPEWORK-ASSEMBLY`) — The paired refrigerant pipes, insulation, joints, branch fittings, service valves, clips and protective covering that connect split-system indoor and outdoor equipment.
+- **steel panel hydronic radiator** (`AU-ME-HYDRONIC-STEEL-PANEL-RADIATOR`) — A pressed-steel water-filled room heater made from one or more welded panels, often with convector fins, connected to hydronic flow and return pipework.
+- **supply-air grille** (`AU-ME-SUPPLY-AIR-GRILLE`) — A framed room terminal with fixed or adjustable bars or blades through which mechanically supplied air enters a space.
+- **supply-air plenum** (`AU-ME-SUPPLY-AIR-PLENUM`) — A chamber attached to the supply side of mechanical equipment or a distribution point that receives conditioned air and feeds one or more duct outlets.
+- **supply-air register** (`AU-ME-SUPPLY-AIR-REGISTER`) — A supply-air grille combined with an integral or directly attached volume-control damper.
+- **supply-air terminal box** (`AU-ME-SUPPLY-AIR-TERMINAL-BOX`) — A small plenum box connecting a branch duct to a ceiling, wall or floor supply outlet.
+- **suspended mechanical-equipment hanger rod** (`AU-ME-SUSPENDED-EQUIPMENT-HANGER-ROD`) — A threaded steel rod and associated nuts, washers and brackets suspending a mechanical unit or support frame from overhead structure.
+- **thermostatic radiator valve assembly** (`AU-ME-THERMOSTATIC-RADIATOR-VALVE-ASSEMBLY`) — A radiator flow-control assembly combining a valve body with a temperature-responsive head that modulates water flow according to local air or remote sensor temperature.
+- **thermostatic radiator valve body** (`AU-ME-THERMOSTATIC-RADIATOR-VALVE-BODY`) — The water-containing valve and operating pin of a thermostatic radiator valve, installed between the hydronic pipe and radiator connection.
+- **thermostatic radiator valve head** (`AU-ME-THERMOSTATIC-RADIATOR-VALVE-HEAD`) — The removable sensing and actuating head that expands or contracts with temperature and presses the radiator valve pin to change flow.
+- **underfloor-heating heat-spreader plate** (`AU-ME-UNDERFLOOR-HEAT-SPREADER-PLATE`) — A formed conductive sheet that closely contacts heating pipe and spreads its heat across a wider area in a dry or suspended-floor underfloor system.
+- **underfloor-heating loop-tail protective conduit** (`AU-ME-UNDERFLOOR-LOOP-TAIL-PROTECTIVE-CONDUIT`) — A short sleeve or corrugated conduit around an underfloor loop tail where it rises, crosses a movement zone or passes through construction near the manifold.
+- **underfloor-heating manifold cabinet** (`AU-ME-UNDERFLOOR-MANIFOLD-CABINET`) — A recessed or surface-mounted metal enclosure that houses an underfloor-heating manifold while preserving access to its connections and controls.
+- **underfloor-heating manifold circuit valve** (`AU-ME-UNDERFLOOR-MANIFOLD-CIRCUIT-VALVE`) — A small valve on one manifold circuit that regulates or closes flow through the paired underfloor loop and may accept a thermal actuator.
+- **underfloor-heating manifold flow bar** (`AU-ME-UNDERFLOOR-MANIFOLD-FLOW-BAR`) — The manifold body receiving mixed or primary heating water and dividing it among the flow connections of multiple underfloor loops.
+- **underfloor-heating manifold flowmeter** (`AU-ME-UNDERFLOOR-MANIFOLD-FLOWMETER`) — A transparent or readable circuit instrument mounted on a manifold port to indicate and often adjust the water flow through one underfloor loop.
+- **underfloor-heating manifold loop connector** (`AU-ME-UNDERFLOOR-MANIFOLD-LOOP-CONNECTOR`) — A compression, press or proprietary fitting joining an underfloor-heating loop tail to its corresponding manifold circuit port.
+- **underfloor-heating manifold return bar** (`AU-ME-UNDERFLOOR-MANIFOLD-RETURN-BAR`) — The manifold body collecting cooler water from multiple underfloor-loop return connections and combining it into the main return circuit.
+- **underfloor-heating manifold thermal actuator** (`AU-ME-UNDERFLOOR-MANIFOLD-THERMAL-ACTUATOR`) — A small electrically heated actuator fitted to a manifold circuit valve to open or close one floor loop in response to a zone controller.
+- **underfloor-heating perimeter edge strip** (`AU-ME-UNDERFLOOR-PERIMETER-EDGE-STRIP`) — A compressible vertical strip placed around the perimeter and fixed penetrations of a heated screed or topping to reduce edge heat loss and allow limited expansion.
+- **underfloor-heating pipe fixing rail** (`AU-ME-UNDERFLOOR-PIPE-FIXING-RAIL`) — A linear proprietary rail with repeated clips or slots that locates underfloor-heating pipe at selected centre spacings.
+- **underfloor-heating pipe fixing staple** (`AU-ME-UNDERFLOOR-PIPE-FIXING-STAPLE`) — A U-shaped proprietary fixing driven or pressed over heating pipe into a compatible insulation or substrate to hold the planned loop position before covering.
+- **ventilation carbon-dioxide sensor** (`AU-ME-VENTILATION-CO2-SENSOR`) — A fixed indoor sensor that measures carbon-dioxide concentration as an occupancy-related input to compatible mechanical-ventilation controls.
+- **ventilation humidity sensor** (`AU-ME-VENTILATION-HUMIDITY-SENSOR`) — A fixed sensor that measures relative humidity and provides an input to ventilation, exhaust or dehumidification controls.
+- **wall-mounted split-system indoor unit** (`AU-ME-WALL-MOUNTED-SPLIT-INDOOR-UNIT`) — A high-wall indoor air-conditioning unit with a rear mounting plate, upper or front return-air intake, filter and directed supply-air outlet.
+- **whole-house heat-recovery ventilation system** (`AU-ME-WHOLE-HOUSE-HEAT-RECOVERY-VENTILATION-SYSTEM`) — A balanced mechanical-ventilation arrangement that extracts stale indoor air and supplies filtered outdoor air through separate ducts while transferring heat between the two air streams in a heat-exchanger core.
+
+## Cross-discipline links
+
+- `AU-ME-AIR-TO-WATER-HEAT-PUMP-UNIT` commonly used with `AU-EL-HVAC-ISOLATOR`
+- `AU-ME-EVAPORATIVE-COOLER-ROOF-DROPPER` commonly used with `AU-TC-EVAPORATIVE-COOLER-DAMPER`
+- `AU-ME-EVAPORATIVE-COOLING-SYSTEM` commonly used with `AU-TC-EVAPORATIVE-COOLER-DAMPER`
+- `AU-ME-HYDRONIC-UNDERFLOOR-HEATING-ASSEMBLY` commonly used with `AU-FF-INTERNAL-FLOOR-FINISH-SYSTEM`
+- `AU-ME-OUTDOOR-CONDENSING-UNIT` commonly used with `AU-EL-HVAC-ISOLATOR`
+- `AU-ME-PACKAGED-DUCTED-EVAPORATIVE-COOLER` commonly used with `AU-TC-EVAPORATIVE-COOLER-DAMPER`
+- `AU-ME-REFRIGERATED-AIR-CONDITIONING-SYSTEM` commonly used with `AU-EL-HVAC-ISOLATOR`
+- `AU-ME-VENTILATION-EXHAUST-TERMINAL` commonly used with `AU-TC-OUTDOOR-EXHAUST-TERMINAL`
+- `AU-ME-WHOLE-HOUSE-HEAT-RECOVERY-VENTILATION-SYSTEM` commonly used with `AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM`

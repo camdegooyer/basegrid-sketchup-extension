@@ -1,0 +1,220 @@
+# Livable Housing discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 114
+- Internal relationships: 257
+- Outgoing cross-discipline relationships: 49
+- Distinct supporting sources: 3
+- Distinct linked standards: 11
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 100.0%
+- Objects with two or more sources: 50.9%
+
+## Categories
+
+- access gate components: 5
+- access path assemblies: 5
+- access path components: 9
+- access ramp assemblies: 2
+- boardwalk components: 6
+- cavity slider components: 3
+- doorway assemblies: 3
+- dwelling access assemblies: 1
+- dwelling access routes: 3
+- entrance assemblies: 2
+- entrance drainage components: 8
+- entrance thresholds: 5
+- entrance weatherproofing: 4
+- fixture specific reinforcement assemblies: 5
+- grabrail reinforcement components: 7
+- internal circulation assemblies: 1
+- internal door assemblies: 4
+- internal door components: 7
+- internal door hardware: 4
+- internal thresholds: 3
+- livable housing assemblies: 1
+- parking assemblies: 1
+- parking components: 5
+- sanitary accessory components: 1
+- sanitary assemblies: 1
+- sanitary door components: 1
+- sanitary fixture assemblies: 3
+- sanitary fixture components: 2
+- sanitary joinery components: 1
+- shower access assemblies: 1
+- toilet components: 6
+- toilet connection components: 2
+- toilet support components: 1
+- wall reinforcement assemblies: 1
+
+## Objects
+
+- **access path paver bedding layer** (`AU-LH-ACCESS-PATH-PAVER-BEDDING`) — The levelled sand, mortar or proprietary bedding layer directly supporting paving units on a livable access path.
+- **allotment-boundary-to-entrance step-free access assembly** (`AU-LH-ALLOTMENT-BOUNDARY-ACCESS-ASSEMBLY`) — A step-free dwelling access route beginning at the pedestrian entry at the allotment boundary and ending at the nominated entrance.
+- **attached-garage or carport step-free access assembly** (`AU-LH-GARAGE-LINKED-ACCESS-ASSEMBLY`) — A step-free route from an appurtenant attached garage or carport to a compliant connecting entrance door into the dwelling.
+- **bath future-grabrail wall reinforcement assembly** (`AU-LH-BATH-WALL-REINFORCEMENT-ASSEMBLY`) — The concealed backing, supports and fasteners arranged along the nominated bath wall or walls relative to the bath rim and installed position for future grabrail attachment.
+- **bevelled or locally ramped internal doorway threshold** (`AU-LH-BEVELLED-INTERNAL-THRESHOLD`) — A small bevelled or ramped transition within the door-jamb depth bridging differing internal floor-finish levels at a nominated doorway.
+- **cavity-slider floor or base guide** (`AU-LH-CAVITY-SLIDER-BASE-GUIDE`) — A small fixed guide at the bottom of a cavity sliding door that controls lateral panel movement without forming a raised trafficable threshold across the doorway.
+- **cavity-slider split stud** (`AU-LH-CAVITY-SLIDER-SPLIT-STUD`) — One of the paired narrow vertical members forming the two faces of a cavity-slider pocket while leaving clearance for the moving door panel between them.
+- **cavity-slider wall-pocket frame** (`AU-LH-CAVITY-SLIDER-POCKET-FRAME`) — The framed wall pocket receiving an open cavity-sliding door panel, including split-stud sides, head support, pocket end and lining supports.
+- **channel-drained step-free entrance assembly** (`AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY`) — An entrance weatherproofing arrangement using a linear drain across the width of an impermeable external landing near the door sill.
+- **concealed toilet cistern** (`AU-LH-CONCEALED-TOILET-CISTERN`) — A toilet flushing tank installed inside a framed wall, service duct or joinery enclosure and reached through a service opening or flush-control plate.
+- **concealed-cistern and wall-hung-pan support frame** (`AU-LH-CONCEALED-CISTERN-SUPPORT-FRAME`) — A proprietary or engineered steel carrier frame supporting a concealed cistern and, where applicable, a wall-hung toilet pan within framed construction.
+- **concrete access path movement-joint assembly** (`AU-LH-CONCRETE-PATH-MOVEMENT-JOINT`) — A formed separation in a concrete path slab with joint filler, sealant, dowel or other selected load-transfer and edge detail while maintaining a trafficable surface.
+- **concrete step-free access path assembly** (`AU-LH-CONCRETE-ACCESS-PATH-ASSEMBLY`) — A formed and finished concrete strip or slab providing a ground-supported step-free access path, including joints, thickened edges or reinforcement where selected.
+- **exclusive parking space line marking** (`AU-LH-PARKING-SPACE-LINE-MARKING`) — A painted or thermoplastic line on a parking surface identifying the intended vehicle standing boundary or pedestrian departure edge where marking is provided.
+- **exclusive-parking-to-entrance step-free access assembly** (`AU-LH-PARKING-LINKED-ACCESS-ASSEMBLY`) — A step-free route from a car parking space provided for the exclusive use of dwelling occupants to the nominated entrance door.
+- **exclusive-use parking space incorporated into livable access** (`AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY`) — The unobstructed vehicle standing surface and connected pedestrian departure area used as an origin or part of the required step-free access route.
+- **exposed toilet cistern** (`AU-LH-EXPOSED-TOILET-CISTERN`) — A visible water storage and flushing unit mounted behind, on or above a toilet pan.
+- **external arrival landing at a livable entrance** (`AU-LH-ENTRANCE-ARRIVAL-LANDING-ASSEMBLY`) — The external trafficable landing immediately on the arrival side of the nominated entrance door, coordinated with the access path, threshold, door swing and drainage.
+- **external step-free entrance weatherproofing assembly** (`AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY`) — The coordinated drainage, permeable-surface or roof-cover construction used to manage water at an external step-free entrance without introducing an unacceptable threshold step.
+- **fixed sanitary vanity cabinet** (`AU-LH-VANITY-CABINET`) — A floor- or wall-mounted cabinet supporting or surrounding a washbasin and containing doors, drawers, shelves and a plumbing void.
+- **floor-mounted toilet pan** (`AU-LH-FLOOR-MOUNTED-TOILET-PAN`) — A toilet pan bearing on and fixed to the finished floor, with an outlet connected through the floor or wall and a physical centreline and front edge used for H8 checks.
+- **flush internal doorway transition strip** (`AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP`) — A thin strip, cover or separator installed flush with adjoining floor finishes at a livable internal doorway.
+- **future-grabrail backing fastener** (`AU-LH-GRABRAIL-BACKING-FASTENER`) — A nail, screw, bolt, rivet or proprietary connector securing structural plywood, noggings, backing plate or edge support to the wall frame.
+- **future-grabrail backing sheet edge support** (`AU-LH-GRABRAIL-BACKING-EDGE-SUPPORT`) — An added timber or steel framing member supporting an otherwise free edge or joint of a structural plywood grabrail-backing sheet.
+- **future-grabrail wall reinforcement system** (`AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM`) — Concealed structural sheeting, timber noggings, light-gauge steel noggings or metal plate incorporated into selected bathroom and sanitary walls so a later grabrail can be fixed with less removal of wall lining.
+- **future-grabrail-reinforced cavity-slider wall assembly** (`AU-LH-REINFORCED-CAVITY-SLIDER-WALL-ASSEMBLY`) — A coordinated wall assembly in which a sliding door pocket, split studs, linings, services and future-grabrail reinforcement coexist without fasteners entering the door-panel travel space.
+- **gate assembly within a step-free dwelling access path** (`AU-LH-ACCESS-GATE-ASSEMBLY`) — A pedestrian gate, its posts, hinges, latch, stops and ground interface located within the step-free access route while preserving the required clear opening and threshold condition.
+- **internal door frame head** (`AU-LH-INTERNAL-DOOR-FRAME-HEAD`) — The horizontal top member of an internal door frame spanning between jambs and carrying stops or sliding-track interfaces where selected.
+- **internal door frame jamb** (`AU-LH-INTERNAL-DOOR-FRAME-JAMB`) — One vertical side member of an internal door frame, serving hinge, latch, guide, pocket-return or closing roles according to the door type.
+- **internal door handle and latch set** (`AU-LH-INTERNAL-DOOR-HANDLE-LATCH`) — The paired handles, spindle or pull, latch body, faceplate and strike used to operate and retain an internal swing or sliding door.
+- **internal door stop moulding** (`AU-LH-INTERNAL-DOOR-STOP-MOULDING`) — A fixed timber, metal or composite strip on an internal swing-door frame against which the closed leaf stops and seals.
+- **internal doorway door leaf** (`AU-LH-INTERNAL-DOOR-LEAF`) — A solid, hollow-core, panelled or glazed moving leaf that swings or slides to close a livable internal doorway.
+- **internal doorway frame** (`AU-LH-INTERNAL-DOOR-FRAME`) — The installed head and jamb frame surrounding an internal door opening and receiving stops, hinges, guides, latch hardware and architraves.
+- **internal folding door panel** (`AU-LH-INTERNAL-FOLDING-DOOR-PANEL`) — One narrow leaf within a linked set of internal folding or concertina door panels.
+- **internal livable-housing circulation assembly** (`AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY`) — The connected ground- or entry-level floor route, corridors, hallways, passageways and nominated doorways providing movement to the relevant habitable rooms, laundry, sanitary compartment, shower and attached garage or carport.
+- **internal sliding door panel** (`AU-LH-INTERNAL-SLIDING-DOOR-PANEL`) — A moving internal door panel configured to translate along a wall face or into a wall cavity on hangers, rollers and guides.
+- **internal sliding-door head track** (`AU-LH-INTERNAL-SLIDING-DOOR-TRACK`) — A linear metal track fixed above a surface or cavity sliding doorway and supporting or guiding the door hangers or rollers.
+- **internal sliding-door roller hanger** (`AU-LH-INTERNAL-SLIDING-DOOR-HANGER`) — An adjustable wheeled or bearing trolley connecting an internal sliding panel to its head track.
+- **internal swing-door hinge** (`AU-LH-INTERNAL-DOOR-HINGE`) — A butt hinge, lift-off hinge, pivot or other connector supporting an internal swing door leaf and defining its opening axis.
+- **level livable entrance threshold** (`AU-LH-LEVEL-ENTRANCE-THRESHOLD`) — An entrance threshold arrangement in which the trafficable crossing is level between the adjoining finished internal and external surfaces, with weatherproofing handled by seals, drainage or cover.
+- **light-gauge-steel future-grabrail nogging** (`AU-LH-LIGHT-GAUGE-STEEL-GRABRAIL-NOGGING`) — A formed light-gauge steel channel, track or proprietary backing section fixed between steel studs to receive future grabrail fixings or support a backing plate.
+- **livable cavity-sliding internal door assembly** (`AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY`) — An internal sliding door set whose panel retracts into a framed wall pocket containing split studs, head track, guides and jamb components.
+- **livable entrance threshold assembly** (`AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY`) — The coordinated lower door-frame profile, seals, adjoining internal and external finishes and any local ramp or bevel that form the trafficable crossing at the nominated step-free entrance.
+- **livable folding or concertina internal door assembly** (`AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY`) — An internal doorway closed by two or more hinged panels that fold and stack at one or both sides of the opening on pivots or a guide track.
+- **livable internal doorway threshold or floor-transition assembly** (`AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY`) — The physical junction between floor finishes at a nominated internal doorway, including any transition strip, local bevel or ramp while preserving the selected threshold condition.
+- **livable internal swing-door assembly** (`AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY`) — An internal doorway using one or more leaves rotating on side hinges or pivots, with the fully open leaf position used to establish clear passage.
+- **livable multi-panel stacking sliding door assembly** (`AU-LH-STACKING-SLIDING-DOOR-ASSEMBLY`) — A doorway using multiple sliding panels that overlap or stack in the open position, with the resulting clear opening determined from the installed stack and frame.
+- **livable step-free dwelling entrance assembly** (`AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY`) — A nominated dwelling entrance composed of its door or door set, frame, clear opening, threshold construction, arrival landing and any external weatherproofing needed to preserve step-free entry.
+- **livable surface-sliding internal door assembly** (`AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY`) — An internal door whose leaf or panel travels along the face of a wall on a top track or other guide rather than retracting into a wall cavity.
+- **livable-access parking bituminous surface** (`AU-LH-PARKING-BITUMINOUS-SURFACE`) — A compacted asphalt or bituminous pavement surface forming the exclusive-use parking space and its pedestrian connection.
+- **livable-access parking hardstand slab** (`AU-LH-PARKING-HARDSTAND-SLAB`) — The concrete or other rigid structural pavement forming the vehicle standing surface of an exclusive-use parking space incorporated into the step-free route.
+- **livable-access ramp landing assembly** (`AU-LH-ACCESS-PATH-LANDING-ASSEMBLY`) — A level or drainage-falled trafficable platform at the end of a ramp segment on the step-free dwelling access route.
+- **livable-housing entrance doorset** (`AU-LH-LIVABLE-ENTRANCE-DOORSET`) — The complete hinged, sliding, folding or multi-panel external door set selected as the step-free dwelling entrance, including leaf or panels, frame, hardware, seals and threshold.
+- **livable-housing hobless step-free shower access assembly** (`AU-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY`) — The nominated shower entry, floor levels, water-retaining edge, drainage, screen arrangement and surrounding wall construction providing both a hobless and step-free crossing.
+- **livable-housing internal doorway assembly** (`AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY`) — An internal wall opening with its frame, door leaf or panels, operating hardware and threshold or floor transition, selected and installed to provide the required clear passage on a nominated internal route.
+- **livable-housing physical construction system** (`AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM`) — The coordinated physical paths, entrances, doorways, corridors, sanitary construction, step-free shower and concealed wall reinforcement used to make a dwelling easier to enter, use and adapt.
+- **livable-housing sanitary compartment assembly** (`AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY`) — The nominated ground- or entry-level room or space containing a toilet pan, its surrounding finished walls, doorway, fixed fixtures and future-grabrail supporting construction arranged for independent approach and use.
+- **livable-sanitary-compartment toilet suite assembly** (`AU-LH-TOILET-SUITE-ASSEMBLY`) — The selected toilet pan, cistern or flushing unit, seat, connectors and fixings installed as the physical toilet suite within the livable-housing sanitary compartment.
+- **low-upstand external weather-sill threshold assembly** (`AU-LH-RAISED-WEATHER-SILL-THRESHOLD`) — An external entrance sill with a raised proprietary profile needed for weather performance, coordinated so its local upstands and adjoining finishes preserve the selected livable crossing.
+- **metal future-grabrail backing plate** (`AU-LH-METAL-GRABRAIL-BACKING-PLATE`) — A concealed steel or other suitable metal plate fixed to wall framing to provide a broad local substrate for future grabrail fasteners.
+- **parking wheel stop** (`AU-LH-PARKING-WHEEL-STOP`) — A low concrete, rubber or polymer member anchored to a parking surface to limit vehicle travel, treated as an obstruction when it projects into the usable parking or pedestrian route.
+- **parking-to-step-free-path transition joint** (`AU-LH-PARKING-TO-PATH-TRANSITION-JOINT`) — The physical junction between a parking hardstand and the connected pedestrian access path, including changes in pavement material, joint fillers, edge profiles and drainage while maintaining the intended step-free crossing.
+- **paved access path edge restraint** (`AU-LH-ACCESS-PATH-EDGE-RESTRAINT`) — A continuous kerb, concrete haunch, rigid strip or anchored edging that confines paving and protects the side of a ground-supported step-free path.
+- **paved step-free access path assembly** (`AU-LH-PAVED-ACCESS-PATH-ASSEMBLY`) — A ground-supported step-free path made with concrete, unit paving or another firm paved surface over prepared substrate and edge restraint.
+- **permeable raised-deck step-free entrance assembly** (`AU-LH-PERMEABLE-DECK-ENTRANCE-ASSEMBLY`) — A step-free entrance landing made with gapped trafficable decking over a separately drained surface or space below.
+- **raised deck or boardwalk step-free access path assembly** (`AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY`) — A suspended step-free path made from trafficable boards or panels over joists, bearers, posts or another framed support system.
+- **ramped livable entrance threshold** (`AU-LH-RAMPED-ENTRANCE-THRESHOLD`) — A local sloping threshold surface contained within the door-jamb depth and extending across the entrance clear opening to bridge a small sill level difference.
+- **roof-covered step-free entrance assembly** (`AU-LH-COVERED-ENTRANCE-ASSEMBLY`) — A nominated step-free entrance protected by a roof or canopy over the arrival area, with the roof supports and drainage kept outside the required path and landing space.
+- **rounded or bevelled entrance sill lip** (`AU-LH-BEVELLED-ENTRANCE-SILL-LIP`) — A small rounded or bevelled raised edge formed in or attached to an entrance sill profile to retain seals or water while easing the trafficable crossing.
+- **sanitary-compartment door stop** (`AU-LH-SANITARY-DOOR-STOP`) — A floor-, wall-, frame- or hinge-mounted fitting limiting the swing of the sanitary-compartment door leaf.
+- **sanitary-compartment vanity and washbasin assembly** (`AU-LH-VANITY-BASIN-ASSEMBLY`) — A fixed washbasin with its cabinet, bench or brackets, tapware, waste and water connections where installed within the selected sanitary compartment.
+- **sanitary-compartment washbasin** (`AU-LH-WASHBASIN`) — A fixed bowl-shaped sanitary fixture for handwashing, mounted in, on or below a bench or directly to brackets or a wall.
+- **shower future-grabrail wall reinforcement assembly** (`AU-LH-SHOWER-WALL-REINFORCEMENT-ASSEMBLY`) — The concealed backing, supports and fasteners arranged on the nominated shower wall or walls relative to the shower floor, entry and controls for future grabrail attachment.
+- **single step-ramp assembly on a livable access path** (`AU-LH-STEP-RAMP-ASSEMBLY`) — One short sloping trafficable construction used to overcome a single local level difference within the step-free dwelling access route.
+- **solid-timber future-grabrail nogging** (`AU-LH-TIMBER-GRABRAIL-NOGGING`) — A solid timber blocking member fitted between studs at a fixture-relative position to receive later grabrail fasteners and transfer their actions into the wall frame.
+- **solid-wall future-grabrail support substrate** (`AU-LH-SOLID-WALL-GRABRAIL-SUPPORT-SUBSTRATE`) — A concrete, reinforced-concrete, solid-masonry or suitable filled-masonry wall body capable of receiving later grabrail anchors without added framed-wall backing.
+- **step-free access gate hinge** (`AU-LH-ACCESS-GATE-HINGE`) — A hinge or pivot connecting a swinging pedestrian gate leaf to its support post and controlling its rotational axis.
+- **step-free access gate latch** (`AU-LH-ACCESS-GATE-LATCH`) — A manually or automatically engaging fitting holding a pedestrian access gate leaf closed against its latch post.
+- **step-free access gate leaf** (`AU-LH-ACCESS-GATE-LEAF`) — The moving framed, boarded, panelled or mesh portion of a pedestrian gate within the livable access route.
+- **step-free access gate post** (`AU-LH-ACCESS-GATE-POST`) — A vertical structural member supporting gate hinges, guides or latch hardware at the side of a pedestrian access opening.
+- **step-free access gate stop** (`AU-LH-ACCESS-GATE-STOP`) — A floor-, post- or fence-mounted fitting limiting a gate leaf at its closed or fully open position without creating an unintended obstruction in the access path.
+- **step-free access path compacted base layer** (`AU-LH-ACCESS-PATH-COMPACTED-BASE`) — The compacted granular or stabilised layer below a paved path slab, bedding or surface that provides a stable formation and distributes loads to subgrade.
+- **step-free access path concrete slab** (`AU-LH-CONCRETE-PATH-SLAB`) — The ground-supported concrete slab forming the body and usually the exposed surface of a concrete livable access path.
+- **step-free access path drainage channel** (`AU-LH-ACCESS-PATH-DRAINAGE-CHANNEL`) — A linear surface-water drain alongside or across a livable access path, positioned and finished so its grate or opening does not create an unintended step or obstruction.
+- **step-free access path paving unit** (`AU-LH-ACCESS-PATH-PAVING-UNIT`) — One concrete, fired-clay or stone unit repeated to form the surface of a unit-paved livable access path.
+- **step-free access path walking finish** (`AU-LH-ACCESS-PATH-WALKING-FINISH`) — The exposed trafficable finish on a livable access path, ramp, step ramp or landing, distinct from the slab, pavers, deck boards or other supporting substrate beneath it.
+- **step-free boardwalk bearer or beam** (`AU-LH-BOARDWALK-BEARER`) — A primary horizontal or sloping member supporting boardwalk joists and transferring their reactions to posts, walls, ledgers or footings.
+- **step-free boardwalk decking board** (`AU-LH-BOARDWALK-DECKING-BOARD`) — One trafficable timber or composite board repeated across a raised livable access path or permeable entrance landing.
+- **step-free boardwalk decking fixing** (`AU-LH-BOARDWALK-DECKING-FIXING`) — A screw, nail, clip or concealed fastening component securing an access-path decking board to its supporting joist.
+- **step-free boardwalk frame brace** (`AU-LH-BOARDWALK-BRACE`) — A diagonal member, strap or framed element stabilising raised access-path posts, bearers or joists against lateral movement and racking.
+- **step-free boardwalk joist** (`AU-LH-BOARDWALK-JOIST`) — A repeated horizontal or sloping timber or steel member directly supporting decking boards in a raised access path.
+- **step-free boardwalk support post** (`AU-LH-BOARDWALK-SUPPORT-POST`) — A vertical timber, steel or concrete member supporting a raised access-path bearer or beam above a footing or other foundation element.
+- **step-free dwelling access assembly** (`AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY`) — The continuous physical route from an accepted origin to a nominated dwelling entrance, assembled from path, ramp or step-ramp surfaces, landings, gates, drainage and the connected entrance construction without an intervening step.
+- **step-free entrance drain channel anchor** (`AU-LH-ENTRANCE-DRAIN-ANCHOR`) — A bracket, tab, screw or cast-in fixing holding an entrance drain channel at the designed position and surface level within the landing construction.
+- **step-free entrance drain channel end cap** (`AU-LH-ENTRANCE-DRAIN-END-CAP`) — A sealed closure fitted to an open end of a modular entrance drainage channel.
+- **step-free entrance drain grate** (`AU-LH-ENTRANCE-DRAIN-GRATE`) — A removable trafficable slotted, perforated or bar grate closing the top of an entrance drain channel while admitting surface water.
+- **step-free entrance drain outlet fitting** (`AU-LH-ENTRANCE-DRAIN-OUTLET`) — A side, end or bottom fitting connecting the entrance drain channel to a downstream stormwater pipe or drainage path.
+- **step-free entrance drain removable debris basket** (`AU-LH-ENTRANCE-DRAIN-DEBRIS-BASKET`) — A removable perforated cup, tray or strainer located at an entrance channel outlet to capture leaves and debris while allowing water to pass.
+- **step-free entrance drain waterproofing flange** (`AU-LH-ENTRANCE-DRAIN-WATERPROOFING-FLANGE`) — A horizontal or vertical flange on or attached to an entrance drainage channel for bonding, clamping or lapping the landing waterproofing and flashings into the drain.
+- **step-free entrance linear drain channel body** (`AU-LH-ENTRANCE-DRAIN-CHANNEL-BODY`) — The continuous trough or channel embedded in the external landing across the entrance width to collect water beneath a trafficable grate or slot.
+- **step-free pedestrian path assembly** (`AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY`) — The trafficable path surface, substrate, edges, joints and drainage forming a non-ramp or ramped segment of the step-free dwelling access route.
+- **structural-plywood future-grabrail backing sheet** (`AU-LH-STRUCTURAL-PLYWOOD-GRABRAIL-BACKING`) — A structural plywood sheet fixed behind the wall lining and supported by the wall frame to form a broad concealed fixing substrate for a future grabrail.
+- **toilet flush-button or access plate** (`AU-LH-TOILET-FLUSH-BUTTON-PLATE`) — A visible plate carrying one or more flush controls and commonly closing the maintenance opening to a concealed cistern.
+- **toilet pan or carrier fixing** (`AU-LH-TOILET-FIXING`) — A screw, bolt, bracket, adhesive fixing or proprietary set securing a toilet pan or its support carrier to the finished floor, wall or structure.
+- **toilet pan sanitary connector** (`AU-LH-TOILET-PAN-CONNECTOR`) — A sealed pan collar, offset connector or adaptor joining the toilet pan outlet to the sanitary discharge pipe.
+- **toilet rear-wall future-grabrail reinforcement assembly** (`AU-LH-TOILET-REAR-WALL-REINFORCEMENT-ASSEMBLY`) — The concealed backing, supports and fasteners arranged on the wall behind a toilet pan for possible future grabrail attachment, coordinated with the flushing system and services.
+- **toilet seat and lid set** (`AU-LH-TOILET-SEAT-LID`) — The hinged seat, lid and attachment set fixed to the toilet pan rim.
+- **toilet side-wall future-grabrail reinforcement assembly** (`AU-LH-TOILET-SIDE-WALL-REINFORCEMENT-ASSEMBLY`) — The concealed backing, supports and fasteners arranged on the nominated side wall beside a toilet pan using the installed pan centreline and finished-floor datums.
+- **toilet-roll holder** (`AU-LH-TOILET-ROLL-HOLDER`) — A fixed wall-, cabinet- or freestanding fitting holding a toilet-paper roll within the sanitary compartment.
+- **under-deck entrance drainage surface** (`AU-LH-UNDER-DECK-ENTRANCE-DRAINAGE-SURFACE`) — The sloping impermeable slab, tray, membrane or sheet below a permeable entrance deck that collects water passing through board gaps and directs it away from the building.
+- **unit-paved step-free access path assembly** (`AU-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY`) — A step-free path surfaced with concrete, clay or stone paving units laid over a prepared bedding and base with restrained edges.
+- **wall-hung toilet pan** (`AU-LH-WALL-HUNG-TOILET-PAN`) — A toilet pan suspended from a structural carrier or engineered wall fixing without bearing on the finished floor.
+- **wall-hung toilet support and fixture assembly** (`AU-LH-WALL-HUNG-TOILET-ASSEMBLY`) — A wall-hung toilet pan together with its concealed support frame or structural fixing, cistern, flush control and service connections.
+- **washbasin tapset** (`AU-LH-BASIN-TAPSET`) — A mixer, separate taps or sensor-controlled outlet supplying hot and cold or cold water to a washbasin.
+
+## Cross-discipline links
+
+- `AU-LH-ACCESS-PATH-LANDING-ASSEMBLY` is a `AU-SA-LANDING-ASSEMBLY`
+- `AU-LH-BEVELLED-INTERNAL-THRESHOLD` commonly used with `AU-FF-DOORWAY-THRESHOLD-PROFILE`
+- `AU-LH-BEVELLED-INTERNAL-THRESHOLD` commonly used with `AU-FF-FLOOR-REDUCER-PROFILE`
+- `AU-LH-BEVELLED-INTERNAL-THRESHOLD` commonly used with `AU-FF-FLOOR-TRANSITION-ASSEMBLY`
+- `AU-LH-BOARDWALK-DECKING-BOARD` commonly used with `AU-DB-DECKING-SURFACE-ASSEMBLY`
+- `AU-LH-BOARDWALK-DECKING-FIXING` commonly used with `AU-DB-DECKING-FACE-SCREW`
+- `AU-LH-CAVITY-SLIDER-SPLIT-STUD` commonly used with `AU-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING`
+- `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY` has part `AU-ID-CAVITY-SLIDER-CLOSING-JAMB`
+- `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY` has part `AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY`
+- `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY` has part `AU-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING`
+- `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY` has part `AU-ID-CAVITY-SLIDER-SQUARE-SET-REVEAL`
+- `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY` has part `AU-ID-INTERNAL-SLIDING-DOOR-EDGE-PULL`
+- `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY` has part `AU-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL`
+- `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY` has part `AU-ID-INTERNAL-SLIDING-TRACK-STOP`
+- `AU-LH-ENTRANCE-ARRIVAL-LANDING-ASSEMBLY` is a `AU-SA-LANDING-ASSEMBLY`
+- `AU-LH-ENTRANCE-DRAIN-CHANNEL-BODY` commonly used with `AU-DB-BALCONY-LINEAR-DRAIN-ASSEMBLY`
+- `AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP` commonly used with `AU-FF-DOORWAY-THRESHOLD-PROFILE`
+- `AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP` commonly used with `AU-FF-FLOOR-COVER-STRIP`
+- `AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP` commonly used with `AU-FF-FLOOR-TRANSITION-ASSEMBLY`
+- `AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP` commonly used with `AU-FF-T-MOULDING-TRANSITION-PROFILE`
+- `AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY` has part `AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY`
+- `AU-LH-INTERNAL-DOOR-HANDLE-LATCH` commonly used with `AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM`
+- `AU-LH-INTERNAL-DOOR-HANDLE-LATCH` has part `AU-ID-DOOR-HANDLE-BACKPLATE`
+- `AU-LH-INTERNAL-DOOR-HANDLE-LATCH` has part `AU-ID-DOOR-HANDLE-ROSE`
+- `AU-LH-INTERNAL-DOOR-HANDLE-LATCH` has part `AU-ID-DOOR-HANDLE-SPINDLE`
+- `AU-LH-INTERNAL-DOOR-HANDLE-LATCH` has part `AU-ID-INTERNAL-DOOR-KNOB`
+- `AU-LH-INTERNAL-DOOR-HANDLE-LATCH` has part `AU-ID-INTERNAL-DOOR-LEVER-HANDLE`
+- `AU-LH-INTERNAL-DOOR-HANDLE-LATCH` has part `AU-ID-KEYED-INTERNAL-LOCKSET`
+- `AU-LH-INTERNAL-DOOR-HANDLE-LATCH` has part `AU-ID-PASSAGE-LATCHSET`
+- `AU-LH-INTERNAL-DOOR-HANDLE-LATCH` has part `AU-ID-PRIVACY-LATCHSET`
+- `AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY` commonly used with `AU-FF-INTERNAL-FLOOR-FINISH-SYSTEM`
+- `AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY` has part `AU-FF-DOORWAY-THRESHOLD-PROFILE`
+- `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY` commonly used with `AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY`
+- `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY` has part `AU-ID-CONCEALED-INTERNAL-DOOR-HINGE`
+- `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY` has part `AU-ID-FIXED-PIN-BUTT-HINGE`
+- `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY` has part `AU-ID-INTERNAL-DOOR-BUTT-HINGE`
+- `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY` has part `AU-ID-INTERNAL-DOOR-PIVOT-SET`
+- `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY` has part `AU-ID-LOOSE-PIN-BUTT-HINGE`
+- `AU-LH-LIVABLE-ENTRANCE-DOORSET` commonly used with `AU-ED-EXTERNAL-DOOR-THRESHOLD`
+- `AU-LH-LIVABLE-ENTRANCE-DOORSET` commonly used with `AU-ED-EXTERNAL-PEDESTRIAN-DOORSET`
+- `AU-LH-LIVABLE-ENTRANCE-DOORSET` commonly used with `AU-WD-GLAZED-DOOR-ASSEMBLY`
+- `AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY` commonly used with `AU-DB-BALCONY-DOOR-THRESHOLD-INTERFACE`
+- `AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY` commonly used with `AU-TC-DOOR-THRESHOLD-SEAL`
+- `AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY` commonly used with `AU-WD-DOOR-THRESHOLD`
+- `AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY` commonly used with `AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM`
+- `AU-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY` is a `AU-WP-LEVEL-THRESHOLD-SHOWER-ASSEMBLY`
+- `AU-LH-STACKING-SLIDING-DOOR-ASSEMBLY` commonly used with `AU-WD-SLIDING-GLAZED-DOOR`
+- `AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY` has part `AU-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL`
+- `AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY` has part `AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY`

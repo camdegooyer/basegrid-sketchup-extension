@@ -1,0 +1,5017 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "concrete_structures",
+  "relationships": [
+    {
+      "id": "REL-908-CS-ADJUSTABLE-FORMWORK-PROP-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-ADJUSTABLE-FORMWORK-PROP",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-909-CS-BACKPROP-PART-OF-AU-CS-FALSEWORK-ASSEMBLY",
+      "from_id": "AU-CS-BACKPROP",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FALSEWORK-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-910-CS-BAND-BEAM-IS-A-AU-CS-CONCRETE-BEAM",
+      "from_id": "AU-CS-BAND-BEAM",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CONCRETE-BEAM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-911-CS-BAND-BEAM-PART-OF-AU-CS-BEAM-AND-SLAB-SYSTEM",
+      "from_id": "AU-CS-BAND-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CS-BEAM-AND-SLAB-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-912-CS-BEAM-AND-SLAB-SYSTEM-HAS-PART-AU-CS-BAND-BEAM",
+      "from_id": "AU-CS-BEAM-AND-SLAB-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-BAND-BEAM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-913-CS-BEAM-AND-SLAB-SYSTEM-HAS-PART-AU-CS-DOWNSTAND-CONCRETE-BEAM",
+      "from_id": "AU-CS-BEAM-AND-SLAB-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-DOWNSTAND-CONCRETE-BEAM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-914-CS-BEAM-AND-SLAB-SYSTEM-PART-OF-AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "from_id": "AU-CS-BEAM-AND-SLAB-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-915-CS-BEAM-FORMWORK-ASSEMBLY-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-BEAM-FORMWORK-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-916-CS-BLENDED-CEMENT-IS-A-AU-CS-CEMENTITIOUS-BINDER",
+      "from_id": "AU-CS-BLENDED-CEMENT",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CEMENTITIOUS-BINDER",
+      "source_ids": [
+        "SRC-CEMENT-AUSTRALIA-CEMENT",
+        "SRC-SA-AS3972-2010"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-917-CS-BONDED-MULTISTRAND-TENDON-HAS-PART-AU-CS-FLAT-POST-TENSIONING-DUCT",
+      "from_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FLAT-POST-TENSIONING-DUCT",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-918-CS-BONDED-MULTISTRAND-TENDON-HAS-PART-AU-CS-POST-TENSIONING-DUCT",
+      "from_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "relationship": "has_part",
+      "to_id": "AU-CS-POST-TENSIONING-DUCT",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-919-CS-BONDED-MULTISTRAND-TENDON-HAS-PART-AU-CS-POST-TENSIONING-GROUT",
+      "from_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "relationship": "has_part",
+      "to_id": "AU-CS-POST-TENSIONING-GROUT",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-920-CS-BONDED-MULTISTRAND-TENDON-HAS-PART-AU-CS-PT-GROUT-INLET",
+      "from_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PT-GROUT-INLET",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-921-CS-BONDED-MULTISTRAND-TENDON-HAS-PART-AU-CS-PT-GROUT-VENT",
+      "from_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PT-GROUT-VENT",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-922-CS-BONDED-MULTISTRAND-TENDON-HAS-PART-AU-CS-ROUND-POST-TENSIONING-DUCT",
+      "from_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "relationship": "has_part",
+      "to_id": "AU-CS-ROUND-POST-TENSIONING-DUCT",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-923-CS-BONDED-MULTISTRAND-TENDON-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-924-CS-BORED-CAST-IN-PLACE-PILE-IS-A-AU-CS-CONCRETE-PILE",
+      "from_id": "AU-CS-BORED-CAST-IN-PLACE-PILE",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CONCRETE-PILE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-925-CS-BORED-CAST-IN-PLACE-PILE-PART-OF-AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "from_id": "AU-CS-BORED-CAST-IN-PLACE-PILE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-926-CS-CAST-IN-ANCHOR-CHANNEL-PART-OF-AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "from_id": "AU-CS-CAST-IN-ANCHOR-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-AS5216-2021",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-927-CS-CAST-IN-BRACE-INSERT-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CAST-IN-BRACE-INSERT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024",
+        "SRC-SWA-PRECAST-TILTUP-COP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-928-CS-CAST-IN-EMBED-ASSEMBLY-HAS-PART-AU-CS-CAST-IN-ANCHOR-CHANNEL",
+      "from_id": "AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CAST-IN-ANCHOR-CHANNEL",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-AS5216-2021",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-929-CS-CAST-IN-EMBED-ASSEMBLY-HAS-PART-AU-CS-CAST-IN-PENETRATION-SLEEVE",
+      "from_id": "AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CAST-IN-PENETRATION-SLEEVE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-930-CS-CAST-IN-EMBED-ASSEMBLY-HAS-PART-AU-CS-CAST-IN-STEEL-PLATE",
+      "from_id": "AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CAST-IN-STEEL-PLATE",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-AS5216-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-931-CS-CAST-IN-EMBED-ASSEMBLY-HAS-PART-AU-CS-CAST-IN-THREADED-FERRULE",
+      "from_id": "AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CAST-IN-THREADED-FERRULE",
+      "source_ids": [
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS5216-2021",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-932-CS-CAST-IN-EMBED-ASSEMBLY-HAS-PART-AU-CS-STARTER-BAR-BOX",
+      "from_id": "AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-STARTER-BAR-BOX",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-933-CS-CAST-IN-LIFTING-ANCHOR-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CAST-IN-LIFTING-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024",
+        "SRC-SWA-PRECAST-TILTUP-COP",
+        "SRC-TGA-CPCPRE3000-PREFABRICATED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-934-CS-CAST-IN-PENETRATION-SLEEVE-PART-OF-AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "from_id": "AU-CS-CAST-IN-PENETRATION-SLEEVE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-935-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-CONCRETE-BEAM",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-BEAM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-936-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-CONCRETE-BLOCKOUT",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-BLOCKOUT",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-937-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-CONCRETE-COLUMN",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-COLUMN",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-938-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-CONCRETE-CORBEL",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-CORBEL",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-BEAMS",
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-939-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-CONCRETE-CORE-WALL",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-CORE-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-940-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-CONCRETE-KICKER",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-KICKER",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-941-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-CONCRETE-PEDESTAL",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-PEDESTAL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-942-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-CONCRETE-RECESS",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-RECESS",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-943-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-CONCRETE-SHEAR-WALL",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-SHEAR-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-944-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-CONCRETE-UPSTAND",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-UPSTAND",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-945-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-CONCRETE-WALL",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-WALL",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-946-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-PLAIN-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PLAIN-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-947-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-REINFORCED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-REINFORCED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-948-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-REINFORCED-CONCRETE-FRAME",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-REINFORCED-CONCRETE-FRAME",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-949-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-950-CS-CAST-IN-PLACE-CONCRETE-SYSTEM-HAS-PART-AU-CS-TRANSFER-CONCRETE-BEAM",
+      "from_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-TRANSFER-CONCRETE-BEAM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-951-CS-CAST-IN-STEEL-PLATE-PART-OF-AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "from_id": "AU-CS-CAST-IN-STEEL-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-AS5216-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-952-CS-CAST-IN-THREADED-FERRULE-PART-OF-AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "from_id": "AU-CS-CAST-IN-THREADED-FERRULE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS5216-2021",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-954-CS-CENTRE-BULB-WATERSTOP-IS-A-AU-CS-CONCRETE-JOINT-WATERSTOP",
+      "from_id": "AU-CS-CENTRE-BULB-WATERSTOP",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CONCRETE-JOINT-WATERSTOP",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-955-CS-CENTRE-BULB-WATERSTOP-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-CENTRE-BULB-WATERSTOP",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-956-CS-CFA-CONCRETE-PILE-IS-A-AU-CS-CONCRETE-PILE",
+      "from_id": "AU-CS-CFA-CONCRETE-PILE",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CONCRETE-PILE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-957-CS-CFA-CONCRETE-PILE-PART-OF-AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "from_id": "AU-CS-CFA-CONCRETE-PILE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-960-CS-CLOSED-STIRRUP-PART-OF-AU-CS-REINFORCEMENT-CAGE",
+      "from_id": "AU-CS-CLOSED-STIRRUP",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-CAGE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-962-CS-COLUMN-CAPITAL-PART-OF-AU-CS-FLAT-SLAB",
+      "from_id": "AU-CS-COLUMN-CAPITAL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FLAT-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-963-CS-COLUMN-FORMWORK-ASSEMBLY-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-COLUMN-FORMWORK-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-964-CS-COMPOSITE-STEEL-DECK-SLAB-PART-OF-AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "from_id": "AU-CS-COMPOSITE-STEEL-DECK-SLAB",
+      "relationship": "part_of",
+      "to_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL",
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-966-CS-CONCRETE-BAR-CHAIR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-CONCRETE-BAR-CHAIR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-967-CS-CONCRETE-BEAM-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-968-CS-CONCRETE-BLOCKOUT-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-BLOCKOUT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-969-CS-CONCRETE-COLUMN-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-COLUMN",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-970-CS-CONCRETE-CONSTRUCTION-JOINT-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-CONSTRUCTION-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-971-CS-CONCRETE-CONTRACTION-JOINT-HAS-PART-AU-CS-SAW-CUT-JOINT-GROOVE",
+      "from_id": "AU-CS-CONCRETE-CONTRACTION-JOINT",
+      "relationship": "has_part",
+      "to_id": "AU-CS-SAW-CUT-JOINT-GROOVE",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-972-CS-CONCRETE-CONTRACTION-JOINT-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-CONTRACTION-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-973-CS-CONCRETE-CORBEL-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-CORBEL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-BEAMS",
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-974-CS-CONCRETE-CORE-WALL-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-CORE-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-975-CS-CONCRETE-EXPANSION-JOINT-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-EXPANSION-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-977-CS-CONCRETE-FORM-LINER-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-FORM-LINER",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-978-CS-CONCRETE-GROUND-BEAM-PART-OF-AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-GROUND-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS2159-2009",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-979-CS-CONCRETE-ISOLATION-JOINT-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-ISOLATION-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-980-CS-CONCRETE-JOINT-BACKER-ROD-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-JOINT-BACKER-ROD",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-982-CS-CONCRETE-JOINT-DOWEL-BAR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-CONCRETE-JOINT-DOWEL-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-983-CS-CONCRETE-JOINT-FILLER-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-JOINT-FILLER",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-984-CS-CONCRETE-JOINT-SEALANT-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-JOINT-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-985-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-CENTRE-BULB-WATERSTOP",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CENTRE-BULB-WATERSTOP",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-986-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-CONCRETE-CONSTRUCTION-JOINT",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-CONSTRUCTION-JOINT",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-987-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-CONCRETE-CONTRACTION-JOINT",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-CONTRACTION-JOINT",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-988-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-CONCRETE-EXPANSION-JOINT",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-EXPANSION-JOINT",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-989-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-CONCRETE-ISOLATION-JOINT",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-ISOLATION-JOINT",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-990-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-CONCRETE-JOINT-BACKER-ROD",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-JOINT-BACKER-ROD",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-991-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-CONCRETE-JOINT-FILLER",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-JOINT-FILLER",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-992-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-CONCRETE-JOINT-SEALANT",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-JOINT-SEALANT",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-993-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-CONCRETE-JOINT-WATERSTOP",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-JOINT-WATERSTOP",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-994-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-CONCRETE-SHEAR-KEY",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-SHEAR-KEY",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-995-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-DOWELLED-CONCRETE-JOINT",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-DOWELLED-CONCRETE-JOINT",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-996-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-HYDROPHILIC-JOINT-STRIP",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-HYDROPHILIC-JOINT-STRIP",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-997-CS-CONCRETE-JOINT-SYSTEM-HAS-PART-AU-CS-KEYED-CONCRETE-JOINT",
+      "from_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-KEYED-CONCRETE-JOINT",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-998-CS-CONCRETE-JOINT-WATERSTOP-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-JOINT-WATERSTOP",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-999-CS-CONCRETE-KICKER-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-KICKER",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1001-CS-CONCRETE-PEDESTAL-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-PEDESTAL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1002-CS-CONCRETE-PILE-PART-OF-AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-PILE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS2159-2009",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1003-CS-CONCRETE-PILE-CAP-PART-OF-AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-PILE-CAP",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS2159-2009",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1004-CS-CONCRETE-RECESS-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-RECESS",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1005-CS-CONCRETE-SHEAR-KEY-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-SHEAR-KEY",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1006-CS-CONCRETE-SHEAR-WALL-IS-A-AU-CS-CONCRETE-WALL",
+      "from_id": "AU-CS-CONCRETE-SHEAR-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CONCRETE-WALL",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1007-CS-CONCRETE-SHEAR-WALL-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-SHEAR-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1008-CS-CONCRETE-SLAB-RIB-PART-OF-AU-CS-RIBBED-SLAB",
+      "from_id": "AU-CS-CONCRETE-SLAB-RIB",
+      "relationship": "part_of",
+      "to_id": "AU-CS-RIBBED-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1012-CS-CONCRETE-UPSTAND-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-UPSTAND",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1013-CS-CONCRETE-WALL-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-CONCRETE-WALL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1015-CS-CONTINUOUS-BAR-CHAIR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-CONTINUOUS-BAR-CHAIR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1016-CS-DEAD-END-PT-ANCHORAGE-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-DEAD-END-PT-ANCHORAGE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-ASNZS1314-2003",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1017-CS-DEEP-FOUNDATION-SYSTEM-HAS-PART-AU-CS-BORED-CAST-IN-PLACE-PILE",
+      "from_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-BORED-CAST-IN-PLACE-PILE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1018-CS-DEEP-FOUNDATION-SYSTEM-HAS-PART-AU-CS-CFA-CONCRETE-PILE",
+      "from_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CFA-CONCRETE-PILE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1019-CS-DEEP-FOUNDATION-SYSTEM-HAS-PART-AU-CS-CONCRETE-GROUND-BEAM",
+      "from_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-GROUND-BEAM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS2159-2009",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1020-CS-DEEP-FOUNDATION-SYSTEM-HAS-PART-AU-CS-CONCRETE-PILE",
+      "from_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-PILE",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS2159-2009",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1021-CS-DEEP-FOUNDATION-SYSTEM-HAS-PART-AU-CS-CONCRETE-PILE-CAP",
+      "from_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-PILE-CAP",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS2159-2009",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1022-CS-DEEP-FOUNDATION-SYSTEM-HAS-PART-AU-CS-DRIVEN-CAST-IN-PLACE-PILE",
+      "from_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-DRIVEN-CAST-IN-PLACE-PILE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1023-CS-DEEP-FOUNDATION-SYSTEM-HAS-PART-AU-CS-DRIVEN-PRECAST-CONCRETE-PILE",
+      "from_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-DRIVEN-PRECAST-CONCRETE-PILE",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS2159-2009",
+        "SRC-SA-AS3850-1-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1024-CS-DEEP-FOUNDATION-SYSTEM-HAS-PART-AU-CS-GROUTED-MICROPILE",
+      "from_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-GROUTED-MICROPILE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1025-CS-DEEP-FOUNDATION-SYSTEM-HAS-PART-AU-CS-PILE-GROUP",
+      "from_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PILE-GROUP",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1026-CS-DEEP-FOUNDATION-SYSTEM-HAS-PART-AU-CS-PILE-PERMANENT-CASING",
+      "from_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PILE-PERMANENT-CASING",
+      "source_ids": [
+        "SRC-SA-AS2159-2009",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1027-CS-DEEP-FOUNDATION-SYSTEM-HAS-PART-AU-CS-PILE-REINFORCEMENT-CAGE",
+      "from_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PILE-REINFORCEMENT-CAGE",
+      "source_ids": [
+        "SRC-SA-AS2159-2009",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1029-CS-DEFORMED-REINFORCING-BAR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-DEFORMED-REINFORCING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1030-CS-DOWEL-SLEEVE-PART-OF-AU-CS-DOWELLED-CONCRETE-JOINT",
+      "from_id": "AU-CS-DOWEL-SLEEVE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DOWELLED-CONCRETE-JOINT",
+      "source_ids": [
+        "SRC-TGA-CPCCCO2014-CONCRETE",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1031-CS-DOWELLED-CONCRETE-JOINT-HAS-PART-AU-CS-DOWEL-SLEEVE",
+      "from_id": "AU-CS-DOWELLED-CONCRETE-JOINT",
+      "relationship": "has_part",
+      "to_id": "AU-CS-DOWEL-SLEEVE",
+      "source_ids": [
+        "SRC-TGA-CPCCCO2014-CONCRETE",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1032-CS-DOWELLED-CONCRETE-JOINT-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-DOWELLED-CONCRETE-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1033-CS-DOWNSTAND-CONCRETE-BEAM-IS-A-AU-CS-CONCRETE-BEAM",
+      "from_id": "AU-CS-DOWNSTAND-CONCRETE-BEAM",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CONCRETE-BEAM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1034-CS-DOWNSTAND-CONCRETE-BEAM-PART-OF-AU-CS-BEAM-AND-SLAB-SYSTEM",
+      "from_id": "AU-CS-DOWNSTAND-CONCRETE-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CS-BEAM-AND-SLAB-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1035-CS-DRIVEN-CAST-IN-PLACE-PILE-IS-A-AU-CS-CONCRETE-PILE",
+      "from_id": "AU-CS-DRIVEN-CAST-IN-PLACE-PILE",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CONCRETE-PILE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1036-CS-DRIVEN-CAST-IN-PLACE-PILE-PART-OF-AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "from_id": "AU-CS-DRIVEN-CAST-IN-PLACE-PILE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1037-CS-DRIVEN-PRECAST-CONCRETE-PILE-IS-A-AU-CS-CONCRETE-PILE",
+      "from_id": "AU-CS-DRIVEN-PRECAST-CONCRETE-PILE",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CONCRETE-PILE",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS2159-2009",
+        "SRC-SA-AS3850-1-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1038-CS-DRIVEN-PRECAST-CONCRETE-PILE-PART-OF-AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "from_id": "AU-CS-DRIVEN-PRECAST-CONCRETE-PILE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS2159-2009",
+        "SRC-SA-AS3850-1-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1039-CS-DROP-PANEL-PART-OF-AU-CS-FLAT-SLAB",
+      "from_id": "AU-CS-DROP-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FLAT-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1040-CS-FALSEWORK-ASSEMBLY-HAS-PART-AU-CS-BACKPROP",
+      "from_id": "AU-CS-FALSEWORK-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-BACKPROP",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1041-CS-FALSEWORK-ASSEMBLY-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FALSEWORK-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1043-CS-FLAT-PLATE-SLAB-IS-A-AU-CS-TWO-WAY-SLAB",
+      "from_id": "AU-CS-FLAT-PLATE-SLAB",
+      "relationship": "is_a",
+      "to_id": "AU-CS-TWO-WAY-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1044-CS-FLAT-PLATE-SLAB-PART-OF-AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "from_id": "AU-CS-FLAT-PLATE-SLAB",
+      "relationship": "part_of",
+      "to_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1045-CS-FLAT-POST-TENSIONING-DUCT-IS-A-AU-CS-POST-TENSIONING-DUCT",
+      "from_id": "AU-CS-FLAT-POST-TENSIONING-DUCT",
+      "relationship": "is_a",
+      "to_id": "AU-CS-POST-TENSIONING-DUCT",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1046-CS-FLAT-POST-TENSIONING-DUCT-PART-OF-AU-CS-BONDED-MULTISTRAND-TENDON",
+      "from_id": "AU-CS-FLAT-POST-TENSIONING-DUCT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1047-CS-FLAT-SLAB-HAS-PART-AU-CS-COLUMN-CAPITAL",
+      "from_id": "AU-CS-FLAT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CS-COLUMN-CAPITAL",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1048-CS-FLAT-SLAB-HAS-PART-AU-CS-DROP-PANEL",
+      "from_id": "AU-CS-FLAT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CS-DROP-PANEL",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1049-CS-FLAT-SLAB-IS-A-AU-CS-TWO-WAY-SLAB",
+      "from_id": "AU-CS-FLAT-SLAB",
+      "relationship": "is_a",
+      "to_id": "AU-CS-TWO-WAY-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1050-CS-FLAT-SLAB-PART-OF-AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "from_id": "AU-CS-FLAT-SLAB",
+      "relationship": "part_of",
+      "to_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1051-CS-FLY-ASH-IS-A-AU-CS-SUPPLEMENTARY-CEMENTITIOUS-MATERIAL",
+      "from_id": "AU-CS-FLY-ASH",
+      "relationship": "is_a",
+      "to_id": "AU-CS-SUPPLEMENTARY-CEMENTITIOUS-MATERIAL",
+      "source_ids": [
+        "SRC-CEMENT-AUSTRALIA-CEMENT",
+        "SRC-SA-AS1379-2007"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1052-CS-FORM-FACE-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORM-FACE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1053-CS-FORM-RELEASE-AGENT-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORM-RELEASE-AGENT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1054-CS-FORM-TIE-CONE-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORM-TIE-CONE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1055-CS-FORM-TIE-ROD-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORM-TIE-ROD",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1056-CS-FORM-TIE-SPACER-TUBE-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORM-TIE-SPACER-TUBE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1058-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-ADJUSTABLE-FORMWORK-PROP",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-ADJUSTABLE-FORMWORK-PROP",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1059-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-BEAM-FORMWORK-ASSEMBLY",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-BEAM-FORMWORK-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1060-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-COLUMN-FORMWORK-ASSEMBLY",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-COLUMN-FORMWORK-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1061-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-CONCRETE-FORM-LINER",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-FORM-LINER",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1062-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FALSEWORK-ASSEMBLY",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FALSEWORK-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1063-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORM-FACE",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORM-FACE",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1064-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORM-RELEASE-AGENT",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORM-RELEASE-AGENT",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1065-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORM-TIE-CONE",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORM-TIE-CONE",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1066-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORM-TIE-ROD",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORM-TIE-ROD",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1067-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORM-TIE-SPACER-TUBE",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORM-TIE-SPACER-TUBE",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1068-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-BASE-JACK",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-BASE-JACK",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1069-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-BEARER",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-BEARER",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1070-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-BOXOUT-FORMER",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-BOXOUT-FORMER",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1071-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-BRACE",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-BRACE",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1072-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-CHAMFER-STRIP",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-CHAMFER-STRIP",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1073-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-EDGE-FORM",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-EDGE-FORM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1074-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-HEAD-JACK",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-HEAD-JACK",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1075-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-JOIST",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-JOIST",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1076-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-PLYWOOD",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-PLYWOOD",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS6669-2016",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1077-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-SOLDIER",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-SOLDIER",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1078-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-STOP-END",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-STOP-END",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1079-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-FORMWORK-WALER",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FORMWORK-WALER",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1080-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-JUMP-FORM-ASSEMBLY",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-JUMP-FORM-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCON3051-SPECIAL-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1081-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-SLAB-FORMWORK-ASSEMBLY",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-SLAB-FORMWORK-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1082-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-SLIP-FORM-ASSEMBLY",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-SLIP-FORM-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCON3051-SPECIAL-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1083-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-STEEL-FORM-PANEL",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-STEEL-FORM-PANEL",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1084-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-TABLE-FORM-ASSEMBLY",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-TABLE-FORM-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1085-CS-FORMWORK-AND-FALSEWORK-SYSTEM-HAS-PART-AU-CS-WALL-FORMWORK-ASSEMBLY",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-WALL-FORMWORK-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1086-CS-FORMWORK-BASE-JACK-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-BASE-JACK",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1087-CS-FORMWORK-BEARER-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-BEARER",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1088-CS-FORMWORK-BOXOUT-FORMER-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-BOXOUT-FORMER",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1089-CS-FORMWORK-BRACE-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-BRACE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1090-CS-FORMWORK-CHAMFER-STRIP-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-CHAMFER-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1091-CS-FORMWORK-EDGE-FORM-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-EDGE-FORM",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1092-CS-FORMWORK-HEAD-JACK-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-HEAD-JACK",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1093-CS-FORMWORK-JOIST-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-JOIST",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1094-CS-FORMWORK-PLYWOOD-IS-A-AU-CS-FORM-FACE",
+      "from_id": "AU-CS-FORMWORK-PLYWOOD",
+      "relationship": "is_a",
+      "to_id": "AU-CS-FORM-FACE",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS6669-2016",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1095-CS-FORMWORK-PLYWOOD-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-PLYWOOD",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS6669-2016",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1096-CS-FORMWORK-SOLDIER-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-SOLDIER",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1097-CS-FORMWORK-STOP-END-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-STOP-END",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1098-CS-FORMWORK-WALER-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-FORMWORK-WALER",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1099-CS-GENERAL-PURPOSE-CEMENT-IS-A-AU-CS-CEMENTITIOUS-BINDER",
+      "from_id": "AU-CS-GENERAL-PURPOSE-CEMENT",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CEMENTITIOUS-BINDER",
+      "source_ids": [
+        "SRC-CEMENT-AUSTRALIA-CEMENT",
+        "SRC-SA-AS3972-2010"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1100-CS-GROUND-SLAG-IS-A-AU-CS-SUPPLEMENTARY-CEMENTITIOUS-MATERIAL",
+      "from_id": "AU-CS-GROUND-SLAG",
+      "relationship": "is_a",
+      "to_id": "AU-CS-SUPPLEMENTARY-CEMENTITIOUS-MATERIAL",
+      "source_ids": [
+        "SRC-CEMENT-AUSTRALIA-CEMENT",
+        "SRC-SA-AS1379-2007"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1101-CS-GROUTED-MICROPILE-PART-OF-AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "from_id": "AU-CS-GROUTED-MICROPILE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1102-CS-GROUTED-REINFORCING-SLEEVE-PART-OF-AU-CS-MECHANICAL-BAR-SPLICE",
+      "from_id": "AU-CS-GROUTED-REINFORCING-SLEEVE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-MECHANICAL-BAR-SPLICE",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SRIA-MECHANICAL-SPLICES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1104-CS-HEADED-REINFORCING-BAR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-HEADED-REINFORCING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1105-CS-HOLLOWCORE-FLOOR-PLANK-IS-A-AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-HOLLOWCORE-FLOOR-PLANK",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-HOLLOWCORE",
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1106-CS-HOLLOWCORE-FLOOR-PLANK-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-HOLLOWCORE-FLOOR-PLANK",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-HOLLOWCORE",
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1108-CS-HOOKED-REINFORCING-BAR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-HOOKED-REINFORCING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1109-CS-HYDROPHILIC-JOINT-STRIP-IS-A-AU-CS-CONCRETE-JOINT-WATERSTOP",
+      "from_id": "AU-CS-HYDROPHILIC-JOINT-STRIP",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CONCRETE-JOINT-WATERSTOP",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1110-CS-HYDROPHILIC-JOINT-STRIP-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-HYDROPHILIC-JOINT-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1111-CS-JUMP-FORM-ASSEMBLY-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-JUMP-FORM-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCON3051-SPECIAL-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1112-CS-KEYED-CONCRETE-JOINT-PART-OF-AU-CS-CONCRETE-JOINT-SYSTEM",
+      "from_id": "AU-CS-KEYED-CONCRETE-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-JOINT-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1114-CS-L-SHAPED-REINFORCING-BAR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-L-SHAPED-REINFORCING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1115-CS-LIVE-END-PT-ANCHORAGE-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-LIVE-END-PT-ANCHORAGE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-ASNZS1314-2003",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1117-CS-LONGITUDINAL-REINFORCING-BAR-PART-OF-AU-CS-REINFORCEMENT-CAGE",
+      "from_id": "AU-CS-LONGITUDINAL-REINFORCING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-CAGE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1120-CS-MECHANICAL-BAR-SPLICE-HAS-PART-AU-CS-GROUTED-REINFORCING-SLEEVE",
+      "from_id": "AU-CS-MECHANICAL-BAR-SPLICE",
+      "relationship": "has_part",
+      "to_id": "AU-CS-GROUTED-REINFORCING-SLEEVE",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SRIA-MECHANICAL-SPLICES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1121-CS-MECHANICAL-BAR-SPLICE-HAS-PART-AU-CS-REINFORCING-BAR-COUPLER",
+      "from_id": "AU-CS-MECHANICAL-BAR-SPLICE",
+      "relationship": "has_part",
+      "to_id": "AU-CS-REINFORCING-BAR-COUPLER",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1122-CS-MECHANICAL-BAR-SPLICE-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-MECHANICAL-BAR-SPLICE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1123-CS-ONE-WAY-SLAB-PART-OF-AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "from_id": "AU-CS-ONE-WAY-SLAB",
+      "relationship": "part_of",
+      "to_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1125-CS-OPEN-STIRRUP-PART-OF-AU-CS-REINFORCEMENT-CAGE",
+      "from_id": "AU-CS-OPEN-STIRRUP",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-CAGE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1126-CS-PILE-GROUP-PART-OF-AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "from_id": "AU-CS-PILE-GROUP",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS2159-2009"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1127-CS-PILE-PERMANENT-CASING-PART-OF-AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "from_id": "AU-CS-PILE-PERMANENT-CASING",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS2159-2009",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1128-CS-PILE-REINFORCEMENT-CAGE-PART-OF-AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "from_id": "AU-CS-PILE-REINFORCEMENT-CAGE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-DEEP-FOUNDATION-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS2159-2009",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1129-CS-PLAIN-CONCRETE-ELEMENT-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PLAIN-CONCRETE-ELEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1131-CS-PLAIN-ROUND-REINFORCING-BAR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-PLAIN-ROUND-REINFORCING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1133-CS-PLASTIC-BAR-CHAIR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-PLASTIC-BAR-CHAIR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1135-CS-PLASTIC-TIPPED-WIRE-BAR-CHAIR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-PLASTIC-TIPPED-WIRE-BAR-CHAIR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1136-CS-POST-TENSIONED-CONCRETE-ELEMENT-IS-A-AU-CS-PRESTRESSED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-POST-TENSIONED-CONCRETE-ELEMENT",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PRESTRESSED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1137-CS-POST-TENSIONING-DUCT-PART-OF-AU-CS-BONDED-MULTISTRAND-TENDON",
+      "from_id": "AU-CS-POST-TENSIONING-DUCT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1138-CS-POST-TENSIONING-GROUT-PART-OF-AU-CS-BONDED-MULTISTRAND-TENDON",
+      "from_id": "AU-CS-POST-TENSIONING-GROUT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1139-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-BONDED-MULTISTRAND-TENDON",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1140-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-DEAD-END-PT-ANCHORAGE",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-DEAD-END-PT-ANCHORAGE",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-ASNZS1314-2003",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1141-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-LIVE-END-PT-ANCHORAGE",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-LIVE-END-PT-ANCHORAGE",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-ASNZS1314-2003",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1142-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-PRESTRESSING-STRAND",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRESTRESSING-STRAND",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-ASNZS4672-1-2007"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1143-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-PT-ANCHORAGE-GROUT-CAP",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PT-ANCHORAGE-GROUT-CAP",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1144-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-PT-ANCHORAGE-HEAD",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PT-ANCHORAGE-HEAD",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-ASNZS1314-2003"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1145-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-PT-ANCHORAGE-RECESS",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PT-ANCHORAGE-RECESS",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1146-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-PT-ANCHORAGE-TRUMPET",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PT-ANCHORAGE-TRUMPET",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-ASNZS1314-2003",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1147-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-PT-ANCHORAGE-WEDGES",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PT-ANCHORAGE-WEDGES",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-ASNZS1314-2003"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1148-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-PT-ANCHORAGE-ZONE-REINFORCEMENT",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PT-ANCHORAGE-ZONE-REINFORCEMENT",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1149-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-PT-TENDON-CHAIR",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PT-TENDON-CHAIR",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1150-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-PT-TENDON-COUPLER",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PT-TENDON-COUPLER",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-ASNZS1314-2003",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1151-CS-POST-TENSIONING-SYSTEM-HAS-PART-AU-CS-UNBONDED-MONOSTRAND-TENDON",
+      "from_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-UNBONDED-MONOSTRAND-TENDON",
+      "source_ids": [
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1154-CS-PRECAST-BALCONY-PANEL-IS-A-AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-PRECAST-BALCONY-PANEL",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1155-CS-PRECAST-BALCONY-PANEL-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-BALCONY-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1156-CS-PRECAST-BEARING-PAD-PART-OF-AU-CS-PRECAST-CONNECTION-ASSEMBLY",
+      "from_id": "AU-CS-PRECAST-BEARING-PAD",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PRECAST-CONNECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1157-CS-PRECAST-CONCRETE-BEAM-IS-A-AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-PRECAST-CONCRETE-BEAM",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-BEAMS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1158-CS-PRECAST-CONCRETE-BEAM-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-CONCRETE-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-BEAMS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1159-CS-PRECAST-CONCRETE-COLUMN-IS-A-AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-PRECAST-CONCRETE-COLUMN",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1160-CS-PRECAST-CONCRETE-COLUMN-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-CONCRETE-COLUMN",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1161-CS-PRECAST-CONNECTION-ASSEMBLY-HAS-PART-AU-CS-PRECAST-BEARING-PAD",
+      "from_id": "AU-CS-PRECAST-CONNECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-BEARING-PAD",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1162-CS-PRECAST-CONNECTION-ASSEMBLY-HAS-PART-AU-CS-PRECAST-GROUT-BED",
+      "from_id": "AU-CS-PRECAST-CONNECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-GROUT-BED",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-2-2024",
+        "SRC-TGA-CPCPRE3000-PREFABRICATED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1163-CS-PRECAST-CONNECTION-ASSEMBLY-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-CONNECTION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024",
+        "SRC-SWA-PRECAST-TILTUP-COP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1164-CS-PRECAST-DOUBLE-TEE-UNIT-IS-A-AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-PRECAST-DOUBLE-TEE-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1165-CS-PRECAST-DOUBLE-TEE-UNIT-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-DOUBLE-TEE-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1166-CS-PRECAST-GROUT-BED-PART-OF-AU-CS-PRECAST-CONNECTION-ASSEMBLY",
+      "from_id": "AU-CS-PRECAST-GROUT-BED",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PRECAST-CONNECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-2-2024",
+        "SRC-TGA-CPCPRE3000-PREFABRICATED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1167-CS-PRECAST-INSERT-PATCH-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-INSERT-PATCH",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3850-2-2024",
+        "SRC-SWA-PRECAST-TILTUP-COP",
+        "SRC-TGA-CPCPRE3000-PREFABRICATED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1168-CS-PRECAST-INVERTED-T-BEAM-IS-A-AU-CS-PRECAST-CONCRETE-BEAM",
+      "from_id": "AU-CS-PRECAST-INVERTED-T-BEAM",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PRECAST-CONCRETE-BEAM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-BEAMS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1169-CS-PRECAST-INVERTED-T-BEAM-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-INVERTED-T-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-BEAMS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1170-CS-PRECAST-L-SPANDREL-BEAM-IS-A-AU-CS-PRECAST-CONCRETE-BEAM",
+      "from_id": "AU-CS-PRECAST-L-SPANDREL-BEAM",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PRECAST-CONCRETE-BEAM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-BEAMS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1171-CS-PRECAST-L-SPANDREL-BEAM-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-L-SPANDREL-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-BEAMS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1172-CS-PRECAST-PARAPET-PANEL-IS-A-AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-PRECAST-PARAPET-PANEL",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1173-CS-PRECAST-PARAPET-PANEL-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-PARAPET-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1174-CS-PRECAST-SANDWICH-WALL-PANEL-HAS-PART-AU-CS-SANDWICH-PANEL-INNER-WYTHE",
+      "from_id": "AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "relationship": "has_part",
+      "to_id": "AU-CS-SANDWICH-PANEL-INNER-WYTHE",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1175-CS-PRECAST-SANDWICH-WALL-PANEL-HAS-PART-AU-CS-SANDWICH-PANEL-INSULATION-CORE",
+      "from_id": "AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "relationship": "has_part",
+      "to_id": "AU-CS-SANDWICH-PANEL-INSULATION-CORE",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1176-CS-PRECAST-SANDWICH-WALL-PANEL-HAS-PART-AU-CS-SANDWICH-PANEL-OUTER-WYTHE",
+      "from_id": "AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "relationship": "has_part",
+      "to_id": "AU-CS-SANDWICH-PANEL-OUTER-WYTHE",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1177-CS-PRECAST-SANDWICH-WALL-PANEL-HAS-PART-AU-CS-SANDWICH-PANEL-WYTHE-CONNECTOR",
+      "from_id": "AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "relationship": "has_part",
+      "to_id": "AU-CS-SANDWICH-PANEL-WYTHE-CONNECTOR",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-AS3850-1-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1178-CS-PRECAST-SANDWICH-WALL-PANEL-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1179-CS-PRECAST-SOLID-SLAB-PANEL-IS-A-AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-PRECAST-SOLID-SLAB-PANEL",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1180-CS-PRECAST-SOLID-SLAB-PANEL-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-SOLID-SLAB-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1181-CS-PRECAST-SOLID-WALL-PANEL-IS-A-AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-PRECAST-SOLID-WALL-PANEL",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024",
+        "SRC-SWA-PRECAST-TILTUP-COP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1182-CS-PRECAST-SOLID-WALL-PANEL-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-SOLID-WALL-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024",
+        "SRC-SWA-PRECAST-TILTUP-COP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1183-CS-PRECAST-STAIR-FLIGHT-IS-A-AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-PRECAST-STAIR-FLIGHT",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1184-CS-PRECAST-STAIR-FLIGHT-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-STAIR-FLIGHT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1185-CS-PRECAST-STAIR-LANDING-IS-A-AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-PRECAST-STAIR-LANDING",
+      "relationship": "is_a",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1186-CS-PRECAST-STAIR-LANDING-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PRECAST-STAIR-LANDING",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1187-CS-PREFABRICATED-CONCRETE-ELEMENT-PART-OF-AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1188-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-CAST-IN-BRACE-INSERT",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CAST-IN-BRACE-INSERT",
+      "source_ids": [
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024",
+        "SRC-SWA-PRECAST-TILTUP-COP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1189-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-CAST-IN-LIFTING-ANCHOR",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CAST-IN-LIFTING-ANCHOR",
+      "source_ids": [
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024",
+        "SRC-SWA-PRECAST-TILTUP-COP",
+        "SRC-TGA-CPCPRE3000-PREFABRICATED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1190-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-HOLLOWCORE-FLOOR-PLANK",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-HOLLOWCORE-FLOOR-PLANK",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-HOLLOWCORE",
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1191-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-BALCONY-PANEL",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-BALCONY-PANEL",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1192-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-CONCRETE-BEAM",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-CONCRETE-BEAM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-BEAMS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1193-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-CONCRETE-COLUMN",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-CONCRETE-COLUMN",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1194-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-CONNECTION-ASSEMBLY",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-CONNECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024",
+        "SRC-SWA-PRECAST-TILTUP-COP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1195-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-DOUBLE-TEE-UNIT",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-DOUBLE-TEE-UNIT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1196-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-INSERT-PATCH",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-INSERT-PATCH",
+      "source_ids": [
+        "SRC-SA-AS3850-2-2024",
+        "SRC-SWA-PRECAST-TILTUP-COP",
+        "SRC-TGA-CPCPRE3000-PREFABRICATED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1197-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-INVERTED-T-BEAM",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-INVERTED-T-BEAM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-BEAMS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1198-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-L-SPANDREL-BEAM",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-L-SPANDREL-BEAM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-BEAMS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1199-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-PARAPET-PANEL",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-PARAPET-PANEL",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1200-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1201-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-SOLID-SLAB-PANEL",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-SOLID-SLAB-PANEL",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1202-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-SOLID-WALL-PANEL",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-SOLID-WALL-PANEL",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024",
+        "SRC-SWA-PRECAST-TILTUP-COP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1203-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-STAIR-FLIGHT",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-STAIR-FLIGHT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1204-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PRECAST-STAIR-LANDING",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PRECAST-STAIR-LANDING",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1205-CS-PREFABRICATED-CONCRETE-SYSTEM-HAS-PART-AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "from_id": "AU-CS-PREFABRICATED-CONCRETE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PREFABRICATED-CONCRETE-ELEMENT",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1206-CS-PRESTRESSING-STRAND-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-PRESTRESSING-STRAND",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-ASNZS4672-1-2007"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1207-CS-PT-ANCHORAGE-GROUT-CAP-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-PT-ANCHORAGE-GROUT-CAP",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1208-CS-PT-ANCHORAGE-HEAD-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-PT-ANCHORAGE-HEAD",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-ASNZS1314-2003"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1209-CS-PT-ANCHORAGE-RECESS-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-PT-ANCHORAGE-RECESS",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1210-CS-PT-ANCHORAGE-TRUMPET-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-PT-ANCHORAGE-TRUMPET",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-ASNZS1314-2003",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1211-CS-PT-ANCHORAGE-WEDGES-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-PT-ANCHORAGE-WEDGES",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-ASNZS1314-2003"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1212-CS-PT-ANCHORAGE-ZONE-REINFORCEMENT-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-PT-ANCHORAGE-ZONE-REINFORCEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1213-CS-PT-GROUT-INLET-PART-OF-AU-CS-BONDED-MULTISTRAND-TENDON",
+      "from_id": "AU-CS-PT-GROUT-INLET",
+      "relationship": "part_of",
+      "to_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1214-CS-PT-GROUT-VENT-PART-OF-AU-CS-BONDED-MULTISTRAND-TENDON",
+      "from_id": "AU-CS-PT-GROUT-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1215-CS-PT-TENDON-CHAIR-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-PT-TENDON-CHAIR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1216-CS-PT-TENDON-COUPLER-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-PT-TENDON-COUPLER",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-ASNZS1314-2003",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1217-CS-REINFORCED-CONCRETE-ELEMENT-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-REINFORCED-CONCRETE-ELEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1218-CS-REINFORCED-CONCRETE-FRAME-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-REINFORCED-CONCRETE-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1219-CS-REINFORCEMENT-CAGE-HAS-PART-AU-CS-CLOSED-STIRRUP",
+      "from_id": "AU-CS-REINFORCEMENT-CAGE",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CLOSED-STIRRUP",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1220-CS-REINFORCEMENT-CAGE-HAS-PART-AU-CS-LONGITUDINAL-REINFORCING-BAR",
+      "from_id": "AU-CS-REINFORCEMENT-CAGE",
+      "relationship": "has_part",
+      "to_id": "AU-CS-LONGITUDINAL-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1221-CS-REINFORCEMENT-CAGE-HAS-PART-AU-CS-OPEN-STIRRUP",
+      "from_id": "AU-CS-REINFORCEMENT-CAGE",
+      "relationship": "has_part",
+      "to_id": "AU-CS-OPEN-STIRRUP",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1222-CS-REINFORCEMENT-CAGE-HAS-PART-AU-CS-REINFORCING-BAR-BUNDLE",
+      "from_id": "AU-CS-REINFORCEMENT-CAGE",
+      "relationship": "has_part",
+      "to_id": "AU-CS-REINFORCING-BAR-BUNDLE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1223-CS-REINFORCEMENT-CAGE-HAS-PART-AU-CS-SPIRAL-REINFORCEMENT",
+      "from_id": "AU-CS-REINFORCEMENT-CAGE",
+      "relationship": "has_part",
+      "to_id": "AU-CS-SPIRAL-REINFORCEMENT",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1224-CS-REINFORCEMENT-CAGE-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-REINFORCEMENT-CAGE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1225-CS-REINFORCEMENT-COVER-SPACER-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-REINFORCEMENT-COVER-SPACER",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1226-CS-REINFORCEMENT-MAT-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-REINFORCEMENT-MAT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1228-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-CONCRETE-BAR-CHAIR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-BAR-CHAIR",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1229-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-CONCRETE-JOINT-DOWEL-BAR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-JOINT-DOWEL-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1230-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-CONTINUOUS-BAR-CHAIR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONTINUOUS-BAR-CHAIR",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1231-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-DEFORMED-REINFORCING-BAR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-DEFORMED-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1232-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-HEADED-REINFORCING-BAR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-HEADED-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1233-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-HOOKED-REINFORCING-BAR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-HOOKED-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1234-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-L-SHAPED-REINFORCING-BAR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-L-SHAPED-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1235-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-MECHANICAL-BAR-SPLICE",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-MECHANICAL-BAR-SPLICE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1236-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-PLAIN-ROUND-REINFORCING-BAR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PLAIN-ROUND-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1237-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-PLASTIC-BAR-CHAIR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PLASTIC-BAR-CHAIR",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1238-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-PLASTIC-TIPPED-WIRE-BAR-CHAIR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-PLASTIC-TIPPED-WIRE-BAR-CHAIR",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1239-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-REINFORCEMENT-CAGE",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-REINFORCEMENT-CAGE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1240-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-REINFORCEMENT-COVER-SPACER",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-REINFORCEMENT-COVER-SPACER",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1241-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-REINFORCEMENT-MAT",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-REINFORCEMENT-MAT",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1242-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-REINFORCEMENT-SUPPORT-HURDLE",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-REINFORCEMENT-SUPPORT-HURDLE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1243-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-REINFORCING-BAR-LAP-SPLICE",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-REINFORCING-BAR-LAP-SPLICE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1244-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-STARTER-REINFORCING-BAR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-STARTER-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1245-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-TRANSVERSE-REINFORCING-BAR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-TRANSVERSE-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1246-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-HAS-PART-AU-CS-U-SHAPED-REINFORCING-BAR",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CS-U-SHAPED-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1247-CS-REINFORCEMENT-SUPPORT-HURDLE-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-REINFORCEMENT-SUPPORT-HURDLE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1248-CS-REINFORCING-BAR-BUNDLE-PART-OF-AU-CS-REINFORCEMENT-CAGE",
+      "from_id": "AU-CS-REINFORCING-BAR-BUNDLE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-CAGE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1249-CS-REINFORCING-BAR-COUPLER-PART-OF-AU-CS-MECHANICAL-BAR-SPLICE",
+      "from_id": "AU-CS-REINFORCING-BAR-COUPLER",
+      "relationship": "part_of",
+      "to_id": "AU-CS-MECHANICAL-BAR-SPLICE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1250-CS-REINFORCING-BAR-LAP-SPLICE-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-REINFORCING-BAR-LAP-SPLICE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1251-CS-RIBBED-SLAB-HAS-PART-AU-CS-CONCRETE-SLAB-RIB",
+      "from_id": "AU-CS-RIBBED-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CS-CONCRETE-SLAB-RIB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1252-CS-RIBBED-SLAB-IS-A-AU-CS-ONE-WAY-SLAB",
+      "from_id": "AU-CS-RIBBED-SLAB",
+      "relationship": "is_a",
+      "to_id": "AU-CS-ONE-WAY-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1253-CS-RIBBED-SLAB-PART-OF-AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "from_id": "AU-CS-RIBBED-SLAB",
+      "relationship": "part_of",
+      "to_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1254-CS-ROUND-POST-TENSIONING-DUCT-IS-A-AU-CS-POST-TENSIONING-DUCT",
+      "from_id": "AU-CS-ROUND-POST-TENSIONING-DUCT",
+      "relationship": "is_a",
+      "to_id": "AU-CS-POST-TENSIONING-DUCT",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1255-CS-ROUND-POST-TENSIONING-DUCT-PART-OF-AU-CS-BONDED-MULTISTRAND-TENDON",
+      "from_id": "AU-CS-ROUND-POST-TENSIONING-DUCT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-BONDED-MULTISTRAND-TENDON",
+      "source_ids": [
+        "SRC-PTIA-BONDED-PT",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1256-CS-SANDWICH-PANEL-INNER-WYTHE-PART-OF-AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "from_id": "AU-CS-SANDWICH-PANEL-INNER-WYTHE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1257-CS-SANDWICH-PANEL-INSULATION-CORE-PART-OF-AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "from_id": "AU-CS-SANDWICH-PANEL-INSULATION-CORE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1258-CS-SANDWICH-PANEL-OUTER-WYTHE-PART-OF-AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "from_id": "AU-CS-SANDWICH-PANEL-OUTER-WYTHE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3850-1-2024",
+        "SRC-SA-AS3850-2-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1259-CS-SANDWICH-PANEL-WYTHE-CONNECTOR-PART-OF-AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "from_id": "AU-CS-SANDWICH-PANEL-WYTHE-CONNECTOR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-PRECAST-SANDWICH-WALL-PANEL",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-AS3850-1-2024"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1260-CS-SAW-CUT-JOINT-GROOVE-PART-OF-AU-CS-CONCRETE-CONTRACTION-JOINT",
+      "from_id": "AU-CS-SAW-CUT-JOINT-GROOVE",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CONCRETE-CONTRACTION-JOINT",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1261-CS-SILICA-FUME-IS-A-AU-CS-SUPPLEMENTARY-CEMENTITIOUS-MATERIAL",
+      "from_id": "AU-CS-SILICA-FUME",
+      "relationship": "is_a",
+      "to_id": "AU-CS-SUPPLEMENTARY-CEMENTITIOUS-MATERIAL",
+      "source_ids": [
+        "SRC-CEMENT-AUSTRALIA-CEMENT",
+        "SRC-SA-AS1379-2007"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1262-CS-SLAB-FORMWORK-ASSEMBLY-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-SLAB-FORMWORK-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1263-CS-SLIP-FORM-ASSEMBLY-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-SLIP-FORM-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCON3051-SPECIAL-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1264-CS-SPIRAL-REINFORCEMENT-PART-OF-AU-CS-REINFORCEMENT-CAGE",
+      "from_id": "AU-CS-SPIRAL-REINFORCEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-CAGE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1265-CS-STARTER-BAR-BOX-PART-OF-AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "from_id": "AU-CS-STARTER-BAR-BOX",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-EMBED-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1267-CS-STARTER-REINFORCING-BAR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-STARTER-REINFORCING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1268-CS-STEEL-FORM-PANEL-IS-A-AU-CS-FORM-FACE",
+      "from_id": "AU-CS-STEEL-FORM-PANEL",
+      "relationship": "is_a",
+      "to_id": "AU-CS-FORM-FACE",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1269-CS-STEEL-FORM-PANEL-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-STEEL-FORM-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1270-CS-STRUCTURAL-CONCRETE-TOPPING-PART-OF-AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "from_id": "AU-CS-STRUCTURAL-CONCRETE-TOPPING",
+      "relationship": "part_of",
+      "to_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-HOLLOWCORE",
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1271-CS-SUPPLEMENTARY-CEMENTITIOUS-MATERIAL-IS-A-AU-CS-CEMENTITIOUS-BINDER",
+      "from_id": "AU-CS-SUPPLEMENTARY-CEMENTITIOUS-MATERIAL",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CEMENTITIOUS-BINDER",
+      "source_ids": [
+        "SRC-CEMENT-AUSTRALIA-CEMENT",
+        "SRC-SA-AS1379-2007"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1272-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM-HAS-PART-AU-CS-BEAM-AND-SLAB-SYSTEM",
+      "from_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-BEAM-AND-SLAB-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1273-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM-HAS-PART-AU-CS-COMPOSITE-STEEL-DECK-SLAB",
+      "from_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-COMPOSITE-STEEL-DECK-SLAB",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL",
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1274-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM-HAS-PART-AU-CS-FLAT-PLATE-SLAB",
+      "from_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FLAT-PLATE-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1275-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM-HAS-PART-AU-CS-FLAT-SLAB",
+      "from_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-FLAT-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1276-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM-HAS-PART-AU-CS-ONE-WAY-SLAB",
+      "from_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-ONE-WAY-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1277-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM-HAS-PART-AU-CS-RIBBED-SLAB",
+      "from_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-RIBBED-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1278-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM-HAS-PART-AU-CS-STRUCTURAL-CONCRETE-TOPPING",
+      "from_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-STRUCTURAL-CONCRETE-TOPPING",
+      "source_ids": [
+        "SRC-NATIONAL-PRECAST-HOLLOWCORE",
+        "SRC-NATIONAL-PRECAST-PRODUCTS",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1279-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM-HAS-PART-AU-CS-SUSPENDED-WAFFLE-SLAB",
+      "from_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-SUSPENDED-WAFFLE-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1280-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM-HAS-PART-AU-CS-TWO-WAY-SLAB",
+      "from_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CS-TWO-WAY-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1281-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM-IS-A-AU-CS-CONCRETE-SLAB-SYSTEM",
+      "from_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CONCRETE-SLAB-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1282-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1283-CS-SUSPENDED-WAFFLE-SLAB-HAS-PART-AU-CS-WAFFLE-SLAB-COFFER",
+      "from_id": "AU-CS-SUSPENDED-WAFFLE-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CS-WAFFLE-SLAB-COFFER",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1284-CS-SUSPENDED-WAFFLE-SLAB-IS-A-AU-CS-TWO-WAY-SLAB",
+      "from_id": "AU-CS-SUSPENDED-WAFFLE-SLAB",
+      "relationship": "is_a",
+      "to_id": "AU-CS-TWO-WAY-SLAB",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1285-CS-SUSPENDED-WAFFLE-SLAB-PART-OF-AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "from_id": "AU-CS-SUSPENDED-WAFFLE-SLAB",
+      "relationship": "part_of",
+      "to_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1286-CS-TABLE-FORM-ASSEMBLY-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-TABLE-FORM-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1287-CS-TRANSFER-CONCRETE-BEAM-IS-A-AU-CS-CONCRETE-BEAM",
+      "from_id": "AU-CS-TRANSFER-CONCRETE-BEAM",
+      "relationship": "is_a",
+      "to_id": "AU-CS-CONCRETE-BEAM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1288-CS-TRANSFER-CONCRETE-BEAM-PART-OF-AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "from_id": "AU-CS-TRANSFER-CONCRETE-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CS-CAST-IN-PLACE-CONCRETE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1290-CS-TRANSVERSE-REINFORCING-BAR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-TRANSVERSE-REINFORCING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1291-CS-TWO-WAY-SLAB-PART-OF-AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "from_id": "AU-CS-TWO-WAY-SLAB",
+      "relationship": "part_of",
+      "to_id": "AU-CS-SUSPENDED-CONCRETE-FLOOR-SYSTEM",
+      "source_ids": [
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1293-CS-U-SHAPED-REINFORCING-BAR-PART-OF-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CS-U-SHAPED-REINFORCING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1294-CS-UNBONDED-MONOSTRAND-TENDON-PART-OF-AU-CS-POST-TENSIONING-SYSTEM",
+      "from_id": "AU-CS-UNBONDED-MONOSTRAND-TENDON",
+      "relationship": "part_of",
+      "to_id": "AU-CS-POST-TENSIONING-SYSTEM",
+      "source_ids": [
+        "SRC-PTIA-UNBONDED-PT",
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-DIT-POST-TENSIONED-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1295-CS-WAFFLE-SLAB-COFFER-PART-OF-AU-CS-SUSPENDED-WAFFLE-SLAB",
+      "from_id": "AU-CS-WAFFLE-SLAB-COFFER",
+      "relationship": "part_of",
+      "to_id": "AU-CS-SUSPENDED-WAFFLE-SLAB",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1296-CS-WALL-FORMWORK-ASSEMBLY-PART-OF-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CS-WALL-FORMWORK-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-953-CS-CEMENTITIOUS-BINDER-COMMONLY-USED-WITH-AU-CF-CONCRETE-MATERIAL",
+      "from_id": "AU-CS-CEMENTITIOUS-BINDER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CF-CONCRETE-MATERIAL",
+      "source_ids": [
+        "SRC-CEMENT-AUSTRALIA-CEMENT",
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-AS3972-2010"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-958-CS-CHEMICAL-CONCRETE-ADMIXTURE-COMMONLY-USED-WITH-AU-CF-CONCRETE-MATERIAL",
+      "from_id": "AU-CS-CHEMICAL-CONCRETE-ADMIXTURE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CF-CONCRETE-MATERIAL",
+      "source_ids": [
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-AS1478-1-2000"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-959-CS-CLOSED-STIRRUP-IS-A-AU-CF-LIGATURE",
+      "from_id": "AU-CS-CLOSED-STIRRUP",
+      "relationship": "is_a",
+      "to_id": "AU-CF-LIGATURE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-961-CS-COARSE-CONCRETE-AGGREGATE-COMMONLY-USED-WITH-AU-CF-CONCRETE-MATERIAL",
+      "from_id": "AU-CS-COARSE-CONCRETE-AGGREGATE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CF-CONCRETE-MATERIAL",
+      "source_ids": [
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-AS2758-1-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-965-CS-CONCRETE-BAR-CHAIR-IS-A-AU-CF-BAR-CHAIR",
+      "from_id": "AU-CS-CONCRETE-BAR-CHAIR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-BAR-CHAIR",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-976-CS-CONCRETE-FIBRE-REINFORCEMENT-COMMONLY-USED-WITH-AU-CF-CONCRETE-MATERIAL",
+      "from_id": "AU-CS-CONCRETE-FIBRE-REINFORCEMENT",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CF-CONCRETE-MATERIAL",
+      "source_ids": [
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-981-CS-CONCRETE-JOINT-DOWEL-BAR-IS-A-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CS-CONCRETE-JOINT-DOWEL-BAR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1000-CS-CONCRETE-MIXING-WATER-COMMONLY-USED-WITH-AU-CF-CONCRETE-MATERIAL",
+      "from_id": "AU-CS-CONCRETE-MIXING-WATER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CF-CONCRETE-MATERIAL",
+      "source_ids": [
+        "SRC-SA-AS1379-2007",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1009-CS-CONCRETE-SLAB-SYSTEM-COMMONLY-USED-WITH-AU-DB-CONCRETE-BALCONY-ASSEMBLY",
+      "from_id": "AU-CS-CONCRETE-SLAB-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-CONCRETE-BALCONY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H2D8-EXTERNAL-WATERPROOFING",
+        "SRC-HIA-AS4654-2-OVERVIEW",
+        "SRC-TGA-CPCCWP5002-DESIGN-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1010-CS-CONCRETE-SLAB-SYSTEM-COMMONLY-USED-WITH-AU-DB-CONCRETE-WATERPROOFING-SUBSTRATE",
+      "from_id": "AU-CS-CONCRETE-SLAB-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-CONCRETE-WATERPROOFING-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-V2-H2D8-EXTERNAL-WATERPROOFING",
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1011-CS-CONCRETE-UPSTAND-COMMONLY-USED-WITH-AU-DB-TERRACE-PARAPET-HOB-ASSEMBLY",
+      "from_id": "AU-CS-CONCRETE-UPSTAND",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-TERRACE-PARAPET-HOB-ASSEMBLY",
+      "source_ids": [
+        "SRC-HIA-AS4654-2-OVERVIEW",
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP5002-DESIGN-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1014-CS-CONTINUOUS-BAR-CHAIR-IS-A-AU-CF-BAR-CHAIR",
+      "from_id": "AU-CS-CONTINUOUS-BAR-CHAIR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-BAR-CHAIR",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1028-CS-DEFORMED-REINFORCING-BAR-IS-A-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CS-DEFORMED-REINFORCING-BAR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1042-CS-FINE-CONCRETE-AGGREGATE-COMMONLY-USED-WITH-AU-CF-CONCRETE-MATERIAL",
+      "from_id": "AU-CS-FINE-CONCRETE-AGGREGATE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CF-CONCRETE-MATERIAL",
+      "source_ids": [
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-AS2758-1-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1057-CS-FORMWORK-AND-FALSEWORK-SYSTEM-COMMONLY-USED-WITH-AU-CF-CONCRETE-FORMWORK",
+      "from_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CF-CONCRETE-FORMWORK",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1103-CS-HEADED-REINFORCING-BAR-IS-A-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CS-HEADED-REINFORCING-BAR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1107-CS-HOOKED-REINFORCING-BAR-IS-A-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CS-HOOKED-REINFORCING-BAR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1113-CS-L-SHAPED-REINFORCING-BAR-IS-A-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CS-L-SHAPED-REINFORCING-BAR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1116-CS-LONGITUDINAL-REINFORCING-BAR-IS-A-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CS-LONGITUDINAL-REINFORCING-BAR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1118-CS-LONGITUDINAL-REINFORCING-BAR-PART-OF-AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "from_id": "AU-CS-LONGITUDINAL-REINFORCING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-MA-REINFORCED-MASONRY-BOND-BEAM",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-STRUCTURE",
+        "SRC-CMAA-TECHNICAL-MANUALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1119-CS-LONGITUDINAL-REINFORCING-BAR-SUPPORTED-BY-AU-MA-MASONRY-BAR-POSITIONER",
+      "from_id": "AU-CS-LONGITUDINAL-REINFORCING-BAR",
+      "relationship": "supported_by",
+      "to_id": "AU-MA-MASONRY-BAR-POSITIONER",
+      "source_ids": [
+        "SRC-CMAA-TECHNICAL-MANUALS",
+        "SRC-SRIA-BAR-CHAIRS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1124-CS-OPEN-STIRRUP-IS-A-AU-CF-LIGATURE",
+      "from_id": "AU-CS-OPEN-STIRRUP",
+      "relationship": "is_a",
+      "to_id": "AU-CF-LIGATURE",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1130-CS-PLAIN-ROUND-REINFORCING-BAR-IS-A-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CS-PLAIN-ROUND-REINFORCING-BAR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1132-CS-PLASTIC-BAR-CHAIR-IS-A-AU-CF-BAR-CHAIR",
+      "from_id": "AU-CS-PLASTIC-BAR-CHAIR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-BAR-CHAIR",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1134-CS-PLASTIC-TIPPED-WIRE-BAR-CHAIR-IS-A-AU-CF-BAR-CHAIR",
+      "from_id": "AU-CS-PLASTIC-TIPPED-WIRE-BAR-CHAIR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-BAR-CHAIR",
+      "source_ids": [
+        "SRC-SA-ASNZS2425-2015",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1152-CS-PRECAST-BALCONY-PANEL-COMMONLY-USED-WITH-AU-DB-CONCRETE-BALCONY-ASSEMBLY",
+      "from_id": "AU-CS-PRECAST-BALCONY-PANEL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-CONCRETE-BALCONY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H2D8-EXTERNAL-WATERPROOFING",
+        "SRC-HIA-AS4654-2-OVERVIEW",
+        "SRC-TGA-CPCCWP5002-DESIGN-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1153-CS-PRECAST-BALCONY-PANEL-COMMONLY-USED-WITH-AU-DB-CONCRETE-WATERPROOFING-SUBSTRATE",
+      "from_id": "AU-CS-PRECAST-BALCONY-PANEL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-CONCRETE-WATERPROOFING-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-V2-H2D8-EXTERNAL-WATERPROOFING",
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1227-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY-COMMONLY-USED-WITH-AU-CF-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1266-CS-STARTER-REINFORCING-BAR-IS-A-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CS-STARTER-REINFORCING-BAR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-MECHANICAL-SPLICES",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1289-CS-TRANSVERSE-REINFORCING-BAR-IS-A-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CS-TRANSVERSE-REINFORCING-BAR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SRIA-SUSPENDED-SLAB-MESH",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-1292-CS-U-SHAPED-REINFORCING-BAR-IS-A-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CS-U-SHAPED-REINFORCING-BAR",
+      "relationship": "is_a",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://buildgrid.local/schemas/physical_object.schema.json",
+  "title": "Buildgrid Australian physical construction object",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "canonical_name",
+    "preferred_australian_name",
+    "object_type",
+    "discipline",
+    "category",
+    "definition_plain",
+    "primary_function",
+    "geometry_class",
+    "aliases",
+    "part_of_assemblies",
+    "common_attributes",
+    "standard_references",
+    "ncc_references",
+    "claims",
+    "confidence",
+    "review_status",
+    "regional_usage",
+    "cad_attributes",
+    "external_mappings",
+    "history",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^AU-[A-Z0-9-]+$"
+    },
+    "canonical_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "preferred_australian_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "object_type": {
+      "enum": [
+        "member",
+        "panel",
+        "sheet",
+        "board",
+        "layer",
+        "membrane",
+        "flashing",
+        "fixing",
+        "connector",
+        "fastener",
+        "fitting",
+        "fixture",
+        "unit",
+        "block",
+        "brick",
+        "reinforcement",
+        "bar",
+        "mesh",
+        "section",
+        "pipe",
+        "duct",
+        "conduit",
+        "cable",
+        "valve",
+        "drain",
+        "opening",
+        "frame",
+        "leaf",
+        "sash",
+        "glazing",
+        "seal",
+        "gasket",
+        "insulation",
+        "coating",
+        "assembly",
+        "substrate",
+        "finish",
+        "support",
+        "bracket",
+        "anchor",
+        "foundation_element",
+        "temporary_element",
+        "other_physical_object"
+      ]
+    },
+    "discipline": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subcategory": {
+      "type": ["string", "null"]
+    },
+    "parent_id": {
+      "type": ["string", "null"]
+    },
+    "child_ids": {
+      "$ref": "#/$defs/idArray"
+    },
+    "definition_plain": {
+      "type": "string",
+      "minLength": 20
+    },
+    "definition_technical": {
+      "type": ["string", "null"]
+    },
+    "primary_function": {
+      "$ref": "#/$defs/nonEmptyStringArray"
+    },
+    "orientation": {
+      "type": "array",
+      "items": {
+        "enum": ["vertical", "horizontal", "sloping", "diagonal", "varies"]
+      },
+      "uniqueItems": true
+    },
+    "typical_materials": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "geometry_class": {
+      "enum": [
+        "linear_member",
+        "planar_layer",
+        "sheet",
+        "panel",
+        "discrete_component",
+        "volumetric_element",
+        "opening",
+        "continuous_run",
+        "mesh",
+        "flexible_layer",
+        "unknown"
+      ]
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/alias"
+      }
+    },
+    "possible_aliases_requiring_review": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/alias"
+      }
+    },
+    "not_synonyms": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "part_of_assemblies": {
+      "$ref": "#/$defs/idArray"
+    },
+    "common_attributes": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "standard_references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["standard_id", "relationship", "verification_status"],
+        "properties": {
+          "standard_id": {"type": "string"},
+          "relationship": {"type": "string"},
+          "verification_status": {
+            "enum": ["verified", "unverified"]
+          }
+        }
+      }
+    },
+    "ncc_references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["document", "clause", "relationship", "verification_status"],
+        "properties": {
+          "document": {"type": "string"},
+          "clause": {"type": ["string", "null"]},
+          "relationship": {"type": "string"},
+          "verification_status": {
+            "enum": ["verified", "unverified"]
+          }
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "claim_type", "text", "source_ids", "confidence"],
+        "properties": {
+          "id": {"type": "string"},
+          "claim_type": {
+            "enum": ["existence", "definition", "function", "alias", "relationship", "regional_usage", "standard_reference"]
+          },
+          "text": {"type": "string", "minLength": 1},
+          "source_ids": {"$ref": "#/$defs/nonEmptyStringArray"},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+        }
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["existence", "definition", "aliases", "relationships", "overall"],
+      "properties": {
+        "existence": {"type": "number", "minimum": 0, "maximum": 1},
+        "definition": {"type": "number", "minimum": 0, "maximum": 1},
+        "aliases": {"type": "number", "minimum": 0, "maximum": 1},
+        "relationships": {"type": "number", "minimum": 0, "maximum": 1},
+        "overall": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "review_status": {
+      "enum": ["accepted", "accepted_pending_review", "research_required", "hold"]
+    },
+    "regional_usage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["Australia", "New_Zealand", "United_Kingdom", "United_States"],
+      "properties": {
+        "Australia": {"enum": ["preferred", "used", "rare", "unknown"]},
+        "New_Zealand": {"enum": ["preferred", "used", "rare", "unknown"]},
+        "United_Kingdom": {"enum": ["preferred", "used", "rare", "unknown"]},
+        "United_States": {"enum": ["preferred", "used", "rare", "unknown"]}
+      }
+    },
+    "cad_attributes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dimensional_axes", "repetition_pattern", "typical_placement", "host_object", "start_relationship", "end_relationship", "opening_relationship", "load_bearing_role"],
+      "properties": {
+        "dimensional_axes": {"$ref": "#/$defs/stringArray"},
+        "repetition_pattern": {"type": ["string", "null"]},
+        "typical_placement": {"type": ["string", "null"]},
+        "host_object": {"type": ["string", "null"]},
+        "start_relationship": {"type": ["string", "null"]},
+        "end_relationship": {"type": ["string", "null"]},
+        "opening_relationship": {"type": ["string", "null"]},
+        "load_bearing_role": {"type": ["string", "null"]}
+      }
+    },
+    "search_text": {"type": "string"},
+    "ai_aliases": {"$ref": "#/$defs/stringArray"},
+    "natural_language_examples": {"$ref": "#/$defs/stringArray"},
+    "disambiguation_terms": {"$ref": "#/$defs/stringArray"},
+    "negative_terms": {"$ref": "#/$defs/stringArray"},
+    "external_mappings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ifc", "revit", "sketchup", "cost_codes", "material_library"],
+      "properties": {
+        "ifc": {"$ref": "#/$defs/stringArray"},
+        "revit": {"$ref": "#/$defs/stringArray"},
+        "sketchup": {"$ref": "#/$defs/stringArray"},
+        "cost_codes": {"$ref": "#/$defs/stringArray"},
+        "material_library": {"$ref": "#/$defs/stringArray"}
+      }
+    },
+    "history": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["timestamp", "action", "agent"],
+        "properties": {
+          "timestamp": {"type": "string", "format": "date-time"},
+          "action": {"type": "string"},
+          "agent": {"type": "string"},
+          "source_ids": {"$ref": "#/$defs/stringArray"}
+        }
+      }
+    },
+    "notes": {
+      "$ref": "#/$defs/stringArray"
+    }
+  },
+  "$defs": {
+    "stringArray": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "nonEmptyStringArray": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "idArray": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^AU-[A-Z0-9-]+$"},
+      "uniqueItems": true
+    },
+    "alias": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["term", "type", "region", "confidence"],
+      "properties": {
+        "term": {"type": "string", "minLength": 1},
+        "type": {
+          "enum": [
+            "exact_synonym",
+            "preferred_synonym",
+            "regional_synonym",
+            "trade_slang",
+            "abbreviation",
+            "legacy_term",
+            "spelling_variant",
+            "common_misspelling",
+            "related_but_not_synonym",
+            "proprietary_term"
+          ]
+        },
+        "region": {"type": "string"},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    }
+  }
+}

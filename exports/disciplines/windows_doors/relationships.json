@@ -1,0 +1,2443 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "windows_doors",
+  "relationships": [
+    {
+      "id": "REL-8435-WD-ADJUSTABLE-LOUVRE-WINDOW-IS-A-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-ADJUSTABLE-LOUVRE-WINDOW",
+      "relationship": "is_a",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-COMPLIANCE-FAQ",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8436-WD-AWNING-SASH-PART-OF-AU-WD-AWNING-WINDOW",
+      "from_id": "AU-WD-AWNING-SASH",
+      "relationship": "part_of",
+      "to_id": "AU-WD-AWNING-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8437-WD-AWNING-WINDOW-HAS-PART-AU-WD-AWNING-SASH",
+      "from_id": "AU-WD-AWNING-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-AWNING-SASH",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8438-WD-AWNING-WINDOW-IS-A-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-AWNING-WINDOW",
+      "relationship": "is_a",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8439-WD-BIFOLD-GLAZED-DOOR-HAS-PART-AU-WD-DOOR-HINGE",
+      "from_id": "AU-WD-BIFOLD-GLAZED-DOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WD-DOOR-HINGE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8440-WD-BIFOLD-GLAZED-DOOR-IS-A-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-BIFOLD-GLAZED-DOOR",
+      "relationship": "is_a",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-COMPLIANCE-FAQ"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8441-WD-BOX-BAY-WINDOW-IS-A-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-BOX-BAY-WINDOW",
+      "relationship": "is_a",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8442-WD-CASEMENT-SASH-PART-OF-AU-WD-CASEMENT-WINDOW",
+      "from_id": "AU-WD-CASEMENT-SASH",
+      "relationship": "part_of",
+      "to_id": "AU-WD-CASEMENT-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8443-WD-CASEMENT-WINDOW-HAS-PART-AU-WD-CASEMENT-SASH",
+      "from_id": "AU-WD-CASEMENT-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-CASEMENT-SASH",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8444-WD-CASEMENT-WINDOW-IS-A-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-CASEMENT-WINDOW",
+      "relationship": "is_a",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8445-WD-CAVITY-CLOSURE-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-CAVITY-CLOSURE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8446-WD-CAVITY-CLOSURE-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-CAVITY-CLOSURE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8447-WD-CHILD-RESISTANT-RELEASE-PART-OF-AU-WD-WINDOW-FALL-PROTECTION-SCREEN",
+      "from_id": "AU-WD-CHILD-RESISTANT-RELEASE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-FALL-PROTECTION-SCREEN",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOW-PROTECTION",
+        "SRC-SA-AS-5203-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8448-WD-COMPRESSION-WEATHERSEAL-PART-OF-AU-WD-WEATHERSEAL-ASSEMBLY",
+      "from_id": "AU-WD-COMPRESSION-WEATHERSEAL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WEATHERSEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8449-WD-COUPLING-COVER-PLATE-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-COUPLING-COVER-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8450-WD-COUPLING-MULLION-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-COUPLING-MULLION",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8451-WD-DOOR-BOTTOM-DRAFT-SEAL-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-DOOR-BOTTOM-DRAFT-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8452-WD-DOOR-FRAME-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-DOOR-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8453-WD-DOOR-HINGE-PART-OF-AU-WD-BIFOLD-GLAZED-DOOR",
+      "from_id": "AU-WD-DOOR-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-BIFOLD-GLAZED-DOOR",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8454-WD-DOOR-HINGE-PART-OF-AU-WD-FRENCH-DOOR-SET",
+      "from_id": "AU-WD-DOOR-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-FRENCH-DOOR-SET",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8455-WD-DOOR-HINGE-PART-OF-AU-WD-HINGED-GLAZED-DOOR",
+      "from_id": "AU-WD-DOOR-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-HINGED-GLAZED-DOOR",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8456-WD-DOOR-INTERLOCK-STILE-PART-OF-AU-WD-SLIDING-GLAZED-DOOR",
+      "from_id": "AU-WD-DOOR-INTERLOCK-STILE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8457-WD-DOOR-LOCK-STILE-PART-OF-AU-WD-SLIDING-GLAZED-DOOR",
+      "from_id": "AU-WD-DOOR-LOCK-STILE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "source_ids": [
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8458-WD-DOOR-MEETING-STILE-PART-OF-AU-WD-FRENCH-DOOR-SET",
+      "from_id": "AU-WD-DOOR-MEETING-STILE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-FRENCH-DOOR-SET",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8459-WD-DOOR-PANEL-BOTTOM-RAIL-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-DOOR-PANEL-BOTTOM-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8460-WD-DOOR-PANEL-TOP-RAIL-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-DOOR-PANEL-TOP-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8462-WD-DOOR-THRESHOLD-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-DOOR-THRESHOLD",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8463-WD-DOUBLE-HUNG-WINDOW-HAS-PART-AU-WD-HUNG-SASH",
+      "from_id": "AU-WD-DOUBLE-HUNG-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-HUNG-SASH",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8464-WD-DOUBLE-HUNG-WINDOW-HAS-PART-AU-WD-MEETING-RAIL",
+      "from_id": "AU-WD-DOUBLE-HUNG-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-MEETING-RAIL",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8465-WD-DOUBLE-HUNG-WINDOW-IS-A-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-DOUBLE-HUNG-WINDOW",
+      "relationship": "is_a",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8466-WD-FIXED-WINDOW-IS-A-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-FIXED-WINDOW",
+      "relationship": "is_a",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8467-WD-FIXING-LUG-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-FIXING-LUG",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8468-WD-FIXING-LUG-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-FIXING-LUG",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8469-WD-FLYSCREEN-ASSEMBLY-HAS-PART-AU-WD-FLYSCREEN-FRAME",
+      "from_id": "AU-WD-FLYSCREEN-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FLYSCREEN-FRAME",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8470-WD-FLYSCREEN-ASSEMBLY-HAS-PART-AU-WD-FLYSCREEN-MESH",
+      "from_id": "AU-WD-FLYSCREEN-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FLYSCREEN-MESH",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8471-WD-FLYSCREEN-ASSEMBLY-PART-OF-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-FLYSCREEN-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOW-PROTECTION",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8472-WD-FLYSCREEN-FRAME-PART-OF-AU-WD-FLYSCREEN-ASSEMBLY",
+      "from_id": "AU-WD-FLYSCREEN-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-WD-FLYSCREEN-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8473-WD-FLYSCREEN-MESH-PART-OF-AU-WD-FLYSCREEN-ASSEMBLY",
+      "from_id": "AU-WD-FLYSCREEN-MESH",
+      "relationship": "part_of",
+      "to_id": "AU-WD-FLYSCREEN-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8475-WD-FRAME-FIXING-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8476-WD-FRAME-FIXING-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8477-WD-FRAME-HEAD-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-HEAD",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8478-WD-FRAME-HEAD-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-HEAD",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8479-WD-FRAME-JAMB-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-JAMB",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8480-WD-FRAME-JAMB-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-JAMB",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8481-WD-FRAME-MULLION-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-MULLION",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8482-WD-FRAME-MULLION-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-MULLION",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8485-WD-FRAME-PACKER-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-PACKER",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOWS-DOORS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8486-WD-FRAME-PACKER-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-PACKER",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOWS-DOORS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8487-WD-FRAME-SETTLEMENT-GAP-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-SETTLEMENT-GAP",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOWS-DOORS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8488-WD-FRAME-THERMAL-BREAK-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-THERMAL-BREAK",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-EXTERNAL-GLAZING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8489-WD-FRAME-THERMAL-BREAK-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-THERMAL-BREAK",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-EXTERNAL-GLAZING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8490-WD-FRAME-TRANSOM-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-TRANSOM",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8491-WD-FRAME-TRANSOM-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-TRANSOM",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8492-WD-FRENCH-DOOR-SET-HAS-PART-AU-WD-DOOR-HINGE",
+      "from_id": "AU-WD-FRENCH-DOOR-SET",
+      "relationship": "has_part",
+      "to_id": "AU-WD-DOOR-HINGE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8493-WD-FRENCH-DOOR-SET-HAS-PART-AU-WD-DOOR-MEETING-STILE",
+      "from_id": "AU-WD-FRENCH-DOOR-SET",
+      "relationship": "has_part",
+      "to_id": "AU-WD-DOOR-MEETING-STILE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8494-WD-FRENCH-DOOR-SET-IS-A-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-FRENCH-DOOR-SET",
+      "relationship": "is_a",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8499-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-CAVITY-CLOSURE",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-CAVITY-CLOSURE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8500-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-DOOR-BOTTOM-DRAFT-SEAL",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-DOOR-BOTTOM-DRAFT-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8501-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-DOOR-FRAME",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-DOOR-FRAME",
+      "source_ids": [
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8502-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-DOOR-PANEL-BOTTOM-RAIL",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-DOOR-PANEL-BOTTOM-RAIL",
+      "source_ids": [
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8503-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-DOOR-PANEL-TOP-RAIL",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-DOOR-PANEL-TOP-RAIL",
+      "source_ids": [
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8504-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-DOOR-THRESHOLD",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-DOOR-THRESHOLD",
+      "source_ids": [
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8505-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-FIXING-LUG",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FIXING-LUG",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8506-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-FRAME-FIXING",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-FIXING",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8507-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-FRAME-HEAD",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-HEAD",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8508-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-FRAME-JAMB",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-JAMB",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8509-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-FRAME-MULLION",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-MULLION",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8510-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-FRAME-PACKER",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-PACKER",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOWS-DOORS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8511-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-FRAME-THERMAL-BREAK",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-THERMAL-BREAK",
+      "source_ids": [
+        "SRC-ABCB-HP-EXTERNAL-GLAZING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8512-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-FRAME-TRANSOM",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-TRANSOM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8513-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-NAILING-FIN",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-NAILING-FIN",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8514-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8515-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-OPERATING-HANDLE",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-OPERATING-HANDLE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8516-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-STORM-MOULD",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-STORM-MOULD",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8517-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-TIMBER-REVEAL",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-TIMBER-REVEAL",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8518-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-WEATHERSEAL-ASSEMBLY",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WEATHERSEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8519-WD-GLAZED-DOOR-ASSEMBLY-HAS-PART-AU-WD-WINDOW-DOOR-LOCK",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WINDOW-DOOR-LOCK",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8520-WD-HINGED-GLAZED-DOOR-HAS-PART-AU-WD-DOOR-HINGE",
+      "from_id": "AU-WD-HINGED-GLAZED-DOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WD-DOOR-HINGE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8521-WD-HINGED-GLAZED-DOOR-IS-A-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-HINGED-GLAZED-DOOR",
+      "relationship": "is_a",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8522-WD-HOPPER-SASH-PART-OF-AU-WD-HOPPER-WINDOW",
+      "from_id": "AU-WD-HOPPER-SASH",
+      "relationship": "part_of",
+      "to_id": "AU-WD-HOPPER-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8523-WD-HOPPER-WINDOW-HAS-PART-AU-WD-HOPPER-SASH",
+      "from_id": "AU-WD-HOPPER-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-HOPPER-SASH",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8524-WD-HOPPER-WINDOW-IS-A-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-HOPPER-WINDOW",
+      "relationship": "is_a",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8525-WD-HORIZONTAL-SLIDING-WINDOW-HAS-PART-AU-WD-SLIDING-PANEL-ROLLER",
+      "from_id": "AU-WD-HORIZONTAL-SLIDING-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SLIDING-PANEL-ROLLER",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8526-WD-HORIZONTAL-SLIDING-WINDOW-HAS-PART-AU-WD-SLIDING-PANEL-TRACK",
+      "from_id": "AU-WD-HORIZONTAL-SLIDING-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SLIDING-PANEL-TRACK",
+      "source_ids": [
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8527-WD-HORIZONTAL-SLIDING-WINDOW-HAS-PART-AU-WD-SLIDING-SASH",
+      "from_id": "AU-WD-HORIZONTAL-SLIDING-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SLIDING-SASH",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8528-WD-HORIZONTAL-SLIDING-WINDOW-IS-A-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-HORIZONTAL-SLIDING-WINDOW",
+      "relationship": "is_a",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8529-WD-HUNG-SASH-PART-OF-AU-WD-DOUBLE-HUNG-WINDOW",
+      "from_id": "AU-WD-HUNG-SASH",
+      "relationship": "part_of",
+      "to_id": "AU-WD-DOUBLE-HUNG-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8530-WD-HUNG-SASH-PART-OF-AU-WD-SINGLE-HUNG-WINDOW",
+      "from_id": "AU-WD-HUNG-SASH",
+      "relationship": "part_of",
+      "to_id": "AU-WD-SINGLE-HUNG-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8531-WD-MEETING-RAIL-PART-OF-AU-WD-DOUBLE-HUNG-WINDOW",
+      "from_id": "AU-WD-MEETING-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-DOUBLE-HUNG-WINDOW",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8532-WD-MEETING-RAIL-PART-OF-AU-WD-SINGLE-HUNG-WINDOW",
+      "from_id": "AU-WD-MEETING-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-SINGLE-HUNG-WINDOW",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8533-WD-NAILING-FIN-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-NAILING-FIN",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8534-WD-NAILING-FIN-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-NAILING-FIN",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8537-WD-OPENING-PERIMETER-SEAL-ASSEMBLY-HAS-PART-AU-WD-PERIMETER-BACKER-ROD",
+      "from_id": "AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-PERIMETER-BACKER-ROD",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8538-WD-OPENING-PERIMETER-SEAL-ASSEMBLY-HAS-PART-AU-WD-PERIMETER-SEALANT",
+      "from_id": "AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-PERIMETER-SEALANT",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8539-WD-OPENING-PERIMETER-SEAL-ASSEMBLY-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8540-WD-OPENING-PERIMETER-SEAL-ASSEMBLY-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8541-WD-OPERABLE-WINDOW-HAS-PART-AU-WD-FLYSCREEN-ASSEMBLY",
+      "from_id": "AU-WD-OPERABLE-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FLYSCREEN-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOW-PROTECTION",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8542-WD-OPERABLE-WINDOW-HAS-PART-AU-WD-WEATHERSEAL-ASSEMBLY",
+      "from_id": "AU-WD-OPERABLE-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WEATHERSEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8543-WD-OPERABLE-WINDOW-HAS-PART-AU-WD-WINDOW-FALL-PROTECTION-SCREEN",
+      "from_id": "AU-WD-OPERABLE-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WINDOW-FALL-PROTECTION-SCREEN",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOW-PROTECTION",
+        "SRC-SA-AS-5203-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8544-WD-OPERABLE-WINDOW-HAS-PART-AU-WD-WINDOW-HARDWARE-SET",
+      "from_id": "AU-WD-OPERABLE-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "source_ids": [
+        "SRC-AGWA-COMPLIANCE-FAQ",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8545-WD-OPERABLE-WINDOW-HAS-PART-AU-WD-WINDOW-OPENING-RESTRICTOR",
+      "from_id": "AU-WD-OPERABLE-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WINDOW-OPENING-RESTRICTOR",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOW-PROTECTION",
+        "SRC-SA-AS-5203-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8546-WD-OPERABLE-WINDOW-IS-A-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-OPERABLE-WINDOW",
+      "relationship": "is_a",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-ABCB-HP-WINDOW-PROTECTION",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8547-WD-OPERATING-HANDLE-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-OPERATING-HANDLE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8548-WD-OPERATING-HANDLE-PART-OF-AU-WD-WINDOW-HARDWARE-SET",
+      "from_id": "AU-WD-OPERATING-HANDLE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8549-WD-PERIMETER-BACKER-ROD-PART-OF-AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "from_id": "AU-WD-PERIMETER-BACKER-ROD",
+      "relationship": "part_of",
+      "to_id": "AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8550-WD-PERIMETER-SEALANT-PART-OF-AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "from_id": "AU-WD-PERIMETER-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8551-WD-PILE-WEATHERSEAL-PART-OF-AU-WD-WEATHERSEAL-ASSEMBLY",
+      "from_id": "AU-WD-PILE-WEATHERSEAL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WEATHERSEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8552-WD-PIPE-STAUNCHION-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-PIPE-STAUNCHION",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8553-WD-PIVOT-SASH-PART-OF-AU-WD-PIVOT-WINDOW",
+      "from_id": "AU-WD-PIVOT-SASH",
+      "relationship": "part_of",
+      "to_id": "AU-WD-PIVOT-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8554-WD-PIVOT-WINDOW-HAS-PART-AU-WD-PIVOT-SASH",
+      "from_id": "AU-WD-PIVOT-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-PIVOT-SASH",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8555-WD-PIVOT-WINDOW-IS-A-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-PIVOT-WINDOW",
+      "relationship": "is_a",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8556-WD-SASH-BALANCE-PART-OF-AU-WD-WINDOW-HARDWARE-SET",
+      "from_id": "AU-WD-SASH-BALANCE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8557-WD-SASH-BOTTOM-RAIL-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-SASH-BOTTOM-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8558-WD-SASH-CORD-PART-OF-AU-WD-WINDOW-HARDWARE-SET",
+      "from_id": "AU-WD-SASH-CORD",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8559-WD-SASH-STILE-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-SASH-STILE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8560-WD-SASH-TOP-RAIL-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-SASH-TOP-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8561-WD-SASH-WEIGHT-PART-OF-AU-WD-WINDOW-HARDWARE-SET",
+      "from_id": "AU-WD-SASH-WEIGHT",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8562-WD-SILL-FLAP-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-SILL-FLAP",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8563-WD-SINGLE-HUNG-WINDOW-HAS-PART-AU-WD-HUNG-SASH",
+      "from_id": "AU-WD-SINGLE-HUNG-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-HUNG-SASH",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8564-WD-SINGLE-HUNG-WINDOW-HAS-PART-AU-WD-MEETING-RAIL",
+      "from_id": "AU-WD-SINGLE-HUNG-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-WD-MEETING-RAIL",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8565-WD-SINGLE-HUNG-WINDOW-IS-A-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-SINGLE-HUNG-WINDOW",
+      "relationship": "is_a",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8566-WD-SLIDING-DOOR-FIXED-PANEL-PART-OF-AU-WD-SLIDING-GLAZED-DOOR",
+      "from_id": "AU-WD-SLIDING-DOOR-FIXED-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "source_ids": [
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8567-WD-SLIDING-DOOR-OPENING-PANEL-PART-OF-AU-WD-SLIDING-GLAZED-DOOR",
+      "from_id": "AU-WD-SLIDING-DOOR-OPENING-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "source_ids": [
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8569-WD-SLIDING-GLAZED-DOOR-HAS-PART-AU-WD-DOOR-INTERLOCK-STILE",
+      "from_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WD-DOOR-INTERLOCK-STILE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8570-WD-SLIDING-GLAZED-DOOR-HAS-PART-AU-WD-DOOR-LOCK-STILE",
+      "from_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WD-DOOR-LOCK-STILE",
+      "source_ids": [
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8571-WD-SLIDING-GLAZED-DOOR-HAS-PART-AU-WD-SLIDING-DOOR-FIXED-PANEL",
+      "from_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SLIDING-DOOR-FIXED-PANEL",
+      "source_ids": [
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8572-WD-SLIDING-GLAZED-DOOR-HAS-PART-AU-WD-SLIDING-DOOR-OPENING-PANEL",
+      "from_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SLIDING-DOOR-OPENING-PANEL",
+      "source_ids": [
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8573-WD-SLIDING-GLAZED-DOOR-HAS-PART-AU-WD-SLIDING-PANEL-ROLLER",
+      "from_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SLIDING-PANEL-ROLLER",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8574-WD-SLIDING-GLAZED-DOOR-HAS-PART-AU-WD-SLIDING-PANEL-TRACK",
+      "from_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SLIDING-PANEL-TRACK",
+      "source_ids": [
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8575-WD-SLIDING-GLAZED-DOOR-IS-A-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "relationship": "is_a",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8576-WD-SLIDING-PANEL-ROLLER-PART-OF-AU-WD-HORIZONTAL-SLIDING-WINDOW",
+      "from_id": "AU-WD-SLIDING-PANEL-ROLLER",
+      "relationship": "part_of",
+      "to_id": "AU-WD-HORIZONTAL-SLIDING-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8577-WD-SLIDING-PANEL-ROLLER-PART-OF-AU-WD-SLIDING-GLAZED-DOOR",
+      "from_id": "AU-WD-SLIDING-PANEL-ROLLER",
+      "relationship": "part_of",
+      "to_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8578-WD-SLIDING-PANEL-TRACK-PART-OF-AU-WD-HORIZONTAL-SLIDING-WINDOW",
+      "from_id": "AU-WD-SLIDING-PANEL-TRACK",
+      "relationship": "part_of",
+      "to_id": "AU-WD-HORIZONTAL-SLIDING-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8579-WD-SLIDING-PANEL-TRACK-PART-OF-AU-WD-SLIDING-GLAZED-DOOR",
+      "from_id": "AU-WD-SLIDING-PANEL-TRACK",
+      "relationship": "part_of",
+      "to_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "source_ids": [
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8580-WD-SLIDING-SASH-PART-OF-AU-WD-HORIZONTAL-SLIDING-WINDOW",
+      "from_id": "AU-WD-SLIDING-SASH",
+      "relationship": "part_of",
+      "to_id": "AU-WD-HORIZONTAL-SLIDING-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8581-WD-STORM-MOULD-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-STORM-MOULD",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8582-WD-STORM-MOULD-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-STORM-MOULD",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8583-WD-TIMBER-REVEAL-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-TIMBER-REVEAL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8584-WD-TIMBER-REVEAL-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-TIMBER-REVEAL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8585-WD-WEATHERSEAL-ASSEMBLY-HAS-PART-AU-WD-COMPRESSION-WEATHERSEAL",
+      "from_id": "AU-WD-WEATHERSEAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-COMPRESSION-WEATHERSEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8586-WD-WEATHERSEAL-ASSEMBLY-HAS-PART-AU-WD-PILE-WEATHERSEAL",
+      "from_id": "AU-WD-WEATHERSEAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-PILE-WEATHERSEAL",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8587-WD-WEATHERSEAL-ASSEMBLY-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-WEATHERSEAL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8588-WD-WEATHERSEAL-ASSEMBLY-PART-OF-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-WEATHERSEAL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8592-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-CAVITY-CLOSURE",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-CAVITY-CLOSURE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8593-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-COUPLING-COVER-PLATE",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-COUPLING-COVER-PLATE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8594-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-COUPLING-MULLION",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-COUPLING-MULLION",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8595-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-FIXING-LUG",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FIXING-LUG",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8596-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-FRAME-FIXING",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-FIXING",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8597-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-FRAME-HEAD",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-HEAD",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8598-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-FRAME-JAMB",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-JAMB",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8599-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-FRAME-MULLION",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-MULLION",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8600-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-FRAME-PACKER",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-PACKER",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOWS-DOORS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8601-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-FRAME-SETTLEMENT-GAP",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-SETTLEMENT-GAP",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOWS-DOORS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8602-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-FRAME-THERMAL-BREAK",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-THERMAL-BREAK",
+      "source_ids": [
+        "SRC-ABCB-HP-EXTERNAL-GLAZING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8603-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-FRAME-TRANSOM",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-FRAME-TRANSOM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8604-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-NAILING-FIN",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-NAILING-FIN",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8605-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8606-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-PIPE-STAUNCHION",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-PIPE-STAUNCHION",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8607-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-SASH-BOTTOM-RAIL",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SASH-BOTTOM-RAIL",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8608-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-SASH-STILE",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SASH-STILE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8609-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-SASH-TOP-RAIL",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SASH-TOP-RAIL",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8610-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-SILL-FLAP",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SILL-FLAP",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8611-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-STORM-MOULD",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-STORM-MOULD",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8612-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-TIMBER-REVEAL",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-TIMBER-REVEAL",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8613-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-WINDOW-DRAINAGE-OPENING",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WINDOW-DRAINAGE-OPENING",
+      "source_ids": [
+        "SRC-AGWA-COMPLIANCE-FAQ",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8614-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-WINDOW-FRAME",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WINDOW-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8615-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-WINDOW-SASH",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WINDOW-SASH",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8616-WD-WINDOW-ASSEMBLY-HAS-PART-AU-WD-WINDOW-SILL",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WINDOW-SILL",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8617-WD-WINDOW-DOOR-LOCK-PART-OF-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-WINDOW-DOOR-LOCK",
+      "relationship": "part_of",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8618-WD-WINDOW-DOOR-LOCK-PART-OF-AU-WD-WINDOW-HARDWARE-SET",
+      "from_id": "AU-WD-WINDOW-DOOR-LOCK",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8619-WD-WINDOW-DRAINAGE-OPENING-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-WINDOW-DRAINAGE-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-COMPLIANCE-FAQ",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8620-WD-WINDOW-FALL-PROTECTION-SCREEN-HAS-PART-AU-WD-CHILD-RESISTANT-RELEASE",
+      "from_id": "AU-WD-WINDOW-FALL-PROTECTION-SCREEN",
+      "relationship": "has_part",
+      "to_id": "AU-WD-CHILD-RESISTANT-RELEASE",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOW-PROTECTION",
+        "SRC-SA-AS-5203-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8621-WD-WINDOW-FALL-PROTECTION-SCREEN-PART-OF-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-WINDOW-FALL-PROTECTION-SCREEN",
+      "relationship": "part_of",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOW-PROTECTION",
+        "SRC-SA-AS-5203-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8622-WD-WINDOW-FRAME-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-WINDOW-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8623-WD-WINDOW-HARDWARE-SET-HAS-PART-AU-WD-OPERATING-HANDLE",
+      "from_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-WD-OPERATING-HANDLE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8624-WD-WINDOW-HARDWARE-SET-HAS-PART-AU-WD-SASH-BALANCE",
+      "from_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SASH-BALANCE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8625-WD-WINDOW-HARDWARE-SET-HAS-PART-AU-WD-SASH-CORD",
+      "from_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SASH-CORD",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8626-WD-WINDOW-HARDWARE-SET-HAS-PART-AU-WD-SASH-WEIGHT",
+      "from_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-WD-SASH-WEIGHT",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8627-WD-WINDOW-HARDWARE-SET-HAS-PART-AU-WD-WINDOW-DOOR-LOCK",
+      "from_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WINDOW-DOOR-LOCK",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8628-WD-WINDOW-HARDWARE-SET-HAS-PART-AU-WD-WINDOW-HINGE-STAY",
+      "from_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WINDOW-HINGE-STAY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8629-WD-WINDOW-HARDWARE-SET-HAS-PART-AU-WD-WINDOW-WINDER",
+      "from_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "relationship": "has_part",
+      "to_id": "AU-WD-WINDOW-WINDER",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8630-WD-WINDOW-HARDWARE-SET-PART-OF-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "relationship": "part_of",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-AGWA-COMPLIANCE-FAQ",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8631-WD-WINDOW-HINGE-STAY-PART-OF-AU-WD-WINDOW-HARDWARE-SET",
+      "from_id": "AU-WD-WINDOW-HINGE-STAY",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8632-WD-WINDOW-OPENING-RESTRICTOR-PART-OF-AU-WD-OPERABLE-WINDOW",
+      "from_id": "AU-WD-WINDOW-OPENING-RESTRICTOR",
+      "relationship": "part_of",
+      "to_id": "AU-WD-OPERABLE-WINDOW",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOW-PROTECTION",
+        "SRC-SA-AS-5203-2016"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8633-WD-WINDOW-SASH-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-WINDOW-SASH",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8634-WD-WINDOW-SILL-PART-OF-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-WINDOW-SILL",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8635-WD-WINDOW-WALL-IS-A-AU-WD-WINDOW-ASSEMBLY",
+      "from_id": "AU-WD-WINDOW-WALL",
+      "relationship": "is_a",
+      "to_id": "AU-WD-WINDOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOWS-DOORS",
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8636-WD-WINDOW-WINDER-PART-OF-AU-WD-WINDOW-HARDWARE-SET",
+      "from_id": "AU-WD-WINDOW-WINDER",
+      "relationship": "part_of",
+      "to_id": "AU-WD-WINDOW-HARDWARE-SET",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-8434-WD-ADJUSTABLE-LOUVRE-WINDOW-HAS-PART-AU-GL-GLASS-LOUVRE-BLADE",
+      "from_id": "AU-WD-ADJUSTABLE-LOUVRE-WINDOW",
+      "relationship": "has_part",
+      "to_id": "AU-GL-GLASS-LOUVRE-BLADE",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-COMPLIANCE-FAQ",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8461-WD-DOOR-THRESHOLD-COMMONLY-USED-WITH-AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "from_id": "AU-WD-DOOR-THRESHOLD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8474-WD-FRAME-FIXING-COMMONLY-USED-WITH-AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-FIXING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8483-WD-FRAME-PACKER-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOOR-FRAME-ANCHOR",
+      "from_id": "AU-WD-FRAME-PACKER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOOR-FRAME-ANCHOR",
+      "source_ids": [
+        "SRC-HUME-ENTRANCE-DOORS",
+        "SRC-TGA-CPCCCA3010-WINDOWS-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8484-WD-FRAME-PACKER-COMMONLY-USED-WITH-AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "from_id": "AU-WD-FRAME-PACKER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-INTERNAL-JAMBS-TRIM",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8495-WD-GLAZED-DOOR-ASSEMBLY-COMMONLY-USED-WITH-AU-CL-OPENING-FLASHING-SYSTEM",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOWS-DOORS",
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-COMPLIANCE-FAQ",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8496-WD-GLAZED-DOOR-ASSEMBLY-COMMONLY-USED-WITH-AU-LH-LIVABLE-ENTRANCE-DOORSET",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-LH-LIVABLE-ENTRANCE-DOORSET",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8497-WD-GLAZED-DOOR-ASSEMBLY-COMMONLY-USED-WITH-AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8498-WD-GLAZED-DOOR-ASSEMBLY-COMMONLY-USED-WITH-AU-TC-OPENING-PERIMETER-INSULATION",
+      "from_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-OPENING-PERIMETER-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8535-WD-OPENING-PERIMETER-SEAL-ASSEMBLY-COMMONLY-USED-WITH-AU-CL-OPENING-FLASHING-SYSTEM",
+      "from_id": "AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-RESIDENTIAL-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8536-WD-OPENING-PERIMETER-SEAL-ASSEMBLY-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOOR-WEATHERING-SYSTEM",
+      "from_id": "AU-WD-OPENING-PERIMETER-SEAL-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOOR-WEATHERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8568-WD-SLIDING-GLAZED-DOOR-COMMONLY-USED-WITH-AU-LH-STACKING-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-LH-STACKING-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8589-WD-WINDOW-ASSEMBLY-COMMONLY-USED-WITH-AU-CL-OPENING-FLASHING-SYSTEM",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CL-OPENING-FLASHING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WINDOWS-DOORS",
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-COMPLIANCE-FAQ",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8590-WD-WINDOW-ASSEMBLY-COMMONLY-USED-WITH-AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-BUILDING-SEALING",
+        "SRC-RAVEN-AU-WEATHER-SEALS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8591-WD-WINDOW-ASSEMBLY-COMMONLY-USED-WITH-AU-TC-OPENING-PERIMETER-INSULATION",
+      "from_id": "AU-WD-WINDOW-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-OPENING-PERIMETER-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HOUSING-ENERGY-HANDBOOK",
+        "SRC-ABCB-HP-THERMAL-FABRIC"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+# Health Amenity discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 95
+- Internal relationships: 230
+- Outgoing cross-discipline relationships: 25
+- Distinct supporting sources: 13
+- Distinct linked standards: 1
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 83.2%
+- Objects with two or more sources: 64.2%
+
+## Categories
+
+- acoustic ceiling assemblies: 1
+- acoustic isolation components: 2
+- acoustic lining components: 6
+- acoustic seal components: 2
+- acoustic service assemblies: 4
+- acoustic service components: 10
+- acoustic wall assemblies: 7
+- acoustic wall components: 3
+- acoustic wall junctions: 2
+- bathing facility assemblies: 1
+- ceiling access assemblies: 1
+- ceiling lining assemblies: 1
+- ceiling lining components: 2
+- ceiling projection assemblies: 1
+- ceiling projection components: 2
+- cooking appliance assemblies: 1
+- cooking appliance components: 3
+- cooking appliance installation: 4
+- daylight opening assemblies: 1
+- facility assemblies: 1
+- health amenity assemblies: 1
+- kitchen facility assemblies: 1
+- kitchen finish assemblies: 1
+- kitchen joinery assemblies: 1
+- kitchen joinery components: 2
+- kitchen sink assemblies: 1
+- kitchen sink components: 4
+- laundry appliance assemblies: 1
+- laundry appliance components: 1
+- laundry appliance connections: 3
+- laundry facility assemblies: 1
+- laundry joinery components: 1
+- laundry tub assemblies: 1
+- laundry tub components: 3
+- rooflight assemblies: 2
+- rooflight components: 3
+- room height assemblies: 1
+- sanitary door assemblies: 2
+- sanitary door components: 3
+- sanitary facility assemblies: 2
+- sink installation components: 2
+- sink waste components: 2
+- sound insulation assemblies: 1
+
+## Objects
+
+- **Class 1 separating-wall sound-insulation system** (`AU-HA-CLASS1-SOUND-INSULATION-SYSTEM`) — The complete wall leaves, cavities, linings, insulation, joints, seals, roof or ceiling termination and service treatments used to limit sound transfer between adjoining Class 1 buildings or an applicable Class 10a building.
+- **acoustic flexible pipe or duct connector** (`AU-HA-FLEXIBLE-SERVICE-CONNECTOR`) — A flexible coupling or connector inserted in a pipe or duct route to limit structure-borne vibration transfer through otherwise rigid service construction.
+- **acoustic joint backing material** (`AU-HA-ACOUSTIC-JOINT-BACKING`) — A compressible backing rod, mineral-fibre packing or other specified material controlling sealant depth and filling the concealed portion of an acoustic perimeter gap.
+- **acoustic lining isolation clip** (`AU-HA-ACOUSTIC-ISOLATION-CLIP`) — A discrete bracket containing an elastomeric or spring element that connects a furring channel or lining support to structure while reducing vibration transfer.
+- **acoustic perimeter sealant joint** (`AU-HA-ACOUSTIC-PERIMETER-SEALANT`) — A continuous flexible sealant bead closing the designed gap between an acoustic lining, frame or masonry panel and adjacent floor, wall, ceiling or roof construction.
+- **acoustic pipe or duct wrap** (`AU-HA-ACOUSTIC-PIPE-WRAP`) — A flexible mass, absorptive or composite lagging wrapped continuously around a pipe or duct to reduce radiated service noise where the selected design requires it.
+- **acoustic pipe-wrap closure tape** (`AU-HA-ACOUSTIC-WRAP-CLOSURE-TAPE`) — A compatible pressure-sensitive or reinforced tape closing laps, longitudinal seams and local patches in acoustic pipe or duct wrap.
+- **acoustic resilient lining channel** (`AU-HA-ACOUSTIC-RESILIENT-CHANNEL`) — A thin formed metal channel supporting wall or ceiling lining through a flexible offset intended to reduce direct vibration transfer from the primary frame.
+- **acoustic resilient pipe clip** (`AU-HA-RESILIENT-PIPE-CLIP`) — A pipe saddle or clamp containing a resilient liner or isolation element between the pipe and supporting wall, frame or bracket.
+- **acoustically isolated water-supply pipe in separating wall** (`AU-HA-ACOUSTIC-WATER-SUPPLY-PIPE-ASSEMBLY`) — A water-supply pipe serving one dwelling, located only where the selected discontinuous wall path permits, supported from its own dwelling-side leaf with clearance from the other leaf.
+- **built-in kitchen cooktop** (`AU-HA-BUILT-IN-COOKTOP`) — A gas, electric-resistance or induction cooking appliance supported in or on a benchtop cut-out with controls, underside enclosure and service connection.
+- **built-in kitchen oven** (`AU-HA-BUILT-IN-OVEN`) — An enclosed cooking appliance installed within a base or tall cabinet opening and supported by a shelf, rails or proprietary frame.
+- **built-in oven support shelf** (`AU-HA-BUILT-IN-OVEN-SUPPORT-SHELF`) — A cabinet panel, metal rail or framed platform directly supporting a built-in oven at its designed installation height.
+- **ceiling bulkhead frame** (`AU-HA-CEILING-BULKHEAD-FRAME`) — The timber or cold-formed-steel studs, tracks, battens and hangers forming the support skeleton of a ceiling bulkhead.
+- **ceiling bulkhead lining sheet** (`AU-HA-CEILING-BULKHEAD-LINING`) — A sheet forming the vertical, horizontal or shaped visible faces of an internal ceiling bulkhead.
+- **discontinuous separating wall assembly** (`AU-HA-DISCONTINUOUS-SEPARATING-WALL-ASSEMBLY`) — A separating wall formed from two physically separate leaves divided by a deliberate cavity and connected only through the permitted perimeter or resilient ties for the selected construction.
+- **domestic washing machine** (`AU-HA-DOMESTIC-WASHING-MACHINE`) — A freestanding or built-in domestic appliance containing a wash drum or tub, enclosure, controls, door or lid and water and drainage connections.
+- **double-masonry-leaf acoustic separating wall** (`AU-HA-DOUBLE-MASONRY-LEAF-ACOUSTIC-WALL`) — Two masonry leaves separated by an acoustic cavity, with filled masonry joints, selected cavity insulation or face render and resilient ties where the discontinuous path requires them.
+- **double-row framed acoustic separating wall** (`AU-HA-DOUBLE-STUD-ACOUSTIC-WALL`) — Two separate rows of timber or steel studs with an intervening air gap, cavity insulation and one or more sheet-lining layers fixed to the outer faces.
+- **dwelling clothes-washing facilities assembly** (`AU-HA-LAUNDRY-FACILITIES-ASSEMBLY`) — A laundry washtub and the physical service, joinery and floor interfaces surrounding the nominated space for a washing machine in the same room.
+- **dwelling cooking facility assembly** (`AU-HA-COOKING-FACILITY-ASSEMBLY`) — The selected cooktop, oven or combined cooker together with supporting joinery, restraint, service connections, ventilation and surrounding installation interfaces.
+- **dwelling kitchen facilities assembly** (`AU-HA-KITCHEN-FACILITIES-ASSEMBLY`) — The kitchen sink, food-preparation work surface, cooking appliance and their supporting joinery and service interfaces provided as the dwelling's food facility.
+- **dwelling personal-washing facility assembly** (`AU-HA-PERSONAL-WASHING-FACILITY-ASSEMBLY`) — The nominated bath or shower fixture and its support, waterproofing, drainage, tapware and enclosure construction provided for personal washing.
+- **dwelling toilet and washbasin facilities assembly** (`AU-HA-GENERAL-SANITARY-FACILITIES-ASSEMBLY`) — The nominated closet pan and washbasin fixtures, their rooms or spaces, supporting construction, doors and service connections provided as the dwelling sanitary facilities.
+- **electrical-box acoustic caulk seal** (`AU-HA-ELECTRICAL-BOX-ACOUSTIC-CAULK`) — A continuous acoustic sealant bead closing the gap between an electrical box, lining cut-out, cable entry or supporting surface.
+- **electrical-box acoustic putty or barrier pad** (`AU-HA-ELECTRICAL-BOX-ACOUSTIC-PAD`) — A mouldable pad or preformed barrier enclosing the back and sides of an electrical box to restore mass and close local leakage paths in a documented acoustic wall system.
+- **externally removable sanitary-compartment door assembly** (`AU-HA-EXTERNALLY-REMOVABLE-SANITARY-DOOR`) — An inward-opening sanitary door whose leaf and selected hinge or release hardware allow it to be removed or released from outside the compartment without normal access to the inside face.
+- **externally removable sanitary-door hinge pin** (`AU-HA-SANITARY-DOOR-REMOVABLE-HINGE-PIN`) — A hinge pin deliberately accessible and removable from the recovery side to separate a sanitary door leaf from its frame hinges.
+- **freestanding cooker** (`AU-HA-FREESTANDING-COOKER`) — A floor-standing appliance combining a cooktop and one or more oven or grill cavities in one movable but connected enclosure.
+- **freestanding-cooker adjustable foot** (`AU-HA-COOKER-ADJUSTABLE-FOOT`) — A threaded or otherwise adjustable appliance foot supporting and levelling a freestanding cooker above the finished floor.
+- **freestanding-cooker anti-tip bracket** (`AU-HA-COOKER-ANTI-TIP-BRACKET`) — A steel restraint bracket fixed to the wall or floor and engaged with a rear foot, slot or pin on a freestanding cooker to limit forward tipping.
+- **freestanding-cooker anti-tip lock pin** (`AU-HA-COOKER-ANTI-TIP-LOCK-PIN`) — A removable pin or locking piece securing the cooker restraint bracket in its engaged product position where the selected system provides one.
+- **fully enclosed sanitary compartment assembly** (`AU-HA-GENERAL-SANITARY-COMPARTMENT-ASSEMBLY`) — A fully enclosed room or space containing a closet pan, with finished walls, floor and doorway arranged to permit occupant recovery by door direction, sliding action, removability or sufficient internal clearance.
+- **habitable-room natural-light opening assembly** (`AU-HA-HABITABLE-ROOM-DAYLIGHT-OPENING-ASSEMBLY`) — The selected windows, rooflights or proportional combination of both, including their frames, glazing and connection to an outdoor sky-facing space, used to admit natural light to a habitable room.
+- **internal ceiling access panel assembly** (`AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY`) — A framed removable, hinged or drop-in panel closing an opening in the ceiling lining for access to the roof space or concealed services.
+- **internal ceiling bulkhead assembly** (`AU-HA-CEILING-BULKHEAD-ASSEMBLY`) — A framed and lined downward projection below the main ceiling, commonly enclosing structure, ducts, pipes, curtains, lighting or a change in ceiling level.
+- **internal ceiling cornice** (`AU-HA-INTERNAL-CEILING-CORNICE`) — A continuous moulded or profiled trim covering and finishing the junction between an internal ceiling lining and wall lining.
+- **internal ceiling lining assembly** (`AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY`) — The visible internal ceiling sheets or panels, support battens or channels, fixings, joints, perimeter trims and access openings below roof or floor structure.
+- **internal plasterboard ceiling sheet** (`AU-HA-PLASTERBOARD-CEILING-SHEET`) — A gypsum plasterboard sheet fixed to ceiling joists, battens, furring channels or resilient supports as a visible or base ceiling layer.
+- **kitchen benchtop** (`AU-HA-KITCHEN-BENCHTOP`) — The horizontal worktop panel or slab spanning cabinets or brackets and containing finished edges, joints and appliance or sink openings.
+- **kitchen food-preparation bench assembly** (`AU-HA-FOOD-PREPARATION-BENCH-ASSEMBLY`) — A fixed worktop and its base cabinets, panels, supports, joints and service cut-outs forming the nominated food-preparation facility.
+- **kitchen sink and cooktop splashback assembly** (`AU-HA-KITCHEN-SPLASHBACK-ASSEMBLY`) — The durable wall-facing construction behind a kitchen bench, sink or cooktop, including substrate, exposed panel or finish, joints, edges, penetrations and perimeter seals.
+- **kitchen sink base cabinet** (`AU-HA-KITCHEN-SINK-CABINET`) — A floor- or wall-supported cabinet beneath a kitchen sink, supporting the benchtop and providing openings for bowl depth, waste and water services.
+- **kitchen sink bowl** (`AU-HA-KITCHEN-SINK-BOWL`) — A formed basin within or welded to a kitchen sink body, terminating at a waste opening and optionally an overflow opening.
+- **kitchen sink drainer surface** (`AU-HA-KITCHEN-SINK-DRAINER`) — An integral or attached ribbed and sloping surface beside a sink bowl that drains water back toward the bowl.
+- **kitchen sink fixture** (`AU-HA-KITCHEN-SINK-FIXTURE`) — The manufactured sink body containing one or more bowls and, where selected, an integral drainer or tap landing.
+- **kitchen sink installation assembly** (`AU-HA-KITCHEN-SINK-ASSEMBLY`) — A kitchen sink fixture together with its bowl or bowls, drainer where fitted, waste fittings, tapware, mounting clips, perimeter seal and supporting benchtop or cabinet.
+- **kitchen sink tapset** (`AU-HA-KITCHEN-SINK-TAPSET`) — A mixer, separate taps or other outlet assembly supplying water over a kitchen sink bowl.
+- **laundry tub cabinet** (`AU-HA-LAUNDRY-TUB-CABINET`) — A floor-standing or wall-supported cabinet housing and supporting a laundry tub while enclosing its waste, water and optional bypass connections.
+- **laundry tub tapset** (`AU-HA-LAUNDRY-TUB-TAPSET`) — A mixer, separate taps or wall-mounted outlet supplying water to a laundry tub.
+- **laundry tub washing-machine rinse-bypass kit** (`AU-HA-LAUNDRY-RINSE-BYPASS-KIT`) — A fitting and hose connection allowing washing-machine discharge to enter the tub waste downstream of the bowl while the tub remains usable.
+- **laundry washtub fixture** (`AU-HA-LAUNDRY-TUB-FIXTURE`) — A deep sink-like vessel intended for hand washing, soaking and disposal of clothes-washing or domestic-cleaning wastewater.
+- **laundry washtub installation assembly** (`AU-HA-LAUNDRY-WASHTUB-ASSEMBLY`) — A laundry tub fixture together with tapware, waste, optional overflow or rinse bypass, mounting seal and clips, cabinet or other support and service connections.
+- **manufactured rooflight unit** (`AU-HA-ROOFLIGHT-UNIT`) — The factory-assembled exterior rooflight product containing its primary frame, glazing or translucent panel, seals and any operable sash or mechanism.
+- **masonry wall with isolated acoustic lining assembly** (`AU-HA-MASONRY-ISOLATED-LINING-ACOUSTIC-WALL`) — A masonry leaf combined with one or two independently supported framed lining leaves, cavity insulation and plasterboard or fibre-cement linings spaced from the masonry.
+- **massive single-leaf acoustic separating wall** (`AU-HA-MASSIVE-SINGLE-LEAF-ACOUSTIC-WALL`) — A solid or panelised masonry, concrete or autoclaved-aerated-concrete wall relying on its complete mass, thickness, joints and perimeter construction for the selected airborne-sound path.
+- **required dwelling facilities assembly** (`AU-HA-REQUIRED-DWELLING-FACILITIES-ASSEMBLY`) — The nominated kitchen, personal-washing, clothes-washing, toilet and washbasin construction provided for occupants of a Class 1 building.
+- **residential health-and-amenity physical construction system** (`AU-HA-HEALTH-AMENITY-PHYSICAL-SYSTEM`) — The coordinated floors, ceilings, openings, fixtures, appliances, wet-area construction, ventilation paths and sound-insulating building elements that physically support the H4 health and amenity outcomes.
+- **residential rooflight assembly** (`AU-HA-ROOFLIGHT-ASSEMBLY`) — A fixed or operable glazed or translucent unit installed in the roof plane or on a kerb, together with frame, seals, flashing, roof opening and any lightwell or diffuser below.
+- **resilient acoustic masonry wall tie** (`AU-HA-RESILIENT-MASONRY-WALL-TIE`) — A tie selected to connect separate masonry leaves while limiting rigid vibration transfer compared with a conventional stiff linkage.
+- **rooflight kerb or upstand** (`AU-HA-ROOFLIGHT-CURB`) — A raised framed, metal or proprietary support surrounding a roof opening and carrying the rooflight unit above the roof drainage plane.
+- **rooflight lightwell lining sheet** (`AU-HA-ROOFLIGHT-LIGHTWELL-LINING`) — A finished sheet lining forming one face of a rooflight shaft and reflecting or transmitting light toward the room.
+- **rooflight lightwell or shaft assembly** (`AU-HA-ROOFLIGHT-LIGHTWELL-ASSEMBLY`) — The framed and lined shaft connecting a rooflight opening to a separate ceiling opening below, including supports, linings, insulation, air seals and optional diffuser.
+- **room-height bounding construction assembly** (`AU-HA-ROOM-HEIGHT-BOUNDING-ASSEMBLY`) — The actual finished floor surface, ceiling lining or underside of construction above, and every beam, bulkhead, duct or other projection that bounds the usable room-height measurement.
+- **sanitary-compartment occupant-recovery door assembly** (`AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY`) — An outward-opening, sliding or externally removable door and hardware arrangement selected to permit access to a person collapsed inside a fully enclosed sanitary compartment.
+- **sanitary-door latch external emergency release** (`AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE`) — A privacy latch or lock component that can be released from the outside using a coin, tool, key or dedicated emergency action.
+- **sanitary-door lift-off hinge** (`AU-HA-SANITARY-DOOR-LIFT-OFF-HINGE`) — A two-part hinge whose leaf-mounted portion can be lifted from the frame-mounted pin or knuckle from the permitted recovery side.
+- **service within sound-insulating separating wall assembly** (`AU-HA-SEPARATING-WALL-SERVICE-ASSEMBLY`) — A duct, soil, waste, water, stormwater or electrical service located in or passing through an acoustic separating wall, together with its assigned leaf, supports, clearances, access and sealed penetrations.
+- **sink or laundry-tub basket waste fitting** (`AU-HA-SINK-BASKET-WASTE`) — A flanged strainer, removable basket or plug and threaded waste body fitted through the base opening of a kitchen sink or laundry tub.
+- **sink or laundry-tub mounting clip** (`AU-HA-SINK-MOUNTING-CLIP`) — A repeated adjustable metal or polymer clip clamping a topmount or undermount sink or tub flange to the benchtop or support.
+- **sink or laundry-tub overflow fitting** (`AU-HA-SINK-OVERFLOW-FITTING`) — A grille, throat and short pipe connection carrying water from a high-level vessel opening to the waste body or drainage connection.
+- **sink or laundry-tub rim seal** (`AU-HA-SINK-RIM-SEAL`) — A continuous sealing foam, gasket or compatible sealant between a sink or tub rim and its benchtop or supporting surface.
+- **sound-absorptive wall-cavity insulation layer** (`AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER`) — A continuous fitted field of glass mineral wool, rock mineral wool or polyester insulation occupying the selected part of an acoustic wall cavity without rigidly bridging separate leaves.
+- **sound-insulating access-panel perimeter seal** (`AU-HA-ACOUSTIC-ACCESS-PANEL-SEAL`) — A continuous compressible gasket or sealant line between an acoustic access panel leaf and its frame seat.
+- **sound-insulating ceiling termination assembly** (`AU-HA-SOUND-INSULATING-CEILING-BARRIER-ASSEMBLY`) — A ceiling construction documented to provide the sound insulation required where a sound-insulating wall terminates at the ceiling instead of continuing to the roof underside.
+- **sound-insulating cement-render layer** (`AU-HA-ACOUSTIC-CEMENT-RENDER`) — A continuous dense cementitious render applied to a masonry face as part of a specified acoustic wall configuration.
+- **sound-insulating fibre-cement lining sheet** (`AU-HA-ACOUSTIC-FIBRE-CEMENT-LINING`) — A fibre-cement sheet installed as a mass layer in a prescribed or tested acoustic wall construction, commonly combined with another lining layer.
+- **sound-insulating lining fixing** (`AU-HA-ACOUSTIC-LINING-FIXING`) — A screw, nail or proprietary fastener fixing an acoustic sheet layer to its assigned frame, channel or support without bridging an isolated wall leaf unintentionally.
+- **sound-insulating lining joint compound** (`AU-HA-ACOUSTIC-LINING-JOINT-COMPOUND`) — A setting or drying compound filling sheet joints, fastener heads and tape beds to form a continuous sealed lining face.
+- **sound-insulating lining joint tape** (`AU-HA-ACOUSTIC-LINING-JOINT-TAPE`) — Paper, fibre or mesh tape embedded over a joint between acoustic lining sheets as part of a filled, airtight joint treatment.
+- **sound-insulating plasterboard lining sheet** (`AU-HA-ACOUSTIC-PLASTERBOARD-LINING`) — A plasterboard sheet installed as one layer of a prescribed or tested acoustic wall or ceiling build-up, with product mass, thickness, joints and fixing pattern retained.
+- **sound-insulating separating wall assembly** (`AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY`) — A complete separating wall with its structural leaves, linings, cavities, insulation, joints, seals, terminations and service treatments identified as one acoustic construction.
+- **sound-insulating service access door or panel leaf** (`AU-HA-ACOUSTIC-ACCESS-PANEL-LEAF`) — The dense removable or hinged panel closing an acoustic service access opening and overlapping or seating into its frame rebate.
+- **sound-insulating service access panel assembly** (`AU-HA-ACOUSTIC-SERVICE-ACCESS-PANEL-ASSEMBLY`) — A dense fixed or openable door or panel, overlapping or rebated frame and perimeter seal providing maintenance access to a permitted service within acoustic separating construction.
+- **sound-insulating service access panel frame** (`AU-HA-ACOUSTIC-ACCESS-PANEL-FRAME`) — A continuous frame around an acoustic service opening, formed with a rebate or overlap seat and fixed to the surrounding wall construction.
+- **sound-insulating wall cavity** (`AU-HA-ACOUSTIC-WALL-CAVITY`) — The deliberate continuous void between wall leaves or between masonry and an isolated lining frame, kept clear of unintended rigid bridges and optionally containing specified insulation.
+- **sound-insulating wall electrical-outlet treatment assembly** (`AU-HA-ACOUSTIC-ELECTRICAL-OUTLET-ASSEMBLY`) — An electrical outlet or switch box and its wall cut-out, backing, air seal or putty treatment, mounting and offset relationship arranged to preserve the sound-insulating wall construction.
+- **sound-insulating wall leaf assembly** (`AU-HA-ACOUSTIC-WALL-LEAF-ASSEMBLY`) — One independently supported masonry, concrete, AAC or framed-and-lined side of a multi-leaf sound-insulating wall.
+- **sound-insulating wall perimeter junction assembly** (`AU-HA-ACOUSTIC-WALL-PERIMETER-JUNCTION`) — The wall-to-floor, wall-to-wall or wall-to-ceiling edge construction using secured perimeter members, backing and continuous seals to close voids around the acoustic wall.
+- **sound-insulating wall-to-roof junction assembly** (`AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION`) — The sealed continuation of a sound-insulating wall to the underside of roof construction, shaped around rafters, trusses, purlins, battens and roof cladding without leaving a flanking gap.
+- **sound-rated wall electrical mounting box** (`AU-HA-ACOUSTIC-ELECTRICAL-BOX`) — A surface-mounted or recessed electrical box selected and installed as part of a documented acoustic wall treatment.
+- **washing-machine drain hose** (`AU-HA-WASHING-MACHINE-DRAIN-HOSE`) — A flexible hose carrying pumped wastewater from a washing machine to a standpipe, tub, bypass fitting or other selected discharge connection.
+- **washing-machine drain-hose guide** (`AU-HA-WASHING-MACHINE-DRAIN-HOSE-GUIDE`) — A curved plastic or metal guide retaining a washing-machine drain hose in a controlled bend at its discharge point.
+- **washing-machine installation and connection assembly** (`AU-HA-WASHING-MACHINE-CONNECTION-ASSEMBLY`) — An installed washing machine where selected, together with inlet and drain hoses, hose guide and the physical service connection route within the nominated appliance position.
+- **washing-machine water inlet hose** (`AU-HA-WASHING-MACHINE-INLET-HOSE`) — A flexible pressure hose with end connectors carrying hot or cold water from a service valve to a washing-machine inlet.
+
+## Cross-discipline links
+
+- `AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER` commonly used with `AU-TC-GLASS-MINERAL-WOOL-INSULATION`
+- `AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER` commonly used with `AU-TC-POLYESTER-INSULATION`
+- `AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER` commonly used with `AU-TC-ROCK-MINERAL-WOOL-INSULATION`
+- `AU-HA-ACOUSTIC-LINING-JOINT-TAPE` alternative to `AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE`
+- `AU-HA-ACOUSTIC-PERIMETER-SEALANT` alternative to `AU-IL-PAINTABLE-PERIMETER-GAP-SEALANT`
+- `AU-HA-ACOUSTIC-PERIMETER-SEALANT` commonly used with `AU-FS-FIRE-ACOUSTIC-SEALANT-JOINT`
+- `AU-HA-ACOUSTIC-PLASTERBOARD-LINING` commonly used with `AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING`
+- `AU-HA-ACOUSTIC-PLASTERBOARD-LINING` commonly used with `AU-IL-MULTILAYER-LINING-ASSEMBLY`
+- `AU-HA-ACOUSTIC-WALL-CAVITY` commonly used with `AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET`
+- `AU-HA-ACOUSTIC-WALL-TO-ROOF-JUNCTION` commonly used with `AU-FS-WALL-TO-ROOF-FIRE-TERMINATION`
+- `AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY` commonly used with `AU-IL-SERVICE-OPENING-LINING-ASSEMBLY`
+- `AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY` commonly used with `AU-TC-ACCESS-HATCH-WEATHERSEAL`
+- `AU-HA-ELECTRICAL-BOX-ACOUSTIC-PAD` commonly used with `AU-FS-FIRESTOP-PUTTY-PAD`
+- `AU-HA-INTERNAL-CEILING-CORNICE` commonly used with `AU-IL-INTERNAL-CORNICE-ADHESIVE`
+- `AU-HA-INTERNAL-CEILING-CORNICE` commonly used with `AU-TC-CORNICE-AIR-SEAL`
+- `AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY` commonly used with `AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY`
+- `AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY` commonly used with `AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY`
+- `AU-HA-PERSONAL-WASHING-FACILITY-ASSEMBLY` is a `AU-WP-WET-AREA-WATERPROOFING-SYSTEM`
+- `AU-HA-PLASTERBOARD-CEILING-SHEET` commonly used with `AU-SF-CEILING-BATTEN`
+- `AU-HA-PLASTERBOARD-CEILING-SHEET` commonly used with `AU-TF-CEILING-JOIST`
+- `AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY` commonly used with `AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM`
+- `AU-HA-SANITARY-DOOR-REMOVABLE-HINGE-PIN` commonly used with `AU-ID-LOOSE-PIN-BUTT-HINGE`
+- `AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE` commonly used with `AU-ID-PRIVACY-LATCHSET`
+- `AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE` commonly used with `AU-ID-PRIVACY-TURN`
+- `AU-HA-SOUND-INSULATING-SEPARATING-WALL-ASSEMBLY` commonly used with `AU-FS-FIRE-RESISTING-SEPARATING-WALL-ASSEMBLY`

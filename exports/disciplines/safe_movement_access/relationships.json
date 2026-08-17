@@ -1,0 +1,3683 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "safe_movement_access",
+  "relationships": [
+    {
+      "id": "REL-7331-SA-ALPINE-EXTERNAL-ACCESS-ASSEMBLY-PART-OF-AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "from_id": "AU-SA-ALPINE-EXTERNAL-ACCESS-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7332-SA-BARRIER-ASSEMBLY-FASTENER-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-ASSEMBLY-FASTENER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7333-SA-BARRIER-BALUSTER-PART-OF-AU-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-BARRIER-BALUSTER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7334-SA-BARRIER-BASE-COVER-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-BASE-COVER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7335-SA-BARRIER-BASE-PACKER-GROUT-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-BASE-PACKER-GROUT",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7336-SA-BARRIER-BOTTOM-RAIL-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-BOTTOM-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7337-SA-BARRIER-CORNER-POST-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-CORNER-POST",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7338-SA-BARRIER-END-POST-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-END-POST",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7339-SA-BARRIER-FASCIA-MOUNT-BRACKET-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-FASCIA-MOUNT-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7340-SA-BARRIER-GATE-ASSEMBLY-HAS-PART-AU-SA-BARRIER-GATE-HINGE",
+      "from_id": "AU-SA-BARRIER-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-GATE-HINGE",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7341-SA-BARRIER-GATE-ASSEMBLY-HAS-PART-AU-SA-BARRIER-GATE-LATCH",
+      "from_id": "AU-SA-BARRIER-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-GATE-LATCH",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7342-SA-BARRIER-GATE-ASSEMBLY-HAS-PART-AU-SA-BARRIER-GATE-LEAF",
+      "from_id": "AU-SA-BARRIER-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-GATE-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7343-SA-BARRIER-GATE-ASSEMBLY-HAS-PART-AU-SA-BARRIER-GATE-STOP",
+      "from_id": "AU-SA-BARRIER-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-GATE-STOP",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7344-SA-BARRIER-GATE-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-GATE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7345-SA-BARRIER-GATE-HINGE-PART-OF-AU-SA-BARRIER-GATE-ASSEMBLY",
+      "from_id": "AU-SA-BARRIER-GATE-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-BARRIER-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7346-SA-BARRIER-GATE-LATCH-PART-OF-AU-SA-BARRIER-GATE-ASSEMBLY",
+      "from_id": "AU-SA-BARRIER-GATE-LATCH",
+      "relationship": "part_of",
+      "to_id": "AU-SA-BARRIER-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7347-SA-BARRIER-GATE-LEAF-PART-OF-AU-SA-BARRIER-GATE-ASSEMBLY",
+      "from_id": "AU-SA-BARRIER-GATE-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-SA-BARRIER-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7348-SA-BARRIER-GATE-STOP-PART-OF-AU-SA-BARRIER-GATE-ASSEMBLY",
+      "from_id": "AU-SA-BARRIER-GATE-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-SA-BARRIER-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7349-SA-BARRIER-HEIGHT-TRANSITION-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-HEIGHT-TRANSITION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7350-SA-BARRIER-INFILL-PANEL-PART-OF-AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-BARRIER-INFILL-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7351-SA-BARRIER-INTERMEDIATE-POST-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-INTERMEDIATE-POST",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7352-SA-BARRIER-INTERMEDIATE-RAIL-PART-OF-AU-SA-POST-AND-RAIL-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-BARRIER-INTERMEDIATE-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-POST-AND-RAIL-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7353-SA-BARRIER-PANEL-CLAMP-PART-OF-AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-BARRIER-PANEL-CLAMP",
+      "relationship": "part_of",
+      "to_id": "AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7354-SA-BARRIER-PICKET-PART-OF-AU-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-BARRIER-PICKET",
+      "relationship": "part_of",
+      "to_id": "AU-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7355-SA-BARRIER-POST-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-POST",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7357-SA-BARRIER-POST-ANCHOR-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-POST-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7358-SA-BARRIER-POST-BASE-PLATE-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-POST-BASE-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7359-SA-BARRIER-POST-SHOE-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-POST-SHOE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7362-SA-BARRIER-POST-WATERPROOF-COLLAR-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-POST-WATERPROOF-COLLAR",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7363-SA-BARRIER-RAIL-END-CAP-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-RAIL-END-CAP",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7364-SA-BARRIER-RAIL-JOINER-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-RAIL-JOINER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7365-SA-BARRIER-TO-WALL-BRACKET-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-TO-WALL-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7366-SA-BARRIER-TOP-HANDRAIL-ASSEMBLY-HAS-PART-AU-SA-HANDRAIL-POST-BRACKET",
+      "from_id": "AU-SA-BARRIER-TOP-HANDRAIL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HANDRAIL-POST-BRACKET",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7367-SA-BARRIER-TOP-HANDRAIL-ASSEMBLY-PART-OF-AU-SA-HANDRAIL-SYSTEM",
+      "from_id": "AU-SA-BARRIER-TOP-HANDRAIL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-HANDRAIL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7368-SA-BARRIER-TOP-RAIL-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-BARRIER-TOP-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7369-SA-BARRIER-WIRE-ROPE-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-BARRIER-WIRE-ROPE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7370-SA-CLOSED-RISER-STAIR-ASSEMBLY-HAS-PART-AU-SA-STAIR-RISER",
+      "from_id": "AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-RISER",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7371-SA-CLOSED-RISER-STAIR-ASSEMBLY-HAS-PART-AU-SA-TIMBER-RISER-BOARD",
+      "from_id": "AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-TIMBER-RISER-BOARD",
+      "source_ids": [
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7372-SA-CLOSED-RISER-STAIR-ASSEMBLY-HAS-PART-AU-SA-TREAD-RISER-GLUE-BLOCK",
+      "from_id": "AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-TREAD-RISER-GLUE-BLOCK",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7373-SA-CLOSED-RISER-STAIR-ASSEMBLY-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7374-SA-CORE-DRILLED-GLASS-SPIGOT-SOCKET-PART-OF-AU-SA-GLASS-BARRIER-SPIGOT",
+      "from_id": "AU-SA-CORE-DRILLED-GLASS-SPIGOT-SOCKET",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-SPIGOT",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7375-SA-CURVED-GEOMETRIC-STAIR-ASSEMBLY-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-CURVED-GEOMETRIC-STAIR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7376-SA-CUT-TIMBER-STRINGER-PART-OF-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-CUT-TIMBER-STRINGER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7377-SA-EXPANDED-METAL-INFILL-PANEL-PART-OF-AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-EXPANDED-METAL-INFILL-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7378-SA-EXTERNAL-STAIR-ASSEMBLY-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-EXTERNAL-STAIR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-ABCB-STAIRS-BARRIERS-FAQ",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7379-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-ASSEMBLY-FASTENER",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-ASSEMBLY-FASTENER",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7380-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-BASE-COVER",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-BASE-COVER",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7381-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-BASE-PACKER-GROUT",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-BASE-PACKER-GROUT",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7382-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-BOTTOM-RAIL",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-BOTTOM-RAIL",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7383-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-CORNER-POST",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-CORNER-POST",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7384-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-END-POST",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-END-POST",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7385-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-FASCIA-MOUNT-BRACKET",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-FASCIA-MOUNT-BRACKET",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7386-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-GATE-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7387-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-HEIGHT-TRANSITION-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-HEIGHT-TRANSITION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7388-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-INTERMEDIATE-POST",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-INTERMEDIATE-POST",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7389-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-POST",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-POST",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7390-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-POST-ANCHOR",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-POST-ANCHOR",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7391-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-POST-BASE-PLATE",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-POST-BASE-PLATE",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7392-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-POST-SHOE",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-POST-SHOE",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7393-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-POST-WATERPROOF-COLLAR",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-POST-WATERPROOF-COLLAR",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7394-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-RAIL-END-CAP",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-RAIL-END-CAP",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7395-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-RAIL-JOINER",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-RAIL-JOINER",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7396-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-TO-WALL-BRACKET",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-TO-WALL-BRACKET",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7397-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-BARRIER-TOP-RAIL",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-TOP-RAIL",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7398-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7399-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-LANDING-DECK-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-LANDING-DECK-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7400-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7401-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-POST-AND-RAIL-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-POST-AND-RAIL-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7402-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-RETAINING-WALL-ACCESS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-RETAINING-WALL-ACCESS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7403-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-SOLID-WALL-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-SOLID-WALL-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ABCB-STAIRS-BARRIERS-FAQ"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7404-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-STAIR-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7405-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-TRAFFICABLE-EDGE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-TRAFFICABLE-EDGE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7406-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7407-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-WINDOW-BARRIER-RAIL-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WINDOW-BARRIER-RAIL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ABCB-HP-WINDOW-PROTECTION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7408-SA-FALL-PREVENTION-BARRIER-SYSTEM-HAS-PART-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7409-SA-FALL-PREVENTION-BARRIER-SYSTEM-PART-OF-AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "from_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7410-SA-FULL-TREAD-SAFETY-PLATE-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-FULL-TREAD-SAFETY-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7411-SA-GLASS-BARRIER-ASSEMBLY-HAS-PART-AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7412-SA-GLASS-BARRIER-ASSEMBLY-HAS-PART-AU-SA-GLASS-BARRIER-FASCIA-CHANNEL",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-BARRIER-FASCIA-CHANNEL",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7413-SA-GLASS-BARRIER-ASSEMBLY-HAS-PART-AU-SA-GLASS-BARRIER-SPIGOT",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-BARRIER-SPIGOT",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7414-SA-GLASS-BARRIER-ASSEMBLY-HAS-PART-AU-SA-GLASS-BARRIER-TOP-CAP-RAIL",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-BARRIER-TOP-CAP-RAIL",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7415-SA-GLASS-BARRIER-ASSEMBLY-HAS-PART-AU-SA-GLASS-CHANNEL-GASKET",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-CHANNEL-GASKET",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7416-SA-GLASS-BARRIER-ASSEMBLY-HAS-PART-AU-SA-GLASS-MOUNTED-HANDRAIL",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-MOUNTED-HANDRAIL",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7417-SA-GLASS-BARRIER-ASSEMBLY-HAS-PART-AU-SA-GLASS-PANEL-CLAMP",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-PANEL-CLAMP",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7418-SA-GLASS-BARRIER-ASSEMBLY-HAS-PART-AU-SA-GLASS-SETTING-BLOCK",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-SETTING-BLOCK",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7419-SA-GLASS-BARRIER-ASSEMBLY-HAS-PART-AU-SA-GLASS-STANDOFF-BUTTON",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-STANDOFF-BUTTON",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7420-SA-GLASS-BARRIER-ASSEMBLY-HAS-PART-AU-SA-INFILL-GLASS-BARRIER-PANEL",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-INFILL-GLASS-BARRIER-PANEL",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7421-SA-GLASS-BARRIER-ASSEMBLY-HAS-PART-AU-SA-STRUCTURAL-GLASS-BARRIER-PANEL",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STRUCTURAL-GLASS-BARRIER-PANEL",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7422-SA-GLASS-BARRIER-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7423-SA-GLASS-BARRIER-BASE-CHANNEL-HAS-PART-AU-SA-GLASS-CHANNEL-ANCHOR-GROUP",
+      "from_id": "AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-CHANNEL-ANCHOR-GROUP",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7424-SA-GLASS-BARRIER-BASE-CHANNEL-HAS-PART-AU-SA-GLASS-CHANNEL-DRAINAGE-OPENING",
+      "from_id": "AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-CHANNEL-DRAINAGE-OPENING",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7425-SA-GLASS-BARRIER-BASE-CHANNEL-HAS-PART-AU-SA-GLASS-CHANNEL-END-COVER",
+      "from_id": "AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-CHANNEL-END-COVER",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7426-SA-GLASS-BARRIER-BASE-CHANNEL-HAS-PART-AU-SA-GLASS-CHANNEL-WEDGE",
+      "from_id": "AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-CHANNEL-WEDGE",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7427-SA-GLASS-BARRIER-BASE-CHANNEL-PART-OF-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7428-SA-GLASS-BARRIER-FASCIA-CHANNEL-PART-OF-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-GLASS-BARRIER-FASCIA-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7429-SA-GLASS-BARRIER-SPIGOT-HAS-PART-AU-SA-CORE-DRILLED-GLASS-SPIGOT-SOCKET",
+      "from_id": "AU-SA-GLASS-BARRIER-SPIGOT",
+      "relationship": "has_part",
+      "to_id": "AU-SA-CORE-DRILLED-GLASS-SPIGOT-SOCKET",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7430-SA-GLASS-BARRIER-SPIGOT-HAS-PART-AU-SA-GLASS-SPIGOT-BASE-PLATE",
+      "from_id": "AU-SA-GLASS-BARRIER-SPIGOT",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-SPIGOT-BASE-PLATE",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7431-SA-GLASS-BARRIER-SPIGOT-PART-OF-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-GLASS-BARRIER-SPIGOT",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7432-SA-GLASS-BARRIER-TOP-CAP-RAIL-PART-OF-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-GLASS-BARRIER-TOP-CAP-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7433-SA-GLASS-CHANNEL-ANCHOR-GROUP-PART-OF-AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "from_id": "AU-SA-GLASS-CHANNEL-ANCHOR-GROUP",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7434-SA-GLASS-CHANNEL-DRAINAGE-OPENING-PART-OF-AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "from_id": "AU-SA-GLASS-CHANNEL-DRAINAGE-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7435-SA-GLASS-CHANNEL-END-COVER-PART-OF-AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "from_id": "AU-SA-GLASS-CHANNEL-END-COVER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7436-SA-GLASS-CHANNEL-GASKET-PART-OF-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-GLASS-CHANNEL-GASKET",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7437-SA-GLASS-CHANNEL-WEDGE-PART-OF-AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "from_id": "AU-SA-GLASS-CHANNEL-WEDGE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-BASE-CHANNEL",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7438-SA-GLASS-HANDRAIL-BRACKET-PART-OF-AU-SA-GLASS-MOUNTED-HANDRAIL",
+      "from_id": "AU-SA-GLASS-HANDRAIL-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-MOUNTED-HANDRAIL",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7439-SA-GLASS-MOUNTED-HANDRAIL-HAS-PART-AU-SA-GLASS-HANDRAIL-BRACKET",
+      "from_id": "AU-SA-GLASS-MOUNTED-HANDRAIL",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GLASS-HANDRAIL-BRACKET",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7440-SA-GLASS-MOUNTED-HANDRAIL-PART-OF-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-GLASS-MOUNTED-HANDRAIL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7441-SA-GLASS-PANEL-CLAMP-PART-OF-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-GLASS-PANEL-CLAMP",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7442-SA-GLASS-SETTING-BLOCK-PART-OF-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-GLASS-SETTING-BLOCK",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7443-SA-GLASS-SPIGOT-BASE-PLATE-PART-OF-AU-SA-GLASS-BARRIER-SPIGOT",
+      "from_id": "AU-SA-GLASS-SPIGOT-BASE-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-SPIGOT",
+      "source_ids": [
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7444-SA-GLASS-STANDOFF-BUTTON-PART-OF-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-GLASS-STANDOFF-BUTTON",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7445-SA-GRASPABLE-HANDRAIL-MEMBER-PART-OF-AU-SA-HANDRAIL-SYSTEM",
+      "from_id": "AU-SA-GRASPABLE-HANDRAIL-MEMBER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-HANDRAIL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7446-SA-GRATING-STAIR-TREAD-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-GRATING-STAIR-TREAD",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7447-SA-HALF-TURN-STAIR-ASSEMBLY-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-HALF-TURN-STAIR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7448-SA-HANDRAIL-BEND-ELBOW-PART-OF-AU-SA-HANDRAIL-SYSTEM",
+      "from_id": "AU-SA-HANDRAIL-BEND-ELBOW",
+      "relationship": "part_of",
+      "to_id": "AU-SA-HANDRAIL-SYSTEM",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7449-SA-HANDRAIL-BRACKET-SPACER-PART-OF-AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "from_id": "AU-SA-HANDRAIL-BRACKET-SPACER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7450-SA-HANDRAIL-END-CAP-PART-OF-AU-SA-HANDRAIL-SYSTEM",
+      "from_id": "AU-SA-HANDRAIL-END-CAP",
+      "relationship": "part_of",
+      "to_id": "AU-SA-HANDRAIL-SYSTEM",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7451-SA-HANDRAIL-END-RETURN-PART-OF-AU-SA-HANDRAIL-SYSTEM",
+      "from_id": "AU-SA-HANDRAIL-END-RETURN",
+      "relationship": "part_of",
+      "to_id": "AU-SA-HANDRAIL-SYSTEM",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7452-SA-HANDRAIL-FIXING-ANCHOR-PART-OF-AU-SA-HANDRAIL-SYSTEM",
+      "from_id": "AU-SA-HANDRAIL-FIXING-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-SA-HANDRAIL-SYSTEM",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7453-SA-HANDRAIL-JOINER-PART-OF-AU-SA-HANDRAIL-SYSTEM",
+      "from_id": "AU-SA-HANDRAIL-JOINER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-HANDRAIL-SYSTEM",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7454-SA-HANDRAIL-POST-BRACKET-PART-OF-AU-SA-BARRIER-TOP-HANDRAIL-ASSEMBLY",
+      "from_id": "AU-SA-HANDRAIL-POST-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-SA-BARRIER-TOP-HANDRAIL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7455-SA-HANDRAIL-SYSTEM-HAS-PART-AU-SA-BARRIER-TOP-HANDRAIL-ASSEMBLY",
+      "from_id": "AU-SA-HANDRAIL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-TOP-HANDRAIL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7456-SA-HANDRAIL-SYSTEM-HAS-PART-AU-SA-GRASPABLE-HANDRAIL-MEMBER",
+      "from_id": "AU-SA-HANDRAIL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GRASPABLE-HANDRAIL-MEMBER",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7457-SA-HANDRAIL-SYSTEM-HAS-PART-AU-SA-HANDRAIL-BEND-ELBOW",
+      "from_id": "AU-SA-HANDRAIL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HANDRAIL-BEND-ELBOW",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7458-SA-HANDRAIL-SYSTEM-HAS-PART-AU-SA-HANDRAIL-END-CAP",
+      "from_id": "AU-SA-HANDRAIL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HANDRAIL-END-CAP",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7459-SA-HANDRAIL-SYSTEM-HAS-PART-AU-SA-HANDRAIL-END-RETURN",
+      "from_id": "AU-SA-HANDRAIL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HANDRAIL-END-RETURN",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7460-SA-HANDRAIL-SYSTEM-HAS-PART-AU-SA-HANDRAIL-FIXING-ANCHOR",
+      "from_id": "AU-SA-HANDRAIL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HANDRAIL-FIXING-ANCHOR",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7461-SA-HANDRAIL-SYSTEM-HAS-PART-AU-SA-HANDRAIL-JOINER",
+      "from_id": "AU-SA-HANDRAIL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HANDRAIL-JOINER",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7462-SA-HANDRAIL-SYSTEM-HAS-PART-AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "from_id": "AU-SA-HANDRAIL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7463-SA-HANDRAIL-SYSTEM-PART-OF-AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "from_id": "AU-SA-HANDRAIL-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7464-SA-HANDRAIL-WALL-BACKING-PART-OF-AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "from_id": "AU-SA-HANDRAIL-WALL-BACKING",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7465-SA-HANDRAIL-WALL-BRACKET-PART-OF-AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "from_id": "AU-SA-HANDRAIL-WALL-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7466-SA-HANDRAIL-WALL-ROSETTE-PART-OF-AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "from_id": "AU-SA-HANDRAIL-WALL-ROSETTE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7467-SA-HOUSED-TIMBER-STRINGER-PART-OF-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-HOUSED-TIMBER-STRINGER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7468-SA-INFILL-GLASS-BARRIER-PANEL-PART-OF-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-INFILL-GLASS-BARRIER-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7469-SA-LANDING-APRON-FASCIA-PART-OF-AU-SA-LANDING-ASSEMBLY",
+      "from_id": "AU-SA-LANDING-APRON-FASCIA",
+      "relationship": "part_of",
+      "to_id": "AU-SA-LANDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7470-SA-LANDING-ASSEMBLY-HAS-PART-AU-SA-LANDING-APRON-FASCIA",
+      "from_id": "AU-SA-LANDING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-LANDING-APRON-FASCIA",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7471-SA-LANDING-ASSEMBLY-HAS-PART-AU-SA-LANDING-DECK-SUBSTRATE",
+      "from_id": "AU-SA-LANDING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-LANDING-DECK-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7472-SA-LANDING-ASSEMBLY-HAS-PART-AU-SA-LANDING-SUPPORT-FRAME",
+      "from_id": "AU-SA-LANDING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-LANDING-SUPPORT-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7473-SA-LANDING-ASSEMBLY-HAS-PART-AU-SA-LANDING-WALKING-FINISH",
+      "from_id": "AU-SA-LANDING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-LANDING-WALKING-FINISH",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-SA-AS-4586-2013"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7474-SA-LANDING-ASSEMBLY-PART-OF-AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "from_id": "AU-SA-LANDING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7475-SA-LANDING-BEAM-PART-OF-AU-SA-LANDING-SUPPORT-FRAME",
+      "from_id": "AU-SA-LANDING-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-SA-LANDING-SUPPORT-FRAME",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7478-SA-LANDING-DECK-BARRIER-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-LANDING-DECK-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7479-SA-LANDING-DECK-SUBSTRATE-PART-OF-AU-SA-LANDING-ASSEMBLY",
+      "from_id": "AU-SA-LANDING-DECK-SUBSTRATE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-LANDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7480-SA-LANDING-SUPPORT-FRAME-HAS-PART-AU-SA-LANDING-BEAM",
+      "from_id": "AU-SA-LANDING-SUPPORT-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SA-LANDING-BEAM",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7481-SA-LANDING-SUPPORT-FRAME-HAS-PART-AU-SA-LANDING-SUPPORT-POST",
+      "from_id": "AU-SA-LANDING-SUPPORT-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SA-LANDING-SUPPORT-POST",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7482-SA-LANDING-SUPPORT-FRAME-PART-OF-AU-SA-LANDING-ASSEMBLY",
+      "from_id": "AU-SA-LANDING-SUPPORT-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-SA-LANDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7483-SA-LANDING-SUPPORT-POST-PART-OF-AU-SA-LANDING-SUPPORT-FRAME",
+      "from_id": "AU-SA-LANDING-SUPPORT-POST",
+      "relationship": "part_of",
+      "to_id": "AU-SA-LANDING-SUPPORT-FRAME",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7484-SA-LANDING-WALKING-FINISH-PART-OF-AU-SA-LANDING-ASSEMBLY",
+      "from_id": "AU-SA-LANDING-WALKING-FINISH",
+      "relationship": "part_of",
+      "to_id": "AU-SA-LANDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-SA-AS-4586-2013"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7485-SA-METAL-STAIR-PAN-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-METAL-STAIR-PAN",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7486-SA-MONO-STRINGER-ASSEMBLY-PART-OF-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-MONO-STRINGER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7487-SA-NOSING-CARRIER-PROFILE-PART-OF-AU-SA-SLIP-RESISTANT-NOSING-STRIP",
+      "from_id": "AU-SA-NOSING-CARRIER-PROFILE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-SLIP-RESISTANT-NOSING-STRIP",
+      "source_ids": [
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7488-SA-NOSING-SLIP-INSERT-PART-OF-AU-SA-SLIP-RESISTANT-NOSING-STRIP",
+      "from_id": "AU-SA-NOSING-SLIP-INSERT",
+      "relationship": "part_of",
+      "to_id": "AU-SA-SLIP-RESISTANT-NOSING-STRIP",
+      "source_ids": [
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7489-SA-OPEN-RISER-OPENING-PART-OF-AU-SA-OPEN-RISER-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-OPEN-RISER-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-SA-OPEN-RISER-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7490-SA-OPEN-RISER-STAIR-ASSEMBLY-HAS-PART-AU-SA-OPEN-RISER-OPENING",
+      "from_id": "AU-SA-OPEN-RISER-STAIR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-OPEN-RISER-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7491-SA-OPEN-RISER-STAIR-ASSEMBLY-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-OPEN-RISER-STAIR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7492-SA-PANEL-INFILL-BARRIER-ASSEMBLY-HAS-PART-AU-SA-BARRIER-INFILL-PANEL",
+      "from_id": "AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-INFILL-PANEL",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7493-SA-PANEL-INFILL-BARRIER-ASSEMBLY-HAS-PART-AU-SA-BARRIER-PANEL-CLAMP",
+      "from_id": "AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-PANEL-CLAMP",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7494-SA-PANEL-INFILL-BARRIER-ASSEMBLY-HAS-PART-AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7495-SA-PANEL-INFILL-BARRIER-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7496-SA-PEDESTRIAN-CIRCULATION-SURFACE-ASSEMBLY-PART-OF-AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "from_id": "AU-SA-PEDESTRIAN-CIRCULATION-SURFACE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7497-SA-PERFORATED-MESH-BARRIER-ASSEMBLY-HAS-PART-AU-SA-EXPANDED-METAL-INFILL-PANEL",
+      "from_id": "AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-EXPANDED-METAL-INFILL-PANEL",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7498-SA-PERFORATED-MESH-BARRIER-ASSEMBLY-HAS-PART-AU-SA-PERFORATED-METAL-INFILL-PANEL",
+      "from_id": "AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-PERFORATED-METAL-INFILL-PANEL",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7499-SA-PERFORATED-MESH-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WOVEN-WELDED-MESH-INFILL",
+      "from_id": "AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WOVEN-WELDED-MESH-INFILL",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7500-SA-PERFORATED-MESH-BARRIER-ASSEMBLY-PART-OF-AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-PANEL-INFILL-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7501-SA-PERFORATED-METAL-INFILL-PANEL-PART-OF-AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-PERFORATED-METAL-INFILL-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7502-SA-POST-AND-RAIL-BARRIER-ASSEMBLY-HAS-PART-AU-SA-BARRIER-INTERMEDIATE-RAIL",
+      "from_id": "AU-SA-POST-AND-RAIL-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-INTERMEDIATE-RAIL",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7503-SA-POST-AND-RAIL-BARRIER-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-POST-AND-RAIL-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7504-SA-PRECAST-CONCRETE-STAIR-TREAD-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-PRECAST-CONCRETE-STAIR-TREAD",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7505-SA-QUARTER-TURN-STAIR-ASSEMBLY-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-QUARTER-TURN-STAIR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7506-SA-RAMP-ASSEMBLY-HAS-PART-AU-SA-RAMP-DECK-SURFACE",
+      "from_id": "AU-SA-RAMP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-RAMP-DECK-SURFACE",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7507-SA-RAMP-ASSEMBLY-HAS-PART-AU-SA-RAMP-DRAINAGE-CHANNEL",
+      "from_id": "AU-SA-RAMP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-RAMP-DRAINAGE-CHANNEL",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7508-SA-RAMP-ASSEMBLY-HAS-PART-AU-SA-RAMP-EDGE-UPSTAND",
+      "from_id": "AU-SA-RAMP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-RAMP-EDGE-UPSTAND",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT",
+        "SRC-SA-AS-1428-1-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7509-SA-RAMP-ASSEMBLY-HAS-PART-AU-SA-RAMP-JOINT-COVER",
+      "from_id": "AU-SA-RAMP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-RAMP-JOINT-COVER",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7510-SA-RAMP-ASSEMBLY-HAS-PART-AU-SA-RAMP-SLIP-RESISTANT-FINISH",
+      "from_id": "AU-SA-RAMP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-RAMP-SLIP-RESISTANT-FINISH",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-SA-AS-4586-2013"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7511-SA-RAMP-ASSEMBLY-HAS-PART-AU-SA-RAMP-SUPPORT-FRAME",
+      "from_id": "AU-SA-RAMP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-RAMP-SUPPORT-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7512-SA-RAMP-ASSEMBLY-PART-OF-AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "from_id": "AU-SA-RAMP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7513-SA-RAMP-DECK-SURFACE-PART-OF-AU-SA-RAMP-ASSEMBLY",
+      "from_id": "AU-SA-RAMP-DECK-SURFACE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-RAMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7514-SA-RAMP-DRAINAGE-CHANNEL-PART-OF-AU-SA-RAMP-ASSEMBLY",
+      "from_id": "AU-SA-RAMP-DRAINAGE-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-RAMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7515-SA-RAMP-EDGE-UPSTAND-PART-OF-AU-SA-RAMP-ASSEMBLY",
+      "from_id": "AU-SA-RAMP-EDGE-UPSTAND",
+      "relationship": "part_of",
+      "to_id": "AU-SA-RAMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT",
+        "SRC-SA-AS-1428-1-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7516-SA-RAMP-JOINT-COVER-PART-OF-AU-SA-RAMP-ASSEMBLY",
+      "from_id": "AU-SA-RAMP-JOINT-COVER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-RAMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7517-SA-RAMP-SLIP-RESISTANT-FINISH-PART-OF-AU-SA-RAMP-ASSEMBLY",
+      "from_id": "AU-SA-RAMP-SLIP-RESISTANT-FINISH",
+      "relationship": "part_of",
+      "to_id": "AU-SA-RAMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-SA-AS-4586-2013"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7518-SA-RAMP-STRINGER-BEAM-PART-OF-AU-SA-RAMP-SUPPORT-FRAME",
+      "from_id": "AU-SA-RAMP-STRINGER-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-SA-RAMP-SUPPORT-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7519-SA-RAMP-SUPPORT-FRAME-HAS-PART-AU-SA-RAMP-STRINGER-BEAM",
+      "from_id": "AU-SA-RAMP-SUPPORT-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SA-RAMP-STRINGER-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7520-SA-RAMP-SUPPORT-FRAME-PART-OF-AU-SA-RAMP-ASSEMBLY",
+      "from_id": "AU-SA-RAMP-SUPPORT-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-SA-RAMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7521-SA-RETAINING-WALL-ACCESS-BARRIER-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-RETAINING-WALL-ACCESS-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7522-SA-SAFE-MOVEMENT-SYSTEM-HAS-PART-AU-SA-ALPINE-EXTERNAL-ACCESS-ASSEMBLY",
+      "from_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-ALPINE-EXTERNAL-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7523-SA-SAFE-MOVEMENT-SYSTEM-HAS-PART-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7524-SA-SAFE-MOVEMENT-SYSTEM-HAS-PART-AU-SA-HANDRAIL-SYSTEM",
+      "from_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HANDRAIL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7525-SA-SAFE-MOVEMENT-SYSTEM-HAS-PART-AU-SA-LANDING-ASSEMBLY",
+      "from_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-LANDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7526-SA-SAFE-MOVEMENT-SYSTEM-HAS-PART-AU-SA-PEDESTRIAN-CIRCULATION-SURFACE-ASSEMBLY",
+      "from_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-PEDESTRIAN-CIRCULATION-SURFACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7527-SA-SAFE-MOVEMENT-SYSTEM-HAS-PART-AU-SA-RAMP-ASSEMBLY",
+      "from_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-RAMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-ABCB-V2-H5-SAFE-MOVEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7528-SA-SAFE-MOVEMENT-SYSTEM-HAS-PART-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7529-SA-SAFE-MOVEMENT-SYSTEM-HAS-PART-AU-SA-THRESHOLD-STEP-ASSEMBLY",
+      "from_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-THRESHOLD-STEP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-ABCB-STAIRS-BARRIERS-FAQ"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7530-SA-SLIP-RESISTANT-NOSING-STRIP-HAS-PART-AU-SA-NOSING-CARRIER-PROFILE",
+      "from_id": "AU-SA-SLIP-RESISTANT-NOSING-STRIP",
+      "relationship": "has_part",
+      "to_id": "AU-SA-NOSING-CARRIER-PROFILE",
+      "source_ids": [
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7531-SA-SLIP-RESISTANT-NOSING-STRIP-HAS-PART-AU-SA-NOSING-SLIP-INSERT",
+      "from_id": "AU-SA-SLIP-RESISTANT-NOSING-STRIP",
+      "relationship": "has_part",
+      "to_id": "AU-SA-NOSING-SLIP-INSERT",
+      "source_ids": [
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7532-SA-SLIP-RESISTANT-NOSING-STRIP-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-SLIP-RESISTANT-NOSING-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7533-SA-SOLID-WALL-BARRIER-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-SOLID-WALL-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ABCB-STAIRS-BARRIERS-FAQ"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7534-SA-SPIRAL-STAIR-ASSEMBLY-HAS-PART-AU-SA-SPIRAL-STAIR-TREAD",
+      "from_id": "AU-SA-SPIRAL-STAIR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-SPIRAL-STAIR-TREAD",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7535-SA-SPIRAL-STAIR-ASSEMBLY-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-SPIRAL-STAIR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7536-SA-SPIRAL-STAIR-TREAD-PART-OF-AU-SA-SPIRAL-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-SPIRAL-STAIR-TREAD",
+      "relationship": "part_of",
+      "to_id": "AU-SA-SPIRAL-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7537-SA-STAIR-ASSEMBLY-FASTENER-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-ASSEMBLY-FASTENER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7538-SA-STAIR-BARRIER-ASSEMBLY-HAS-PART-AU-SA-STAIR-NEWEL-POST",
+      "from_id": "AU-SA-STAIR-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-NEWEL-POST",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7539-SA-STAIR-BARRIER-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-STAIR-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7540-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-FULL-TREAD-SAFETY-PLATE",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-FULL-TREAD-SAFETY-PLATE",
+      "source_ids": [
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7541-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-GRATING-STAIR-TREAD",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-GRATING-STAIR-TREAD",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7542-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-METAL-STAIR-PAN",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-METAL-STAIR-PAN",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7543-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-PRECAST-CONCRETE-STAIR-TREAD",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-PRECAST-CONCRETE-STAIR-TREAD",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7544-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-SLIP-RESISTANT-NOSING-STRIP",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-SLIP-RESISTANT-NOSING-STRIP",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7545-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-STAIR-NOSING",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-NOSING",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7546-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-STAIR-PAN-INFILL",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-PAN-INFILL",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7547-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7548-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-STAIR-TREAD",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-TREAD",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7549-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-STAIR-TREAD-FINISH",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-TREAD-FINISH",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-SA-AS-4586-2013"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7550-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-STEEL-PLATE-STAIR-TREAD",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STEEL-PLATE-STAIR-TREAD",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7551-SA-STAIR-FLIGHT-ASSEMBLY-HAS-PART-AU-SA-TIMBER-STAIR-TREAD",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-TIMBER-STAIR-TREAD",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7552-SA-STAIR-FLIGHT-ASSEMBLY-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7553-SA-STAIR-NEWEL-POST-PART-OF-AU-SA-STAIR-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-NEWEL-POST",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7554-SA-STAIR-NOSING-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-NOSING",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7555-SA-STAIR-PAN-INFILL-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-PAN-INFILL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7556-SA-STAIR-RISER-PART-OF-AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-RISER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7557-SA-STAIR-SKIRT-BOARD-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-SKIRT-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7558-SA-STAIR-SOFFIT-LINING-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-SOFFIT-LINING",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7559-SA-STAIR-STRINGER-SYSTEM-HAS-PART-AU-SA-CUT-TIMBER-STRINGER",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-CUT-TIMBER-STRINGER",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7560-SA-STAIR-STRINGER-SYSTEM-HAS-PART-AU-SA-HOUSED-TIMBER-STRINGER",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HOUSED-TIMBER-STRINGER",
+      "source_ids": [
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7561-SA-STAIR-STRINGER-SYSTEM-HAS-PART-AU-SA-MONO-STRINGER-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-MONO-STRINGER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7562-SA-STAIR-STRINGER-SYSTEM-HAS-PART-AU-SA-STAIR-TREAD-BRACKET",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-TREAD-BRACKET",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7563-SA-STAIR-STRINGER-SYSTEM-HAS-PART-AU-SA-STEEL-PLATE-STRINGER",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STEEL-PLATE-STRINGER",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-PALMER-STEEL-STRINGERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7564-SA-STAIR-STRINGER-SYSTEM-HAS-PART-AU-SA-STEEL-SECTION-STRINGER",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STEEL-SECTION-STRINGER",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7565-SA-STAIR-STRINGER-SYSTEM-HAS-PART-AU-SA-STRINGER-BEARING-SEAT",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STRINGER-BEARING-SEAT",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7566-SA-STAIR-STRINGER-SYSTEM-HAS-PART-AU-SA-STRINGER-BOTTOM-CONNECTION",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STRINGER-BOTTOM-CONNECTION",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7567-SA-STAIR-STRINGER-SYSTEM-HAS-PART-AU-SA-STRINGER-CLEAT",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STRINGER-CLEAT",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7568-SA-STAIR-STRINGER-SYSTEM-HAS-PART-AU-SA-STRINGER-TOP-CONNECTION",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STRINGER-TOP-CONNECTION",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7569-SA-STAIR-STRINGER-SYSTEM-HAS-PART-AU-SA-TREAD-RISER-WEDGE",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SA-TREAD-RISER-WEDGE",
+      "source_ids": [
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7570-SA-STAIR-STRINGER-SYSTEM-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7571-SA-STAIR-TREAD-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-TREAD",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7572-SA-STAIR-TREAD-BRACKET-PART-OF-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-STAIR-TREAD-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7573-SA-STAIR-TREAD-FINISH-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-STAIR-TREAD-FINISH",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-SA-AS-4586-2013"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7574-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7575-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-CURVED-GEOMETRIC-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-CURVED-GEOMETRIC-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7576-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-EXTERNAL-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-EXTERNAL-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-ABCB-STAIRS-BARRIERS-FAQ",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7577-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-HALF-TURN-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HALF-TURN-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7578-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-OPEN-RISER-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-OPEN-RISER-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7579-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-QUARTER-TURN-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-QUARTER-TURN-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7580-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-SPIRAL-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-SPIRAL-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7581-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-STAIR-ASSEMBLY-FASTENER",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-ASSEMBLY-FASTENER",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7582-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7583-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-STAIR-SKIRT-BOARD",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-SKIRT-BOARD",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7584-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-STAIR-SOFFIT-LINING",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STAIR-SOFFIT-LINING",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7585-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-STRAIGHT-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-STRAIGHT-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7586-SA-STAIRWAY-ASSEMBLY-HAS-PART-AU-SA-WINDER-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WINDER-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7587-SA-STAIRWAY-ASSEMBLY-PART-OF-AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "from_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7588-SA-STEEL-PLATE-STAIR-TREAD-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-STEEL-PLATE-STAIR-TREAD",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-LATHAM-STAIR-NOSINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7589-SA-STEEL-PLATE-STRINGER-PART-OF-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-STEEL-PLATE-STRINGER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-PALMER-STEEL-STRINGERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7590-SA-STEEL-SECTION-STRINGER-PART-OF-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-STEEL-SECTION-STRINGER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7591-SA-STRAIGHT-STAIR-ASSEMBLY-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-STRAIGHT-STAIR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7592-SA-STRINGER-BEARING-SEAT-PART-OF-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-STRINGER-BEARING-SEAT",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7593-SA-STRINGER-BOTTOM-CONNECTION-PART-OF-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-STRINGER-BOTTOM-CONNECTION",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7594-SA-STRINGER-CLEAT-PART-OF-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-STRINGER-CLEAT",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7595-SA-STRINGER-TOP-CONNECTION-PART-OF-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-STRINGER-TOP-CONNECTION",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7596-SA-STRUCTURAL-GLASS-BARRIER-PANEL-PART-OF-AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-STRUCTURAL-GLASS-BARRIER-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-GLASS-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-BARRIER-GLAZING",
+        "SRC-AXIOM-GLASS-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7597-SA-THRESHOLD-STEP-ASSEMBLY-PART-OF-AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "from_id": "AU-SA-THRESHOLD-STEP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-SAFE-MOVEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-ABCB-STAIRS-BARRIERS-FAQ"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7598-SA-TIMBER-RISER-BOARD-PART-OF-AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-TIMBER-RISER-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7599-SA-TIMBER-STAIR-TREAD-PART-OF-AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "from_id": "AU-SA-TIMBER-STAIR-TREAD",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-FLIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7600-SA-TRAFFICABLE-EDGE-BARRIER-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-TRAFFICABLE-EDGE-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7601-SA-TREAD-RISER-GLUE-BLOCK-PART-OF-AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-TREAD-RISER-GLUE-BLOCK",
+      "relationship": "part_of",
+      "to_id": "AU-SA-CLOSED-RISER-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7602-SA-TREAD-RISER-WEDGE-PART-OF-AU-SA-STAIR-STRINGER-SYSTEM",
+      "from_id": "AU-SA-TREAD-RISER-WEDGE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIR-STRINGER-SYSTEM",
+      "source_ids": [
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7603-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY-HAS-PART-AU-SA-BARRIER-BALUSTER",
+      "from_id": "AU-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-BALUSTER",
+      "source_ids": [
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7604-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY-HAS-PART-AU-SA-BARRIER-PICKET",
+      "from_id": "AU-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-PICKET",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7605-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-VERTICAL-BALUSTER-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7606-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY-HAS-PART-AU-SA-HANDRAIL-BRACKET-SPACER",
+      "from_id": "AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HANDRAIL-BRACKET-SPACER",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7607-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY-HAS-PART-AU-SA-HANDRAIL-WALL-BACKING",
+      "from_id": "AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HANDRAIL-WALL-BACKING",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7608-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY-HAS-PART-AU-SA-HANDRAIL-WALL-BRACKET",
+      "from_id": "AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HANDRAIL-WALL-BRACKET",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7609-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY-HAS-PART-AU-SA-HANDRAIL-WALL-ROSETTE",
+      "from_id": "AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-HANDRAIL-WALL-ROSETTE",
+      "source_ids": [
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7610-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY-PART-OF-AU-SA-HANDRAIL-SYSTEM",
+      "from_id": "AU-SA-WALL-MOUNTED-HANDRAIL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-HANDRAIL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-WOODSOLUTIONS-STAIRS-BALUSTRADES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7611-SA-WINDER-STAIR-ASSEMBLY-HAS-PART-AU-SA-WINDER-TREAD",
+      "from_id": "AU-SA-WINDER-STAIR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WINDER-TREAD",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7612-SA-WINDER-STAIR-ASSEMBLY-PART-OF-AU-SA-STAIRWAY-ASSEMBLY",
+      "from_id": "AU-SA-WINDER-STAIR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-STAIRWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7613-SA-WINDER-TREAD-PART-OF-AU-SA-WINDER-STAIR-ASSEMBLY",
+      "from_id": "AU-SA-WINDER-TREAD",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WINDER-STAIR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-STAIR-RAMP",
+        "SRC-AUS-TRAINING-STAIR-MANUFACTURE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7614-SA-WINDOW-BARRIER-RAIL-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-WINDOW-BARRIER-RAIL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ABCB-HP-WINDOW-PROTECTION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7615-SA-WIRE-ANGLED-POST-WASHER-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-ANGLED-POST-WASHER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7616-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-BARRIER-WIRE-ROPE",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-BARRIER-WIRE-ROPE",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7617-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-ANGLED-POST-WASHER",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-ANGLED-POST-WASHER",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7618-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-BARRIER-SUPPORT-RAIL",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-BARRIER-SUPPORT-RAIL",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7619-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-CRIMP-FERRULE",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-CRIMP-FERRULE",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7620-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-DIRECTION-PULLEY",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-DIRECTION-PULLEY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7621-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-EYE-BOLT-FITTING",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-EYE-BOLT-FITTING",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7622-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-INTERMEDIATE-GUIDE",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-INTERMEDIATE-GUIDE",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7623-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-PASS-THROUGH-BUSH",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-PASS-THROUGH-BUSH",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7624-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-ROPE-THIMBLE",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-ROPE-THIMBLE",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7625-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-SADDLE-FITTING",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-SADDLE-FITTING",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7626-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-SWAGE-STUD",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-SWAGE-STUD",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7627-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-SWAGED-FORK-TERMINAL",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-SWAGED-FORK-TERMINAL",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7628-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-SWAGELESS-TERMINAL",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-SWAGELESS-TERMINAL",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7629-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-TENSION-LOCK-OFF",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-TENSION-LOCK-OFF",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7630-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-TERMINATION-COVER",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-TERMINATION-COVER",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7631-SA-WIRE-BARRIER-ASSEMBLY-HAS-PART-AU-SA-WIRE-TURNBUCKLE-TENSIONER",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SA-WIRE-TURNBUCKLE-TENSIONER",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7632-SA-WIRE-BARRIER-ASSEMBLY-PART-OF-AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "from_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-FALL-PREVENTION-BARRIER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7633-SA-WIRE-BARRIER-SUPPORT-RAIL-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-BARRIER-SUPPORT-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7634-SA-WIRE-CRIMP-FERRULE-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-CRIMP-FERRULE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7635-SA-WIRE-DIRECTION-PULLEY-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-DIRECTION-PULLEY",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7636-SA-WIRE-EYE-BOLT-FITTING-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-EYE-BOLT-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7637-SA-WIRE-INTERMEDIATE-GUIDE-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-INTERMEDIATE-GUIDE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7638-SA-WIRE-PASS-THROUGH-BUSH-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-PASS-THROUGH-BUSH",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7639-SA-WIRE-ROPE-THIMBLE-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-ROPE-THIMBLE",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7640-SA-WIRE-SADDLE-FITTING-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-SADDLE-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7641-SA-WIRE-SWAGE-STUD-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-SWAGE-STUD",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7642-SA-WIRE-SWAGED-FORK-TERMINAL-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-SWAGED-FORK-TERMINAL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7643-SA-WIRE-SWAGELESS-TERMINAL-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-SWAGELESS-TERMINAL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7644-SA-WIRE-TENSION-LOCK-OFF-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-TENSION-LOCK-OFF",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7645-SA-WIRE-TERMINATION-COVER-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-TERMINATION-COVER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS",
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7646-SA-WIRE-TURNBUCKLE-TENSIONER-PART-OF-AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WIRE-TURNBUCKLE-TENSIONER",
+      "relationship": "part_of",
+      "to_id": "AU-SA-WIRE-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ANZOR-WIRE-BALUSTRADE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7647-SA-WOVEN-WELDED-MESH-INFILL-PART-OF-AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "from_id": "AU-SA-WOVEN-WELDED-MESH-INFILL",
+      "relationship": "part_of",
+      "to_id": "AU-SA-PERFORATED-MESH-BARRIER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-BARRIERS-HANDRAILS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-7330-SA-ALPINE-EXTERNAL-ACCESS-ASSEMBLY-COMMONLY-USED-WITH-AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-SA-ALPINE-EXTERNAL-ACCESS-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-AN-ALPINE-EXTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-ALPINE-ACCESS",
+        "SRC-ABCB-V2-H7-ANCILLARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7356-SA-BARRIER-POST-ANCHOR-COMMONLY-USED-WITH-AU-DB-BARRIER-POST-FRAMING-SUPPORT",
+      "from_id": "AU-SA-BARRIER-POST-ANCHOR",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-BARRIER-POST-FRAMING-SUPPORT",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7360-SA-BARRIER-POST-WATERPROOF-COLLAR-COMMONLY-USED-WITH-AU-DB-BARRIER-POST-FRAMING-SUPPORT",
+      "from_id": "AU-SA-BARRIER-POST-WATERPROOF-COLLAR",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-BARRIER-POST-FRAMING-SUPPORT",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7361-SA-BARRIER-POST-WATERPROOF-COLLAR-COMMONLY-USED-WITH-AU-DB-BARRIER-POST-MEMBRANE-PENETRATION",
+      "from_id": "AU-SA-BARRIER-POST-WATERPROOF-COLLAR",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-BARRIER-POST-MEMBRANE-PENETRATION",
+      "source_ids": [
+        "SRC-SA-AS4654-2-2012",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING",
+        "SRC-TGA-CPCCWP5002-DESIGN-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7476-SA-LANDING-DECK-BARRIER-ASSEMBLY-COMMONLY-USED-WITH-AU-DB-EXTERNAL-TRAFFICABLE-PLATFORM-SYSTEM",
+      "from_id": "AU-SA-LANDING-DECK-BARRIER-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-EXTERNAL-TRAFFICABLE-PLATFORM-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-H2D8-EXTERNAL-WATERPROOFING",
+        "SRC-TGA-CPCCWP5002-DESIGN-EXTERNAL-WATERPROOFING",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7477-SA-LANDING-DECK-BARRIER-ASSEMBLY-COMMONLY-USED-WITH-AU-DB-FRAMED-BALCONY-ASSEMBLY",
+      "from_id": "AU-SA-LANDING-DECK-BARRIER-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-FRAMED-BALCONY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V2-H2D8-EXTERNAL-WATERPROOFING",
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

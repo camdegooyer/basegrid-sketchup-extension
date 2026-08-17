@@ -1,0 +1,372 @@
+# Decks Balconies discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 219
+- Internal relationships: 543
+- Outgoing cross-discipline relationships: 61
+- Distinct supporting sources: 21
+- Distinct linked standards: 26
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 78.5%
+- Objects with two or more sources: 85.8%
+
+## Categories
+
+- balcony drainage systems: 1
+- balcony systems: 3
+- balcony topologies: 2
+- balcony underside interfaces: 1
+- bonded exterior tile finishes: 4
+- bonded exterior tile installation: 5
+- composite decking: 4
+- deck access components: 2
+- deck bracing: 4
+- deck building interfaces: 1
+- deck edges: 4
+- deck framing assemblies: 1
+- deck surface finishes: 1
+- deck surface safety: 1
+- deck topologies: 4
+- decking fixings: 8
+- decking joints: 5
+- decking layout components: 3
+- decking products: 1
+- decking surfaces: 1
+- door and wall interfaces: 5
+- drainage access: 1
+- drainage planes: 2
+- durability components: 4
+- edge drainage: 2
+- edge supports: 2
+- external membrane components: 4
+- external membrane types: 5
+- falls and beds: 2
+- fibre cement decking: 2
+- framed deck systems: 2
+- framing connectors: 4
+- framing fasteners: 8
+- framing splices: 3
+- horizontal framing: 7
+- linear drainage: 5
+- local supports: 1
+- low deck ground interfaces: 1
+- membrane protection: 2
+- membrane protection and drainage: 1
+- membrane repairs: 1
+- membrane terminations: 6
+- metal decking: 2
+- movement and corner details: 10
+- overflow drainage: 3
+- parapet and edge details: 2
+- parapet and edge structure: 1
+- pedestal components: 11
+- pedestal supports: 2
+- planter components: 4
+- planter drainage: 2
+- planter systems: 1
+- platform systems: 2
+- point drainage: 6
+- raised finish restraint: 2
+- raised finish systems: 2
+- raised finish units: 8
+- scupper drainage: 1
+- temporary waterproofing objects: 3
+- timber decking: 4
+- underdeck components: 4
+- underdeck water management: 1
+- vertical support connections: 2
+- vertical supports: 3
+- waterproof platform finishes: 1
+- waterproof platform structure interfaces: 1
+- waterproof platform systems: 4
+- waterproofing penetrations: 6
+- waterproofing substrates: 5
+
+## Objects
+
+- **adjustable terrace pedestal support system** (`AU-DB-ADJUSTABLE-PEDESTAL-SUPPORT-SYSTEM`) — A grid of compatible height-adjustable supports, bases, threaded bodies, heads, slope correctors, shims, spacer tabs, extenders, retainers and optional bearer holders carrying raised pavers or deck panels over a drained substrate.
+- **aluminium decking board** (`AU-DB-ALUMINIUM-DECKING-BOARD`) — An extruded or formed aluminium plank used as an exterior traffic surface, commonly with interlocking, drained or open-jointed profiles and proprietary clips, seals or end details.
+- **balcony and terrace drainage system** (`AU-DB-BALCONY-DRAINAGE-SYSTEM`) — The falls, drainage plane, point or linear primary outlets, strainers, pipes or scuppers, overflows, threshold drains and accessible maintenance paths that remove rainwater from a balcony, terrace or roof deck.
+- **balcony barrier-post membrane penetration assembly** (`AU-DB-BARRIER-POST-MEMBRANE-PENETRATION`) — The post, spigot or anchor penetration through or beside an external membrane together with local structural support, sleeve or stand, collar or boot, sealants, membrane returns, drainage and accessible fixings.
+- **balcony cross-cavity flashing** (`AU-DB-CROSS-CAVITY-BALCONY-FLASHING`) — A flashing bridging or closing an external wall cavity above or beside a balcony membrane termination so water in the wall drainage plane is directed out over the balcony weathering rather than behind it.
+- **balcony drain body** (`AU-DB-BALCONY-DRAIN-BODY`) — The formed bowl, sump or outlet fitting below a balcony drain grate that receives surface water and connects the membrane flange and outlet pipe.
+- **balcony drain membrane clamping ring** (`AU-DB-BALCONY-DRAIN-CLAMPING-RING`) — A rigid ring or plate bolted or threaded to a drain flange to compress a compatible sheet membrane or flashing between drain components.
+- **balcony drain outlet connector** (`AU-DB-BALCONY-DRAIN-OUTLET-CONNECTOR`) — A socket, spigot, elbow, adaptor or transition fitting connecting a balcony drain body or channel outlet to the stormwater pipework while preserving access and fall.
+- **balcony drain-channel end cap** (`AU-DB-BALCONY-DRAIN-CHANNEL-END-CAP`) — A sealed removable or permanent fitting closing the end of a balcony linear-drain channel and connecting to its membrane flange and grate termination.
+- **balcony drain-channel outlet fitting** (`AU-DB-BALCONY-DRAIN-CHANNEL-OUTLET`) — A vertical or side outlet formed in a balcony linear-drain channel and connected through a compatible adaptor to the stormwater pipe.
+- **balcony drainage inspection grate or access panel** (`AU-DB-BALCONY-DRAIN-INSPECTION-GRATE`) — A removable grate, paver, deck panel or framed cover above a concealed balcony outlet, channel connection or membrane low point, sized and located for inspection and cleaning.
+- **balcony edge gutter assembly** (`AU-DB-BALCONY-EDGE-GUTTER`) — A formed gutter along the outer edge of a balcony or deck receiving runoff from a solid surface, underdeck trays or edge outlets and discharging through outlets, rainheads or downpipes.
+- **balcony emergency overflow system** (`AU-DB-BALCONY-OVERFLOW-SYSTEM`) — A separate visible or safely discharging overflow opening, scupper, pipe or weir set above the primary drainage level and below vulnerable thresholds or terminations to relieve water if primary drainage is blocked or exceeded.
+- **balcony linear drain assembly** (`AU-DB-BALCONY-LINEAR-DRAIN-ASSEMBLY`) — A long narrow external drainage channel with membrane flanges, channel body, removable grate, end pieces, outlets and support installed at a threshold, wall, edge or intermediate low line.
+- **balcony linear-drain channel body** (`AU-DB-BALCONY-DRAIN-CHANNEL-BODY`) — The trough beneath a balcony linear drain grate, including sides, invert, membrane flanges or connection, supports and outlet openings.
+- **balcony linear-drain grate** (`AU-DB-BALCONY-LINEAR-DRAIN-GRATE`) — A removable slotted, perforated or bar grate spanning a balcony drainage channel and finishing flush with the adjacent walking surface or paver system.
+- **balcony membrane drainage flange** (`AU-DB-BALCONY-DRAINAGE-FLANGE`) — A broad horizontal flange integral with or connected to a balcony outlet, bonded, clamped or welded into the external membrane to form a watertight drain connection.
+- **balcony membrane-to-door-frame seal** (`AU-DB-MEMBRANE-TO-DOOR-FRAME-SEAL`) — A compatible bonded membrane return, liquid flashing, sealing tape or sealant joint connecting the external balcony membrane and subsill flashing to the door sill and jamb bases.
+- **balcony membrane-to-wall-cladding termination assembly** (`AU-DB-WALL-CLADDING-MEMBRANE-TERMINATION`) — The membrane upturn, termination bar or seal, overflashing, wall wrap or cavity connection, cladding clearance and removable lower cladding zone at an external wall beside a waterproof balcony or terrace.
+- **balcony outlet-to-downpipe adaptor** (`AU-DB-BALCONY-DOWNPIPE-ADAPTOR`) — A transition fitting connecting a balcony scupper, edge gutter, rainhead or channel outlet to a vertical stormwater downpipe of a different shape, size or material.
+- **balcony over open external space** (`AU-DB-EXPOSED-BALCONY-OVER-OPEN-SPACE`) — An elevated balcony above an open external area rather than an internal room, with its surface, structure, soffit if present, drainage, door junction and edge protection selected for exposure.
+- **balcony overflow pipe or nozzle** (`AU-DB-BALCONY-OVERFLOW-PIPE`) — A short pipe, sleeve or projecting nozzle through a contained balcony edge receiving overflow water at a fixed inlet level and discharging visibly clear of the wall or into a safe receiver.
+- **balcony overflow scupper** (`AU-DB-BALCONY-OVERFLOW-SCUPPER`) — A high-level membrane-flanged opening through a parapet or hob used primarily to discharge excess water when the primary balcony outlet cannot keep the water below the overflow invert.
+- **balcony point-drain assembly** (`AU-DB-BALCONY-POINT-DRAIN-ASSEMBLY`) — A local balcony or terrace outlet comprising drain body, membrane flange or clamping connection, sump or recess, strainer or grate, outlet pipe connection and accessible finish interface.
+- **balcony point-drain grate or strainer** (`AU-DB-BALCONY-DRAIN-GRATE`) — A removable trafficable perforated cover at a balcony point drain, set at the relevant finish or drainage-plane level to admit water and screen larger debris.
+- **balcony primary drainage scupper** (`AU-DB-BALCONY-PRIMARY-SCUPPER`) — A low-level formed opening through a balcony parapet, hob or edge with a membrane-compatible face flange, throat and exterior discharge or rainhead, used as a primary outlet.
+- **balcony structural floor setdown** (`AU-DB-BALCONY-STRUCTURAL-SETDOWN`) — A deliberately lower structural floor zone at a waterproof balcony or terrace that provides vertical depth for falls, membrane, drainage and finishes below the adjoining internal floor or protected threshold level.
+- **balcony underside soffit enclosure assembly** (`AU-DB-BALCONY-SOFFIT-ENCLOSURE-ASSEMBLY`) — An exterior lining, support and trim build-up enclosing the underside of a balcony or elevated deck, coordinated with drainage, structure, movement, services, ventilation and inspection access.
+- **balcony-door subsill flashing** (`AU-DB-BALCONY-DOOR-SUBSILL-FLASHING`) — A tray, pan or formed flashing beneath an external door or glazed-door sill at a waterproofed balcony, collecting water from the sill and connecting it to the external membrane and drainage plane.
+- **bituminous external sheet membrane** (`AU-DB-BITUMINOUS-SHEET-MEMBRANE`) — A reinforced or unreinforced bitumen-based sheet membrane, torch-applied, self-adhered or otherwise installed as its selected external waterproofing system.
+- **building-attached framed deck** (`AU-DB-ATTACHED-FRAMED-DECK`) — A framed deck with at least one primary support or lateral connection taken from the building, while its outer edge is supported by posts, beams, walls or another designed support.
+- **cantilevered balcony assembly** (`AU-DB-CANTILEVERED-BALCONY`) — An elevated external platform projecting from the building without primary posts at its outer edge, supported by cantilevered concrete, steel or timber members and their backspan or building connection.
+- **cantilevered framed deck assembly** (`AU-DB-CANTILEVERED-DECK`) — A deck portion that projects beyond its last support line using continued joists, beams or a designed cantilever system rather than posts directly under the outer edge.
+- **composite deck tile** (`AU-DB-COMPOSITE-DECK-TILE`) — A modular exterior panel of wood-plastic composite or other manufactured decking slats fixed or moulded to a backing grid and supported over a drainage plane.
+- **concealed decking clip** (`AU-DB-CONCEALED-DECKING-CLIP`) — A proprietary clip engaging side grooves or the underside of adjacent decking boards and fixed to the support to hold the boards while establishing the selected side gap.
+- **concrete balcony assembly** (`AU-DB-CONCRETE-BALCONY-ASSEMBLY`) — A cast-in-place or precast concrete balcony platform together with its bearings or continuity, falls, joints, edge, drainage, waterproofing or exception path, finish and penetrations.
+- **concrete deck-post pier** (`AU-DB-DECK-POST-PIER`) — A discrete cast concrete pier or bored footing projecting to or above ground level and receiving a post anchor or, where specifically designed, an embedded post.
+- **concrete external-waterproofing substrate** (`AU-DB-CONCRETE-WATERPROOFING-SUBSTRATE`) — A cast-in-place or precast concrete slab, topping or panel surface prepared with the required falls, curing, crack and joint treatment, edge geometry and outlet recesses to receive an external membrane.
+- **concrete pedestal paver** (`AU-DB-CONCRETE-PEDESTAL-PAVER`) — A precast concrete paving slab with dimensions, reinforcement if any, breaking load and edge condition suitable for dry support on a documented pedestal grid.
+- **deck and balcony support frame** (`AU-DB-DECK-SUPPORT-FRAME`) — The coordinated posts or other supports, bearers, joists, edge members, blocking, bracing and connections that carry a framed external deck or balcony surface.
+- **deck barrier-post framing support assembly** (`AU-DB-BARRIER-POST-FRAMING-SUPPORT`) — The doubled joists, blocks, edge beam, plates, brackets and fasteners that strengthen a deck or balcony frame locally beneath a barrier post, spigot or continuous glazing channel.
+- **deck bearer splice assembly** (`AU-DB-DECK-BEARER-SPLICE-ASSEMBLY`) — The joint between bearer segments, including support location, end preparation, overlap or butt geometry, plates, bolts or screws and moisture-shedding detail.
+- **deck bearer support line** (`AU-DB-DECK-BEARER-LINE`) — A continuous or spliced line of one or more timber, cold-formed steel or structural steel bearers carrying deck joists across posts, walls or other supports.
+- **deck bearer-to-post connector** (`AU-DB-BEARER-TO-POST-CONNECTOR`) — A bracket, saddle, cleat, notch-and-bolt detail or proprietary fitting connecting a deck bearer or beam to the top or side of a support post.
+- **deck cantilever-joist zone** (`AU-DB-CANTILEVER-JOIST-ZONE`) — The projecting portions of deck joists beyond their outer bearer or support together with their backspans, blocking, edge member and surface overhang relationship.
+- **deck concentrated-load support frame** (`AU-DB-CONCENTRATED-LOAD-SUPPORT-FRAME`) — Additional beams, joists, posts, footings, plates or slab thickening arranged under a heavy item such as a spa, large planter, masonry feature or equipment unit on a deck or terrace.
+- **deck connector fastener group** (`AU-DB-DECK-CONNECTION-FASTENER-GROUP`) — The complete set and pattern of manufacturer-specified nails, screws or anchors filling the required holes of a deck hanger, bracket, strap or plate.
+- **deck dissimilar-material isolation layer** (`AU-DB-DISSIMILAR-MATERIAL-ISOLATOR`) — A compatible non-conductive or protective separator placed between selected metals or between metal and chemically treated timber to reduce galvanic interaction, coating damage or chemical incompatibility.
+- **deck edge fascia board** (`AU-DB-DECK-FASCIA-BOARD`) — A non-primary finish board fixed vertically to the outside face of a deck rim joist, edge beam or surface edge to conceal framing and finish the perimeter.
+- **deck framing angle bracket** (`AU-DB-DECK-FRAMING-ANGLE-BRACKET`) — A right-angle or folded metal bracket connecting intersecting deck members or tying framing to concrete or masonry where its selected capacity and fasteners suit the action.
+- **deck framing bolt** (`AU-DB-DECK-FRAMING-BOLT`) — A headed threaded metal fastener used with a nut and washers in an exterior deck or balcony framing connection, selected for diameter, grade, length and corrosion exposure.
+- **deck framing bolt nut** (`AU-DB-DECK-BOLT-NUT`) — A threaded nut matched to a deck framing bolt and used with the required washer to clamp an exterior structural connection.
+- **deck framing bolt washer** (`AU-DB-DECK-BOLT-WASHER`) — A flat, square, round or plate washer placed beneath a deck bolt head or nut to distribute bearing and protect the connected material.
+- **deck framing coach screw** (`AU-DB-DECK-COACH-SCREW`) — A heavy headed screw with coarse wood thread driven into a predrilled timber member to connect deck framing or a bracket where the selected design permits.
+- **deck framing splice plate** (`AU-DB-DECK-FRAMING-SPLICE-PLATE`) — A steel, timber or engineered plate spanning a joint between aligned deck framing members and fastened to each side to transfer the documented splice actions.
+- **deck hold-down connector** (`AU-DB-DECK-HOLD-DOWN-CONNECTOR`) — A strap, bracket, rod or anchored fitting restraining uplift or overturning at a deck post, beam, joist or building connection.
+- **deck inspection hatch assembly** (`AU-DB-DECK-INSPECTION-HATCH`) — A framed opening in a deck surface with a removable or hinged trafficable cover, edge support, lifting hardware and secure closure providing access below.
+- **deck joist blocking row** (`AU-DB-JOIST-BLOCKING-ROW`) — A line of solid blocks, herringbone members or proprietary bridging between deck joists used to restrain rotation, align the frame or distribute selected local actions.
+- **deck joist field** (`AU-DB-DECK-JOIST-FIELD`) — The repeated parallel timber or steel joists, including end, rim, trimming and doubled members where required, that directly support decking or a structural balcony substrate.
+- **deck joist hanger** (`AU-DB-DECK-JOIST-HANGER`) — A formed metal connector supporting and restraining the end of a deck joist against a bearer, beam, header or waling plate using the connector's specified fasteners.
+- **deck joist splice assembly** (`AU-DB-DECK-JOIST-SPLICE-ASSEMBLY`) — A designed joint between deck joist segments using overlap, paired members, plates or other connectors at an approved support or engineered location.
+- **deck joist-top protection tape** (`AU-DB-JOIST-TOP-PROTECTION-TAPE`) — A narrow compatible self-adhered or mechanically retained strip over the top of a deck joist or bearer to shed water away from the upper face and fastener penetrations.
+- **deck lateral tie assembly** (`AU-DB-DECK-LATERAL-TIE`) — A rod, strap, bracket or framed connection tying a deck or balcony to a suitable building or braced support to resist horizontal separation or movement without serving as the primary gravity support.
+- **deck opening trimmer assembly** (`AU-DB-DECK-OPENING-TRIMMER-ASSEMBLY`) — The trimming joists, headers, local doubles and connectors that frame an opening through a deck or balcony support grid for a hatch, stair, tree, drain, service or other interruption.
+- **deck or balcony edge beam** (`AU-DB-DECK-EDGE-BEAM`) — A primary structural member along a platform edge carrying joists, slab edge reactions, fascia and selected barrier loads between posts, walls or cantilever supports.
+- **deck or balcony support post** (`AU-DB-DECK-POST`) — A vertical timber, steel or other designed member carrying a deck or balcony bearer, beam or local frame down to a footing or supporting structure.
+- **deck picture-frame border assembly** (`AU-DB-DECK-PICTURE-FRAME-BORDER`) — One or more decking boards following the perimeter of a deck and framing the ends or sides of the main board field, with dedicated support, corner joints, gaps and fixings.
+- **deck post knee brace** (`AU-DB-DECK-KNEE-BRACE`) — A short diagonal brace between a deck post and bearer, beam or joist zone that stiffens their corner and reduces frame sway.
+- **deck rim or boundary joist** (`AU-DB-DECK-RIM-JOIST`) — A joist-depth member closing or defining the side or end of a deck joist field, tying joist ends together and providing selected support for fascia, surface edges or barrier backing.
+- **deck slip-resistant insert** (`AU-DB-DECK-SLIP-RESISTANT-INSERT`) — A proprietary abrasive, elastomeric or profiled strip fitted into a decking groove or routed recess to alter surface traction at selected paths, steps or ramps.
+- **deck starter or finisher board** (`AU-DB-DECK-STARTER-OR-FINISHER-BOARD`) — The first or last board in a decking field, often square-edged or face-fixed where a normal concealed clip cannot be installed at the perimeter.
+- **deck steel cut-edge repair coating** (`AU-DB-STEEL-CUT-EDGE-REPAIR-COATING`) — A compatible protective coating applied to cut, drilled, welded or damaged areas of galvanized or coated steel deck framing as required by the selected steel system.
+- **deck subframe cross-bracing assembly** (`AU-DB-DECK-VERTICAL-CROSS-BRACING`) — Diagonal timber, steel angle, rod or strap members crossing between posts, bearers or beams in a vertical plane to resist deck sway and frame racking.
+- **deck through-bolt connection assembly** (`AU-DB-DECK-THROUGH-BOLT-CONNECTION`) — A bolt passing fully through connected deck members with compatible washers, nut, drilled holes and bearing zones forming one structural fastening assembly.
+- **deck timber cut-end preservative treatment** (`AU-DB-TIMBER-CUT-END-TREATMENT`) — A compatible preservative or protective treatment applied to freshly cut, drilled, notched or machined surfaces of preservative-treated deck timber where required by the treatment system.
+- **deck-board end or butt gap** (`AU-DB-DECK-BOARD-BUTT-GAP`) — The open separation between the ends of decking boards meeting along one run, allowing product movement, drainage and access to supported end fixings.
+- **deck-board fixing adhesive** (`AU-DB-DECK-BOARD-FIXING-ADHESIVE`) — A product-approved exterior adhesive bead used with a concealed clip, batten, rail or other specified fixing system rather than assumed as a universal substitute for mechanical fastening.
+- **deck-board side gap** (`AU-DB-DECK-BOARD-SIDE-GAP`) — The continuous open space between the long edges of adjacent decking boards, sized for drainage, debris passage, movement, ventilation and safe use according to the selected product and application.
+- **deck-frame concrete anchor** (`AU-DB-DECK-FRAME-TO-CONCRETE-ANCHOR`) — A cast-in, mechanical or bonded anchor connecting a deck bracket, base plate, waling alternative or support frame to concrete, selected for substrate, edge distance, exposure and actions.
+- **deck-post base separation pad** (`AU-DB-POST-BASE-SEPARATION-PAD`) — A thin durable, non-water-holding separator or bearing layer placed between a post or steel base and its support where the selected connection detail requires isolation, drainage or corrosion separation.
+- **deck-post cap or bearer saddle** (`AU-DB-POST-CAP-SADDLE`) — A shaped metal fitting seated on top of a deck post and wrapping or cradling a bearer or beam to provide bearing, alignment and restraint.
+- **deck-post footing assembly** (`AU-DB-DECK-POST-FOOTING-ASSEMBLY`) — The concrete pad, pier or other designed foundation together with reinforcement where required, embedded or surface post anchor, drainage separation and surrounding ground interface supporting one deck post.
+- **deck-post stirrup or standoff anchor** (`AU-DB-POST-STIRRUP-ANCHOR`) — A galvanized, stainless or otherwise exposure-suitable metal base fitting anchored into concrete and bolted, screwed or nailed to a deck post, commonly holding timber above the wet ground or concrete surface.
+- **deck-to-building termite inspection zone** (`AU-DB-DECK-TERMITE-INSPECTION-ZONE`) — A deliberately visible and accessible clearance or inspection route at a deck-to-building, post, pier or perimeter interface so concealed termite entry is not created by the deck construction.
+- **decking anti-rattle or bearing pad** (`AU-DB-DECKING-ANTI-RATTLE-PAD`) — A thin resilient strip or pad between a metal or modular decking element and its support to limit noise, abrasion or minor rocking while preserving drainage and the designed fastening.
+- **decking breaker board** (`AU-DB-DECK-BREAKER-BOARD`) — A deck board installed across or at an angle to the main board direction to interrupt long runs, separate fields, receive aligned board ends or accommodate movement and stock lengths.
+- **decking edge trim** (`AU-DB-DECK-EDGE-TRIM`) — A proprietary metal, polymer or matching composite profile covering or finishing an exposed decking edge, board groove, sheet edge or transition without serving as the structural rim member.
+- **decking face-fixing nail** (`AU-DB-DECKING-NAIL`) — A corrosion-suitable nail with a head and shank selected for fixing an approved timber or composite decking product to timber framing.
+- **decking face-fixing screw** (`AU-DB-DECKING-FACE-SCREW`) — A corrosion-suitable screw driven through the exposed face of a decking board into timber or steel support, with product-specific head, clearance hole, countersink, edge distance and driving depth.
+- **decking face-screw plug** (`AU-DB-DECK-SCREW-PLUG`) — A matching timber, composite or polymer plug inserted over a recessed face-fixing screw to conceal the head while retaining the repair and removal strategy.
+- **decking perimeter clearance gap** (`AU-DB-DECK-PERIMETER-CLEARANCE`) — The maintained separation between decking and a wall, post, column, threshold, planter, fixed kerb or other solid obstruction, allowing movement, drainage, ventilation and cleaning.
+- **decking starter or edge clip** (`AU-DB-DECKING-STARTER-CLIP`) — A proprietary one-sided clip securing the first or last grooved decking board where a normal two-sided concealed clip cannot be inserted.
+- **decking-board butt-joint assembly** (`AU-DB-DECK-BOARD-BUTT-JOINT-ASSEMBLY`) — Two decking-board ends, their open gap, separate supporting joist or double-support arrangement, end fixings and any product-specific seal, cap or coating at one surface joint.
+- **decking-board end cap** (`AU-DB-DECK-BOARD-END-CAP`) — A proprietary plug or closure fitted to an exposed end of a hollow, cellular or shaped decking board to finish the opening while preserving any required drainage and movement.
+- **decking-clip fixing screw** (`AU-DB-DECKING-CLIP-SCREW`) — The product-compatible screw fixing a concealed or starter decking clip into timber, steel or proprietary support framing.
+- **discontinuous membrane movement-joint strip** (`AU-DB-DISCONTINUOUS-MEMBRANE-JOINT-STRIP`) — A separate flexible membrane strip looped, folded or otherwise detailed across an external movement joint beneath or independent from the field membrane so adjacent substrates can move.
+- **doubled deck-joist support** (`AU-DB-DOUBLE-JOIST-SUPPORT`) — Two or more joists fastened or detailed to act together at a concentrated load, partition, opening, board joint, barrier fixing or other documented support line.
+- **exterior balcony flexible tile sealant joint** (`AU-DB-EXTERIOR-FLEXIBLE-TILE-SEALANT-JOINT`) — A movement-capable sealed joint through the exterior tile finish at a perimeter, junction, control location or movement joint, using compatible backing and sealant.
+- **exterior balcony or terrace tile** (`AU-DB-EXTERIOR-BALCONY-TILE`) — A ceramic, porcelain or suitable natural-stone unit selected for a bonded, weather-exposed trafficable finish over an exterior balcony or terrace build-up.
+- **exterior balcony tile adhesive bed** (`AU-DB-EXTERIOR-TILE-ADHESIVE-BED`) — The compatible cementitious, reaction-resin or other documented adhesive layer bonding exterior trafficable tiles to the prepared screed, mortar bed or system substrate.
+- **exterior balcony tile edge trim** (`AU-DB-EXTERIOR-TILE-EDGE-TRIM`) — A corrosion-suitable finishing profile protecting an exposed exterior tile edge at a step, free edge, skirting termination, drain or transition without replacing the required waterproof edge detail.
+- **exterior balcony tile grout** (`AU-DB-EXTERIOR-TILE-GROUT`) — The joint-filling material between exterior balcony tiles, excluding the flexible sealant and movement-joint locations that must remain able to move.
+- **exterior balcony tile movement-joint profile** (`AU-DB-EXTERIOR-TILE-MOVEMENT-JOINT-PROFILE`) — A proprietary profile with rigid edge legs and a movement-capable centre installed through the exterior tile finish at a selected movement-joint route.
+- **exterior ceramic balcony tile** (`AU-DB-EXTERIOR-CERAMIC-TILE`) — A ceramic tile product documented as suitable for the selected external, trafficable and climatic exposure.
+- **exterior modular deck tile** (`AU-DB-EXTERIOR-DECK-TILE`) — A factory-made or prefabricated trafficable panel of timber, composite, aluminium or other exterior decking fixed to an integral backing or mini-frame and laid on pedestals, rails or a drained hard surface.
+- **exterior natural-stone balcony tile** (`AU-DB-EXTERIOR-NATURAL-STONE-TILE`) — A dimensioned natural-stone unit selected for bonded installation in the particular exterior exposure and supported by a compatible bed, adhesive, joint and waterproofing build-up.
+- **exterior pedestal-supported paver** (`AU-DB-EXTERIOR-PEDESTAL-PAVER`) — A self-supporting exterior paving unit designed to span between discrete pedestal bearings, with material, dimensions, breaking-load evidence, surface traction, edge condition and support points documented.
+- **exterior porcelain balcony tile** (`AU-DB-EXTERIOR-PORCELAIN-TILE`) — A porcelain tile unit selected and installed as a bonded weather-exposed balcony or terrace finish.
+- **exterior structural fibre-cement flooring sheet** (`AU-DB-EXTERIOR-FIBRE-CEMENT-FLOOR-SHEET`) — A structural fibre-cement floor sheet fixed across deck or balcony joists to form a continuous exterior substrate for a selected water-resistant or waterproof finish system.
+- **exterior timber deck finish system** (`AU-DB-DECK-TIMBER-FINISH-SYSTEM`) — The preparation, compatible preservative treatment where required, penetrating oil, stain, film coating or other selected exterior finish applied to timber deck boards and maintained as a documented system.
+- **external above-ground waterproofing membrane** (`AU-DB-EXTERNAL-WATERPROOFING-MEMBRANE`) — The continuous liquid-applied or sheet barrier within an external above-ground waterproofing system, extended through fields, upturns, joints, drains, penetrations and terminations using compatible system components.
+- **external deck, balcony and terrace system** (`AU-DB-EXTERNAL-TRAFFICABLE-PLATFORM-SYSTEM`) — The complete weather-exposed trafficable construction outside or on top of a house, including its selected surface, supporting structure, connections, edges, drainage or open joints, waterproofing where required, and interfaces with walls, doors and barriers.
+- **external decking board** (`AU-DB-DECKING-BOARD`) — One elongated exterior trafficable board spanning across deck joists or support rails, with a selected material, profile, face, edge, end, span and fastening method.
+- **external fall-forming screed** (`AU-DB-EXTERNAL-FALL-FORMING-SCREED`) — A bonded, unbonded or proprietary cementitious or resin-modified layer shaped over a structural substrate to create drainage falls and local drain or threshold geometry before the external membrane or finish.
+- **external membrane drainage mat** (`AU-DB-EXTERNAL-DRAINAGE-MAT`) — A sheet or composite layer with an internal drainage path installed above a protected external membrane beneath a compatible finish, ballast or planter build-up.
+- **external membrane fastener-penetration seal** (`AU-DB-EXTERNAL-FASTENER-PENETRATION-SEAL`) — A compatible gasket, sealant, patch, liquid flashing or self-sealing detail around a fastener that passes through an external membrane for a termination bar, support, protection board or selected fitting.
+- **external membrane internal-corner band** (`AU-DB-INTERNAL-CORNER-MEMBRANE-BAND`) — A preformed or site-cut compatible membrane strip reinforcing and waterproofing the junction where two external substrate planes meet at an internal angle.
+- **external membrane outside-corner patch** (`AU-DB-EXTERNAL-CORNER-MEMBRANE-PATCH`) — A preformed or carefully cut membrane piece sealing an external corner, three-dimensional change of plane or corner intersection where flat field material cannot turn without cuts or folds.
+- **external membrane overflashing** (`AU-DB-EXTERNAL-MEMBRANE-OVERFLASHING`) — A metal, membrane or proprietary flashing covering and draining over the upper termination of an external membrane upturn so water is shed onto the waterproof face rather than behind it.
+- **external membrane penetration boot** (`AU-DB-MEMBRANE-PENETRATION-BOOT`) — A flexible preformed or site-fabricated conical, stepped or box-shaped flashing rising from a flange at the field membrane and sealing around an irregular, moving or vertical penetration.
+- **external membrane penetration collar** (`AU-DB-MEMBRANE-PENETRATION-COLLAR`) — A flat or preformed membrane-compatible flange surrounding a pipe, sleeve, post or support and bonded into the field membrane to seal the penetration base.
+- **external membrane penetration sleeve** (`AU-DB-MEMBRANE-PENETRATION-SLEEVE`) — A rigid tube or formed section cast, fixed or sealed through the substrate to provide a stable opening and upstand for a service or support crossing the external membrane.
+- **external membrane protection board** (`AU-DB-EXTERNAL-MEMBRANE-PROTECTION-BOARD`) — A compatible rigid or semi-rigid sheet laid or fixed over an external membrane to protect it from traffic, construction, paver supports, soil, roots or subsequent layers without blocking drainage.
+- **external membrane reinforcing fabric** (`AU-DB-EXTERNAL-MEMBRANE-REINFORCEMENT`) — A compatible fabric, fleece, mesh or tape embedded in liquid membrane or used at corners, joints, cracks and penetrations to reinforce the selected external waterproofing detail.
+- **external membrane service-penetration assembly** (`AU-DB-SERVICE-MEMBRANE-PENETRATION`) — A pipe, conduit, duct, cable bundle, support or other service crossing an external waterproofing field or upturn, together with its structural opening, sleeve, collar or boot, seal, flashing and movement allowance.
+- **external membrane substrate crack-treatment assembly** (`AU-DB-SUBSTRATE-CRACK-TREATMENT`) — The prepared crack, compatible filler or sealant, bond-breaker strip, reinforcing band and membrane treatment used for an assessed static or moving crack before the external field membrane is applied.
+- **external membrane termination bar** (`AU-DB-MEMBRANE-TERMINATION-BAR`) — A continuous rigid strip mechanically fixing and compressing the upper or edge termination of a sheet or liquid membrane against a wall, parapet, kerb or other suitable substrate.
+- **external membrane termination seal** (`AU-DB-MEMBRANE-TERMINATION-SEAL`) — A compatible sealant bead, tape or liquid detail closing the upper or exposed edge of a membrane termination bar, flashing, sill or direct-bond termination against water entry.
+- **external sheet-membrane adhesive** (`AU-DB-EXTERNAL-MEMBRANE-ADHESIVE`) — A product-specific full-spread, strip or contact adhesive bonding an external sheet membrane, seam, flashing or accessory to a compatible substrate or to another sheet.
+- **external tile mortar bed** (`AU-DB-EXTERNAL-TILE-MORTAR-BED`) — A cementitious bed supporting external tiles or pavers above the waterproofing or protection layer as permitted by the selected system, with falls, reinforcement, joints and drainage behaviour documented.
+- **external waterproofed balcony or terrace assembly** (`AU-DB-EXTERNAL-WATERPROOFED-PLATFORM-ASSEMBLY`) — A trafficable external platform in which a coordinated substrate, falls, membrane, terminations, joints, penetrations, outlets, overflows, protection and finish form the external above-ground waterproofing system.
+- **external waterproofed movement-joint assembly** (`AU-DB-EXTERNAL-MOVEMENT-JOINT-ASSEMBLY`) — The substrate gap or formed joint, edge supports or hobs where required, backing and sealant, bond breaker, discontinuous or flexible membrane detail, finish joint and covers that allow documented movement without water entry.
+- **external waterproofing backing rod** (`AU-DB-EXTERNAL-BACKING-ROD`) — A compressible round or shaped rod inserted into an external joint to control sealant depth and shape and, where selected, prevent three-sided adhesion beneath the membrane detail.
+- **external waterproofing bond breaker** (`AU-DB-EXTERNAL-MEMBRANE-BOND-BREAKER`) — A tape, backing rod, release strip, sealant profile or other compatible element preventing membrane adhesion across a moving junction so the membrane can deform over a controlled width.
+- **external waterproofing corner fillet** (`AU-DB-EXTERNAL-CORNER-FILLET`) — A rigid or semi-rigid triangular or curved profile formed in or fixed to an internal substrate corner to remove the sharp angle before compatible bond-breaker and membrane details are applied.
+- **external waterproofing membrane downturn** (`AU-DB-EXTERNAL-MEMBRANE-DOWNTURN`) — The continuation of an external membrane down over a free edge, drip profile, fascia face or outlet throat to shed water clear of the substrate and edge construction.
+- **external waterproofing membrane primer** (`AU-DB-EXTERNAL-MEMBRANE-PRIMER`) — A thin product-specific preparation coat applied to the external substrate to promote membrane adhesion, control porosity or prepare a particular surface.
+- **external waterproofing membrane repair patch** (`AU-DB-EXTERNAL-MEMBRANE-REPAIR-PATCH`) — A compatible local liquid or sheet membrane repair extending onto sound prepared existing membrane around a puncture, blister removal, failed seam or other assessed defect.
+- **external waterproofing membrane upturn** (`AU-DB-EXTERNAL-MEMBRANE-UPTURN`) — The vertical continuation of an external membrane from the drained horizontal field up a wall, hob, kerb, post support, sill or other perimeter element to its selected termination.
+- **external waterproofing release or bond-breaker tape** (`AU-DB-EXTERNAL-BOND-BREAKER-TAPE`) — A narrow non-bonding or low-adhesion tape laid over a crack, joint or corner so the membrane spans an unbonded strip and can accommodate movement.
+- **external waterproofing sealant fillet** (`AU-DB-EXTERNAL-SEALANT-FILLET`) — A compatible triangular or curved bead of flexible sealant forming a smooth transition and controlled bond-breaker geometry at an internal corner or change of direction beneath the external membrane.
+- **external waterproofing substrate assembly** (`AU-DB-EXTERNAL-WATERPROOFING-SUBSTRATE-ASSEMBLY`) — The structural deck or floor and any compatible topping, screed, sheeting, joints, fixings and preparation forming the stable sloping surface that receives an external above-ground membrane system.
+- **external waterproofing waterstop angle** (`AU-DB-EXTERNAL-WATERSTOP-ANGLE`) — A rigid metal or proprietary angle fixed at a threshold, edge, opening or change of level to provide a physical upstand and membrane termination or transition.
+- **fibre-cement decking plank** (`AU-DB-FIBRE-CEMENT-DECKING-PLANK`) — A manufactured fibre-cement plank designed as an exterior traffic surface over specified supports and fixed, joined, sealed and finished to its product system.
+- **fibre-cement external-waterproofing substrate** (`AU-DB-FIBRE-CEMENT-WATERPROOFING-SUBSTRATE`) — A structural exterior fibre-cement sheet floor including compatible framing, tongue-and-groove or butt joints, movement joints, adhesive, fixings, sealant and primers prepared to receive the selected membrane or finish.
+- **fixed-height paver support pad** (`AU-DB-FIXED-HEIGHT-PAVER-SUPPORT`) — A non-adjustable polymer, rubber or metal support of fixed thickness carrying paver corners or deck tiles above a hard or waterproof substrate, optionally stacked only where the selected system permits.
+- **framed external balcony assembly** (`AU-DB-FRAMED-BALCONY-ASSEMBLY`) — An elevated external platform associated with an upper storey and built from timber, cold-formed steel or structural steel framing, with a selected trafficable surface, drainage or waterproofing, wall junction and protected edge.
+- **freestanding framed deck** (`AU-DB-FREESTANDING-FRAMED-DECK`) — A deck supported independently on its own posts, beams, footings or other structure without relying on a building wall for primary vertical or lateral support.
+- **hollow decking drainage or vent plug** (`AU-DB-HOLLOW-BOARD-DRAIN-PLUG`) — A shaped insert at a hollow decking-board end that limits debris or pests while permitting water or air movement required by the selected product.
+- **hollow or cellular WPC decking board** (`AU-DB-HOLLOW-WPC-DECKING-BOARD`) — A wood-plastic composite deck board containing continuous internal voids or cells, requiring product-specific end, drainage, fixing and span details.
+- **liquid-applied external waterproofing membrane** (`AU-DB-LIQUID-APPLIED-EXTERNAL-MEMBRANE`) — A site-applied liquid membrane that cures to a continuous external barrier, built in the specified coats and thickness with reinforcement, bond breakers and detail materials where required.
+- **low-clearance or close-to-ground deck assembly** (`AU-DB-LOW-CLEARANCE-DECK`) — A framed or supported deck with limited separation from soil, paving or a slab below, requiring deliberate drainage, ventilation, access and material selection because drying conditions are restricted.
+- **low-deck drainage aggregate layer** (`AU-DB-LOW-DECK-DRAINAGE-AGGREGATE-LAYER`) — A prepared free-draining mineral layer beneath a close-to-ground deck used to reduce ponding and muddy surface conditions while preserving the required falls, clearance, ventilation and termite visibility strategy.
+- **membrane protection pad below pedestal** (`AU-DB-MEMBRANE-PEDESTAL-PROTECTION-PAD`) — A compatible discrete pad placed between an adjustable or fixed pedestal base and the external membrane or protection layer to reduce abrasion, point pressure or material incompatibility.
+- **metal external-waterproofing substrate** (`AU-DB-METAL-WATERPROOFING-SUBSTRATE`) — A steel or aluminium plate, pan or formed deck surface accepted by a selected external membrane system and prepared with compatible joints, fasteners, movement, primers and corrosion protection.
+- **modified-timber decking board** (`AU-DB-MODIFIED-TIMBER-DECKING-BOARD`) — A timber deck board whose properties have been changed by a documented thermal, chemical or impregnation process, with exterior use, structure, fixings and finish governed by selected-product evidence.
+- **natural-stone pedestal paver** (`AU-DB-NATURAL-STONE-PEDESTAL-PAVER`) — A selected natural-stone slab used as a raised paver only with documented stone type, thickness, flaws, support pattern, breaking strength, slip surface and edge restraint.
+- **open metal deck grating panel** (`AU-DB-OPEN-METAL-GRATING-PANEL`) — A removable or fixed steel, stainless-steel or aluminium grating panel with open bars or perforations spanning between supports as an exterior traffic surface.
+- **open-jointed decking surface assembly** (`AU-DB-DECKING-SURFACE-ASSEMBLY`) — The repeated decking boards, planks, panels or grating, together with intentional gaps, end and perimeter details, fasteners or clips, border boards, edge trims and finish that form an open-draining trafficable surface.
+- **open-jointed raised deck assembly** (`AU-DB-OPEN-JOINTED-DECK-ASSEMBLY`) — A raised trafficable surface made from spaced boards, panels or grating that lets water pass through to an open or separately drained space below, supported by exterior-suitable framing and foundations.
+- **pedestal decking-bearer holder** (`AU-DB-PEDESTAL-BEARER-HOLDER`) — A bracket fixed to a pedestal head that cradles and laterally locates a timber, aluminium or steel bearer or rail supporting raised decking or deck tiles.
+- **pedestal-head acoustic and anti-slip pad** (`AU-DB-PEDESTAL-HEAD-ACOUSTIC-PAD`) — A thin resilient facing on or above a pedestal head that reduces impact noise, slipping, abrasion or rocking between the support and paver or rail.
+- **pedestal-paver uplift retainer** (`AU-DB-PEDESTAL-PAVER-UPLIFT-RETAINER`) — A proprietary concealed or exposed clip, plate, adhesive connection or mechanical assembly tying raised pavers to pedestals or rails where wind uplift or other dislodgement risk requires restraint.
+- **pedestal-supported deck tile assembly** (`AU-DB-RAISED-DECK-TILE-ASSEMBLY`) — A raised trafficable finish of removable timber, composite, aluminium or other exterior deck panels carried directly by pedestals or by rails on pedestals over a drained substrate.
+- **pedestal-supported decking rail** (`AU-DB-PEDESTAL-SUPPORTED-RAIL`) — A timber, aluminium or steel rail spanning between pedestals and supporting deck boards, deck tiles or paver trays above the drainage cavity.
+- **pedestal-supported paver terrace assembly** (`AU-DB-RAISED-PAVER-TERRACE-ASSEMBLY`) — A trafficable finish of discrete exterior pavers supported above a sloping waterproofing or hard substrate on fixed or adjustable pedestals, leaving open joints and a concealed drainage and service cavity.
+- **plywood external-waterproofing substrate** (`AU-DB-PLYWOOD-WATERPROOFING-SUBSTRATE`) — A structural plywood deck substrate used only where the selected membrane and complete system accept it, with sheet grade, treatment, support, joints, fixings, falls, edge sealing and moisture conditions documented.
+- **podium terrace assembly** (`AU-DB-PODIUM-TERRACE-ASSEMBLY`) — A landscaped or paved trafficable external build-up over a podium slab or roof, with membrane, protection, drainage layers, raised or bedded finish, edges, planters and service coordination.
+- **polymer-capped composite decking board** (`AU-DB-CAPPED-COMPOSITE-DECKING-BOARD`) — A composite deck board with a distinct co-extruded or bonded protective polymer cap over part or all of its core, with exposed ends and cut edges detailed to the selected system.
+- **porcelain pedestal paver** (`AU-DB-PORCELAIN-PEDESTAL-PAVER`) — A thick exterior porcelain paving unit with documented pedestal support, breaking-load and slip performance, used dry-laid above a drainage plane rather than bonded as a thin tile.
+- **post-supported framed balcony** (`AU-DB-POST-SUPPORTED-BALCONY`) — A framed balcony whose outer edge or full platform is carried by posts or columns continuing to foundations or another supporting structure.
+- **preservative-treated softwood decking board** (`AU-DB-TREATED-SOFTWOOD-DECKING-BOARD`) — A softwood decking board whose exterior suitability relies partly or wholly on a documented preservative-treatment product and hazard-class evidence.
+- **proprietary deck structural screw** (`AU-DB-DECK-STRUCTURAL-SCREW`) — An engineered exterior screw with documented diameter, thread, head, material, coating and connection capacities used in deck framing in place of or alongside bolts, nails or coach screws.
+- **raised terrace drainage and service cavity** (`AU-DB-RAISED-FINISH-DRAINAGE-CAVITY`) — The continuous accessible or partly accessible void between a waterproof drainage plane and a raised paver, deck tile or rail-supported finish, carrying water, air and selected services to outlets.
+- **raised-paver or deck-tile open joint** (`AU-DB-RAISED-FINISH-OPEN-JOINT`) — The maintained open gap between adjacent raised pavers or deck tiles through which surface water drains into the cavity and waterproof drainage plane below.
+- **raised-paver perimeter retainer** (`AU-DB-PEDESTAL-PERIMETER-RETAINER`) — A clip, angle, wall spacer, curb or proprietary edge fitting restraining the outer paver or panel row against lateral movement while maintaining the required wall gap and drainage.
+- **removable decking board** (`AU-DB-REMOVABLE-DECKING-BOARD`) — A normal or purpose-made decking board fixed with a reversible method and identified for removal to inspect or service framing, drains, valves, services or the ground below.
+- **removable drain-access paver** (`AU-DB-REMOVABLE-DRAIN-ACCESS-PAVER`) — A normal or specially framed raised paver identified and detailed for lifting above a concealed outlet, channel connection or membrane inspection point.
+- **sheet-applied external waterproofing membrane** (`AU-DB-SHEET-APPLIED-EXTERNAL-MEMBRANE`) — A factory-manufactured flexible sheet laid in joined runs over an external substrate and sealed at laps, seams, corners, drains, penetrations and terminations as one waterproof barrier.
+- **solid hardwood decking board** (`AU-DB-HARDWOOD-DECKING-BOARD`) — A solid timber deck board manufactured from a hardwood species, with actual species, grade, heartwood and sapwood, durability and treatment evidence retained rather than assuming all hardwood is durable.
+- **solid timber decking board** (`AU-DB-SOLID-TIMBER-DECKING-BOARD`) — A sawn or machined solid timber board selected for exterior decking, with its species, grade, heartwood or sapwood content, moisture condition, profile, durability or treatment and coating recorded.
+- **solid-profile WPC decking board** (`AU-DB-SOLID-PROFILE-WPC-BOARD`) — A wood-plastic composite board with a substantially solid cross-section rather than continuous internal cells, with its own span, fixing and movement instructions.
+- **staggered decking butt-joint layout** (`AU-DB-STAGGERED-DECK-BUTT-JOINT-LAYOUT`) — A board layout in which end joints occur on different support lines rather than forming one continuous seam, while every end remains independently supported and fixed.
+- **steel-framed external deck assembly** (`AU-DB-STEEL-FRAMED-DECK-ASSEMBLY`) — An external deck whose primary support grid uses cold-formed or structural steel posts, beams or bearers and joists, with designed connections, corrosion protection and a compatible surface system.
+- **synthetic-rubber external sheet membrane** (`AU-DB-SYNTHETIC-RUBBER-SHEET-MEMBRANE`) — An EPDM, butyl or other selected elastomeric sheet used as an external waterproof barrier with compatible seams, adhesives, tapes, flashings and terminations.
+- **temporary balcony drain test plug** (`AU-DB-WATERPROOFING-TEST-PLUG`) — A removable inflatable, mechanical or proprietary plug temporarily sealing a balcony or terrace drain connection during a controlled membrane water test.
+- **temporary balcony flood-test bund** (`AU-DB-WATERPROOFING-FLOOD-TEST-BUND`) — A temporary sealed kerb, dam or removable barrier used with drain plugs to retain test water over a completed external membrane field without becoming part of the permanent edge or drainage system.
+- **temporary balcony membrane protection sheet** (`AU-DB-TEMPORARY-MEMBRANE-PROTECTION-SHEET`) — A removable construction-stage sheet, board or mat covering a completed external membrane before permanent protection or finish is installed, with edges and access controlled to avoid puncture and trapped debris.
+- **terrace parapet membrane termination assembly** (`AU-DB-PARAPET-MEMBRANE-TERMINATION`) — The membrane upturn on the inside face of a parapet or hob, its corner and movement details, upper termination or continuation beneath capping, and any scuppers, flashings and exterior-face drainage.
+- **terrace pedestal adjustable body** (`AU-DB-PEDESTAL-ADJUSTABLE-BODY`) — The threaded, telescopic or otherwise adjustable central element between a pedestal base and head that sets the raised-finish elevation within the selected product range.
+- **terrace pedestal base** (`AU-DB-PEDESTAL-BASE`) — The broad lower foot of an adjustable pedestal that spreads load onto a structural substrate, protection pad or membrane protection layer while permitting drainage around it.
+- **terrace pedestal head** (`AU-DB-PEDESTAL-HEAD`) — The upper bearing component of a pedestal supporting paver corners, a deck-panel corner, an aluminium rail or a bearer holder, with removable spacer tabs or resilient facing as selected.
+- **terrace pedestal height extender** (`AU-DB-PEDESTAL-HEIGHT-EXTENDER`) — A product-specific intermediate collar or segment inserted between pedestal base, body and head to increase the support height within stated combinations and stability limits.
+- **terrace pedestal levelling shim** (`AU-DB-PEDESTAL-LEVELLING-SHIM`) — A thin product-compatible full or quadrant pad used on a pedestal head or base for fine level adjustment, paver calibration or rocking correction.
+- **terrace pedestal locking collar** (`AU-DB-PEDESTAL-LOCKING-COLLAR`) — A threaded, snap or clamp ring locking an adjustable pedestal at its set height and improving stability according to the selected product system.
+- **terrace pedestal paver spacer tabs** (`AU-DB-PEDESTAL-SPACER-TABS`) — Removable or integral vertical fins on a pedestal head that separate adjacent paver corners and establish a consistent open joint.
+- **terrace pedestal slope corrector** (`AU-DB-PEDESTAL-SLOPE-CORRECTOR`) — A wedge, rotating disc or self-levelling component at the base or head of a pedestal that compensates for the substrate fall while keeping the supported finish or body at its designed attitude.
+- **terrace perimeter parapet or waterproofing hob assembly** (`AU-DB-TERRACE-PARAPET-HOB-ASSEMBLY`) — A raised perimeter wall, kerb or hob at a waterproof terrace comprising its structure, membrane upturn, termination, capping or flashing, movement joints and any primary or overflow openings.
+- **terrace planter drainage cell** (`AU-DB-PLANTER-DRAINAGE-CELL`) — A rigid, void-forming layer inside a waterproof terrace planter that carries excess irrigation and rainwater toward an outlet while keeping most growing medium away from the membrane and outlet path.
+- **terrace planter drainage outlet** (`AU-DB-PLANTER-DRAINAGE-OUTLET`) — A membrane-compatible outlet at the planter drainage layer that discharges excess water without allowing growing medium or roots to obstruct the primary flow path.
+- **terrace planter filter geotextile** (`AU-DB-PLANTER-FILTER-GEOTEXTILE`) — A water-permeable filter fabric separating planter growing medium from the drainage layer so fine particles are less likely to clog drainage voids and outlets.
+- **terrace planter overflow outlet** (`AU-DB-PLANTER-OVERFLOW-OUTLET`) — A secondary opening or pipe at a nominated higher level that visibly or safely discharges water if the planter primary drain is restricted or inflow exceeds its working capacity.
+- **terrace planter root barrier** (`AU-DB-PLANTER-ROOT-BARRIER`) — A root-resistant sheet, coating or separately documented membrane layer that limits plant-root penetration into vulnerable waterproofing and junctions.
+- **terrace planter structural shell** (`AU-DB-TERRACE-PLANTER-SHELL`) — The loadbearing or self-supporting base and walls that contain a built-in terrace planter and provide the substrate or backing for its waterproofing build-up.
+- **terrace planter waterproofing assembly** (`AU-DB-TERRACE-PLANTER-WATERPROOFING-ASSEMBLY`) — The planter shell, external above-ground membrane, protected upturns, root protection, drainage layer, filter fabric, outlet, overflow and soil-retaining interfaces built on a terrace, balcony or podium.
+- **thermoplastic external sheet membrane** (`AU-DB-THERMOPLASTIC-SHEET-MEMBRANE`) — A PVC, TPO or other selected thermoplastic waterproof sheet joined by compatible welded or bonded seams and detailed to external drains, upturns and penetrations.
+- **tiled external balcony assembly** (`AU-DB-TILED-BALCONY-ASSEMBLY`) — A solid external balcony build-up finished with bonded tiles over a compatible bed or adhesive and external waterproofing substrate, including grout, movement joints, perimeter details, drains and thresholds.
+- **timber deck tile** (`AU-DB-TIMBER-DECK-TILE`) — A modular exterior panel of solid timber slats fixed to battens or backing, with species, durability or treatment, connectors, finish and support system documented.
+- **timber-framed external deck assembly** (`AU-DB-TIMBER-FRAMED-DECK-ASSEMBLY`) — An external deck whose primary support grid is timber posts or other supports, bearers and joists, with bracing, connectors and a selected trafficable surface.
+- **trafficable roof terrace assembly** (`AU-DB-ROOF-TERRACE-ASSEMBLY`) — An occupiable external terrace built over a roof or internal space, combining the structural roof deck, external waterproofing, drainage, protected trafficable finish, edges and roof or wall penetrations.
+- **under-deck drainage assembly** (`AU-DB-UNDERDECK-DRAINAGE-ASSEMBLY`) — A secondary system of trays, membranes, channels, gutters, flashings and outlets installed below or between open decking and its framing to collect water passing through the surface and discharge it away.
+- **under-deck drainage outlet fitting** (`AU-DB-UNDERDECK-OUTLET-FITTING`) — A formed fitting connecting an under-deck tray or local sump to an edge gutter, rainhead or drainage pipe.
+- **under-deck drainage tray** (`AU-DB-UNDERDECK-DRAINAGE-TRAY`) — A formed trough or pan below open-jointed decking that catches water passing through board gaps and conveys it on a fall to an edge gutter or outlet.
+- **under-deck drainage tray support** (`AU-DB-UNDERDECK-TRAY-SUPPORT`) — A clip, rail, batten or bracket that holds an under-deck tray at its designed profile and fall without relying on the visible soffit lining as drainage support.
+- **under-deck drainage wall flashing** (`AU-DB-UNDERDECK-WALL-FLASHING`) — A wall-side flashing that turns captured water from an under-deck tray system away from the building envelope and into the tray field without blocking wall drainage paths.
+- **waterproof balcony door-threshold interface assembly** (`AU-DB-BALCONY-DOOR-THRESHOLD-INTERFACE`) — The coordinated door frame and sill, structural setdown or hob, subsill flashing, membrane upturn or waterstop, external finish level, drainage channel where selected, sealants and internal floor transition at a waterproof balcony doorway.
+- **waterproof balcony edge-drip assembly** (`AU-DB-WATERPROOF-EDGE-DRIP`) — The free-edge membrane downturn, rigid drip profile, fascia flashing, seal and finish termination that releases runoff clear of the slab, sheet substrate, soffit and wall below.
+- **waterproof balcony over internal space** (`AU-DB-WATERPROOF-BALCONY-OVER-INTERNAL-SPACE`) — A balcony directly above a room, garage or other internal building space, where failure of the external surface or junctions can admit water into occupied or enclosed construction below.
+- **wood-plastic composite decking board** (`AU-DB-WPC-DECKING-BOARD`) — A manufactured decking board made from polymer and wood fibre or flour, solid or cellular and optionally capped, used as a non-structural traffic surface over product-compatible supports and fixings.
+
+## Cross-discipline links
+
+- `AU-DB-ATTACHED-FRAMED-DECK` commonly used with `AU-AN-DECK-WALL-ATTACHMENT-ASSEMBLY`
+- `AU-DB-BALCONY-DOOR-SUBSILL-FLASHING` commonly used with `AU-ED-EXTERNAL-DOOR-FRAME-THRESHOLD-ASSEMBLY`
+- `AU-DB-BALCONY-DOOR-THRESHOLD-INTERFACE` commonly used with `AU-ED-EXTERNAL-DOOR-THRESHOLD`
+- `AU-DB-BALCONY-DOOR-THRESHOLD-INTERFACE` commonly used with `AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY`
+- `AU-DB-BALCONY-DRAINAGE-FLANGE` commonly used with `AU-WP-DRAINAGE-FLANGE`
+- `AU-DB-BALCONY-EDGE-GUTTER` commonly used with `AU-RD-GUTTER-OUTLET`
+- `AU-DB-BALCONY-LINEAR-DRAIN-ASSEMBLY` commonly used with `AU-LH-ENTRANCE-DRAIN-CHANNEL-BODY`
+- `AU-DB-BALCONY-SOFFIT-ENCLOSURE-ASSEMBLY` commonly used with `AU-CL-FIBRE-CEMENT-SOFFIT-SHEET`
+- `AU-DB-BALCONY-SOFFIT-ENCLOSURE-ASSEMBLY` commonly used with `AU-CL-SOFFIT-TRIMMER`
+- `AU-DB-BARRIER-POST-FRAMING-SUPPORT` commonly used with `AU-SA-BARRIER-POST-ANCHOR`
+- `AU-DB-BARRIER-POST-FRAMING-SUPPORT` commonly used with `AU-SA-BARRIER-POST-WATERPROOF-COLLAR`
+- `AU-DB-BARRIER-POST-MEMBRANE-PENETRATION` commonly used with `AU-SA-BARRIER-POST-WATERPROOF-COLLAR`
+- `AU-DB-CONCRETE-BALCONY-ASSEMBLY` commonly used with `AU-CS-CONCRETE-SLAB-SYSTEM`
+- `AU-DB-CONCRETE-BALCONY-ASSEMBLY` commonly used with `AU-CS-PRECAST-BALCONY-PANEL`
+- `AU-DB-CONCRETE-WATERPROOFING-SUBSTRATE` commonly used with `AU-CS-CONCRETE-SLAB-SYSTEM`
+- `AU-DB-CONCRETE-WATERPROOFING-SUBSTRATE` commonly used with `AU-CS-PRECAST-BALCONY-PANEL`
+- `AU-DB-DECK-BEARER-LINE` commonly used with `AU-SF-FLOOR-BEARER`
+- `AU-DB-DECK-BEARER-LINE` commonly used with `AU-SS-BEARER`
+- `AU-DB-DECK-BEARER-LINE` commonly used with `AU-TF-BEARER`
+- `AU-DB-DECK-JOIST-FIELD` commonly used with `AU-AN-JOIST-TO-WALING-CONNECTOR`
+- `AU-DB-DECK-JOIST-FIELD` commonly used with `AU-SF-FLOOR-JOIST`
+- `AU-DB-DECK-JOIST-FIELD` commonly used with `AU-TF-FLOOR-JOIST`
+- `AU-DB-DECK-JOIST-HANGER` commonly used with `AU-AN-JOIST-TO-WALING-CONNECTOR`
+- `AU-DB-DECK-OPENING-TRIMMER-ASSEMBLY` commonly used with `AU-TF-TRIMMING-JOIST`
+- `AU-DB-DECK-POST` commonly used with `AU-CF-PAD-FOOTING`
+- `AU-DB-DECK-POST-FOOTING-ASSEMBLY` commonly used with `AU-CF-PAD-FOOTING`
+- `AU-DB-DECK-POST-FOOTING-ASSEMBLY` commonly used with `AU-CF-STUMP-PAD-SYSTEM`
+- `AU-DB-DECK-POST-PIER` commonly used with `AU-CF-BULK-PIER`
+- `AU-DB-DECK-SUPPORT-FRAME` commonly used with `AU-SF-FLOOR-BEARER`
+- `AU-DB-DECK-SUPPORT-FRAME` commonly used with `AU-SF-FLOOR-JOIST`
+- `AU-DB-DECK-SUPPORT-FRAME` commonly used with `AU-TF-BEARER`
+- `AU-DB-DECK-SUPPORT-FRAME` commonly used with `AU-TF-FLOOR-JOIST`
+- `AU-DB-DECK-TERMITE-INSPECTION-ZONE` part of `AU-TM-TERMITE-MANAGEMENT-SYSTEM`
+- `AU-DB-DECK-TIMBER-FINISH-SYSTEM` commonly used with `AU-DF-PENETRATING-TIMBER-OIL-SYSTEM`
+- `AU-DB-DECKING-FACE-SCREW` commonly used with `AU-LH-BOARDWALK-DECKING-FIXING`
+- `AU-DB-DECKING-SURFACE-ASSEMBLY` commonly used with `AU-LH-BOARDWALK-DECKING-BOARD`
+- `AU-DB-EXTERNAL-BACKING-ROD` commonly used with `AU-WP-BOND-BREAKER-BACKING-ROD`
+- `AU-DB-EXTERNAL-BOND-BREAKER-TAPE` commonly used with `AU-WP-BOND-BREAKER-TAPE`
+- `AU-DB-EXTERNAL-FASTENER-PENETRATION-SEAL` commonly used with `AU-WP-FASTENER-PENETRATION-SEAL`
+- `AU-DB-EXTERNAL-MEMBRANE-BOND-BREAKER` commonly used with `AU-WP-BOND-BREAKER`
+- `AU-DB-EXTERNAL-SEALANT-FILLET` commonly used with `AU-WP-BOND-BREAKER-FILLET`
+- `AU-DB-EXTERNAL-TRAFFICABLE-PLATFORM-SYSTEM` commonly used with `AU-ED-EXTERNAL-DOOR-FRAME-THRESHOLD-ASSEMBLY`
+- `AU-DB-EXTERNAL-TRAFFICABLE-PLATFORM-SYSTEM` commonly used with `AU-SA-LANDING-DECK-BARRIER-ASSEMBLY`
+- `AU-DB-EXTERNAL-WATERSTOP-ANGLE` commonly used with `AU-WP-WATERSTOP-ANGLE`
+- `AU-DB-FRAMED-BALCONY-ASSEMBLY` commonly used with `AU-SA-LANDING-DECK-BARRIER-ASSEMBLY`
+- `AU-DB-JOIST-BLOCKING-ROW` commonly used with `AU-TF-SOLID-BLOCKING`
+- `AU-DB-LOW-CLEARANCE-DECK` commonly used with `AU-TM-TERMITE-MANAGEMENT-SYSTEM`
+- `AU-DB-LOW-DECK-DRAINAGE-AGGREGATE-LAYER` commonly used with `AU-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE`
+- `AU-DB-MEMBRANE-PENETRATION-COLLAR` commonly used with `AU-WP-MEMBRANE-PENETRATION-COLLAR`
+- `AU-DB-OPEN-JOINTED-DECK-ASSEMBLY` commonly used with `AU-TC-SUBFLOOR-VENTILATION-SYSTEM`
+- `AU-DB-SERVICE-MEMBRANE-PENETRATION` commonly used with `AU-CL-SERVICE-PENETRATION-FLASHING`
+- `AU-DB-SOLID-TIMBER-DECKING-BOARD` commonly used with `AU-DF-PENETRATING-TIMBER-OIL-SYSTEM`
+- `AU-DB-STEEL-FRAMED-DECK-ASSEMBLY` commonly used with `AU-SF-FLOOR-BEARER`
+- `AU-DB-STEEL-FRAMED-DECK-ASSEMBLY` commonly used with `AU-SF-FLOOR-JOIST`
+- `AU-DB-STEEL-FRAMED-DECK-ASSEMBLY` commonly used with `AU-SS-BEARER`
+- `AU-DB-TERRACE-PARAPET-HOB-ASSEMBLY` commonly used with `AU-CS-CONCRETE-UPSTAND`
+- `AU-DB-TERRACE-PARAPET-HOB-ASSEMBLY` commonly used with `AU-RO-PARAPET-CAPPING`
+- `AU-DB-TIMBER-FRAMED-DECK-ASSEMBLY` commonly used with `AU-TF-BEARER`
+- `AU-DB-TIMBER-FRAMED-DECK-ASSEMBLY` commonly used with `AU-TF-FLOOR-JOIST`
+- `AU-DB-TIMBER-FRAMED-DECK-ASSEMBLY` commonly used with `AU-TF-SOLID-BLOCKING`
+- `AU-DB-WALL-CLADDING-MEMBRANE-TERMINATION` commonly used with `AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM`

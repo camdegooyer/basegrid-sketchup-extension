@@ -1,0 +1,3548 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "plumbing",
+  "relationships": [
+    {
+      "id": "REL-6742-PL-ABOVE-GROUND-RAINWATER-TANK-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-ABOVE-GROUND-RAINWATER-TANK",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6743-PL-ALTERNATIVE-DRINKING-WATER-SERVICE-PART-OF-AU-PL-DRINKING-WATER-SERVICE",
+      "from_id": "AU-PL-ALTERNATIVE-DRINKING-WATER-SERVICE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-DRINKING-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6744-PL-ATMOSPHERIC-VACUUM-BREAKER-PART-OF-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-ATMOSPHERIC-VACUUM-BREAKER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES",
+        "SRC-SA-ASNZS3500-2025-SPOTLIGHT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6745-PL-BACKFLOW-PROTECTION-SYSTEM-HAS-PART-AU-PL-ATMOSPHERIC-VACUUM-BREAKER",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-ATMOSPHERIC-VACUUM-BREAKER",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES",
+        "SRC-SA-ASNZS3500-2025-SPOTLIGHT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6746-PL-BACKFLOW-PROTECTION-SYSTEM-HAS-PART-AU-PL-BACKFLOW-RELIEF-DRAIN-ASSEMBLY",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-BACKFLOW-RELIEF-DRAIN-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6747-PL-BACKFLOW-PROTECTION-SYSTEM-HAS-PART-AU-PL-BACKFLOW-TEST-COCK",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-BACKFLOW-TEST-COCK",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6748-PL-BACKFLOW-PROTECTION-SYSTEM-HAS-PART-AU-PL-CONTAINMENT-BACKFLOW-ASSEMBLY",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-CONTAINMENT-BACKFLOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6749-PL-BACKFLOW-PROTECTION-SYSTEM-HAS-PART-AU-PL-DOUBLE-CHECK-BACKFLOW-VALVE",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-DOUBLE-CHECK-BACKFLOW-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6750-PL-BACKFLOW-PROTECTION-SYSTEM-HAS-PART-AU-PL-DUAL-CHECK-BACKFLOW-VALVE",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-DUAL-CHECK-BACKFLOW-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6751-PL-BACKFLOW-PROTECTION-SYSTEM-HAS-PART-AU-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6752-PL-BACKFLOW-PROTECTION-SYSTEM-HAS-PART-AU-PL-PRESSURE-VACUUM-BREAKER",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-PRESSURE-VACUUM-BREAKER",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6753-PL-BACKFLOW-PROTECTION-SYSTEM-HAS-PART-AU-PL-REDUCED-PRESSURE-ZONE-DEVICE",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-REDUCED-PRESSURE-ZONE-DEVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6754-PL-BACKFLOW-PROTECTION-SYSTEM-HAS-PART-AU-PL-REGISTERED-AIR-GAP",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-REGISTERED-AIR-GAP",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6755-PL-BACKFLOW-PROTECTION-SYSTEM-HAS-PART-AU-PL-ZONE-BACKFLOW-ASSEMBLY",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-ZONE-BACKFLOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6756-PL-BACKFLOW-PROTECTION-SYSTEM-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6757-PL-BACKFLOW-RELIEF-DRAIN-ASSEMBLY-PART-OF-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-BACKFLOW-RELIEF-DRAIN-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6758-PL-BACKFLOW-TEST-COCK-PART-OF-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-BACKFLOW-TEST-COCK",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6759-PL-BALL-ISOLATION-VALVE-IS-A-AU-PL-ISOLATION-VALVE",
+      "from_id": "AU-PL-BALL-ISOLATION-VALVE",
+      "relationship": "is_a",
+      "to_id": "AU-PL-ISOLATION-VALVE",
+      "source_ids": [
+        "SRC-ABCB-LEAD-FREE-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6760-PL-BALL-ISOLATION-VALVE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-BALL-ISOLATION-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LEAD-FREE-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6761-PL-BLADDER-RAINWATER-TANK-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-BLADDER-RAINWATER-TANK",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6762-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6763-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-BALL-ISOLATION-VALVE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-BALL-ISOLATION-VALVE",
+      "source_ids": [
+        "SRC-ABCB-LEAD-FREE-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6764-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-COLD-WATER-SERVICE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-COLD-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6765-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-COMPRESSION-JOINT-FITTING",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-COMPRESSION-JOINT-FITTING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6766-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-COPPER-WATER-TUBE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-COPPER-WATER-TUBE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6767-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-ELECTROFUSION-FITTING",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-ELECTROFUSION-FITTING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6768-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-FIXTURE-CONNECTION-PIPE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-FIXTURE-CONNECTION-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6769-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-FLEXIBLE-WATER-HOSE-ASSEMBLY",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-FLEXIBLE-WATER-HOSE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-SA-ASNZS3500-2025-SPOTLIGHT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6770-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-GATE-ISOLATION-VALVE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-GATE-ISOLATION-VALVE",
+      "source_ids": [
+        "SRC-ABCB-LEAD-FREE-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6771-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-HEATED-WATER-SERVICE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-HEATED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6772-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-INLINE-WATER-STRAINER",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-INLINE-WATER-STRAINER",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6773-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-ISOLATION-VALVE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-ISOLATION-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6774-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-MINI-STOP-VALVE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-MINI-STOP-VALVE",
+      "source_ids": [
+        "SRC-ABCB-LEAD-FREE-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6775-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-MULTILAYER-WATER-PIPE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-MULTILAYER-WATER-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6776-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-NONDRINKING-WATER-SERVICE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-NONDRINKING-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B3-NONDRINKING",
+        "SRC-ABCB-V3-B5-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6777-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-NONRETURN-VALVE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-NONRETURN-VALVE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6778-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-PE-PROPERTY-SERVICE-PIPE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-PE-PROPERTY-SERVICE-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6779-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-PEX-WATER-PIPE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-PEX-WATER-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6780-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-PRESS-JOINT-FITTING",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-PRESS-JOINT-FITTING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6781-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-PRESSURE-LIMITING-VALVE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-PRESSURE-LIMITING-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6782-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-PRESSURE-PIPE-FITTING",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-PRESSURE-PIPE-FITTING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6783-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-PRESSURE-REDUCING-VALVE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-PRESSURE-REDUCING-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6784-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-PVC-PRESSURE-WATER-PIPE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-PVC-PRESSURE-WATER-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6785-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-RAINWATER-SERVICE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6786-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6787-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-BOOSTER-PUMP-ASSEMBLY",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-BOOSTER-PUMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6788-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-DISTRIBUTION-MANIFOLD",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-DISTRIBUTION-MANIFOLD",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6789-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-HAMMER-ARRESTOR",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HAMMER-ARRESTOR",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6790-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-ADAPTOR",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-ADAPTOR",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6791-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-BRACKET",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-BRACKET",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6792-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-CLIP",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-CLIP",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6793-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-COUPLING",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-COUPLING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6794-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-ELBOW",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-ELBOW",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6795-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-END-CAP",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-END-CAP",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6796-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-FLANGE-ASSEMBLY",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-FLANGE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6797-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-INSULATION",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6798-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-PENETRATION-SLEEVE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-PENETRATION-SLEEVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6799-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-REDUCER",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-REDUCER",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6800-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-TEE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-TEE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6801-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PIPE-UNION",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PIPE-UNION",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6802-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-PRESSURE-GAUGE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PRESSURE-GAUGE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6803-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-SERVICE-BRANCH-PIPE",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-SERVICE-BRANCH-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-V3-B2-HEATED-WATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6804-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-SERVICE-BREAK-TANK",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-SERVICE-BREAK-TANK",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6805-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-SERVICE-IDENTIFICATION-MARKER",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-SERVICE-IDENTIFICATION-MARKER",
+      "source_ids": [
+        "SRC-ABCB-V3-B3-NONDRINKING",
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6806-PL-BUILDING-WATER-SERVICES-SYSTEM-HAS-PART-AU-PL-WATER-SERVICE-RISER",
+      "from_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-SERVICE-RISER",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-V3-B2-HEATED-WATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6807-PL-BURIED-RAINWATER-TANK-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-BURIED-RAINWATER-TANK",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6808-PL-BURIED-TANK-ACCESS-RISER-ATTACHED-TO-AU-PL-BURIED-RAINWATER-TANK",
+      "from_id": "AU-PL-BURIED-TANK-ACCESS-RISER",
+      "relationship": "attached_to",
+      "to_id": "AU-PL-BURIED-RAINWATER-TANK",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6809-PL-BURIED-TANK-ACCESS-RISER-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-BURIED-TANK-ACCESS-RISER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6810-PL-BURIED-TANK-ANTI-FLOTATION-ASSEMBLY-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-BURIED-TANK-ANTI-FLOTATION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6811-PL-BURIED-TANK-ANTI-FLOTATION-ASSEMBLY-RESTRAINS-AU-PL-BURIED-RAINWATER-TANK",
+      "from_id": "AU-PL-BURIED-TANK-ANTI-FLOTATION-ASSEMBLY",
+      "relationship": "restrains",
+      "to_id": "AU-PL-BURIED-RAINWATER-TANK",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6812-PL-COLD-WATER-DISTRIBUTION-PIPE-PART-OF-AU-PL-COLD-WATER-SERVICE",
+      "from_id": "AU-PL-COLD-WATER-DISTRIBUTION-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-COLD-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6813-PL-COLD-WATER-SERVICE-HAS-PART-AU-PL-COLD-WATER-DISTRIBUTION-PIPE",
+      "from_id": "AU-PL-COLD-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-COLD-WATER-DISTRIBUTION-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6814-PL-COLD-WATER-SERVICE-HAS-PART-AU-PL-DRINKING-WATER-SERVICE",
+      "from_id": "AU-PL-COLD-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-DRINKING-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-LEAD-FREE-PLUMBING",
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6815-PL-COLD-WATER-SERVICE-HAS-PART-AU-PL-HOSE-TAP",
+      "from_id": "AU-PL-COLD-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-HOSE-TAP",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6816-PL-COLD-WATER-SERVICE-HAS-PART-AU-PL-MAIN-STOP-VALVE",
+      "from_id": "AU-PL-COLD-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-MAIN-STOP-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6817-PL-COLD-WATER-SERVICE-HAS-PART-AU-PL-PROPERTY-SERVICE-PIPE",
+      "from_id": "AU-PL-COLD-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-PROPERTY-SERVICE-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6818-PL-COLD-WATER-SERVICE-HAS-PART-AU-PL-SURFACE-VALVE-BOX",
+      "from_id": "AU-PL-COLD-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-SURFACE-VALVE-BOX",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6819-PL-COLD-WATER-SERVICE-HAS-PART-AU-PL-WATER-POINT-OF-CONNECTION-ASSEMBLY",
+      "from_id": "AU-PL-COLD-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-POINT-OF-CONNECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6820-PL-COLD-WATER-SERVICE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-COLD-WATER-SERVICE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6821-PL-COMPRESSION-JOINT-FITTING-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-COMPRESSION-JOINT-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6822-PL-CONTAINMENT-BACKFLOW-ASSEMBLY-PART-OF-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-CONTAINMENT-BACKFLOW-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6823-PL-CONTINUOUS-FLOW-WATER-HEATER-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-CONTINUOUS-FLOW-WATER-HEATER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6824-PL-COPPER-WATER-TUBE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-COPPER-WATER-TUBE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6825-PL-DOUBLE-CHECK-BACKFLOW-VALVE-PART-OF-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-DOUBLE-CHECK-BACKFLOW-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6826-PL-DRINKING-WATER-SERVICE-HAS-PART-AU-PL-ALTERNATIVE-DRINKING-WATER-SERVICE",
+      "from_id": "AU-PL-DRINKING-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-ALTERNATIVE-DRINKING-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6827-PL-DRINKING-WATER-SERVICE-PART-OF-AU-PL-COLD-WATER-SERVICE",
+      "from_id": "AU-PL-DRINKING-WATER-SERVICE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-COLD-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-LEAD-FREE-PLUMBING",
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6828-PL-DUAL-CHECK-ATMOSPHERIC-PORT-VALVE-PART-OF-AU-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY",
+      "from_id": "AU-PL-DUAL-CHECK-ATMOSPHERIC-PORT-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6829-PL-DUAL-CHECK-BACKFLOW-VALVE-PART-OF-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-DUAL-CHECK-BACKFLOW-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6830-PL-ELECTRIC-STORAGE-WATER-HEATER-HAS-PART-AU-PL-WATER-HEATER-ELECTRIC-ELEMENT",
+      "from_id": "AU-PL-ELECTRIC-STORAGE-WATER-HEATER",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-ELECTRIC-ELEMENT",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6831-PL-ELECTRIC-STORAGE-WATER-HEATER-IS-A-AU-PL-STORAGE-WATER-HEATER",
+      "from_id": "AU-PL-ELECTRIC-STORAGE-WATER-HEATER",
+      "relationship": "is_a",
+      "to_id": "AU-PL-STORAGE-WATER-HEATER",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6832-PL-ELECTRIC-STORAGE-WATER-HEATER-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-ELECTRIC-STORAGE-WATER-HEATER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6833-PL-ELECTROFUSION-FITTING-ATTACHED-TO-AU-PL-PE-PROPERTY-SERVICE-PIPE",
+      "from_id": "AU-PL-ELECTROFUSION-FITTING",
+      "relationship": "attached_to",
+      "to_id": "AU-PL-PE-PROPERTY-SERVICE-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6834-PL-ELECTROFUSION-FITTING-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-ELECTROFUSION-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6835-PL-EXPANSION-CONTROL-VALVE-PART-OF-AU-PL-WATER-HEATER-COLD-INLET-SET",
+      "from_id": "AU-PL-EXPANSION-CONTROL-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-COLD-INLET-SET",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6836-PL-FIXTURE-CONNECTION-PIPE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-FIXTURE-CONNECTION-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6837-PL-FLEXIBLE-WATER-HOSE-ASSEMBLY-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-FLEXIBLE-WATER-HOSE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-SA-ASNZS3500-2025-SPOTLIGHT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6838-PL-GAS-STORAGE-WATER-HEATER-IS-A-AU-PL-STORAGE-WATER-HEATER",
+      "from_id": "AU-PL-GAS-STORAGE-WATER-HEATER",
+      "relationship": "is_a",
+      "to_id": "AU-PL-STORAGE-WATER-HEATER",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6839-PL-GAS-STORAGE-WATER-HEATER-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-GAS-STORAGE-WATER-HEATER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6840-PL-GATE-ISOLATION-VALVE-IS-A-AU-PL-ISOLATION-VALVE",
+      "from_id": "AU-PL-GATE-ISOLATION-VALVE",
+      "relationship": "is_a",
+      "to_id": "AU-PL-ISOLATION-VALVE",
+      "source_ids": [
+        "SRC-ABCB-LEAD-FREE-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6841-PL-GATE-ISOLATION-VALVE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-GATE-ISOLATION-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LEAD-FREE-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6842-PL-HEAT-PUMP-OUTDOOR-UNIT-PART-OF-AU-PL-HEAT-PUMP-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-HEAT-PUMP-OUTDOOR-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-PL-HEAT-PUMP-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6843-PL-HEAT-PUMP-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-HEAT-PUMP-OUTDOOR-UNIT",
+      "from_id": "AU-PL-HEAT-PUMP-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-HEAT-PUMP-OUTDOOR-UNIT",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6844-PL-HEAT-PUMP-WATER-HEATER-ASSEMBLY-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-HEAT-PUMP-WATER-HEATER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6845-PL-HEATED-WATER-DISTRIBUTION-PIPE-PART-OF-AU-PL-HEATED-WATER-SERVICE",
+      "from_id": "AU-PL-HEATED-WATER-DISTRIBUTION-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-HEATED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6846-PL-HEATED-WATER-SERVICE-HAS-PART-AU-PL-HEATED-WATER-DISTRIBUTION-PIPE",
+      "from_id": "AU-PL-HEATED-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-HEATED-WATER-DISTRIBUTION-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6847-PL-HEATED-WATER-SERVICE-HAS-PART-AU-PL-HOT-WATER-CIRCULATION-PUMP",
+      "from_id": "AU-PL-HEATED-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-HOT-WATER-CIRCULATION-PUMP",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6848-PL-HEATED-WATER-SERVICE-HAS-PART-AU-PL-HOT-WATER-RECIRCULATION-VALVE",
+      "from_id": "AU-PL-HEATED-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-HOT-WATER-RECIRCULATION-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6849-PL-HEATED-WATER-SERVICE-HAS-PART-AU-PL-HOT-WATER-RETURN-PIPE",
+      "from_id": "AU-PL-HEATED-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-HOT-WATER-RETURN-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6850-PL-HEATED-WATER-SERVICE-HAS-PART-AU-PL-TEMPERED-WATER-SERVICE",
+      "from_id": "AU-PL-HEATED-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-TEMPERED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6851-PL-HEATED-WATER-SERVICE-HAS-PART-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-HEATED-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6852-PL-HEATED-WATER-SERVICE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-HEATED-WATER-SERVICE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6853-PL-HOSE-CONNECTION-VACUUM-BREAKER-PART-OF-AU-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY",
+      "from_id": "AU-PL-HOSE-CONNECTION-VACUUM-BREAKER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-SPEC41-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6854-PL-HOSE-TAP-PART-OF-AU-PL-COLD-WATER-SERVICE",
+      "from_id": "AU-PL-HOSE-TAP",
+      "relationship": "part_of",
+      "to_id": "AU-PL-COLD-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6855-PL-HOT-WATER-CIRCULATION-PUMP-PART-OF-AU-PL-HEATED-WATER-SERVICE",
+      "from_id": "AU-PL-HOT-WATER-CIRCULATION-PUMP",
+      "relationship": "part_of",
+      "to_id": "AU-PL-HEATED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6856-PL-HOT-WATER-RECIRCULATION-VALVE-PART-OF-AU-PL-HEATED-WATER-SERVICE",
+      "from_id": "AU-PL-HOT-WATER-RECIRCULATION-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-HEATED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6857-PL-HOT-WATER-RETURN-PIPE-PART-OF-AU-PL-HEATED-WATER-SERVICE",
+      "from_id": "AU-PL-HOT-WATER-RETURN-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-HEATED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6858-PL-HOT-WATER-STORAGE-CYLINDER-PART-OF-AU-PL-STORAGE-WATER-HEATER",
+      "from_id": "AU-PL-HOT-WATER-STORAGE-CYLINDER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-STORAGE-WATER-HEATER",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6859-PL-HOT-WATER-STORAGE-CYLINDER-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-HOT-WATER-STORAGE-CYLINDER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6860-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY-HAS-PART-AU-PL-DUAL-CHECK-ATMOSPHERIC-PORT-VALVE",
+      "from_id": "AU-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-DUAL-CHECK-ATMOSPHERIC-PORT-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6861-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY-HAS-PART-AU-PL-HOSE-CONNECTION-VACUUM-BREAKER",
+      "from_id": "AU-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-HOSE-CONNECTION-VACUUM-BREAKER",
+      "source_ids": [
+        "SRC-ABCB-V3-SPEC41-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6862-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY-PART-OF-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-INDIVIDUAL-BACKFLOW-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6863-PL-INLINE-WATER-STRAINER-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-INLINE-WATER-STRAINER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6864-PL-ISOLATION-VALVE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-ISOLATION-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6865-PL-MAIN-STOP-VALVE-PART-OF-AU-PL-COLD-WATER-SERVICE",
+      "from_id": "AU-PL-MAIN-STOP-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-COLD-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6866-PL-MAINS-RAINWATER-SWITCHING-ASSEMBLY-PART-OF-AU-PL-RAINWATER-SERVICE",
+      "from_id": "AU-PL-MAINS-RAINWATER-SWITCHING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6867-PL-MINI-STOP-VALVE-IS-A-AU-PL-ISOLATION-VALVE",
+      "from_id": "AU-PL-MINI-STOP-VALVE",
+      "relationship": "is_a",
+      "to_id": "AU-PL-ISOLATION-VALVE",
+      "source_ids": [
+        "SRC-ABCB-LEAD-FREE-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6868-PL-MINI-STOP-VALVE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-MINI-STOP-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LEAD-FREE-PLUMBING",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6869-PL-MULTILAYER-WATER-PIPE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-MULTILAYER-WATER-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6870-PL-NONDRINKING-WATER-PIPE-PART-OF-AU-PL-NONDRINKING-WATER-SERVICE",
+      "from_id": "AU-PL-NONDRINKING-WATER-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-NONDRINKING-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B3-NONDRINKING",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6871-PL-NONDRINKING-WATER-SERVICE-HAS-PART-AU-PL-NONDRINKING-WATER-PIPE",
+      "from_id": "AU-PL-NONDRINKING-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-NONDRINKING-WATER-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V3-B3-NONDRINKING",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6872-PL-NONDRINKING-WATER-SERVICE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-NONDRINKING-WATER-SERVICE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B3-NONDRINKING",
+        "SRC-ABCB-V3-B5-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6873-PL-NONRETURN-VALVE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-NONRETURN-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6874-PL-PE-PROPERTY-SERVICE-PIPE-IS-A-AU-PL-PROPERTY-SERVICE-PIPE",
+      "from_id": "AU-PL-PE-PROPERTY-SERVICE-PIPE",
+      "relationship": "is_a",
+      "to_id": "AU-PL-PROPERTY-SERVICE-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6875-PL-PE-PROPERTY-SERVICE-PIPE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-PE-PROPERTY-SERVICE-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6876-PL-PEX-WATER-PIPE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-PEX-WATER-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6877-PL-PRESS-JOINT-FITTING-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-PRESS-JOINT-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6878-PL-PRESSURE-LIMITING-VALVE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-PRESSURE-LIMITING-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6879-PL-PRESSURE-PIPE-FITTING-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-PRESSURE-PIPE-FITTING",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6880-PL-PRESSURE-REDUCING-VALVE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-PRESSURE-REDUCING-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6881-PL-PRESSURE-VACUUM-BREAKER-PART-OF-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-PRESSURE-VACUUM-BREAKER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6882-PL-PROPERTY-SERVICE-PIPE-PART-OF-AU-PL-COLD-WATER-SERVICE",
+      "from_id": "AU-PL-PROPERTY-SERVICE-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-COLD-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6883-PL-PVC-PRESSURE-WATER-PIPE-IS-A-AU-PL-PROPERTY-SERVICE-PIPE",
+      "from_id": "AU-PL-PVC-PRESSURE-WATER-PIPE",
+      "relationship": "is_a",
+      "to_id": "AU-PL-PROPERTY-SERVICE-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6884-PL-PVC-PRESSURE-WATER-PIPE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-PVC-PRESSURE-WATER-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6885-PL-RAINWATER-CALMING-INLET-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-CALMING-INLET",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6886-PL-RAINWATER-FIRST-FLUSH-DIVERTER-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-FIRST-FLUSH-DIVERTER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6887-PL-RAINWATER-FLOATING-INTAKE-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-FLOATING-INTAKE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6888-PL-RAINWATER-INLET-STRAINER-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-INLET-STRAINER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6889-PL-RAINWATER-MAINS-TOPUP-ASSEMBLY-HAS-PART-AU-PL-RAINWATER-TOPUP-FLOAT-VALVE",
+      "from_id": "AU-PL-RAINWATER-MAINS-TOPUP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-TOPUP-FLOAT-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6890-PL-RAINWATER-MAINS-TOPUP-ASSEMBLY-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-MAINS-TOPUP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6891-PL-RAINWATER-MOSQUITO-SCREEN-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-MOSQUITO-SCREEN",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6892-PL-RAINWATER-OUTLET-SIGN-PART-OF-AU-PL-RAINWATER-SERVICE",
+      "from_id": "AU-PL-RAINWATER-OUTLET-SIGN",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6893-PL-RAINWATER-PUMP-ASSEMBLY-HAS-PART-AU-PL-RAINWATER-PUMP-CONTROLLER",
+      "from_id": "AU-PL-RAINWATER-PUMP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-PUMP-CONTROLLER",
+      "source_ids": [
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6894-PL-RAINWATER-PUMP-ASSEMBLY-PART-OF-AU-PL-RAINWATER-SERVICE",
+      "from_id": "AU-PL-RAINWATER-PUMP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6895-PL-RAINWATER-PUMP-CONTROLLER-PART-OF-AU-PL-RAINWATER-PUMP-ASSEMBLY",
+      "from_id": "AU-PL-RAINWATER-PUMP-CONTROLLER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-PUMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6896-PL-RAINWATER-SERVICE-HAS-PART-AU-PL-MAINS-RAINWATER-SWITCHING-ASSEMBLY",
+      "from_id": "AU-PL-RAINWATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-MAINS-RAINWATER-SWITCHING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6897-PL-RAINWATER-SERVICE-HAS-PART-AU-PL-RAINWATER-OUTLET-SIGN",
+      "from_id": "AU-PL-RAINWATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-OUTLET-SIGN",
+      "source_ids": [
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6898-PL-RAINWATER-SERVICE-HAS-PART-AU-PL-RAINWATER-PUMP-ASSEMBLY",
+      "from_id": "AU-PL-RAINWATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-PUMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6899-PL-RAINWATER-SERVICE-HAS-PART-AU-PL-RAINWATER-SERVICE-PIPE",
+      "from_id": "AU-PL-RAINWATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-SERVICE-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6900-PL-RAINWATER-SERVICE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-SERVICE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6901-PL-RAINWATER-SERVICE-PIPE-PART-OF-AU-PL-RAINWATER-SERVICE",
+      "from_id": "AU-PL-RAINWATER-SERVICE-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6902-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-ABOVE-GROUND-RAINWATER-TANK",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-ABOVE-GROUND-RAINWATER-TANK",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6903-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-BLADDER-RAINWATER-TANK",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-BLADDER-RAINWATER-TANK",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6904-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-BURIED-RAINWATER-TANK",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-BURIED-RAINWATER-TANK",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6905-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-BURIED-TANK-ACCESS-RISER",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-BURIED-TANK-ACCESS-RISER",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6906-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-BURIED-TANK-ANTI-FLOTATION-ASSEMBLY",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-BURIED-TANK-ANTI-FLOTATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6907-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-CALMING-INLET",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-CALMING-INLET",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6908-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-FIRST-FLUSH-DIVERTER",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-FIRST-FLUSH-DIVERTER",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6909-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-FLOATING-INTAKE",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-FLOATING-INTAKE",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6910-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-INLET-STRAINER",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-INLET-STRAINER",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6911-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-MAINS-TOPUP-ASSEMBLY",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-MAINS-TOPUP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6912-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-MOSQUITO-SCREEN",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-MOSQUITO-SCREEN",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6913-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-TANK-ACCESS-COVER",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-TANK-ACCESS-COVER",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6914-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-TANK-ANCHOR",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-TANK-ANCHOR",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6915-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-TANK-BASE",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-TANK-BASE",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6916-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-TANK-BODY",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-TANK-BODY",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6917-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-TANK-DRAIN",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-TANK-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6918-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-TANK-INLET",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-TANK-INLET",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6919-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-TANK-LEVEL-GAUGE",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-TANK-LEVEL-GAUGE",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6920-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-TANK-OUTLET",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-TANK-OUTLET",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6921-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-TANK-OVERFLOW",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-TANK-OVERFLOW",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6922-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-RAINWATER-TANK-VENT",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RAINWATER-TANK-VENT",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6923-PL-RAINWATER-STORAGE-SYSTEM-HAS-PART-AU-PL-SLIMLINE-RAINWATER-TANK",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-PL-SLIMLINE-RAINWATER-TANK",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6924-PL-RAINWATER-STORAGE-SYSTEM-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6925-PL-RAINWATER-TANK-ACCESS-COVER-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-TANK-ACCESS-COVER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6926-PL-RAINWATER-TANK-ANCHOR-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-TANK-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6927-PL-RAINWATER-TANK-BASE-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-TANK-BASE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6928-PL-RAINWATER-TANK-BODY-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-TANK-BODY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6929-PL-RAINWATER-TANK-DRAIN-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-TANK-DRAIN",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6930-PL-RAINWATER-TANK-INLET-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-TANK-INLET",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6931-PL-RAINWATER-TANK-LEVEL-GAUGE-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-TANK-LEVEL-GAUGE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-6932-PL-RAINWATER-TANK-OUTLET-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-TANK-OUTLET",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6934-PL-RAINWATER-TANK-OVERFLOW-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-TANK-OVERFLOW",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6935-PL-RAINWATER-TANK-VENT-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-RAINWATER-TANK-VENT",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6936-PL-RAINWATER-TOPUP-FLOAT-VALVE-PART-OF-AU-PL-RAINWATER-MAINS-TOPUP-ASSEMBLY",
+      "from_id": "AU-PL-RAINWATER-TOPUP-FLOAT-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-MAINS-TOPUP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6937-PL-REDUCED-PRESSURE-ZONE-DEVICE-PART-OF-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-REDUCED-PRESSURE-ZONE-DEVICE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6938-PL-REGISTERED-AIR-GAP-PART-OF-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-REGISTERED-AIR-GAP",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6939-PL-RELIEF-DRAIN-TUNDISH-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-RELIEF-DRAIN-TUNDISH",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6940-PL-RELIEF-VALVE-DRAIN-LINE-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-RELIEF-VALVE-DRAIN-LINE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6941-PL-SAFE-TRAY-DRAIN-PIPE-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-SAFE-TRAY-DRAIN-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6942-PL-SLIMLINE-RAINWATER-TANK-IS-A-AU-PL-ABOVE-GROUND-RAINWATER-TANK",
+      "from_id": "AU-PL-SLIMLINE-RAINWATER-TANK",
+      "relationship": "is_a",
+      "to_id": "AU-PL-ABOVE-GROUND-RAINWATER-TANK",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6943-PL-SLIMLINE-RAINWATER-TANK-PART-OF-AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "from_id": "AU-PL-SLIMLINE-RAINWATER-TANK",
+      "relationship": "part_of",
+      "to_id": "AU-PL-RAINWATER-STORAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6944-PL-SOLAR-COLLECTOR-MOUNTING-FRAME-PART-OF-AU-PL-SOLAR-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-SOLAR-COLLECTOR-MOUNTING-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-PL-SOLAR-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6945-PL-SOLAR-THERMAL-COLLECTOR-PART-OF-AU-PL-SOLAR-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-SOLAR-THERMAL-COLLECTOR",
+      "relationship": "part_of",
+      "to_id": "AU-PL-SOLAR-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6946-PL-SOLAR-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-SOLAR-COLLECTOR-MOUNTING-FRAME",
+      "from_id": "AU-PL-SOLAR-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-SOLAR-COLLECTOR-MOUNTING-FRAME",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6947-PL-SOLAR-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-SOLAR-THERMAL-COLLECTOR",
+      "from_id": "AU-PL-SOLAR-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-SOLAR-THERMAL-COLLECTOR",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6948-PL-SOLAR-WATER-HEATER-ASSEMBLY-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-SOLAR-WATER-HEATER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6949-PL-STORAGE-WATER-HEATER-HAS-PART-AU-PL-HOT-WATER-STORAGE-CYLINDER",
+      "from_id": "AU-PL-STORAGE-WATER-HEATER",
+      "relationship": "has_part",
+      "to_id": "AU-PL-HOT-WATER-STORAGE-CYLINDER",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6950-PL-STORAGE-WATER-HEATER-HAS-PART-AU-PL-WATER-HEATER-INSULATION-JACKET",
+      "from_id": "AU-PL-STORAGE-WATER-HEATER",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-INSULATION-JACKET",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6951-PL-STORAGE-WATER-HEATER-HAS-PART-AU-PL-WATER-HEATER-SACRIFICIAL-ANODE",
+      "from_id": "AU-PL-STORAGE-WATER-HEATER",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-SACRIFICIAL-ANODE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6952-PL-STORAGE-WATER-HEATER-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-STORAGE-WATER-HEATER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6953-PL-SURFACE-VALVE-BOX-PART-OF-AU-PL-COLD-WATER-SERVICE",
+      "from_id": "AU-PL-SURFACE-VALVE-BOX",
+      "relationship": "part_of",
+      "to_id": "AU-PL-COLD-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-DICTIONARY-HOME"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6954-PL-TEMPERATURE-PRESSURE-RELIEF-VALVE-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-TEMPERATURE-PRESSURE-RELIEF-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6955-PL-TEMPERED-WATER-PIPE-PART-OF-AU-PL-TEMPERED-WATER-SERVICE",
+      "from_id": "AU-PL-TEMPERED-WATER-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-TEMPERED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6956-PL-TEMPERED-WATER-SERVICE-HAS-PART-AU-PL-TEMPERED-WATER-PIPE",
+      "from_id": "AU-PL-TEMPERED-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-TEMPERED-WATER-PIPE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6957-PL-TEMPERED-WATER-SERVICE-HAS-PART-AU-PL-TEMPERING-VALVE",
+      "from_id": "AU-PL-TEMPERED-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-TEMPERING-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6958-PL-TEMPERED-WATER-SERVICE-HAS-PART-AU-PL-THERMOSTATIC-MIXING-VALVE",
+      "from_id": "AU-PL-TEMPERED-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-THERMOSTATIC-MIXING-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6959-PL-TEMPERED-WATER-SERVICE-HAS-PART-AU-PL-THERMOSTATICALLY-CONTROLLED-TAP",
+      "from_id": "AU-PL-TEMPERED-WATER-SERVICE",
+      "relationship": "has_part",
+      "to_id": "AU-PL-THERMOSTATICALLY-CONTROLLED-TAP",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6960-PL-TEMPERED-WATER-SERVICE-PART-OF-AU-PL-HEATED-WATER-SERVICE",
+      "from_id": "AU-PL-TEMPERED-WATER-SERVICE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-HEATED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6961-PL-TEMPERING-VALVE-PART-OF-AU-PL-TEMPERED-WATER-SERVICE",
+      "from_id": "AU-PL-TEMPERING-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-TEMPERED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6962-PL-THERMOSTATIC-MIXING-VALVE-PART-OF-AU-PL-TEMPERED-WATER-SERVICE",
+      "from_id": "AU-PL-THERMOSTATIC-MIXING-VALVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-TEMPERED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6963-PL-THERMOSTATICALLY-CONTROLLED-TAP-PART-OF-AU-PL-TEMPERED-WATER-SERVICE",
+      "from_id": "AU-PL-THERMOSTATICALLY-CONTROLLED-TAP",
+      "relationship": "part_of",
+      "to_id": "AU-PL-TEMPERED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6964-PL-WATER-BOOSTER-PUMP-ASSEMBLY-HAS-PART-AU-PL-WATER-PRESSURE-VESSEL",
+      "from_id": "AU-PL-WATER-BOOSTER-PUMP-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-PRESSURE-VESSEL",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6965-PL-WATER-BOOSTER-PUMP-ASSEMBLY-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-BOOSTER-PUMP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6966-PL-WATER-DISTRIBUTION-MANIFOLD-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-DISTRIBUTION-MANIFOLD",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6967-PL-WATER-HAMMER-ARRESTOR-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-HAMMER-ARRESTOR",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6969-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-CONTINUOUS-FLOW-WATER-HEATER",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-CONTINUOUS-FLOW-WATER-HEATER",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6970-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-ELECTRIC-STORAGE-WATER-HEATER",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-ELECTRIC-STORAGE-WATER-HEATER",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6971-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-GAS-STORAGE-WATER-HEATER",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-GAS-STORAGE-WATER-HEATER",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6972-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-HEAT-PUMP-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-HEAT-PUMP-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6973-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-HOT-WATER-STORAGE-CYLINDER",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-HOT-WATER-STORAGE-CYLINDER",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6974-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-RELIEF-DRAIN-TUNDISH",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RELIEF-DRAIN-TUNDISH",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6975-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-RELIEF-VALVE-DRAIN-LINE",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-RELIEF-VALVE-DRAIN-LINE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6976-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-SAFE-TRAY-DRAIN-PIPE",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-SAFE-TRAY-DRAIN-PIPE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6977-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-SOLAR-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-SOLAR-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6978-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-STORAGE-WATER-HEATER",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-STORAGE-WATER-HEATER",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6979-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-TEMPERATURE-PRESSURE-RELIEF-VALVE",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-TEMPERATURE-PRESSURE-RELIEF-VALVE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6980-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-WATER-HEATER-COLD-INLET-SET",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-COLD-INLET-SET",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6981-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-WATER-HEATER-CONDENSATE-DRAIN",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-CONDENSATE-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6982-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-WATER-HEATER-ELECTRIC-ELEMENT",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-ELECTRIC-ELEMENT",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6983-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-WATER-HEATER-HEAT-EXCHANGER",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-HEAT-EXCHANGER",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6984-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-WATER-HEATER-INSULATION-JACKET",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-INSULATION-JACKET",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6985-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-WATER-HEATER-PLINTH",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-PLINTH",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6986-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-WATER-HEATER-SACRIFICIAL-ANODE",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-SACRIFICIAL-ANODE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6987-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-WATER-HEATER-SAFE-TRAY",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-SAFE-TRAY",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6988-PL-WATER-HEATER-ASSEMBLY-HAS-PART-AU-PL-WATER-HEATER-THERMOSTAT",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-HEATER-THERMOSTAT",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6989-PL-WATER-HEATER-ASSEMBLY-PART-OF-AU-PL-HEATED-WATER-SERVICE",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-HEATED-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6990-PL-WATER-HEATER-COLD-INLET-SET-HAS-PART-AU-PL-EXPANSION-CONTROL-VALVE",
+      "from_id": "AU-PL-WATER-HEATER-COLD-INLET-SET",
+      "relationship": "has_part",
+      "to_id": "AU-PL-EXPANSION-CONTROL-VALVE",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6991-PL-WATER-HEATER-COLD-INLET-SET-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-HEATER-COLD-INLET-SET",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-VALVES-GENERAL",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6992-PL-WATER-HEATER-CONDENSATE-DRAIN-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-HEATER-CONDENSATE-DRAIN",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6993-PL-WATER-HEATER-ELECTRIC-ELEMENT-PART-OF-AU-PL-ELECTRIC-STORAGE-WATER-HEATER",
+      "from_id": "AU-PL-WATER-HEATER-ELECTRIC-ELEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-PL-ELECTRIC-STORAGE-WATER-HEATER",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6994-PL-WATER-HEATER-ELECTRIC-ELEMENT-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-HEATER-ELECTRIC-ELEMENT",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6995-PL-WATER-HEATER-HEAT-EXCHANGER-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-HEATER-HEAT-EXCHANGER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6996-PL-WATER-HEATER-INSULATION-JACKET-PART-OF-AU-PL-STORAGE-WATER-HEATER",
+      "from_id": "AU-PL-WATER-HEATER-INSULATION-JACKET",
+      "relationship": "part_of",
+      "to_id": "AU-PL-STORAGE-WATER-HEATER",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6997-PL-WATER-HEATER-INSULATION-JACKET-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-HEATER-INSULATION-JACKET",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6998-PL-WATER-HEATER-PLINTH-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-HEATER-PLINTH",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B2-HEATED-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6999-PL-WATER-HEATER-SACRIFICIAL-ANODE-PART-OF-AU-PL-STORAGE-WATER-HEATER",
+      "from_id": "AU-PL-WATER-HEATER-SACRIFICIAL-ANODE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-STORAGE-WATER-HEATER",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7000-PL-WATER-HEATER-SACRIFICIAL-ANODE-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-HEATER-SACRIFICIAL-ANODE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7001-PL-WATER-HEATER-SAFE-TRAY-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-HEATER-SAFE-TRAY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7002-PL-WATER-HEATER-THERMOSTAT-PART-OF-AU-PL-WATER-HEATER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-HEATER-THERMOSTAT",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7003-PL-WATER-METER-PART-OF-AU-PL-WATER-METER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-METER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-METER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7004-PL-WATER-METER-ASSEMBLY-HAS-PART-AU-PL-WATER-METER",
+      "from_id": "AU-PL-WATER-METER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-METER",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7005-PL-WATER-METER-ASSEMBLY-HAS-PART-AU-PL-WATER-METER-BOX",
+      "from_id": "AU-PL-WATER-METER-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-METER-BOX",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7006-PL-WATER-METER-ASSEMBLY-PART-OF-AU-PL-WATER-POINT-OF-CONNECTION-ASSEMBLY",
+      "from_id": "AU-PL-WATER-METER-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-POINT-OF-CONNECTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7007-PL-WATER-METER-BOX-PART-OF-AU-PL-WATER-METER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-METER-BOX",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-METER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7008-PL-WATER-PIPE-ADAPTOR-IS-A-AU-PL-PRESSURE-PIPE-FITTING",
+      "from_id": "AU-PL-WATER-PIPE-ADAPTOR",
+      "relationship": "is_a",
+      "to_id": "AU-PL-PRESSURE-PIPE-FITTING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7009-PL-WATER-PIPE-ADAPTOR-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-ADAPTOR",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7010-PL-WATER-PIPE-BRACKET-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7011-PL-WATER-PIPE-CLIP-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7012-PL-WATER-PIPE-COUPLING-IS-A-AU-PL-PRESSURE-PIPE-FITTING",
+      "from_id": "AU-PL-WATER-PIPE-COUPLING",
+      "relationship": "is_a",
+      "to_id": "AU-PL-PRESSURE-PIPE-FITTING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7013-PL-WATER-PIPE-COUPLING-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-COUPLING",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7014-PL-WATER-PIPE-ELBOW-IS-A-AU-PL-PRESSURE-PIPE-FITTING",
+      "from_id": "AU-PL-WATER-PIPE-ELBOW",
+      "relationship": "is_a",
+      "to_id": "AU-PL-PRESSURE-PIPE-FITTING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7015-PL-WATER-PIPE-ELBOW-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-ELBOW",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7016-PL-WATER-PIPE-END-CAP-IS-A-AU-PL-PRESSURE-PIPE-FITTING",
+      "from_id": "AU-PL-WATER-PIPE-END-CAP",
+      "relationship": "is_a",
+      "to_id": "AU-PL-PRESSURE-PIPE-FITTING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7017-PL-WATER-PIPE-END-CAP-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-END-CAP",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7018-PL-WATER-PIPE-FLANGE-ASSEMBLY-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-FLANGE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7019-PL-WATER-PIPE-INSULATION-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-INSULATION",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7020-PL-WATER-PIPE-PENETRATION-SLEEVE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-PENETRATION-SLEEVE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7021-PL-WATER-PIPE-REDUCER-IS-A-AU-PL-PRESSURE-PIPE-FITTING",
+      "from_id": "AU-PL-WATER-PIPE-REDUCER",
+      "relationship": "is_a",
+      "to_id": "AU-PL-PRESSURE-PIPE-FITTING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7022-PL-WATER-PIPE-REDUCER-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-REDUCER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7023-PL-WATER-PIPE-TEE-IS-A-AU-PL-PRESSURE-PIPE-FITTING",
+      "from_id": "AU-PL-WATER-PIPE-TEE",
+      "relationship": "is_a",
+      "to_id": "AU-PL-PRESSURE-PIPE-FITTING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7024-PL-WATER-PIPE-TEE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-TEE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7025-PL-WATER-PIPE-UNION-IS-A-AU-PL-PRESSURE-PIPE-FITTING",
+      "from_id": "AU-PL-WATER-PIPE-UNION",
+      "relationship": "is_a",
+      "to_id": "AU-PL-PRESSURE-PIPE-FITTING",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7026-PL-WATER-PIPE-UNION-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PIPE-UNION",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WATERMARK-SCHEDULE",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7027-PL-WATER-POINT-OF-CONNECTION-ASSEMBLY-HAS-PART-AU-PL-WATER-METER-ASSEMBLY",
+      "from_id": "AU-PL-WATER-POINT-OF-CONNECTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-PL-WATER-METER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7028-PL-WATER-POINT-OF-CONNECTION-ASSEMBLY-PART-OF-AU-PL-COLD-WATER-SERVICE",
+      "from_id": "AU-PL-WATER-POINT-OF-CONNECTION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-COLD-WATER-SERVICE",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-VINIDEX-WATER-SUPPLY-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7029-PL-WATER-PRESSURE-GAUGE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-PRESSURE-GAUGE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-RHEEM-WATER-HEATER-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7030-PL-WATER-PRESSURE-VESSEL-PART-OF-AU-PL-WATER-BOOSTER-PUMP-ASSEMBLY",
+      "from_id": "AU-PL-WATER-PRESSURE-VESSEL",
+      "relationship": "part_of",
+      "to_id": "AU-PL-WATER-BOOSTER-PUMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-WATERMARK-SCHEDULE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7031-PL-WATER-SERVICE-BRANCH-PIPE-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-SERVICE-BRANCH-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-V3-B2-HEATED-WATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7032-PL-WATER-SERVICE-BREAK-TANK-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-SERVICE-BREAK-TANK",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-WATERMARK-BACKFLOW-VALVES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7033-PL-WATER-SERVICE-IDENTIFICATION-MARKER-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-SERVICE-IDENTIFICATION-MARKER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B3-NONDRINKING",
+        "SRC-ABCB-V3-B6-RAINWATER-SERVICE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7034-PL-WATER-SERVICE-RISER-PART-OF-AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "from_id": "AU-PL-WATER-SERVICE-RISER",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BUILDING-WATER-SERVICES-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B1-COLD-WATER",
+        "SRC-ABCB-V3-B2-HEATED-WATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7035-PL-ZONE-BACKFLOW-ASSEMBLY-PART-OF-AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "from_id": "AU-PL-ZONE-BACKFLOW-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-PL-BACKFLOW-PROTECTION-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V3-B5-BACKFLOW",
+        "SRC-ABCB-V3-SPEC41-BACKFLOW"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-6933-PL-RAINWATER-TANK-OVERFLOW-CONNECTS-TO-AU-SC-STORMWATER-DRAIN",
+      "from_id": "AU-PL-RAINWATER-TANK-OVERFLOW",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-STORMWATER-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-V3-B7-RAINWATER-STORAGE",
+        "SRC-NSW-HEALTH-RAINWATER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-6968-PL-WATER-HEATER-ASSEMBLY-COMMONLY-USED-WITH-AU-EL-WATER-HEATER-ISOLATOR",
+      "from_id": "AU-PL-WATER-HEATER-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-EL-WATER-HEATER-ISOLATOR",
+      "source_ids": [
+        "SRC-HAGER-WEATHERPROOF-ELECTRICAL",
+        "SRC-NSW-ELECTRICAL-STANDARDS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

@@ -1,0 +1,4334 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "internal_linings",
+  "relationships": [
+    {
+      "id": "REL-5162-IL-ALL-PURPOSE-JOINT-COMPOUND-ALTERNATIVE-TO-AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "from_id": "AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5163-IL-ALL-PURPOSE-JOINT-COMPOUND-ALTERNATIVE-TO-AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "from_id": "AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5164-IL-ALL-PURPOSE-JOINT-COMPOUND-PART-OF-AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5165-IL-ALL-PURPOSE-JOINT-COMPOUND-PART-OF-AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5167-IL-CEILING-FURRING-CHANNEL-CONNECTS-TO-AU-IL-CEILING-FURRING-CHANNEL-JOINER",
+      "from_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-CEILING-FURRING-CHANNEL-JOINER",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5168-IL-CEILING-FURRING-CHANNEL-CONNECTS-TO-AU-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP",
+      "from_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5169-IL-CEILING-FURRING-CHANNEL-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5170-IL-CEILING-FURRING-CHANNEL-PART-OF-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5171-IL-CEILING-FURRING-CHANNEL-SUPPORTED-BY-AU-IL-DIRECT-FIX-CEILING-CLIP",
+      "from_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "relationship": "supported_by",
+      "to_id": "AU-IL-DIRECT-FIX-CEILING-CLIP",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5172-IL-CEILING-FURRING-CHANNEL-JOINER-CONNECTS-TO-AU-IL-CEILING-FURRING-CHANNEL",
+      "from_id": "AU-IL-CEILING-FURRING-CHANNEL-JOINER",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5173-IL-CEILING-FURRING-CHANNEL-JOINER-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-CEILING-FURRING-CHANNEL-JOINER",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5175-IL-CEILING-GRADE-PLASTERBOARD-SHEET-PART-OF-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-CEILING-GRADE-PLASTERBOARD-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5176-IL-CEILING-GRADE-PLASTERBOARD-SHEET-PART-OF-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-CEILING-GRADE-PLASTERBOARD-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5177-IL-CEILING-PERIMETER-WALL-TRACK-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-CEILING-PERIMETER-WALL-TRACK",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5178-IL-CEILING-PERIMETER-WALL-TRACK-PART-OF-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-CEILING-PERIMETER-WALL-TRACK",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5179-IL-CEILING-STRUCTURAL-SUSPENSION-ANCHOR-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-CEILING-STRUCTURAL-SUSPENSION-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5180-IL-CEILING-SUSPENSION-BRACKET-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-CEILING-SUSPENSION-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5181-IL-CEILING-SUSPENSION-CLIP-CONNECTS-TO-AU-IL-CEILING-SUSPENSION-ROD",
+      "from_id": "AU-IL-CEILING-SUSPENSION-CLIP",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-CEILING-SUSPENSION-ROD",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5182-IL-CEILING-SUSPENSION-CLIP-CONNECTS-TO-AU-IL-CEILING-SUSPENSION-WIRE",
+      "from_id": "AU-IL-CEILING-SUSPENSION-CLIP",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-CEILING-SUSPENSION-WIRE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5183-IL-CEILING-SUSPENSION-CLIP-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-CEILING-SUSPENSION-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5184-IL-CEILING-SUSPENSION-ROD-ALTERNATIVE-TO-AU-IL-CEILING-SUSPENSION-WIRE",
+      "from_id": "AU-IL-CEILING-SUSPENSION-ROD",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-CEILING-SUSPENSION-WIRE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5185-IL-CEILING-SUSPENSION-ROD-CONNECTS-TO-AU-IL-CEILING-SUSPENSION-CLIP",
+      "from_id": "AU-IL-CEILING-SUSPENSION-ROD",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-CEILING-SUSPENSION-CLIP",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5186-IL-CEILING-SUSPENSION-ROD-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-CEILING-SUSPENSION-ROD",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5187-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-CEILING-FURRING-CHANNEL",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5188-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-CEILING-FURRING-CHANNEL-JOINER",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-FURRING-CHANNEL-JOINER",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5189-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-CEILING-PERIMETER-WALL-TRACK",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-PERIMETER-WALL-TRACK",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5190-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-CEILING-STRUCTURAL-SUSPENSION-ANCHOR",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-STRUCTURAL-SUSPENSION-ANCHOR",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5191-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-CEILING-SUSPENSION-BRACKET",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-SUSPENSION-BRACKET",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5192-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-CEILING-SUSPENSION-CLIP",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-SUSPENSION-CLIP",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5193-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-CEILING-SUSPENSION-ROD",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-SUSPENSION-ROD",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5194-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-CEILING-SUSPENSION-WIRE",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-SUSPENSION-WIRE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5195-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-CEILING-TOP-CROSS-RAIL",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-TOP-CROSS-RAIL",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5196-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5197-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-EXPOSED-GRID-CROSS-TEE",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-EXPOSED-GRID-CROSS-TEE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5198-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-EXPOSED-GRID-MAIN-TEE",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-EXPOSED-GRID-MAIN-TEE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5199-IL-CEILING-SUSPENSION-SYSTEM-HAS-PART-AU-IL-TOP-CROSS-RAIL-JOINER",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-TOP-CROSS-RAIL-JOINER",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5200-IL-CEILING-SUSPENSION-SYSTEM-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5201-IL-CEILING-SUSPENSION-WIRE-ALTERNATIVE-TO-AU-IL-CEILING-SUSPENSION-ROD",
+      "from_id": "AU-IL-CEILING-SUSPENSION-WIRE",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-CEILING-SUSPENSION-ROD",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5202-IL-CEILING-SUSPENSION-WIRE-CONNECTS-TO-AU-IL-CEILING-SUSPENSION-CLIP",
+      "from_id": "AU-IL-CEILING-SUSPENSION-WIRE",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-CEILING-SUSPENSION-CLIP",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5203-IL-CEILING-SUSPENSION-WIRE-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-CEILING-SUSPENSION-WIRE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5204-IL-CEILING-TILE-HOLD-DOWN-CLIP-PART-OF-AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-CEILING-TILE-HOLD-DOWN-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5205-IL-CEILING-TILE-HOLD-DOWN-CLIP-RESTRAINS-AU-IL-METAL-LAY-IN-CEILING-PANEL",
+      "from_id": "AU-IL-CEILING-TILE-HOLD-DOWN-CLIP",
+      "relationship": "restrains",
+      "to_id": "AU-IL-METAL-LAY-IN-CEILING-PANEL",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5206-IL-CEILING-TILE-HOLD-DOWN-CLIP-RESTRAINS-AU-IL-MINERAL-FIBRE-CEILING-TILE",
+      "from_id": "AU-IL-CEILING-TILE-HOLD-DOWN-CLIP",
+      "relationship": "restrains",
+      "to_id": "AU-IL-MINERAL-FIBRE-CEILING-TILE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5207-IL-CEILING-TILE-HOLD-DOWN-CLIP-RESTRAINS-AU-IL-PLASTERBOARD-LAY-IN-CEILING-TILE",
+      "from_id": "AU-IL-CEILING-TILE-HOLD-DOWN-CLIP",
+      "relationship": "restrains",
+      "to_id": "AU-IL-PLASTERBOARD-LAY-IN-CEILING-TILE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5208-IL-CEILING-TOP-CROSS-RAIL-CONNECTS-TO-AU-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP",
+      "from_id": "AU-IL-CEILING-TOP-CROSS-RAIL",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5209-IL-CEILING-TOP-CROSS-RAIL-CONNECTS-TO-AU-IL-TOP-CROSS-RAIL-JOINER",
+      "from_id": "AU-IL-CEILING-TOP-CROSS-RAIL",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-TOP-CROSS-RAIL-JOINER",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5210-IL-CEILING-TOP-CROSS-RAIL-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-CEILING-TOP-CROSS-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5211-IL-CEILING-TOP-CROSS-RAIL-PART-OF-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-CEILING-TOP-CROSS-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5212-IL-CONCEALED-LINING-PANEL-CLIP-PART-OF-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-CONCEALED-LINING-PANEL-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5213-IL-CONCEALED-LINING-PANEL-CLIP-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-CONCEALED-LINING-PANEL-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5214-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-ALTERNATIVE-TO-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5215-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-ALTERNATIVE-TO-AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-DRY-PLASTERING-WORK",
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5217-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-CEILING-FURRING-CHANNEL",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5218-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-CEILING-GRADE-PLASTERBOARD-SHEET",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-GRADE-PLASTERBOARD-SHEET",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5219-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-CEILING-PERIMETER-WALL-TRACK",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-PERIMETER-WALL-TRACK",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5220-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-CEILING-TOP-CROSS-RAIL",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-TOP-CROSS-RAIL",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5221-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5222-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5223-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5224-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-SCREW",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-SCREW",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5225-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5226-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP-CONNECTS-TO-AU-IL-CEILING-FURRING-CHANNEL",
+      "from_id": "AU-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5227-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP-CONNECTS-TO-AU-IL-CEILING-TOP-CROSS-RAIL",
+      "from_id": "AU-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-CEILING-TOP-CROSS-RAIL",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5228-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5229-IL-CURVED-LINING-ASSEMBLY-HAS-PART-AU-IL-FLEXIBLE-PLASTERBOARD-SHEET",
+      "from_id": "AU-IL-CURVED-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FLEXIBLE-PLASTERBOARD-SHEET",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-SA-ASNZS2588-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5230-IL-CURVED-LINING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-CURVED-LINING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5231-IL-DECORATIVE-GROOVED-FIBRE-CEMENT-SHEET-PART-OF-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-DECORATIVE-GROOVED-FIBRE-CEMENT-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5232-IL-DECORATIVE-GROOVED-FIBRE-CEMENT-SHEET-PART-OF-AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-DECORATIVE-GROOVED-FIBRE-CEMENT-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5233-IL-DECORATIVE-PANEL-ADHESIVE-PART-OF-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-DECORATIVE-PANEL-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5234-IL-DECORATIVE-PANEL-ADHESIVE-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-DECORATIVE-PANEL-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5235-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-HAS-PART-AU-IL-CONCEALED-LINING-PANEL-CLIP",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CONCEALED-LINING-PANEL-CLIP",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5236-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-HAS-PART-AU-IL-DECORATIVE-GROOVED-FIBRE-CEMENT-SHEET",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DECORATIVE-GROOVED-FIBRE-CEMENT-SHEET",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5237-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-HAS-PART-AU-IL-DECORATIVE-PANEL-ADHESIVE",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DECORATIVE-PANEL-ADHESIVE",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5238-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-HAS-PART-AU-IL-DECORATIVE-PANEL-NAIL",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DECORATIVE-PANEL-NAIL",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5239-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-HAS-PART-AU-IL-DECORATIVE-PANEL-SCREW",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DECORATIVE-PANEL-SCREW",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5240-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-HAS-PART-AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5241-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-HAS-PART-AU-IL-HARDBOARD-INTERNAL-LINING-SHEET",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-HARDBOARD-INTERNAL-LINING-SHEET",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5242-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-HAS-PART-AU-IL-MDF-DECORATIVE-LINING-PANEL",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-MDF-DECORATIVE-LINING-PANEL",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5243-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-HAS-PART-AU-IL-PANEL-JOINT-COVER-STRIP",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PANEL-JOINT-COVER-STRIP",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5244-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-HAS-PART-AU-IL-PARTICLEBOARD-DECORATIVE-LINING-PANEL",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PARTICLEBOARD-DECORATIVE-LINING-PANEL",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5245-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-HAS-PART-AU-IL-PREFINISHED-FIBRE-CEMENT-PANEL",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PREFINISHED-FIBRE-CEMENT-PANEL",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5246-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-IS-A-AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5247-IL-DECORATIVE-PANEL-LINING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5248-IL-DECORATIVE-PANEL-NAIL-PART-OF-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-DECORATIVE-PANEL-NAIL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5249-IL-DECORATIVE-PANEL-NAIL-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-DECORATIVE-PANEL-NAIL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5250-IL-DECORATIVE-PANEL-SCREW-PART-OF-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-DECORATIVE-PANEL-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5251-IL-DECORATIVE-PANEL-SCREW-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-DECORATIVE-PANEL-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5252-IL-DIRECT-FIX-CEILING-CLIP-PART-OF-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-DIRECT-FIX-CEILING-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5253-IL-DIRECT-FIX-CEILING-CLIP-SUPPORTS-AU-IL-CEILING-FURRING-CHANNEL",
+      "from_id": "AU-IL-DIRECT-FIX-CEILING-CLIP",
+      "relationship": "supports",
+      "to_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5255-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY-HAS-PART-AU-IL-MASONRY-DIRECT-FIX-LINING-ADHESIVE-BED",
+      "from_id": "AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-MASONRY-DIRECT-FIX-LINING-ADHESIVE-BED",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5256-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY-IS-A-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5257-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5258-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-ALTERNATIVE-TO-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5262-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-CEILING-GRADE-PLASTERBOARD-SHEET",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-GRADE-PLASTERBOARD-SHEET",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5263-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-DIRECT-FIX-CEILING-CLIP",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DIRECT-FIX-CEILING-CLIP",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5264-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-GYPSUM-LINING-STUD-ADHESIVE",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-GYPSUM-LINING-STUD-ADHESIVE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-SA-AS2753-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5265-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-BACK-BLOCKING-ADHESIVE",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-BACK-BLOCKING-ADHESIVE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5266-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-BACK-BLOCKING-STRIP",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-BACK-BLOCKING-STRIP",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5267-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5268-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-NAIL",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-NAIL",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5269-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5270-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-SCREW",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-SCREW",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5271-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5272-IL-DRYING-TYPE-BASE-JOINT-COMPOUND-ALTERNATIVE-TO-AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "from_id": "AU-IL-DRYING-TYPE-BASE-JOINT-COMPOUND",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5273-IL-DRYING-TYPE-BASE-JOINT-COMPOUND-PART-OF-AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-DRYING-TYPE-BASE-JOINT-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5274-IL-DRYING-TYPE-BASE-JOINT-COMPOUND-PART-OF-AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-DRYING-TYPE-BASE-JOINT-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5275-IL-EXPOSED-GRID-CROSS-TEE-CONNECTS-TO-AU-IL-EXPOSED-GRID-MAIN-TEE",
+      "from_id": "AU-IL-EXPOSED-GRID-CROSS-TEE",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-EXPOSED-GRID-MAIN-TEE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5276-IL-EXPOSED-GRID-CROSS-TEE-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-EXPOSED-GRID-CROSS-TEE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5277-IL-EXPOSED-GRID-CROSS-TEE-PART-OF-AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-EXPOSED-GRID-CROSS-TEE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5278-IL-EXPOSED-GRID-MAIN-TEE-CONNECTS-TO-AU-IL-EXPOSED-GRID-CROSS-TEE",
+      "from_id": "AU-IL-EXPOSED-GRID-MAIN-TEE",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-EXPOSED-GRID-CROSS-TEE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5279-IL-EXPOSED-GRID-MAIN-TEE-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-EXPOSED-GRID-MAIN-TEE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5280-IL-EXPOSED-GRID-MAIN-TEE-PART-OF-AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-EXPOSED-GRID-MAIN-TEE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5281-IL-EXPOSED-GRID-PERIMETER-ANGLE-PART-OF-AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-EXPOSED-GRID-PERIMETER-ANGLE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5282-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY-ALTERNATIVE-TO-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-DRY-PLASTERING-WORK",
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5283-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY-HAS-PART-AU-IL-CEILING-TILE-HOLD-DOWN-CLIP",
+      "from_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-TILE-HOLD-DOWN-CLIP",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5284-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY-HAS-PART-AU-IL-EXPOSED-GRID-CROSS-TEE",
+      "from_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-EXPOSED-GRID-CROSS-TEE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5285-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY-HAS-PART-AU-IL-EXPOSED-GRID-MAIN-TEE",
+      "from_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-EXPOSED-GRID-MAIN-TEE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5286-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY-HAS-PART-AU-IL-EXPOSED-GRID-PERIMETER-ANGLE",
+      "from_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-EXPOSED-GRID-PERIMETER-ANGLE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5287-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY-HAS-PART-AU-IL-METAL-LAY-IN-CEILING-PANEL",
+      "from_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-METAL-LAY-IN-CEILING-PANEL",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5288-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY-HAS-PART-AU-IL-MINERAL-FIBRE-CEILING-TILE",
+      "from_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-MINERAL-FIBRE-CEILING-TILE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5289-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-LAY-IN-CEILING-TILE",
+      "from_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-LAY-IN-CEILING-TILE",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-RONDO-DUO-EXPOSED-GRID"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5290-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-NSW-DRY-PLASTERING-WORK",
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5291-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY-ALTERNATIVE-TO-AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5292-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY-HAS-PART-AU-IL-PANEL-JOINT-COVER-STRIP",
+      "from_id": "AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PANEL-JOINT-COVER-STRIP",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5293-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY-PART-OF-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5294-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY-PART-OF-AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5295-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY-ALTERNATIVE-TO-AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5296-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY-HAS-PART-AU-IL-FIBRE-CEMENT-JOINT-BASE-COAT",
+      "from_id": "AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FIBRE-CEMENT-JOINT-BASE-COAT",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5297-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY-HAS-PART-AU-IL-FIBRE-CEMENT-JOINT-TAPE",
+      "from_id": "AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FIBRE-CEMENT-JOINT-TAPE",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5298-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY-HAS-PART-AU-IL-FIBRE-CEMENT-JOINT-TOP-COAT",
+      "from_id": "AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FIBRE-CEMENT-JOINT-TOP-COAT",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5299-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY-PART-OF-AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5301-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY-HAS-PART-AU-IL-DECORATIVE-GROOVED-FIBRE-CEMENT-SHEET",
+      "from_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DECORATIVE-GROOVED-FIBRE-CEMENT-SHEET",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5302-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY-HAS-PART-AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5303-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY-HAS-PART-AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5304-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY-HAS-PART-AU-IL-FIBRE-CEMENT-LINING-NAIL",
+      "from_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FIBRE-CEMENT-LINING-NAIL",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5305-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY-HAS-PART-AU-IL-FIBRE-CEMENT-LINING-SCREW",
+      "from_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FIBRE-CEMENT-LINING-SCREW",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5306-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY-HAS-PART-AU-IL-GENERAL-INTERNAL-FIBRE-CEMENT-SHEET",
+      "from_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-GENERAL-INTERNAL-FIBRE-CEMENT-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5307-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY-HAS-PART-AU-IL-PREFINISHED-FIBRE-CEMENT-PANEL",
+      "from_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PREFINISHED-FIBRE-CEMENT-PANEL",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5308-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY-IS-A-AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5309-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5310-IL-FIBRE-CEMENT-JOINT-BASE-COAT-PART-OF-AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-JOINT-BASE-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5311-IL-FIBRE-CEMENT-JOINT-TAPE-PART-OF-AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5312-IL-FIBRE-CEMENT-JOINT-TOP-COAT-PART-OF-AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-JOINT-TOP-COAT",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5313-IL-FIBRE-CEMENT-LINING-NAIL-ALTERNATIVE-TO-AU-IL-FIBRE-CEMENT-LINING-SCREW",
+      "from_id": "AU-IL-FIBRE-CEMENT-LINING-NAIL",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-FIBRE-CEMENT-LINING-SCREW",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5314-IL-FIBRE-CEMENT-LINING-NAIL-PART-OF-AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-LINING-NAIL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5315-IL-FIBRE-CEMENT-LINING-SCREW-ALTERNATIVE-TO-AU-IL-FIBRE-CEMENT-LINING-NAIL",
+      "from_id": "AU-IL-FIBRE-CEMENT-LINING-SCREW",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-FIBRE-CEMENT-LINING-NAIL",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5316-IL-FIBRE-CEMENT-LINING-SCREW-PART-OF-AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-LINING-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5317-IL-FIBRE-REINFORCED-GYPSUM-SHEET-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-FIBRE-REINFORCED-GYPSUM-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-NSW-DRY-PLASTERING-WORK"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-5318-IL-FIBREGLASS-MESH-JOINT-TAPE-PART-OF-AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "from_id": "AU-IL-FIBREGLASS-MESH-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5319-IL-FLEXIBLE-PLASTERBOARD-SHEET-PART-OF-AU-IL-CURVED-LINING-ASSEMBLY",
+      "from_id": "AU-IL-FLEXIBLE-PLASTERBOARD-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CURVED-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-SA-ASNZS2588-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5321-IL-FURRED-MASONRY-LINING-ASSEMBLY-HAS-PART-AU-IL-INTERNAL-LINING-TIMBER-BATTEN",
+      "from_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-INTERNAL-LINING-TIMBER-BATTEN",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5322-IL-FURRED-MASONRY-LINING-ASSEMBLY-HAS-PART-AU-IL-LINING-SUPPORT-PACKER",
+      "from_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-LINING-SUPPORT-PACKER",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5323-IL-FURRED-MASONRY-LINING-ASSEMBLY-HAS-PART-AU-IL-WALL-FURRING-CLIP",
+      "from_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-WALL-FURRING-CLIP",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5324-IL-FURRED-MASONRY-LINING-ASSEMBLY-HAS-PART-AU-IL-WALL-LINING-FURRING-CHANNEL",
+      "from_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-WALL-LINING-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5325-IL-FURRED-MASONRY-LINING-ASSEMBLY-IS-A-AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5326-IL-FURRED-MASONRY-LINING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5328-IL-GENERAL-INTERNAL-FIBRE-CEMENT-SHEET-PART-OF-AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-GENERAL-INTERNAL-FIBRE-CEMENT-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5329-IL-GYPSUM-LINING-STUD-ADHESIVE-PART-OF-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-GYPSUM-LINING-STUD-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-SA-AS2753-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5330-IL-GYPSUM-LINING-STUD-ADHESIVE-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-GYPSUM-LINING-STUD-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-SA-AS2753-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5331-IL-HARDBOARD-INTERNAL-LINING-SHEET-PART-OF-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-HARDBOARD-INTERNAL-LINING-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5332-IL-HIGH-DENSITY-PLASTERBOARD-SHEET-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-HIGH-DENSITY-PLASTERBOARD-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-SA-ASNZS2588-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5333-IL-INTERIOR-BLOCKBOARD-PANEL-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-INTERIOR-BLOCKBOARD-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-BUILDING-CODEHUB-ASNZS2270-2006",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5334-IL-INTERIOR-PLYWOOD-LINING-SHEET-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-INTERIOR-PLYWOOD-LINING-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-BUILDING-CODEHUB-ASNZS2270-2006",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5336-IL-INTERNAL-CORNICE-ADHESIVE-PART-OF-AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-CORNICE-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5339-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5340-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5341-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-CURVED-LINING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CURVED-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5342-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5343-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5344-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5345-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-NSW-DRY-PLASTERING-WORK",
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5346-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5347-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-FIBRE-REINFORCED-GYPSUM-SHEET",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FIBRE-REINFORCED-GYPSUM-SHEET",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-NSW-DRY-PLASTERING-WORK"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-5348-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5349-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5350-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5351-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-MOVEMENT-CONTROL-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-MOVEMENT-CONTROL-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5352-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-MULTILAYER-LINING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-MULTILAYER-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5353-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5354-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5355-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-DUO-EXPOSED-GRID"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5356-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-BUILDING-CODEHUB-ASNZS2270-2006",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5357-IL-INTERNAL-LINING-TIMBER-BATTEN-PART-OF-AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-TIMBER-BATTEN",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5358-IL-INTERNAL-LINING-TIMBER-BATTEN-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-INTERNAL-LINING-TIMBER-BATTEN",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5364-IL-INTERNAL-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-LINING-SHEET-EDGE-BACKING-MEMBER",
+      "from_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-LINING-SHEET-EDGE-BACKING-MEMBER",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5365-IL-INTERNAL-WALL-LINING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5366-IL-LINING-CONTROL-JOINT-BEAD-PART-OF-AU-IL-MOVEMENT-CONTROL-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-LINING-CONTROL-JOINT-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-IL-MOVEMENT-CONTROL-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5367-IL-LINING-REPAIR-PATCH-ASSEMBLY-HAS-PART-AU-IL-FIBREGLASS-MESH-JOINT-TAPE",
+      "from_id": "AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-FIBREGLASS-MESH-JOINT-TAPE",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5368-IL-LINING-REPAIR-PATCH-ASSEMBLY-HAS-PART-AU-IL-LINING-SHEET-EDGE-BACKING-MEMBER",
+      "from_id": "AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-LINING-SHEET-EDGE-BACKING-MEMBER",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5369-IL-LINING-REPAIR-PATCH-ASSEMBLY-HAS-PART-AU-IL-REPAIR-BACKING-CLIP",
+      "from_id": "AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-REPAIR-BACKING-CLIP",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5370-IL-LINING-REPAIR-PATCH-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5371-IL-LINING-SHEET-EDGE-BACKING-MEMBER-PART-OF-AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-LINING-SHEET-EDGE-BACKING-MEMBER",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5372-IL-LINING-SHEET-EDGE-BACKING-MEMBER-PART-OF-AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "from_id": "AU-IL-LINING-SHEET-EDGE-BACKING-MEMBER",
+      "relationship": "part_of",
+      "to_id": "AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5373-IL-LINING-SHEET-EDGE-BACKING-MEMBER-PART-OF-AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "from_id": "AU-IL-LINING-SHEET-EDGE-BACKING-MEMBER",
+      "relationship": "part_of",
+      "to_id": "AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5374-IL-LINING-SUPPORT-PACKER-PART-OF-AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "from_id": "AU-IL-LINING-SUPPORT-PACKER",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5375-IL-MASONRY-DIRECT-FIX-LINING-ADHESIVE-BED-PART-OF-AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY",
+      "from_id": "AU-IL-MASONRY-DIRECT-FIX-LINING-ADHESIVE-BED",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5376-IL-MDF-DECORATIVE-LINING-PANEL-PART-OF-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-MDF-DECORATIVE-LINING-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5377-IL-METAL-LAY-IN-CEILING-PANEL-ALTERNATIVE-TO-AU-IL-MINERAL-FIBRE-CEILING-TILE",
+      "from_id": "AU-IL-METAL-LAY-IN-CEILING-PANEL",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-MINERAL-FIBRE-CEILING-TILE",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5378-IL-METAL-LAY-IN-CEILING-PANEL-PART-OF-AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-METAL-LAY-IN-CEILING-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5379-IL-MINERAL-FIBRE-CEILING-TILE-ALTERNATIVE-TO-AU-IL-METAL-LAY-IN-CEILING-PANEL",
+      "from_id": "AU-IL-MINERAL-FIBRE-CEILING-TILE",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-METAL-LAY-IN-CEILING-PANEL",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5380-IL-MINERAL-FIBRE-CEILING-TILE-ALTERNATIVE-TO-AU-IL-PLASTERBOARD-LAY-IN-CEILING-TILE",
+      "from_id": "AU-IL-MINERAL-FIBRE-CEILING-TILE",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PLASTERBOARD-LAY-IN-CEILING-TILE",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-RONDO-DUO-EXPOSED-GRID"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5381-IL-MINERAL-FIBRE-CEILING-TILE-PART-OF-AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-MINERAL-FIBRE-CEILING-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5382-IL-MOVEMENT-CONTROL-JOINT-ASSEMBLY-HAS-PART-AU-IL-LINING-CONTROL-JOINT-BEAD",
+      "from_id": "AU-IL-MOVEMENT-CONTROL-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-LINING-CONTROL-JOINT-BEAD",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5383-IL-MOVEMENT-CONTROL-JOINT-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-MOVEMENT-CONTROL-JOINT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5386-IL-MULTILAYER-LINING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-MULTILAYER-LINING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5388-IL-PAINTABLE-PERIMETER-GAP-SEALANT-PART-OF-AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "from_id": "AU-IL-PAINTABLE-PERIMETER-GAP-SEALANT",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5389-IL-PANEL-JOINT-COVER-STRIP-PART-OF-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PANEL-JOINT-COVER-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5390-IL-PANEL-JOINT-COVER-STRIP-PART-OF-AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-PANEL-JOINT-COVER-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5391-IL-PANEL-JOINT-COVER-STRIP-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-PANEL-JOINT-COVER-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5392-IL-PARTICLEBOARD-DECORATIVE-LINING-PANEL-PART-OF-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PARTICLEBOARD-DECORATIVE-LINING-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5394-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET-PART-OF-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5395-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5396-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY-HAS-PART-AU-IL-INTERNAL-CORNICE-ADHESIVE",
+      "from_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-INTERNAL-CORNICE-ADHESIVE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5397-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY-HAS-PART-AU-IL-PAINTABLE-PERIMETER-GAP-SEALANT",
+      "from_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PAINTABLE-PERIMETER-GAP-SEALANT",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5398-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-CASING-BEAD",
+      "from_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-CASING-BEAD",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5399-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-INTERNAL-CORNER-BEAD",
+      "from_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-INTERNAL-CORNER-BEAD",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5400-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT",
+      "from_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5401-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-STOPPING-BEAD",
+      "from_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-STOPPING-BEAD",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5402-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY-HAS-PART-AU-IL-SHADOWLINE-STOPPING-BEAD",
+      "from_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-SHADOWLINE-STOPPING-BEAD",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5403-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5404-IL-PLASTERBOARD-BACK-BLOCKING-ADHESIVE-PART-OF-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-BACK-BLOCKING-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5405-IL-PLASTERBOARD-BACK-BLOCKING-ADHESIVE-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-BACK-BLOCKING-ADHESIVE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5406-IL-PLASTERBOARD-BACK-BLOCKING-STRIP-PART-OF-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-BACK-BLOCKING-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5407-IL-PLASTERBOARD-BACK-BLOCKING-STRIP-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-BACK-BLOCKING-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5408-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY-ALTERNATIVE-TO-AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5409-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY-HAS-PART-AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "from_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5410-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY-HAS-PART-AU-IL-DRYING-TYPE-BASE-JOINT-COMPOUND",
+      "from_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DRYING-TYPE-BASE-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5411-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "from_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5412-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "from_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5413-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY-HAS-PART-AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "from_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5414-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY-PART-OF-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5415-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY-PART-OF-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5416-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5417-IL-PLASTERBOARD-CASING-BEAD-IS-A-AU-IL-PLASTERBOARD-STOPPING-BEAD",
+      "from_id": "AU-IL-PLASTERBOARD-CASING-BEAD",
+      "relationship": "is_a",
+      "to_id": "AU-IL-PLASTERBOARD-STOPPING-BEAD",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5418-IL-PLASTERBOARD-CASING-BEAD-PART-OF-AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-CASING-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5419-IL-PLASTERBOARD-EXTERNAL-CORNER-BEAD-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-EXTERNAL-CORNER-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5420-IL-PLASTERBOARD-FINISHING-COMPOUND-ALTERNATIVE-TO-AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "from_id": "AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5422-IL-PLASTERBOARD-FINISHING-COMPOUND-PART-OF-AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5423-IL-PLASTERBOARD-FINISHING-COMPOUND-PART-OF-AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5424-IL-PLASTERBOARD-INTERNAL-CORNER-BEAD-ALTERNATIVE-TO-AU-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT",
+      "from_id": "AU-IL-PLASTERBOARD-INTERNAL-CORNER-BEAD",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5425-IL-PLASTERBOARD-INTERNAL-CORNER-BEAD-PART-OF-AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-INTERNAL-CORNER-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5426-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT-ALTERNATIVE-TO-AU-IL-PLASTERBOARD-INTERNAL-CORNER-BEAD",
+      "from_id": "AU-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PLASTERBOARD-INTERNAL-CORNER-BEAD",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5427-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT-PART-OF-AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5428-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5429-IL-PLASTERBOARD-LAY-IN-CEILING-TILE-ALTERNATIVE-TO-AU-IL-MINERAL-FIBRE-CEILING-TILE",
+      "from_id": "AU-IL-PLASTERBOARD-LAY-IN-CEILING-TILE",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-MINERAL-FIBRE-CEILING-TILE",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-RONDO-DUO-EXPOSED-GRID"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5430-IL-PLASTERBOARD-LAY-IN-CEILING-TILE-PART-OF-AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-LAY-IN-CEILING-TILE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-RONDO-DUO-EXPOSED-GRID"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5431-IL-PLASTERBOARD-NAIL-ALTERNATIVE-TO-AU-IL-PLASTERBOARD-SCREW",
+      "from_id": "AU-IL-PLASTERBOARD-NAIL",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PLASTERBOARD-SCREW",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5432-IL-PLASTERBOARD-NAIL-PART-OF-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-NAIL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5433-IL-PLASTERBOARD-NAIL-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-NAIL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5436-IL-PLASTERBOARD-PAPER-JOINT-TAPE-PART-OF-AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5437-IL-PLASTERBOARD-PAPER-JOINT-TAPE-PART-OF-AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5438-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY-ALTERNATIVE-TO-AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5439-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY-HAS-PART-AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "from_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5440-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY-HAS-PART-AU-IL-DRYING-TYPE-BASE-JOINT-COMPOUND",
+      "from_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DRYING-TYPE-BASE-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5441-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "from_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5442-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "from_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5443-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY-HAS-PART-AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "from_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5444-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY-PART-OF-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5445-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY-PART-OF-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5446-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5448-IL-PLASTERBOARD-SCREW-ALTERNATIVE-TO-AU-IL-PLASTERBOARD-NAIL",
+      "from_id": "AU-IL-PLASTERBOARD-SCREW",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-PLASTERBOARD-NAIL",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5449-IL-PLASTERBOARD-SCREW-PART-OF-AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5450-IL-PLASTERBOARD-SCREW-PART-OF-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5451-IL-PLASTERBOARD-SCREW-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5452-IL-PLASTERBOARD-STOPPING-BEAD-PART-OF-AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-STOPPING-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5453-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-GYPSUM-LINING-STUD-ADHESIVE",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-GYPSUM-LINING-STUD-ADHESIVE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-SA-AS2753-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5454-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-HIGH-DENSITY-PLASTERBOARD-SHEET",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-HIGH-DENSITY-PLASTERBOARD-SHEET",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-SA-ASNZS2588-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5455-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5456-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-BACK-BLOCKING-ADHESIVE",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-BACK-BLOCKING-ADHESIVE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5457-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-BACK-BLOCKING-STRIP",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-BACK-BLOCKING-STRIP",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5458-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5459-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-EXTERNAL-CORNER-BEAD",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-EXTERNAL-CORNER-BEAD",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5460-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5461-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-NAIL",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-NAIL",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5462-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5463-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-PLASTERBOARD-SCREW",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PLASTERBOARD-SCREW",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5464-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-HAS-PART-AU-IL-STANDARD-GYPSUM-PLASTERBOARD-SHEET",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-STANDARD-GYPSUM-PLASTERBOARD-SHEET",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-SA-ASNZS2588-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5465-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-IS-A-AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5466-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5467-IL-PREFINISHED-FIBRE-CEMENT-PANEL-PART-OF-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PREFINISHED-FIBRE-CEMENT-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5468-IL-PREFINISHED-FIBRE-CEMENT-PANEL-PART-OF-AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-PREFINISHED-FIBRE-CEMENT-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5469-IL-REPAIR-BACKING-CLIP-PART-OF-AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "from_id": "AU-IL-REPAIR-BACKING-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-LINING-REPAIR-PATCH-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5471-IL-SERVICE-OPENING-LINING-ASSEMBLY-HAS-PART-AU-IL-LINING-SHEET-EDGE-BACKING-MEMBER",
+      "from_id": "AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-LINING-SHEET-EDGE-BACKING-MEMBER",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5472-IL-SERVICE-OPENING-LINING-ASSEMBLY-HAS-PART-AU-IL-SERVICE-OPENING-TRIMMER-FRAME",
+      "from_id": "AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-SERVICE-OPENING-TRIMMER-FRAME",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5473-IL-SERVICE-OPENING-LINING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-DUO-EXPOSED-GRID"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5474-IL-SERVICE-OPENING-TRIMMER-FRAME-PART-OF-AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "from_id": "AU-IL-SERVICE-OPENING-TRIMMER-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-DUO-EXPOSED-GRID",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5475-IL-SETTING-TYPE-BASE-JOINT-COMPOUND-ALTERNATIVE-TO-AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "from_id": "AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-ALL-PURPOSE-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5476-IL-SETTING-TYPE-BASE-JOINT-COMPOUND-ALTERNATIVE-TO-AU-IL-DRYING-TYPE-BASE-JOINT-COMPOUND",
+      "from_id": "AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-DRYING-TYPE-BASE-JOINT-COMPOUND",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5477-IL-SETTING-TYPE-BASE-JOINT-COMPOUND-PART-OF-AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5478-IL-SETTING-TYPE-BASE-JOINT-COMPOUND-PART-OF-AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "from_id": "AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5479-IL-SHADOWLINE-STOPPING-BEAD-IS-A-AU-IL-PLASTERBOARD-STOPPING-BEAD",
+      "from_id": "AU-IL-SHADOWLINE-STOPPING-BEAD",
+      "relationship": "is_a",
+      "to_id": "AU-IL-PLASTERBOARD-STOPPING-BEAD",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5480-IL-SHADOWLINE-STOPPING-BEAD-PART-OF-AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "from_id": "AU-IL-SHADOWLINE-STOPPING-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5481-IL-SHIPLAP-TIMBER-LINING-BOARD-ALTERNATIVE-TO-AU-IL-TONGUE-AND-GROOVE-TIMBER-LINING-BOARD",
+      "from_id": "AU-IL-SHIPLAP-TIMBER-LINING-BOARD",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-TONGUE-AND-GROOVE-TIMBER-LINING-BOARD",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5482-IL-SHIPLAP-TIMBER-LINING-BOARD-IS-A-AU-IL-SOLID-TIMBER-LINING-BOARD",
+      "from_id": "AU-IL-SHIPLAP-TIMBER-LINING-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-IL-SOLID-TIMBER-LINING-BOARD",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5483-IL-SHIPLAP-TIMBER-LINING-BOARD-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-SHIPLAP-TIMBER-LINING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5484-IL-SOLID-TIMBER-LINING-BOARD-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-SOLID-TIMBER-LINING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5485-IL-STANDARD-GYPSUM-PLASTERBOARD-SHEET-PART-OF-AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-STANDARD-GYPSUM-PLASTERBOARD-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS",
+        "SRC-SA-ASNZS2588-2018"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5486-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-CONCEALED-LINING-PANEL-CLIP",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-CONCEALED-LINING-PANEL-CLIP",
+      "source_ids": [
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5487-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-DECORATIVE-PANEL-ADHESIVE",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DECORATIVE-PANEL-ADHESIVE",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5488-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-DECORATIVE-PANEL-NAIL",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DECORATIVE-PANEL-NAIL",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5489-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-DECORATIVE-PANEL-SCREW",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-DECORATIVE-PANEL-SCREW",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5490-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-INTERIOR-BLOCKBOARD-PANEL",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-INTERIOR-BLOCKBOARD-PANEL",
+      "source_ids": [
+        "SRC-BUILDING-CODEHUB-ASNZS2270-2006",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5491-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-INTERIOR-PLYWOOD-LINING-SHEET",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-INTERIOR-PLYWOOD-LINING-SHEET",
+      "source_ids": [
+        "SRC-BUILDING-CODEHUB-ASNZS2270-2006",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5492-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-INTERNAL-LINING-TIMBER-BATTEN",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-INTERNAL-LINING-TIMBER-BATTEN",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5493-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-PANEL-JOINT-COVER-STRIP",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-PANEL-JOINT-COVER-STRIP",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5494-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-SHIPLAP-TIMBER-LINING-BOARD",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-SHIPLAP-TIMBER-LINING-BOARD",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5495-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-SOLID-TIMBER-LINING-BOARD",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-SOLID-TIMBER-LINING-BOARD",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5496-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-TIMBER-SLAT-LINING-MEMBER",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-TIMBER-SLAT-LINING-MEMBER",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5497-IL-TIMBER-PANELLING-ASSEMBLY-HAS-PART-AU-IL-TONGUE-AND-GROOVE-TIMBER-LINING-BOARD",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-IL-TONGUE-AND-GROOVE-TIMBER-LINING-BOARD",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5498-IL-TIMBER-PANELLING-ASSEMBLY-IS-A-AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-BUILDING-CODEHUB-ASNZS2270-2006",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5499-IL-TIMBER-PANELLING-ASSEMBLY-PART-OF-AU-IL-INTERNAL-LINING-SYSTEM",
+      "from_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "source_ids": [
+        "SRC-BUILDING-CODEHUB-ASNZS2270-2006",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5500-IL-TIMBER-SLAT-LINING-MEMBER-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-TIMBER-SLAT-LINING-MEMBER",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5501-IL-TONGUE-AND-GROOVE-TIMBER-LINING-BOARD-ALTERNATIVE-TO-AU-IL-SHIPLAP-TIMBER-LINING-BOARD",
+      "from_id": "AU-IL-TONGUE-AND-GROOVE-TIMBER-LINING-BOARD",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-SHIPLAP-TIMBER-LINING-BOARD",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5502-IL-TONGUE-AND-GROOVE-TIMBER-LINING-BOARD-IS-A-AU-IL-SOLID-TIMBER-LINING-BOARD",
+      "from_id": "AU-IL-TONGUE-AND-GROOVE-TIMBER-LINING-BOARD",
+      "relationship": "is_a",
+      "to_id": "AU-IL-SOLID-TIMBER-LINING-BOARD",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5503-IL-TONGUE-AND-GROOVE-TIMBER-LINING-BOARD-PART-OF-AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "from_id": "AU-IL-TONGUE-AND-GROOVE-TIMBER-LINING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-IL-TIMBER-PANELLING-ASSEMBLY",
+      "source_ids": [
+        "SRC-EASYCRAFT-INTERNAL-LINING-INSTALL",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5504-IL-TOP-CROSS-RAIL-JOINER-CONNECTS-TO-AU-IL-CEILING-TOP-CROSS-RAIL",
+      "from_id": "AU-IL-TOP-CROSS-RAIL-JOINER",
+      "relationship": "connects_to",
+      "to_id": "AU-IL-CEILING-TOP-CROSS-RAIL",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5505-IL-TOP-CROSS-RAIL-JOINER-PART-OF-AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "from_id": "AU-IL-TOP-CROSS-RAIL-JOINER",
+      "relationship": "part_of",
+      "to_id": "AU-IL-CEILING-SUSPENSION-SYSTEM",
+      "source_ids": [
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5506-IL-WALL-FURRING-CLIP-PART-OF-AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "from_id": "AU-IL-WALL-FURRING-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5507-IL-WALL-FURRING-CLIP-SUPPORTS-AU-IL-WALL-LINING-FURRING-CHANNEL",
+      "from_id": "AU-IL-WALL-FURRING-CLIP",
+      "relationship": "supports",
+      "to_id": "AU-IL-WALL-LINING-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5509-IL-WALL-LINING-FURRING-CHANNEL-PART-OF-AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "from_id": "AU-IL-WALL-LINING-FURRING-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5510-IL-WALL-LINING-FURRING-CHANNEL-SUPPORTED-BY-AU-IL-WALL-FURRING-CLIP",
+      "from_id": "AU-IL-WALL-LINING-FURRING-CHANNEL",
+      "relationship": "supported_by",
+      "to_id": "AU-IL-WALL-FURRING-CLIP",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-5166-IL-CEILING-FURRING-CHANNEL-ALTERNATIVE-TO-AU-SF-CEILING-BATTEN",
+      "from_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-CEILING-BATTEN",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5174-IL-CEILING-GRADE-PLASTERBOARD-SHEET-IS-A-AU-HA-PLASTERBOARD-CEILING-SHEET",
+      "from_id": "AU-IL-CEILING-GRADE-PLASTERBOARD-SHEET",
+      "relationship": "is_a",
+      "to_id": "AU-HA-PLASTERBOARD-CEILING-SHEET",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5216-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY-COMMONLY-USED-WITH-AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "from_id": "AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED",
+        "SRC-SA-ASNZS2785-2020"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5254-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY-COMMONLY-USED-WITH-AU-MA-MASONRY-WALL",
+      "from_id": "AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5259-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-COMMONLY-USED-WITH-AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5260-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-COMMONLY-USED-WITH-AU-SF-CEILING-BATTEN",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-SF-CEILING-BATTEN",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5261-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY-COMMONLY-USED-WITH-AU-TF-CEILING-JOIST",
+      "from_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TF-CEILING-JOIST",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5300-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY-COMMONLY-USED-WITH-AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "from_id": "AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WP-WET-AREA-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5320-IL-FURRED-MASONRY-LINING-ASSEMBLY-COMMONLY-USED-WITH-AU-MA-MASONRY-WALL",
+      "from_id": "AU-IL-FURRED-MASONRY-LINING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5327-IL-GENERAL-INTERNAL-FIBRE-CEMENT-SHEET-COMMONLY-USED-WITH-AU-WP-FC-WET-AREA-WALL-SHEET",
+      "from_id": "AU-IL-GENERAL-INTERNAL-FIBRE-CEMENT-SHEET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WP-FC-WET-AREA-WALL-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-CEMINTEL-INTERNAL-LINING",
+        "SRC-JH-VILLABOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5335-IL-INTERNAL-CORNICE-ADHESIVE-COMMONLY-USED-WITH-AU-HA-INTERNAL-CEILING-CORNICE",
+      "from_id": "AU-IL-INTERNAL-CORNICE-ADHESIVE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-INTERNAL-CEILING-CORNICE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5337-IL-INTERNAL-LINING-SYSTEM-COMMONLY-USED-WITH-AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-V2-A5-PAINTING-BOUNDARY",
+        "SRC-SA-AS3730-0-2006",
+        "SRC-SA-ASNZS2310-2002",
+        "SRC-SA-ASNZS2311-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5338-IL-INTERNAL-LINING-SYSTEM-HAS-PART-AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "from_id": "AU-IL-INTERNAL-LINING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DF-INTERNAL-CEILING-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5359-IL-INTERNAL-WALL-LINING-ASSEMBLY-COMMONLY-USED-WITH-AU-MA-MASONRY-WALL",
+      "from_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5360-IL-INTERNAL-WALL-LINING-ASSEMBLY-COMMONLY-USED-WITH-AU-SF-WALL-FRAME",
+      "from_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5361-IL-INTERNAL-WALL-LINING-ASSEMBLY-COMMONLY-USED-WITH-AU-TF-WALL-FRAME",
+      "from_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5362-IL-INTERNAL-WALL-LINING-ASSEMBLY-HAS-PART-AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "from_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-INTERNAL-WALL-PAINT-SYSTEM",
+      "source_ids": [
+        "SRC-DULUX-PAINT-PREPARATION",
+        "SRC-SA-ASNZS2311-2017",
+        "SRC-WATTYL-ARCHITECTURAL-PAINT-DATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5363-IL-INTERNAL-WALL-LINING-ASSEMBLY-HAS-PART-AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "from_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-DF-WALLCOVERING-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-MILTON-KING-WALLPAPER-INSTALL",
+        "SRC-TGA-CPCCPD3027-WALLPAPER",
+        "SRC-TGA-CPCCPD3032-WALLCOVERINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5384-IL-MULTILAYER-LINING-ASSEMBLY-COMMONLY-USED-WITH-AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "from_id": "AU-IL-MULTILAYER-LINING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5385-IL-MULTILAYER-LINING-ASSEMBLY-COMMONLY-USED-WITH-AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "from_id": "AU-IL-MULTILAYER-LINING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-ACOUSTIC-PLASTERBOARD-LINING",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5387-IL-PAINTABLE-PERIMETER-GAP-SEALANT-ALTERNATIVE-TO-AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "from_id": "AU-IL-PAINTABLE-PERIMETER-GAP-SEALANT",
+      "relationship": "alternative_to",
+      "to_id": "AU-HA-ACOUSTIC-PERIMETER-SEALANT",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5393-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET-COMMONLY-USED-WITH-AU-HA-ACOUSTIC-WALL-CAVITY",
+      "from_id": "AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-ACOUSTIC-WALL-CAVITY",
+      "source_ids": [
+        "SRC-GYPROCK-RED-BOOK",
+        "SRC-KNAUF-PLASTERBOARD-PRODUCTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5421-IL-PLASTERBOARD-FINISHING-COMPOUND-COMMONLY-USED-WITH-AU-ID-FLUSH-FRAME-FINISHING-FLANGE",
+      "from_id": "AU-IL-PLASTERBOARD-FINISHING-COMPOUND",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-FLUSH-FRAME-FINISHING-FLANGE",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5434-IL-PLASTERBOARD-PAPER-JOINT-TAPE-ALTERNATIVE-TO-AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE",
+      "from_id": "AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "relationship": "alternative_to",
+      "to_id": "AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5435-IL-PLASTERBOARD-PAPER-JOINT-TAPE-ALTERNATIVE-TO-AU-HA-ACOUSTIC-LINING-JOINT-TAPE",
+      "from_id": "AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE",
+      "relationship": "alternative_to",
+      "to_id": "AU-HA-ACOUSTIC-LINING-JOINT-TAPE",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5447-IL-PLASTERBOARD-SCREW-ALTERNATIVE-TO-AU-FS-FIRE-LINING-SCREW",
+      "from_id": "AU-IL-PLASTERBOARD-SCREW",
+      "relationship": "alternative_to",
+      "to_id": "AU-FS-FIRE-LINING-SCREW",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-SA-ASNZS2589-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5470-IL-SERVICE-OPENING-LINING-ASSEMBLY-COMMONLY-USED-WITH-AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY",
+      "from_id": "AU-IL-SERVICE-OPENING-LINING-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-DUO-EXPOSED-GRID"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5508-IL-WALL-LINING-FURRING-CHANNEL-ALTERNATIVE-TO-AU-CL-WALL-FURRING-CHANNEL",
+      "from_id": "AU-IL-WALL-LINING-FURRING-CHANNEL",
+      "relationship": "alternative_to",
+      "to_id": "AU-CL-WALL-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

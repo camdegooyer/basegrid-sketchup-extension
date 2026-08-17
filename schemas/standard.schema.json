@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://buildgrid.local/schemas/standard.schema.json",
+  "title": "Buildgrid referenced standard metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "designation",
+    "edition",
+    "title",
+    "publisher",
+    "document_kind",
+    "directly_referenced_by_housing_provisions",
+    "housing_provisions_references",
+    "ncc_reference_status",
+    "discipline_tags",
+    "ontology_relevance",
+    "access_status",
+    "public_metadata_url",
+    "source_ids",
+    "current_publication_note",
+    "notes"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Z0-9-]+$"},
+    "designation": {"type": "string", "minLength": 1},
+    "edition": {"type": ["string", "null"]},
+    "title": {"type": "string", "minLength": 1},
+    "publisher": {"type": "string", "minLength": 1},
+    "document_kind": {
+      "enum": ["Australian Standard", "Australian/New Zealand Standard", "International Standard", "supporting standard", "supporting handbook", "code"]
+    },
+    "directly_referenced_by_housing_provisions": {"type": "boolean"},
+    "housing_provisions_references": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "ncc_reference_status": {
+      "enum": ["verified", "unverified", "not_directly_referenced"]
+    },
+    "discipline_tags": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "ontology_relevance": {
+      "enum": ["object_rich", "object_supporting", "mainly_design_or_test"]
+    },
+    "access_status": {
+      "enum": ["public_code", "metadata_only", "public_guidance"]
+    },
+    "public_metadata_url": {"type": ["string", "null"], "format": "uri"},
+    "source_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "current_publication_note": {"type": ["string", "null"]},
+    "notes": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    }
+  }
+}

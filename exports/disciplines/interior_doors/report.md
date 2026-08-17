@@ -1,0 +1,231 @@
+# Interior Doors discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 98
+- Internal relationships: 227
+- Outgoing cross-discipline relationships: 68
+- Distinct supporting sources: 20
+- Distinct linked standards: 8
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 80.6%
+- Objects with two or more sources: 100.0%
+
+## Categories
+
+- cavity slider control components: 1
+- cavity slider frame components: 2
+- cavity slider lock components: 4
+- door closer components: 3
+- door control assemblies: 2
+- door furniture components: 4
+- door hardware assemblies: 1
+- door stops: 3
+- door system assemblies: 1
+- door trim assemblies: 1
+- door trim components: 3
+- flush door leaves: 4
+- flush frame components: 2
+- flush leaf core components: 3
+- flush leaf face components: 1
+- folding door components: 8
+- folding door hardware assemblies: 1
+- frame hardware components: 2
+- frame trim assemblies: 1
+- hinge components: 3
+- internal door frames: 4
+- joinery door leaves: 1
+- joinery leaf components: 1
+- joinery leaf members: 5
+- latchset components: 4
+- leaf assemblies: 1
+- leaf edge components: 1
+- leaf openings: 1
+- lock components: 4
+- louvred leaf components: 1
+- multi leaf door assemblies: 1
+- multi leaf door components: 1
+- multi leaf door hardware: 1
+- operating hardware assemblies: 4
+- privacy hardware components: 1
+- sliding door furniture: 2
+- sliding door hardware: 1
+- sliding door hardware assemblies: 2
+- sliding door trim components: 1
+- special internal door leaves: 2
+- surface slider components: 4
+- swing door hardware: 5
+
+## Objects
+
+- **blockboard-core flush internal door leaf** (`AU-ID-BLOCKBOARD-CORE-FLUSH-DOOR-LEAF`) — A flush internal door leaf whose core is built from closely arranged timber strips or blocks faced with sheet material to form a stiff, relatively dense panel.
+- **butt-hinge leaf plate** (`AU-ID-BUTT-HINGE-LEAF`) — One of the two flat plates of a butt hinge, containing screw holes and rolled knuckles and fixed to either the door leaf or the jamb.
+- **butt-hinge pin** (`AU-ID-BUTT-HINGE-PIN`) — The axial metal pin passing through the interleaved knuckles of a butt hinge to connect its two leaves and form the rotation axis.
+- **cavity sliding-door hook bolt** (`AU-ID-CAVITY-SLIDER-HOOK-BOLT`) — A hooked or beaked locking bolt projecting from a cavity-slider lock body and engaging a matching strike to resist the leaf sliding open.
+- **cavity sliding-door lock body** (`AU-ID-CAVITY-SLIDER-LOCK-BODY`) — A compact lock or latch mechanism recessed into a cavity-sliding door leaf and arranged to operate within the limited clearance of the wall pocket.
+- **cavity sliding-door lock strike** (`AU-ID-CAVITY-SLIDER-LOCK-STRIKE`) — A strike plate fixed to the cavity-slider closing jamb and shaped to receive the selected sliding-door latch or hook bolt.
+- **cavity sliding-door soft-close damper** (`AU-ID-CAVITY-SLIDER-SOFT-CLOSE-DAMPER`) — A track-mounted capture and damping device that engages a moving cavity-slider leaf near the end of travel and draws or slows it into the selected open or closed position.
+- **cavity sliding-door strike box** (`AU-ID-CAVITY-SLIDER-STRIKE-BOX`) — A recessed receiving box behind a cavity-slider strike plate, providing depth and enclosure for the projected hook, bolt or latch.
+- **cavity-slider closing jamb** (`AU-ID-CAVITY-SLIDER-CLOSING-JAMB`) — The fixed vertical jamb at the closing side of a cavity-slider opening, receiving the leaf edge and any strike, seal, rebate or recessed closing profile.
+- **cavity-slider split-jamb lining member** (`AU-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING`) — One of the narrow finished vertical members at the mouth of a cavity-slider pocket, flanking the moving leaf while maintaining clearance into the pocket.
+- **cavity-slider square-set reveal trim** (`AU-ID-CAVITY-SLIDER-SQUARE-SET-REVEAL`) — A formed trim section used at a cavity-slider opening to finish the lining directly into the split or closing jamb zone without applied timber architrave.
+- **cavity-sliding internal door hardware assembly** (`AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY`) — The track, hangers, guide, stops, soft-close device, pulls and optional latch or lock hardware coordinating a door leaf that slides into a framed wall pocket.
+- **concealed internal door hinge** (`AU-ID-CONCEALED-INTERNAL-DOOR-HINGE`) — A multi-link or pivoting hinge recessed into the door edge and frame so most or all of the hinge is hidden when the leaf is closed.
+- **controlled internal door closer assembly** (`AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY`) — A mechanical closer with a spring and damping mechanism connected between an internal swing leaf and its frame to return the opened leaf toward the closed position at a controlled speed.
+- **door closer articulated arm** (`AU-ID-DOOR-CLOSER-ARM`) — A jointed metal linkage connecting a surface closer spindle to the leaf or frame shoe and transmitting movement between the door and closer body.
+- **door closer slide rail** (`AU-ID-DOOR-CLOSER-SLIDE-RAIL`) — A linear channel containing a sliding block connected to a closer arm, used in place of a projecting articulated-arm shoe arrangement.
+- **door leaf honeycomb core infill** (`AU-ID-HONEYCOMB-CORE-INFILL`) — A lightweight cellular web placed between the face skins of a hollow-core door leaf to separate and stabilise them over the field of the leaf.
+- **double internal swing-door meeting assembly** (`AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY`) — The meeting-edge arrangement of two hinged internal door leaves, including active and inactive leaf roles, clearances, overlap or astragal and any coordinating bolts or latches.
+- **fixed-pin internal door butt hinge** (`AU-ID-FIXED-PIN-BUTT-HINGE`) — A butt hinge with a pin retained against normal removal, keeping both hinge leaves permanently connected during ordinary use.
+- **floor-mounted internal door stop** (`AU-ID-FLOOR-MOUNTED-DOOR-STOP`) — A low stop fixed to the floor and positioned to contact the door leaf at its intended maximum opening angle.
+- **flush door leaf face skin** (`AU-ID-FLUSH-LEAF-FACE-SKIN`) — A thin continuous sheet bonded to one face of a flush internal door leaf over its core and perimeter frame.
+- **flush door leaf perimeter frame** (`AU-ID-FLUSH-LEAF-PERIMETER-FRAME`) — The concealed timber or engineered-wood edge frame around a hollow or composite flush door leaf, bonding the faces and forming reinforced leaf edges.
+- **flush door-frame finishing flange** (`AU-ID-FLUSH-FRAME-FINISHING-FLANGE`) — A perforated or textured flange along a flush-finish metal door frame that is fixed over the lining edge and embedded in the jointing finish.
+- **flush door-frame latch-plate insert** (`AU-ID-FLUSH-FRAME-LATCH-INSERT`) — A prepared metal insert or reinforced recess in a flush-finish door frame that receives and positions the selected latch strike plate.
+- **flush internal door leaf** (`AU-ID-FLUSH-INTERNAL-DOOR-LEAF`) — An internal door leaf with substantially flat continuous faces fixed over a framed, cellular, blockboard or solid core rather than exposed stile-and-rail panels.
+- **flush-finish steel internal door frame** (`AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME`) — A formed steel internal door frame with perforated or prepared side flanges finished into the wall lining so the opening can be completed without conventional face architraves.
+- **glazed internal door leaf** (`AU-ID-GLAZED-INTERNAL-DOOR-LEAF`) — An internal door leaf containing one or more openings fitted with glass and its separate retention and glazing materials.
+- **hollow-core flush internal door leaf** (`AU-ID-HOLLOW-CORE-FLUSH-DOOR-LEAF`) — A lightweight flush internal door leaf whose thin face skins are stabilised by a perimeter frame and sparse internal framing or cellular infill rather than a continuous solid core.
+- **inactive-leaf flush bolt** (`AU-ID-INACTIVE-LEAF-FLUSH-BOLT`) — A recessed sliding bolt in the edge or face of an inactive door leaf that engages the frame head, floor or threshold to hold that leaf closed.
+- **internal door architrave head piece** (`AU-ID-DOOR-ARCHITRAVE-HEAD`) — The horizontal architrave member across the top of an internal door frame, joined to the two vertical architrave pieces.
+- **internal door architrave jamb piece** (`AU-ID-DOOR-ARCHITRAVE-JAMB`) — One vertical architrave member beside an internal door frame, covering the jamb-to-wall lining junction from floor or skirting to the head trim.
+- **internal door architrave set** (`AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET`) — The room-side trim around an internal door opening, normally formed by two jamb pieces and one head piece that cover the frame-to-wall lining junction.
+- **internal door butt hinge** (`AU-ID-INTERNAL-DOOR-BUTT-HINGE`) — A two-leaf hinge with a central pin, morticed or surface-fixed at the edge of a swing door leaf and its jamb to form the rotation axis.
+- **internal door construction system** (`AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM`) — The coordinated internal door leaves, frames, trim, hinges, sliding or folding gear, latches, locks, pulls, stops, closers and junctions used to close or control an opening between indoor spaces.
+- **internal door deadbolt** (`AU-ID-INTERNAL-DOOR-DEADBOLT`) — A positive locking bolt moved by a key or turn rather than by spring action, projecting from the door edge into a matching strike when locked.
+- **internal door frame and trim assembly** (`AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY`) — The fixed internal doorway frame, packers, fixings, stop or rebate and its room-side architrave or flush-finish lining junctions.
+- **internal door handle backplate** (`AU-ID-DOOR-HANDLE-BACKPLATE`) — An elongated plate mounted behind a door lever or knob, often also carrying a keyhole, turn, cylinder or privacy control opening.
+- **internal door handle rose** (`AU-ID-DOOR-HANDLE-ROSE`) — A round, square or shaped trim and mounting piece surrounding the spindle at the base of a door lever or knob on the leaf face.
+- **internal door handle spindle** (`AU-ID-DOOR-HANDLE-SPINDLE`) — A square or profiled bar passing through the door leaf and latch or lock follower to connect operating handles on opposite sides.
+- **internal door hardware system** (`AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM`) — The coordinated movement, operating, latching, locking, stopping and closing hardware fitted to an internal door leaf and frame.
+- **internal door hinge screw** (`AU-ID-INTERNAL-DOOR-HINGE-SCREW`) — A screw fixing a hinge leaf plate to the door leaf or frame through its countersunk or prepared holes.
+- **internal door knob** (`AU-ID-INTERNAL-DOOR-KNOB`) — A rounded or shaped rotary grip connected to a spindle or lock mechanism to operate an internal door latch or lock.
+- **internal door latch faceplate** (`AU-ID-LATCH-FACEPLATE`) — A small plate fixed to the door edge around the projecting latch bolt, covering the latch case entry and providing a finished fixing face.
+- **internal door latch strike plate** (`AU-ID-DOOR-LATCH-STRIKE-PLATE`) — A metal plate fixed to the closing jamb with an opening that receives the latch bolt and a lip or shaped edge that guides it as the leaf closes.
+- **internal door leaf bottom rail** (`AU-ID-DOOR-LEAF-BOTTOM-RAIL`) — The lowest horizontal member joining the stiles of a panelled internal door leaf and closing the bottom of its panel layout.
+- **internal door leaf construction assembly** (`AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY`) — The complete internal door leaf build-up, including its face skins or joinery members, core or infill, perimeter frame or lippings, lock reinforcement, openings and finish.
+- **internal door leaf edge lipping** (`AU-ID-DOOR-LEAF-EDGE-LIPPING`) — A narrow solid edge strip bonded to a door leaf to finish, protect or locally strengthen an exposed leaf edge and permit documented trimming or hardware preparation.
+- **internal door leaf glazing aperture** (`AU-ID-INTERNAL-DOOR-GLAZING-APERTURE`) — A prepared opening through an internal door leaf that is framed and sized to receive a glass pane with its retention and clearance system.
+- **internal door leaf infill panel** (`AU-ID-DOOR-LEAF-PANEL`) — A solid, sheet or moulded infill fitted within the stiles, rails or muntins of a panelled internal door leaf.
+- **internal door leaf intermediate rail** (`AU-ID-DOOR-LEAF-MID-RAIL`) — A horizontal member between the top and bottom rails of a panelled internal door leaf, used to divide and support the panel arrangement.
+- **internal door leaf lock block** (`AU-ID-DOOR-LEAF-LOCK-BLOCK`) — A local solid reinforcement concealed inside a lightweight door leaf near the closing edge to receive a compatible latch, lock or furniture fixing preparation.
+- **internal door leaf muntin** (`AU-ID-DOOR-LEAF-MUNTIN`) — A narrow intermediate member that subdivides panel or glazing openings within a panelled internal door leaf.
+- **internal door leaf stile** (`AU-ID-DOOR-LEAF-STILE`) — A vertical edge or intermediate member in a panelled internal door leaf, including the hinge stile and lock or meeting stile roles.
+- **internal door leaf top rail** (`AU-ID-DOOR-LEAF-TOP-RAIL`) — The upper horizontal member joining the stiles of a panelled internal door leaf and closing the top of its panel layout.
+- **internal door lever handle** (`AU-ID-INTERNAL-DOOR-LEVER-HANDLE`) — A projecting lever gripped or pressed by the user and connected through a spindle or lock mechanism to operate an internal door latch or lock.
+- **internal door lock cylinder** (`AU-ID-DOOR-LOCK-CYLINDER`) — A keyed removable or integrated cylinder that accepts the authorised key and drives the locking mechanism of an internal or interconnecting door lock.
+- **internal door lock escutcheon** (`AU-ID-DOOR-LOCK-ESCUTCHEON`) — A small trim plate or rose surrounding a keyhole, cylinder or privacy control on the face of a door leaf.
+- **internal door louvre blade** (`AU-ID-INTERNAL-DOOR-LOUVRE-BLADE`) — One repeated angled or profiled slat spanning a louvred door-leaf opening and fixed into the surrounding leaf frame or blade carriers.
+- **internal door mortice lock body** (`AU-ID-MORTICE-LOCK-BODY`) — A rectangular lock case recessed into the edge of a door leaf and containing the latch, bolt, followers, springs and key or turn mechanisms for the selected function.
+- **internal door open-position stop assembly** (`AU-ID-INTERNAL-DOOR-STOP-ASSEMBLY`) — A wall-, floor- or frame-mounted fitting that limits the open movement of an internal swing door and protects the leaf, handle, wall or nearby objects from impact.
+- **internal door pivot set** (`AU-ID-INTERNAL-DOOR-PIVOT-SET`) — A top-and-bottom pivot hardware pair supporting a swing door about an axis offset or aligned near its edge instead of using conventional side butt hinges.
+- **internal door privacy turn** (`AU-ID-PRIVACY-TURN`) — An inside thumbturn, snib, button or similar control used to engage and release the privacy function of an internal lock or latchset.
+- **internal door spring latch bolt** (`AU-ID-SPRING-LATCH-BOLT`) — The bevelled or shaped spring-loaded bolt that projects from a latch case into the frame strike and retracts when the handle operates.
+- **internal door strike dust box** (`AU-ID-DOOR-STRIKE-DUST-BOX`) — A small recessed box behind a latch or bolt strike opening that closes the jamb cavity and receives the projected bolt.
+- **internal door tubular latch** (`AU-ID-TUBULAR-LATCH`) — A compact cylindrical or tubular spring-latch mechanism inserted from the door edge and operated by a transverse spindle through the leaf.
+- **internal double-door astragal** (`AU-ID-DOOR-MEETING-ASTRAGAL`) — A vertical strip fixed to or formed at the meeting edge of one leaf in a door pair to cover, rebate or seal the joint between the two leaves.
+- **internal dummy door furniture set** (`AU-ID-DUMMY-DOOR-FURNITURE-SET`) — A fixed handle or knob set attached to a door leaf without a spindle-operated latch, used as a pull or to match nearby operating furniture.
+- **internal folding-door bottom jamb bracket** (`AU-ID-FOLDING-DOOR-JAMB-BRACKET`) — A bracket fixed at the floor and pivot jamb that contains or supports the bottom pivot socket of a folding-door panel group.
+- **internal folding-door bottom pivot** (`AU-ID-FOLDING-DOOR-BOTTOM-PIVOT`) — The lower pivot pin and adjustment fitting at the jamb-side folding panel, seating in a floor or jamb bracket and forming the lower end of the pivot axis.
+- **internal folding-door hardware assembly** (`AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY`) — The head track, pivots, guides, inter-panel hinges, jamb bracket, aligners, stops, pulls and fixings that coordinate two or more internal door panels folding together.
+- **internal folding-door head track** (`AU-ID-FOLDING-DOOR-HEAD-TRACK`) — A horizontal channel fixed under the opening head that carries or guides the top pivot and guide hardware of an internal folding door.
+- **internal folding-door inter-panel hinge** (`AU-ID-FOLDING-DOOR-INTERPANEL-HINGE`) — A hinge connecting two neighbouring folding-door panels so they rotate relative to each other while moving as a linked pair or group.
+- **internal folding-door panel aligner** (`AU-ID-FOLDING-DOOR-ALIGNER`) — A small paired fitting on multi-panel folding doors that brings adjacent guide panels into alignment when the assembly reaches the closed position.
+- **internal folding-door top guide** (`AU-ID-FOLDING-DOOR-TOP-GUIDE`) — A travelling pin, roller or slider at the top of the guide-side folding panel that moves along the head track as the panels fold and unfold.
+- **internal folding-door top pivot** (`AU-ID-FOLDING-DOOR-TOP-PIVOT`) — A pivot pin and socket at the top of the jamb-side folding panel, locating the upper end of the fixed folding axis in the head track or bracket.
+- **internal folding-door track stop** (`AU-ID-FOLDING-DOOR-TRACK-STOP`) — An adjustable stop within a folding-door head track that contacts the top guide or related hardware to set the final panel position and resist over-travel.
+- **internal passage latchset** (`AU-ID-PASSAGE-LATCHSET`) — A non-locking internal door furniture set with handles or knobs, spindle, spring latch, faceplate, strike, fixings and trims for a freely operable passage door.
+- **internal privacy latchset** (`AU-ID-PRIVACY-LATCHSET`) — An internal latchset with inside privacy control and an outside emergency-release provision, typically used for a bathroom, ensuite or bedroom where keyed security is not intended.
+- **internal sliding-door edge pull** (`AU-ID-INTERNAL-SLIDING-DOOR-EDGE-PULL`) — A retractable or folding pull fitted into the closing edge of a sliding door leaf so a leaf parked inside a cavity can be drawn out.
+- **internal sliding-door flush pull** (`AU-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL`) — A recessed hand pull set into the broad face of a sliding door leaf so it projects little or not at all beyond the leaf surface.
+- **internal sliding-door track pelmet** (`AU-ID-SLIDING-DOOR-TRACK-PELMET`) — A removable or fixed cover enclosing or screening the visible head track and roller hardware of a surface or cavity sliding door.
+- **internal sliding-door track stop** (`AU-ID-INTERNAL-SLIDING-TRACK-STOP`) — A fixed resilient stop at a sliding-door track end or selected travel limit that contacts the hanger or leaf hardware and prevents over-travel.
+- **keyed internal door lockset** (`AU-ID-KEYED-INTERNAL-LOCKSET`) — A door lockset used at an internal or interconnecting doorway with a key-operated outside function and compatible inside control, latch or bolt, strike and furniture.
+- **loose-pin internal door butt hinge** (`AU-ID-LOOSE-PIN-BUTT-HINGE`) — A butt hinge whose removable pin allows the two hinge leaves and the door leaf to be separated without removing the hinge screws.
+- **louvred internal door leaf** (`AU-ID-LOUVRED-INTERNAL-DOOR-LEAF`) — An internal door leaf containing a field of angled or profiled blades held within a leaf frame to permit a selected degree of air and visual passage.
+- **magnetic internal door stop and holder** (`AU-ID-MAGNETIC-DOOR-STOP-HOLDER`) — A two-part door stop with a floor- or wall-mounted magnetic catch and a matching leaf plate that limits swing and can retain the door in the open position.
+- **panelled internal door leaf** (`AU-ID-PANELLED-INTERNAL-DOOR-LEAF`) — An internal door leaf formed as a visible stile-and-rail framework containing one or more solid, sheet, moulded or glazed panels rather than continuous flush faces.
+- **rebated internal door jamb set** (`AU-ID-REBATED-INTERNAL-DOOR-JAMB-SET`) — An internal door jamb set whose head and jamb profiles include an integral step or rebate against which the closed leaf bears.
+- **solid-core flush internal door leaf** (`AU-ID-SOLID-CORE-FLUSH-DOOR-LEAF`) — A flush internal door leaf with a substantially continuous dense core behind its face skins, selected where greater mass, robustness or hardware support is wanted.
+- **split internal door jamb set** (`AU-ID-SPLIT-INTERNAL-DOOR-JAMB-SET`) — An adjustable internal door frame made from overlapping or interlocking jamb halves that wrap the finished wall thickness and are assembled around the opening.
+- **surface-mounted door closer body** (`AU-ID-SURFACE-DOOR-CLOSER-BODY`) — The visible surface-mounted housing containing the spring, piston, hydraulic damping and adjustment parts of a controlled door closer.
+- **surface-sliding door anti-jump fitting** (`AU-ID-SURFACE-SLIDER-ANTI-JUMP-FITTING`) — A small restraint mounted to the sliding leaf or roller assembly that limits upward movement and helps prevent the roller leaving an exposed track.
+- **surface-sliding door track bracket** (`AU-ID-SURFACE-SLIDER-TRACK-BRACKET`) — A structural bracket or rest plate fixing the surface-sliding door track to the wall support and holding it at the required offset from the wall face.
+- **surface-sliding door track wall spacer** (`AU-ID-SURFACE-SLIDER-WALL-SPACER`) — A discrete spacer between a surface-sliding track or bracket and the wall, maintaining clearance for the leaf, architrave and hardware.
+- **surface-sliding internal door floor guide** (`AU-ID-SURFACE-SLIDER-FLOOR-GUIDE`) — A low fixed guide engaging a groove or the faces of a surface-sliding door leaf to restrain sideways movement while allowing horizontal travel.
+- **surface-sliding internal door hardware assembly** (`AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY`) — The track, rollers or hangers, wall spacers or brackets, stops, anti-jump restraints, floor guide, pulls and optional cover used to move an internal door leaf across the face of a wall.
+- **timber internal door jamb set** (`AU-ID-TIMBER-INTERNAL-DOOR-JAMB-SET`) — A timber frame set made from two vertical jambs and a head, usually supplied with a rebate or separate stop and fixed into the wall opening with packers and fasteners.
+- **wall-mounted internal door stop** (`AU-ID-WALL-MOUNTED-DOOR-STOP`) — A projecting stop fixed to a wall, skirting or joinery face and positioned to receive the door leaf or handle at its intended maximum swing.
+
+## Cross-discipline links
+
+- `AU-ID-CAVITY-SLIDER-CLOSING-JAMB` part of `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY`
+- `AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY` is a `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY`
+- `AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY` part of `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY`
+- `AU-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING` commonly used with `AU-LH-CAVITY-SLIDER-SPLIT-STUD`
+- `AU-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING` part of `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY`
+- `AU-ID-CAVITY-SLIDER-SQUARE-SET-REVEAL` part of `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY`
+- `AU-ID-CONCEALED-INTERNAL-DOOR-HINGE` is a `AU-LH-INTERNAL-DOOR-HINGE`
+- `AU-ID-CONCEALED-INTERNAL-DOOR-HINGE` part of `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY`
+- `AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY` commonly used with `AU-ED-EXTERNAL-DOOR-CLOSER-ASSEMBLY`
+- `AU-ID-CONTROLLED-DOOR-CLOSER-ASSEMBLY` commonly used with `AU-FS-SELF-CLOSING-DOOR-CLOSER`
+- `AU-ID-DOOR-HANDLE-BACKPLATE` part of `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-DOOR-HANDLE-ROSE` part of `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-DOOR-HANDLE-SPINDLE` part of `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-DOOR-LATCH-STRIKE-PLATE` alternative to `AU-EL-ELECTRIC-DOOR-STRIKE`
+- `AU-ID-DOOR-LOCK-CYLINDER` commonly used with `AU-ED-EXTERNAL-DOOR-MORTICE-LOCKSET`
+- `AU-ID-DOOR-MEETING-ASTRAGAL` commonly used with `AU-ED-EXTERNAL-DOUBLE-DOOR-ASTRAGAL`
+- `AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY` commonly used with `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY`
+- `AU-ID-FIXED-PIN-BUTT-HINGE` part of `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY`
+- `AU-ID-FLUSH-FINISH-STEEL-DOOR-FRAME` is a `AU-LH-INTERNAL-DOOR-FRAME`
+- `AU-ID-FLUSH-FRAME-FINISHING-FLANGE` commonly used with `AU-IL-PLASTERBOARD-FINISHING-COMPOUND`
+- `AU-ID-FLUSH-INTERNAL-DOOR-LEAF` is a `AU-LH-INTERNAL-DOOR-LEAF`
+- `AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY` is a `AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY`
+- `AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY` part of `AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY`
+- `AU-ID-GLAZED-INTERNAL-DOOR-LEAF` commonly used with `AU-GL-GLAZING-BEAD`
+- `AU-ID-GLAZED-INTERNAL-DOOR-LEAF` is a `AU-LH-INTERNAL-DOOR-LEAF`
+- `AU-ID-HONEYCOMB-CORE-INFILL` commonly used with `AU-ED-HONEYCOMB-EXTERNAL-DOOR-CORE`
+- `AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET` commonly used with `AU-TC-ARCHITRAVE-AIR-SEAL`
+- `AU-ID-INTERNAL-DOOR-BUTT-HINGE` commonly used with `AU-ED-EXTERNAL-DOOR-BUTT-HINGE`
+- `AU-ID-INTERNAL-DOOR-BUTT-HINGE` is a `AU-LH-INTERNAL-DOOR-HINGE`
+- `AU-ID-INTERNAL-DOOR-BUTT-HINGE` part of `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY`
+- `AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM` commonly used with `AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM`
+- `AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM` commonly used with `AU-HA-SANITARY-DOOR-RECOVERY-ASSEMBLY`
+- `AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM` commonly used with `AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY`
+- `AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM` has part `AU-DF-INTERNAL-DOOR-PAINT-SYSTEM`
+- `AU-ID-INTERNAL-DOOR-DEADBOLT` commonly used with `AU-ED-EXTERNAL-DOOR-DEADBOLT`
+- `AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY` commonly used with `AU-WD-FRAME-FIXING`
+- `AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY` commonly used with `AU-WD-FRAME-PACKER`
+- `AU-ID-INTERNAL-DOOR-FRAME-TRIM-ASSEMBLY` is a `AU-LH-INTERNAL-DOOR-FRAME`
+- `AU-ID-INTERNAL-DOOR-GLAZING-APERTURE` commonly used with `AU-GL-GLASS-PANE`
+- `AU-ID-INTERNAL-DOOR-GLAZING-APERTURE` commonly used with `AU-GL-GLAZING-BEAD`
+- `AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM` commonly used with `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-INTERNAL-DOOR-KNOB` part of `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-INTERNAL-DOOR-LEAF-CONSTRUCTION-ASSEMBLY` is a `AU-LH-INTERNAL-DOOR-LEAF`
+- `AU-ID-INTERNAL-DOOR-LEVER-HANDLE` commonly used with `AU-ED-EXTERNAL-DOOR-LEVER-HANDLE-SET`
+- `AU-ID-INTERNAL-DOOR-LEVER-HANDLE` part of `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-INTERNAL-DOOR-PIVOT-SET` part of `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY`
+- `AU-ID-INTERNAL-SLIDING-DOOR-EDGE-PULL` part of `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY`
+- `AU-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL` part of `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY`
+- `AU-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL` part of `AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY`
+- `AU-ID-INTERNAL-SLIDING-TRACK-STOP` part of `AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY`
+- `AU-ID-KEYED-INTERNAL-LOCKSET` is a `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-KEYED-INTERNAL-LOCKSET` part of `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-LOOSE-PIN-BUTT-HINGE` commonly used with `AU-HA-SANITARY-DOOR-REMOVABLE-HINGE-PIN`
+- `AU-ID-LOOSE-PIN-BUTT-HINGE` part of `AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY`
+- `AU-ID-LOUVRED-INTERNAL-DOOR-LEAF` is a `AU-LH-INTERNAL-DOOR-LEAF`
+- `AU-ID-PANELLED-INTERNAL-DOOR-LEAF` is a `AU-LH-INTERNAL-DOOR-LEAF`
+- `AU-ID-PASSAGE-LATCHSET` is a `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-PASSAGE-LATCHSET` part of `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-PRIVACY-LATCHSET` commonly used with `AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE`
+- `AU-ID-PRIVACY-LATCHSET` is a `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-PRIVACY-LATCHSET` part of `AU-LH-INTERNAL-DOOR-HANDLE-LATCH`
+- `AU-ID-PRIVACY-TURN` commonly used with `AU-HA-SANITARY-LATCH-EXTERNAL-RELEASE`
+- `AU-ID-REBATED-INTERNAL-DOOR-JAMB-SET` is a `AU-LH-INTERNAL-DOOR-FRAME`
+- `AU-ID-SOLID-CORE-FLUSH-DOOR-LEAF` commonly used with `AU-FS-SOLID-CORE-DOOR-LEAF`
+- `AU-ID-SPLIT-INTERNAL-DOOR-JAMB-SET` is a `AU-LH-INTERNAL-DOOR-FRAME`
+- `AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY` is a `AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY`
+- `AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY` part of `AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY`
+- `AU-ID-TIMBER-INTERNAL-DOOR-JAMB-SET` is a `AU-LH-INTERNAL-DOOR-FRAME`

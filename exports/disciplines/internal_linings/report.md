@@ -1,0 +1,185 @@
+# Internal Linings discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 97
+- Internal relationships: 321
+- Outgoing cross-discipline relationships: 28
+- Distinct supporting sources: 19
+- Distinct linked standards: 8
+- Average overall confidence: 88.8%
+- Objects with a Tier 1 source: 5.2%
+- Objects with two or more sources: 100.0%
+
+## Categories
+
+- acoustic lining boards: 1
+- ceiling lining assemblies: 1
+- ceiling support assemblies: 1
+- ceiling suspension components: 5
+- concealed ceiling connectors: 4
+- concealed ceiling supports: 3
+- decorative lining assemblies: 2
+- decorative panel joint materials: 1
+- engineered wood linings: 3
+- exposed ceiling grid connectors: 1
+- exposed ceiling grid members: 3
+- fibre cement joint assemblies: 2
+- fibre cement joint materials: 3
+- fibre cement lining boards: 3
+- gypsum lining boards: 5
+- lining adhesives: 5
+- lining backing and trimming: 3
+- lining edge beads: 6
+- lining fasteners: 7
+- lining joint assemblies: 2
+- lining joint materials: 1
+- lining opening assemblies: 1
+- lining repair assemblies: 1
+- lining repair components: 1
+- lining seals: 1
+- lining system assemblies: 1
+- masonry lining assemblies: 2
+- plasterboard corner assemblies: 1
+- plasterboard joint assemblies: 2
+- plasterboard joint materials: 5
+- special form lining assemblies: 1
+- suspended ceiling assemblies: 2
+- suspended ceiling panels: 3
+- timber board linings: 4
+- timber panel linings: 2
+- wall lining assemblies: 4
+- wall lining supports: 4
+
+## Objects
+
+- **MDF decorative lining panel** (`AU-IL-MDF-DECORATIVE-LINING-PANEL`) — A medium-density fibreboard sheet or factory-profiled panel used as a non-structural decorative internal wall or ceiling lining in the exposure conditions permitted by the selected product.
+- **all-purpose plasterboard joint compound** (`AU-IL-ALL-PURPOSE-JOINT-COMPOUND`) — A compound documented for more than one plasterboard jointing stage, such as tape embedment, base filling and finishing, within the limits of the selected product.
+- **ceiling cross-rail-to-furring-channel clip** (`AU-IL-CROSS-RAIL-FURRING-CHANNEL-CLIP`) — A formed metal clip that locks a secondary ceiling furring channel below and perpendicular to a primary top cross rail.
+- **ceiling furring channel joiner** (`AU-IL-CEILING-FURRING-CHANNEL-JOINER`) — A purpose-made sleeve or clip joining collinear ceiling furring-channel lengths while keeping their plasterboard fixing faces aligned.
+- **ceiling structural suspension anchor** (`AU-IL-CEILING-STRUCTURAL-SUSPENSION-ANCHOR`) — A verified mechanical, cast-in, screwed or otherwise approved anchor connecting a suspended-ceiling hanger or bracket to the load-bearing structure above.
+- **ceiling suspension bracket** (`AU-IL-CEILING-SUSPENSION-BRACKET`) — A formed metal bracket at the top or bottom of a ceiling hanger that connects the suspension element to structure or to a primary ceiling rail while providing selected adjustment.
+- **ceiling suspension clip** (`AU-IL-CEILING-SUSPENSION-CLIP`) — A purpose-made metal connector joining a suspension rod or wire to a ceiling top cross rail, main tee or compatible support bracket.
+- **ceiling suspension rod** (`AU-IL-CEILING-SUSPENSION-ROD`) — A vertical steel rod, plain or threaded according to the selected system, that hangs a ceiling rail or grid bracket from a structural anchor above.
+- **ceiling suspension support system** (`AU-IL-CEILING-SUSPENSION-SYSTEM`) — The hangers, anchors, brackets, rails, channels or tees and perimeter members that carry a suspended ceiling below the primary building structure.
+- **ceiling suspension wire** (`AU-IL-CEILING-SUSPENSION-WIRE`) — A steel wire hanger looped, twisted or connected with approved fittings to suspend a ceiling grid member from a structural anchor.
+- **ceiling-grade plasterboard sheet** (`AU-IL-CEILING-GRADE-PLASTERBOARD-SHEET`) — A gypsum plasterboard product selected for ceiling use, with its permitted support spacing and sag resistance taken from the chosen manufacturer and installation system.
+- **ceiling-tile hold-down clip** (`AU-IL-CEILING-TILE-HOLD-DOWN-CLIP`) — A small spring or formed clip that retains a lay-in ceiling tile or panel against the exposed grid so it cannot lift or rattle under the documented conditions.
+- **concealed ceiling furring channel** (`AU-IL-CEILING-FURRING-CHANNEL`) — A secondary light-gauge steel channel clipped below primary rails or direct-fix clips and providing the continuous face to which plasterboard ceiling sheets are screwed.
+- **concealed ceiling perimeter wall track** (`AU-IL-CEILING-PERIMETER-WALL-TRACK`) — A light-gauge metal track or angle fixed around walls to locate, support or finish the ends of concealed ceiling furring channels and plasterboard edges.
+- **concealed ceiling top cross rail** (`AU-IL-CEILING-TOP-CROSS-RAIL`) — A primary horizontal light-gauge steel rail suspended below structure and used to carry perpendicular secondary ceiling furring channels through purpose-made clips.
+- **concealed lining panel clip** (`AU-IL-CONCEALED-LINING-PANEL-CLIP`) — A purpose-made clip fixed to a panel edge, groove, back or carrier so a decorative lining panel or board can be retained without visible face fasteners.
+- **concealed suspended plasterboard ceiling assembly** (`AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY`) — A plasterboard ceiling carried by a concealed metal grid hung below the building structure using suspension rods, clips or brackets, primary rails and secondary furring channels.
+- **curved internal lining assembly** (`AU-IL-CURVED-LINING-ASSEMBLY`) — An internal wall or ceiling lining formed to a curve using flexible or suitably prepared sheets over closely set curved or faceted supports.
+- **decorative grooved fibre-cement lining sheet** (`AU-IL-DECORATIVE-GROOVED-FIBRE-CEMENT-SHEET`) — An internal fibre-cement sheet with factory-routed or moulded face grooves that create a repeated board-like or geometric appearance after fixing and finishing.
+- **decorative internal panel-lining assembly** (`AU-IL-DECORATIVE-PANEL-LINING-ASSEMBLY`) — A non-structural internal wall or ceiling finish made from repeated decorative sheets or panels with visible grooves, expressed joints, cover trims or concealed panel connections.
+- **decorative lining panel adhesive** (`AU-IL-DECORATIVE-PANEL-ADHESIVE`) — A compatible construction or panel adhesive applied between a decorative timber, MDF, plywood, fibre-cement or other panel and its framing, batten or sheet substrate.
+- **decorative lining panel nail** (`AU-IL-DECORATIVE-PANEL-NAIL`) — A visible, punched, filled or concealed nail selected to fix timber boards, MDF sheets, plywood or similar decorative internal lining panels to timber supports.
+- **decorative lining panel screw** (`AU-IL-DECORATIVE-PANEL-SCREW`) — A visible or concealed screw selected to fasten a removable or robust decorative lining panel to timber, metal framing, battens or a proprietary carrier.
+- **direct-fix ceiling channel clip** (`AU-IL-DIRECT-FIX-CEILING-CLIP`) — A short formed metal clip fixed directly to joists, trusses or another verified support to hold a ceiling furring channel at a small adjustable offset without a primary suspended rail.
+- **direct-fixed plasterboard ceiling assembly** (`AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY`) — A plasterboard ceiling whose sheets are mechanically fixed, with documented adhesive where permitted, directly to ceiling joists, truss bottom chords, battens or direct-fix furring supports.
+- **direct-fixed plasterboard masonry lining assembly** (`AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY`) — A plasterboard lining bonded and locally supported directly against an internal masonry or concrete face using a documented direct-fix system without a separate continuous furring cavity.
+- **drying-type plasterboard base compound** (`AU-IL-DRYING-TYPE-BASE-JOINT-COMPOUND`) — A premixed or ready-to-use plasterboard compound that hardens mainly by water loss and is selected for tape embedment or base coats where the system permits.
+- **exposed ceiling-grid cross tee** (`AU-IL-EXPOSED-GRID-CROSS-TEE`) — A secondary visible inverted-T section that locks between main tees to divide an exposed ceiling grid into tile-sized modules.
+- **exposed ceiling-grid main tee** (`AU-IL-EXPOSED-GRID-MAIN-TEE`) — The primary visible inverted-T section in an exposed suspended ceiling grid, supported by hangers and fitted with connection points for cross tees.
+- **exposed ceiling-grid perimeter angle** (`AU-IL-EXPOSED-GRID-PERIMETER-ANGLE`) — A visible or shadowed wall angle, channel or trim fixed around the room perimeter to locate and support the cut ends of an exposed tee grid and edge tiles as designed.
+- **exposed-grid suspended ceiling assembly** (`AU-IL-EXPOSED-GRID-SUSPENDED-CEILING-ASSEMBLY`) — A suspended ceiling made from visible interlocking main and cross tees supported by hangers and perimeter trim, with removable tiles or panels laid into the resulting grid modules.
+- **fibre-cement expressed-joint assembly** (`AU-IL-FIBRE-CEMENT-EXPRESSED-JOINT-ASSEMBLY`) — A deliberate visible gap or cover-trim joint between square-edge fibre-cement panels, with the selected backing, seal, trim or open-joint treatment and supported panel edges.
+- **fibre-cement flush-joint assembly** (`AU-IL-FIBRE-CEMENT-FLUSH-JOINT-ASSEMBLY`) — A site-finished joint between compatible recessed-edge fibre-cement sheets using the manufacturer's reinforcement tape and base and finishing compounds to create a nominally continuous surface.
+- **fibre-cement internal lining assembly** (`AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY`) — An internal wall or ceiling lining made from fibre-cement sheets or panels fixed to framing, furring or a documented masonry support system and finished with flush, expressed or covered joints.
+- **fibre-cement lining joint base coat** (`AU-IL-FIBRE-CEMENT-JOINT-BASE-COAT`) — A compatible cementitious or polymer-modified compound used to fill recessed fibre-cement sheet joints and embed the specified reinforcing tape.
+- **fibre-cement lining joint tape** (`AU-IL-FIBRE-CEMENT-JOINT-TAPE`) — An alkali-resistant reinforcing tape specified by the selected fibre-cement lining system and embedded in compatible base compound over flush joints and selected corners.
+- **fibre-cement lining joint top coat** (`AU-IL-FIBRE-CEMENT-JOINT-TOP-COAT`) — A fine compatible finishing compound applied over a fibre-cement joint base coat and feathered onto the sheet face before the selected surface coating.
+- **fibre-cement lining nail** (`AU-IL-FIBRE-CEMENT-LINING-NAIL`) — A corrosion-appropriate nail with a head, shank and length selected to fix internal fibre-cement lining sheet to timber framing or battens.
+- **fibre-cement lining screw** (`AU-IL-FIBRE-CEMENT-LINING-SCREW`) — A corrosion-appropriate screw with a head and thread selected to fix internal fibre-cement lining sheet to timber or light-gauge steel supports without unacceptable face damage.
+- **fibre-reinforced gypsum lining sheet** (`AU-IL-FIBRE-REINFORCED-GYPSUM-SHEET`) — A rigid gypsum-based lining sheet reinforced through its core or surfaces with fibres rather than relying only on conventional paper facings.
+- **fibreglass mesh lining joint tape** (`AU-IL-FIBREGLASS-MESH-JOINT-TAPE`) — An open glass-fibre mesh strip embedded in or bonded beneath a compatible jointing compound for selected plasterboard repair, fibre-cement or specialty lining joints.
+- **flexible plasterboard sheet** (`AU-IL-FLEXIBLE-PLASTERBOARD-SHEET`) — A thin or specially manufactured gypsum plasterboard sheet intended to bend to a documented radius when fixed over suitably close curved supports.
+- **furred masonry wall-lining assembly** (`AU-IL-FURRED-MASONRY-LINING-ASSEMBLY`) — An internal lining carried on timber battens or metal furring fixed in front of a masonry or concrete wall, creating a controlled support plane and a shallow service or levelling cavity.
+- **general internal fibre-cement lining sheet** (`AU-IL-GENERAL-INTERNAL-FIBRE-CEMENT-SHEET`) — A flat cellulose-cement sheet selected as an internal lining for robust or moisture-prone walls or ceilings, with its particular exposure and finish limits taken from product documentation.
+- **gypsum-lining stud adhesive** (`AU-IL-GYPSUM-LINING-STUD-ADHESIVE`) — A purpose-made adhesive applied in discrete daubs or beads between gypsum plasterboard and timber or metal framing as part of an approved combined adhesive-and-mechanical fixing system.
+- **hardboard internal lining sheet** (`AU-IL-HARDBOARD-INTERNAL-LINING-SHEET`) — A thin high-density wood-fibre sheet used in protected internal panelling, often with one smooth face and a textured back, and fixed over continuous or closely spaced support.
+- **high-density plasterboard sheet** (`AU-IL-HIGH-DENSITY-PLASTERBOARD-SHEET`) — A gypsum plasterboard sheet manufactured with greater core density or reinforced construction for a selected impact, fixing, sound or multi-performance application.
+- **interior blockboard lining panel** (`AU-IL-INTERIOR-BLOCKBOARD-PANEL`) — A fully protected interior panel made with a core of edge-laid timber strips faced with veneers, selected for non-structural wall or ceiling panelling or trim work.
+- **interior plywood lining sheet** (`AU-IL-INTERIOR-PLYWOOD-LINING-SHEET`) — A non-structural plywood sheet selected for fully protected internal wall or ceiling panelling, usually with a visible veneer face and exposed, covered or shadow-gap joints.
+- **internal cornice adhesive** (`AU-IL-INTERNAL-CORNICE-ADHESIVE`) — A purpose-made gypsum or polymer-modified adhesive used to bed and join fibrous-plaster or gypsum cornice at internal wall-to-ceiling junctions.
+- **internal lining control-joint bead** (`AU-IL-LINING-CONTROL-JOINT-BEAD`) — A paired, flexible-centred or separable profile installed at a deliberate break in plasterboard or fibre-cement lining to form and protect the edges of a movement-control joint.
+- **internal lining movement-control joint assembly** (`AU-IL-MOVEMENT-CONTROL-JOINT-ASSEMBLY`) — A deliberate break through the lining finish, formed with separated sheet edges and the selected bead, trim, backing or sealant so movement is not forced into an ordinary stopped joint.
+- **internal lining perimeter-junction assembly** (`AU-IL-PERIMETER-LINING-JUNCTION-ASSEMBLY`) — The physical gap, backing, seal, tape, compound, bead, cornice or cover trim used where an internal lining terminates against a floor, wall, ceiling, column or other construction.
+- **internal lining repair-patch assembly** (`AU-IL-LINING-REPAIR-PATCH-ASSEMBLY`) — A replacement piece of lining fitted into a prepared damaged area and supported by backing or framing, with its perimeter joint reinforced, filled and finished to match the surrounding surface.
+- **internal lining service-opening assembly** (`AU-IL-SERVICE-OPENING-LINING-ASSEMBLY`) — A cut opening through an internal lining together with the trimming, backing, support, edge finish and seal needed for a light, grille, outlet, pipe, access item or other service interface.
+- **internal lining support packer** (`AU-IL-LINING-SUPPORT-PACKER`) — A thin discrete strip, plate or shim placed behind a batten, furring member, sheet edge or panel support to correct local alignment without becoming a continuous lining layer.
+- **internal lining timber batten** (`AU-IL-INTERNAL-LINING-TIMBER-BATTEN`) — A straight timber member fixed to framing or a solid substrate to support internal lining boards or panels and establish their fixing plane.
+- **internal panel-joint cover strip** (`AU-IL-PANEL-JOINT-COVER-STRIP`) — A narrow timber, metal or polymer strip fixed over or inserted between adjacent lining-panel edges to conceal the gap, protect edges or create a deliberate expressed line.
+- **internal timber panelling assembly** (`AU-IL-TIMBER-PANELLING-ASSEMBLY`) — An internal wall or ceiling lining formed from solid timber appearance boards or engineered timber panels fixed to framing, battens, furring or another supported substrate.
+- **internal timber slat lining member** (`AU-IL-TIMBER-SLAT-LINING-MEMBER`) — A narrow timber or timber-look member repeated with visible gaps over a backing surface or acoustic absorber to form a slatted internal wall or ceiling finish.
+- **internal wall-lining and ceiling system** (`AU-IL-INTERNAL-LINING-SYSTEM`) — The coordinated internal wall and ceiling sheets, boards, panels, support members, fixings, joints, trims and finishes that form the visible room-side surfaces of a building.
+- **internal wall-lining assembly** (`AU-IL-INTERNAL-WALL-LINING-ASSEMBLY`) — A complete room-side wall covering made from one or more lining layers together with its supports where used, fixings, joints, perimeter edges and openings.
+- **internal wall-lining furring channel** (`AU-IL-WALL-LINING-FURRING-CHANNEL`) — A light-gauge formed-metal channel fixed vertically or horizontally in front of a wall to create a straight support plane for internal lining sheets or panels.
+- **lining repair backing clip** (`AU-IL-REPAIR-BACKING-CLIP`) — A small metal or polymer clip inserted behind an existing lining edge to hold a repair patch or backing strip where conventional framing cannot be reached.
+- **lining service-opening trimmer frame** (`AU-IL-SERVICE-OPENING-TRIMMER-FRAME`) — A rectangular or shaped local frame of timber or metal members surrounding a lining cut-out to support sheet edges and the associated access panel, grille, light or other service interface.
+- **lining sheet-edge backing member** (`AU-IL-LINING-SHEET-EDGE-BACKING-MEMBER`) — A timber or metal member placed behind a lining edge, butt joint, corner, patch or opening to provide a continuous fixing surface where the main framing does not coincide with the edge.
+- **masonry direct-fix lining adhesive bed** (`AU-IL-MASONRY-DIRECT-FIX-LINING-ADHESIVE-BED`) — A discrete bed or ribbon of compatible adhesive placed between a prepared masonry or concrete surface and the back of a direct-fixed plasterboard lining.
+- **metal lay-in ceiling panel** (`AU-IL-METAL-LAY-IN-CEILING-PANEL`) — A folded, pressed or clipped metal panel installed as a removable or demountable infill within a suspended ceiling grid or carrier system.
+- **mineral-fibre lay-in ceiling tile** (`AU-IL-MINERAL-FIBRE-CEILING-TILE`) — A lightweight mineral-fibre panel sized to rest on an exposed suspended tee grid and remain removable for access above the ceiling.
+- **multilayer internal lining assembly** (`AU-IL-MULTILAYER-LINING-ASSEMBLY`) — A wall or ceiling lining with two or more superimposed sheet layers whose joints, fasteners and interfaces are coordinated as one documented build-up.
+- **paintable internal lining gap sealant** (`AU-IL-PAINTABLE-PERIMETER-GAP-SEALANT`) — A flexible paintable sealant bead installed in selected small gaps between internal lining and frames, trims, skirtings, cornices or other finishes for appearance and ordinary air or dust closure.
+- **particleboard decorative lining panel** (`AU-IL-PARTICLEBOARD-DECORATIVE-LINING-PANEL`) — A resin-bonded wood-particle sheet used as a protected internal decorative panel or as a substrate for veneer, laminate or another factory-applied face.
+- **perforated acoustic plasterboard sheet** (`AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET`) — A gypsum plasterboard sheet manufactured with an open perforation pattern and usually an acoustic backing layer so a wall or ceiling surface can absorb sound within a documented system.
+- **plasterboard back-blocking adhesive** (`AU-IL-PLASTERBOARD-BACK-BLOCKING-ADHESIVE`) — A compatible setting adhesive spread between the back of adjoining plasterboard sheets and a plasterboard backing strip to reinforce a butt joint or another documented joint zone.
+- **plasterboard back-blocking strip** (`AU-IL-PLASTERBOARD-BACK-BLOCKING-STRIP`) — A strip cut from compatible plasterboard and bonded across the back of a sheet joint to reinforce, align and widen the effective joint zone.
+- **plasterboard butt-joint assembly** (`AU-IL-PLASTERBOARD-BUTT-JOINT-ASSEMBLY`) — A flush-finished joint between square-cut or non-recessed plasterboard sheet ends, using backing or back-blocking where required and a wider taped compound finish over the flat sheet faces.
+- **plasterboard casing bead** (`AU-IL-PLASTERBOARD-CASING-BEAD`) — A stopping profile, often J-shaped or hooked, that encloses and protects the exposed thickness of a plasterboard edge at an opening or material junction.
+- **plasterboard external-corner bead** (`AU-IL-PLASTERBOARD-EXTERNAL-CORNER-BEAD`) — A rigid perforated or paper-faced metal or polymer section fixed over an external plasterboard corner and covered with compound to create a straight impact-resistant arris.
+- **plasterboard finishing compound** (`AU-IL-PLASTERBOARD-FINISHING-COMPOUND`) — A fine, readily sanded compound applied in the final feathered coat or coats over plasterboard joint base layers, fastener heads, beads and repairs.
+- **plasterboard internal-corner bead** (`AU-IL-PLASTERBOARD-INTERNAL-CORNER-BEAD`) — A purpose-made metal, polymer or paper-faced section used in selected concave plasterboard corners to hold a straight angle and reinforce the joint before compound finishing.
+- **plasterboard internal-corner tape joint** (`AU-IL-PLASTERBOARD-INTERNAL-CORNER-JOINT`) — A concave internal corner between plasterboard faces finished by bedding creased paper tape into compound and feathering compound onto both wall or ceiling planes.
+- **plasterboard lay-in ceiling tile** (`AU-IL-PLASTERBOARD-LAY-IN-CEILING-TILE`) — A small factory-cut or faced gypsum plasterboard panel made to sit within an exposed tee-grid ceiling module and remain individually removable.
+- **plasterboard lining nail** (`AU-IL-PLASTERBOARD-NAIL`) — A purpose-made nail with a head and shank intended to fix plasterboard to timber framing without cutting through the paper face.
+- **plasterboard lining screw** (`AU-IL-PLASTERBOARD-SCREW`) — A purpose-made screw with a head shaped to seat below the plasterboard face without tearing the liner, selected to fasten gypsum lining to timber or metal supports.
+- **plasterboard paper joint tape** (`AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE`) — A strong paper strip embedded in wet base compound to reinforce plasterboard sheet joints and internal corners before the finishing coats are applied.
+- **plasterboard recessed-edge joint assembly** (`AU-IL-PLASTERBOARD-RECESSED-JOINT-ASSEMBLY`) — A flush-finished joint between factory-recessed plasterboard edges, built from the recessed sheet shoulders, embedded paper tape, base compound and finishing compound.
+- **plasterboard shadowline stopping bead** (`AU-IL-SHADOWLINE-STOPPING-BEAD`) — A shaped lining-edge profile that creates a deliberate narrow recessed shadow gap between plasterboard and an adjacent wall, ceiling, frame, column or material.
+- **plasterboard stopping bead** (`AU-IL-PLASTERBOARD-STOPPING-BEAD`) — A metal or polymer edge section fixed to a plasterboard termination so joint compound can stop cleanly at a straight exposed line.
+- **plasterboard wall-lining assembly** (`AU-IL-PLASTERBOARD-WALL-LINING-ASSEMBLY`) — An internal wall lining built from gypsum plasterboard sheets fixed to framing, battens, furring or an approved solid-substrate system and completed with the specified joints and edges.
+- **prefinished internal fibre-cement panel** (`AU-IL-PREFINISHED-FIBRE-CEMENT-PANEL`) — A fibre-cement panel supplied with a factory-applied visible face and installed with an expressed, sealed or proprietary concealed joint system rather than site-stopped plasterboard-style joints.
+- **setting-type plasterboard base compound** (`AU-IL-SETTING-TYPE-BASE-JOINT-COMPOUND`) — A gypsum-based powder mixed with water and chemically set after application, used to embed tape and fill the deeper base layers of plasterboard joints.
+- **shiplap timber lining board** (`AU-IL-SHIPLAP-TIMBER-LINING-BOARD`) — A solid timber lining board with opposing rebated edges that overlap adjacent boards while allowing the selected visible gap and seasonal movement.
+- **solid timber lining board** (`AU-IL-SOLID-TIMBER-LINING-BOARD`) — A narrow solid-timber appearance board installed in repeated courses as an internal wall or ceiling lining, with its profile and joints chosen to accommodate appearance and seasonal movement.
+- **standard gypsum plasterboard sheet** (`AU-IL-STANDARD-GYPSUM-PLASTERBOARD-SHEET`) — A factory-made paper-faced gypsum-core sheet intended for ordinary internal wall or ceiling lining where no special moisture, fire, acoustic, impact or exterior exposure grade has been selected.
+- **tongue-and-groove timber lining board** (`AU-IL-TONGUE-AND-GROOVE-TIMBER-LINING-BOARD`) — A solid timber lining board with a projecting tongue along one edge and matching groove along the other, commonly detailed with a small face V or shadow feature at each course.
+- **top cross rail joiner** (`AU-IL-TOP-CROSS-RAIL-JOINER`) — A formed steel sleeve, splice or clip that aligns and connects the ends of two compatible primary top cross rails while permitting the selected system's continuity or movement detail.
+- **wall-lining furring clip** (`AU-IL-WALL-FURRING-CLIP`) — A formed metal clip or bracket anchored to a solid wall and shaped to hold, space or level an internal wall furring channel.
+
+## Cross-discipline links
+
+- `AU-IL-CEILING-FURRING-CHANNEL` alternative to `AU-SF-CEILING-BATTEN`
+- `AU-IL-CEILING-GRADE-PLASTERBOARD-SHEET` is a `AU-HA-PLASTERBOARD-CEILING-SHEET`
+- `AU-IL-CONCEALED-SUSPENDED-PLASTERBOARD-CEILING-ASSEMBLY` commonly used with `AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY`
+- `AU-IL-DIRECT-FIXED-MASONRY-LINING-ASSEMBLY` commonly used with `AU-MA-MASONRY-WALL`
+- `AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY` commonly used with `AU-HA-INTERNAL-CEILING-LINING-ASSEMBLY`
+- `AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY` commonly used with `AU-SF-CEILING-BATTEN`
+- `AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY` commonly used with `AU-TF-CEILING-JOIST`
+- `AU-IL-FIBRE-CEMENT-INTERNAL-LINING-ASSEMBLY` commonly used with `AU-WP-WET-AREA-WALL-ASSEMBLY`
+- `AU-IL-FURRED-MASONRY-LINING-ASSEMBLY` commonly used with `AU-MA-MASONRY-WALL`
+- `AU-IL-GENERAL-INTERNAL-FIBRE-CEMENT-SHEET` commonly used with `AU-WP-FC-WET-AREA-WALL-SHEET`
+- `AU-IL-INTERNAL-CORNICE-ADHESIVE` commonly used with `AU-HA-INTERNAL-CEILING-CORNICE`
+- `AU-IL-INTERNAL-LINING-SYSTEM` commonly used with `AU-DF-ARCHITECTURAL-SURFACE-FINISH-SYSTEM`
+- `AU-IL-INTERNAL-LINING-SYSTEM` has part `AU-DF-INTERNAL-CEILING-PAINT-SYSTEM`
+- `AU-IL-INTERNAL-WALL-LINING-ASSEMBLY` commonly used with `AU-MA-MASONRY-WALL`
+- `AU-IL-INTERNAL-WALL-LINING-ASSEMBLY` commonly used with `AU-SF-WALL-FRAME`
+- `AU-IL-INTERNAL-WALL-LINING-ASSEMBLY` commonly used with `AU-TF-WALL-FRAME`
+- `AU-IL-INTERNAL-WALL-LINING-ASSEMBLY` has part `AU-DF-INTERNAL-WALL-PAINT-SYSTEM`
+- `AU-IL-INTERNAL-WALL-LINING-ASSEMBLY` has part `AU-DF-WALLCOVERING-FINISH-SYSTEM`
+- `AU-IL-MULTILAYER-LINING-ASSEMBLY` commonly used with `AU-FS-FIRE-RESISTANT-PLASTERBOARD-LINING`
+- `AU-IL-MULTILAYER-LINING-ASSEMBLY` commonly used with `AU-HA-ACOUSTIC-PLASTERBOARD-LINING`
+- `AU-IL-PAINTABLE-PERIMETER-GAP-SEALANT` alternative to `AU-HA-ACOUSTIC-PERIMETER-SEALANT`
+- `AU-IL-PERFORATED-ACOUSTIC-PLASTERBOARD-SHEET` commonly used with `AU-HA-ACOUSTIC-WALL-CAVITY`
+- `AU-IL-PLASTERBOARD-FINISHING-COMPOUND` commonly used with `AU-ID-FLUSH-FRAME-FINISHING-FLANGE`
+- `AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE` alternative to `AU-FS-FIRE-RESISTANT-LINING-JOINT-TAPE`
+- `AU-IL-PLASTERBOARD-PAPER-JOINT-TAPE` alternative to `AU-HA-ACOUSTIC-LINING-JOINT-TAPE`
+- `AU-IL-PLASTERBOARD-SCREW` alternative to `AU-FS-FIRE-LINING-SCREW`
+- `AU-IL-SERVICE-OPENING-LINING-ASSEMBLY` commonly used with `AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY`
+- `AU-IL-WALL-LINING-FURRING-CHANNEL` alternative to `AU-CL-WALL-FURRING-CHANNEL`

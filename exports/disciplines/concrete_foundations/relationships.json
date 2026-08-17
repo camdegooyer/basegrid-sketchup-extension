@@ -1,0 +1,1644 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "concrete_foundations",
+  "relationships": [
+    {
+      "id": "REL-458-CF-BAR-CHAIR-PART-OF-AU-CF-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-CF-BAR-CHAIR",
+      "relationship": "part_of",
+      "to_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-REINFORCEMENT-SUPPORTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-459-CF-BAR-CHAIR-SUPPORTED-BY-AU-CF-CHAIR-BASE",
+      "from_id": "AU-CF-BAR-CHAIR",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-CHAIR-BASE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-460-CF-BAR-CHAIR-SUPPORTS-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CF-BAR-CHAIR",
+      "relationship": "supports",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-REINFORCEMENT-SUPPORTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-461-CF-BAR-CHAIR-SUPPORTS-AU-CF-TRENCH-MESH",
+      "from_id": "AU-CF-BAR-CHAIR",
+      "relationship": "supports",
+      "to_id": "AU-CF-TRENCH-MESH",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-REINFORCEMENT-SUPPORTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-462-CF-BAR-CHAIR-SUPPORTS-AU-CF-WELDED-WIRE-FABRIC",
+      "from_id": "AU-CF-BAR-CHAIR",
+      "relationship": "supports",
+      "to_id": "AU-CF-WELDED-WIRE-FABRIC",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-REINFORCEMENT-SUPPORTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-464-CF-BULK-PIER-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-BULK-PIER",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-465-CF-BULK-PIER-SUPPORTS-AU-CF-DEEPENED-EDGE-BEAM",
+      "from_id": "AU-CF-BULK-PIER",
+      "relationship": "supports",
+      "to_id": "AU-CF-DEEPENED-EDGE-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-466-CF-CHAIR-BASE-PART-OF-AU-CF-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-CF-CHAIR-BASE",
+      "relationship": "part_of",
+      "to_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-467-CF-CHAIR-BASE-SUPPORTS-AU-CF-BAR-CHAIR",
+      "from_id": "AU-CF-CHAIR-BASE",
+      "relationship": "supports",
+      "to_id": "AU-CF-BAR-CHAIR",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-475-CF-CONCRETE-MATERIAL-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-CONCRETE-MATERIAL",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-476-CF-CONCRETE-MATERIAL-PART-OF-AU-CF-STRIP-FOOTING-SYSTEM",
+      "from_id": "AU-CF-CONCRETE-MATERIAL",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-477-CF-CONCRETE-MATERIAL-PART-OF-AU-CF-STUMP-PAD-SYSTEM",
+      "from_id": "AU-CF-CONCRETE-MATERIAL",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STUMP-PAD-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-478-CF-CONCRETE-SLAB-PANEL-PART-OF-AU-CF-FOOTING-SLAB-ASSEMBLY",
+      "from_id": "AU-CF-CONCRETE-SLAB-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CF-FOOTING-SLAB-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-479-CF-CONCRETE-SLAB-PANEL-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-CONCRETE-SLAB-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-480-CF-CONCRETE-SLAB-PANEL-PART-OF-AU-CF-STIFFENED-RAFT-SLAB",
+      "from_id": "AU-CF-CONCRETE-SLAB-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-481-CF-CONCRETE-SLAB-PANEL-PART-OF-AU-CF-WAFFLE-RAFT-SLAB",
+      "from_id": "AU-CF-CONCRETE-SLAB-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-CF-WAFFLE-RAFT-SLAB",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-483-CF-DAMP-PROOFING-MEMBRANE-COVERS-AU-CF-FOUNDATION-MATERIAL",
+      "from_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "relationship": "covers",
+      "to_id": "AU-CF-FOUNDATION-MATERIAL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT-DETAIL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-484-CF-DAMP-PROOFING-MEMBRANE-PART-OF-AU-CF-FOOTING-SLAB-ASSEMBLY",
+      "from_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-CF-FOOTING-SLAB-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT-DETAIL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-485-CF-DAMP-PROOFING-MEMBRANE-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT-DETAIL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-486-CF-DAMP-PROOFING-MEMBRANE-PART-OF-AU-CF-STIFFENED-RAFT-SLAB",
+      "from_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT-DETAIL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-487-CF-DAMP-PROOFING-MEMBRANE-SEALED-BY-AU-CF-MEMBRANE-JOINT-TAPE",
+      "from_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "relationship": "sealed_by",
+      "to_id": "AU-CF-MEMBRANE-JOINT-TAPE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT-DETAIL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-489-CF-DEEPENED-EDGE-BEAM-IS-A-AU-CF-EDGE-BEAM",
+      "from_id": "AU-CF-DEEPENED-EDGE-BEAM",
+      "relationship": "is_a",
+      "to_id": "AU-CF-EDGE-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-490-CF-DEEPENED-EDGE-BEAM-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-DEEPENED-EDGE-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-491-CF-DEEPENED-EDGE-BEAM-PART-OF-AU-CF-STIFFENED-RAFT-SLAB",
+      "from_id": "AU-CF-DEEPENED-EDGE-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-492-CF-DEEPENED-EDGE-BEAM-SUPPORTED-BY-AU-CF-BULK-PIER",
+      "from_id": "AU-CF-DEEPENED-EDGE-BEAM",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-BULK-PIER",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-493-CF-EDGE-BEAM-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-EDGE-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-494-CF-EDGE-BEAM-PART-OF-AU-CF-STIFFENED-RAFT-SLAB",
+      "from_id": "AU-CF-EDGE-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-495-CF-EDGE-BEAM-PART-OF-AU-CF-WAFFLE-RAFT-SLAB",
+      "from_id": "AU-CF-EDGE-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CF-WAFFLE-RAFT-SLAB",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-496-CF-EDGE-REBATE-ATTACHED-TO-AU-CF-EDGE-BEAM",
+      "from_id": "AU-CF-EDGE-REBATE",
+      "relationship": "attached_to",
+      "to_id": "AU-CF-EDGE-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-497-CF-EDGE-REBATE-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-EDGE-REBATE",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-498-CF-EDGE-REBATE-PART-OF-AU-CF-STIFFENED-RAFT-SLAB",
+      "from_id": "AU-CF-EDGE-REBATE",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-499-CF-FOOTING-SLAB-ASSEMBLY-HAS-PART-AU-CF-CONCRETE-SLAB-PANEL",
+      "from_id": "AU-CF-FOOTING-SLAB-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-CONCRETE-SLAB-PANEL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-500-CF-FOOTING-SLAB-ASSEMBLY-HAS-PART-AU-CF-DAMP-PROOFING-MEMBRANE",
+      "from_id": "AU-CF-FOOTING-SLAB-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT-DETAIL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-501-CF-FOOTING-SLAB-ASSEMBLY-IS-A-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-FOOTING-SLAB-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-FOOTING-SLAB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-502-CF-FOOTING-SLAB-ASSEMBLY-SUPPORTED-BY-AU-CF-STRIP-FOOTING-SYSTEM",
+      "from_id": "AU-CF-FOOTING-SLAB-ASSEMBLY",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-FOOTING-SLAB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-503-CF-INTERNAL-BEAM-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-INTERNAL-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-504-CF-INTERNAL-BEAM-PART-OF-AU-CF-STIFFENED-RAFT-SLAB",
+      "from_id": "AU-CF-INTERNAL-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-505-CF-LIGATURE-PART-OF-AU-CF-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-CF-LIGATURE",
+      "relationship": "part_of",
+      "to_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-506-CF-MEMBRANE-JOINT-TAPE-ATTACHED-TO-AU-CF-DAMP-PROOFING-MEMBRANE",
+      "from_id": "AU-CF-MEMBRANE-JOINT-TAPE",
+      "relationship": "attached_to",
+      "to_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-507-CF-MEMBRANE-JOINT-TAPE-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-MEMBRANE-JOINT-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-508-CF-PAD-FOOTING-BEARS-ON-AU-CF-FOUNDATION-MATERIAL",
+      "from_id": "AU-CF-PAD-FOOTING",
+      "relationship": "bears_on",
+      "to_id": "AU-CF-FOUNDATION-MATERIAL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-511-CF-PAD-FOOTING-PART-OF-AU-CF-STUMP-PAD-SYSTEM",
+      "from_id": "AU-CF-PAD-FOOTING",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STUMP-PAD-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-512-CF-PAD-FOOTING-SUPPORTS-AU-CF-STUMP",
+      "from_id": "AU-CF-PAD-FOOTING",
+      "relationship": "supports",
+      "to_id": "AU-CF-STUMP",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-RMIT-FLOOR-GENERAL",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-514-CF-PENETRATION-SLEEVE-ATTACHED-TO-AU-CF-DAMP-PROOFING-MEMBRANE",
+      "from_id": "AU-CF-PENETRATION-SLEEVE",
+      "relationship": "attached_to",
+      "to_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-515-CF-PENETRATION-SLEEVE-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-PENETRATION-SLEEVE",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-517-CF-REINFORCEMENT-ASSEMBLY-HAS-PART-AU-CF-BAR-CHAIR",
+      "from_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-BAR-CHAIR",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-REINFORCEMENT-SUPPORTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-518-CF-REINFORCEMENT-ASSEMBLY-HAS-PART-AU-CF-CHAIR-BASE",
+      "from_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-CHAIR-BASE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-519-CF-REINFORCEMENT-ASSEMBLY-HAS-PART-AU-CF-LIGATURE",
+      "from_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-LIGATURE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-520-CF-REINFORCEMENT-ASSEMBLY-HAS-PART-AU-CF-REINFORCING-BAR",
+      "from_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-REINFORCING-BAR",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-521-CF-REINFORCEMENT-ASSEMBLY-HAS-PART-AU-CF-TIE-WIRE",
+      "from_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-TIE-WIRE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-522-CF-REINFORCEMENT-ASSEMBLY-HAS-PART-AU-CF-TRENCH-MESH",
+      "from_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-TRENCH-MESH",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT",
+        "SRC-RMIT-WAFFLE-RAFT-FEATURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-523-CF-REINFORCEMENT-ASSEMBLY-HAS-PART-AU-CF-WELDED-WIRE-FABRIC",
+      "from_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-WELDED-WIRE-FABRIC",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-524-CF-REINFORCEMENT-ASSEMBLY-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-525-CF-REINFORCEMENT-ASSEMBLY-PART-OF-AU-CF-STRIP-FOOTING-SYSTEM",
+      "from_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-526-CF-REINFORCEMENT-ASSEMBLY-PART-OF-AU-CF-STUMP-PAD-SYSTEM",
+      "from_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STUMP-PAD-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-527-CF-REINFORCING-BAR-PART-OF-AU-CF-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-CF-REINFORCING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-528-CF-REINFORCING-BAR-SUPPORTED-BY-AU-CF-BAR-CHAIR",
+      "from_id": "AU-CF-REINFORCING-BAR",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-BAR-CHAIR",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-REINFORCEMENT-SUPPORTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-530-CF-SLAB-EDGE-INSULATION-PART-OF-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-SLAB-EDGE-INSULATION",
+      "relationship": "part_of",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-YOURHOME-CONCRETE-SLABS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-534-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-BULK-PIER",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-BULK-PIER",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-535-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-CONCRETE-MATERIAL",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-CONCRETE-MATERIAL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-536-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-CONCRETE-SLAB-PANEL",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-CONCRETE-SLAB-PANEL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-537-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-DAMP-PROOFING-MEMBRANE",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT-DETAIL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-538-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-DEEPENED-EDGE-BEAM",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-DEEPENED-EDGE-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-539-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-EDGE-BEAM",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-EDGE-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-540-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-EDGE-REBATE",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-EDGE-REBATE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-541-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-INTERNAL-BEAM",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-INTERNAL-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-542-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-MEMBRANE-JOINT-TAPE",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-MEMBRANE-JOINT-TAPE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-543-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-PENETRATION-SLEEVE",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-PENETRATION-SLEEVE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-544-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-545-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-CF-SLAB-EDGE-INSULATION",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-CF-SLAB-EDGE-INSULATION",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-YOURHOME-CONCRETE-SLABS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-549-CF-SLAB-VOID-FORMER-PART-OF-AU-CF-WAFFLE-RAFT-SLAB",
+      "from_id": "AU-CF-SLAB-VOID-FORMER",
+      "relationship": "part_of",
+      "to_id": "AU-CF-WAFFLE-RAFT-SLAB",
+      "source_ids": [
+        "SRC-RMIT-WAFFLE-RAFT",
+        "SRC-RMIT-WAFFLE-RAFT-FEATURES",
+        "SRC-YOURHOME-CONCRETE-SLABS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-550-CF-STEPPED-STRIP-FOOTING-IS-A-AU-CF-STRIP-FOOTING",
+      "from_id": "AU-CF-STEPPED-STRIP-FOOTING",
+      "relationship": "is_a",
+      "to_id": "AU-CF-STRIP-FOOTING",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-STEPPED-FOOTING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-551-CF-STEPPED-STRIP-FOOTING-PART-OF-AU-CF-STRIP-FOOTING-SYSTEM",
+      "from_id": "AU-CF-STEPPED-STRIP-FOOTING",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-STEPPED-FOOTING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-552-CF-STIFFENED-RAFT-SLAB-HAS-PART-AU-CF-CONCRETE-SLAB-PANEL",
+      "from_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CF-CONCRETE-SLAB-PANEL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-553-CF-STIFFENED-RAFT-SLAB-HAS-PART-AU-CF-DAMP-PROOFING-MEMBRANE",
+      "from_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT-DETAIL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-554-CF-STIFFENED-RAFT-SLAB-HAS-PART-AU-CF-DEEPENED-EDGE-BEAM",
+      "from_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CF-DEEPENED-EDGE-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-555-CF-STIFFENED-RAFT-SLAB-HAS-PART-AU-CF-EDGE-BEAM",
+      "from_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CF-EDGE-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-556-CF-STIFFENED-RAFT-SLAB-HAS-PART-AU-CF-EDGE-REBATE",
+      "from_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CF-EDGE-REBATE",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-557-CF-STIFFENED-RAFT-SLAB-HAS-PART-AU-CF-INTERNAL-BEAM",
+      "from_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CF-INTERNAL-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-558-CF-STIFFENED-RAFT-SLAB-IS-A-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-STIFFENED-RAFT-SLAB",
+      "relationship": "is_a",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-STIFFENED-RAFT",
+        "SRC-YOURHOME-CONCRETE-SLABS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-559-CF-STRIP-FOOTING-BEARS-ON-AU-CF-FOUNDATION-MATERIAL",
+      "from_id": "AU-CF-STRIP-FOOTING",
+      "relationship": "bears_on",
+      "to_id": "AU-CF-FOUNDATION-MATERIAL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-RMIT-STRIP-FOOTING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-560-CF-STRIP-FOOTING-PART-OF-AU-CF-STRIP-FOOTING-SYSTEM",
+      "from_id": "AU-CF-STRIP-FOOTING",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-RMIT-STRIP-FOOTING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-561-CF-STRIP-FOOTING-SYSTEM-HAS-PART-AU-CF-CONCRETE-MATERIAL",
+      "from_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CF-CONCRETE-MATERIAL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-562-CF-STRIP-FOOTING-SYSTEM-HAS-PART-AU-CF-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-563-CF-STRIP-FOOTING-SYSTEM-HAS-PART-AU-CF-STEPPED-STRIP-FOOTING",
+      "from_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CF-STEPPED-STRIP-FOOTING",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-STEPPED-FOOTING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-564-CF-STRIP-FOOTING-SYSTEM-HAS-PART-AU-CF-STRIP-FOOTING",
+      "from_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CF-STRIP-FOOTING",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-RMIT-STRIP-FOOTING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-565-CF-STRIP-FOOTING-SYSTEM-SUPPORTS-AU-CF-FOOTING-SLAB-ASSEMBLY",
+      "from_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "relationship": "supports",
+      "to_id": "AU-CF-FOOTING-SLAB-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-FOOTING-SLAB"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-569-CF-STUMP-PART-OF-AU-CF-STUMP-PAD-SYSTEM",
+      "from_id": "AU-CF-STUMP",
+      "relationship": "part_of",
+      "to_id": "AU-CF-STUMP-PAD-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-FLOOR-GENERAL",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-570-CF-STUMP-SUPPORTED-BY-AU-CF-PAD-FOOTING",
+      "from_id": "AU-CF-STUMP",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-PAD-FOOTING",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-RMIT-FLOOR-GENERAL",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-573-CF-STUMP-PAD-SYSTEM-HAS-PART-AU-CF-CONCRETE-MATERIAL",
+      "from_id": "AU-CF-STUMP-PAD-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CF-CONCRETE-MATERIAL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-574-CF-STUMP-PAD-SYSTEM-HAS-PART-AU-CF-PAD-FOOTING",
+      "from_id": "AU-CF-STUMP-PAD-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CF-PAD-FOOTING",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-CONCRETE-MEASUREMENT",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-575-CF-STUMP-PAD-SYSTEM-HAS-PART-AU-CF-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-CF-STUMP-PAD-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-576-CF-STUMP-PAD-SYSTEM-HAS-PART-AU-CF-STUMP",
+      "from_id": "AU-CF-STUMP-PAD-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-CF-STUMP",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-FLOOR-GENERAL",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-577-CF-TIE-WIRE-PART-OF-AU-CF-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-CF-TIE-WIRE",
+      "relationship": "part_of",
+      "to_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-578-CF-TRENCH-MESH-PART-OF-AU-CF-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-CF-TRENCH-MESH",
+      "relationship": "part_of",
+      "to_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT",
+        "SRC-RMIT-WAFFLE-RAFT-FEATURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-579-CF-TRENCH-MESH-SUPPORTED-BY-AU-CF-BAR-CHAIR",
+      "from_id": "AU-CF-TRENCH-MESH",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-BAR-CHAIR",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-REINFORCEMENT-SUPPORTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-580-CF-WAFFLE-POD-IS-A-AU-CF-SLAB-VOID-FORMER",
+      "from_id": "AU-CF-WAFFLE-POD",
+      "relationship": "is_a",
+      "to_id": "AU-CF-SLAB-VOID-FORMER",
+      "source_ids": [
+        "SRC-RMIT-WAFFLE-RAFT",
+        "SRC-YOURHOME-CONCRETE-SLABS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-581-CF-WAFFLE-POD-PART-OF-AU-CF-WAFFLE-RAFT-SLAB",
+      "from_id": "AU-CF-WAFFLE-POD",
+      "relationship": "part_of",
+      "to_id": "AU-CF-WAFFLE-RAFT-SLAB",
+      "source_ids": [
+        "SRC-RMIT-WAFFLE-RAFT",
+        "SRC-YOURHOME-CONCRETE-SLABS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-582-CF-WAFFLE-RAFT-SLAB-HAS-PART-AU-CF-CONCRETE-SLAB-PANEL",
+      "from_id": "AU-CF-WAFFLE-RAFT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CF-CONCRETE-SLAB-PANEL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-583-CF-WAFFLE-RAFT-SLAB-HAS-PART-AU-CF-EDGE-BEAM",
+      "from_id": "AU-CF-WAFFLE-RAFT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CF-EDGE-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-ABCB-HP-FOOTINGS-SCOPE",
+        "SRC-RMIT-STIFFENED-RAFT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-584-CF-WAFFLE-RAFT-SLAB-HAS-PART-AU-CF-SLAB-VOID-FORMER",
+      "from_id": "AU-CF-WAFFLE-RAFT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CF-SLAB-VOID-FORMER",
+      "source_ids": [
+        "SRC-RMIT-WAFFLE-RAFT",
+        "SRC-RMIT-WAFFLE-RAFT-FEATURES",
+        "SRC-YOURHOME-CONCRETE-SLABS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-585-CF-WAFFLE-RAFT-SLAB-HAS-PART-AU-CF-WAFFLE-POD",
+      "from_id": "AU-CF-WAFFLE-RAFT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CF-WAFFLE-POD",
+      "source_ids": [
+        "SRC-RMIT-WAFFLE-RAFT",
+        "SRC-YOURHOME-CONCRETE-SLABS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-586-CF-WAFFLE-RAFT-SLAB-HAS-PART-AU-CF-WAFFLE-RIB",
+      "from_id": "AU-CF-WAFFLE-RAFT-SLAB",
+      "relationship": "has_part",
+      "to_id": "AU-CF-WAFFLE-RIB",
+      "source_ids": [
+        "SRC-RMIT-WAFFLE-RAFT",
+        "SRC-RMIT-WAFFLE-RAFT-FEATURES",
+        "SRC-YOURHOME-CONCRETE-SLABS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-587-CF-WAFFLE-RAFT-SLAB-IS-A-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-CF-WAFFLE-RAFT-SLAB",
+      "relationship": "is_a",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-RMIT-WAFFLE-RAFT",
+        "SRC-RMIT-WAFFLE-RAFT-FEATURES",
+        "SRC-YOURHOME-CONCRETE-SLABS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-588-CF-WAFFLE-RIB-PART-OF-AU-CF-WAFFLE-RAFT-SLAB",
+      "from_id": "AU-CF-WAFFLE-RIB",
+      "relationship": "part_of",
+      "to_id": "AU-CF-WAFFLE-RAFT-SLAB",
+      "source_ids": [
+        "SRC-RMIT-WAFFLE-RAFT",
+        "SRC-RMIT-WAFFLE-RAFT-FEATURES",
+        "SRC-YOURHOME-CONCRETE-SLABS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-589-CF-WELDED-WIRE-FABRIC-PART-OF-AU-CF-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-CF-WELDED-WIRE-FABRIC",
+      "relationship": "part_of",
+      "to_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-CAUL-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-590-CF-WELDED-WIRE-FABRIC-SUPPORTED-BY-AU-CF-BAR-CHAIR",
+      "from_id": "AU-CF-WELDED-WIRE-FABRIC",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-BAR-CHAIR",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-REINFORCEMENT-SUPPORTS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-463-CF-BULK-PIER-COMMONLY-USED-WITH-AU-DB-DECK-POST-PIER",
+      "from_id": "AU-CF-BULK-PIER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-POST-PIER",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-468-CF-CONCRETE-FORMWORK-COMMONLY-USED-WITH-AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "from_id": "AU-CF-CONCRETE-FORMWORK",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CS-FORMWORK-AND-FALSEWORK-SYSTEM",
+      "source_ids": [
+        "SRC-SA-AS3610-1-2018",
+        "SRC-SA-AS3610-2-INT-2023",
+        "SRC-SAFEWORK-NSW-FORMWORK-COP",
+        "SRC-TGA-CPCCCA3019-FORMWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-469-CF-CONCRETE-MATERIAL-COMMONLY-USED-WITH-AU-CS-CEMENTITIOUS-BINDER",
+      "from_id": "AU-CF-CONCRETE-MATERIAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CS-CEMENTITIOUS-BINDER",
+      "source_ids": [
+        "SRC-CEMENT-AUSTRALIA-CEMENT",
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-AS3972-2010"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-470-CF-CONCRETE-MATERIAL-COMMONLY-USED-WITH-AU-CS-CHEMICAL-CONCRETE-ADMIXTURE",
+      "from_id": "AU-CF-CONCRETE-MATERIAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CS-CHEMICAL-CONCRETE-ADMIXTURE",
+      "source_ids": [
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-AS1478-1-2000"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-471-CF-CONCRETE-MATERIAL-COMMONLY-USED-WITH-AU-CS-COARSE-CONCRETE-AGGREGATE",
+      "from_id": "AU-CF-CONCRETE-MATERIAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CS-COARSE-CONCRETE-AGGREGATE",
+      "source_ids": [
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-AS2758-1-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-472-CF-CONCRETE-MATERIAL-COMMONLY-USED-WITH-AU-CS-CONCRETE-FIBRE-REINFORCEMENT",
+      "from_id": "AU-CF-CONCRETE-MATERIAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CS-CONCRETE-FIBRE-REINFORCEMENT",
+      "source_ids": [
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-AS3600-2018",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-473-CF-CONCRETE-MATERIAL-COMMONLY-USED-WITH-AU-CS-CONCRETE-MIXING-WATER",
+      "from_id": "AU-CF-CONCRETE-MATERIAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CS-CONCRETE-MIXING-WATER",
+      "source_ids": [
+        "SRC-SA-AS1379-2007",
+        "SRC-TGA-CPCCCO2014-CONCRETE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-474-CF-CONCRETE-MATERIAL-COMMONLY-USED-WITH-AU-CS-FINE-CONCRETE-AGGREGATE",
+      "from_id": "AU-CF-CONCRETE-MATERIAL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CS-FINE-CONCRETE-AGGREGATE",
+      "source_ids": [
+        "SRC-SA-AS1379-2007",
+        "SRC-SA-AS2758-1-2014"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-482-CF-DAMP-PROOFING-MEMBRANE-COMMONLY-USED-WITH-AU-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE",
+      "from_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE",
+      "source_ids": [
+        "SRC-ABCB-CONDENSATION-HANDBOOK",
+        "SRC-ABCB-HP-SUBFLOOR-VENTILATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-488-CF-DAMP-PROOFING-MEMBRANE-SUPPORTED-BY-AU-SC-QUARRY-SAND-BEDDING",
+      "from_id": "AU-CF-DAMP-PROOFING-MEMBRANE",
+      "relationship": "supported_by",
+      "to_id": "AU-SC-QUARRY-SAND-BEDDING",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-509-CF-PAD-FOOTING-COMMONLY-USED-WITH-AU-DB-DECK-POST",
+      "from_id": "AU-CF-PAD-FOOTING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-POST",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK",
+        "SRC-WOODSOLUTIONS-TDG05-SERVICE-LIFE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-510-CF-PAD-FOOTING-COMMONLY-USED-WITH-AU-DB-DECK-POST-FOOTING-ASSEMBLY",
+      "from_id": "AU-CF-PAD-FOOTING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-POST-FOOTING-ASSEMBLY",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-513-CF-PAD-FOOTING-SUPPORTS-AU-MA-ISOLATED-MASONRY-PIER",
+      "from_id": "AU-CF-PAD-FOOTING",
+      "relationship": "supports",
+      "to_id": "AU-MA-ISOLATED-MASONRY-PIER",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-516-CF-REINFORCEMENT-ASSEMBLY-COMMONLY-USED-WITH-AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "from_id": "AU-CF-REINFORCEMENT-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CS-REINFORCEMENT-PLACEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS3600-2018",
+        "SRC-SA-ASNZS4671-2019",
+        "SRC-SRIA-BAR-CHAIRS",
+        "SRC-TGA-CPCCSF2004-REINFORCEMENT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-529-CF-SLAB-EDGE-INSULATION-COMMONLY-USED-WITH-AU-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY",
+      "from_id": "AU-CF-SLAB-EDGE-INSULATION",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-THERMAL-FABRIC",
+        "SRC-KINGSPAN-AU-RIGID-INSULATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-531-CF-SLAB-ON-GROUND-ASSEMBLY-ADJACENT-TO-AU-SF-BOTTOM-PLATE-MEMBRANE",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "adjacent_to",
+      "to_id": "AU-SF-BOTTOM-PLATE-MEMBRANE",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-532-CF-SLAB-ON-GROUND-ASSEMBLY-COMMONLY-USED-WITH-AU-FF-FLOOR-SUBSTRATE-PREPARATION-ASSEMBLY",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-FLOOR-SUBSTRATE-PREPARATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ARDEX-FLOOR-PREPARATION",
+        "SRC-DUNLOP-FLOOR-LEVELLERS",
+        "SRC-SA-AS1884-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-533-CF-SLAB-ON-GROUND-ASSEMBLY-COMMONLY-USED-WITH-AU-FF-LIQUID-APPLIED-SLAB-MOISTURE-BARRIER",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-LIQUID-APPLIED-SLAB-MOISTURE-BARRIER",
+      "source_ids": [
+        "SRC-ARDEX-FLOOR-PREPARATION",
+        "SRC-FORBO-RESILIENT-INSTALL",
+        "SRC-SA-AS1884-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-546-CF-SLAB-ON-GROUND-ASSEMBLY-HAS-PART-AU-SC-QUARRY-SAND-BEDDING",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-SC-QUARRY-SAND-BEDDING",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-547-CF-SLAB-ON-GROUND-ASSEMBLY-SUPPORTED-BY-AU-SC-CONTROLLED-FILL",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "supported_by",
+      "to_id": "AU-SC-CONTROLLED-FILL",
+      "source_ids": [
+        "SRC-ABCB-HP-EARTHWORKS",
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-548-CF-SLAB-ON-GROUND-ASSEMBLY-SUPPORTED-BY-AU-SC-ROLLED-FILL",
+      "from_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "relationship": "supported_by",
+      "to_id": "AU-SC-ROLLED-FILL",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-566-CF-STRIP-FOOTING-SYSTEM-SUPPORTS-AU-MA-CAVITY-MASONRY-WALL",
+      "from_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "relationship": "supports",
+      "to_id": "AU-MA-CAVITY-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-CAVITY-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-567-CF-STRIP-FOOTING-SYSTEM-SUPPORTS-AU-MA-REINFORCED-MASONRY-WALL",
+      "from_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "relationship": "supports",
+      "to_id": "AU-MA-REINFORCED-MASONRY-WALL",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME",
+        "SRC-DICTIONARY-MASONRY-UNIT"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-568-CF-STRIP-FOOTING-SYSTEM-SUPPORTS-AU-MA-SINGLE-LEAF-MASONRY-WALL",
+      "from_id": "AU-CF-STRIP-FOOTING-SYSTEM",
+      "relationship": "supports",
+      "to_id": "AU-MA-SINGLE-LEAF-MASONRY-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-SINGLE-LEAF-MASONRY",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-571-CF-STUMP-SUPPORTS-AU-TF-BEARER",
+      "from_id": "AU-CF-STUMP",
+      "relationship": "supports",
+      "to_id": "AU-TF-BEARER",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-FLOOR-GENERAL",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-572-CF-STUMP-PAD-SYSTEM-COMMONLY-USED-WITH-AU-DB-DECK-POST-FOOTING-ASSEMBLY",
+      "from_id": "AU-CF-STUMP-PAD-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-POST-FOOTING-ASSEMBLY",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

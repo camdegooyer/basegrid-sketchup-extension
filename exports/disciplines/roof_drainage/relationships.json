@@ -1,0 +1,1353 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "roof_drainage",
+  "relationships": [
+    {
+      "id": "REL-7036-RD-BACK-OUTLET-CONNECTS-TO-AU-RD-RAINHEAD",
+      "from_id": "AU-RD-BACK-OUTLET",
+      "relationship": "connects_to",
+      "to_id": "AU-RD-RAINHEAD",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7037-RD-BACK-OUTLET-IS-A-AU-RD-GUTTER-OUTLET",
+      "from_id": "AU-RD-BACK-OUTLET",
+      "relationship": "is_a",
+      "to_id": "AU-RD-GUTTER-OUTLET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7038-RD-BACK-OUTLET-PART-OF-AU-RD-EAVES-GUTTER-SYSTEM",
+      "from_id": "AU-RD-BACK-OUTLET",
+      "relationship": "part_of",
+      "to_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7039-RD-BOX-GUTTER-IS-A-AU-RD-GUTTER",
+      "from_id": "AU-RD-BOX-GUTTER",
+      "relationship": "is_a",
+      "to_id": "AU-RD-GUTTER",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7040-RD-BOX-GUTTER-PART-OF-AU-RD-BOX-GUTTER-SYSTEM",
+      "from_id": "AU-RD-BOX-GUTTER",
+      "relationship": "part_of",
+      "to_id": "AU-RD-BOX-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7041-RD-BOX-GUTTER-SUMP-CONNECTS-TO-AU-RD-DOWNPIPE",
+      "from_id": "AU-RD-BOX-GUTTER-SUMP",
+      "relationship": "connects_to",
+      "to_id": "AU-RD-DOWNPIPE",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7042-RD-BOX-GUTTER-SUMP-PART-OF-AU-RD-BOX-GUTTER-SYSTEM",
+      "from_id": "AU-RD-BOX-GUTTER-SUMP",
+      "relationship": "part_of",
+      "to_id": "AU-RD-BOX-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7043-RD-BOX-GUTTER-SYSTEM-HAS-PART-AU-RD-BOX-GUTTER",
+      "from_id": "AU-RD-BOX-GUTTER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-BOX-GUTTER",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7044-RD-BOX-GUTTER-SYSTEM-HAS-PART-AU-RD-BOX-GUTTER-SUMP",
+      "from_id": "AU-RD-BOX-GUTTER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-BOX-GUTTER-SUMP",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7045-RD-BOX-GUTTER-SYSTEM-IS-A-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-BOX-GUTTER-SYSTEM",
+      "relationship": "is_a",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7046-RD-BOX-GUTTER-SYSTEM-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-BOX-GUTTER-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7047-RD-CONTROLLED-BACK-GAP-PART-OF-AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "from_id": "AU-RD-CONTROLLED-BACK-GAP",
+      "relationship": "part_of",
+      "to_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7048-RD-CONTROLLED-FRONT-BEAD-PART-OF-AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "from_id": "AU-RD-CONTROLLED-FRONT-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7049-RD-DOWNPIPE-ALTERNATIVE-TO-AU-RD-RAINWATER-CHAIN",
+      "from_id": "AU-RD-DOWNPIPE",
+      "relationship": "alternative_to",
+      "to_id": "AU-RD-RAINWATER-CHAIN",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7050-RD-DOWNPIPE-CONNECTS-TO-AU-RD-BOX-GUTTER-SUMP",
+      "from_id": "AU-RD-DOWNPIPE",
+      "relationship": "connects_to",
+      "to_id": "AU-RD-BOX-GUTTER-SUMP",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7051-RD-DOWNPIPE-CONNECTS-TO-AU-RD-GUTTER-OUTLET",
+      "from_id": "AU-RD-DOWNPIPE",
+      "relationship": "connects_to",
+      "to_id": "AU-RD-GUTTER-OUTLET",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7052-RD-DOWNPIPE-CONNECTS-TO-AU-RD-RAINHEAD",
+      "from_id": "AU-RD-DOWNPIPE",
+      "relationship": "connects_to",
+      "to_id": "AU-RD-RAINHEAD",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7054-RD-DOWNPIPE-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-DOWNPIPE",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7055-RD-DOWNPIPE-SUPPORTED-BY-AU-RD-DOWNPIPE-CLIP",
+      "from_id": "AU-RD-DOWNPIPE",
+      "relationship": "supported_by",
+      "to_id": "AU-RD-DOWNPIPE-CLIP",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7056-RD-DOWNPIPE-BEND-PART-OF-AU-RD-DOWNPIPE-OFFSET",
+      "from_id": "AU-RD-DOWNPIPE-BEND",
+      "relationship": "part_of",
+      "to_id": "AU-RD-DOWNPIPE-OFFSET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7057-RD-DOWNPIPE-BEND-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-DOWNPIPE-BEND",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7058-RD-DOWNPIPE-CLIP-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-DOWNPIPE-CLIP",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7059-RD-DOWNPIPE-CLIP-SUPPORTS-AU-RD-DOWNPIPE",
+      "from_id": "AU-RD-DOWNPIPE-CLIP",
+      "relationship": "supports",
+      "to_id": "AU-RD-DOWNPIPE",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7060-RD-DOWNPIPE-JOINER-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-DOWNPIPE-JOINER",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7061-RD-DOWNPIPE-OFFSET-HAS-PART-AU-RD-DOWNPIPE-BEND",
+      "from_id": "AU-RD-DOWNPIPE-OFFSET",
+      "relationship": "has_part",
+      "to_id": "AU-RD-DOWNPIPE-BEND",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7062-RD-DOWNPIPE-OFFSET-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-DOWNPIPE-OFFSET",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7063-RD-DOWNPIPE-SHOE-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-DOWNPIPE-SHOE",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7065-RD-DOWNPIPE-SPREADER-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-DOWNPIPE-SPREADER",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7067-RD-DOWNPIPE-STORMWATER-ADAPTOR-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-DOWNPIPE-STORMWATER-ADAPTOR",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7069-RD-EAVES-GUTTER-IS-A-AU-RD-GUTTER",
+      "from_id": "AU-RD-EAVES-GUTTER",
+      "relationship": "is_a",
+      "to_id": "AU-RD-GUTTER",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7070-RD-EAVES-GUTTER-PART-OF-AU-RD-EAVES-GUTTER-SYSTEM",
+      "from_id": "AU-RD-EAVES-GUTTER",
+      "relationship": "part_of",
+      "to_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7071-RD-EAVES-GUTTER-SUPPORTED-BY-AU-RD-GUTTER-BRACKET",
+      "from_id": "AU-RD-EAVES-GUTTER",
+      "relationship": "supported_by",
+      "to_id": "AU-RD-GUTTER-BRACKET",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7072-RD-EAVES-GUTTER-SYSTEM-HAS-PART-AU-RD-BACK-OUTLET",
+      "from_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-BACK-OUTLET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7073-RD-EAVES-GUTTER-SYSTEM-HAS-PART-AU-RD-EAVES-GUTTER",
+      "from_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-EAVES-GUTTER",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7074-RD-EAVES-GUTTER-SYSTEM-HAS-PART-AU-RD-GUTTER-BRACKET",
+      "from_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-GUTTER-BRACKET",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7075-RD-EAVES-GUTTER-SYSTEM-HAS-PART-AU-RD-GUTTER-EXTERNAL-CORNER",
+      "from_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-GUTTER-EXTERNAL-CORNER",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7076-RD-EAVES-GUTTER-SYSTEM-HAS-PART-AU-RD-GUTTER-INTERNAL-CORNER",
+      "from_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-GUTTER-INTERNAL-CORNER",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7077-RD-EAVES-GUTTER-SYSTEM-HAS-PART-AU-RD-GUTTER-JOINER",
+      "from_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-GUTTER-JOINER",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7078-RD-EAVES-GUTTER-SYSTEM-HAS-PART-AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "from_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7079-RD-EAVES-GUTTER-SYSTEM-HAS-PART-AU-RD-GUTTER-STOP-END",
+      "from_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-GUTTER-STOP-END",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7080-RD-EAVES-GUTTER-SYSTEM-IS-A-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "relationship": "is_a",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7081-RD-EAVES-GUTTER-SYSTEM-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7082-RD-END-STOP-WEIR-PART-OF-AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "from_id": "AU-RD-END-STOP-WEIR",
+      "relationship": "part_of",
+      "to_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7083-RD-FRONT-FACE-OVERFLOW-SLOT-PART-OF-AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "from_id": "AU-RD-FRONT-FACE-OVERFLOW-SLOT",
+      "relationship": "part_of",
+      "to_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7084-RD-FRONT-FACE-WEIR-PART-OF-AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "from_id": "AU-RD-FRONT-FACE-WEIR",
+      "relationship": "part_of",
+      "to_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7085-RD-GUTTER-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-GUTTER",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7086-RD-GUTTER-BRACKET-PART-OF-AU-RD-EAVES-GUTTER-SYSTEM",
+      "from_id": "AU-RD-GUTTER-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7087-RD-GUTTER-BRACKET-SUPPORTS-AU-RD-EAVES-GUTTER",
+      "from_id": "AU-RD-GUTTER-BRACKET",
+      "relationship": "supports",
+      "to_id": "AU-RD-EAVES-GUTTER",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7088-RD-GUTTER-EXPANSION-JOINT-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-GUTTER-EXPANSION-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7089-RD-GUTTER-EXTERNAL-CORNER-PART-OF-AU-RD-EAVES-GUTTER-SYSTEM",
+      "from_id": "AU-RD-GUTTER-EXTERNAL-CORNER",
+      "relationship": "part_of",
+      "to_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7090-RD-GUTTER-GUARD-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-GUTTER-GUARD",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7091-RD-GUTTER-INTERNAL-CORNER-PART-OF-AU-RD-EAVES-GUTTER-SYSTEM",
+      "from_id": "AU-RD-GUTTER-INTERNAL-CORNER",
+      "relationship": "part_of",
+      "to_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7092-RD-GUTTER-JOINER-PART-OF-AU-RD-EAVES-GUTTER-SYSTEM",
+      "from_id": "AU-RD-GUTTER-JOINER",
+      "relationship": "part_of",
+      "to_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7094-RD-GUTTER-OUTLET-CONNECTS-TO-AU-RD-DOWNPIPE",
+      "from_id": "AU-RD-GUTTER-OUTLET",
+      "relationship": "connects_to",
+      "to_id": "AU-RD-DOWNPIPE",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7095-RD-GUTTER-OUTLET-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-GUTTER-OUTLET",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7096-RD-GUTTER-OVERFLOW-SYSTEM-HAS-PART-AU-RD-CONTROLLED-BACK-GAP",
+      "from_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-CONTROLLED-BACK-GAP",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7097-RD-GUTTER-OVERFLOW-SYSTEM-HAS-PART-AU-RD-CONTROLLED-FRONT-BEAD",
+      "from_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-CONTROLLED-FRONT-BEAD",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7098-RD-GUTTER-OVERFLOW-SYSTEM-HAS-PART-AU-RD-END-STOP-WEIR",
+      "from_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-END-STOP-WEIR",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7099-RD-GUTTER-OVERFLOW-SYSTEM-HAS-PART-AU-RD-FRONT-FACE-OVERFLOW-SLOT",
+      "from_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-FRONT-FACE-OVERFLOW-SLOT",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7100-RD-GUTTER-OVERFLOW-SYSTEM-HAS-PART-AU-RD-FRONT-FACE-WEIR",
+      "from_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-FRONT-FACE-WEIR",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7101-RD-GUTTER-OVERFLOW-SYSTEM-HAS-PART-AU-RD-GUTTER-SPACER",
+      "from_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-GUTTER-SPACER",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7102-RD-GUTTER-OVERFLOW-SYSTEM-HAS-PART-AU-RD-INVERTED-OVERFLOW-NOZZLE",
+      "from_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-INVERTED-OVERFLOW-NOZZLE",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7103-RD-GUTTER-OVERFLOW-SYSTEM-PART-OF-AU-RD-EAVES-GUTTER-SYSTEM",
+      "from_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7104-RD-GUTTER-SPACER-PART-OF-AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "from_id": "AU-RD-GUTTER-SPACER",
+      "relationship": "part_of",
+      "to_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7105-RD-GUTTER-STOP-END-PART-OF-AU-RD-EAVES-GUTTER-SYSTEM",
+      "from_id": "AU-RD-GUTTER-STOP-END",
+      "relationship": "part_of",
+      "to_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7106-RD-INVERTED-OVERFLOW-NOZZLE-PART-OF-AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "from_id": "AU-RD-INVERTED-OVERFLOW-NOZZLE",
+      "relationship": "part_of",
+      "to_id": "AU-RD-GUTTER-OVERFLOW-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7107-RD-RAINHEAD-CONNECTS-TO-AU-RD-BACK-OUTLET",
+      "from_id": "AU-RD-RAINHEAD",
+      "relationship": "connects_to",
+      "to_id": "AU-RD-BACK-OUTLET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7108-RD-RAINHEAD-CONNECTS-TO-AU-RD-DOWNPIPE",
+      "from_id": "AU-RD-RAINHEAD",
+      "relationship": "connects_to",
+      "to_id": "AU-RD-DOWNPIPE",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7109-RD-RAINHEAD-HAS-PART-AU-RD-RAINHEAD-OVERFLOW-OPENING",
+      "from_id": "AU-RD-RAINHEAD",
+      "relationship": "has_part",
+      "to_id": "AU-RD-RAINHEAD-OVERFLOW-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7110-RD-RAINHEAD-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-RAINHEAD",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7111-RD-RAINHEAD-OVERFLOW-OPENING-PART-OF-AU-RD-RAINHEAD",
+      "from_id": "AU-RD-RAINHEAD-OVERFLOW-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-RD-RAINHEAD",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7112-RD-RAINHEAD-OVERFLOW-OPENING-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-RAINHEAD-OVERFLOW-OPENING",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7113-RD-RAINWATER-CHAIN-ALTERNATIVE-TO-AU-RD-DOWNPIPE",
+      "from_id": "AU-RD-RAINWATER-CHAIN",
+      "relationship": "alternative_to",
+      "to_id": "AU-RD-DOWNPIPE",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7114-RD-RAINWATER-CHAIN-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-RAINWATER-CHAIN",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7115-RD-RECTANGULAR-DOWNPIPE-IS-A-AU-RD-DOWNPIPE",
+      "from_id": "AU-RD-RECTANGULAR-DOWNPIPE",
+      "relationship": "is_a",
+      "to_id": "AU-RD-DOWNPIPE",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7116-RD-RECTANGULAR-DOWNPIPE-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-RECTANGULAR-DOWNPIPE",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7118-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-BOX-GUTTER-SYSTEM",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-BOX-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7119-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-DOWNPIPE",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-DOWNPIPE",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7120-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-DOWNPIPE-BEND",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-DOWNPIPE-BEND",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7121-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-DOWNPIPE-CLIP",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-DOWNPIPE-CLIP",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7122-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-DOWNPIPE-JOINER",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-DOWNPIPE-JOINER",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7123-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-DOWNPIPE-OFFSET",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-DOWNPIPE-OFFSET",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7124-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-DOWNPIPE-SHOE",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-DOWNPIPE-SHOE",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7125-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-DOWNPIPE-SPREADER",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-DOWNPIPE-SPREADER",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7126-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-DOWNPIPE-STORMWATER-ADAPTOR",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-DOWNPIPE-STORMWATER-ADAPTOR",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7127-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-EAVES-GUTTER-SYSTEM",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-EAVES-GUTTER-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7128-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-GUTTER",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-GUTTER",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7129-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-GUTTER-EXPANSION-JOINT",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-GUTTER-EXPANSION-JOINT",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7130-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-GUTTER-GUARD",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-GUTTER-GUARD",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7131-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-GUTTER-OUTLET",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-GUTTER-OUTLET",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7132-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-RAINHEAD",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-RAINHEAD",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7133-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-RAINHEAD-OVERFLOW-OPENING",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-RAINHEAD-OVERFLOW-OPENING",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7134-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-RAINWATER-CHAIN",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-RAINWATER-CHAIN",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7135-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-RECTANGULAR-DOWNPIPE",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-RECTANGULAR-DOWNPIPE",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7136-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-ROUND-DOWNPIPE",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-ROUND-DOWNPIPE",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7137-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-SOAKER-GUTTER",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-SOAKER-GUTTER",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7138-RD-ROOF-DRAINAGE-SYSTEM-HAS-PART-AU-RD-VALLEY-GUTTER",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-RD-VALLEY-GUTTER",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7139-RD-ROUND-DOWNPIPE-IS-A-AU-RD-DOWNPIPE",
+      "from_id": "AU-RD-ROUND-DOWNPIPE",
+      "relationship": "is_a",
+      "to_id": "AU-RD-DOWNPIPE",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7140-RD-ROUND-DOWNPIPE-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-ROUND-DOWNPIPE",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7141-RD-SOAKER-GUTTER-IS-A-AU-RD-GUTTER",
+      "from_id": "AU-RD-SOAKER-GUTTER",
+      "relationship": "is_a",
+      "to_id": "AU-RD-GUTTER",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7142-RD-SOAKER-GUTTER-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-SOAKER-GUTTER",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7144-RD-VALLEY-GUTTER-IS-A-AU-RD-GUTTER",
+      "from_id": "AU-RD-VALLEY-GUTTER",
+      "relationship": "is_a",
+      "to_id": "AU-RD-GUTTER",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7145-RD-VALLEY-GUTTER-PART-OF-AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "from_id": "AU-RD-VALLEY-GUTTER",
+      "relationship": "part_of",
+      "to_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-7053-RD-DOWNPIPE-CONNECTS-TO-AU-SC-STORMWATER-DRAIN",
+      "from_id": "AU-RD-DOWNPIPE",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-STORMWATER-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7064-RD-DOWNPIPE-SPREADER-CONNECTS-TO-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RD-DOWNPIPE-SPREADER",
+      "relationship": "connects_to",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7066-RD-DOWNPIPE-STORMWATER-ADAPTOR-CONNECTS-TO-AU-SC-STORMWATER-DRAIN",
+      "from_id": "AU-RD-DOWNPIPE-STORMWATER-ADAPTOR",
+      "relationship": "connects_to",
+      "to_id": "AU-SC-STORMWATER-DRAIN",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7068-RD-EAVES-GUTTER-ADJACENT-TO-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RD-EAVES-GUTTER",
+      "relationship": "adjacent_to",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7093-RD-GUTTER-OUTLET-COMMONLY-USED-WITH-AU-DB-BALCONY-EDGE-GUTTER",
+      "from_id": "AU-RD-GUTTER-OUTLET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-BALCONY-EDGE-GUTTER",
+      "source_ids": [
+        "SRC-STORMTECH-BALCONY-DRAINAGE",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7117-RD-ROOF-DRAINAGE-SYSTEM-COMMONLY-USED-WITH-AU-RO-ROOF-COVERING-SYSTEM",
+      "from_id": "AU-RD-ROOF-DRAINAGE-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-ROOF-COVERING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GUTTERS-DOWNPIPES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7143-RD-VALLEY-GUTTER-COMMONLY-USED-WITH-AU-RO-TILED-ROOF",
+      "from_id": "AU-RD-VALLEY-GUTTER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

@@ -1,0 +1,3611 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "livable_housing",
+  "relationships": [
+    {
+      "id": "REL-5511-LH-ACCESS-GATE-ASSEMBLY-HAS-PART-AU-LH-ACCESS-GATE-HINGE",
+      "from_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-GATE-HINGE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5512-LH-ACCESS-GATE-ASSEMBLY-HAS-PART-AU-LH-ACCESS-GATE-LATCH",
+      "from_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-GATE-LATCH",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5513-LH-ACCESS-GATE-ASSEMBLY-HAS-PART-AU-LH-ACCESS-GATE-LEAF",
+      "from_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-GATE-LEAF",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5514-LH-ACCESS-GATE-ASSEMBLY-HAS-PART-AU-LH-ACCESS-GATE-POST",
+      "from_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-GATE-POST",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5515-LH-ACCESS-GATE-ASSEMBLY-HAS-PART-AU-LH-ACCESS-GATE-STOP",
+      "from_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-GATE-STOP",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5516-LH-ACCESS-GATE-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5517-LH-ACCESS-GATE-HINGE-PART-OF-AU-LH-ACCESS-GATE-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-GATE-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5518-LH-ACCESS-GATE-LATCH-PART-OF-AU-LH-ACCESS-GATE-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-GATE-LATCH",
+      "relationship": "part_of",
+      "to_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5519-LH-ACCESS-GATE-LEAF-PART-OF-AU-LH-ACCESS-GATE-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-GATE-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5520-LH-ACCESS-GATE-POST-PART-OF-AU-LH-ACCESS-GATE-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-GATE-POST",
+      "relationship": "part_of",
+      "to_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5521-LH-ACCESS-GATE-STOP-PART-OF-AU-LH-ACCESS-GATE-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-GATE-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5522-LH-ACCESS-PATH-COMPACTED-BASE-PART-OF-AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-PATH-COMPACTED-BASE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5523-LH-ACCESS-PATH-DRAINAGE-CHANNEL-PART-OF-AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-PATH-DRAINAGE-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5524-LH-ACCESS-PATH-EDGE-RESTRAINT-PART-OF-AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-PATH-EDGE-RESTRAINT",
+      "relationship": "part_of",
+      "to_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5526-LH-ACCESS-PATH-LANDING-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-PATH-LANDING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5527-LH-ACCESS-PATH-PAVER-BEDDING-PART-OF-AU-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-PATH-PAVER-BEDDING",
+      "relationship": "part_of",
+      "to_id": "AU-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5528-LH-ACCESS-PATH-PAVING-UNIT-PART-OF-AU-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-PATH-PAVING-UNIT",
+      "relationship": "part_of",
+      "to_id": "AU-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5529-LH-ACCESS-PATH-WALKING-FINISH-PART-OF-AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-PATH-WALKING-FINISH",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5530-LH-ALLOTMENT-BOUNDARY-ACCESS-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-ALLOTMENT-BOUNDARY-ACCESS-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5531-LH-BASIN-TAPSET-PART-OF-AU-LH-VANITY-BASIN-ASSEMBLY",
+      "from_id": "AU-LH-BASIN-TAPSET",
+      "relationship": "part_of",
+      "to_id": "AU-LH-VANITY-BASIN-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5532-LH-BATH-WALL-REINFORCEMENT-ASSEMBLY-IS-A-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-BATH-WALL-REINFORCEMENT-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5533-LH-BATH-WALL-REINFORCEMENT-ASSEMBLY-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-BATH-WALL-REINFORCEMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5534-LH-BEVELLED-ENTRANCE-SILL-LIP-PART-OF-AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "from_id": "AU-LH-BEVELLED-ENTRANCE-SILL-LIP",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5538-LH-BEVELLED-INTERNAL-THRESHOLD-IS-A-AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY",
+      "from_id": "AU-LH-BEVELLED-INTERNAL-THRESHOLD",
+      "relationship": "is_a",
+      "to_id": "AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5539-LH-BEVELLED-INTERNAL-THRESHOLD-PART-OF-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-BEVELLED-INTERNAL-THRESHOLD",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5540-LH-BOARDWALK-BEARER-PART-OF-AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-BOARDWALK-BEARER",
+      "relationship": "part_of",
+      "to_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5541-LH-BOARDWALK-BRACE-PART-OF-AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-BOARDWALK-BRACE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5543-LH-BOARDWALK-DECKING-BOARD-PART-OF-AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-BOARDWALK-DECKING-BOARD",
+      "relationship": "part_of",
+      "to_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5545-LH-BOARDWALK-DECKING-FIXING-PART-OF-AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-BOARDWALK-DECKING-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5546-LH-BOARDWALK-JOIST-PART-OF-AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-BOARDWALK-JOIST",
+      "relationship": "part_of",
+      "to_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5547-LH-BOARDWALK-SUPPORT-POST-PART-OF-AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-BOARDWALK-SUPPORT-POST",
+      "relationship": "part_of",
+      "to_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5548-LH-CAVITY-SLIDER-BASE-GUIDE-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-CAVITY-SLIDER-BASE-GUIDE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5549-LH-CAVITY-SLIDER-POCKET-FRAME-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-CAVITY-SLIDER-POCKET-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5551-LH-CAVITY-SLIDER-SPLIT-STUD-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-CAVITY-SLIDER-SPLIT-STUD",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5559-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-LH-CAVITY-SLIDER-BASE-GUIDE",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-CAVITY-SLIDER-BASE-GUIDE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5560-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-LH-CAVITY-SLIDER-POCKET-FRAME",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-CAVITY-SLIDER-POCKET-FRAME",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5561-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-LH-CAVITY-SLIDER-SPLIT-STUD",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-CAVITY-SLIDER-SPLIT-STUD",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5562-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-SLIDING-DOOR-HANGER",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-SLIDING-DOOR-HANGER",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5563-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-SLIDING-DOOR-PANEL",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-SLIDING-DOOR-PANEL",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5564-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-SLIDING-DOOR-TRACK",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-SLIDING-DOOR-TRACK",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5565-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-LH-REINFORCED-CAVITY-SLIDER-WALL-ASSEMBLY",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-REINFORCED-CAVITY-SLIDER-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5566-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-IS-A-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5567-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-PART-OF-AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5568-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-ENTRANCE-DRAIN-ANCHOR",
+      "from_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ENTRANCE-DRAIN-ANCHOR",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5569-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-ENTRANCE-DRAIN-CHANNEL-BODY",
+      "from_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ENTRANCE-DRAIN-CHANNEL-BODY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5570-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-ENTRANCE-DRAIN-DEBRIS-BASKET",
+      "from_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ENTRANCE-DRAIN-DEBRIS-BASKET",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5571-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-ENTRANCE-DRAIN-END-CAP",
+      "from_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ENTRANCE-DRAIN-END-CAP",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5572-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-ENTRANCE-DRAIN-GRATE",
+      "from_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ENTRANCE-DRAIN-GRATE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5573-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-ENTRANCE-DRAIN-OUTLET",
+      "from_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ENTRANCE-DRAIN-OUTLET",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5574-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-ENTRANCE-DRAIN-WATERPROOFING-FLANGE",
+      "from_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ENTRANCE-DRAIN-WATERPROOFING-FLANGE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5575-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY-PART-OF-AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "from_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5576-LH-CONCEALED-CISTERN-SUPPORT-FRAME-PART-OF-AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "from_id": "AU-LH-CONCEALED-CISTERN-SUPPORT-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5577-LH-CONCEALED-TOILET-CISTERN-PART-OF-AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "from_id": "AU-LH-CONCEALED-TOILET-CISTERN",
+      "relationship": "part_of",
+      "to_id": "AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5578-LH-CONCRETE-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-CONCRETE-PATH-MOVEMENT-JOINT",
+      "from_id": "AU-LH-CONCRETE-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-CONCRETE-PATH-MOVEMENT-JOINT",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5579-LH-CONCRETE-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-CONCRETE-PATH-SLAB",
+      "from_id": "AU-LH-CONCRETE-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-CONCRETE-PATH-SLAB",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5580-LH-CONCRETE-ACCESS-PATH-ASSEMBLY-IS-A-AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-CONCRETE-ACCESS-PATH-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5581-LH-CONCRETE-ACCESS-PATH-ASSEMBLY-PART-OF-AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-CONCRETE-ACCESS-PATH-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5582-LH-CONCRETE-PATH-MOVEMENT-JOINT-PART-OF-AU-LH-CONCRETE-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-CONCRETE-PATH-MOVEMENT-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CONCRETE-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5583-LH-CONCRETE-PATH-SLAB-PART-OF-AU-LH-CONCRETE-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-CONCRETE-PATH-SLAB",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CONCRETE-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5584-LH-COVERED-ENTRANCE-ASSEMBLY-PART-OF-AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "from_id": "AU-LH-COVERED-ENTRANCE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5586-LH-ENTRANCE-ARRIVAL-LANDING-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-ENTRANCE-ARRIVAL-LANDING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5587-LH-ENTRANCE-DRAIN-ANCHOR-PART-OF-AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-ENTRANCE-DRAIN-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5589-LH-ENTRANCE-DRAIN-CHANNEL-BODY-PART-OF-AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-ENTRANCE-DRAIN-CHANNEL-BODY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5590-LH-ENTRANCE-DRAIN-DEBRIS-BASKET-PART-OF-AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-ENTRANCE-DRAIN-DEBRIS-BASKET",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5591-LH-ENTRANCE-DRAIN-END-CAP-PART-OF-AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-ENTRANCE-DRAIN-END-CAP",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5592-LH-ENTRANCE-DRAIN-GRATE-PART-OF-AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-ENTRANCE-DRAIN-GRATE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5593-LH-ENTRANCE-DRAIN-OUTLET-PART-OF-AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-ENTRANCE-DRAIN-OUTLET",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5594-LH-ENTRANCE-DRAIN-WATERPROOFING-FLANGE-PART-OF-AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-ENTRANCE-DRAIN-WATERPROOFING-FLANGE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5595-LH-EXPOSED-TOILET-CISTERN-PART-OF-AU-LH-TOILET-SUITE-ASSEMBLY",
+      "from_id": "AU-LH-EXPOSED-TOILET-CISTERN",
+      "relationship": "part_of",
+      "to_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5596-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY-HAS-PART-AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-CHANNEL-DRAINED-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5597-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY-HAS-PART-AU-LH-COVERED-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-COVERED-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5598-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY-HAS-PART-AU-LH-PERMEABLE-DECK-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-PERMEABLE-DECK-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5599-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5600-LH-FLOOR-MOUNTED-TOILET-PAN-PART-OF-AU-LH-TOILET-SUITE-ASSEMBLY",
+      "from_id": "AU-LH-FLOOR-MOUNTED-TOILET-PAN",
+      "relationship": "part_of",
+      "to_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5605-LH-FLUSH-INTERNAL-TRANSITION-STRIP-PART-OF-AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY",
+      "from_id": "AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5607-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-FOLDING-DOOR-PANEL",
+      "from_id": "AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-FOLDING-DOOR-PANEL",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5608-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY-IS-A-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5609-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY-PART-OF-AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "from_id": "AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5610-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-BATH-WALL-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-BATH-WALL-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5611-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-GRABRAIL-BACKING-EDGE-SUPPORT",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-GRABRAIL-BACKING-EDGE-SUPPORT",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5612-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-GRABRAIL-BACKING-FASTENER",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-GRABRAIL-BACKING-FASTENER",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5613-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-LIGHT-GAUGE-STEEL-GRABRAIL-NOGGING",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-LIGHT-GAUGE-STEEL-GRABRAIL-NOGGING",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5614-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-METAL-GRABRAIL-BACKING-PLATE",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-METAL-GRABRAIL-BACKING-PLATE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5615-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-REINFORCED-CAVITY-SLIDER-WALL-ASSEMBLY",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-REINFORCED-CAVITY-SLIDER-WALL-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5616-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-SHOWER-WALL-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-SHOWER-WALL-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5617-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-SOLID-WALL-GRABRAIL-SUPPORT-SUBSTRATE",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-SOLID-WALL-GRABRAIL-SUPPORT-SUBSTRATE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5618-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-STRUCTURAL-PLYWOOD-GRABRAIL-BACKING",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-STRUCTURAL-PLYWOOD-GRABRAIL-BACKING",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5619-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-TIMBER-GRABRAIL-NOGGING",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-TIMBER-GRABRAIL-NOGGING",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5620-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-TOILET-REAR-WALL-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-TOILET-REAR-WALL-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5621-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-HAS-PART-AU-LH-TOILET-SIDE-WALL-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-TOILET-SIDE-WALL-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5622-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM-PART-OF-AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "from_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5623-LH-GARAGE-LINKED-ACCESS-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-GARAGE-LINKED-ACCESS-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5624-LH-GRABRAIL-BACKING-EDGE-SUPPORT-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-GRABRAIL-BACKING-EDGE-SUPPORT",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5625-LH-GRABRAIL-BACKING-FASTENER-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-GRABRAIL-BACKING-FASTENER",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5626-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY-HAS-PART-AU-LH-PARKING-BITUMINOUS-SURFACE",
+      "from_id": "AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-PARKING-BITUMINOUS-SURFACE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5627-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY-HAS-PART-AU-LH-PARKING-HARDSTAND-SLAB",
+      "from_id": "AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-PARKING-HARDSTAND-SLAB",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5628-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY-HAS-PART-AU-LH-PARKING-SPACE-LINE-MARKING",
+      "from_id": "AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-PARKING-SPACE-LINE-MARKING",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5629-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY-HAS-PART-AU-LH-PARKING-WHEEL-STOP",
+      "from_id": "AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-PARKING-WHEEL-STOP",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5630-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY-PART-OF-AU-LH-PARKING-LINKED-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-PARKING-LINKED-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5631-LH-INTERNAL-DOOR-FRAME-PART-OF-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-DOOR-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5632-LH-INTERNAL-DOOR-FRAME-HEAD-PART-OF-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-DOOR-FRAME-HEAD",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5633-LH-INTERNAL-DOOR-FRAME-JAMB-PART-OF-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-DOOR-FRAME-JAMB",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5643-LH-INTERNAL-DOOR-HANDLE-LATCH-PART-OF-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5644-LH-INTERNAL-DOOR-HINGE-PART-OF-AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-DOOR-HINGE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5645-LH-INTERNAL-DOOR-LEAF-PART-OF-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-DOOR-LEAF",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5646-LH-INTERNAL-DOOR-STOP-MOULDING-PART-OF-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-DOOR-STOP-MOULDING",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5649-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY-HAS-PART-AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP",
+      "from_id": "AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5650-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY-PART-OF-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5651-LH-INTERNAL-FOLDING-DOOR-PANEL-PART-OF-AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-FOLDING-DOOR-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5652-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY-HAS-PART-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5653-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY-HAS-PART-AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5654-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5655-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY-HAS-PART-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5656-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY-HAS-PART-AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5657-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY-PART-OF-AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "from_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5658-LH-INTERNAL-SLIDING-DOOR-HANGER-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-SLIDING-DOOR-HANGER",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5659-LH-INTERNAL-SLIDING-DOOR-HANGER-PART-OF-AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-SLIDING-DOOR-HANGER",
+      "relationship": "part_of",
+      "to_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5660-LH-INTERNAL-SLIDING-DOOR-PANEL-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-SLIDING-DOOR-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5661-LH-INTERNAL-SLIDING-DOOR-PANEL-PART-OF-AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-SLIDING-DOOR-PANEL",
+      "relationship": "part_of",
+      "to_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5662-LH-INTERNAL-SLIDING-DOOR-TRACK-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-SLIDING-DOOR-TRACK",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5663-LH-INTERNAL-SLIDING-DOOR-TRACK-PART-OF-AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-SLIDING-DOOR-TRACK",
+      "relationship": "part_of",
+      "to_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5670-LH-INTERNAL-SWING-DOOR-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-DOOR-HINGE",
+      "from_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-DOOR-HINGE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5671-LH-INTERNAL-SWING-DOOR-ASSEMBLY-IS-A-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5672-LH-INTERNAL-SWING-DOOR-ASSEMBLY-PART-OF-AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5673-LH-LEVEL-ENTRANCE-THRESHOLD-IS-A-AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "from_id": "AU-LH-LEVEL-ENTRANCE-THRESHOLD",
+      "relationship": "is_a",
+      "to_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5674-LH-LEVEL-ENTRANCE-THRESHOLD-PART-OF-AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-LEVEL-ENTRANCE-THRESHOLD",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5675-LH-LIGHT-GAUGE-STEEL-GRABRAIL-NOGGING-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-LIGHT-GAUGE-STEEL-GRABRAIL-NOGGING",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5679-LH-LIVABLE-ENTRANCE-DOORSET-PART-OF-AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-ENTRANCE-DOORSET",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5683-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY-HAS-PART-AU-LH-BEVELLED-ENTRANCE-SILL-LIP",
+      "from_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-BEVELLED-ENTRANCE-SILL-LIP",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5684-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5685-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM-HAS-PART-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5686-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM-HAS-PART-AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5687-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM-HAS-PART-AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5688-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM-HAS-PART-AU-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5689-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM-HAS-PART-AU-LH-STACKING-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-STACKING-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5690-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM-HAS-PART-AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5691-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM-HAS-PART-AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5693-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY-HAS-PART-AU-LH-BEVELLED-INTERNAL-THRESHOLD",
+      "from_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-BEVELLED-INTERNAL-THRESHOLD",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5694-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-DOOR-FRAME",
+      "from_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-DOOR-FRAME",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5695-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-DOOR-FRAME-HEAD",
+      "from_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-DOOR-FRAME-HEAD",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5696-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-DOOR-FRAME-JAMB",
+      "from_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-DOOR-FRAME-JAMB",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5697-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "from_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5698-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5699-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-DOOR-STOP-MOULDING",
+      "from_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-DOOR-STOP-MOULDING",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5700-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5701-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY-PART-OF-AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5702-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY-HAS-PART-AU-LH-SANITARY-DOOR-STOP",
+      "from_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-SANITARY-DOOR-STOP",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5703-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY-HAS-PART-AU-LH-TOILET-REAR-WALL-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-TOILET-REAR-WALL-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5704-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY-HAS-PART-AU-LH-TOILET-ROLL-HOLDER",
+      "from_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-TOILET-ROLL-HOLDER",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5705-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY-HAS-PART-AU-LH-TOILET-SIDE-WALL-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-TOILET-SIDE-WALL-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5706-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY-HAS-PART-AU-LH-TOILET-SUITE-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5707-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY-HAS-PART-AU-LH-VANITY-BASIN-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-VANITY-BASIN-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5708-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY-PART-OF-AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "from_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5709-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY-HAS-PART-AU-LH-SHOWER-WALL-REINFORCEMENT-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-SHOWER-WALL-REINFORCEMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5711-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY-PART-OF-AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "from_id": "AU-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5712-LH-METAL-GRABRAIL-BACKING-PLATE-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-METAL-GRABRAIL-BACKING-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5713-LH-PARKING-BITUMINOUS-SURFACE-PART-OF-AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "from_id": "AU-LH-PARKING-BITUMINOUS-SURFACE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5714-LH-PARKING-HARDSTAND-SLAB-PART-OF-AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "from_id": "AU-LH-PARKING-HARDSTAND-SLAB",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5715-LH-PARKING-LINKED-ACCESS-ASSEMBLY-HAS-PART-AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "from_id": "AU-LH-PARKING-LINKED-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5716-LH-PARKING-LINKED-ACCESS-ASSEMBLY-HAS-PART-AU-LH-PARKING-TO-PATH-TRANSITION-JOINT",
+      "from_id": "AU-LH-PARKING-LINKED-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-PARKING-TO-PATH-TRANSITION-JOINT",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5717-LH-PARKING-LINKED-ACCESS-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-PARKING-LINKED-ACCESS-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5718-LH-PARKING-SPACE-LINE-MARKING-PART-OF-AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "from_id": "AU-LH-PARKING-SPACE-LINE-MARKING",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5719-LH-PARKING-TO-PATH-TRANSITION-JOINT-PART-OF-AU-LH-PARKING-LINKED-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-PARKING-TO-PATH-TRANSITION-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-LH-PARKING-LINKED-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5720-LH-PARKING-WHEEL-STOP-PART-OF-AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "from_id": "AU-LH-PARKING-WHEEL-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INCORPORATED-PARKING-SPACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5721-LH-PAVED-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-ACCESS-PATH-COMPACTED-BASE",
+      "from_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-PATH-COMPACTED-BASE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5722-LH-PAVED-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-ACCESS-PATH-EDGE-RESTRAINT",
+      "from_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-PATH-EDGE-RESTRAINT",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5723-LH-PAVED-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-CONCRETE-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-CONCRETE-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5724-LH-PAVED-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5725-LH-PAVED-ACCESS-PATH-ASSEMBLY-IS-A-AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "from_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5726-LH-PAVED-ACCESS-PATH-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5727-LH-PERMEABLE-DECK-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-UNDER-DECK-ENTRANCE-DRAINAGE-SURFACE",
+      "from_id": "AU-LH-PERMEABLE-DECK-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-UNDER-DECK-ENTRANCE-DRAINAGE-SURFACE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5728-LH-PERMEABLE-DECK-ENTRANCE-ASSEMBLY-PART-OF-AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "from_id": "AU-LH-PERMEABLE-DECK-ENTRANCE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5729-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-BOARDWALK-BEARER",
+      "from_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-BOARDWALK-BEARER",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5730-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-BOARDWALK-BRACE",
+      "from_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-BOARDWALK-BRACE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5731-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-BOARDWALK-DECKING-BOARD",
+      "from_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-BOARDWALK-DECKING-BOARD",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5732-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-BOARDWALK-DECKING-FIXING",
+      "from_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-BOARDWALK-DECKING-FIXING",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5733-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-BOARDWALK-JOIST",
+      "from_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-BOARDWALK-JOIST",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5734-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-BOARDWALK-SUPPORT-POST",
+      "from_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-BOARDWALK-SUPPORT-POST",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5735-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY-IS-A-AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "from_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5736-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5737-LH-RAISED-WEATHER-SILL-THRESHOLD-IS-A-AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "from_id": "AU-LH-RAISED-WEATHER-SILL-THRESHOLD",
+      "relationship": "is_a",
+      "to_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5738-LH-RAISED-WEATHER-SILL-THRESHOLD-PART-OF-AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-RAISED-WEATHER-SILL-THRESHOLD",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5739-LH-RAMPED-ENTRANCE-THRESHOLD-IS-A-AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "from_id": "AU-LH-RAMPED-ENTRANCE-THRESHOLD",
+      "relationship": "is_a",
+      "to_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5740-LH-RAMPED-ENTRANCE-THRESHOLD-PART-OF-AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-RAMPED-ENTRANCE-THRESHOLD",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5741-LH-REINFORCED-CAVITY-SLIDER-WALL-ASSEMBLY-IS-A-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-REINFORCED-CAVITY-SLIDER-WALL-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5742-LH-REINFORCED-CAVITY-SLIDER-WALL-ASSEMBLY-PART-OF-AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-REINFORCED-CAVITY-SLIDER-WALL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5743-LH-REINFORCED-CAVITY-SLIDER-WALL-ASSEMBLY-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-REINFORCED-CAVITY-SLIDER-WALL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5744-LH-SANITARY-DOOR-STOP-PART-OF-AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "from_id": "AU-LH-SANITARY-DOOR-STOP",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5745-LH-SHOWER-WALL-REINFORCEMENT-ASSEMBLY-IS-A-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-SHOWER-WALL-REINFORCEMENT-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5746-LH-SHOWER-WALL-REINFORCEMENT-ASSEMBLY-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-SHOWER-WALL-REINFORCEMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5747-LH-SHOWER-WALL-REINFORCEMENT-ASSEMBLY-PART-OF-AU-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-SHOWER-WALL-REINFORCEMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5748-LH-SOLID-WALL-GRABRAIL-SUPPORT-SUBSTRATE-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-SOLID-WALL-GRABRAIL-SUPPORT-SUBSTRATE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5750-LH-STACKING-SLIDING-DOOR-ASSEMBLY-PART-OF-AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "from_id": "AU-LH-STACKING-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5751-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY-HAS-PART-AU-LH-ACCESS-GATE-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-GATE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5752-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY-HAS-PART-AU-LH-ACCESS-PATH-LANDING-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-PATH-LANDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5753-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY-HAS-PART-AU-LH-ALLOTMENT-BOUNDARY-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ALLOTMENT-BOUNDARY-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5754-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY-HAS-PART-AU-LH-GARAGE-LINKED-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-GARAGE-LINKED-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5755-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY-HAS-PART-AU-LH-PARKING-LINKED-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-PARKING-LINKED-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5756-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY-HAS-PART-AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5757-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY-HAS-PART-AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-RAISED-DECK-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5758-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY-HAS-PART-AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5759-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY-HAS-PART-AU-LH-STEP-RAMP-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-STEP-RAMP-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5760-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY-PART-OF-AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "from_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5761-LH-STEP-FREE-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-ENTRANCE-ARRIVAL-LANDING-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ENTRANCE-ARRIVAL-LANDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5762-LH-STEP-FREE-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-EXTERNAL-ENTRANCE-WEATHERPROOFING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5763-LH-STEP-FREE-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-LEVEL-ENTRANCE-THRESHOLD",
+      "from_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-LEVEL-ENTRANCE-THRESHOLD",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5764-LH-STEP-FREE-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-LIVABLE-ENTRANCE-DOORSET",
+      "from_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-LIVABLE-ENTRANCE-DOORSET",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5765-LH-STEP-FREE-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5766-LH-STEP-FREE-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-RAISED-WEATHER-SILL-THRESHOLD",
+      "from_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-RAISED-WEATHER-SILL-THRESHOLD",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5767-LH-STEP-FREE-ENTRANCE-ASSEMBLY-HAS-PART-AU-LH-RAMPED-ENTRANCE-THRESHOLD",
+      "from_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-RAMPED-ENTRANCE-THRESHOLD",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5768-LH-STEP-FREE-ENTRANCE-ASSEMBLY-PART-OF-AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "from_id": "AU-LH-STEP-FREE-ENTRANCE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-HOUSING-PHYSICAL-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5769-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY-HAS-PART-AU-LH-ACCESS-PATH-DRAINAGE-CHANNEL",
+      "from_id": "AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-PATH-DRAINAGE-CHANNEL",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5770-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY-HAS-PART-AU-LH-ACCESS-PATH-WALKING-FINISH",
+      "from_id": "AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-PATH-WALKING-FINISH",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5771-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-STEP-FREE-PEDESTRIAN-PATH-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5772-LH-STEP-RAMP-ASSEMBLY-PART-OF-AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "from_id": "AU-LH-STEP-RAMP-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-STEP-FREE-DWELLING-ACCESS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5773-LH-STRUCTURAL-PLYWOOD-GRABRAIL-BACKING-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-STRUCTURAL-PLYWOOD-GRABRAIL-BACKING",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5776-LH-SURFACE-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-SLIDING-DOOR-HANGER",
+      "from_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-SLIDING-DOOR-HANGER",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5777-LH-SURFACE-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-SLIDING-DOOR-PANEL",
+      "from_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-SLIDING-DOOR-PANEL",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5778-LH-SURFACE-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-LH-INTERNAL-SLIDING-DOOR-TRACK",
+      "from_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-INTERNAL-SLIDING-DOOR-TRACK",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5779-LH-SURFACE-SLIDING-DOOR-ASSEMBLY-IS-A-AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "from_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5780-LH-SURFACE-SLIDING-DOOR-ASSEMBLY-PART-OF-AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "from_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-INTERNAL-LIVABLE-CIRCULATION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5781-LH-TIMBER-GRABRAIL-NOGGING-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-TIMBER-GRABRAIL-NOGGING",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5782-LH-TOILET-FIXING-PART-OF-AU-LH-TOILET-SUITE-ASSEMBLY",
+      "from_id": "AU-LH-TOILET-FIXING",
+      "relationship": "part_of",
+      "to_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5783-LH-TOILET-FLUSH-BUTTON-PLATE-PART-OF-AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "from_id": "AU-LH-TOILET-FLUSH-BUTTON-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5784-LH-TOILET-PAN-CONNECTOR-PART-OF-AU-LH-TOILET-SUITE-ASSEMBLY",
+      "from_id": "AU-LH-TOILET-PAN-CONNECTOR",
+      "relationship": "part_of",
+      "to_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5785-LH-TOILET-REAR-WALL-REINFORCEMENT-ASSEMBLY-IS-A-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-TOILET-REAR-WALL-REINFORCEMENT-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5786-LH-TOILET-REAR-WALL-REINFORCEMENT-ASSEMBLY-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-TOILET-REAR-WALL-REINFORCEMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5787-LH-TOILET-REAR-WALL-REINFORCEMENT-ASSEMBLY-PART-OF-AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "from_id": "AU-LH-TOILET-REAR-WALL-REINFORCEMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5788-LH-TOILET-ROLL-HOLDER-PART-OF-AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "from_id": "AU-LH-TOILET-ROLL-HOLDER",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5789-LH-TOILET-SEAT-LID-PART-OF-AU-LH-TOILET-SUITE-ASSEMBLY",
+      "from_id": "AU-LH-TOILET-SEAT-LID",
+      "relationship": "part_of",
+      "to_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5790-LH-TOILET-SIDE-WALL-REINFORCEMENT-ASSEMBLY-IS-A-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-TOILET-SIDE-WALL-REINFORCEMENT-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5791-LH-TOILET-SIDE-WALL-REINFORCEMENT-ASSEMBLY-PART-OF-AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "from_id": "AU-LH-TOILET-SIDE-WALL-REINFORCEMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-FUTURE-GRABRAIL-REINFORCEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5792-LH-TOILET-SIDE-WALL-REINFORCEMENT-ASSEMBLY-PART-OF-AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "from_id": "AU-LH-TOILET-SIDE-WALL-REINFORCEMENT-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5793-LH-TOILET-SUITE-ASSEMBLY-HAS-PART-AU-LH-EXPOSED-TOILET-CISTERN",
+      "from_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-EXPOSED-TOILET-CISTERN",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5794-LH-TOILET-SUITE-ASSEMBLY-HAS-PART-AU-LH-FLOOR-MOUNTED-TOILET-PAN",
+      "from_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-FLOOR-MOUNTED-TOILET-PAN",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5795-LH-TOILET-SUITE-ASSEMBLY-HAS-PART-AU-LH-TOILET-FIXING",
+      "from_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-TOILET-FIXING",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5796-LH-TOILET-SUITE-ASSEMBLY-HAS-PART-AU-LH-TOILET-PAN-CONNECTOR",
+      "from_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-TOILET-PAN-CONNECTOR",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5797-LH-TOILET-SUITE-ASSEMBLY-HAS-PART-AU-LH-TOILET-SEAT-LID",
+      "from_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-TOILET-SEAT-LID",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5798-LH-TOILET-SUITE-ASSEMBLY-HAS-PART-AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "from_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5799-LH-TOILET-SUITE-ASSEMBLY-PART-OF-AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "from_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5800-LH-UNDER-DECK-ENTRANCE-DRAINAGE-SURFACE-PART-OF-AU-LH-PERMEABLE-DECK-ENTRANCE-ASSEMBLY",
+      "from_id": "AU-LH-UNDER-DECK-ENTRANCE-DRAINAGE-SURFACE",
+      "relationship": "part_of",
+      "to_id": "AU-LH-PERMEABLE-DECK-ENTRANCE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5801-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-ACCESS-PATH-PAVER-BEDDING",
+      "from_id": "AU-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-PATH-PAVER-BEDDING",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5802-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY-HAS-PART-AU-LH-ACCESS-PATH-PAVING-UNIT",
+      "from_id": "AU-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-ACCESS-PATH-PAVING-UNIT",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5803-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY-IS-A-AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5804-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY-PART-OF-AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "from_id": "AU-LH-UNIT-PAVED-ACCESS-PATH-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-PAVED-ACCESS-PATH-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5805-LH-VANITY-BASIN-ASSEMBLY-HAS-PART-AU-LH-BASIN-TAPSET",
+      "from_id": "AU-LH-VANITY-BASIN-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-BASIN-TAPSET",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5806-LH-VANITY-BASIN-ASSEMBLY-HAS-PART-AU-LH-VANITY-CABINET",
+      "from_id": "AU-LH-VANITY-BASIN-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-VANITY-CABINET",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5807-LH-VANITY-BASIN-ASSEMBLY-HAS-PART-AU-LH-WASHBASIN",
+      "from_id": "AU-LH-VANITY-BASIN-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-WASHBASIN",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5808-LH-VANITY-BASIN-ASSEMBLY-PART-OF-AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "from_id": "AU-LH-VANITY-BASIN-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-LIVABLE-SANITARY-COMPARTMENT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5809-LH-VANITY-CABINET-PART-OF-AU-LH-VANITY-BASIN-ASSEMBLY",
+      "from_id": "AU-LH-VANITY-CABINET",
+      "relationship": "part_of",
+      "to_id": "AU-LH-VANITY-BASIN-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5810-LH-WALL-HUNG-TOILET-ASSEMBLY-HAS-PART-AU-LH-CONCEALED-CISTERN-SUPPORT-FRAME",
+      "from_id": "AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-CONCEALED-CISTERN-SUPPORT-FRAME",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5811-LH-WALL-HUNG-TOILET-ASSEMBLY-HAS-PART-AU-LH-CONCEALED-TOILET-CISTERN",
+      "from_id": "AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-CONCEALED-TOILET-CISTERN",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5812-LH-WALL-HUNG-TOILET-ASSEMBLY-HAS-PART-AU-LH-TOILET-FLUSH-BUTTON-PLATE",
+      "from_id": "AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-TOILET-FLUSH-BUTTON-PLATE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5813-LH-WALL-HUNG-TOILET-ASSEMBLY-HAS-PART-AU-LH-WALL-HUNG-TOILET-PAN",
+      "from_id": "AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-LH-WALL-HUNG-TOILET-PAN",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5814-LH-WALL-HUNG-TOILET-ASSEMBLY-PART-OF-AU-LH-TOILET-SUITE-ASSEMBLY",
+      "from_id": "AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-LH-TOILET-SUITE-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5815-LH-WALL-HUNG-TOILET-PAN-PART-OF-AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "from_id": "AU-LH-WALL-HUNG-TOILET-PAN",
+      "relationship": "part_of",
+      "to_id": "AU-LH-WALL-HUNG-TOILET-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5816-LH-WASHBASIN-PART-OF-AU-LH-VANITY-BASIN-ASSEMBLY",
+      "from_id": "AU-LH-WASHBASIN",
+      "relationship": "part_of",
+      "to_id": "AU-LH-VANITY-BASIN-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-5525-LH-ACCESS-PATH-LANDING-ASSEMBLY-IS-A-AU-SA-LANDING-ASSEMBLY",
+      "from_id": "AU-LH-ACCESS-PATH-LANDING-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-SA-LANDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5535-LH-BEVELLED-INTERNAL-THRESHOLD-COMMONLY-USED-WITH-AU-FF-DOORWAY-THRESHOLD-PROFILE",
+      "from_id": "AU-LH-BEVELLED-INTERNAL-THRESHOLD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-DOORWAY-THRESHOLD-PROFILE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ATFA-FLOATING-FLOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5536-LH-BEVELLED-INTERNAL-THRESHOLD-COMMONLY-USED-WITH-AU-FF-FLOOR-REDUCER-PROFILE",
+      "from_id": "AU-LH-BEVELLED-INTERNAL-THRESHOLD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-FLOOR-REDUCER-PROFILE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ATFA-FLOATING-FLOORS",
+        "SRC-FORBO-RESILIENT-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5537-LH-BEVELLED-INTERNAL-THRESHOLD-COMMONLY-USED-WITH-AU-FF-FLOOR-TRANSITION-ASSEMBLY",
+      "from_id": "AU-LH-BEVELLED-INTERNAL-THRESHOLD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-FLOOR-TRANSITION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ATFA-FLOATING-FLOORS",
+        "SRC-FORBO-RESILIENT-INSTALL",
+        "SRC-GODFREY-HIRST-CARPET-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5542-LH-BOARDWALK-DECKING-BOARD-COMMONLY-USED-WITH-AU-DB-DECKING-SURFACE-ASSEMBLY",
+      "from_id": "AU-LH-BOARDWALK-DECKING-BOARD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECKING-SURFACE-ASSEMBLY",
+      "source_ids": [
+        "SRC-MODWOOD-AU-INSTALLATION",
+        "SRC-TGA-MSFFL3120-TIMBER-FLOORING-JOISTS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5544-LH-BOARDWALK-DECKING-FIXING-COMMONLY-USED-WITH-AU-DB-DECKING-FACE-SCREW",
+      "from_id": "AU-LH-BOARDWALK-DECKING-FIXING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECKING-FACE-SCREW",
+      "source_ids": [
+        "SRC-MODWOOD-AU-INSTALLATION",
+        "SRC-TGA-MSFFL3120-TIMBER-FLOORING-JOISTS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5550-LH-CAVITY-SLIDER-SPLIT-STUD-COMMONLY-USED-WITH-AU-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING",
+      "from_id": "AU-LH-CAVITY-SLIDER-SPLIT-STUD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5552-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-ID-CAVITY-SLIDER-CLOSING-JAMB",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CAVITY-SLIDER-CLOSING-JAMB",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5553-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CAVITY-SLIDER-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5554-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CAVITY-SLIDER-SPLIT-JAMB-LINING",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5555-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-ID-CAVITY-SLIDER-SQUARE-SET-REVEAL",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CAVITY-SLIDER-SQUARE-SET-REVEAL",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5556-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-ID-INTERNAL-SLIDING-DOOR-EDGE-PULL",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-SLIDING-DOOR-EDGE-PULL",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-LOCKWOOD-INTERNAL-SLIDING-PULLS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5557-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-SLIDING-PULLS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5558-LH-CAVITY-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-ID-INTERNAL-SLIDING-TRACK-STOP",
+      "from_id": "AU-LH-CAVITY-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-SLIDING-TRACK-STOP",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5585-LH-ENTRANCE-ARRIVAL-LANDING-ASSEMBLY-IS-A-AU-SA-LANDING-ASSEMBLY",
+      "from_id": "AU-LH-ENTRANCE-ARRIVAL-LANDING-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-SA-LANDING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5588-LH-ENTRANCE-DRAIN-CHANNEL-BODY-COMMONLY-USED-WITH-AU-DB-BALCONY-LINEAR-DRAIN-ASSEMBLY",
+      "from_id": "AU-LH-ENTRANCE-DRAIN-CHANNEL-BODY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-BALCONY-LINEAR-DRAIN-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS4654-2-2012",
+        "SRC-STORMTECH-BALCONY-DRAINAGE",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5601-LH-FLUSH-INTERNAL-TRANSITION-STRIP-COMMONLY-USED-WITH-AU-FF-DOORWAY-THRESHOLD-PROFILE",
+      "from_id": "AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-DOORWAY-THRESHOLD-PROFILE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ATFA-FLOATING-FLOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5602-LH-FLUSH-INTERNAL-TRANSITION-STRIP-COMMONLY-USED-WITH-AU-FF-FLOOR-COVER-STRIP",
+      "from_id": "AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-FLOOR-COVER-STRIP",
+      "source_ids": [
+        "SRC-ATFA-FLOATING-FLOORS",
+        "SRC-FORBO-RESILIENT-INSTALL",
+        "SRC-GODFREY-HIRST-CARPET-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5603-LH-FLUSH-INTERNAL-TRANSITION-STRIP-COMMONLY-USED-WITH-AU-FF-FLOOR-TRANSITION-ASSEMBLY",
+      "from_id": "AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-FLOOR-TRANSITION-ASSEMBLY",
+      "source_ids": [
+        "SRC-ATFA-FLOATING-FLOORS",
+        "SRC-FORBO-RESILIENT-INSTALL",
+        "SRC-GODFREY-HIRST-CARPET-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5604-LH-FLUSH-INTERNAL-TRANSITION-STRIP-COMMONLY-USED-WITH-AU-FF-T-MOULDING-TRANSITION-PROFILE",
+      "from_id": "AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-T-MOULDING-TRANSITION-PROFILE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ATFA-FLOATING-FLOORS",
+        "SRC-FORBO-RESILIENT-INSTALL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5606-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY-HAS-PART-AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "from_id": "AU-LH-FOLDING-INTERNAL-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FOLDING-DOOR-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-SA-AS2688-2017",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5634-LH-INTERNAL-DOOR-HANDLE-LATCH-COMMONLY-USED-WITH-AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "from_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-INTERNAL-DOOR-HARDWARE-SYSTEM",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-BIFOLD-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5635-LH-INTERNAL-DOOR-HANDLE-LATCH-HAS-PART-AU-ID-DOOR-HANDLE-BACKPLATE",
+      "from_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-HANDLE-BACKPLATE",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5636-LH-INTERNAL-DOOR-HANDLE-LATCH-HAS-PART-AU-ID-DOOR-HANDLE-ROSE",
+      "from_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-HANDLE-ROSE",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5637-LH-INTERNAL-DOOR-HANDLE-LATCH-HAS-PART-AU-ID-DOOR-HANDLE-SPINDLE",
+      "from_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "relationship": "has_part",
+      "to_id": "AU-ID-DOOR-HANDLE-SPINDLE",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5638-LH-INTERNAL-DOOR-HANDLE-LATCH-HAS-PART-AU-ID-INTERNAL-DOOR-KNOB",
+      "from_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-KNOB",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5639-LH-INTERNAL-DOOR-HANDLE-LATCH-HAS-PART-AU-ID-INTERNAL-DOOR-LEVER-HANDLE",
+      "from_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-LEVER-HANDLE",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5640-LH-INTERNAL-DOOR-HANDLE-LATCH-HAS-PART-AU-ID-KEYED-INTERNAL-LOCKSET",
+      "from_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "relationship": "has_part",
+      "to_id": "AU-ID-KEYED-INTERNAL-LOCKSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-CAVITY-SLIDER-LOCK",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5641-LH-INTERNAL-DOOR-HANDLE-LATCH-HAS-PART-AU-ID-PASSAGE-LATCHSET",
+      "from_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "relationship": "has_part",
+      "to_id": "AU-ID-PASSAGE-LATCHSET",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5642-LH-INTERNAL-DOOR-HANDLE-LATCH-HAS-PART-AU-ID-PRIVACY-LATCHSET",
+      "from_id": "AU-LH-INTERNAL-DOOR-HANDLE-LATCH",
+      "relationship": "has_part",
+      "to_id": "AU-ID-PRIVACY-LATCHSET",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5647-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY-COMMONLY-USED-WITH-AU-FF-INTERNAL-FLOOR-FINISH-SYSTEM",
+      "from_id": "AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-INTERNAL-FLOOR-FINISH-SYSTEM",
+      "source_ids": [
+        "SRC-ATFA-SOLID-TIMBER-FLOORING",
+        "SRC-SA-AS-3958-2023",
+        "SRC-SA-AS1884-2021",
+        "SRC-SA-AS2455-1-2019"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5648-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY-HAS-PART-AU-FF-DOORWAY-THRESHOLD-PROFILE",
+      "from_id": "AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-FF-DOORWAY-THRESHOLD-PROFILE",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ATFA-FLOATING-FLOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5664-LH-INTERNAL-SWING-DOOR-ASSEMBLY-COMMONLY-USED-WITH-AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "from_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-DOUBLE-SWING-DOOR-MEETING-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5665-LH-INTERNAL-SWING-DOOR-ASSEMBLY-HAS-PART-AU-ID-CONCEALED-INTERNAL-DOOR-HINGE",
+      "from_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-CONCEALED-INTERNAL-DOOR-HINGE",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5666-LH-INTERNAL-SWING-DOOR-ASSEMBLY-HAS-PART-AU-ID-FIXED-PIN-BUTT-HINGE",
+      "from_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-FIXED-PIN-BUTT-HINGE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5667-LH-INTERNAL-SWING-DOOR-ASSEMBLY-HAS-PART-AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "from_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-BUTT-HINGE",
+      "source_ids": [
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5668-LH-INTERNAL-SWING-DOOR-ASSEMBLY-HAS-PART-AU-ID-INTERNAL-DOOR-PIVOT-SET",
+      "from_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-DOOR-PIVOT-SET",
+      "source_ids": [
+        "SRC-EZCONCEPT-FLUSH-JAMB-INSTALL",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5669-LH-INTERNAL-SWING-DOOR-ASSEMBLY-HAS-PART-AU-ID-LOOSE-PIN-BUTT-HINGE",
+      "from_id": "AU-LH-INTERNAL-SWING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-LOOSE-PIN-BUTT-HINGE",
+      "source_ids": [
+        "SRC-ABCB-SANITARY-COMPARTMENT-DOORS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5676-LH-LIVABLE-ENTRANCE-DOORSET-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOOR-THRESHOLD",
+      "from_id": "AU-LH-LIVABLE-ENTRANCE-DOORSET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOOR-THRESHOLD",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-RAVEN-AU-WEATHER-SEALS",
+        "SRC-TGA-CPCCCA3010-WINDOWS-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5677-LH-LIVABLE-ENTRANCE-DOORSET-COMMONLY-USED-WITH-AU-ED-EXTERNAL-PEDESTRIAN-DOORSET",
+      "from_id": "AU-LH-LIVABLE-ENTRANCE-DOORSET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-PEDESTRIAN-DOORSET",
+      "source_ids": [
+        "SRC-HUME-ENTRANCE-DOORS",
+        "SRC-TGA-CPCCCA3010-WINDOWS-DOORS",
+        "SRC-WOODSOLUTIONS-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5678-LH-LIVABLE-ENTRANCE-DOORSET-COMMONLY-USED-WITH-AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-ENTRANCE-DOORSET",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-GLAZED-DOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5680-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY-COMMONLY-USED-WITH-AU-DB-BALCONY-DOOR-THRESHOLD-INTERFACE",
+      "from_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-BALCONY-DOOR-THRESHOLD-INTERFACE",
+      "source_ids": [
+        "SRC-ABCB-V2-H2D8-EXTERNAL-WATERPROOFING",
+        "SRC-SA-AS4654-2-2012",
+        "SRC-STORMTECH-BALCONY-DRAINAGE",
+        "SRC-TGA-CPCCWP3003-EXTERNAL-WATERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5681-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY-COMMONLY-USED-WITH-AU-TC-DOOR-THRESHOLD-SEAL",
+      "from_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TC-DOOR-THRESHOLD-SEAL",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5682-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY-COMMONLY-USED-WITH-AU-WD-DOOR-THRESHOLD",
+      "from_id": "AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-DOOR-THRESHOLD",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5692-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY-COMMONLY-USED-WITH-AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "from_id": "AU-LH-LIVABLE-INTERNAL-DOORWAY-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-INTERNAL-DOOR-CONSTRUCTION-SYSTEM",
+      "source_ids": [
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-LOCKWOOD-INTERNAL-LEVERSETS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5710-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY-IS-A-AU-WP-LEVEL-THRESHOLD-SHOWER-ASSEMBLY",
+      "from_id": "AU-LH-LIVABLE-SHOWER-ACCESS-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-WP-LEVEL-THRESHOLD-SHOWER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-HANDBOOK",
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD",
+        "SRC-ABCB-V2-H8-LIVABLE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5749-LH-STACKING-SLIDING-DOOR-ASSEMBLY-COMMONLY-USED-WITH-AU-WD-SLIDING-GLAZED-DOOR",
+      "from_id": "AU-LH-STACKING-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WD-SLIDING-GLAZED-DOOR",
+      "source_ids": [
+        "SRC-ABCB-LIVABLE-HOUSING-STANDARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5774-LH-SURFACE-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL",
+      "from_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-INTERNAL-SLIDING-DOOR-FLUSH-PULL",
+      "source_ids": [
+        "SRC-LOCKWOOD-INTERNAL-SLIDING-PULLS",
+        "SRC-SA-AS4145-1-2008",
+        "SRC-SA-AS4145-2-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-5775-LH-SURFACE-SLIDING-DOOR-ASSEMBLY-HAS-PART-AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "from_id": "AU-LH-SURFACE-SLIDING-DOOR-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-ID-SURFACE-SLIDING-HARDWARE-ASSEMBLY",
+      "source_ids": [
+        "SRC-CORINTHIAN-SURFACE-SLIDER-HARDWARE",
+        "SRC-HUME-CAVITY-UNIT-CATALOGUE",
+        "SRC-SA-AS4145-1-2008"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

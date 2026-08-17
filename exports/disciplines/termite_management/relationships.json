@@ -1,0 +1,273 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "termite_management",
+  "relationships": [
+    {
+      "id": "REL-8412-TM-CHEMICAL-TREATED-ZONE-COMMONLY-USED-WITH-AU-TM-RETICULATION-PIPE",
+      "from_id": "AU-TM-CHEMICAL-TREATED-ZONE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TM-RETICULATION-PIPE",
+      "source_ids": [
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8413-TM-CHEMICAL-TREATED-ZONE-PART-OF-AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "from_id": "AU-TM-CHEMICAL-TREATED-ZONE",
+      "relationship": "part_of",
+      "to_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8414-TM-DURABLE-NOTICE-PART-OF-AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "from_id": "AU-TM-DURABLE-NOTICE",
+      "relationship": "part_of",
+      "to_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8415-TM-GRADED-STONE-BARRIER-PART-OF-AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "from_id": "AU-TM-GRADED-STONE-BARRIER",
+      "relationship": "part_of",
+      "to_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8416-TM-PENETRATION-COLLAR-PART-OF-AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "from_id": "AU-TM-PENETRATION-COLLAR",
+      "relationship": "part_of",
+      "to_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8417-TM-RETICULATION-PIPE-COMMONLY-USED-WITH-AU-TM-CHEMICAL-TREATED-ZONE",
+      "from_id": "AU-TM-RETICULATION-PIPE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TM-CHEMICAL-TREATED-ZONE",
+      "source_ids": [
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8418-TM-RETICULATION-PIPE-PART-OF-AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "from_id": "AU-TM-RETICULATION-PIPE",
+      "relationship": "part_of",
+      "to_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8419-TM-SHEET-BARRIER-PART-OF-AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "from_id": "AU-TM-SHEET-BARRIER",
+      "relationship": "part_of",
+      "to_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8420-TM-STAINLESS-MESH-BARRIER-PART-OF-AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "from_id": "AU-TM-STAINLESS-MESH-BARRIER",
+      "relationship": "part_of",
+      "to_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8423-TM-TERMITE-MANAGEMENT-SYSTEM-HAS-PART-AU-TM-CHEMICAL-TREATED-ZONE",
+      "from_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TM-CHEMICAL-TREATED-ZONE",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8424-TM-TERMITE-MANAGEMENT-SYSTEM-HAS-PART-AU-TM-DURABLE-NOTICE",
+      "from_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TM-DURABLE-NOTICE",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8425-TM-TERMITE-MANAGEMENT-SYSTEM-HAS-PART-AU-TM-GRADED-STONE-BARRIER",
+      "from_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TM-GRADED-STONE-BARRIER",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8426-TM-TERMITE-MANAGEMENT-SYSTEM-HAS-PART-AU-TM-PENETRATION-COLLAR",
+      "from_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TM-PENETRATION-COLLAR",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8427-TM-TERMITE-MANAGEMENT-SYSTEM-HAS-PART-AU-TM-RETICULATION-PIPE",
+      "from_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TM-RETICULATION-PIPE",
+      "source_ids": [
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8428-TM-TERMITE-MANAGEMENT-SYSTEM-HAS-PART-AU-TM-SHEET-BARRIER",
+      "from_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TM-SHEET-BARRIER",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8429-TM-TERMITE-MANAGEMENT-SYSTEM-HAS-PART-AU-TM-STAINLESS-MESH-BARRIER",
+      "from_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TM-STAINLESS-MESH-BARRIER",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-CSIRO-MANAGING-TERMITES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8430-TM-TERMITE-MANAGEMENT-SYSTEM-HAS-PART-AU-TM-TERMITE-SHIELD",
+      "from_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-TM-TERMITE-SHIELD",
+      "source_ids": [
+        "SRC-CSIRO-MANAGING-TERMITES",
+        "SRC-RMIT-FLOOR-JOIST",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8433-TM-TERMITE-SHIELD-PART-OF-AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "from_id": "AU-TM-TERMITE-SHIELD",
+      "relationship": "part_of",
+      "to_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "source_ids": [
+        "SRC-CSIRO-MANAGING-TERMITES",
+        "SRC-RMIT-FLOOR-JOIST",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-8421-TM-TERMITE-MANAGEMENT-SYSTEM-COMMONLY-USED-WITH-AU-DB-LOW-CLEARANCE-DECK",
+      "from_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-LOW-CLEARANCE-DECK",
+      "source_ids": [
+        "SRC-MODWOOD-AU-INSTALLATION",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK",
+        "SRC-WOODSOLUTIONS-TDG05-SERVICE-LIFE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8422-TM-TERMITE-MANAGEMENT-SYSTEM-HAS-PART-AU-DB-DECK-TERMITE-INSPECTION-ZONE",
+      "from_id": "AU-TM-TERMITE-MANAGEMENT-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-DB-DECK-TERMITE-INSPECTION-ZONE",
+      "source_ids": [
+        "SRC-ABCB-HP-TERMITE",
+        "SRC-QBCC-TIMBER-DECK-BALCONY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8431-TM-TERMITE-SHIELD-ADJACENT-TO-AU-TF-BEARER",
+      "from_id": "AU-TM-TERMITE-SHIELD",
+      "relationship": "adjacent_to",
+      "to_id": "AU-TF-BEARER",
+      "source_ids": [
+        "SRC-CSIRO-MANAGING-TERMITES",
+        "SRC-RMIT-FLOOR-JOIST",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8432-TM-TERMITE-SHIELD-ATTACHED-TO-AU-CF-STUMP",
+      "from_id": "AU-TM-TERMITE-SHIELD",
+      "relationship": "attached_to",
+      "to_id": "AU-CF-STUMP",
+      "source_ids": [
+        "SRC-CSIRO-MANAGING-TERMITES",
+        "SRC-RMIT-FLOOR-JOIST",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

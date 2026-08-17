@@ -1,0 +1,1030 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "glazing",
+  "relationships": [
+    {
+      "id": "REL-4529-GL-ANNEALED-GLASS-IS-A-AU-GL-MONOLITHIC-GLASS",
+      "from_id": "AU-GL-ANNEALED-GLASS",
+      "relationship": "is_a",
+      "to_id": "AU-GL-MONOLITHIC-GLASS",
+      "source_ids": [
+        "SRC-AGWA-GLASS-GLAZING-GUIDE",
+        "SRC-VIRIDIAN-GLASS-PROCESS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4530-GL-BODY-TINTED-GLASS-IS-A-AU-GL-GLASS-PANE",
+      "from_id": "AU-GL-BODY-TINTED-GLASS",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLASS-PANE",
+      "source_ids": [
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4531-GL-BUTT-JOINTED-GLAZING-IS-A-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-BUTT-JOINTED-GLAZING",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4532-GL-DECORATIVE-COLONIAL-BAR-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-DECORATIVE-COLONIAL-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4535-GL-DOOR-SIDE-PANEL-IS-A-AU-GL-FIXED-LIGHT-ASSEMBLY",
+      "from_id": "AU-GL-DOOR-SIDE-PANEL",
+      "relationship": "is_a",
+      "to_id": "AU-GL-FIXED-LIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-GLAZING-IMPACT",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4536-GL-DOUBLE-GLAZED-UNIT-IS-A-AU-GL-IGU-ASSEMBLY",
+      "from_id": "AU-GL-DOUBLE-GLAZED-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-GL-IGU-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4537-GL-FIXED-LIGHT-ASSEMBLY-IS-A-AU-GL-FULLY-FRAMED-GLAZING",
+      "from_id": "AU-GL-FIXED-LIGHT-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-GL-FULLY-FRAMED-GLAZING",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4538-GL-FLOAT-GLASS-IS-A-AU-GL-GLASS-PANE",
+      "from_id": "AU-GL-FLOAT-GLASS",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLASS-PANE",
+      "source_ids": [
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4539-GL-FULLY-FRAMED-GLAZING-IS-A-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-FULLY-FRAMED-GLAZING",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4540-GL-GLASS-FIN-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-GLASS-FIN",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-4543-GL-GLAZING-BAR-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-GLAZING-BAR",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4546-GL-GLAZING-BEAD-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-GLAZING-BEAD",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4547-GL-GLAZING-BEDDING-SEAL-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-GLAZING-BEDDING-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4548-GL-GLAZING-CHANNEL-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-GLAZING-CHANNEL",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4549-GL-GLAZING-GASKET-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-GLAZING-GASKET",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4550-GL-GLAZING-PROTECTION-RAIL-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-GLAZING-PROTECTION-RAIL",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLAZING-IMPACT",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-4551-GL-GLAZING-SEALANT-JOINT-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-GLAZING-SEALANT-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4552-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-DECORATIVE-COLONIAL-BAR",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-DECORATIVE-COLONIAL-BAR",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4553-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-GLASS-FIN",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-GLASS-FIN",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-4554-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-GLAZING-BAR",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-GLAZING-BAR",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4555-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-GLAZING-BEAD",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-GLAZING-BEAD",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4556-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-GLAZING-BEDDING-SEAL",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-GLAZING-BEDDING-SEAL",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4557-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-GLAZING-CHANNEL",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-GLAZING-CHANNEL",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4558-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-GLAZING-GASKET",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-GLAZING-GASKET",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4559-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-GLAZING-PROTECTION-RAIL",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-GLAZING-PROTECTION-RAIL",
+      "source_ids": [
+        "SRC-ABCB-HP-GLAZING-IMPACT",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-4560-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-GLAZING-SEALANT-JOINT",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-GLAZING-SEALANT-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4561-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-GLAZING-TAPE",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-GLAZING-TAPE",
+      "source_ids": [
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4562-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-GLAZING-WEDGE",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-GLAZING-WEDGE",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4563-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-LOCATION-BLOCK",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-LOCATION-BLOCK",
+      "source_ids": [
+        "SRC-AGWA-GLASS-GLAZING-GUIDE",
+        "SRC-AGWA-IGU-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4564-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-SETTING-BLOCK",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-SETTING-BLOCK",
+      "source_ids": [
+        "SRC-AGWA-GLASS-GLAZING-GUIDE",
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4565-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-STRUCTURAL-SILICONE-JOINT",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-STRUCTURAL-SILICONE-JOINT",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-4566-GL-GLAZING-SYSTEM-HAS-PART-AU-GL-VISIBILITY-MARKING",
+      "from_id": "AU-GL-GLAZING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-GL-VISIBILITY-MARKING",
+      "source_ids": [
+        "SRC-ABCB-HP-GLAZING-IMPACT",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4567-GL-GLAZING-TAPE-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-GLAZING-TAPE",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4568-GL-GLAZING-WEDGE-IS-A-AU-GL-GLAZING-GASKET",
+      "from_id": "AU-GL-GLAZING-WEDGE",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLAZING-GASKET",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4569-GL-GLAZING-WEDGE-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-GLAZING-WEDGE",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-AGWA-FENESTRATION-TERMS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4570-GL-HEAT-STRENGTHENED-GLASS-IS-A-AU-GL-MONOLITHIC-GLASS",
+      "from_id": "AU-GL-HEAT-STRENGTHENED-GLASS",
+      "relationship": "is_a",
+      "to_id": "AU-GL-MONOLITHIC-GLASS",
+      "source_ids": [
+        "SRC-SA-AS-NZS-2208-2023",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY",
+        "SRC-VIRIDIAN-GLASS-PROCESS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4571-GL-IGU-ASSEMBLY-HAS-PART-AU-GL-IGU-CAVITY",
+      "from_id": "AU-GL-IGU-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-GL-IGU-CAVITY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS",
+        "SRC-SA-AS-4666-2012"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4572-GL-IGU-ASSEMBLY-HAS-PART-AU-GL-IGU-DESICCANT",
+      "from_id": "AU-GL-IGU-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-GL-IGU-DESICCANT",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4573-GL-IGU-ASSEMBLY-HAS-PART-AU-GL-IGU-EDGE-SEAL-ASSEMBLY",
+      "from_id": "AU-GL-IGU-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-GL-IGU-EDGE-SEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-SA-AS-4666-2012",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4574-GL-IGU-ASSEMBLY-HAS-PART-AU-GL-IGU-GAS-FILL",
+      "from_id": "AU-GL-IGU-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-GL-IGU-GAS-FILL",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4575-GL-IGU-ASSEMBLY-HAS-PART-AU-GL-IGU-GLASS-LITE",
+      "from_id": "AU-GL-IGU-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-GL-IGU-GLASS-LITE",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4576-GL-IGU-ASSEMBLY-HAS-PART-AU-GL-IGU-SPACER-FRAME",
+      "from_id": "AU-GL-IGU-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-GL-IGU-SPACER-FRAME",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4577-GL-IGU-ASSEMBLY-HAS-PART-AU-GL-WARM-EDGE-SPACER",
+      "from_id": "AU-GL-IGU-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-GL-WARM-EDGE-SPACER",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4578-GL-IGU-CAVITY-PART-OF-AU-GL-IGU-ASSEMBLY",
+      "from_id": "AU-GL-IGU-CAVITY",
+      "relationship": "part_of",
+      "to_id": "AU-GL-IGU-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS",
+        "SRC-SA-AS-4666-2012"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4579-GL-IGU-DESICCANT-PART-OF-AU-GL-IGU-ASSEMBLY",
+      "from_id": "AU-GL-IGU-DESICCANT",
+      "relationship": "part_of",
+      "to_id": "AU-GL-IGU-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4580-GL-IGU-EDGE-SEAL-ASSEMBLY-HAS-PART-AU-GL-IGU-PRIMARY-SEAL",
+      "from_id": "AU-GL-IGU-EDGE-SEAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-GL-IGU-PRIMARY-SEAL",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4581-GL-IGU-EDGE-SEAL-ASSEMBLY-HAS-PART-AU-GL-IGU-SECONDARY-SEAL",
+      "from_id": "AU-GL-IGU-EDGE-SEAL-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-GL-IGU-SECONDARY-SEAL",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4582-GL-IGU-EDGE-SEAL-ASSEMBLY-PART-OF-AU-GL-IGU-ASSEMBLY",
+      "from_id": "AU-GL-IGU-EDGE-SEAL-ASSEMBLY",
+      "relationship": "part_of",
+      "to_id": "AU-GL-IGU-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-SA-AS-4666-2012",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4583-GL-IGU-GAS-FILL-PART-OF-AU-GL-IGU-ASSEMBLY",
+      "from_id": "AU-GL-IGU-GAS-FILL",
+      "relationship": "part_of",
+      "to_id": "AU-GL-IGU-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4584-GL-IGU-GLASS-LITE-IS-A-AU-GL-GLASS-PANE",
+      "from_id": "AU-GL-IGU-GLASS-LITE",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLASS-PANE",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4585-GL-IGU-GLASS-LITE-PART-OF-AU-GL-IGU-ASSEMBLY",
+      "from_id": "AU-GL-IGU-GLASS-LITE",
+      "relationship": "part_of",
+      "to_id": "AU-GL-IGU-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4586-GL-IGU-PRIMARY-SEAL-PART-OF-AU-GL-IGU-EDGE-SEAL-ASSEMBLY",
+      "from_id": "AU-GL-IGU-PRIMARY-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-GL-IGU-EDGE-SEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4587-GL-IGU-SECONDARY-SEAL-PART-OF-AU-GL-IGU-EDGE-SEAL-ASSEMBLY",
+      "from_id": "AU-GL-IGU-SECONDARY-SEAL",
+      "relationship": "part_of",
+      "to_id": "AU-GL-IGU-EDGE-SEAL-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4588-GL-IGU-SPACER-FRAME-PART-OF-AU-GL-IGU-ASSEMBLY",
+      "from_id": "AU-GL-IGU-SPACER-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-GL-IGU-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4589-GL-LAMINATED-GLASS-ASSEMBLY-HAS-PART-AU-GL-LAMINATING-INTERLAYER",
+      "from_id": "AU-GL-LAMINATED-GLASS-ASSEMBLY",
+      "relationship": "has_part",
+      "to_id": "AU-GL-LAMINATING-INTERLAYER",
+      "source_ids": [
+        "SRC-SA-AS-NZS-2208-2023",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY",
+        "SRC-VIRIDIAN-GLASS-PROCESS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4590-GL-LAMINATED-SAFETY-GLASS-IS-A-AU-GL-LAMINATED-GLASS-ASSEMBLY",
+      "from_id": "AU-GL-LAMINATED-SAFETY-GLASS",
+      "relationship": "is_a",
+      "to_id": "AU-GL-LAMINATED-GLASS-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-GLAZING-IMPACT",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE",
+        "SRC-SA-AS-NZS-2208-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4591-GL-LAMINATING-INTERLAYER-PART-OF-AU-GL-LAMINATED-GLASS-ASSEMBLY",
+      "from_id": "AU-GL-LAMINATING-INTERLAYER",
+      "relationship": "part_of",
+      "to_id": "AU-GL-LAMINATED-GLASS-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS-NZS-2208-2023",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY",
+        "SRC-VIRIDIAN-GLASS-PROCESS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4592-GL-LOCATION-BLOCK-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-LOCATION-BLOCK",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-AGWA-GLASS-GLAZING-GUIDE",
+        "SRC-AGWA-IGU-DRAINAGE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4593-GL-MONOLITHIC-GLASS-IS-A-AU-GL-GLASS-PANE",
+      "from_id": "AU-GL-MONOLITHIC-GLASS",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLASS-PANE",
+      "source_ids": [
+        "SRC-AGWA-GLASS-GLAZING-GUIDE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4594-GL-PARTLY-FRAMED-GLAZING-IS-A-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-PARTLY-FRAMED-GLAZING",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4595-GL-PATTERNED-GLASS-IS-A-AU-GL-GLASS-PANE",
+      "from_id": "AU-GL-PATTERNED-GLASS",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLASS-PANE",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-SELECTING-GLASS-WINDOWS",
+        "SRC-VIRIDIAN-GLASS-PROCESS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4596-GL-REFLECTIVE-COATED-GLASS-IS-A-AU-GL-GLASS-PANE",
+      "from_id": "AU-GL-REFLECTIVE-COATED-GLASS",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLASS-PANE",
+      "source_ids": [
+        "SRC-VIRIDIAN-GLASS-GLOSSARY",
+        "SRC-VIRIDIAN-GLASS-PROCESS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4597-GL-SETTING-BLOCK-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-SETTING-BLOCK",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-AGWA-GLASS-GLAZING-GUIDE",
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4600-GL-SHOWER-SCREEN-ASSEMBLY-IS-A-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-SHOWER-SCREEN-ASSEMBLY",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLAZING-IMPACT",
+        "SRC-SA-AS-1288-2021",
+        "SRC-SA-AS-NZS-2208-2023"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4601-GL-STRUCTURAL-SILICONE-JOINT-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-STRUCTURAL-SILICONE-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-4602-GL-TOUGHENED-LAMINATED-GLASS-IS-A-AU-GL-LAMINATED-GLASS-ASSEMBLY",
+      "from_id": "AU-GL-TOUGHENED-LAMINATED-GLASS",
+      "relationship": "is_a",
+      "to_id": "AU-GL-LAMINATED-GLASS-ASSEMBLY",
+      "source_ids": [
+        "SRC-SA-AS-NZS-2208-2023",
+        "SRC-VIRIDIAN-GLASS-PROCESS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4603-GL-TOUGHENED-SAFETY-GLASS-IS-A-AU-GL-MONOLITHIC-GLASS",
+      "from_id": "AU-GL-TOUGHENED-SAFETY-GLASS",
+      "relationship": "is_a",
+      "to_id": "AU-GL-MONOLITHIC-GLASS",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-GLASS-GLAZING-GUIDE",
+        "SRC-SA-AS-NZS-2208-2023",
+        "SRC-VIRIDIAN-GLASS-PROCESS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4604-GL-TRANSOM-LIGHT-IS-A-AU-GL-FIXED-LIGHT-ASSEMBLY",
+      "from_id": "AU-GL-TRANSOM-LIGHT",
+      "relationship": "is_a",
+      "to_id": "AU-GL-FIXED-LIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-AGWA-WINDOW-TERMINOLOGY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4605-GL-TRIPLE-GLAZED-UNIT-IS-A-AU-GL-IGU-ASSEMBLY",
+      "from_id": "AU-GL-TRIPLE-GLAZED-UNIT",
+      "relationship": "is_a",
+      "to_id": "AU-GL-IGU-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4606-GL-UNFRAMED-GLASS-DOOR-COMMONLY-USED-WITH-AU-GL-VISIBILITY-MARKING",
+      "from_id": "AU-GL-UNFRAMED-GLASS-DOOR",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-GL-VISIBILITY-MARKING",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-ABCB-HP-GLAZING-IMPACT",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4607-GL-UNFRAMED-GLAZING-IS-A-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-UNFRAMED-GLAZING",
+      "relationship": "is_a",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-ABCB-HP-GLAZING-IMPACT",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4608-GL-VISIBILITY-MARKING-COMMONLY-USED-WITH-AU-GL-UNFRAMED-GLASS-DOOR",
+      "from_id": "AU-GL-VISIBILITY-MARKING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-GL-UNFRAMED-GLASS-DOOR",
+      "source_ids": [
+        "SRC-ABCB-HP-GLASS",
+        "SRC-ABCB-HP-GLAZING-IMPACT",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4609-GL-VISIBILITY-MARKING-PART-OF-AU-GL-GLAZING-SYSTEM",
+      "from_id": "AU-GL-VISIBILITY-MARKING",
+      "relationship": "part_of",
+      "to_id": "AU-GL-GLAZING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-GLAZING-IMPACT",
+        "SRC-SA-AS-1288-2021"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4610-GL-WARM-EDGE-SPACER-IS-A-AU-GL-IGU-SPACER-FRAME",
+      "from_id": "AU-GL-WARM-EDGE-SPACER",
+      "relationship": "is_a",
+      "to_id": "AU-GL-IGU-SPACER-FRAME",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4611-GL-WARM-EDGE-SPACER-PART-OF-AU-GL-IGU-ASSEMBLY",
+      "from_id": "AU-GL-WARM-EDGE-SPACER",
+      "relationship": "part_of",
+      "to_id": "AU-GL-IGU-ASSEMBLY",
+      "source_ids": [
+        "SRC-AGWA-IGU-DRAINAGE",
+        "SRC-VIRIDIAN-GLASS-GLOSSARY"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-4533-GL-DOOR-SIDE-PANEL-COMMONLY-USED-WITH-AU-ED-ENTRY-DOOR-SIDELIGHT-ASSEMBLY",
+      "from_id": "AU-GL-DOOR-SIDE-PANEL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-ENTRY-DOOR-SIDELIGHT-ASSEMBLY",
+      "source_ids": [
+        "SRC-HUME-ENTRANCE-DOORS",
+        "SRC-TGA-CPCCCA3010-WINDOWS-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4534-GL-DOOR-SIDE-PANEL-COMMONLY-USED-WITH-AU-ED-EXTERNAL-DOOR-GLAZING-APERTURE",
+      "from_id": "AU-GL-DOOR-SIDE-PANEL",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ED-EXTERNAL-DOOR-GLAZING-APERTURE",
+      "source_ids": [
+        "SRC-CORINTHIAN-DOOR-CONSTRUCTION",
+        "SRC-HUME-ENTRANCE-DOORS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4541-GL-GLASS-LOUVRE-BLADE-PART-OF-AU-WD-ADJUSTABLE-LOUVRE-WINDOW",
+      "from_id": "AU-GL-GLASS-LOUVRE-BLADE",
+      "relationship": "part_of",
+      "to_id": "AU-WD-ADJUSTABLE-LOUVRE-WINDOW",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-GLAZING",
+        "SRC-AGWA-COMPLIANCE-FAQ",
+        "SRC-AGWA-FENESTRATION-TERMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4542-GL-GLASS-PANE-COMMONLY-USED-WITH-AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "from_id": "AU-GL-GLASS-PANE",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4544-GL-GLAZING-BEAD-COMMONLY-USED-WITH-AU-ID-GLAZED-INTERNAL-DOOR-LEAF",
+      "from_id": "AU-GL-GLAZING-BEAD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-GLAZED-INTERNAL-DOOR-LEAF",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-HUME-PREHUNG-INTERNAL-INSTALL",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4545-GL-GLAZING-BEAD-COMMONLY-USED-WITH-AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "from_id": "AU-GL-GLAZING-BEAD",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-ID-INTERNAL-DOOR-GLAZING-APERTURE",
+      "source_ids": [
+        "SRC-ABCB-HP-REFERENCED-DOCS",
+        "SRC-SA-AS2688-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4598-GL-SHOWER-SCREEN-ASSEMBLY-COMMONLY-USED-WITH-AU-WP-ENCLOSED-SHOWER-ASSEMBLY",
+      "from_id": "AU-GL-SHOWER-SCREEN-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WP-ENCLOSED-SHOWER-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-4599-GL-SHOWER-SCREEN-ASSEMBLY-COMMONLY-USED-WITH-AU-WP-SHOWER-SCREEN-INVERTED-CHANNEL",
+      "from_id": "AU-GL-SHOWER-SCREEN-ASSEMBLY",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-WP-SHOWER-SCREEN-INVERTED-CHANNEL",
+      "source_ids": [
+        "SRC-ABCB-HP-WET-AREA-WATERPROOFING",
+        "SRC-JH-WET-AREA-GUIDE-2025"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

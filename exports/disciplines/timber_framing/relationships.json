@@ -1,0 +1,2205 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "timber_framing",
+  "relationships": [
+    {
+      "id": "REL-8236-TF-BEARER-PART-OF-AU-TF-FLOOR-FRAME",
+      "from_id": "AU-TF-BEARER",
+      "relationship": "part_of",
+      "to_id": "AU-TF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-RMIT-BEARER",
+        "SRC-RMIT-FLOOR-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8240-TF-BEARER-SUPPORTS-AU-TF-FLOOR-JOIST",
+      "from_id": "AU-TF-BEARER",
+      "relationship": "supports",
+      "to_id": "AU-TF-FLOOR-JOIST",
+      "source_ids": [
+        "SRC-DICTIONARY-FLOOR-JOIST",
+        "SRC-RMIT-BEARER",
+        "SRC-RMIT-FLOOR-GENERAL",
+        "SRC-RMIT-FLOOR-JOIST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8242-TF-BOTTOM-PLATE-PART-OF-AU-TF-WALL-FRAME",
+      "from_id": "AU-TF-BOTTOM-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-RMIT-BOTTOM-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8243-TF-BOTTOM-PLATE-SUPPORTS-AU-TF-COMMON-STUD",
+      "from_id": "AU-TF-BOTTOM-PLATE",
+      "relationship": "supports",
+      "to_id": "AU-TF-COMMON-STUD",
+      "source_ids": [
+        "SRC-RMIT-BOTTOM-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8244-TF-BOTTOM-PLATE-SUPPORTS-AU-TF-JAMB-STUD",
+      "from_id": "AU-TF-BOTTOM-PLATE",
+      "relationship": "supports",
+      "to_id": "AU-TF-JAMB-STUD",
+      "source_ids": [
+        "SRC-RMIT-BOTTOM-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8247-TF-CEILING-JOIST-CONNECTS-TO-AU-TF-COMMON-RAFTER",
+      "from_id": "AU-TF-CEILING-JOIST",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-COMMON-RAFTER",
+      "source_ids": [
+        "SRC-RMIT-CEILING-JOIST",
+        "SRC-RMIT-ROOF-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8248-TF-CEILING-JOIST-PART-OF-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-TF-CEILING-JOIST",
+      "relationship": "part_of",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-RMIT-CEILING-JOIST",
+        "SRC-RMIT-ROOF-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8249-TF-CEILING-JOIST-SUPPORTED-BY-AU-TF-HANGING-BEAM",
+      "from_id": "AU-TF-CEILING-JOIST",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-HANGING-BEAM",
+      "source_ids": [
+        "SRC-RMIT-HANGING-BEAM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8250-TF-COLLAR-TIE-PART-OF-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-TF-COLLAR-TIE",
+      "relationship": "part_of",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-RMIT-COLLAR-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8251-TF-COLLAR-TIE-RESTRAINS-AU-TF-COMMON-RAFTER",
+      "from_id": "AU-TF-COLLAR-TIE",
+      "relationship": "restrains",
+      "to_id": "AU-TF-COMMON-RAFTER",
+      "source_ids": [
+        "SRC-RMIT-COLLAR-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8253-TF-COMMON-RAFTER-BEARS-ON-AU-TF-TOP-PLATE",
+      "from_id": "AU-TF-COMMON-RAFTER",
+      "relationship": "bears_on",
+      "to_id": "AU-TF-TOP-PLATE",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-ROOF-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8254-TF-COMMON-RAFTER-CONNECTS-TO-AU-TF-CEILING-JOIST",
+      "from_id": "AU-TF-COMMON-RAFTER",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-CEILING-JOIST",
+      "source_ids": [
+        "SRC-RMIT-CEILING-JOIST",
+        "SRC-RMIT-ROOF-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8255-TF-COMMON-RAFTER-CONNECTS-TO-AU-TF-RIDGEBOARD",
+      "from_id": "AU-TF-COMMON-RAFTER",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-RIDGEBOARD",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-RIDGEBOARD",
+        "SRC-RMIT-ROOF-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8256-TF-COMMON-RAFTER-PART-OF-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-TF-COMMON-RAFTER",
+      "relationship": "part_of",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-ROOF-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8257-TF-COMMON-RAFTER-SUPPORTED-BY-AU-TF-TOP-PLATE",
+      "from_id": "AU-TF-COMMON-RAFTER",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-TOP-PLATE",
+      "source_ids": [
+        "SRC-RMIT-TOP-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8258-TF-COMMON-RAFTER-SUPPORTED-BY-AU-TF-UNDERPURLIN",
+      "from_id": "AU-TF-COMMON-RAFTER",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-UNDERPURLIN",
+      "source_ids": [
+        "SRC-RMIT-UNDERPURLIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8259-TF-COMMON-RAFTER-SUPPORTS-AU-TF-ROOF-BATTEN",
+      "from_id": "AU-TF-COMMON-RAFTER",
+      "relationship": "supports",
+      "to_id": "AU-TF-ROOF-BATTEN",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-ROOF-INTRO",
+        "SRC-RMIT-TRUSS-MEMBERS",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8260-TF-COMMON-STUD-BEARS-ON-AU-TF-BOTTOM-PLATE",
+      "from_id": "AU-TF-COMMON-STUD",
+      "relationship": "bears_on",
+      "to_id": "AU-TF-BOTTOM-PLATE",
+      "source_ids": [
+        "SRC-RMIT-COMMON-STUD",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8261-TF-COMMON-STUD-PART-OF-AU-TF-WALL-FRAME",
+      "from_id": "AU-TF-COMMON-STUD",
+      "relationship": "part_of",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-RMIT-COMMON-STUD",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8262-TF-COMMON-STUD-SUPPORTED-BY-AU-TF-BOTTOM-PLATE",
+      "from_id": "AU-TF-COMMON-STUD",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-BOTTOM-PLATE",
+      "source_ids": [
+        "SRC-RMIT-BOTTOM-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8263-TF-COMMON-STUD-SUPPORTS-AU-TF-TOP-PLATE",
+      "from_id": "AU-TF-COMMON-STUD",
+      "relationship": "supports",
+      "to_id": "AU-TF-TOP-PLATE",
+      "source_ids": [
+        "SRC-RMIT-COMMON-STUD",
+        "SRC-RMIT-TOP-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8265-TF-CONVENTIONAL-ROOF-FRAME-HAS-PART-AU-TF-CEILING-JOIST",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-CEILING-JOIST",
+      "source_ids": [
+        "SRC-RMIT-CEILING-JOIST",
+        "SRC-RMIT-ROOF-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8266-TF-CONVENTIONAL-ROOF-FRAME-HAS-PART-AU-TF-COLLAR-TIE",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-COLLAR-TIE",
+      "source_ids": [
+        "SRC-RMIT-COLLAR-TIE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8267-TF-CONVENTIONAL-ROOF-FRAME-HAS-PART-AU-TF-COMMON-RAFTER",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-COMMON-RAFTER",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-ROOF-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8268-TF-CONVENTIONAL-ROOF-FRAME-HAS-PART-AU-TF-HANGING-BEAM",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-HANGING-BEAM",
+      "source_ids": [
+        "SRC-RMIT-HANGING-BEAM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8269-TF-CONVENTIONAL-ROOF-FRAME-HAS-PART-AU-TF-HIP-RAFTER",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-HIP-RAFTER",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-RAFTER",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8270-TF-CONVENTIONAL-ROOF-FRAME-HAS-PART-AU-TF-JACK-RAFTER",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-JACK-RAFTER",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-RAFTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8271-TF-CONVENTIONAL-ROOF-FRAME-HAS-PART-AU-TF-RIDGEBOARD",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-RIDGEBOARD",
+      "source_ids": [
+        "SRC-RMIT-RIDGEBOARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8272-TF-CONVENTIONAL-ROOF-FRAME-HAS-PART-AU-TF-ROOF-BATTEN",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-ROOF-BATTEN",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-TRUSS-MEMBERS",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8273-TF-CONVENTIONAL-ROOF-FRAME-HAS-PART-AU-TF-ROOF-STRUT",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-ROOF-STRUT",
+      "source_ids": [
+        "SRC-RMIT-ROOF-STRUT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8274-TF-CONVENTIONAL-ROOF-FRAME-HAS-PART-AU-TF-STRUTTING-BEAM",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-STRUTTING-BEAM",
+      "source_ids": [
+        "SRC-RMIT-STRUTTING-BEAM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8275-TF-CONVENTIONAL-ROOF-FRAME-HAS-PART-AU-TF-UNDERPURLIN",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-UNDERPURLIN",
+      "source_ids": [
+        "SRC-RMIT-UNDERPURLIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8277-TF-CREEPER-TRUSS-IS-A-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-CREEPER-TRUSS",
+      "relationship": "is_a",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-HIP-TRUSSES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8279-TF-FLOOR-FRAME-HAS-PART-AU-TF-BEARER",
+      "from_id": "AU-TF-FLOOR-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-BEARER",
+      "source_ids": [
+        "SRC-RMIT-BEARER",
+        "SRC-RMIT-FLOOR-GENERAL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8280-TF-FLOOR-FRAME-HAS-PART-AU-TF-FLOOR-JOIST",
+      "from_id": "AU-TF-FLOOR-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-FLOOR-JOIST",
+      "source_ids": [
+        "SRC-DICTIONARY-FLOOR-JOIST",
+        "SRC-RMIT-FLOOR-JOIST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8281-TF-FLOOR-FRAME-HAS-PART-AU-TF-SOLID-BLOCKING",
+      "from_id": "AU-TF-FLOOR-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-SOLID-BLOCKING",
+      "source_ids": [
+        "SRC-RMIT-DEEP-JOIST",
+        "SRC-RMIT-FLOOR-JOIST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8282-TF-FLOOR-FRAME-HAS-PART-AU-TF-TRIMMING-JOIST",
+      "from_id": "AU-TF-FLOOR-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-TRIMMING-JOIST",
+      "source_ids": [
+        "SRC-DICTIONARY-TRIMMING-JOIST",
+        "SRC-RMIT-FLOOR-JOIST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8289-TF-FLOOR-JOIST-COMMONLY-USED-WITH-AU-TF-TRIMMING-JOIST",
+      "from_id": "AU-TF-FLOOR-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TF-TRIMMING-JOIST",
+      "source_ids": [
+        "SRC-DICTIONARY-TRIMMING-JOIST",
+        "SRC-RMIT-FLOOR-JOIST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8290-TF-FLOOR-JOIST-PART-OF-AU-TF-FLOOR-FRAME",
+      "from_id": "AU-TF-FLOOR-JOIST",
+      "relationship": "part_of",
+      "to_id": "AU-TF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-DICTIONARY-FLOOR-JOIST",
+        "SRC-RMIT-FLOOR-JOIST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8291-TF-FLOOR-JOIST-SUPPORTED-BY-AU-TF-BEARER",
+      "from_id": "AU-TF-FLOOR-JOIST",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-BEARER",
+      "source_ids": [
+        "SRC-DICTIONARY-FLOOR-JOIST",
+        "SRC-RMIT-BEARER",
+        "SRC-RMIT-FLOOR-GENERAL",
+        "SRC-RMIT-FLOOR-JOIST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8293-TF-HANGING-BEAM-PART-OF-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-TF-HANGING-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-RMIT-HANGING-BEAM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8294-TF-HANGING-BEAM-SUPPORTS-AU-TF-CEILING-JOIST",
+      "from_id": "AU-TF-HANGING-BEAM",
+      "relationship": "supports",
+      "to_id": "AU-TF-CEILING-JOIST",
+      "source_ids": [
+        "SRC-RMIT-HANGING-BEAM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8295-TF-HEAD-TRIMMER-PART-OF-AU-TF-WALL-FRAME",
+      "from_id": "AU-TF-HEAD-TRIMMER",
+      "relationship": "part_of",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-DICTIONARY-TRIMMER",
+        "SRC-RMIT-JACK-STUD"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8296-TF-HEAD-TRIMMER-SPANS-BETWEEN-AU-TF-JAMB-STUD",
+      "from_id": "AU-TF-HEAD-TRIMMER",
+      "relationship": "spans_between",
+      "to_id": "AU-TF-JAMB-STUD",
+      "source_ids": [
+        "SRC-DICTIONARY-TRIMMER",
+        "SRC-RMIT-JACK-STUD"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8297-TF-HEAD-TRIMMER-SUPPORTS-AU-TF-JACK-STUD",
+      "from_id": "AU-TF-HEAD-TRIMMER",
+      "relationship": "supports",
+      "to_id": "AU-TF-JACK-STUD",
+      "source_ids": [
+        "SRC-DICTIONARY-TRIMMER",
+        "SRC-RMIT-JACK-STUD"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8298-TF-HIP-RAFTER-PART-OF-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-TF-HIP-RAFTER",
+      "relationship": "part_of",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-RAFTER",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8299-TF-HIP-RAFTER-SUPPORTS-AU-TF-JACK-RAFTER",
+      "from_id": "AU-TF-HIP-RAFTER",
+      "relationship": "supports",
+      "to_id": "AU-TF-JACK-RAFTER",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-RAFTER",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8300-TF-HIP-TRUSS-IS-A-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-HIP-TRUSS",
+      "relationship": "is_a",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-HIP-TRUSSES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8301-TF-JACK-RAFTER-BEARS-ON-AU-TF-TOP-PLATE",
+      "from_id": "AU-TF-JACK-RAFTER",
+      "relationship": "bears_on",
+      "to_id": "AU-TF-TOP-PLATE",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-RAFTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8302-TF-JACK-RAFTER-PART-OF-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-TF-JACK-RAFTER",
+      "relationship": "part_of",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-RAFTER"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8303-TF-JACK-RAFTER-SUPPORTED-BY-AU-TF-HIP-RAFTER",
+      "from_id": "AU-TF-JACK-RAFTER",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-HIP-RAFTER",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-RAFTER",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8305-TF-JACK-STUD-PART-OF-AU-TF-WALL-FRAME",
+      "from_id": "AU-TF-JACK-STUD",
+      "relationship": "part_of",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-STUD",
+        "SRC-RMIT-JACK-STUD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8306-TF-JACK-STUD-SUPPORTED-BY-AU-TF-HEAD-TRIMMER",
+      "from_id": "AU-TF-JACK-STUD",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-HEAD-TRIMMER",
+      "source_ids": [
+        "SRC-DICTIONARY-TRIMMER",
+        "SRC-RMIT-JACK-STUD"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8307-TF-JACK-STUD-SUPPORTED-BY-AU-TF-LINTEL",
+      "from_id": "AU-TF-JACK-STUD",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-LINTEL",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-STUD",
+        "SRC-RMIT-JACK-STUD",
+        "SRC-RMIT-LINTEL",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8308-TF-JACK-STUD-SUPPORTED-BY-AU-TF-SILL-TRIMMER",
+      "from_id": "AU-TF-JACK-STUD",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-SILL-TRIMMER",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-STUD",
+        "SRC-DICTIONARY-SILL-PLATE",
+        "SRC-RMIT-JACK-STUD",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8309-TF-JACK-TRUSS-IS-A-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-JACK-TRUSS",
+      "relationship": "is_a",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-HIP-TRUSSES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8310-TF-JACK-TRUSS-SUPPORTED-BY-AU-TF-TRUNCATED-GIRDER-TRUSS",
+      "from_id": "AU-TF-JACK-TRUSS",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-TRUNCATED-GIRDER-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-HIP-TRUSSES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8312-TF-JAMB-STUD-PART-OF-AU-TF-WALL-FRAME",
+      "from_id": "AU-TF-JAMB-STUD",
+      "relationship": "part_of",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-DICTIONARY-JAMB-STUD",
+        "SRC-RMIT-JAMB-STUD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8313-TF-JAMB-STUD-SUPPORTED-BY-AU-TF-BOTTOM-PLATE",
+      "from_id": "AU-TF-JAMB-STUD",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-BOTTOM-PLATE",
+      "source_ids": [
+        "SRC-RMIT-BOTTOM-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8314-TF-JAMB-STUD-SUPPORTS-AU-TF-LINTEL",
+      "from_id": "AU-TF-JAMB-STUD",
+      "relationship": "supports",
+      "to_id": "AU-TF-LINTEL",
+      "source_ids": [
+        "SRC-DICTIONARY-JAMB-STUD",
+        "SRC-RMIT-JAMB-STUD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8315-TF-JAMB-STUD-SUPPORTS-AU-TF-SILL-TRIMMER",
+      "from_id": "AU-TF-JAMB-STUD",
+      "relationship": "supports",
+      "to_id": "AU-TF-SILL-TRIMMER",
+      "source_ids": [
+        "SRC-DICTIONARY-JAMB-STUD",
+        "SRC-RMIT-JAMB-STUD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8317-TF-LINTEL-PART-OF-AU-TF-WALL-FRAME",
+      "from_id": "AU-TF-LINTEL",
+      "relationship": "part_of",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-RMIT-LINTEL",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8318-TF-LINTEL-SPANS-BETWEEN-AU-TF-JAMB-STUD",
+      "from_id": "AU-TF-LINTEL",
+      "relationship": "spans_between",
+      "to_id": "AU-TF-JAMB-STUD",
+      "source_ids": [
+        "SRC-RMIT-LINTEL",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8319-TF-LINTEL-SUPPORTED-BY-AU-TF-JAMB-STUD",
+      "from_id": "AU-TF-LINTEL",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-JAMB-STUD",
+      "source_ids": [
+        "SRC-DICTIONARY-JAMB-STUD",
+        "SRC-RMIT-JAMB-STUD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8320-TF-LINTEL-SUPPORTS-AU-TF-JACK-STUD",
+      "from_id": "AU-TF-LINTEL",
+      "relationship": "supports",
+      "to_id": "AU-TF-JACK-STUD",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-STUD",
+        "SRC-RMIT-JACK-STUD",
+        "SRC-RMIT-LINTEL",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8321-TF-NAILPLATE-CONNECTS-TO-AU-TF-TRUSS-BOTTOM-CHORD",
+      "from_id": "AU-TF-NAILPLATE",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-TRUSS-BOTTOM-CHORD",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-CONNECTIONS",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8322-TF-NAILPLATE-CONNECTS-TO-AU-TF-TRUSS-TOP-CHORD",
+      "from_id": "AU-TF-NAILPLATE",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-TRUSS-TOP-CHORD",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-CONNECTIONS",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8323-TF-NAILPLATE-CONNECTS-TO-AU-TF-TRUSS-WEB",
+      "from_id": "AU-TF-NAILPLATE",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-TRUSS-WEB",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-CONNECTIONS",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8324-TF-NAILPLATE-PART-OF-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-NAILPLATE",
+      "relationship": "part_of",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-CONNECTIONS",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8326-TF-NAILPLATED-ROOF-TRUSS-HAS-PART-AU-TF-NAILPLATE",
+      "from_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "relationship": "has_part",
+      "to_id": "AU-TF-NAILPLATE",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-CONNECTIONS",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8327-TF-NAILPLATED-ROOF-TRUSS-HAS-PART-AU-TF-ROOF-BATTEN",
+      "from_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "relationship": "has_part",
+      "to_id": "AU-TF-ROOF-BATTEN",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-TRUSS-MEMBERS",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8328-TF-NAILPLATED-ROOF-TRUSS-HAS-PART-AU-TF-TRUSS-BOTTOM-CHORD",
+      "from_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "relationship": "has_part",
+      "to_id": "AU-TF-TRUSS-BOTTOM-CHORD",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8329-TF-NAILPLATED-ROOF-TRUSS-HAS-PART-AU-TF-TRUSS-BRACE",
+      "from_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "relationship": "has_part",
+      "to_id": "AU-TF-TRUSS-BRACE",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-BRACING",
+        "SRC-RMIT-TRUSS-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8330-TF-NAILPLATED-ROOF-TRUSS-HAS-PART-AU-TF-TRUSS-TOP-CHORD",
+      "from_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "relationship": "has_part",
+      "to_id": "AU-TF-TRUSS-TOP-CHORD",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8331-TF-NAILPLATED-ROOF-TRUSS-HAS-PART-AU-TF-TRUSS-WEB",
+      "from_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "relationship": "has_part",
+      "to_id": "AU-TF-TRUSS-WEB",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8332-TF-NAILPLATED-ROOF-TRUSS-HAS-PART-AU-TF-TRUSS-WEB-TIE",
+      "from_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "relationship": "has_part",
+      "to_id": "AU-TF-TRUSS-WEB-TIE",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-BRACING",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8333-TF-NAILPLATED-ROOF-TRUSS-SUPPORTED-BY-AU-TF-TOP-PLATE",
+      "from_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-TOP-PLATE",
+      "source_ids": [
+        "SRC-RMIT-TOP-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8336-TF-NOGGING-PART-OF-AU-TF-WALL-FRAME",
+      "from_id": "AU-TF-NOGGING",
+      "relationship": "part_of",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-RMIT-NOGGING",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8337-TF-NOGGING-RESTRAINS-AU-TF-COMMON-STUD",
+      "from_id": "AU-TF-NOGGING",
+      "relationship": "restrains",
+      "to_id": "AU-TF-COMMON-STUD",
+      "source_ids": [
+        "SRC-RMIT-NOGGING",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8338-TF-RIDGEBOARD-CONNECTS-TO-AU-TF-COMMON-RAFTER",
+      "from_id": "AU-TF-RIDGEBOARD",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-COMMON-RAFTER",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-RIDGEBOARD",
+        "SRC-RMIT-ROOF-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8339-TF-RIDGEBOARD-PART-OF-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-TF-RIDGEBOARD",
+      "relationship": "part_of",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-RMIT-RIDGEBOARD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8341-TF-ROOF-BATTEN-PART-OF-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-TF-ROOF-BATTEN",
+      "relationship": "part_of",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-TRUSS-MEMBERS",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8342-TF-ROOF-BATTEN-PART-OF-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-ROOF-BATTEN",
+      "relationship": "part_of",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-TRUSS-MEMBERS",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8343-TF-ROOF-BATTEN-SUPPORTED-BY-AU-TF-COMMON-RAFTER",
+      "from_id": "AU-TF-ROOF-BATTEN",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-COMMON-RAFTER",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-ROOF-INTRO",
+        "SRC-RMIT-TRUSS-MEMBERS",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8344-TF-ROOF-BATTEN-SUPPORTED-BY-AU-TF-TRUSS-TOP-CHORD",
+      "from_id": "AU-TF-ROOF-BATTEN",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-TRUSS-TOP-CHORD",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8347-TF-ROOF-STRUT-PART-OF-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-TF-ROOF-STRUT",
+      "relationship": "part_of",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-RMIT-ROOF-STRUT"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8348-TF-ROOF-STRUT-SUPPORTED-BY-AU-TF-STRUTTING-BEAM",
+      "from_id": "AU-TF-ROOF-STRUT",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-STRUTTING-BEAM",
+      "source_ids": [
+        "SRC-RMIT-ROOF-STRUT",
+        "SRC-RMIT-STRUTTING-BEAM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8349-TF-ROOF-STRUT-SUPPORTS-AU-TF-UNDERPURLIN",
+      "from_id": "AU-TF-ROOF-STRUT",
+      "relationship": "supports",
+      "to_id": "AU-TF-UNDERPURLIN",
+      "source_ids": [
+        "SRC-RMIT-ROOF-STRUT",
+        "SRC-RMIT-UNDERPURLIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8350-TF-SILL-TRIMMER-PART-OF-AU-TF-WALL-FRAME",
+      "from_id": "AU-TF-SILL-TRIMMER",
+      "relationship": "part_of",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-DICTIONARY-SILL-PLATE",
+        "SRC-RMIT-JACK-STUD",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8351-TF-SILL-TRIMMER-SPANS-BETWEEN-AU-TF-JAMB-STUD",
+      "from_id": "AU-TF-SILL-TRIMMER",
+      "relationship": "spans_between",
+      "to_id": "AU-TF-JAMB-STUD",
+      "source_ids": [
+        "SRC-DICTIONARY-SILL-PLATE",
+        "SRC-RMIT-JACK-STUD",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8352-TF-SILL-TRIMMER-SUPPORTED-BY-AU-TF-JAMB-STUD",
+      "from_id": "AU-TF-SILL-TRIMMER",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-JAMB-STUD",
+      "source_ids": [
+        "SRC-DICTIONARY-JAMB-STUD",
+        "SRC-RMIT-JAMB-STUD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8353-TF-SILL-TRIMMER-SUPPORTS-AU-TF-JACK-STUD",
+      "from_id": "AU-TF-SILL-TRIMMER",
+      "relationship": "supports",
+      "to_id": "AU-TF-JACK-STUD",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-STUD",
+        "SRC-DICTIONARY-SILL-PLATE",
+        "SRC-RMIT-JACK-STUD",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8357-TF-SOLID-BLOCKING-PART-OF-AU-TF-FLOOR-FRAME",
+      "from_id": "AU-TF-SOLID-BLOCKING",
+      "relationship": "part_of",
+      "to_id": "AU-TF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-RMIT-DEEP-JOIST",
+        "SRC-RMIT-FLOOR-JOIST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8358-TF-SOLID-BLOCKING-RESTRAINS-AU-TF-FLOOR-JOIST",
+      "from_id": "AU-TF-SOLID-BLOCKING",
+      "relationship": "restrains",
+      "to_id": "AU-TF-FLOOR-JOIST",
+      "source_ids": [
+        "SRC-RMIT-DEEP-JOIST",
+        "SRC-RMIT-FLOOR-JOIST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8359-TF-STRUTTING-BEAM-PART-OF-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-TF-STRUTTING-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-RMIT-STRUTTING-BEAM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8360-TF-STRUTTING-BEAM-SUPPORTS-AU-TF-ROOF-STRUT",
+      "from_id": "AU-TF-STRUTTING-BEAM",
+      "relationship": "supports",
+      "to_id": "AU-TF-ROOF-STRUT",
+      "source_ids": [
+        "SRC-RMIT-ROOF-STRUT",
+        "SRC-RMIT-STRUTTING-BEAM"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8362-TF-TOP-PLATE-PART-OF-AU-TF-WALL-FRAME",
+      "from_id": "AU-TF-TOP-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-RMIT-TOP-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8363-TF-TOP-PLATE-SUPPORTED-BY-AU-TF-COMMON-STUD",
+      "from_id": "AU-TF-TOP-PLATE",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-COMMON-STUD",
+      "source_ids": [
+        "SRC-RMIT-COMMON-STUD",
+        "SRC-RMIT-TOP-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8364-TF-TOP-PLATE-SUPPORTS-AU-TF-COMMON-RAFTER",
+      "from_id": "AU-TF-TOP-PLATE",
+      "relationship": "supports",
+      "to_id": "AU-TF-COMMON-RAFTER",
+      "source_ids": [
+        "SRC-RMIT-TOP-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8365-TF-TOP-PLATE-SUPPORTS-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-TOP-PLATE",
+      "relationship": "supports",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-TOP-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8367-TF-TRIMMING-JOIST-COMMONLY-USED-WITH-AU-TF-FLOOR-JOIST",
+      "from_id": "AU-TF-TRIMMING-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-TF-FLOOR-JOIST",
+      "source_ids": [
+        "SRC-DICTIONARY-TRIMMING-JOIST",
+        "SRC-RMIT-FLOOR-JOIST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8368-TF-TRIMMING-JOIST-PART-OF-AU-TF-FLOOR-FRAME",
+      "from_id": "AU-TF-TRIMMING-JOIST",
+      "relationship": "part_of",
+      "to_id": "AU-TF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-DICTIONARY-TRIMMING-JOIST",
+        "SRC-RMIT-FLOOR-JOIST"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8369-TF-TRUNCATED-GIRDER-TRUSS-IS-A-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-TRUNCATED-GIRDER-TRUSS",
+      "relationship": "is_a",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-HIP-TRUSSES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8370-TF-TRUNCATED-GIRDER-TRUSS-SUPPORTS-AU-TF-JACK-TRUSS",
+      "from_id": "AU-TF-TRUNCATED-GIRDER-TRUSS",
+      "relationship": "supports",
+      "to_id": "AU-TF-JACK-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-HIP-TRUSSES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8372-TF-TRUSS-BOTTOM-CHORD-CONNECTS-TO-AU-TF-NAILPLATE",
+      "from_id": "AU-TF-TRUSS-BOTTOM-CHORD",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-NAILPLATE",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-CONNECTIONS",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8373-TF-TRUSS-BOTTOM-CHORD-CONNECTS-TO-AU-TF-TRUSS-WEB",
+      "from_id": "AU-TF-TRUSS-BOTTOM-CHORD",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-TRUSS-WEB",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8374-TF-TRUSS-BOTTOM-CHORD-PART-OF-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-TRUSS-BOTTOM-CHORD",
+      "relationship": "part_of",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8376-TF-TRUSS-BRACE-BRACES-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-TRUSS-BRACE",
+      "relationship": "braces",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-BRACING",
+        "SRC-RMIT-TRUSS-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8377-TF-TRUSS-BRACE-PART-OF-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-TRUSS-BRACE",
+      "relationship": "part_of",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-BRACING",
+        "SRC-RMIT-TRUSS-CONNECTIONS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8379-TF-TRUSS-TOP-CHORD-CONNECTS-TO-AU-TF-NAILPLATE",
+      "from_id": "AU-TF-TRUSS-TOP-CHORD",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-NAILPLATE",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-CONNECTIONS",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8380-TF-TRUSS-TOP-CHORD-CONNECTS-TO-AU-TF-TRUSS-WEB",
+      "from_id": "AU-TF-TRUSS-TOP-CHORD",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-TRUSS-WEB",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8381-TF-TRUSS-TOP-CHORD-PART-OF-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-TRUSS-TOP-CHORD",
+      "relationship": "part_of",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8382-TF-TRUSS-TOP-CHORD-SUPPORTS-AU-TF-ROOF-BATTEN",
+      "from_id": "AU-TF-TRUSS-TOP-CHORD",
+      "relationship": "supports",
+      "to_id": "AU-TF-ROOF-BATTEN",
+      "source_ids": [
+        "SRC-RMIT-RAFTER",
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS",
+        "SRC-YOURHOME-LIGHTWEIGHT-FRAMING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8384-TF-TRUSS-WEB-CONNECTS-TO-AU-TF-NAILPLATE",
+      "from_id": "AU-TF-TRUSS-WEB",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-NAILPLATE",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-CONNECTIONS",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8385-TF-TRUSS-WEB-CONNECTS-TO-AU-TF-TRUSS-BOTTOM-CHORD",
+      "from_id": "AU-TF-TRUSS-WEB",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-TRUSS-BOTTOM-CHORD",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8386-TF-TRUSS-WEB-CONNECTS-TO-AU-TF-TRUSS-TOP-CHORD",
+      "from_id": "AU-TF-TRUSS-WEB",
+      "relationship": "connects_to",
+      "to_id": "AU-TF-TRUSS-TOP-CHORD",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8387-TF-TRUSS-WEB-PART-OF-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-TRUSS-WEB",
+      "relationship": "part_of",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-GENERAL",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8388-TF-TRUSS-WEB-TIE-PART-OF-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-TF-TRUSS-WEB-TIE",
+      "relationship": "part_of",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-BRACING",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8389-TF-TRUSS-WEB-TIE-RESTRAINS-AU-TF-TRUSS-WEB",
+      "from_id": "AU-TF-TRUSS-WEB-TIE",
+      "relationship": "restrains",
+      "to_id": "AU-TF-TRUSS-WEB",
+      "source_ids": [
+        "SRC-RMIT-TRUSS-BRACING",
+        "SRC-RMIT-TRUSS-MEMBERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8390-TF-UNDERPURLIN-PART-OF-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-TF-UNDERPURLIN",
+      "relationship": "part_of",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-RMIT-UNDERPURLIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8391-TF-UNDERPURLIN-SUPPORTED-BY-AU-TF-ROOF-STRUT",
+      "from_id": "AU-TF-UNDERPURLIN",
+      "relationship": "supported_by",
+      "to_id": "AU-TF-ROOF-STRUT",
+      "source_ids": [
+        "SRC-RMIT-ROOF-STRUT",
+        "SRC-RMIT-UNDERPURLIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8392-TF-UNDERPURLIN-SUPPORTS-AU-TF-COMMON-RAFTER",
+      "from_id": "AU-TF-UNDERPURLIN",
+      "relationship": "supports",
+      "to_id": "AU-TF-COMMON-RAFTER",
+      "source_ids": [
+        "SRC-RMIT-UNDERPURLIN"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8394-TF-WALL-BRACE-BRACES-AU-TF-WALL-FRAME",
+      "from_id": "AU-TF-WALL-BRACE",
+      "relationship": "braces",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL",
+        "SRC-RMIT-WALL-BRACING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8395-TF-WALL-BRACE-PART-OF-AU-TF-WALL-FRAME",
+      "from_id": "AU-TF-WALL-BRACE",
+      "relationship": "part_of",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL",
+        "SRC-RMIT-WALL-BRACING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8401-TF-WALL-FRAME-HAS-PART-AU-TF-BOTTOM-PLATE",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-BOTTOM-PLATE",
+      "source_ids": [
+        "SRC-RMIT-BOTTOM-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8402-TF-WALL-FRAME-HAS-PART-AU-TF-COMMON-STUD",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-COMMON-STUD",
+      "source_ids": [
+        "SRC-RMIT-COMMON-STUD",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8403-TF-WALL-FRAME-HAS-PART-AU-TF-HEAD-TRIMMER",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-HEAD-TRIMMER",
+      "source_ids": [
+        "SRC-DICTIONARY-TRIMMER",
+        "SRC-RMIT-JACK-STUD"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8404-TF-WALL-FRAME-HAS-PART-AU-TF-JACK-STUD",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-JACK-STUD",
+      "source_ids": [
+        "SRC-DICTIONARY-JACK-STUD",
+        "SRC-RMIT-JACK-STUD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8405-TF-WALL-FRAME-HAS-PART-AU-TF-JAMB-STUD",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-JAMB-STUD",
+      "source_ids": [
+        "SRC-DICTIONARY-JAMB-STUD",
+        "SRC-RMIT-JAMB-STUD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8406-TF-WALL-FRAME-HAS-PART-AU-TF-LINTEL",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-LINTEL",
+      "source_ids": [
+        "SRC-RMIT-LINTEL",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8407-TF-WALL-FRAME-HAS-PART-AU-TF-NOGGING",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-NOGGING",
+      "source_ids": [
+        "SRC-RMIT-NOGGING",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8408-TF-WALL-FRAME-HAS-PART-AU-TF-SILL-TRIMMER",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-SILL-TRIMMER",
+      "source_ids": [
+        "SRC-DICTIONARY-SILL-PLATE",
+        "SRC-RMIT-JACK-STUD",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8409-TF-WALL-FRAME-HAS-PART-AU-TF-TOP-PLATE",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-TOP-PLATE",
+      "source_ids": [
+        "SRC-RMIT-TOP-PLATE",
+        "SRC-RMIT-WALL-INTRO"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8410-TF-WALL-FRAME-HAS-PART-AU-TF-WALL-BRACE",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-TF-WALL-BRACE",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL",
+        "SRC-RMIT-WALL-BRACING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-8231-TF-BEARER-ADJACENT-TO-AU-TM-TERMITE-SHIELD",
+      "from_id": "AU-TF-BEARER",
+      "relationship": "adjacent_to",
+      "to_id": "AU-TM-TERMITE-SHIELD",
+      "source_ids": [
+        "SRC-CSIRO-MANAGING-TERMITES",
+        "SRC-RMIT-FLOOR-JOIST",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8232-TF-BEARER-ALTERNATIVE-TO-AU-SF-FLOOR-BEARER",
+      "from_id": "AU-TF-BEARER",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-FLOOR-BEARER",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8233-TF-BEARER-COMMONLY-USED-WITH-AU-DB-DECK-BEARER-LINE",
+      "from_id": "AU-TF-BEARER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-BEARER-LINE",
+      "source_ids": [
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8234-TF-BEARER-COMMONLY-USED-WITH-AU-DB-DECK-SUPPORT-FRAME",
+      "from_id": "AU-TF-BEARER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-SUPPORT-FRAME",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8235-TF-BEARER-COMMONLY-USED-WITH-AU-DB-TIMBER-FRAMED-DECK-ASSEMBLY",
+      "from_id": "AU-TF-BEARER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-TIMBER-FRAMED-DECK-ASSEMBLY",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK",
+        "SRC-WOODSOLUTIONS-TDG05-SERVICE-LIFE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8237-TF-BEARER-SUPPORTED-BY-AU-CF-STUMP",
+      "from_id": "AU-TF-BEARER",
+      "relationship": "supported_by",
+      "to_id": "AU-CF-STUMP",
+      "source_ids": [
+        "SRC-ABCB-HP-FOOTINGS",
+        "SRC-RMIT-FLOOR-GENERAL",
+        "SRC-RMIT-STUMP-PAD"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8238-TF-BEARER-SUPPORTED-BY-AU-MA-ISOLATED-MASONRY-PIER",
+      "from_id": "AU-TF-BEARER",
+      "relationship": "supported_by",
+      "to_id": "AU-MA-ISOLATED-MASONRY-PIER",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8239-TF-BEARER-SUPPORTED-BY-AU-MA-SUBFLOOR-MASONRY-PIER",
+      "from_id": "AU-TF-BEARER",
+      "relationship": "supported_by",
+      "to_id": "AU-MA-SUBFLOOR-MASONRY-PIER",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-PIERS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8241-TF-BOTTOM-PLATE-ALTERNATIVE-TO-AU-SF-BOTTOM-TRACK",
+      "from_id": "AU-TF-BOTTOM-PLATE",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-BOTTOM-TRACK",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8245-TF-CEILING-JOIST-COMMONLY-USED-WITH-AU-HA-PLASTERBOARD-CEILING-SHEET",
+      "from_id": "AU-TF-CEILING-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-PLASTERBOARD-CEILING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8246-TF-CEILING-JOIST-COMMONLY-USED-WITH-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-TF-CEILING-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8252-TF-COMMON-RAFTER-ALTERNATIVE-TO-AU-SF-ROOF-RAFTER",
+      "from_id": "AU-TF-COMMON-RAFTER",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-ROOF-RAFTER",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8264-TF-CONVENTIONAL-ROOF-FRAME-ALTERNATIVE-TO-AU-SF-ROOF-FRAME",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-ROOF-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8276-TF-CONVENTIONAL-ROOF-FRAME-SUPPORTED-BY-AU-SS-STRUTTING-BEAM",
+      "from_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "relationship": "supported_by",
+      "to_id": "AU-SS-STRUTTING-BEAM",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8278-TF-FLOOR-FRAME-ALTERNATIVE-TO-AU-SF-FLOOR-FRAME",
+      "from_id": "AU-TF-FLOOR-FRAME",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8283-TF-FLOOR-FRAME-SUPPORTED-BY-AU-SS-BEARER",
+      "from_id": "AU-TF-FLOOR-FRAME",
+      "relationship": "supported_by",
+      "to_id": "AU-SS-BEARER",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8284-TF-FLOOR-JOIST-ALTERNATIVE-TO-AU-SF-FLOOR-JOIST",
+      "from_id": "AU-TF-FLOOR-JOIST",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-FLOOR-JOIST",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8285-TF-FLOOR-JOIST-COMMONLY-USED-WITH-AU-DB-DECK-JOIST-FIELD",
+      "from_id": "AU-TF-FLOOR-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-JOIST-FIELD",
+      "source_ids": [
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-TGA-MSFFL3120-TIMBER-FLOORING-JOISTS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8286-TF-FLOOR-JOIST-COMMONLY-USED-WITH-AU-DB-DECK-SUPPORT-FRAME",
+      "from_id": "AU-TF-FLOOR-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-SUPPORT-FRAME",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8287-TF-FLOOR-JOIST-COMMONLY-USED-WITH-AU-DB-TIMBER-FRAMED-DECK-ASSEMBLY",
+      "from_id": "AU-TF-FLOOR-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-TIMBER-FRAMED-DECK-ASSEMBLY",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK",
+        "SRC-WOODSOLUTIONS-TDG05-SERVICE-LIFE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8288-TF-FLOOR-JOIST-COMMONLY-USED-WITH-AU-FF-SOLID-STRIP-TIMBER-FLOOR-ASSEMBLY",
+      "from_id": "AU-TF-FLOOR-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-SOLID-STRIP-TIMBER-FLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-ATFA-SOLID-TIMBER-FLOORING",
+        "SRC-SA-AS2796-1-1999",
+        "SRC-SA-AS4785-1-2002"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8292-TF-FLOOR-JOIST-SUPPORTS-AU-FF-STRUCTURAL-SHEET-SUBFLOOR-ASSEMBLY",
+      "from_id": "AU-TF-FLOOR-JOIST",
+      "relationship": "supports",
+      "to_id": "AU-FF-STRUCTURAL-SHEET-SUBFLOOR-ASSEMBLY",
+      "source_ids": [
+        "SRC-PORTA-STRUCTAFLOR-MANUAL",
+        "SRC-SA-AS1860-2-2006",
+        "SRC-SA-ASNZS1860-1-2017"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8304-TF-JACK-STUD-ALTERNATIVE-TO-AU-SF-JACK-STUD",
+      "from_id": "AU-TF-JACK-STUD",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-JACK-STUD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8311-TF-JAMB-STUD-ALTERNATIVE-TO-AU-SF-JAMB-STUD",
+      "from_id": "AU-TF-JAMB-STUD",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-JAMB-STUD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8316-TF-LINTEL-ALTERNATIVE-TO-AU-SF-WALL-LINTEL",
+      "from_id": "AU-TF-LINTEL",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-WALL-LINTEL",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8325-TF-NAILPLATED-ROOF-TRUSS-ALTERNATIVE-TO-AU-SF-ROOF-TRUSS",
+      "from_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8334-TF-NOGGING-ALTERNATIVE-TO-AU-SF-NOGGING",
+      "from_id": "AU-TF-NOGGING",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-NOGGING",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8335-TF-NOGGING-COMMONLY-USED-WITH-AU-FF-SHEET-SUBFLOOR-SQUARE-EDGE-JOINT",
+      "from_id": "AU-TF-NOGGING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-FF-SHEET-SUBFLOOR-SQUARE-EDGE-JOINT",
+      "source_ids": [
+        "SRC-ATFA-SOLID-TIMBER-FLOORING",
+        "SRC-PORTA-STRUCTAFLOR-MANUAL",
+        "SRC-SA-AS1860-2-2006"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8340-TF-ROOF-BATTEN-ALTERNATIVE-TO-AU-SF-ROOF-BATTEN",
+      "from_id": "AU-TF-ROOF-BATTEN",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-ROOF-BATTEN",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8345-TF-ROOF-BATTEN-SUPPORTS-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-TF-ROOF-BATTEN",
+      "relationship": "supports",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8346-TF-ROOF-BATTEN-SUPPORTS-AU-RO-TILED-ROOF",
+      "from_id": "AU-TF-ROOF-BATTEN",
+      "relationship": "supports",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-RMIT-ROOF-TILE-FIXING",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8354-TF-SOLID-BLOCKING-ALTERNATIVE-TO-AU-SF-FLOOR-BLOCKING",
+      "from_id": "AU-TF-SOLID-BLOCKING",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-FLOOR-BLOCKING",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8355-TF-SOLID-BLOCKING-COMMONLY-USED-WITH-AU-DB-JOIST-BLOCKING-ROW",
+      "from_id": "AU-TF-SOLID-BLOCKING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-JOIST-BLOCKING-ROW",
+      "source_ids": [
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8356-TF-SOLID-BLOCKING-COMMONLY-USED-WITH-AU-DB-TIMBER-FRAMED-DECK-ASSEMBLY",
+      "from_id": "AU-TF-SOLID-BLOCKING",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-TIMBER-FRAMED-DECK-ASSEMBLY",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK",
+        "SRC-WOODSOLUTIONS-TDG05-SERVICE-LIFE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8361-TF-TOP-PLATE-ALTERNATIVE-TO-AU-SF-TOP-TRACK",
+      "from_id": "AU-TF-TOP-PLATE",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-TOP-TRACK",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8366-TF-TRIMMING-JOIST-COMMONLY-USED-WITH-AU-DB-DECK-OPENING-TRIMMER-ASSEMBLY",
+      "from_id": "AU-TF-TRIMMING-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-OPENING-TRIMMER-ASSEMBLY",
+      "source_ids": [
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8371-TF-TRUSS-BOTTOM-CHORD-ALTERNATIVE-TO-AU-SF-TRUSS-BOTTOM-CHORD",
+      "from_id": "AU-TF-TRUSS-BOTTOM-CHORD",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-TRUSS-BOTTOM-CHORD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8375-TF-TRUSS-BRACE-ALTERNATIVE-TO-AU-SF-TRUSS-BRACE",
+      "from_id": "AU-TF-TRUSS-BRACE",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-TRUSS-BRACE",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8378-TF-TRUSS-TOP-CHORD-ALTERNATIVE-TO-AU-SF-TRUSS-TOP-CHORD",
+      "from_id": "AU-TF-TRUSS-TOP-CHORD",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-TRUSS-TOP-CHORD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8383-TF-TRUSS-WEB-ALTERNATIVE-TO-AU-SF-TRUSS-WEB",
+      "from_id": "AU-TF-TRUSS-WEB",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-TRUSS-WEB",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8393-TF-WALL-BRACE-ALTERNATIVE-TO-AU-SF-BRACING-STRAP",
+      "from_id": "AU-TF-WALL-BRACE",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-BRACING-STRAP",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8396-TF-WALL-FRAME-ADJACENT-TO-AU-MA-MASONRY-VENEER-WALL",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-MASONRY-VENEER-WALL",
+      "source_ids": [
+        "SRC-ABCB-HP-MASONRY-VENEER",
+        "SRC-RMIT-MASONRY-VENEER",
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8397-TF-WALL-FRAME-ADJACENT-TO-AU-MA-REVERSE-MASONRY-VENEER-WALL",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "adjacent_to",
+      "to_id": "AU-MA-REVERSE-MASONRY-VENEER-WALL",
+      "source_ids": [
+        "SRC-YOURHOME-BRICKWORK-BLOCKWORK"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-8398-TF-WALL-FRAME-ALTERNATIVE-TO-AU-SF-WALL-FRAME",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "alternative_to",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8399-TF-WALL-FRAME-COMMONLY-USED-WITH-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ABCB-V2-H2-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8400-TF-WALL-FRAME-COMMONLY-USED-WITH-AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-8411-TF-WALL-FRAME-SUPPORTED-BY-AU-SS-LINTEL",
+      "from_id": "AU-TF-WALL-FRAME",
+      "relationship": "supported_by",
+      "to_id": "AU-SS-LINTEL",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

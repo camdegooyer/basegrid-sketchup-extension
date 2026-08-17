@@ -1,0 +1,215 @@
+# Floor Finishes discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 146
+- Internal relationships: 475
+- Outgoing cross-discipline relationships: 20
+- Distinct supporting sources: 27
+- Distinct linked standards: 14
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 78.8%
+- Objects with two or more sources: 100.0%
+
+## Categories
+
+- carpet finish components: 11
+- carpet floor assemblies: 3
+- carpet installation components: 8
+- carpet underlay components: 4
+- cork floor components: 3
+- dry area tile components: 3
+- dry area tile installation components: 6
+- engineered floor assemblies: 4
+- engineered floor components: 5
+- floating floor components: 7
+- floor finish assemblies: 3
+- floor perimeter components: 4
+- floor preparation components: 14
+- floor transition components: 8
+- hybrid floor components: 6
+- laminate floor components: 5
+- resilient coving components: 6
+- resilient floor assemblies: 3
+- resilient floor components: 8
+- resilient installation components: 7
+- structural subfloor components: 8
+- tile floor assemblies: 1
+- timber finish components: 3
+- timber floor assemblies: 4
+- timber floor components: 10
+- trim transition assemblies: 2
+
+## Objects
+
+- **T-moulding floor transition profile** (`AU-FF-T-MOULDING-TRANSITION-PROFILE`) — A T-shaped linear cover profile spanning a narrow joint between floor finishes of similar height while allowing documented edge or movement clearance below its cap.
+- **adhesive-free resilient flooring retention tape** (`AU-FF-ADHESIVE-FREE-RESILIENT-RETENTION-TAPE`) — A manufacturer-selected double-sided or hook-and-loop style strip used at defined locations to retain an adhesive-free resilient sheet or modular floor system.
+- **bonded cork floor tile** (`AU-FF-CORK-FLOOR-TILE`) — A modular interior floor tile made principally from dense agglomerated natural cork, supplied raw or with a decorative surface and factory finish, and bonded to a prepared substrate.
+- **bonded cork tile floor assembly** (`AU-FF-CORK-TILE-FLOOR-ASSEMBLY`) — A floor of natural cork tiles bonded to a clean, flat and moisture-suitable substrate and commonly sanded or coated as a finished surface.
+- **broadloom carpet** (`AU-FF-BROADLOOM-CARPET`) — A textile floor covering manufactured in broad rolls and cut into room-sized pieces for stretch-in or bonded installation with planned seams.
+- **broadloom carpet seam** (`AU-FF-BROADLOOM-CARPET-SEAM`) — The joined meeting line between adjacent broadloom carpet pieces, aligned to pile and pattern and reinforced or bonded by the selected seam system.
+- **carpet gripper pin** (`AU-FF-CARPET-GRIPPER-PIN`) — A short angled steel pin projecting from a carpet gripper strip to engage and retain the backing of stretched carpet.
+- **carpet gripper strip** (`AU-FF-CARPET-GRIPPER-STRIP`) — A narrow timber or composite strip carrying angled pins and fixed around room edges to retain the stretched backing of broadloom carpet.
+- **carpet naplock transition strip** (`AU-FF-CARPET-NAPLOCK-STRIP`) — A metal transition profile with a clamping or toothed edge used to secure a carpet edge at a junction with another finish.
+- **carpet pile layer** (`AU-FF-CARPET-PILE-LAYER`) — The exposed field of yarn loops, cut tufts or woven yarn rising above the carpet backing and forming the walked-on textile surface.
+- **carpet plank** (`AU-FF-CARPET-PLANK`) — A long rectangular modular textile floor covering with a stable backing, installed in repeated straight, ashlar, herringbone or other plank layouts.
+- **carpet primary backing** (`AU-FF-CARPET-PRIMARY-BACKING`) — The base fabric through which carpet yarn is tufted or otherwise anchored before any secondary backing is applied.
+- **carpet seam edge sealer** (`AU-FF-CARPET-SEAM-EDGE-SEALER`) — A compatible liquid adhesive applied to cut carpet edges at a seam to bind yarn and backing components against fraying or delamination.
+- **carpet seam hot-melt adhesive** (`AU-FF-CARPET-SEAM-HOT-MELT-ADHESIVE`) — A thermoplastic adhesive carried on seam tape and melted during installation to bond the underside of adjoining broadloom carpet edges.
+- **carpet seam tape** (`AU-FF-CARPET-SEAM-TAPE`) — A reinforced strip placed beneath adjoining broadloom carpet edges to support and bond a heat-seamed or otherwise documented carpet joint.
+- **carpet secondary backing** (`AU-FF-CARPET-SECONDARY-BACKING`) — The stabilising backing layer bonded beneath the primary carpet backing to add dimensional stability, strength and an installation-compatible underside.
+- **carpet soft underlay** (`AU-FF-CARPET-SOFT-UNDERLAY`) — A resilient fibrous, foam, rubber or combination layer installed between a prepared subfloor and stretch-in textile floor covering.
+- **carpet tile** (`AU-FF-CARPET-TILE`) — A factory-made square or rectangular modular textile floor covering with a dimensionally stable backing, installed unit by unit on a floor grid.
+- **carpet tile cushion backing** (`AU-FF-CARPET-TILE-CUSHION-BACKING`) — A resilient factory-applied backing beneath a carpet tile or plank that adds cushioning and thickness within the individual module.
+- **carpet tile floor assembly** (`AU-FF-CARPET-TILE-FLOOR-ASSEMBLY`) — A modular textile finish of individual carpet tiles or planks retained to a prepared subfloor with compatible pressure-sensitive adhesive or another documented system.
+- **cementitious floor levelling and smoothing compound** (`AU-FF-CEMENTITIOUS-FLOOR-LEVELLING-COMPOUND`) — A poured or trowelled cement-and-polymer layer used to smooth or locally level a prepared internal floor before carpet, resilient, timber or tile finishes.
+- **chemically welded resilient flooring seam** (`AU-FF-RESILIENT-CHEMICAL-WELD-SEAM`) — A seam in compatible resilient flooring whose prepared edges are joined with a manufacturer-approved solvent or chemical seam compound rather than a heat-weld rod.
+- **concrete floor patch and repair compound** (`AU-FF-CONCRETE-FLOOR-PATCH-COMPOUND`) — A local repair mortar or smoothing material placed into holes, cracks, spalls or depressions in a concrete floor before the broader preparation and finish layers.
+- **cork floor protective coating** (`AU-FF-CORK-FLOOR-PROTECTIVE-COATING`) — A factory-applied or site-applied clear protective finish over cork flooring, with the actual coating chemistry and sequence selected for the product.
+- **cork floor-tile adhesive bed** (`AU-FF-CORK-TILE-ADHESIVE-BED`) — A product-compatible adhesive layer bonding cork floor tiles to a primed and prepared substrate.
+- **coved resilient sheet upturn** (`AU-FF-COVED-RESILIENT-SHEET-UPTURN`) — The continuation of resilient floor sheet from the horizontal floor around a formed cove and up the wall as an integral skirting zone.
+- **cut-pile carpet surface** (`AU-FF-CUT-PILE-CARPET-SURFACE`) — A carpet face in which the yarn loops are cut so individual yarn ends form the exposed pile surface.
+- **direct-stick carpet adhesive bed** (`AU-FF-DIRECT-STICK-CARPET-ADHESIVE-BED`) — A compatible trowelled or otherwise applied adhesive layer bonding broadloom or sheet textile flooring directly to a prepared subfloor.
+- **direct-stick carpet floor assembly** (`AU-FF-DIRECT-STICK-CARPET-ASSEMBLY`) — A textile floor covering bonded directly to a prepared subfloor without a separate stretch-in underlay and perimeter gripper system.
+- **direct-stick engineered timber floor assembly** (`AU-FF-ENGINEERED-TIMBER-DIRECT-STICK-ASSEMBLY`) — A multilayer engineered-timber board finish bonded directly to a prepared structural subfloor with a compatible flooring adhesive.
+- **dry-area bonded floor screed** (`AU-FF-DRY-AREA-BONDED-FLOOR-SCREED`) — A bonded cementitious topping placed over a prepared internal substrate to build thickness, correct falls or form a receiving bed outside the dedicated wet-area screed role.
+- **dry-area ceramic floor tile** (`AU-FF-DRY-AREA-CERAMIC-FLOOR-TILE`) — A fired ceramic modular unit selected as the exposed floor finish in an internal area that is not being modelled as a wet-area waterproofing assembly.
+- **dry-area flexible tile sealant joint** (`AU-FF-DRY-AREA-FLEXIBLE-TILE-SEALANT-JOINT`) — A movement-capable sealant joint interrupting grout and tile fields at a documented perimeter, change of plane, substrate joint or intermediate movement location.
+- **dry-area floor tile adhesive bed** (`AU-FF-DRY-AREA-FLOOR-TILE-ADHESIVE`) — A compatible cementitious, dispersion or reaction-resin adhesive layer bonding dry-area ceramic or stone floor tiles to the prepared substrate.
+- **dry-area floor tile grout** (`AU-FF-DRY-AREA-FLOOR-TILE-GROUT`) — A cementitious or reaction-resin material packed into ordinary joints between dry-area floor tiles after fixing.
+- **dry-area natural stone floor tile** (`AU-FF-DRY-AREA-NATURAL-STONE-FLOOR-TILE`) — A cut and finished natural stone slab or tile used as a modular internal floor finish in a dry-area assembly.
+- **dry-area porcelain floor tile** (`AU-FF-DRY-AREA-PORCELAIN-FLOOR-TILE`) — A dense ceramic floor tile classified as porcelain by the selected product standard and used here in a dry internal floor assembly.
+- **dry-area tile edge trim** (`AU-FF-DRY-AREA-TILE-EDGE-TRIM`) — A rigid linear profile installed beneath or beside the perimeter tile to protect and finish an exposed tile edge.
+- **dry-area tile movement-joint profile** (`AU-FF-DRY-AREA-TILE-MOVEMENT-JOINT-PROFILE`) — A proprietary linear profile with rigid edge legs and a movement-capable central zone installed within a tiled floor field.
+- **dry-area tiled floor assembly** (`AU-FF-DRY-AREA-TILED-FLOOR-ASSEMBLY`) — An internal non-wet-area finish of ceramic, porcelain or stone units bonded to a suitable prepared substrate with grout and movement joints.
+- **engineered timber backing veneer** (`AU-FF-ENGINEERED-TIMBER-BACKING-VENEER`) — The lower balancing wood veneer bonded to the underside of an engineered timber floorboard below its core.
+- **engineered timber floorboard** (`AU-FF-ENGINEERED-TIMBER-FLOORBOARD`) — A factory-made multilayer flooring board with a real timber wear layer bonded to a stabilising wood-based core and backing.
+- **engineered timber plywood core** (`AU-FF-ENGINEERED-TIMBER-PLYWOOD-CORE`) — The cross-laminated plywood body beneath the timber wear layer of an engineered floorboard, providing thickness, stiffness and dimensional stability.
+- **engineered timber wear layer** (`AU-FF-ENGINEERED-TIMBER-WEAR-LAYER`) — The upper real-timber lamella of an engineered floorboard that provides species, grain, colour and the usable sanding or wear thickness.
+- **factory-attached plank underlay** (`AU-FF-FACTORY-ATTACHED-PLANK-UNDERLAY`) — A thin foam, cork or resilient backing factory bonded to the underside of an individual floating-floor plank rather than laid as a separate continuous roll.
+- **fibre-cement floor underlay sheet** (`AU-FF-FIBRE-CEMENT-FLOOR-UNDERLAY-SHEET`) — A thin fibre-cement sheet fixed over a stable structural floor to provide a rigid mineral receiving face for compatible tile or resilient finishes.
+- **fibrous carpet underlay** (`AU-FF-FIBROUS-CARPET-UNDERLAY`) — A soft carpet underlay made primarily from bonded textile, wool, synthetic or recycled fibre rather than cellular foam or crumb rubber.
+- **flexible PVC sheet flooring** (`AU-FF-FLEXIBLE-PVC-SHEET-FLOORING`) — A flexible factory-made polyvinyl chloride floor covering supplied in rolls and bonded to a prepared substrate as a continuous field with planned seams.
+- **flexible floor perimeter acoustic seal** (`AU-FF-FLEXIBLE-PERIMETER-ACOUSTIC-SEAL`) — A compressible or elastomeric perimeter seal used at selected floating or acoustic floor edges to limit rigid sound bridges while allowing documented movement.
+- **flexible timber-floor levelling compound** (`AU-FF-FLEXIBLE-TIMBER-FLOOR-LEVELLER`) — A polymer-modified smoothing or levelling layer selected for a prepared timber or engineered-wood subfloor where limited substrate movement must be accommodated.
+- **floating engineered timber floor assembly** (`AU-FF-ENGINEERED-TIMBER-FLOATING-FLOOR-ASSEMBLY`) — A continuous raft of joined engineered-timber boards laid over underlay without being mechanically or adhesively fixed to the structural subfloor.
+- **floating-floor click joint** (`AU-FF-FLOATING-FLOOR-CLICK-JOINT`) — A factory-machined mechanical edge profile that locks adjacent floating-floor planks together without fixing them to the structural subfloor.
+- **floating-floor glued tongue-and-groove joint** (`AU-FF-FLOATING-FLOOR-GLUED-TONGUE-GROOVE-JOINT`) — A traditional tongue-and-groove plank connection bonded along the mating profile so adjacent boards form a floating raft without being fixed to the subfloor.
+- **floating-floor intermediate control joint** (`AU-FF-FLOATING-FLOOR-INTERMEDIATE-CONTROL-JOINT`) — A planned break between separate floating-floor rafts, commonly covered by a transition profile at doorways, corridors or where product area limits require division.
+- **floating-floor perimeter expansion gap** (`AU-FF-FLOATING-FLOOR-PERIMETER-EXPANSION-GAP`) — The continuous clear space retained between a floating floor raft and walls, frames, columns, fixed cabinetry or other immovable construction.
+- **floor cover strip** (`AU-FF-FLOOR-COVER-STRIP`) — A flat or slightly crowned linear strip fixed over a narrow junction to cover and protect adjacent floor-finish edges.
+- **floor crack-isolation or uncoupling mat** (`AU-FF-FLOOR-CRACK-ISOLATION-MAT`) — A bonded or loose system layer designed to reduce transfer of limited substrate cracking or differential movement into a brittle floor finish.
+- **floor end-cap profile** (`AU-FF-FLOOR-END-CAP-PROFILE`) — A linear finishing profile that receives and protects the exposed end or side of a floor finish where no adjoining finish covers the edge.
+- **floor expansion-joint cover system** (`AU-FF-FLOOR-EXPANSION-JOINT-COVER`) — A trafficable proprietary cover assembly spanning a building or substrate expansion joint while allowing the documented joint movement below.
+- **floor finish transition assembly** (`AU-FF-FLOOR-TRANSITION-ASSEMBLY`) — The profiled strip, threshold, reducer, cover or edge-retention parts that join or terminate different floor finishes while accommodating their thickness and movement.
+- **floor perimeter finish assembly** (`AU-FF-FLOOR-PERIMETER-FINISH-ASSEMBLY`) — The skirting, scotia, coved finish, acoustic separation or exposed seal that closes and protects the junction between a floor finish and adjacent vertical construction.
+- **floor reducer profile** (`AU-FF-FLOOR-REDUCER-PROFILE`) — A sloping linear trim that transitions from a higher floor finish down to a lower adjoining finish or exposed substrate.
+- **floor substrate control or movement joint** (`AU-FF-SUBSTRATE-CONTROL-JOINT`) — A deliberately retained separation in a slab, screed or sheet-floor build-up that permits planned movement and must be coordinated through or beneath the selected finish system.
+- **floor substrate preparation assembly** (`AU-FF-FLOOR-SUBSTRATE-PREPARATION-ASSEMBLY`) — The cleaned, repaired, primed, moisture-managed and locally levelled build-up that makes a structural floor suitable to receive a selected finish.
+- **floor substrate primer** (`AU-FF-FLOOR-SUBSTRATE-PRIMER`) — A thin compatible coating applied to a prepared floor substrate to control absorption or improve bonding of a later leveller, screed, adhesive or membrane.
+- **floor underlay-sheet fastener** (`AU-FF-FLOOR-UNDERLAY-SHEET-FASTENER`) — A closely spaced nail, staple or screw selected to hold a thin floor underlayment sheet flat against the structural floor without damaging the later finish.
+- **floor underlayment sheet assembly** (`AU-FF-FLOOR-UNDERLAYMENT-SHEET-ASSEMBLY`) — A thin non-structural sheet layer fixed over a structural floor to provide a smoother, more compatible or more stable receiving face for a selected finish.
+- **foam carpet underlay** (`AU-FF-FOAM-CARPET-UNDERLAY`) — A cellular polymer underlay installed beneath stretch-in carpet to provide cushioning and repeated compression recovery.
+- **foam floating-floor underlay** (`AU-FF-FOAM-FLOATING-FLOOR-UNDERLAY`) — A thin compressible foam roll laid between a prepared subfloor and a floating board raft to cushion minor contact, separate surfaces and provide documented acoustic or vapour roles.
+- **hard-floor-to-carpet transition profile** (`AU-FF-HARD-FLOOR-TO-CARPET-TRANSITION`) — A junction profile shaped to retain or cover a carpet edge on one side and meet a hard floor finish on the other.
+- **hardboard floor underlay sheet** (`AU-FF-HARDBOARD-FLOOR-UNDERLAY-SHEET`) — A thin dense wood-fibre sheet fixed over a dry structural subfloor to provide a smooth receiving face for a compatible floor covering.
+- **heat-welded resilient flooring seam** (`AU-FF-HEAT-WELDED-RESILIENT-SEAM`) — A resilient sheet seam made by grooving prepared sheet edges and fusing a compatible welding rod into the groove with controlled heat.
+- **hybrid plank decorative film** (`AU-FF-HYBRID-DECORATIVE-FILM`) — A printed polymer film beneath the transparent wear layer of a hybrid plank that supplies its timber, stone or abstract visual pattern.
+- **hybrid plank transparent wear layer** (`AU-FF-HYBRID-TRANSPARENT-WEAR-LAYER`) — The transparent polymer upper layer of a hybrid plank that protects the decorative film and provides the exposed wear surface.
+- **hybrid rigid-core floor plank** (`AU-FF-HYBRID-RIGID-CORE-PLANK`) — A factory-made click-together plank with a rigid polymer-composite core, decorative surface, transparent wear layer and optional factory-attached underlay.
+- **hybrid rigid-plank floating floor assembly** (`AU-FF-HYBRID-RIGID-PLANK-FLOATING-ASSEMBLY`) — A floating floor of interlocked rigid composite planks, commonly with a polymer-mineral or wood-polymer core, decorative film, wear layer and optional attached underlay.
+- **internal doorway floor threshold profile** (`AU-FF-DOORWAY-THRESHOLD-PROFILE`) — A linear floor-finish junction profile located across an internal doorway and coordinated with the door leaf, jambs, adjoining finishes and any access requirement.
+- **internal floor finish system** (`AU-FF-INTERNAL-FLOOR-FINISH-SYSTEM`) — The coordinated substrate, preparation layers, underlays, fixed or floating finish, joints, perimeter details and transitions forming a completed internal walking surface.
+- **laminate balancing layer** (`AU-FF-LAMINATE-BALANCING-LAYER`) — The resin-impregnated underside layer of a laminate plank that balances stresses and protects the lower face of the fibreboard core.
+- **laminate decorative print layer** (`AU-FF-LAMINATE-DECORATIVE-LAYER`) — The printed paper or film beneath a laminate wear overlay that supplies the visible timber, stone or abstract pattern.
+- **laminate floating floor assembly** (`AU-FF-LAMINATE-FLOATING-FLOOR-ASSEMBLY`) — A floating raft of interlocked laminate planks with a decorative wear surface over a fibreboard core, laid on compatible underlay and movement zones.
+- **laminate floor plank** (`AU-FF-LAMINATE-FLOOR-PLANK`) — A factory-made composite plank with a hard transparent overlay and printed decorative layer over a high-density fibreboard core and balancing underside.
+- **laminate high-density fibreboard core** (`AU-FF-LAMINATE-HDF-CORE`) — The dense wood-fibre board body of a laminate plank, machined to form its locking edges and carrying most of the plank thickness and stiffness.
+- **laminate wear overlay** (`AU-FF-LAMINATE-WEAR-OVERLAY`) — The transparent resin-rich upper layer of a laminate plank that protects the printed decorative paper from abrasion, staining and routine wear.
+- **linoleum sheet flooring** (`AU-FF-LINOLEUM-SHEET-FLOORING`) — A resilient roll flooring made principally from oxidised linseed oil, resins, fillers and pigments carried on a fibrous backing.
+- **liquid-applied slab moisture barrier** (`AU-FF-LIQUID-APPLIED-SLAB-MOISTURE-BARRIER`) — A compatible resinous coating applied to a prepared concrete floor to control moisture vapour reaching moisture-sensitive floor preparation and finish layers.
+- **loop-pile carpet surface** (`AU-FF-LOOP-PILE-CARPET-SURFACE`) — A carpet face in which yarn remains as closed loops anchored into or woven with the backing rather than being cut into exposed ends.
+- **luxury vinyl plank** (`AU-FF-LUXURY-VINYL-PLANK`) — A flexible layered PVC floor covering cut into plank-shaped modules and bonded to a prepared substrate.
+- **luxury vinyl tile** (`AU-FF-LUXURY-VINYL-TILE`) — A flexible modular PVC floor tile, commonly layered and printed, that is bonded individually to a prepared substrate.
+- **mosaic parquet panel** (`AU-FF-MOSAIC-PARQUET-PANEL`) — A factory-arranged panel of small timber fingers or blocks temporarily held in a repeated pattern for bonding to a prepared subfloor.
+- **natural stone floor sealer** (`AU-FF-NATURAL-STONE-FLOOR-SEALER`) — A penetrating or film-forming treatment applied to selected natural stone floor surfaces or joints to reduce staining or liquid uptake as documented.
+- **overlay solid timber floor assembly** (`AU-FF-OVERLAY-SOLID-TIMBER-FLOOR-ASSEMBLY`) — A relatively thin solid-timber board finish fixed over a separate structural subfloor rather than spanning and carrying floor loads directly between joists.
+- **parquetry floor assembly** (`AU-FF-PARQUETRY-FLOOR-ASSEMBLY`) — A patterned timber finish made from short solid blocks or factory-arranged mosaic units bonded to a prepared, rigid subfloor and finished as a coordinated surface.
+- **plywood floor underlay sheet** (`AU-FF-PLYWOOD-FLOOR-UNDERLAY-SHEET`) — A thin plywood sheet fixed over a separate structural floor as a finish-compatible underlayment rather than as the primary load-carrying deck.
+- **preformed resilient skirting** (`AU-FF-PREFORMED-RESILIENT-SKIRTING`) — A separate factory-shaped resilient skirting strip bonded to the wall at the floor perimeter rather than formed by turning the floor sheet upward.
+- **pressure-sensitive carpet-tile adhesive** (`AU-FF-PRESSURE-SENSITIVE-CARPET-TILE-ADHESIVE`) — A low-profile tacky adhesive film used to retain modular carpet tiles or planks while allowing their controlled removal where the selected system permits.
+- **pressure-sensitive resilient flooring adhesive** (`AU-FF-PRESSURE-SENSITIVE-RESILIENT-ADHESIVE`) — A flooring adhesive designed to develop a tacky pressure-sensitive bond for selected resilient tile or plank products.
+- **resilient acoustic floor underlay** (`AU-FF-RESILIENT-ACOUSTIC-FLOOR-UNDERLAY`) — A resilient sheet or mat installed beneath timber, laminate, hybrid or another hard finish to reduce impact sound as part of a tested floor-ceiling assembly.
+- **resilient flooring adhesive bed** (`AU-FF-RESILIENT-FLOORING-ADHESIVE-BED`) — A compatible adhesive layer spread on the prepared substrate to bond resilient sheet, tile or plank flooring.
+- **resilient flooring capping strip** (`AU-FF-RESILIENT-CAPPING-STRIP`) — A linear finishing profile that receives or covers the top edge of a coved resilient sheet upturn.
+- **resilient flooring cove former** (`AU-FF-RESILIENT-COVE-FORMER`) — A concave support profile fixed at the wall-floor junction beneath flexible sheet flooring to form a controlled cove radius.
+- **resilient flooring external cove corner** (`AU-FF-RESILIENT-EXTERNAL-COVE-CORNER`) — A formed, welded or factory-made corner piece continuing a resilient cove around a projecting wall corner.
+- **resilient flooring internal cove corner** (`AU-FF-RESILIENT-INTERNAL-COVE-CORNER`) — A formed, mitred, welded or factory-made internal corner piece continuing a resilient cove around an inward wall corner.
+- **resilient flooring weld rod** (`AU-FF-RESILIENT-WELD-ROD`) — A compatible thermoplastic cord fused into a prepared resilient sheet seam groove during heat welding.
+- **resilient sheet floor assembly** (`AU-FF-RESILIENT-SHEET-FLOOR-ASSEMBLY`) — A continuous or seamed sheet finish of vinyl, linoleum or rubber bonded or otherwise secured to a smooth prepared substrate, with documented edges and junctions.
+- **resilient sheet flooring seam** (`AU-FF-RESILIENT-SHEET-SEAM`) — The prepared junction between adjacent resilient sheet edges, with its geometry and joining treatment selected for the flooring product and use.
+- **resilient tile or plank floor assembly** (`AU-FF-RESILIENT-TILE-PLANK-FLOOR-ASSEMBLY`) — A modular resilient finish formed from bonded, pressure-sensitive, self-adhesive or loose-lay tiles and planks set out over a smooth prepared substrate.
+- **rubber floor tile** (`AU-FF-RUBBER-FLOOR-TILE`) — A modular rubber-based floor covering installed as individual bonded tiles.
+- **rubber sheet flooring** (`AU-FF-RUBBER-SHEET-FLOORING`) — A resilient rubber-based floor covering supplied in rolls and installed as a bonded sheet system.
+- **rubber-cork acoustic underlay** (`AU-FF-RUBBER-CORK-ACOUSTIC-UNDERLAY`) — A resilient composite mat of rubber granules and cork particles used beneath bonded or floating hard floors for impact-sound isolation and cushioning.
+- **rubber-crumb carpet underlay** (`AU-FF-RUBBER-CRUMB-CARPET-UNDERLAY`) — A resilient carpet underlay formed from bonded rubber crumb or a rubber-rich composite and supplied in rolls or sheets.
+- **scotia or quad floor perimeter trim** (`AU-FF-SCOTIA-OR-QUAD-FLOOR-TRIM`) — A small concave or convex profiled strip fixed at the floor-wall or floor-skirting junction to cover a perimeter gap or untidy edge.
+- **secret flooring nail or cleat** (`AU-FF-SECRET-FLOORING-CLEAT`) — A concealed angled nail or cleat driven through the tongue or fixing shoulder of a timber floorboard into the joist or structural subfloor.
+- **self-adhesive resilient floor tile** (`AU-FF-SELF-ADHESIVE-RESILIENT-TILE`) — A resilient modular tile supplied with a factory-applied pressure-sensitive adhesive protected by a removable release liner.
+- **sheet floor vapour retarder** (`AU-FF-SHEET-FLOOR-VAPOUR-RETARDER`) — A loose-laid or system-integrated sheet layer beneath a floating floor or underlay that reduces water-vapour movement from the substrate into moisture-sensitive boards.
+- **sheet subfloor square-edge butt joint** (`AU-FF-SHEET-SUBFLOOR-SQUARE-EDGE-JOINT`) — A meeting line between unprofiled structural floor-sheet edges or ends that is positioned over joist, trimmer or blocking support as designed.
+- **sheet subfloor tongue-and-groove joint** (`AU-FF-SHEET-SUBFLOOR-TONGUE-GROOVE-JOINT`) — The interlocking profiled long-edge connection between adjacent structural floor sheets that aligns and supports their meeting edges between joists.
+- **solid hardwood strip floorboard** (`AU-FF-SOLID-HARDWOOD-FLOORBOARD`) — A milled solid hardwood board, usually with tongue-and-groove edges, installed as structural or overlay strip flooring and left prefinished or site finished.
+- **solid softwood strip floorboard** (`AU-FF-SOLID-SOFTWOOD-FLOORBOARD`) — A milled solid softwood board with a flooring profile, installed in repeated strips as structural or overlay internal flooring.
+- **solid strip timber floor assembly** (`AU-FF-SOLID-STRIP-TIMBER-FLOOR-ASSEMBLY`) — A floor of solid tongue-and-groove timber boards mechanically fixed over joists or a suitable structural subfloor, with movement allowance and an exposed finished face.
+- **solid timber overlay floorboard** (`AU-FF-SOLID-TIMBER-OVERLAY-FLOORBOARD`) — A relatively thin solid timber board manufactured to be fixed over a continuous structural subfloor rather than used alone to span between joists.
+- **solid timber parquet block** (`AU-FF-PARQUET-BLOCK`) — A short solid timber flooring unit with machined or square edges, bonded with many similar units to form a parquetry pattern.
+- **stone-polymer composite flooring core** (`AU-FF-STONE-POLYMER-COMPOSITE-CORE`) — A dense rigid hybrid-plank core made from polymer mixed with mineral filler and machined to form the plank body and locking edges.
+- **strand-woven bamboo floorboard** (`AU-FF-STRAND-WOVEN-BAMBOO-FLOORBOARD`) — A dense factory-made flooring board formed by compressing and bonding bamboo strands, commonly machined for floating or direct-fixed installation.
+- **stretch-in carpet floor assembly** (`AU-FF-STRETCH-IN-CARPET-ASSEMBLY`) — A broadloom carpet installation stretched over soft underlay and retained around the perimeter by gripper strips, with seams and transition trims where required.
+- **structural floor-sheet adhesive bead** (`AU-FF-STRUCTURAL-FLOOR-SHEET-ADHESIVE-BEAD`) — A continuous or patterned bead of compatible construction adhesive placed between a structural floor sheet and its joist support or documented sheet joint.
+- **structural floor-sheet cut-edge sealer** (`AU-FF-FLOOR-SHEET-CUT-EDGE-SEALER`) — A compatible coating or adhesive applied to freshly cut structural particleboard or engineered-wood sheet edges to restore documented edge protection.
+- **structural floor-sheet nail** (`AU-FF-FLOOR-SHEET-NAIL`) — A nail selected to mechanically secure structural floor sheeting to compatible timber joists at sheet edges and intermediate supports.
+- **structural floor-sheet screw** (`AU-FF-FLOOR-SHEET-SCREW`) — A screw selected to clamp structural floor sheeting to timber, steel or engineered joist supports with a compatible thread, head and corrosion protection.
+- **structural particleboard floor sheet** (`AU-FF-STRUCTURAL-PARTICLEBOARD-FLOOR-SHEET`) — A load-carrying reconstituted-wood sheet manufactured for structural flooring, commonly edge-profiled to interlock and fixed across floor joists.
+- **structural plywood floor sheet** (`AU-FF-STRUCTURAL-PLYWOOD-FLOOR-SHEET`) — A load-carrying plywood sheet with cross-laminated veneers selected and fixed as structural flooring over joists or other designed supports.
+- **structural sheet subfloor assembly** (`AU-FF-STRUCTURAL-SHEET-SUBFLOOR-ASSEMBLY`) — A load-carrying floor deck of structural particleboard or plywood sheets fixed across floor joists with supported joints, adhesive and mechanical fasteners.
+- **tile skirting** (`AU-FF-TILE-SKIRTING`) — A vertical row or strip of tile fixed to the lower wall as a separate perimeter finish above a tiled floor.
+- **timber floor filler** (`AU-FF-TIMBER-FLOOR-FILLER`) — A local compatible putty, resin or filler placed into selected nail holes, small gaps or surface defects before final sanding and coating.
+- **timber floor protective coating** (`AU-FF-TIMBER-FLOOR-PROTECTIVE-COATING`) — One or more cured film or penetrating finish coats applied over prepared timber to resist wear, staining and routine cleaning while producing the selected sheen.
+- **timber floor sanding and coating assembly** (`AU-FF-TIMBER-FLOOR-SANDING-FINISHING-ASSEMBLY`) — The prepared timber surface, local filler, sealer and compatible coating system applied after installation or during refurbishment of a sandable timber floor.
+- **timber floor sealer coat** (`AU-FF-TIMBER-FLOOR-SEALER-COAT`) — The first compatible coating applied to prepared timber to regulate absorption, enhance adhesion or form the base of the selected floor-finishing system.
+- **timber floorboard end-match joint** (`AU-FF-TIMBER-FLOORBOARD-END-MATCH-JOINT`) — A tongue-and-groove or other mating profile machined across floorboard ends so adjacent board lengths interlock at their transverse joint.
+- **timber floorboard face nail or screw** (`AU-FF-TIMBER-FLOOR-FACE-FASTENER`) — A nail or screw driven through the exposed face of a timber floorboard into its support, with the head left visible, punched and filled, or plugged as selected.
+- **timber floorboard tongue-and-groove joint** (`AU-FF-TIMBER-FLOORBOARD-TONGUE-GROOVE-JOINT`) — The continuous interlock formed by the projecting tongue of one floorboard engaging the matching groove in the adjacent board edge.
+- **timber flooring adhesive bed** (`AU-FF-TIMBER-FLOORING-ADHESIVE-BED`) — A continuous or trowelled elastomeric adhesive layer bonding solid, parquetry or engineered timber flooring to a compatible prepared substrate.
+- **timber skirting board** (`AU-FF-TIMBER-SKIRTING-BOARD`) — A profiled board fixed along the base of an internal wall to cover the floor-wall junction and protect the wall lining.
+- **tufted carpet** (`AU-FF-TUFTED-CARPET`) — A carpet construction in which yarn is inserted through a primary backing and secured before a stabilising underside or secondary backing is applied.
+- **vinyl composition floor tile** (`AU-FF-VINYL-COMPOSITION-TILE`) — A semi-flexible modular floor tile in which vinyl binder carries a high proportion of mineral filler and pigment.
+- **wood-polymer composite flooring core** (`AU-FF-WOOD-POLYMER-COMPOSITE-CORE`) — A rigid or semi-rigid hybrid-plank core made from polymer and wood-derived filler, forming the board body and locking profile.
+- **woven carpet** (`AU-FF-WOVEN-CARPET`) — A carpet in which face yarns and structural backing yarns are interlaced during weaving to create an integrated textile floor covering.
+
+## Cross-discipline links
+
+- `AU-FF-DOORWAY-THRESHOLD-PROFILE` commonly used with `AU-LH-BEVELLED-INTERNAL-THRESHOLD`
+- `AU-FF-DOORWAY-THRESHOLD-PROFILE` commonly used with `AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP`
+- `AU-FF-DOORWAY-THRESHOLD-PROFILE` part of `AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY`
+- `AU-FF-DRY-AREA-BONDED-FLOOR-SCREED` alternative to `AU-WP-FALL-FORMING-SCREED`
+- `AU-FF-DRY-AREA-TILED-FLOOR-ASSEMBLY` alternative to `AU-WP-TILED-WET-AREA-FLOOR`
+- `AU-FF-FIBRE-CEMENT-FLOOR-UNDERLAY-SHEET` commonly used with `AU-WP-COMPRESSED-FC-FLOOR-SHEET`
+- `AU-FF-FLOOR-COVER-STRIP` commonly used with `AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP`
+- `AU-FF-FLOOR-REDUCER-PROFILE` commonly used with `AU-LH-BEVELLED-INTERNAL-THRESHOLD`
+- `AU-FF-FLOOR-SUBSTRATE-PREPARATION-ASSEMBLY` commonly used with `AU-CF-SLAB-ON-GROUND-ASSEMBLY`
+- `AU-FF-FLOOR-TRANSITION-ASSEMBLY` commonly used with `AU-LH-BEVELLED-INTERNAL-THRESHOLD`
+- `AU-FF-FLOOR-TRANSITION-ASSEMBLY` commonly used with `AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP`
+- `AU-FF-INTERNAL-FLOOR-FINISH-SYSTEM` commonly used with `AU-LH-INTERNAL-DOORWAY-THRESHOLD-ASSEMBLY`
+- `AU-FF-INTERNAL-FLOOR-FINISH-SYSTEM` commonly used with `AU-ME-HYDRONIC-UNDERFLOOR-HEATING-ASSEMBLY`
+- `AU-FF-LIQUID-APPLIED-SLAB-MOISTURE-BARRIER` commonly used with `AU-CF-SLAB-ON-GROUND-ASSEMBLY`
+- `AU-FF-RESILIENT-SHEET-FLOOR-ASSEMBLY` commonly used with `AU-WP-WATER-RESISTANT-SHEET-FLOOR`
+- `AU-FF-RESILIENT-SHEET-FLOOR-ASSEMBLY` commonly used with `AU-WP-WATERPROOF-FLEXIBLE-SHEET-FLOOR`
+- `AU-FF-SHEET-SUBFLOOR-SQUARE-EDGE-JOINT` commonly used with `AU-TF-NOGGING`
+- `AU-FF-SOLID-STRIP-TIMBER-FLOOR-ASSEMBLY` commonly used with `AU-TF-FLOOR-JOIST`
+- `AU-FF-STRUCTURAL-SHEET-SUBFLOOR-ASSEMBLY` supported by `AU-TF-FLOOR-JOIST`
+- `AU-FF-T-MOULDING-TRANSITION-PROFILE` commonly used with `AU-LH-FLUSH-INTERNAL-TRANSITION-STRIP`

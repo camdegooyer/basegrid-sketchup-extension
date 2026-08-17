@@ -1,0 +1,1631 @@
+{
+  "schema_version": "0.1.0",
+  "discipline": "steel_framing",
+  "relationships": [
+    {
+      "id": "REL-7680-SF-BOTTOM-PLATE-MEMBRANE-PART-OF-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-BOTTOM-PLATE-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7682-SF-BOTTOM-TRACK-PART-OF-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-BOTTOM-TRACK",
+      "relationship": "part_of",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7683-SF-BOUNDARY-JOIST-PART-OF-AU-SF-FLOOR-FRAME",
+      "from_id": "AU-SF-BOUNDARY-JOIST",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7684-SF-BRACING-SHEET-PART-OF-AU-SF-BRACING-SYSTEM",
+      "from_id": "AU-SF-BRACING-SHEET",
+      "relationship": "part_of",
+      "to_id": "AU-SF-BRACING-SYSTEM",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7686-SF-BRACING-STRAP-PART-OF-AU-SF-BRACING-SYSTEM",
+      "from_id": "AU-SF-BRACING-STRAP",
+      "relationship": "part_of",
+      "to_id": "AU-SF-BRACING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7687-SF-BRACING-SYSTEM-HAS-PART-AU-SF-BRACING-SHEET",
+      "from_id": "AU-SF-BRACING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-BRACING-SHEET",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7688-SF-BRACING-SYSTEM-HAS-PART-AU-SF-BRACING-STRAP",
+      "from_id": "AU-SF-BRACING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-BRACING-STRAP",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7689-SF-BRACING-SYSTEM-HAS-PART-AU-SF-HOLD-DOWN-BRACKET",
+      "from_id": "AU-SF-BRACING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-HOLD-DOWN-BRACKET",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7690-SF-BRACING-SYSTEM-HAS-PART-AU-SF-TRUSS-BRACE",
+      "from_id": "AU-SF-BRACING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-TRUSS-BRACE",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7691-SF-BRACING-SYSTEM-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-BRACING-SYSTEM",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7692-SF-C-SECTION-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-C-SECTION",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7696-SF-CEILING-BATTEN-PART-OF-AU-SF-ROOF-FRAME",
+      "from_id": "AU-SF-CEILING-BATTEN",
+      "relationship": "part_of",
+      "to_id": "AU-SF-ROOF-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7697-SF-CLINCH-JOINT-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-CLINCH-JOINT",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7698-SF-ELECTRICAL-BACKING-PLATE-PART-OF-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-ELECTRICAL-BACKING-PLATE",
+      "relationship": "part_of",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7703-SF-FLOOR-BEARER-PART-OF-AU-SF-FLOOR-FRAME",
+      "from_id": "AU-SF-FLOOR-BEARER",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7705-SF-FLOOR-BLOCKING-PART-OF-AU-SF-FLOOR-FRAME",
+      "from_id": "AU-SF-FLOOR-BLOCKING",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7706-SF-FLOOR-CASSETTE-PART-OF-AU-SF-FLOOR-FRAME",
+      "from_id": "AU-SF-FLOOR-CASSETTE",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7708-SF-FLOOR-FRAME-HAS-PART-AU-SF-BOUNDARY-JOIST",
+      "from_id": "AU-SF-FLOOR-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-BOUNDARY-JOIST",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7709-SF-FLOOR-FRAME-HAS-PART-AU-SF-FLOOR-BEARER",
+      "from_id": "AU-SF-FLOOR-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-FLOOR-BEARER",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7710-SF-FLOOR-FRAME-HAS-PART-AU-SF-FLOOR-BLOCKING",
+      "from_id": "AU-SF-FLOOR-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-FLOOR-BLOCKING",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7711-SF-FLOOR-FRAME-HAS-PART-AU-SF-FLOOR-CASSETTE",
+      "from_id": "AU-SF-FLOOR-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-FLOOR-CASSETTE",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7712-SF-FLOOR-FRAME-HAS-PART-AU-SF-FLOOR-JOIST",
+      "from_id": "AU-SF-FLOOR-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-FLOOR-JOIST",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7713-SF-FLOOR-FRAME-HAS-PART-AU-SF-JOIST-CONNECTOR",
+      "from_id": "AU-SF-FLOOR-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-JOIST-CONNECTOR",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7714-SF-FLOOR-FRAME-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-FLOOR-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7719-SF-FLOOR-JOIST-PART-OF-AU-SF-FLOOR-FRAME",
+      "from_id": "AU-SF-FLOOR-JOIST",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7720-SF-FRAMING-RIVET-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-FRAMING-RIVET",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7722-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-BRACING-SYSTEM",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-BRACING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7723-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-C-SECTION",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-C-SECTION",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7724-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-CLINCH-JOINT",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-CLINCH-JOINT",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7725-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-FLOOR-FRAME",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7726-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-FRAMING-RIVET",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-FRAMING-RIVET",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7727-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-ISOLATION-MEMBRANE",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-ISOLATION-MEMBRANE",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7728-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-LOADBEARING-WALL-FRAME",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-LOADBEARING-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7729-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-MASONRY-ANCHOR",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-MASONRY-ANCHOR",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7730-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-NONLOADBEARING-WALL-FRAME",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-NONLOADBEARING-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7731-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-ROOF-FRAME",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-ROOF-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7732-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-SELF-DRILLING-SCREW",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-SELF-DRILLING-SCREW",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7733-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-SERVICE-GROMMET",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-SERVICE-GROMMET",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7734-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-SERVICE-HOLE",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-SERVICE-HOLE",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7735-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-TOP-HAT-SECTION",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-TOP-HAT-SECTION",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7736-SF-FRAMING-SYSTEM-HAS-PART-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "has_part",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7737-SF-HOLD-DOWN-BRACKET-PART-OF-AU-SF-BRACING-SYSTEM",
+      "from_id": "AU-SF-HOLD-DOWN-BRACKET",
+      "relationship": "part_of",
+      "to_id": "AU-SF-BRACING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7738-SF-ISOLATION-MEMBRANE-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-ISOLATION-MEMBRANE",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7740-SF-JACK-STUD-PART-OF-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-JACK-STUD",
+      "relationship": "part_of",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7742-SF-JAMB-STUD-PART-OF-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-JAMB-STUD",
+      "relationship": "part_of",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7743-SF-JOIST-CONNECTOR-PART-OF-AU-SF-FLOOR-FRAME",
+      "from_id": "AU-SF-JOIST-CONNECTOR",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7744-SF-LOADBEARING-WALL-FRAME-HAS-PART-AU-SF-WALL-POST",
+      "from_id": "AU-SF-LOADBEARING-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-WALL-POST",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7745-SF-LOADBEARING-WALL-FRAME-IS-A-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-LOADBEARING-WALL-FRAME",
+      "relationship": "is_a",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7746-SF-LOADBEARING-WALL-FRAME-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-LOADBEARING-WALL-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7747-SF-MASONRY-ANCHOR-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-MASONRY-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7749-SF-NOGGING-PART-OF-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-NOGGING",
+      "relationship": "part_of",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7750-SF-NONLOADBEARING-WALL-FRAME-IS-A-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-NONLOADBEARING-WALL-FRAME",
+      "relationship": "is_a",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7751-SF-NONLOADBEARING-WALL-FRAME-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-NONLOADBEARING-WALL-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7753-SF-ROOF-BATTEN-PART-OF-AU-SF-ROOF-FRAME",
+      "from_id": "AU-SF-ROOF-BATTEN",
+      "relationship": "part_of",
+      "to_id": "AU-SF-ROOF-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7756-SF-ROOF-BEAM-PART-OF-AU-SF-ROOF-FRAME",
+      "from_id": "AU-SF-ROOF-BEAM",
+      "relationship": "part_of",
+      "to_id": "AU-SF-ROOF-FRAME",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7758-SF-ROOF-FRAME-HAS-PART-AU-SF-CEILING-BATTEN",
+      "from_id": "AU-SF-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-CEILING-BATTEN",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7759-SF-ROOF-FRAME-HAS-PART-AU-SF-ROOF-BATTEN",
+      "from_id": "AU-SF-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-ROOF-BATTEN",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7760-SF-ROOF-FRAME-HAS-PART-AU-SF-ROOF-BEAM",
+      "from_id": "AU-SF-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-ROOF-BEAM",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7761-SF-ROOF-FRAME-HAS-PART-AU-SF-ROOF-RAFTER",
+      "from_id": "AU-SF-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-ROOF-RAFTER",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7762-SF-ROOF-FRAME-HAS-PART-AU-SF-ROOF-TRUSS",
+      "from_id": "AU-SF-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7763-SF-ROOF-FRAME-HAS-PART-AU-SF-TRUSS-BRACE",
+      "from_id": "AU-SF-ROOF-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-TRUSS-BRACE",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7764-SF-ROOF-FRAME-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-ROOF-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7766-SF-ROOF-RAFTER-PART-OF-AU-SF-ROOF-FRAME",
+      "from_id": "AU-SF-ROOF-RAFTER",
+      "relationship": "part_of",
+      "to_id": "AU-SF-ROOF-FRAME",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7768-SF-ROOF-TRUSS-HAS-PART-AU-SF-TRUSS-BOTTOM-CHORD",
+      "from_id": "AU-SF-ROOF-TRUSS",
+      "relationship": "has_part",
+      "to_id": "AU-SF-TRUSS-BOTTOM-CHORD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7769-SF-ROOF-TRUSS-HAS-PART-AU-SF-TRUSS-NODE-CONNECTION",
+      "from_id": "AU-SF-ROOF-TRUSS",
+      "relationship": "has_part",
+      "to_id": "AU-SF-TRUSS-NODE-CONNECTION",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7770-SF-ROOF-TRUSS-HAS-PART-AU-SF-TRUSS-TOP-CHORD",
+      "from_id": "AU-SF-ROOF-TRUSS",
+      "relationship": "has_part",
+      "to_id": "AU-SF-TRUSS-TOP-CHORD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7771-SF-ROOF-TRUSS-HAS-PART-AU-SF-TRUSS-WEB",
+      "from_id": "AU-SF-ROOF-TRUSS",
+      "relationship": "has_part",
+      "to_id": "AU-SF-TRUSS-WEB",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7772-SF-ROOF-TRUSS-PART-OF-AU-SF-ROOF-FRAME",
+      "from_id": "AU-SF-ROOF-TRUSS",
+      "relationship": "part_of",
+      "to_id": "AU-SF-ROOF-FRAME",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7773-SF-SELF-DRILLING-SCREW-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-SELF-DRILLING-SCREW",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7774-SF-SERVICE-GROMMET-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-SERVICE-GROMMET",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7775-SF-SERVICE-GROMMET-SURROUNDS-AU-SF-SERVICE-HOLE",
+      "from_id": "AU-SF-SERVICE-GROMMET",
+      "relationship": "surrounds",
+      "to_id": "AU-SF-SERVICE-HOLE",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7776-SF-SERVICE-HOLE-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-SERVICE-HOLE",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7777-SF-SERVICE-NOGGING-IS-A-AU-SF-NOGGING",
+      "from_id": "AU-SF-SERVICE-NOGGING",
+      "relationship": "is_a",
+      "to_id": "AU-SF-NOGGING",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7778-SF-SERVICE-NOGGING-PART-OF-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-SERVICE-NOGGING",
+      "relationship": "part_of",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7779-SF-TOP-HAT-SECTION-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-TOP-HAT-SECTION",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7781-SF-TOP-TRACK-PART-OF-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-TOP-TRACK",
+      "relationship": "part_of",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7783-SF-TRUSS-BOTTOM-CHORD-PART-OF-AU-SF-ROOF-TRUSS",
+      "from_id": "AU-SF-TRUSS-BOTTOM-CHORD",
+      "relationship": "part_of",
+      "to_id": "AU-SF-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7785-SF-TRUSS-BRACE-PART-OF-AU-SF-BRACING-SYSTEM",
+      "from_id": "AU-SF-TRUSS-BRACE",
+      "relationship": "part_of",
+      "to_id": "AU-SF-BRACING-SYSTEM",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7786-SF-TRUSS-BRACE-PART-OF-AU-SF-ROOF-FRAME",
+      "from_id": "AU-SF-TRUSS-BRACE",
+      "relationship": "part_of",
+      "to_id": "AU-SF-ROOF-FRAME",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7787-SF-TRUSS-NODE-CONNECTION-PART-OF-AU-SF-ROOF-TRUSS",
+      "from_id": "AU-SF-TRUSS-NODE-CONNECTION",
+      "relationship": "part_of",
+      "to_id": "AU-SF-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7789-SF-TRUSS-TOP-CHORD-PART-OF-AU-SF-ROOF-TRUSS",
+      "from_id": "AU-SF-TRUSS-TOP-CHORD",
+      "relationship": "part_of",
+      "to_id": "AU-SF-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7791-SF-TRUSS-WEB-PART-OF-AU-SF-ROOF-TRUSS",
+      "from_id": "AU-SF-TRUSS-WEB",
+      "relationship": "part_of",
+      "to_id": "AU-SF-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7792-SF-WALL-ANCHOR-PART-OF-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-WALL-ANCHOR",
+      "relationship": "part_of",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7797-SF-WALL-FRAME-HAS-PART-AU-SF-BOTTOM-PLATE-MEMBRANE",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-BOTTOM-PLATE-MEMBRANE",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7798-SF-WALL-FRAME-HAS-PART-AU-SF-BOTTOM-TRACK",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-BOTTOM-TRACK",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7799-SF-WALL-FRAME-HAS-PART-AU-SF-ELECTRICAL-BACKING-PLATE",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-ELECTRICAL-BACKING-PLATE",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7800-SF-WALL-FRAME-HAS-PART-AU-SF-JACK-STUD",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-JACK-STUD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7801-SF-WALL-FRAME-HAS-PART-AU-SF-JAMB-STUD",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-JAMB-STUD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7802-SF-WALL-FRAME-HAS-PART-AU-SF-NOGGING",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-NOGGING",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7803-SF-WALL-FRAME-HAS-PART-AU-SF-SERVICE-NOGGING",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-SERVICE-NOGGING",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7804-SF-WALL-FRAME-HAS-PART-AU-SF-TOP-TRACK",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-TOP-TRACK",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7805-SF-WALL-FRAME-HAS-PART-AU-SF-WALL-ANCHOR",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-WALL-ANCHOR",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7806-SF-WALL-FRAME-HAS-PART-AU-SF-WALL-LINTEL",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-WALL-LINTEL",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7807-SF-WALL-FRAME-HAS-PART-AU-SF-WALL-STUD",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "has_part",
+      "to_id": "AU-SF-WALL-STUD",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7808-SF-WALL-FRAME-PART-OF-AU-SF-FRAMING-SYSTEM",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "part_of",
+      "to_id": "AU-SF-FRAMING-SYSTEM",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7810-SF-WALL-LINTEL-PART-OF-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-WALL-LINTEL",
+      "relationship": "part_of",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7811-SF-WALL-POST-PART-OF-AU-SF-LOADBEARING-WALL-FRAME",
+      "from_id": "AU-SF-WALL-POST",
+      "relationship": "part_of",
+      "to_id": "AU-SF-LOADBEARING-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7812-SF-WALL-STUD-PART-OF-AU-SF-WALL-FRAME",
+      "from_id": "AU-SF-WALL-STUD",
+      "relationship": "part_of",
+      "to_id": "AU-SF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ],
+  "external_relationships": [
+    {
+      "id": "REL-7679-SF-BOTTOM-PLATE-MEMBRANE-ADJACENT-TO-AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "from_id": "AU-SF-BOTTOM-PLATE-MEMBRANE",
+      "relationship": "adjacent_to",
+      "to_id": "AU-CF-SLAB-ON-GROUND-ASSEMBLY",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7681-SF-BOTTOM-TRACK-ALTERNATIVE-TO-AU-TF-BOTTOM-PLATE",
+      "from_id": "AU-SF-BOTTOM-TRACK",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-BOTTOM-PLATE",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7685-SF-BRACING-STRAP-ALTERNATIVE-TO-AU-TF-WALL-BRACE",
+      "from_id": "AU-SF-BRACING-STRAP",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-WALL-BRACE",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7693-SF-CEILING-BATTEN-ALTERNATIVE-TO-AU-IL-CEILING-FURRING-CHANNEL",
+      "from_id": "AU-SF-CEILING-BATTEN",
+      "relationship": "alternative_to",
+      "to_id": "AU-IL-CEILING-FURRING-CHANNEL",
+      "source_ids": [
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-RONDO-KEYLOCK-SUSPENDED"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7694-SF-CEILING-BATTEN-COMMONLY-USED-WITH-AU-HA-PLASTERBOARD-CEILING-SHEET",
+      "from_id": "AU-SF-CEILING-BATTEN",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-HA-PLASTERBOARD-CEILING-SHEET",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOM-HEIGHTS",
+        "SRC-ABCB-SOUND-HANDBOOK-2022"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7695-SF-CEILING-BATTEN-COMMONLY-USED-WITH-AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "from_id": "AU-SF-CEILING-BATTEN",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-DIRECT-FIXED-PLASTERBOARD-CEILING-ASSEMBLY",
+      "source_ids": [
+        "SRC-GYPROCK-RESIDENTIAL-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WA-PLASTERBOARD-CEILING-FAILURES"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7699-SF-FLOOR-BEARER-ALTERNATIVE-TO-AU-TF-BEARER",
+      "from_id": "AU-SF-FLOOR-BEARER",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-BEARER",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7700-SF-FLOOR-BEARER-COMMONLY-USED-WITH-AU-DB-DECK-BEARER-LINE",
+      "from_id": "AU-SF-FLOOR-BEARER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-BEARER-LINE",
+      "source_ids": [
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7701-SF-FLOOR-BEARER-COMMONLY-USED-WITH-AU-DB-DECK-SUPPORT-FRAME",
+      "from_id": "AU-SF-FLOOR-BEARER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-SUPPORT-FRAME",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7702-SF-FLOOR-BEARER-COMMONLY-USED-WITH-AU-DB-STEEL-FRAMED-DECK-ASSEMBLY",
+      "from_id": "AU-SF-FLOOR-BEARER",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-STEEL-FRAMED-DECK-ASSEMBLY",
+      "source_ids": [
+        "SRC-MODWOOD-AU-INSTALLATION",
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7704-SF-FLOOR-BLOCKING-ALTERNATIVE-TO-AU-TF-SOLID-BLOCKING",
+      "from_id": "AU-SF-FLOOR-BLOCKING",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-SOLID-BLOCKING",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7707-SF-FLOOR-FRAME-ALTERNATIVE-TO-AU-TF-FLOOR-FRAME",
+      "from_id": "AU-SF-FLOOR-FRAME",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-FLOOR-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7715-SF-FLOOR-JOIST-ALTERNATIVE-TO-AU-TF-FLOOR-JOIST",
+      "from_id": "AU-SF-FLOOR-JOIST",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-FLOOR-JOIST",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7716-SF-FLOOR-JOIST-COMMONLY-USED-WITH-AU-DB-DECK-JOIST-FIELD",
+      "from_id": "AU-SF-FLOOR-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-JOIST-FIELD",
+      "source_ids": [
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-TGA-MSFFL3120-TIMBER-FLOORING-JOISTS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7717-SF-FLOOR-JOIST-COMMONLY-USED-WITH-AU-DB-DECK-SUPPORT-FRAME",
+      "from_id": "AU-SF-FLOOR-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-DECK-SUPPORT-FRAME",
+      "source_ids": [
+        "SRC-QBCC-TIMBER-DECK-BALCONY",
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7718-SF-FLOOR-JOIST-COMMONLY-USED-WITH-AU-DB-STEEL-FRAMED-DECK-ASSEMBLY",
+      "from_id": "AU-SF-FLOOR-JOIST",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-DB-STEEL-FRAMED-DECK-ASSEMBLY",
+      "source_ids": [
+        "SRC-MODWOOD-AU-INSTALLATION",
+        "SRC-TGA-CPCCCA3003-FLOORING-SYSTEMS",
+        "SRC-WOODSOLUTIONS-DOMESTIC-DECK"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7721-SF-FRAMING-SYSTEM-ALTERNATIVE-TO-AU-SS-FRAME",
+      "from_id": "AU-SF-FRAMING-SYSTEM",
+      "relationship": "alternative_to",
+      "to_id": "AU-SS-FRAME",
+      "source_ids": [
+        "SRC-ABCB-HP-STRUCTURAL-STEEL",
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-ASI-CONNECTIONS-HANDBOOK",
+        "SRC-ASI-DESIGN-CONSTRUCTION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7739-SF-JACK-STUD-ALTERNATIVE-TO-AU-TF-JACK-STUD",
+      "from_id": "AU-SF-JACK-STUD",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-JACK-STUD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.72,
+      "review_status": "accepted_pending_review"
+    },
+    {
+      "id": "REL-7741-SF-JAMB-STUD-ALTERNATIVE-TO-AU-TF-JAMB-STUD",
+      "from_id": "AU-SF-JAMB-STUD",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-JAMB-STUD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7748-SF-NOGGING-ALTERNATIVE-TO-AU-TF-NOGGING",
+      "from_id": "AU-SF-NOGGING",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-NOGGING",
+      "source_ids": [
+        "SRC-DICTIONARY-HOME",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7752-SF-ROOF-BATTEN-ALTERNATIVE-TO-AU-TF-ROOF-BATTEN",
+      "from_id": "AU-SF-ROOF-BATTEN",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-ROOF-BATTEN",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7754-SF-ROOF-BATTEN-SUPPORTS-AU-RO-METAL-SHEET-ROOF",
+      "from_id": "AU-SF-ROOF-BATTEN",
+      "relationship": "supports",
+      "to_id": "AU-RO-METAL-SHEET-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-SHEET-ROOFING",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-LYSAGHT-ROOFING-WALLING-MANUAL",
+        "SRC-SA-HB-39-2015"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7755-SF-ROOF-BATTEN-SUPPORTS-AU-RO-TILED-ROOF",
+      "from_id": "AU-SF-ROOF-BATTEN",
+      "relationship": "supports",
+      "to_id": "AU-RO-TILED-ROOF",
+      "source_ids": [
+        "SRC-ABCB-HP-ROOF-TILES",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ARTA-TECHNICAL",
+        "SRC-RMIT-ROOF-TILE-FIXING",
+        "SRC-YOURHOME-CONSTRUCTION-SYSTEMS"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7757-SF-ROOF-FRAME-ALTERNATIVE-TO-AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "from_id": "AU-SF-ROOF-FRAME",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-CONVENTIONAL-ROOF-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7765-SF-ROOF-RAFTER-ALTERNATIVE-TO-AU-TF-COMMON-RAFTER",
+      "from_id": "AU-SF-ROOF-RAFTER",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-COMMON-RAFTER",
+      "source_ids": [
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7767-SF-ROOF-TRUSS-ALTERNATIVE-TO-AU-TF-NAILPLATED-ROOF-TRUSS",
+      "from_id": "AU-SF-ROOF-TRUSS",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-NAILPLATED-ROOF-TRUSS",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7780-SF-TOP-TRACK-ALTERNATIVE-TO-AU-TF-TOP-PLATE",
+      "from_id": "AU-SF-TOP-TRACK",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-TOP-PLATE",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7782-SF-TRUSS-BOTTOM-CHORD-ALTERNATIVE-TO-AU-TF-TRUSS-BOTTOM-CHORD",
+      "from_id": "AU-SF-TRUSS-BOTTOM-CHORD",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-TRUSS-BOTTOM-CHORD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7784-SF-TRUSS-BRACE-ALTERNATIVE-TO-AU-TF-TRUSS-BRACE",
+      "from_id": "AU-SF-TRUSS-BRACE",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-TRUSS-BRACE",
+      "source_ids": [
+        "SRC-BLUESCOPE-TB34-STEEL-FRAMES",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7788-SF-TRUSS-TOP-CHORD-ALTERNATIVE-TO-AU-TF-TRUSS-TOP-CHORD",
+      "from_id": "AU-SF-TRUSS-TOP-CHORD",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-TRUSS-TOP-CHORD",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7790-SF-TRUSS-WEB-ALTERNATIVE-TO-AU-TF-TRUSS-WEB",
+      "from_id": "AU-SF-TRUSS-WEB",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-TRUSS-WEB",
+      "source_ids": [
+        "SRC-ABCB-V2-H1-FRAMING",
+        "SRC-NASH-GENERAL-GUIDE"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7793-SF-WALL-FRAME-ALTERNATIVE-TO-AU-TF-WALL-FRAME",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-WALL-FRAME",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7794-SF-WALL-FRAME-COMMONLY-USED-WITH-AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-CL-EXTERNAL-WALL-CLADDING-SYSTEM",
+      "source_ids": [
+        "SRC-ABCB-HP-WALL-CLADDING",
+        "SRC-ABCB-V2-H1-ROOF-CLADDING",
+        "SRC-ABCB-V2-H2-WEATHERPROOFING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7795-SF-WALL-FRAME-COMMONLY-USED-WITH-AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-IL-INTERNAL-WALL-LINING-ASSEMBLY",
+      "source_ids": [
+        "SRC-ABCB-WALL-LINING-ATTACHMENTS",
+        "SRC-JH-VILLABOARD-INSTALLATION",
+        "SRC-KNAUF-PLASTERBOARD-INSTALLATION",
+        "SRC-WOODSOLUTIONS-INTERNAL-PANELLING"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7796-SF-WALL-FRAME-COMMONLY-USED-WITH-AU-MA-VENEER-WALL-TIE",
+      "from_id": "AU-SF-WALL-FRAME",
+      "relationship": "commonly_used_with",
+      "to_id": "AU-MA-VENEER-WALL-TIE",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA",
+        "SRC-NASH-STEEL-INNOVATION"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    },
+    {
+      "id": "REL-7809-SF-WALL-LINTEL-ALTERNATIVE-TO-AU-TF-LINTEL",
+      "from_id": "AU-SF-WALL-LINTEL",
+      "relationship": "alternative_to",
+      "to_id": "AU-TF-LINTEL",
+      "source_ids": [
+        "SRC-NASH-GENERAL-GUIDE",
+        "SRC-NASH-PART2-METADATA"
+      ],
+      "confidence": 0.87,
+      "review_status": "accepted"
+    }
+  ]
+}

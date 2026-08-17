@@ -1,0 +1,221 @@
+# Thermal Condensation discipline report
+
+> Generated from canonical data. This is object-discovery and drawing metadata, not engineering or compliance advice.
+
+## Coverage
+
+- Objects and assemblies: 134
+- Internal relationships: 283
+- Outgoing cross-discipline relationships: 27
+- Distinct supporting sources: 21
+- Distinct linked standards: 7
+- Average overall confidence: 89.0%
+- Objects with a Tier 1 source: 91.8%
+- Objects with two or more sources: 73.9%
+
+## Categories
+
+- air barrier components: 2
+- air seal materials: 4
+- air sealing assemblies: 1
+- air sealing devices: 3
+- air sealing penetrations: 3
+- air sealing trims: 3
+- domestic exhaust components: 8
+- domestic exhaust controls: 2
+- envelope assemblies: 2
+- floor thermal assemblies: 3
+- insulation components: 4
+- insulation composites: 2
+- insulation forms: 6
+- insulation material families: 8
+- insulation placement roles: 8
+- insulation products: 3
+- insulation supports: 4
+- makeup air components: 3
+- membrane assemblies: 1
+- membrane fixings: 2
+- membrane joints: 5
+- membrane penetrations: 2
+- membrane performance roles: 5
+- membrane products: 3
+- opening air seals: 5
+- roof ceiling assemblies: 3
+- roof space ventilation: 2
+- roof vent components: 3
+- roof vent products: 9
+- rooflight air seals: 3
+- subfloor moisture components: 1
+- subfloor vent products: 2
+- subfloor ventilation: 4
+- thermal bridge components: 7
+- vent components: 1
+- ventilation assemblies: 3
+- wall thermal assemblies: 4
+
+## Objects
+
+- **air-barrier membrane** (`AU-TC-AIR-BARRIER-MEMBRANE`) — A membrane classified and installed to resist unintended airflow through the envelope, with sealed laps, edges and penetrations forming part of a continuous air-control layer.
+- **air-sealing architrave** (`AU-TC-ARCHITRAVE-AIR-SEAL`) — A close-fitting trim around a door, window or roof-light frame used with backing or sealant to cover and help seal the frame-to-lining perimeter gap.
+- **air-sealing cornice** (`AU-TC-CORNICE-AIR-SEAL`) — A close-fitting moulded or square-set ceiling perimeter finish used with adhesive or sealant to close the wall-lining to ceiling-lining junction.
+- **air-sealing skirting board** (`AU-TC-SKIRTING-AIR-SEAL`) — A close-fitting wall-base trim used with a concealed or exposed seal to close the internal lining-to-floor junction at the conditioned envelope.
+- **aligned double-leaf subfloor vent passage** (`AU-TC-DOUBLE-LEAF-SUBFLOOR-VENT-PASSAGE`) — A continuous ventilation passage made by aligned openings through both leaves and the cavity of a double-leaf masonry subfloor wall so air is not trapped between or blocked by the leaves.
+- **automatic drop-down door seal** (`AU-TC-AUTOMATIC-DROP-DOOR-SEAL`) — A door-bottom housing containing a movable seal that drops onto the threshold or floor when the door closes and retracts when it opens.
+- **blown-in insulation layer** (`AU-TC-BLOWN-IN-INSULATION-LAYER`) — An installed field of fibrous insulation pneumatically blown into an open roof or ceiling area or injected into a documented enclosed cavity through access holes.
+- **brush-strip air seal** (`AU-TC-BRUSH-AIR-SEAL`) — A dense row of flexible bristles held in a carrier and fixed along a door, window, shutter or other moving edge to reduce airflow across an irregular gap.
+- **building thermal insulation product** (`AU-TC-THERMAL-INSULATION-PRODUCT`) — A manufactured or installed product whose documented role is to resist heat flow in a building element, with declared form, material, dimensions and thermal properties.
+- **building-envelope air-sealant joint** (`AU-TC-ENVELOPE-JOINT-SEALANT`) — A flexible caulking, mastic or sealant bead installed with compatible backing and joint geometry to limit air leakage at envelope junctions and penetrations.
+- **building-envelope service penetration air seal** (`AU-TC-SERVICE-PENETRATION-AIR-SEAL`) — A compatible gasket, collar, tape, sealant or foam arrangement closing the annular gap where a pipe, duct, cable, conduit, flue or fitting crosses the selected air-control layer.
+- **bulk thermal insulation** (`AU-TC-BULK-INSULATION`) — Insulation that obtains much of its thermal resistance from thickness and trapped gas within a fibrous, cellular, granular or foamed material rather than from a reflective airspace alone.
+- **cathedral or skillion roof insulation assembly** (`AU-TC-CATHEDRAL-SKILLION-ROOF-INSULATION`) — A sloping upper-envelope build-up where ceiling and roof planes are close together and insulation, ventilation gaps, membranes and framing must be coordinated within a limited depth.
+- **ceiling insulation layer** (`AU-TC-CEILING-INSULATION-LAYER`) — The installed insulation field following a ceiling plane, including individual units, cuts, edge overlaps and intentional reductions or clearances recorded against the selected system.
+- **ceiling or wall access-hatch weatherseal** (`AU-TC-ACCESS-HATCH-WEATHERSEAL`) — A continuous gasket fitted between an access-hatch panel and its frame so the closed hatch limits air leakage through the ceiling or wall air-control layer.
+- **ceiling-mounted room exhaust fan** (`AU-TC-CEILING-EXHAUST-FAN`) — A fan assembly mounted through a ceiling lining with a room-side grille or diffuser and a discharge spigot connected to ducting or a permitted outdoor path.
+- **cellulose-fibre insulation** (`AU-TC-CELLULOSE-FIBRE-INSULATION`) — Loose or damp-sprayed fibrous insulation based mainly on processed cellulose and installed to a documented density, depth or cavity-fill procedure.
+- **close-fitting internal lining air-control layer** (`AU-TC-INTERNAL-LINING-AIR-BARRIER`) — An internal plasterboard, sheet or panel lining installed with close-fitting junctions and sealed interruptions so it forms the selected air-control layer of the envelope.
+- **close-fitting lining air joint** (`AU-TC-CLOSE-FITTING-LINING-JOINT`) — A sheet, panel or trim joint detailed with sufficiently close fit and compatible joint treatment to continue an internal lining air-control layer while allowing required lining movement.
+- **compressible air-seal strip** (`AU-TC-COMPRESSIBLE-AIR-SEAL-STRIP`) — A resilient foam or rubber strip compressed between adjoining envelope components to close a linear air gap while allowing assembly tolerances and limited movement.
+- **continuous insulation layer** (`AU-TC-CONTINUOUS-INSULATION-LAYER`) — An insulation field installed with substantial continuity across structural framing members to reduce repeating heat-flow paths through those members.
+- **continuous soffit strip vent** (`AU-TC-SOFFIT-STRIP-VENT`) — A long perforated or louvred profile installed continuously or in long runs within a soffit to provide distributed low-level roof-space ventilation.
+- **continuous wall insulation assembly** (`AU-TC-CONTINUOUS-WALL-INSULATION-ASSEMBLY`) — A substantially uninterrupted insulation layer installed across the face of wall framing or masonry, with separately detailed fixings, joints, openings and cladding or lining supports.
+- **continuous-insulation fastener** (`AU-TC-CONTINUOUS-INSULATION-FASTENER`) — A screw, anchor or proprietary fastener sized to pass through a continuous insulation layer and securely connect a batten, clip, board or finish to the structural host.
+- **domestic exhaust duct** (`AU-TC-DOMESTIC-EXHAUST-DUCT`) — A rigid or flexible round or rectangular duct conveying room or appliance exhaust from an intake, hood or fan to an outdoor terminal or shaft connection.
+- **domestic exhaust duct fitting** (`AU-TC-DOMESTIC-EXHAUST-DUCT-FITTING`) — A bend, reducer, adaptor, branch, coupler, spigot or clamp that changes direction, size or connection within a domestic exhaust duct route.
+- **domestic outdoor exhaust terminal** (`AU-TC-OUTDOOR-EXHAUST-TERMINAL`) — A weather-protected wall or roof cowl, grille, hood or shutter at the outdoor end of a domestic exhaust duct or shaft.
+- **door or window perimeter compression seal** (`AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL`) — A continuous resilient gasket fitted around the head, jambs, sill or sash edges of an openable door or window and compressed when the panel closes.
+- **door threshold seal** (`AU-TC-DOOR-THRESHOLD-SEAL`) — A fixed sill or threshold profile with an integral or contacting gasket that works with the door bottom to restrict air and weather infiltration.
+- **door undercut make-up-air opening** (`AU-TC-DOOR-UNDERCUT-MAKEUP-AIR`) — The clear gap between the bottom of an internal door leaf and the finished floor or threshold, deliberately sized to transfer make-up air when the door is closed.
+- **door-bottom sweep seal** (`AU-TC-DOOR-BOTTOM-SWEEP`) — A surface-mounted flexible blade, brush or fin attached along the bottom of a door leaf to close the gap against the floor or threshold while the door is shut.
+- **double-sided membrane fixing tape** (`AU-TC-DOUBLE-SIDED-MEMBRANE-TAPE`) — An adhesive tape with bonding surfaces on both sides, used between a pliable membrane and supporting substrate or between sheet layers as part of a compatible membrane system.
+- **ducted kitchen rangehood exhaust assembly** (`AU-TC-RANGEHOOD-EXHAUST-ASSEMBLY`) — A kitchen hood containing filters, fan or remote-fan connection, capture canopy, duct spigot and controls, connected by ductwork to an outdoor discharge terminal.
+- **eave ventilation grille** (`AU-TC-EAVE-VENT`) — A discrete perforated or louvred vent fitted in an eave or soffit opening to admit outdoor air into a roof space while limiting entry of insects and debris.
+- **eaves insulation stop** (`AU-TC-EAVES-INSULATION-STOP`) — A board, mesh, strip or proprietary stop fixed at the ceiling perimeter to retain loose or batt insulation and prevent it obstructing eave ventilation openings.
+- **electrical outlet air-sealing gasket** (`AU-TC-ELECTRICAL-OUTLET-AIR-GASKET`) — A pre-cut compressible gasket installed behind an electrical outlet, switch plate or mounting flange to reduce air leakage through the lining cut-out.
+- **enclosed subfloor wall insulation assembly** (`AU-TC-SUBFLOOR-WALL-INSULATION-ASSEMBLY`) — An insulation layer installed to the walls enclosing a subfloor space when that wall, rather than or together with the suspended floor, forms part of the thermal boundary.
+- **evaporative-cooler self-closing damper** (`AU-TC-EVAPORATIVE-COOLER-DAMPER`) — A blade or flap assembly fitted to an evaporative cooler or its duct that closes when the cooler is inactive to limit air leakage from a heated or conditioned space.
+- **exhaust-fan backdraft damper** (`AU-TC-EXHAUST-FAN-BACKDRAFT-DAMPER`) — A gravity, spring or motor-assisted flap or blade at an exhaust fan or duct that opens with exhaust flow and closes to restrict reverse air leakage when the fan stops.
+- **exhaust-fan light-switch interlock** (`AU-TC-EXHAUST-LIGHT-SWITCH-INTERLOCK`) — A physical switch, relay or wiring-control arrangement that starts the room exhaust fan when the associated room light is switched on.
+- **exhaust-fan run-on timer** (`AU-TC-EXHAUST-RUN-ON-TIMER`) — An electrical control that keeps an exhaust fan operating for a preset period after the initiating light switch, occupancy control or manual switch is turned off.
+- **expanded-polystyrene insulation board** (`AU-TC-EPS-INSULATION-BOARD`) — A rigid cellular insulation board made from fused expanded-polystyrene beads and selected by grade, dimensions and documented building application.
+- **expanding foam air seal** (`AU-TC-EXPANDING-FOAM-AIR-SEAL`) — A site-dispensed foam used in a compatible, bounded envelope gap where it expands and cures to fill irregular voids and limit unintended airflow.
+- **external subfloor ventilation opening** (`AU-TC-EXTERNAL-SUBFLOOR-VENT-OPENING`) — A deliberate opening through an external subfloor wall that connects the underfloor space to outdoor air and may contain a brick vent, grille, mesh or ducted fitting.
+- **external wall thermal assembly** (`AU-TC-EXTERNAL-WALL-THERMAL-ASSEMBLY`) — The external-wall build-up as a thermal element, including structure, cavity or continuous insulation, membranes, cladding, lining, openings and junctions at floors, ceilings and adjoining walls.
+- **extruded-polystyrene insulation board** (`AU-TC-XPS-INSULATION-BOARD`) — A rigid closed-cell insulation board formed by extruding polystyrene and selected for documented wall, floor, slab-edge or below-slab conditions.
+- **fascia or over-fascia roof vent** (`AU-TC-FASCIA-VENT`) — A linear or discrete vent at the fascia, over-fascia or eaves edge that admits outdoor air beneath the roof covering while maintaining weather and pest protection.
+- **fibrous draught seal** (`AU-TC-FIBROUS-AIR-SEAL`) — A dense pile, felt or brush-like fibrous strip fitted to a moving or closing joint to reduce air leakage while permitting sliding or rotational movement.
+- **foil-faced insulation board** (`AU-TC-FOIL-FACED-INSULATION-BOARD`) — A factory-made rigid insulation board with one or more bonded foil or low-emittance composite facings, whose core and faces retain separate thermal, vapour and surface attributes.
+- **framed-wall cavity insulation assembly** (`AU-TC-FRAMED-WALL-CAVITY-INSULATION`) — Insulation cut or selected to fill nominated bays between wall studs and noggings while remaining fitted around services and openings without unintended gaps or compression.
+- **gable roof-space vent** (`AU-TC-GABLE-VENT`) — A louvred, screened or grille-covered vent installed through a gable wall to connect a roof space to outdoor air at an end or high-level location.
+- **glass mineral-wool insulation** (`AU-TC-GLASS-MINERAL-WOOL-INSULATION`) — Fibrous insulation manufactured mainly from glass and binder, supplied in batts, rolls, blankets or loose blow-in form for selected building applications.
+- **imperforate roof-light ceiling diffuser** (`AU-TC-ROOFLIGHT-CEILING-DIFFUSER`) — A closed translucent or opaque panel installed at ceiling or internal-lining level below a roof light to close the shaft opening while transmitting or diffusing light.
+- **inline exhaust duct fan** (`AU-TC-INLINE-DUCT-FAN`) — A fan body installed within a duct run away from the room intake, connected to upstream and downstream ducts and separately supported for service access.
+- **insulated plasterboard composite** (`AU-TC-INSULATED-PLASTERBOARD`) — A factory-laminated panel combining an internal plasterboard lining with a rigid insulation backing for direct or framed installation as one selected product.
+- **insulation infill piece** (`AU-TC-INSULATION-INFILL-PIECE`) — A deliberately cut piece of compatible insulation used to close the residual space beside framing, services, off-grid bays or board edges where a full standard unit does not fit.
+- **insulation retaining clip or hanger** (`AU-TC-INSULATION-CLIP-HANGER`) — A discrete clip, pin, hanger or retainer fixed to framing or substrate to support insulation boards, batts or blankets at documented points.
+- **insulation retaining wire** (`AU-TC-INSULATION-RETAINING-WIRE`) — A wire run or spring wire fitted across a framing bay to hold an insulation batt or blanket in its intended position.
+- **insulation support netting** (`AU-TC-INSULATION-SUPPORT-NETTING`) — A flexible mesh or net fixed beneath or behind bulk insulation to stop it sagging or falling from a floor, wall, ceiling or roof framing bay.
+- **insulation support strap** (`AU-TC-INSULATION-SUPPORT-STRAP`) — A narrow flexible strip fixed across framing members at repeated intervals to retain underfloor, wall or overhead insulation against sagging or falling.
+- **internal subfloor ventilation transfer opening** (`AU-TC-INTERNAL-SUBFLOOR-TRANSFER-OPENING`) — An unobstructed opening through an internal subfloor wall or support line that permits air to pass between underfloor compartments on the cross-ventilation route.
+- **loose-fill thermal insulation** (`AU-TC-LOOSE-FILL-INSULATION`) — Granular, nodular or fibrous insulation placed as loose material to a documented installed depth and density over a horizontal surface or within an approved contained cavity.
+- **masonry cavity insulation assembly** (`AU-TC-MASONRY-CAVITY-INSULATION-ASSEMBLY`) — Insulation positioned within a masonry cavity or against one leaf while preserving the nominated drainage, tie, flashing, weephole and clear-cavity functions of the wall.
+- **membrane cap washer** (`AU-TC-MEMBRANE-CAP-WASHER`) — A broad polymer or metal disc fitted under a membrane fastener head to spread load and reduce tearing of the pliable sheet.
+- **membrane flashing and penetration tape** (`AU-TC-MEMBRANE-FLASHING-TAPE`) — A wider or more conformable adhesive strip used to bridge membrane transitions, opening corners, penetrations or substrate changes where ordinary seam tape geometry is insufficient.
+- **metal roof thermal-break strip** (`AU-TC-ROOF-THERMAL-BREAK-STRIP`) — A continuous insulation strip installed between metal sheet roofing and supporting metal purlins, rafters or battens to interrupt direct conductive contact at each support line.
+- **metal suspended-floor thermal-break layer** (`AU-TC-FLOOR-THERMAL-BREAK-LAYER`) — A continuous insulation layer or strip arrangement placed across metal suspended-floor framing to reduce conductive bypass around insulation fitted between the members.
+- **metal wall-frame thermal-break strip** (`AU-TC-WALL-THERMAL-BREAK-STRIP`) — A continuous insulation strip fixed over metal studs, tracks or battens at contact lines with selected external cladding to reduce direct conductive heat flow through the frame.
+- **microperforated reflective membrane** (`AU-TC-MICROPERFORATED-REFLECTIVE-MEMBRANE`) — A reflective foil laminate manufactured with many small perforations to increase vapour permeance while retaining its documented reflective and other membrane properties.
+- **operable roof-light shutter** (`AU-TC-ROOFLIGHT-SHUTTER`) — A manually, mechanically or electronically operated panel or set of blades that can close across a roof light or shaft to restrict air transfer and heat flow.
+- **phenolic insulation board** (`AU-TC-PHENOLIC-INSULATION-BOARD`) — A rigid thermoset phenolic foam insulation board, usually faced, cut for framing, cavity, soffit, wall or floor applications supported by its selected product system.
+- **pitched-roof horizontal-ceiling insulation assembly** (`AU-TC-PITCHED-ROOF-HORIZONTAL-CEILING-INSULATION`) — An upper-envelope arrangement in which the primary insulation follows a horizontal ceiling below a pitched roof, usually leaving a separate roof space above.
+- **pliable building membrane** (`AU-TC-PLIABLE-BUILDING-MEMBRANE`) — A flexible sheet product installed as a building underlay or wrap and classified separately for water, air, vapour, duty, emittance and flammability functions.
+- **pliable building membrane system** (`AU-TC-PLIABLE-MEMBRANE-SYSTEM`) — A selected pliable sheet together with laps, tapes, patches, sleeves, fixings and terminations that performs documented water, air, vapour or reflective functions in a roof, wall or floor assembly.
+- **pliable membrane fastener** (`AU-TC-MEMBRANE-FASTENER`) — A nail, staple, screw or proprietary fixing used to hold a pliable membrane to framing or substrate until covered or permanently restrained by battens or cladding.
+- **pliable membrane penetration patch** (`AU-TC-MEMBRANE-PENETRATION-PATCH`) — A cut, preformed or stretchable membrane piece sealed over and around a local pipe, cable, bracket or damage opening to restore the membrane control layers.
+- **pliable membrane pipe sleeve or grommet** (`AU-TC-MEMBRANE-PIPE-SLEEVE`) — A preformed flexible boot or grommet fitted around a pipe, conduit or cable and bonded to the surrounding membrane to accommodate shape and limited movement.
+- **pliable membrane sealant adhesive** (`AU-TC-MEMBRANE-SEALANT-ADHESIVE`) — A compatible cartridge, bead or liquid adhesive used to bond and seal a pliable membrane to concrete, masonry, timber, metal, frames or another approved substrate at edges and transitions.
+- **pliable membrane seam overlap** (`AU-TC-MEMBRANE-SEAM-OVERLAP`) — The physical zone where the edge of one pliable membrane sheet extends over another sheet to create a drained, taped or otherwise documented joint.
+- **pliable membrane seam tape** (`AU-TC-MEMBRANE-SEAM-TAPE`) — A compatible single-sided adhesive tape applied over a membrane lap or butt joint to connect adjacent sheets for documented air, water or vapour-control continuity.
+- **polyester-fibre insulation** (`AU-TC-POLYESTER-INSULATION`) — A resilient non-woven polyester-fibre insulation product supplied in batts or rolls for documented wall, ceiling, roof or floor applications.
+- **polyisocyanurate insulation board** (`AU-TC-PIR-INSULATION-BOARD`) — A rigid closed-cell polyisocyanurate foam insulation board commonly manufactured with foil or other facings for selected roof, wall or floor systems.
+- **powered roof-space ventilator** (`AU-TC-POWERED-ROOF-VENT`) — An electrically or solar-powered fan assembly mounted through or on a roof to mechanically move air between the roof space and outdoors.
+- **reflective foil laminate membrane** (`AU-TC-REFLECTIVE-FOIL-LAMINATE`) — A pliable laminate with one or more low-emittance foil faces bonded to polymer, paper or reinforcement layers for selected reflective, water, air or vapour-control roles.
+- **reflective insulation** (`AU-TC-REFLECTIVE-INSULATION`) — A low-emittance surface or surfaces installed facing a documented airspace so the combined layer-and-airspace arrangement contributes thermal resistance.
+- **reflective insulation airspace** (`AU-TC-REFLECTIVE-AIRSPACE`) — A documented unfilled air volume adjoining a low-emittance insulation face and bounded by building layers so the combined arrangement can provide reflective thermal resistance.
+- **residential building air-sealing system** (`AU-TC-AIR-SEALING-SYSTEM`) — The connected internal linings, membranes, compressible seals, foams, caulking, dampers and opening seals that limit unintended air leakage through the conditioned-space boundary.
+- **residential thermal and condensation-control system** (`AU-TC-THERMAL-CONDENSATION-SYSTEM`) — The coordinated building-fabric, insulation, air, water and vapour-control layers plus ventilation and source-exhaust components used to manage heat flow, air leakage and moisture accumulation in a house.
+- **residential thermal envelope assembly** (`AU-TC-THERMAL-ENVELOPE-ASSEMBLY`) — The connected roof or ceiling, external wall, floor, glazing and door constructions that separate conditioned space from outdoor air, ground or an unconditioned adjoining space.
+- **rigid thermal insulation board** (`AU-TC-RIGID-INSULATION-BOARD`) — A dimensionally stable insulation panel cut and joined within or across an envelope assembly and held by fit, adhesive, fasteners, battens or the supported construction.
+- **rock mineral-wool insulation** (`AU-TC-ROCK-MINERAL-WOOL-INSULATION`) — Fibrous insulation manufactured from molten rock or similar mineral feedstock and supplied as batts, blankets or boards for documented thermal, acoustic or fire-system applications.
+- **roof and ceiling thermal assembly** (`AU-TC-ROOF-CEILING-THERMAL-ASSEMBLY`) — A roof or ceiling build-up containing the selected primary insulation, any continuous or reflective layer, required airspace, framing interruptions and coordinated service clearances.
+- **roof ridge vent** (`AU-TC-RIDGE-VENT`) — A continuous or segmented weather-protected vent installed along a roof ridge to discharge roof-space air through high-level openings beneath or beside the ridge covering.
+- **roof ventilation baffle** (`AU-TC-ROOF-VENTILATION-BAFFLE`) — A rigid or flexible tray, chute or deflector installed between rafters or trusses to hold insulation back and maintain an air path from an eave vent into the roof-space void.
+- **roof ventilator base flashing** (`AU-TC-ROOF-VENT-BASE-FLASHING`) — A shaped base, tray or curb flashing that connects a roof-mounted ventilator throat to the roof covering and underlay while directing water around the penetration.
+- **roof-light weatherproof seal** (`AU-TC-ROOFLIGHT-WEATHERSEAL`) — A gasket, compression strip or sealant system that closes an operable or fixed roof-light interface against air and weather infiltration when shut or installed.
+- **roof-space ventilation opening** (`AU-TC-ROOF-VENTILATION-OPENING`) — A deliberate opening through eaves, fascia, gable, ridge or roof surface that connects the roof-space void to outdoor air and retains a measured net free area after fittings and screens.
+- **roof-space ventilation system** (`AU-TC-ROOF-SPACE-VENTILATION-SYSTEM`) — A coordinated roof-space air path using distributed low-level, high-level or opposing-end openings, their vents, screens, flashings and insulation baffles to exchange air with outdoors.
+- **room exhaust and make-up-air system** (`AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM`) — A mechanical source-exhaust arrangement comprising a room intake or fan, duct or shaft, outdoor terminal, controls and a deliberate path for replacement air.
+- **room make-up-air opening** (`AU-TC-MAKEUP-AIR-OPENING`) — A deliberate opening from an adjacent room or outdoor-air path that supplies replacement air to a room while its exhaust system operates.
+- **room transfer-air grille** (`AU-TC-TRANSFER-AIR-GRILLE`) — A framed louvred, perforated or baffled grille installed through a wall or door to permit make-up or transfer air between rooms while providing a finished opening.
+- **slab-on-ground insulation assembly** (`AU-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY`) — The coordinated insulation installed beneath and or around the perimeter of a concrete slab-on-ground, including board joints, edge protection and moisture and termite interfaces.
+- **soffit insulation board** (`AU-TC-SOFFIT-INSULATION-BOARD`) — A rigid or faced insulation board mechanically fixed to the underside of a concrete slab, floor or roof soffit as a visible or lined continuous thermal layer.
+- **solid-fuel chimney or flue damper** (`AU-TC-CHIMNEY-FLUE-DAMPER`) — A manually or mechanically operated flap or plate fitted within the chimney or flue of an open solid-fuel appliance and capable of closing the passage when permitted.
+- **sprayed foam insulation layer** (`AU-TC-SPRAYED-FOAM-INSULATION`) — A cellular insulation material mixed or dispensed on site and sprayed onto or into a compatible substrate or cavity where it expands or cures into a continuous adhered layer.
+- **stacked insulation layers** (`AU-TC-STACKED-INSULATION-LAYERS`) — Two or more insulation layers placed directly over one another with controlled orientation and joint staggering so an upper layer can cover framing or joints in the layer below.
+- **static roof ventilator** (`AU-TC-STATIC-ROOF-VENT`) — A non-powered roof-mounted cowl, hood or vent body that provides a weather-protected opening for natural air exchange between roof space and outdoors.
+- **subfloor brick vent** (`AU-TC-SUBFLOOR-BRICK-VENT`) — A perforated masonry-sized metal, terracotta, concrete or polymer vent unit built into a subfloor wall in place of one or more masonry units.
+- **subfloor ground vapour membrane** (`AU-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE`) — An impervious sheet laid over exposed ground beneath a suspended floor, with lapped or sealed joints and perimeter treatment, to reduce water vapour entering the subfloor space from soil.
+- **subfloor ventilation grille** (`AU-TC-SUBFLOOR-VENT-GRILLE`) — A framed louvred, perforated or bar grille fixed over a subfloor wall opening to protect and finish it while preserving documented free open area.
+- **subfloor ventilation space** (`AU-TC-SUBFLOOR-SPACE`) — The connected void between ground and the underside of a suspended floor, bounded by external and internal subfloor walls and accessible to distributed ventilation openings.
+- **subfloor ventilation system** (`AU-TC-SUBFLOOR-VENTILATION-SYSTEM`) — A set of external and internal wall openings, grilles or brick vents arranged to provide unobstructed cross-ventilation through the space below a suspended floor.
+- **subfloor wall insulation layer** (`AU-TC-SUBFLOOR-WALL-INSULATION-LAYER`) — The installed insulation field on or within a wall enclosing a subfloor space, stopped and detailed around ventilation openings, access points and the floor and ground junctions.
+- **suspended floor insulation assembly** (`AU-TC-SUSPENDED-FLOOR-INSULATION-ASSEMBLY`) — Insulation and its wind-wash facing, restraints or continuous layers installed within or across a suspended timber, steel or concrete floor at the thermal boundary.
+- **thermal insulation batt** (`AU-TC-INSULATION-BATT`) — A pre-cut semi-rigid or resilient rectangular insulation unit sized for repeated placement between framing members or, for selected products, across them.
+- **thermal insulation blanket or roll** (`AU-TC-INSULATION-BLANKET-ROLL`) — A flexible insulation product supplied in a continuous roll or long blanket and cut to length across roof, ceiling, wall or floor supports.
+- **thermal isolation pad** (`AU-TC-THERMAL-ISOLATION-PAD`) — A discrete low-conductivity pad installed between metal brackets, plates, framing or other local contacts to reduce heat flow through a concentrated connection.
+- **thermal spacer batten** (`AU-TC-THERMAL-SPACER-BATTEN`) — A low-conductivity or thermally improved batten installed over continuous insulation to create a support or service cavity while reducing direct metal-to-metal or finish-to-frame contact.
+- **thermally broken support bracket** (`AU-TC-THERMALLY-BROKEN-BRACKET`) — A cladding or lining support bracket incorporating a low-conductivity section, pad or geometry intended to reduce heat flow between its inner and outer attachment points.
+- **under-slab insulation board** (`AU-TC-UNDER-SLAB-INSULATION-BOARD`) — A load-compatible rigid insulation board installed below a concrete slab-on-ground over prepared support and coordinated with membranes, joints, thickenings and service penetrations.
+- **underfloor insulation layer** (`AU-TC-UNDERFLOOR-INSULATION-LAYER`) — The installed insulation field fitted between or across suspended-floor members and held against gravity, wind-wash and service interruptions by its product facing or separate restraints.
+- **underfloor insulation wind-wash facing** (`AU-TC-INSULATION-WINDWASH-FACING`) — A factory-applied or separate air-resistant facing on exposed underfloor insulation that limits outdoor air moving through or across the fibrous insulation.
+- **vapour-barrier membrane** (`AU-TC-VAPOUR-BARRIER-MEMBRANE`) — A vapour-control membrane with low documented vapour permeance, installed only where the climate, layer order and condensation strategy support restricting diffusion.
+- **vapour-control membrane** (`AU-TC-VAPOUR-CONTROL-MEMBRANE`) — A pliable membrane selected and positioned for its documented resistance or openness to water-vapour diffusion through a building assembly.
+- **vapour-permeable membrane** (`AU-TC-VAPOUR-PERMEABLE-MEMBRANE`) — A vapour-control membrane with documented vapour openness that can permit outward or inward drying while performing any separately classified water or air-control functions.
+- **ventilated roof-space void** (`AU-TC-ROOF-SPACE-VENTILATION-VOID`) — The connected air volume above the primary insulation or qualifying sarking and below the roof covering through which distributed outdoor-air ventilation can pass.
+- **ventilating roof tile** (`AU-TC-ROOF-TILE-VENT`) — A purpose-made or matched-profile roof tile containing a protected ventilation opening that replaces a normal field tile and connects the tiled roof space to outdoors.
+- **ventilation-opening mesh screen** (`AU-TC-VENT-MESH-SCREEN`) — A corrosion-resistant mesh fitted over or within a roof, gable, eave or subfloor ventilation opening to restrict insects, vermin, debris or embers as required while reducing net free area.
+- **venting clothes-dryer exhaust assembly** (`AU-TC-VENTING-DRYER-EXHAUST-ASSEMBLY`) — A connection, duct and outdoor terminal carrying warm moist exhaust from a venting clothes dryer directly to outdoor air.
+- **wall cavity insulation layer** (`AU-TC-WALL-CAVITY-INSULATION-LAYER`) — The complete insulation field occupying nominated wall cavities or framing bays, represented independently from the material and unit form used to create it.
+- **wall-mounted room exhaust fan** (`AU-TC-WALL-EXHAUST-FAN`) — A fan assembly mounted through or on a wall with a room-side intake and an outdoor terminal, duct sleeve or connected duct on the discharge side.
+- **water-control pliable membrane** (`AU-TC-WATER-CONTROL-MEMBRANE`) — A pliable building membrane classified and detailed to resist or direct liquid water within a wall, roof or floor assembly while retaining its separate vapour and air properties.
+- **wind-driven rotary roof ventilator** (`AU-TC-ROTARY-ROOF-VENT`) — A roof-mounted natural ventilator with a wind-driven rotating turbine head connected to a roof-space throat and flashed roof base.
+- **window and door perimeter insulation** (`AU-TC-OPENING-PERIMETER-INSULATION`) — Compressible or cut insulation fitted in the available gap between a window or door assembly and adjoining wall framing to continue the wall thermal layer without preventing required movement or drainage.
+
+## Cross-discipline links
+
+- `AU-TC-ACCESS-HATCH-WEATHERSEAL` commonly used with `AU-HA-CEILING-ACCESS-PANEL-ASSEMBLY`
+- `AU-TC-ARCHITRAVE-AIR-SEAL` commonly used with `AU-ID-INTERNAL-DOOR-ARCHITRAVE-SET`
+- `AU-TC-CHIMNEY-FLUE-DAMPER` commonly used with `AU-AN-FIREPLACE-THROAT`
+- `AU-TC-CORNICE-AIR-SEAL` commonly used with `AU-HA-INTERNAL-CEILING-CORNICE`
+- `AU-TC-DOOR-THRESHOLD-SEAL` commonly used with `AU-ED-EXTERNAL-DOOR-THRESHOLD`
+- `AU-TC-DOOR-THRESHOLD-SEAL` commonly used with `AU-LH-LIVABLE-ENTRANCE-THRESHOLD-ASSEMBLY`
+- `AU-TC-EVAPORATIVE-COOLER-DAMPER` commonly used with `AU-ME-EVAPORATIVE-COOLER-ROOF-DROPPER`
+- `AU-TC-EVAPORATIVE-COOLER-DAMPER` commonly used with `AU-ME-EVAPORATIVE-COOLING-SYSTEM`
+- `AU-TC-EVAPORATIVE-COOLER-DAMPER` commonly used with `AU-ME-PACKAGED-DUCTED-EVAPORATIVE-COOLER`
+- `AU-TC-GLASS-MINERAL-WOOL-INSULATION` commonly used with `AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER`
+- `AU-TC-MEMBRANE-SEAM-TAPE` commonly used with `AU-CL-WEATHER-BARRIER-SEAM-TAPE`
+- `AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL` commonly used with `AU-ED-EXTERNAL-DOOR-WEATHERING-SYSTEM`
+- `AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL` commonly used with `AU-WD-GLAZED-DOOR-ASSEMBLY`
+- `AU-TC-OPENING-PERIMETER-COMPRESSION-SEAL` commonly used with `AU-WD-WINDOW-ASSEMBLY`
+- `AU-TC-OPENING-PERIMETER-INSULATION` commonly used with `AU-WD-GLAZED-DOOR-ASSEMBLY`
+- `AU-TC-OPENING-PERIMETER-INSULATION` commonly used with `AU-WD-WINDOW-ASSEMBLY`
+- `AU-TC-OUTDOOR-EXHAUST-TERMINAL` commonly used with `AU-ME-VENTILATION-EXHAUST-TERMINAL`
+- `AU-TC-PLIABLE-BUILDING-MEMBRANE` commonly used with `AU-CL-WALL-WEATHER-BARRIER`
+- `AU-TC-PLIABLE-BUILDING-MEMBRANE` commonly used with `AU-RO-ROOF-SARKING`
+- `AU-TC-POLYESTER-INSULATION` commonly used with `AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER`
+- `AU-TC-ROCK-MINERAL-WOOL-INSULATION` commonly used with `AU-HA-ACOUSTIC-CAVITY-INSULATION-LAYER`
+- `AU-TC-ROOM-EXHAUST-MAKEUP-AIR-SYSTEM` commonly used with `AU-ME-WHOLE-HOUSE-HEAT-RECOVERY-VENTILATION-SYSTEM`
+- `AU-TC-SLAB-ON-GROUND-INSULATION-ASSEMBLY` commonly used with `AU-CF-SLAB-EDGE-INSULATION`
+- `AU-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE` commonly used with `AU-CF-DAMP-PROOFING-MEMBRANE`
+- `AU-TC-SUBFLOOR-GROUND-VAPOUR-MEMBRANE` commonly used with `AU-DB-LOW-DECK-DRAINAGE-AGGREGATE-LAYER`
+- `AU-TC-SUBFLOOR-VENTILATION-SYSTEM` commonly used with `AU-DB-OPEN-JOINTED-DECK-ASSEMBLY`
+- `AU-TC-WATER-CONTROL-MEMBRANE` commonly used with `AU-CL-WALL-WEATHER-BARRIER`
