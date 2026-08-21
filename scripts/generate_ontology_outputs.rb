@@ -227,6 +227,52 @@ def write_glossary(path, objects, title = "Australian building-object glossary")
   File.write(path, lines.join("\n") + "\n", mode: "w", encoding: "UTF-8")
 end
 
+def material_id(name)
+  slug = name.downcase.gsub("&", "and").gsub(/[^a-z0-9]+/, "-").gsub(/^-|-$/, "")
+  "AU-MAT-#{slug.upcase}"
+end
+
+def build_materials(objects)
+  indexed = {}
+  objects.each do |object|
+    object.fetch("typical_materials").each do |name|
+      material_name = name.strip
+      next if material_name.empty?
+
+      record = indexed[material_name.downcase] ||= {
+        "id" => material_id(material_name),
+        "name" => material_name,
+        "search_text" => material_name,
+        "object_ids" => [],
+        "disciplines" => [],
+        "categories" => [],
+        "object_types" => [],
+        "source_ids" => [],
+        "review_statuses" => {}
+      }
+      record.fetch("object_ids") << object.fetch("id")
+      record.fetch("disciplines") << object.fetch("discipline")
+      record.fetch("categories") << object.fetch("category")
+      record.fetch("object_types") << object.fetch("object_type")
+      record.fetch("source_ids").concat(object.fetch("claims").flat_map { |claim| claim.fetch("source_ids") })
+      status = object.fetch("review_status")
+      record.fetch("review_statuses")[status] = record.fetch("review_statuses").fetch(status, 0) + 1
+    end
+  end
+
+  indexed.values.sort_by { |material| material.fetch("name").downcase }.map do |material|
+    material.merge(
+      "object_count" => material.fetch("object_ids").uniq.length,
+      "object_ids" => material.fetch("object_ids").uniq.sort,
+      "disciplines" => material.fetch("disciplines").uniq.sort,
+      "categories" => material.fetch("categories").uniq.sort,
+      "object_types" => material.fetch("object_types").uniq.sort,
+      "source_ids" => material.fetch("source_ids").uniq.sort,
+      "review_statuses" => material.fetch("review_statuses").sort.to_h
+    )
+  end
+end
+
 def discipline_metrics(objects, relationships, source_lookup)
   object_ids = objects.map { |object| object.fetch("id") }
   source_ids = objects.flat_map { |object| object.fetch("claims").flat_map { |claim| claim.fetch("source_ids") } }.uniq
@@ -406,6 +452,7 @@ assembly_ids = catalogue_entries.filter_map do |entry, _catalogue|
 end.to_set
 objects = catalogue_entries.map { |entry, catalogue| build_object(entry, catalogue, assembly_ids) }.sort_by { |object| object.fetch("id") }
 relationships = build_relationships(catalogue_entries.map(&:first))
+materials = build_materials(objects)
 
 FileUtils.mkdir_p(EXPORT_DIR)
 ontology = {
@@ -420,6 +467,14 @@ ontology = {
 write_json(File.join(EXPORT_DIR, "ontology.json"), ontology)
 File.write(File.join(EXPORT_DIR, "ontology.jsonl"), objects.map { |object| JSON.generate(object) }.join("\n") + "\n", mode: "w", encoding: "UTF-8")
 write_json(File.join(EXPORT_DIR, "relationships.json"), {"schema_version" => "0.1.0", "relationships" => relationships})
+write_json(File.join(EXPORT_DIR, "materials.json"), {
+  "schema_version" => "0.1.0",
+  "title" => "Buildgrid Australian material type index",
+  "generated_at" => GENERATED_AT,
+  "material_count" => materials.length,
+  "materials" => materials
+})
+File.write(File.join(EXPORT_DIR, "materials.jsonl"), materials.map { |material| JSON.generate(material) }.join("\n") + "\n", mode: "w", encoding: "UTF-8")
 write_glossary(File.join(EXPORT_DIR, "glossary.md"), objects)
 write_review_csv(File.join(EXPORT_DIR, "unresolved_review.csv"), review)
 write_source_audit(File.join(EXPORT_DIR, "source_audit.csv"), sources_registry)

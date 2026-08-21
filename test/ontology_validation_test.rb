@@ -13,6 +13,7 @@ class OntologyValidationTest < Minitest::Test
   def setup
     @ontology = read_json("exports/ontology.json")
     @relationships = read_json("exports/relationships.json").fetch("relationships")
+    @materials = read_json("exports/materials.json").fetch("materials")
     @standards = read_json("data/standards/standards_registry.json").fetch("standards")
     @sources = read_json("data/sources/source_registry.json").fetch("sources")
     @sketchup_tools = read_json("config/sketchup_tool_definitions.json")
@@ -58,6 +59,25 @@ class OntologyValidationTest < Minitest::Test
         refute_empty claim.fetch("source_ids")
         assert_empty claim.fetch("source_ids") - source_ids
       end
+    end
+  end
+
+  def test_material_type_index_is_exported_for_app_consumers
+    object_ids = @ontology.fetch("objects").map { |object| object.fetch("id") }
+    material_names = @materials.map { |material| material.fetch("name") }
+
+    assert_operator @materials.length, :>=, 500
+    assert_includes material_names, "structural timber"
+    assert_includes material_names, "concrete"
+    assert_includes material_names, "galvanised steel"
+
+    @materials.each do |material|
+      assert_match(/\AAU-MAT-[A-Z0-9-]+\z/, material.fetch("id"))
+      assert_equal material.fetch("object_ids").uniq.sort, material.fetch("object_ids")
+      assert_empty material.fetch("object_ids") - object_ids
+      assert_equal material.fetch("object_ids").length, material.fetch("object_count")
+      refute_empty material.fetch("disciplines")
+      refute_empty material.fetch("source_ids")
     end
   end
 

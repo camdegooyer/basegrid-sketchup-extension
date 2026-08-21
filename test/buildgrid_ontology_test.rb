@@ -13,8 +13,17 @@ class BuildgridOntologyTest < Minitest::Test
   def test_loads_tool_manifest_and_generated_ontology
     assert_operator @ontology.objects.length, :>=, 3_500
     assert_operator @ontology.relationships.length, :>=, 8_700
+    assert_operator @ontology.materials.length, :>=, 500
     assert_operator @ontology.tool_ids.length, :>=, 10
     assert_includes @ontology.tool_ids, "skp_tool_timber_wall_frame"
+  end
+
+  def test_material_index_loads_for_app_surfaces
+    material = @ontology.material("AU-MAT-STRUCTURAL-TIMBER")
+
+    assert_equal "structural timber", material.fetch("name")
+    assert_includes material.fetch("disciplines"), "timber_framing"
+    assert_includes material.fetch("object_ids"), "AU-TF-COMMON-STUD"
   end
 
   def test_wall_frame_tool_resolves_required_and_optional_objects

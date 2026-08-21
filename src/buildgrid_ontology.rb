@@ -4,22 +4,25 @@ require "json"
 
 module Buildgrid
   class Ontology
-    attr_reader :objects, :relationships, :tool_manifest
+    attr_reader :objects, :relationships, :materials, :tool_manifest
 
     def self.load(root: File.expand_path("..", __dir__))
       new(
         objects_path: File.join(root, "exports", "ontology.json"),
         relationships_path: File.join(root, "exports", "relationships.json"),
+        materials_path: File.join(root, "exports", "materials.json"),
         tool_manifest_path: File.join(root, "config", "sketchup_tool_definitions.json")
       )
     end
 
-    def initialize(objects_path:, relationships_path:, tool_manifest_path:)
+    def initialize(objects_path:, relationships_path:, materials_path:, tool_manifest_path:)
       @objects = read_json(objects_path).fetch("objects")
       @relationships = read_json(relationships_path).fetch("relationships")
+      @materials = read_json(materials_path).fetch("materials")
       @tool_manifest = read_json(tool_manifest_path)
       @objects_by_id = @objects.to_h { |object| [object.fetch("id"), object] }
       @relationships_by_from_id = @relationships.group_by { |relationship| relationship.fetch("from_id") }
+      @materials_by_id = @materials.to_h { |material| [material.fetch("id"), material] }
       @tools_by_id = @tool_manifest.fetch("tools").to_h { |tool| [tool.fetch("id"), tool] }
 
       validate_tool_references!
@@ -35,6 +38,10 @@ module Buildgrid
 
     def object(object_id)
       @objects_by_id.fetch(object_id)
+    end
+
+    def material(material_id)
+      @materials_by_id.fetch(material_id)
     end
 
     def related_from(object_id, relationship: nil)

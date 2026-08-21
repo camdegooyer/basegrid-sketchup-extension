@@ -16,7 +16,7 @@ The external-door slice adds 237 physical objects and assemblies covering solid 
 
 The decks-and-balconies slice adds 219 objects and assemblies covering open-jointed and waterproof platforms, framing and connections, timber and manufactured decking, external membranes and terminations, bonded tile finishes, point and linear drainage, scuppers and overflows, pedestal-supported pavers and deck tiles, built-in planters, under-deck drainage and balcony soffit interfaces. Housing Provisions Part 12.3 remains a narrow waling-plate attachment route; NCC Volume Two H2D8 and AS 4654 Parts 1 and 2 provide the external-waterproofing spine where applicable.
 
-Start with the [research guide](docs/ONTOLOGY_RESEARCH_GUIDE.md), the [drawing-ontology coverage note](docs/DRAWING_ONTOLOGY_COVERAGE.md), the generated [plain-English glossary](exports/glossary.md), the [SketchUp tool definitions](docs/SKETCHUP_TOOL_DEFINITIONS.md), and the [NCC Housing Provisions standards map](exports/ncc_housing_standards_map.md).
+Start with the [research guide](docs/ONTOLOGY_RESEARCH_GUIDE.md), the [drawing-ontology coverage note](docs/DRAWING_ONTOLOGY_COVERAGE.md), the generated [plain-English glossary](exports/glossary.md), the generated [material type index](exports/materials.json), the [SketchUp tool definitions](docs/SKETCHUP_TOOL_DEFINITIONS.md), and the [NCC Housing Provisions standards map](exports/ncc_housing_standards_map.md).
 
 ## Generate and validate
 
@@ -27,7 +27,7 @@ ruby scripts/generate_ontology_outputs.rb
 ruby scripts/validate_ontology.rb
 ```
 
-The current export contains 3,570 objects and assemblies, 8,836 deduplicated directional relationships, 213 standards, 547 sources, claim-level provenance and a separate unresolved-terminology queue. Thirty discipline folders can also be consumed independently. It is research and drawing metadata, not engineering or compliance advice.
+The current export contains 3,570 objects and assemblies, 8,836 deduplicated directional relationships, 5,707 indexed material labels, 213 standards, 547 sources, claim-level provenance and a separate unresolved-terminology queue. Thirty discipline folders can also be consumed independently. It is research and drawing metadata, not engineering or compliance advice.
 
 ## Repository map
 
@@ -35,7 +35,7 @@ The current export contains 3,570 objects and assemblies, 8,836 deduplicated dir
 - `data/` — reviewed catalogues and source, standards and review registries.
 - `schemas/` — portable JSON record contracts.
 - `scripts/` — deterministic generation and validation.
-- `exports/` — generated ontology, relationships, glossary, standards map and audits.
+- `exports/` — generated ontology, material index, relationships, glossary, standards map and audits.
 - `docs/` — confirmed decisions and the research guide.
 - `src/` — product code for consuming the ontology and, later, SketchUp command implementations.
 - `test/` — focused checks for implemented behaviour.
