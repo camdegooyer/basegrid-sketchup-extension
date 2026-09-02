@@ -27,3 +27,36 @@
 - Steel-frame member roles remain separate from section shapes. A C-section can be a stud, joist, bearer or rafter, and the selected proprietary system supplies the actual profile and capacities.
 - Empty service holes and the grommets that line them are separate physical objects; a tool must not create extra holes without the frame design permitting them.
 - NASH Standard Part 2 and ISO 8336 are recorded as directly referenced technical documents alongside, but not mislabelled as, the 62 directly referenced AS and AS/NZS documents.
+
+## 2026-08-22 — First SketchUp tool slice
+
+- The first Buildgrid drawing tool is a basic concrete slab created from one selected horizontal SketchUp face.
+- The slab is generated below the source face, with the source face retained.
+- Face openings are retained in the generated slab.
+- The tool remembers the last selected compatible concrete material.
+- The concrete selector offers the synced materials belonging to compatible material types; it is not limited to a hard-coded list of concrete mixes.
+- Concrete takeoff is included in the first slice and is measured in cubic metres from the generated net slab volume.
+- Generated material-carrier groups are tagged according to their material role; the globally unique role/tag naming and folder mapping remain to be defined.
+- `Buildgrid` is the software name only and is not used as a prefix or folder name for model tags, groups, materials or takeoff categories.
+- Tag-folder organisation is editable and user-specific, seeded from a product default.
+- Buildgrid will not adopt or reproduce SketchOB's tag and estimating-folder hierarchy.
+- The first slab role accepts active materials under the web Material Type named `Concrete` when that type has profile `bulk` and UOM `m3`.
+- The first generated-role ID is `concrete.slab_from_face.slab_body`; its initial visible tag is `Slab | Concrete` and its initial user-editable default folder is `Structure`.
+- A user's folder preference applies when a role tag is first created. Existing model tag placement is not silently changed when another user opens the model.
+- SketchUp material sync uses a revocable connection token created in the signed-in web app and pasted once into the extension.
+- The extension validates a connection token by syncing before saving it. Disconnecting removes the token while retaining the last valid offline cache.
+- A model-wide, undoable toolbar command switches generated material carriers between their synced model and display textures without changing material bindings or takeoff.
+- The primary SketchUp connection uses OAuth 2.1 Authorization Code with PKCE S256 as a public desktop client, with a fixed registered loopback callback. No client secret is embedded in the extension.
+- Existing revocable `bgc_` connection tokens remain supported as a migration fallback until OAuth is confirmed in production.
+- OAuth session data is stored atomically in the user's Buildgrid application-data directory rather than as a long SketchUp preference value.
+- Model and display appearances may each be an image texture or solid colour; the appearance switch supports both without changing material identity or takeoff.
+
+## 2026-08-27 — Web-managed takeoff groups
+
+- The organisation's web library is the source of truth for takeoff groups and the groups available to each generated role.
+- SketchUp syncs and caches takeoff groups and generated-role allowlists alongside materials; active permitted groups remain usable from the last valid offline cache.
+- The concrete tool presents the permitted takeoff groups as a single-select dropdown at the top; a user may select one group or leave it unassigned, and the last selection is remembered locally.
+- Generated takeoff records store stable group IDs with snapshot names so saved models remain understandable offline.
+- Existing takeoff records without groups remain valid and appear as Unassigned.
+- Overall takeoff totals count each generated object once; grouped views count it once in each group to which it was assigned.
+- Uploading model quantities to web projects is a separate future workflow and is not implied by library sync.

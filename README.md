@@ -6,6 +6,28 @@ The capstone drawing-capture layer adds broad SketchUp object families for the m
 
 The internal-floor slice adds structural sheets and preparation, timber, laminate, hybrid, bamboo, carpet, resilient sheet and modular flooring, cork, dry-area tile and stone, adhesives, underlays, seams, coving, skirtings and transitions.
 
+## SketchUp extension: first tool slice
+
+The extension entry point is `buildgrid.rb`. Its first vertical slice provides:
+
+- authenticated materials, takeoff-groups and generated-role configuration sync with a last-known-good local cache;
+- selection of active `Concrete` / `bulk` / `m3` web materials;
+- a face-based slab generated below one selected horizontal face while retaining the source face and its openings;
+- stable tool, generated-role and material UUID metadata on the slab group;
+- a user-specific default tag folder, with the initial `Slab | Concrete` tag under `Structure`;
+- selectable web-managed takeoff groups stored on each slab, plus grouped totals, refresh and CSV export; and
+- a model-wide toolbar command that switches generated objects between synced model and display textures without changing takeoff.
+
+The web endpoint required by the extension is specified in [the material sync contract](docs/MATERIAL_SYNC_CONTRACT.md).
+
+For local SketchUp development, install the direct loader for the installed SketchUp version:
+
+```powershell
+.\scripts\install_dev_loader.ps1 -SketchUpVersion 2026
+```
+
+Restart SketchUp after installing the loader. The commands appear under **Extensions > Buildgrid**. **Materials > Connect** opens the browser-based OAuth connection. **Connect with Token** remains available during migration.
+
 The decorative-finishes slice adds 105 physical objects and assemblies covering substrate repairs, primers, sealers, undercoats, opaque and clear coating films, texture coatings, timber oils and stains, lead-paint encapsulation fields, wallpaper materials and adhesives, installed drops and mural panels, seams, corners and trimmed edges. Decorative paint remains separate from structural-steel protection, fire coatings, wet-area membranes and external-wall weatherproofing evidence.
 
 The concrete-structures slice adds 186 physical objects and assemblies covering concrete constituents, cast-in-place frames and suspended floors, piles and pile caps, reinforcement products and arrangements, joints, waterstops, embeds, blockouts, post-tensioning, prefabricated concrete and formwork or falsework. It keeps permanent structure, temporary works and lifecycle states separate, and does not infer structural adequacy from drawn geometry.
