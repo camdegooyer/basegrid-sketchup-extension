@@ -1,15 +1,15 @@
-# HQ BuildGrid — Mac setup
+# HQ Basegrid — Mac setup
 
-You have been invited to collaborate on the HQ BuildGrid repository with write access.
+You have been invited to collaborate on the HQ Basegrid repository with write access.
 
-- Repository: https://github.com/camdegooyer/HQ-BuildGrid
+- Repository: https://github.com/camdegooyer/HQ-Basegrid
 - Pending invitations: https://github.com/settings/repositories
 - GitHub CLI: https://cli.github.com/
 - GitHub CLI quickstart: https://docs.github.com/en/github-cli/github-cli/quickstart
 
 ## 1. Accept the invitation
 
-Sign in to GitHub as **DPerrem**, open the pending invitations link above, and accept the invitation to **camdegooyer/HQ-BuildGrid**.
+Sign in to GitHub as **DPerrem**, open the pending invitations link above, and accept the invitation to **camdegooyer/HQ-Basegrid**.
 
 ## 2. Open Terminal on the Mac
 
@@ -51,8 +51,8 @@ Choose:
 ```sh
 mkdir -p ~/Developer
 cd ~/Developer
-gh repo clone camdegooyer/HQ-BuildGrid
-cd HQ-BuildGrid
+gh repo clone camdegooyer/HQ-Basegrid
+cd HQ-Basegrid
 git status
 open .
 ```
@@ -60,13 +60,13 @@ open .
 The repository will be located at:
 
 ```text
-~/Developer/HQ-BuildGrid
+~/Developer/HQ-Basegrid
 ```
 
 To return to it later:
 
 ```sh
-cd ~/Developer/HQ-BuildGrid
+cd ~/Developer/HQ-Basegrid
 ```
 
 You can also open Terminal at an existing Finder folder using **right-click → Services → New Terminal at Folder**.
@@ -79,7 +79,7 @@ Before changing anything, read:
 - `docs/DECISIONS.md`
 - `README.md`
 
-This is a fresh-start project. Make one small, complete change at a time and do not import earlier SketchOB or BuildGrid code unless Cam explicitly approves it.
+This is a fresh-start project. Make one small, complete change at a time and do not import earlier SketchOB or Basegrid code unless Cam explicitly approves it.
 
 ## 6. Start a change safely
 

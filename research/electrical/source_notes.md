@@ -608,4 +608,4 @@ This electrical pass is broad enough to begin SketchUp tool design, but it is no
 - state-by-state legal adoption tables for every electrical standard; and
 - network-specific service rules outside the NSW example used for detailed public service anatomy.
 
-Each should be a separate small research slice. They should extend the current object graph instead of importing assumptions from older Buildgrid or SketchOB work.
+Each should be a separate small research slice. They should extend the current object graph instead of importing assumptions from older Basegrid or SketchOB work.

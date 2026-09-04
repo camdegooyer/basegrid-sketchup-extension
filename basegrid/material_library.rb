@@ -7,11 +7,11 @@ require "net/http"
 require "tempfile"
 require "uri"
 
-module Buildgrid
+module Basegrid
   class MaterialLibrary
     SCHEMA_VERSION = 1
-    DEFAULT_URL = "https://buildgrid.overlandbuilders.co/api/v1/material-library"
-    CONNECTION_URL = "https://buildgrid.overlandbuilders.co/app/connections"
+    DEFAULT_URL = "https://basegrid.overlandbuilders.co/api/v1/material-library"
+    CONNECTION_URL = "https://basegrid.overlandbuilders.co/app/connections"
     MAX_TEXTURE_BYTES = 20 * 1024 * 1024
     IMAGE_CONTENT_TYPES = {
       "image/jpeg" => ".jpg",
@@ -52,7 +52,7 @@ module Buildgrid
         request = Net::HTTP::Get.new(uri.request_uri)
         request["Authorization"] = "Bearer #{token}" unless token.to_s.empty?
         request["If-None-Match"] = etag unless etag.to_s.empty?
-        request["User-Agent"] = "Buildgrid-SketchUp/#{Buildgrid::EXTENSION_VERSION}"
+        request["User-Agent"] = "Basegrid-SketchUp/#{Basegrid::EXTENSION_VERSION}"
 
         response = Net::HTTP.start(
           uri.host,
@@ -89,11 +89,11 @@ module Buildgrid
 
     def self.default_data_directory
       if ENV["LOCALAPPDATA"] && !ENV["LOCALAPPDATA"].empty?
-        File.join(ENV["LOCALAPPDATA"], "Buildgrid")
+        File.join(ENV["LOCALAPPDATA"], "Basegrid")
       elsif RUBY_PLATFORM.include?("darwin")
-        File.expand_path("~/Library/Application Support/Buildgrid")
+        File.expand_path("~/Library/Application Support/Basegrid")
       else
-        File.expand_path("~/.buildgrid")
+        File.expand_path("~/.basegrid")
       end
     end
 

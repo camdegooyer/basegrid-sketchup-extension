@@ -3,9 +3,9 @@
 require "json"
 require "csv"
 
-module Buildgrid
+module Basegrid
   module Takeoff
-    DICTIONARY = "Buildgrid"
+    DICTIONARY = "Basegrid"
     KEY = "takeoff_json"
     SCHEMA_VERSION = 2
 

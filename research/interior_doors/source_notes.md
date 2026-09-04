@@ -116,7 +116,7 @@ These four standards are not silently promoted into direct national Housing Prov
 | AS 1905.1:2015 | Fire-resistant doorset evidence. | Ordinary solid-core leaves and ordinary closers remain separate. |
 | AS/NZS 2589:2017 | Supporting lining and finishing evidence at flush-finish frames. | The frame flange and compound are physical parts; the finished appearance does not remove the frame. |
 
-Standards Australia documents are copyrighted. Buildgrid records public metadata and original summaries. It does not reproduce licensed clauses, tables, figures, classifications, test procedures or installation dimensions.
+Standards Australia documents are copyrighted. Basegrid records public metadata and original summaries. It does not reproduce licensed clauses, tables, figures, classifications, test procedures or installation dimensions.
 
 ## The physical hierarchy in plain English
 

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://buildgrid.local/schemas/source.schema.json",
-  "title": "Buildgrid research source",
+  "$id": "https://basegrid.local/schemas/source.schema.json",
+  "title": "Basegrid research source",
   "type": "object",
   "additionalProperties": false,
   "required": [

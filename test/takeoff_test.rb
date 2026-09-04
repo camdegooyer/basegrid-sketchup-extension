@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "minitest/autorun"
-require_relative "../buildgrid/takeoff"
+require_relative "../basegrid/takeoff"
 
 class TakeoffTest < Minitest::Test
   FakeEntity = Struct.new(:attributes) do
@@ -16,7 +16,7 @@ class TakeoffTest < Minitest::Test
 
   def test_writes_stable_material_and_role_identity
     entity = FakeEntity.new({})
-    record = Buildgrid::Takeoff.write(
+    record = Basegrid::Takeoff.write(
       entity,
       material: { "id" => "n25", "name" => "N25 Concrete" },
       role_id: "concrete.slab_from_face.slab_body",
@@ -42,13 +42,13 @@ class TakeoffTest < Minitest::Test
       { "material_id" => "n25", "material_name" => "N25", "unit" => "m3", "quantity" => 2.3 }
     ]
 
-    summary = Buildgrid::Takeoff.summary(records)
+    summary = Basegrid::Takeoff.summary(records)
 
     assert_in_delta 3.5, summary.fetch(["n25", "N25", "m3"])
   end
 
   def test_summary_rows_are_sorted_for_display
-    rows = Buildgrid::Takeoff.summary_rows([
+    rows = Basegrid::Takeoff.summary_rows([
       { "material_id" => "b", "material_name" => "N32", "unit" => "m3", "quantity" => 1.0 },
       { "material_id" => "a", "material_name" => "N25", "unit" => "m3", "quantity" => 2.0 }
     ])
@@ -57,7 +57,7 @@ class TakeoffTest < Minitest::Test
   end
 
   def test_csv_export_uses_grouped_rows
-    csv = Buildgrid::Takeoff.to_csv([
+    csv = Basegrid::Takeoff.to_csv([
       { "material_id" => "n25", "material_name" => "N25, Concrete", "unit" => "m3", "quantity" => 3.5 }
     ])
 
@@ -80,15 +80,15 @@ class TakeoffTest < Minitest::Test
       }
     ]
 
-    rows = Buildgrid::Takeoff.grouped_rows(records)
+    rows = Basegrid::Takeoff.grouped_rows(records)
 
     assert_in_delta 2.0, rows.find { |row| row["group_id"] == "concrete" }["quantity"]
     assert_in_delta 3.0, rows.find { |row| row["group_id"] == "slabs" }["quantity"]
-    assert_in_delta 3.0, Buildgrid::Takeoff.summary_rows(records).first["quantity"]
+    assert_in_delta 3.0, Basegrid::Takeoff.summary_rows(records).first["quantity"]
   end
 
   def test_grouped_csv_includes_unassigned_legacy_records
-    csv = Buildgrid::Takeoff.grouped_csv([
+    csv = Basegrid::Takeoff.grouped_csv([
       { "material_id" => "n25", "material_name" => "N25", "unit" => "m3", "quantity" => 1.0 }
     ])
 

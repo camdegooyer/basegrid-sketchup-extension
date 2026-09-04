@@ -2,7 +2,7 @@
 
 require "json"
 
-module Buildgrid
+module Basegrid
   class ConcreteSlabTool
     TOOL_ID = "concrete.slab_from_face"
     GENERATED_ROLE_ID = "concrete.slab_from_face.slab_body"
@@ -106,7 +106,7 @@ module Buildgrid
       @settings_dialog&.close
       @settings_dialog = UI::HtmlDialog.new(
         dialog_title: "Concrete Slab",
-        preferences_key: "buildgrid_concrete_slab",
+        preferences_key: "basegrid_concrete_slab",
         scrollable: true,
         resizable: true,
         width: 520,
@@ -127,8 +127,8 @@ module Buildgrid
         { "id" => material.fetch("id").to_s, "label" => labels[index] }
       end
       payload = JSON.generate(
-        "thickness_mm" => Sketchup.read_default("Buildgrid", "slab_thickness_mm", DEFAULT_THICKNESS_MM).to_f,
-        "material_id" => Sketchup.read_default("Buildgrid", "slab_concrete_material_id", "").to_s,
+        "thickness_mm" => Sketchup.read_default("Basegrid", "slab_thickness_mm", DEFAULT_THICKNESS_MM).to_f,
+        "material_id" => Sketchup.read_default("Basegrid", "slab_concrete_material_id", "").to_s,
         "selected_group_id" => remembered_group_ids.first.to_s,
         "materials" => material_options,
         "groups" => groups.map { |group| { "id" => group.fetch("id").to_s, "name" => group.fetch("name").to_s } }
@@ -223,9 +223,9 @@ module Buildgrid
 
       selected_id = values["takeoff_group_id"].to_s
       takeoff_groups = pending.fetch(:groups).select { |group| group.fetch("id").to_s == selected_id }.first(1)
-      Sketchup.write_default("Buildgrid", "slab_thickness_mm", thickness)
-      Sketchup.write_default("Buildgrid", "slab_concrete_material_id", material.fetch("id").to_s)
-      Sketchup.write_default("Buildgrid", "slab_takeoff_group_ids", JSON.generate(takeoff_groups.map { |group| group.fetch("id").to_s }))
+      Sketchup.write_default("Basegrid", "slab_thickness_mm", thickness)
+      Sketchup.write_default("Basegrid", "slab_concrete_material_id", material.fetch("id").to_s)
+      Sketchup.write_default("Basegrid", "slab_takeoff_group_ids", JSON.generate(takeoff_groups.map { |group| group.fetch("id").to_s }))
       @settings_dialog.close
       @pending_settings = nil
       build(pending.fetch(:model), face, thickness, material, takeoff_groups)
@@ -234,7 +234,7 @@ module Buildgrid
     end
 
     def remembered_group_ids
-      JSON.parse(Sketchup.read_default("Buildgrid", "slab_takeoff_group_ids", "[]").to_s)
+      JSON.parse(Sketchup.read_default("Basegrid", "slab_takeoff_group_ids", "[]").to_s)
     rescue JSON::ParserError
       []
     end
@@ -272,17 +272,17 @@ module Buildgrid
     def assign_role_tag(model, group)
       layers = model.layers
       tag = layers[DEFAULT_TAG_NAME]
-      existing_role = tag&.get_attribute("Buildgrid", "generated_role_id").to_s
+      existing_role = tag&.get_attribute("Basegrid", "generated_role_id").to_s
       if tag && !existing_role.empty? && existing_role != GENERATED_ROLE_ID
         raise "The tag #{DEFAULT_TAG_NAME.inspect} is already assigned to another generated role."
       end
       unless tag
         tag = layers.add(DEFAULT_TAG_NAME)
-        folder_path = Sketchup.read_default("Buildgrid", "slab_concrete_folder", DEFAULT_FOLDER_PATH).to_s
+        folder_path = Sketchup.read_default("Basegrid", "slab_concrete_folder", DEFAULT_FOLDER_PATH).to_s
         folder = ensure_folder_path(layers, folder_path)
         tag.folder = folder if folder
       end
-      tag.set_attribute("Buildgrid", "generated_role_id", GENERATED_ROLE_ID)
+      tag.set_attribute("Basegrid", "generated_role_id", GENERATED_ROLE_ID)
       group.layer = tag
     end
 
@@ -303,14 +303,14 @@ module Buildgrid
     end
 
     def write_metadata(group, thickness_mm, material)
-      group.set_attribute("Buildgrid", "schema_version", 1)
-      group.set_attribute("Buildgrid", "tool_id", TOOL_ID)
-      group.set_attribute("Buildgrid", "generated_role_id", GENERATED_ROLE_ID)
-      group.set_attribute("Buildgrid", "object_role", OBJECT_ROLE)
-      group.set_attribute("Buildgrid", "material_role", MATERIAL_ROLE)
-      group.set_attribute("Buildgrid", "material_id", material.fetch("id").to_s)
-      group.set_attribute("Buildgrid", "material_type_id", material.fetch("material_type_id").to_s)
-      group.set_attribute("Buildgrid", "parameters_json", JSON.generate("thickness_mm" => thickness_mm.to_f))
+      group.set_attribute("Basegrid", "schema_version", 1)
+      group.set_attribute("Basegrid", "tool_id", TOOL_ID)
+      group.set_attribute("Basegrid", "generated_role_id", GENERATED_ROLE_ID)
+      group.set_attribute("Basegrid", "object_role", OBJECT_ROLE)
+      group.set_attribute("Basegrid", "material_role", MATERIAL_ROLE)
+      group.set_attribute("Basegrid", "material_id", material.fetch("id").to_s)
+      group.set_attribute("Basegrid", "material_type_id", material.fetch("material_type_id").to_s)
+      group.set_attribute("Basegrid", "parameters_json", JSON.generate("thickness_mm" => thickness_mm.to_f))
     end
   end
 end

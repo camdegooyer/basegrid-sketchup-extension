@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://buildgrid.local/schemas/physical_object.schema.json",
-  "title": "Buildgrid Australian physical construction object",
+  "$id": "https://basegrid.local/schemas/physical_object.schema.json",
+  "title": "Basegrid Australian physical construction object",
   "type": "object",
   "additionalProperties": false,
   "required": [

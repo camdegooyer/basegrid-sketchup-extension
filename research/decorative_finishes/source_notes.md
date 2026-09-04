@@ -149,7 +149,7 @@ Supporting public Australian sources include:
 
 Manufacturer information is used for physical product anatomy, Australian terminology and compatibility examples. It does not create a universal installation rule or a preferred brand.
 
-Standards Australia documents are copyrighted. Buildgrid stores public titles, status and scope metadata plus original summaries. It does not reproduce licensed clauses, tables, figures, test methods or proprietary limits.
+Standards Australia documents are copyrighted. Basegrid stores public titles, status and scope metadata plus original summaries. It does not reproduce licensed clauses, tables, figures, test methods or proprietary limits.
 
 ## The physical paint hierarchy in plain English
 

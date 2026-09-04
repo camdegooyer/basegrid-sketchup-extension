@@ -4228,7 +4228,7 @@
       "license_notes": "Used only to preserve the jurisdictional variation affecting the national artificial-lighting provision.",
       "robots_status": "not_checked_no_crawl",
       "terms_status": "not_checked",
-      "notes": ["NSW deletes Housing Provisions 13.7.6; Buildgrid must not silently apply the national lighting-energy path there."]
+      "notes": ["NSW deletes Housing Provisions 13.7.6; Basegrid must not silently apply the national lighting-energy path there."]
     },
     {
       "id": "SRC-NSW-ELECTRICAL-STANDARDS",

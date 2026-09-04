@@ -10,10 +10,10 @@ require "socket"
 require "tempfile"
 require "uri"
 
-module Buildgrid
+module Basegrid
   class OAuthConnection
-    CONFIG_URL = "https://buildgrid.overlandbuilders.co/api/v1/oauth/config"
-    PREFERENCE_SECTION = "Buildgrid"
+    CONFIG_URL = "https://basegrid.overlandbuilders.co/api/v1/oauth/config"
+    PREFERENCE_SECTION = "Basegrid"
     TOKENS_KEY = "oauth_tokens"
     CALLBACK_TIMEOUT = 180
     EXPIRY_MARGIN = 60
@@ -69,7 +69,7 @@ module Buildgrid
     end
 
     def connect(&completion)
-      raise "A Buildgrid connection is already in progress." if @pending
+      raise "A Basegrid connection is already in progress." if @pending
 
       config = validated_config(@client.get_json(CONFIG_URL))
       redirect_uri = URI.parse(config.fetch("redirect_uri"))
@@ -86,7 +86,7 @@ module Buildgrid
       UI.openURL(authorization_url)
       true
     rescue Errno::EADDRINUSE
-      raise "OAuth callback port is already in use. Close the other Buildgrid connection attempt and try again."
+      raise "OAuth callback port is already in use. Close the other Basegrid connection attempt and try again."
     end
 
     def connected?
@@ -167,7 +167,7 @@ module Buildgrid
     end
 
     def validated_config(config)
-      raise "OAuth is not enabled for Buildgrid yet." unless config.is_a?(Hash) && config["enabled"]
+      raise "OAuth is not enabled for Basegrid yet." unless config.is_a?(Hash) && config["enabled"]
 
       %w[authorization_endpoint token_endpoint client_id redirect_uri].each do |key|
         raise "OAuth configuration is missing #{key}." if config[key].to_s.empty?
@@ -253,7 +253,7 @@ module Buildgrid
     end
 
     def write_browser_response(socket, success)
-      heading = success ? "Buildgrid is connected" : "Buildgrid could not connect"
+      heading = success ? "Basegrid is connected" : "Basegrid could not connect"
       detail = success ? "You can close this tab and return to SketchUp." : "Return to SketchUp for details."
       body = "<!doctype html><meta charset=\"utf-8\"><title>#{heading}</title>" \
              "<body style=\"font:16px system-ui;padding:48px;color:#101614\"><h1>#{heading}</h1><p>#{detail}</p></body>"

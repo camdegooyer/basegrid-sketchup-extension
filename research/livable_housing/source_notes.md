@@ -19,7 +19,7 @@ This is a physical-object discovery slice. It is not a livable-housing certifica
 
 The NCC is a model code. State and territory legislation gives it legal effect, with local dates, variations, concessions and transitions. There is therefore no safe Australia-wide answer to "which NCC applies?" based only on the national publication date.
 
-At the research date of 16 August 2026, the ABCB's current-version guidance says NCC 2022 Amendment 2 took effect nationally as an available edition on 29 July 2025, while jurisdictions may consider adopting NCC 2025 from 1 May 2026. Actual adoption remains a state or territory decision. Existing Buildgrid object research continues to record the edition from which each fact was extracted; a future project check must also select the jurisdiction, approval pathway and relevant date.
+At the research date of 16 August 2026, the ABCB's current-version guidance says NCC 2022 Amendment 2 took effect nationally as an available edition on 29 July 2025, while jurisdictions may consider adopting NCC 2025 from 1 May 2026. Actual adoption remains a state or territory decision. Existing Basegrid object research continues to record the edition from which each fact was extracted; a future project check must also select the jurisdiction, approval pathway and relevant date.
 
 The H8 position identified from current official jurisdiction sources is:
 

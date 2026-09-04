@@ -103,7 +103,7 @@ The table describes what each source contributes to object identity. It does not
 
 There is no general AS 4786.1 timber-floor installation document in the source set. Timber installation is instead supported by the applicable structural framing and structural flooring route, the [Australian Timber Flooring Association solid timber standard](https://www.atfa.com.au/shop/ebooks-brochures/solid-timber-flooring-industry-standard-ebook/), [engineered flooring standard](https://www.atfa.com.au/shop/ebooks-brochures/engineered-flooring-industry-standard/), [floating floor guidance](https://www.atfa.com.au/fm-engineered/) and selected manufacturer instructions.
 
-Standards Australia documents are copyrighted. Buildgrid records public titles, status and scope metadata plus original summaries. It does not copy licensed clauses, tables, figures, classifications, test methods or installation dimensions.
+Standards Australia documents are copyrighted. Basegrid records public titles, status and scope metadata plus original summaries. It does not copy licensed clauses, tables, figures, classifications, test methods or installation dimensions.
 
 ## The physical hierarchy in plain English
 

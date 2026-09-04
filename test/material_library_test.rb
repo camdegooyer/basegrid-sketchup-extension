@@ -3,11 +3,11 @@
 require "minitest/autorun"
 require "tmpdir"
 
-module Buildgrid
+module Basegrid
   EXTENSION_VERSION = "test" unless const_defined?(:EXTENSION_VERSION)
 end
 
-require_relative "../buildgrid/material_library"
+require_relative "../basegrid/material_library"
 
 class MaterialLibraryTest < Minitest::Test
   Response = Struct.new(:status, :body, :etag, :content_type, keyword_init: true)
@@ -34,7 +34,7 @@ class MaterialLibraryTest < Minitest::Test
 
   def test_syncs_and_filters_active_bulk_m3_concrete_materials
     Dir.mktmpdir do |directory|
-      library = Buildgrid::MaterialLibrary.new(
+      library = Basegrid::MaterialLibrary.new(
         cache_path: File.join(directory, "materials.json"),
         texture_directory: File.join(directory, "textures"),
         client: FakeClient.new(payload)
@@ -54,7 +54,7 @@ class MaterialLibraryTest < Minitest::Test
 
     error = assert_raises(RuntimeError) do
       Dir.mktmpdir do |directory|
-        library = Buildgrid::MaterialLibrary.new(
+        library = Basegrid::MaterialLibrary.new(
           cache_path: File.join(directory, "materials.json"),
           texture_directory: File.join(directory, "textures"),
           client: FakeClient.new(invalid)
@@ -69,7 +69,7 @@ class MaterialLibraryTest < Minitest::Test
     Dir.mktmpdir do |directory|
       cache = File.join(directory, "materials.json")
       client = FakeClient.new(payload)
-      library = Buildgrid::MaterialLibrary.new(
+      library = Basegrid::MaterialLibrary.new(
         cache_path: cache,
         texture_directory: File.join(directory, "textures"),
         client: client
@@ -86,7 +86,7 @@ class MaterialLibraryTest < Minitest::Test
 
   def test_normalizes_the_web_api_v1_response
     Dir.mktmpdir do |directory|
-      library = Buildgrid::MaterialLibrary.new(
+      library = Basegrid::MaterialLibrary.new(
         cache_path: File.join(directory, "materials.json"),
         texture_directory: File.join(directory, "textures"),
         client: FakeClient.new(web_api_payload)
@@ -118,7 +118,7 @@ class MaterialLibraryTest < Minitest::Test
 
     error = assert_raises(RuntimeError) do
       Dir.mktmpdir do |directory|
-        Buildgrid::MaterialLibrary.new(
+        Basegrid::MaterialLibrary.new(
           cache_path: File.join(directory, "materials.json"),
           texture_directory: File.join(directory, "textures"),
           client: FakeClient.new(invalid)

@@ -7,14 +7,14 @@ require_relative "takeoff"
 require_relative "material_appearance"
 require_relative "concrete_slab_tool"
 
-module Buildgrid
+module Basegrid
   module Main
     module_function
 
     def start
       return if @started
 
-      menu = UI.menu("Extensions").add_submenu("Buildgrid")
+      menu = UI.menu("Extensions").add_submenu("Basegrid")
       materials_menu = menu.add_submenu("Materials")
       materials_menu.add_item("Open Connection Page") { open_material_connections }
       materials_menu.add_item("Connect") { connect_materials }
@@ -45,7 +45,7 @@ module Buildgrid
       end
 
       result = sync_with_token(token)
-      message = result[:changed] ? "Buildgrid library updated." : "Buildgrid library is already current."
+      message = result[:changed] ? "Basegrid library updated." : "Basegrid library is already current."
       message += "\n\n#{result[:materials]} materials are cached."
       message += "\n#{result[:takeoff_groups]} takeoff groups are cached."
       unless result[:warnings].empty?
@@ -71,13 +71,13 @@ module Buildgrid
           tokens = result.fetch(:tokens)
           sync_result = sync_with_token(tokens.fetch("access_token"))
           oauth_connection.save_tokens(tokens)
-          Sketchup.write_default("Buildgrid", "materials_sync_token", "")
+          Sketchup.write_default("Basegrid", "materials_sync_token", "")
           UI.messagebox("Materials are connected. #{sync_result[:materials]} materials were synced.")
         rescue StandardError => e
           UI.messagebox("Materials could not be connected. Credentials were not saved.\n\n#{e.message}")
         end
       end
-      UI.messagebox("Your browser has been opened to connect Buildgrid. Complete sign-in there, then return to SketchUp.")
+      UI.messagebox("Your browser has been opened to connect Basegrid. Complete sign-in there, then return to SketchUp.")
     rescue StandardError => e
       UI.messagebox("Materials could not start connecting.\n\n#{e.message}")
     end
@@ -93,7 +93,7 @@ module Buildgrid
       end
 
       result = sync_with_token(token)
-      Sketchup.write_default("Buildgrid", "materials_sync_token", token)
+      Sketchup.write_default("Basegrid", "materials_sync_token", token)
       UI.messagebox("Materials are connected. #{result[:materials]} materials were synced.")
     rescue StandardError => e
       UI.messagebox("Materials could not be connected. The token was not saved.\n\n#{e.message}")
@@ -111,17 +111,17 @@ module Buildgrid
       )
       return unless answer == IDYES
 
-      Sketchup.write_default("Buildgrid", "materials_sync_token", "")
+      Sketchup.write_default("Basegrid", "materials_sync_token", "")
       oauth_connection.disconnect
       UI.messagebox("Materials are disconnected. Cached materials remain available offline.")
     end
 
     def tag_folder_settings
-      current = Sketchup.read_default("Buildgrid", "slab_concrete_folder", ConcreteSlabTool::DEFAULT_FOLDER_PATH).to_s
+      current = Sketchup.read_default("Basegrid", "slab_concrete_folder", ConcreteSlabTool::DEFAULT_FOLDER_PATH).to_s
       values = UI.inputbox(["Folder path (use / between folders)"], [current], "Default Slab Tag Folder")
       return unless values
 
-      Sketchup.write_default("Buildgrid", "slab_concrete_folder", values[0].to_s.strip)
+      Sketchup.write_default("Basegrid", "slab_concrete_folder", values[0].to_s.strip)
       UI.messagebox("The folder preference will be used when Slab | Concrete is first created in a model.")
     end
 
@@ -150,7 +150,7 @@ module Buildgrid
     def create_takeoff_dialog
       dialog = UI::HtmlDialog.new(
         dialog_title: "Concrete Takeoff",
-        preferences_key: "buildgrid_concrete_takeoff",
+        preferences_key: "basegrid_concrete_takeoff",
         scrollable: true,
         resizable: true,
         width: 680,
@@ -200,7 +200,7 @@ module Buildgrid
           </style>
         </head>
         <body>
-          <header><h1>Concrete takeoff</h1><p>Live quantities from Buildgrid-generated objects in this model.</p></header>
+          <header><h1>Concrete takeoff</h1><p>Live quantities from Basegrid-generated objects in this model.</p></header>
           <main>
             <section class="metrics">
               <div class="metric"><strong id="total"></strong><span>Total concrete</span></div>
@@ -264,7 +264,7 @@ module Buildgrid
     end
 
     def create_toolbar
-      @toolbar = UI::Toolbar.new("Buildgrid")
+      @toolbar = UI::Toolbar.new("Basegrid")
       @toolbar.add_item(@takeoff_command)
       @toolbar.add_item(@appearance_command)
       @toolbar.restore
@@ -291,7 +291,7 @@ module Buildgrid
     end
 
     def legacy_material_sync_token
-      Sketchup.read_default("Buildgrid", "materials_sync_token", "").to_s.strip
+      Sketchup.read_default("Basegrid", "materials_sync_token", "").to_s.strip
     end
 
     def oauth_connection
@@ -299,7 +299,7 @@ module Buildgrid
     end
 
     def sync_with_token(token)
-      url = Sketchup.read_default("Buildgrid", "material_library_url", MaterialLibrary::DEFAULT_URL).to_s
+      url = Sketchup.read_default("Basegrid", "material_library_url", MaterialLibrary::DEFAULT_URL).to_s
       MaterialLibrary.new.sync!(url: url, token: token)
     end
 
@@ -309,4 +309,4 @@ module Buildgrid
   end
 end
 
-Buildgrid::Main.start
+Basegrid::Main.start

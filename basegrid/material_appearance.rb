@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-module Buildgrid
+module Basegrid
   class MaterialAppearance
-    DICTIONARY = "Buildgrid"
+    DICTIONARY = "Basegrid"
     MODEL_MODE_KEY = "material_appearance_mode"
     MODEL_MODE = "texture"
     DISPLAY_MODE = "display_texture"

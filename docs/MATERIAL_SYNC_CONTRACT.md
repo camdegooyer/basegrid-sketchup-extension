@@ -23,16 +23,16 @@ Required production configuration:
 
 - enable the Supabase OAuth 2.1 server and set its authorization path to
   `/oauth/consent`;
-- register a public client named `Buildgrid for SketchUp` with the exact
+- register a public client named `Basegrid for SketchUp` with the exact
   loopback redirect URI above; and
 - set `SKETCHUP_OAUTH_CLIENT_ID` and `SKETCHUP_OAUTH_REDIRECT_URI` in Vercel.
 
 The fallback one-time connection-token flow is:
 
-1. SketchUp opens `https://buildgrid.overlandbuilders.co/app/connections` in the user's browser.
+1. SketchUp opens `https://basegrid.overlandbuilders.co/app/connections` in the user's browser.
 2. The signed-in user creates a revocable connection for one SketchUp installation.
 3. The web app displays the opaque token once.
-4. The user pastes it into **Extensions > Buildgrid > Materials > Connect**.
+4. The user pastes it into **Extensions > Basegrid > Materials > Connect**.
 5. The extension performs a material sync before saving the token. Failed tokens are not stored.
 6. **Disconnect** removes the local token but retains the last valid material and texture cache for offline model resolution.
 

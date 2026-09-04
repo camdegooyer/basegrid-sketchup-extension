@@ -2,7 +2,7 @@
 
 require "minitest/autorun"
 
-module Buildgrid
+module Basegrid
   class MaterialLibrary
   end
 end
@@ -11,7 +11,7 @@ module Sketchup
   Color = Struct.new(:red, :green, :blue) unless const_defined?(:Color)
 end
 
-require_relative "../buildgrid/material_appearance"
+require_relative "../basegrid/material_appearance"
 
 class MaterialAppearanceTest < Minitest::Test
   FakeModel = Struct.new(:attributes) do
@@ -52,7 +52,7 @@ class MaterialAppearanceTest < Minitest::Test
     end
   end
 
-  class RecordingAppearance < Buildgrid::MaterialAppearance
+  class RecordingAppearance < Basegrid::MaterialAppearance
     attr_reader :applied_modes
 
     def initialize(library:)
@@ -70,20 +70,20 @@ class MaterialAppearanceTest < Minitest::Test
   def test_defaults_to_model_texture
     model = FakeModel.new({})
 
-    assert_equal "texture", Buildgrid::MaterialAppearance.mode(model)
-    assert_equal "display_texture", Buildgrid::MaterialAppearance.next_mode(model)
+    assert_equal "texture", Basegrid::MaterialAppearance.mode(model)
+    assert_equal "display_texture", Basegrid::MaterialAppearance.next_mode(model)
   end
 
   def test_switches_back_from_display_texture
-    model = FakeModel.new({ ["Buildgrid", "material_appearance_mode"] => "display_texture" })
+    model = FakeModel.new({ ["Basegrid", "material_appearance_mode"] => "display_texture" })
 
-    assert_equal "texture", Buildgrid::MaterialAppearance.next_mode(model)
+    assert_equal "texture", Basegrid::MaterialAppearance.next_mode(model)
   end
 
   def test_invalid_stored_mode_falls_back_to_model_texture
-    model = FakeModel.new({ ["Buildgrid", "material_appearance_mode"] => "unknown" })
+    model = FakeModel.new({ ["Basegrid", "material_appearance_mode"] => "unknown" })
 
-    assert_equal "texture", Buildgrid::MaterialAppearance.mode(model)
+    assert_equal "texture", Basegrid::MaterialAppearance.mode(model)
   end
 
   def test_toggle_switches_to_display_and_back_to_model_texture
@@ -103,7 +103,7 @@ class MaterialAppearanceTest < Minitest::Test
   end
 
   def test_applies_a_solid_display_color_and_removes_the_fallback_texture
-    appearance = Buildgrid::MaterialAppearance.new(library: Object.new)
+    appearance = Basegrid::MaterialAppearance.new(library: Object.new)
     native = FakeNativeMaterial.new(Object.new, nil)
 
     appearance.send(:apply_appearance, native, { "color" => "#7f8081" })

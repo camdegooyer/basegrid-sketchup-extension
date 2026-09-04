@@ -2,7 +2,7 @@
 
 require "json"
 
-module Buildgrid
+module Basegrid
   class Ontology
     attr_reader :objects, :relationships, :materials, :tool_manifest
 

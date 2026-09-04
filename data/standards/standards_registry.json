@@ -3,7 +3,7 @@
   "regulatory_baseline": "NCC 2022 Amendment 2",
   "accessed_at": "2026-08-16",
   "scope_note": "The registry contains every AS or AS/NZS document directly referenced in the national ABCB Housing Provisions column of NCC Schedule 2, updated by NCC 2022 Amendment 2, plus supporting standards needed by researched physical-object families. The hydraulic expansion includes NCC Volume Three call-ups, current successor publications and product standards; jurisdictional adoption remains explicit.",
-  "classification_note": "Ontology relevance and discipline tags are Buildgrid research-triage classifications, not classifications assigned by the NCC or Standards Australia.",
+  "classification_note": "Ontology relevance and discipline tags are Basegrid research-triage classifications, not classifications assigned by the NCC or Standards Australia.",
   "standards": [
     {
       "id": "AS-NZS-ISO-717-1-2004",

@@ -47,5 +47,5 @@ The first end-to-end data path now exists:
 1. source catalogues define physical objects;
 2. generation scripts export ontology and relationships;
 3. `config/sketchup_tool_definitions.json` groups objects into SketchUp tools, including three broad capstone tools for specialist services/safety, commercial facades/openings/transport and accessibility/site/specialist fitout;
-4. `src/buildgrid_ontology.rb` loads and resolves those definitions;
+4. `src/basegrid_ontology.rb` loads and resolves those definitions;
 5. tests prove the wall frame, cladding and relationship lookups work from generated data.

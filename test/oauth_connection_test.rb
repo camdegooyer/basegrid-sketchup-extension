@@ -22,7 +22,7 @@ module Sketchup
   end
 end
 
-require_relative "../buildgrid/oauth_connection"
+require_relative "../basegrid/oauth_connection"
 
 class OAuthConnectionTest < Minitest::Test
   class FakeClient
@@ -54,7 +54,7 @@ class OAuthConnectionTest < Minitest::Test
       "refresh_token" => "new-refresh",
       "expires_in" => 3600
     )
-    connection = Buildgrid::OAuthConnection.new(
+    connection = Basegrid::OAuthConnection.new(
       client: client,
       token_path: File.join(@directory, "oauth-session.json")
     )
@@ -72,7 +72,7 @@ class OAuthConnectionTest < Minitest::Test
   end
 
   def test_disconnect_removes_stored_tokens
-    connection = Buildgrid::OAuthConnection.new(
+    connection = Basegrid::OAuthConnection.new(
       client: FakeClient.new({}),
       token_path: File.join(@directory, "oauth-session.json")
     )
@@ -86,7 +86,7 @@ class OAuthConnectionTest < Minitest::Test
 
   def test_persists_tokens_outside_sketchup_preferences
     path = File.join(@directory, "oauth-session.json")
-    connection = Buildgrid::OAuthConnection.new(client: FakeClient.new({}), token_path: path)
+    connection = Basegrid::OAuthConnection.new(client: FakeClient.new({}), token_path: path)
 
     connection.save_tokens(
       "access_token" => "access",
@@ -95,7 +95,7 @@ class OAuthConnectionTest < Minitest::Test
     )
 
     assert File.file?(path)
-    assert_equal "", Sketchup.read_default("Buildgrid", "oauth_tokens", "")
+    assert_equal "", Sketchup.read_default("Basegrid", "oauth_tokens", "")
     assert connection.connected?
   end
 end

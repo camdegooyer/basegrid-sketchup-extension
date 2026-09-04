@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 require "minitest/autorun"
-require_relative "../src/buildgrid_ontology"
+require_relative "../src/basegrid_ontology"
 
-class BuildgridOntologyTest < Minitest::Test
+class BasegridOntologyTest < Minitest::Test
   ROOT = File.expand_path("..", __dir__)
 
   def setup
-    @ontology = Buildgrid::Ontology.load(root: ROOT)
+    @ontology = Basegrid::Ontology.load(root: ROOT)
   end
 
   def test_loads_tool_manifest_and_generated_ontology

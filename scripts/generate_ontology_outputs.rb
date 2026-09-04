@@ -457,7 +457,7 @@ materials = build_materials(objects)
 FileUtils.mkdir_p(EXPORT_DIR)
 ontology = {
   "schema_version" => "0.1.0",
-  "title" => "Buildgrid Australian physical construction object ontology",
+  "title" => "Basegrid Australian physical construction object ontology",
   "regulatory_baseline" => "NCC 2022 Amendment 2",
   "generated_at" => GENERATED_AT,
   "object_count" => objects.length,
@@ -469,7 +469,7 @@ File.write(File.join(EXPORT_DIR, "ontology.jsonl"), objects.map { |object| JSON.
 write_json(File.join(EXPORT_DIR, "relationships.json"), {"schema_version" => "0.1.0", "relationships" => relationships})
 write_json(File.join(EXPORT_DIR, "materials.json"), {
   "schema_version" => "0.1.0",
-  "title" => "Buildgrid Australian material type index",
+  "title" => "Basegrid Australian material type index",
   "generated_at" => GENERATED_AT,
   "material_count" => materials.length,
   "materials" => materials

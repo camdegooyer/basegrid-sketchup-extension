@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://buildgrid.local/schemas/standard.schema.json",
-  "title": "Buildgrid referenced standard metadata",
+  "$id": "https://basegrid.local/schemas/standard.schema.json",
+  "title": "Basegrid referenced standard metadata",
   "type": "object",
   "additionalProperties": false,
   "required": [

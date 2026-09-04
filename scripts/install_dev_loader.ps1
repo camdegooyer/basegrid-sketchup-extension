@@ -4,18 +4,18 @@ param(
 
 $ErrorActionPreference = "Stop"
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$entryPoint = Join-Path $repoRoot "buildgrid.rb"
+$entryPoint = Join-Path $repoRoot "basegrid.rb"
 $plugins = Join-Path $env:APPDATA "SketchUp\SketchUp $SketchUpVersion\SketchUp\Plugins"
-$loader = Join-Path $plugins "buildgrid_dev_loader.rb"
+$loader = Join-Path $plugins "basegrid_dev_loader.rb"
 
 if (-not (Test-Path -LiteralPath $entryPoint)) {
-  throw "Buildgrid entry point was not found at $entryPoint"
+  throw "Basegrid entry point was not found at $entryPoint"
 }
 
 New-Item -ItemType Directory -Force -Path $plugins | Out-Null
 $rubyPath = $entryPoint.Replace("\", "/").Replace("'", "\\'")
 $content = @(
-  "# Development loader for Buildgrid.",
+  "# Development loader for Basegrid.",
   "load '$rubyPath'"
 ) -join "`r`n"
 

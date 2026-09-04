@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://buildgrid.local/schemas/relationship.schema.json",
-  "title": "Buildgrid directed physical-object relationship",
+  "$id": "https://basegrid.local/schemas/relationship.schema.json",
+  "title": "Basegrid directed physical-object relationship",
   "type": "object",
   "additionalProperties": false,
   "required": [
