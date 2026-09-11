@@ -50,12 +50,15 @@ module Basegrid
     def running? = @running
     def status = @mutex.synchronize { @state }
 
-    def start(oauth_token:, schedule: true)
+    def start(oauth_token:, schedule: true, &status_changed)
       return self if running?
       raise "Connect your Basegrid account first." if oauth_token.to_s.empty?
       @ui_thread = Thread.current
       @device_id = SecureRandom.uuid
       @running = true
+      @status_changed = status_changed
+      @reported_state = nil
+      @mutex.synchronize { @state = "Connecting" }
       @pending = @completed = nil
       snapshot!
       @timer = UI.start_timer(0.1, true) { drain } if schedule
@@ -76,6 +79,11 @@ module Basegrid
 
     def drain
       raise "Cloud drawing must run on SketchUp's main thread." unless Thread.current == @ui_thread
+      current_state = status
+      if current_state != @reported_state
+        @reported_state = current_state
+        @status_changed&.call(current_state)
+      end
       snapshot!
       job = @mutex.synchronize do
         next nil unless @running
@@ -130,7 +138,6 @@ module Basegrid
 
     def run(oauth_token)
       token = nil
-      @mutex.synchronize { @state = "Connecting" }
       registration = @client.post("/api/v1/sketchup/register", @snapshot.merge(
         "id" => @device_id, "name" => Socket.gethostname[0, 120], "version" => Basegrid::EXTENSION_VERSION
       ), oauth_token)
@@ -177,11 +184,22 @@ module Basegrid
   end
 
   module CloudDrawing
-    def self.start
-      return if @connection&.running?
+    def self.start(announce: false)
+      if @connection&.running?
+        notify(@connection.status) if announce
+        return
+      end
       @connection&.stop
       @connection = CloudConnection.new
-      @connection.start(oauth_token: Main.oauth_connection.access_token)
+      announced = false
+      @connection.start(oauth_token: Main.oauth_connection.access_token) do |state|
+        Sketchup.set_status_text("Basegrid cloud drawing: #{state}")
+        if announce && !announced && (state == "Connected" || !@connection.running?)
+          announced = true
+          notify(state)
+        end
+      end
+      Sketchup.set_status_text("Connecting Basegrid cloud drawing…")
     rescue StandardError => e
       UI.messagebox("Cloud drawing could not connect.\n\n#{e.message}")
     end
@@ -189,11 +207,11 @@ module Basegrid
     def self.connect
       if Main.oauth_connection.connected?
         Sketchup.write_default("Basegrid", "cloud_drawing_enabled", true)
-        start
+        start(announce: true)
       else
         Main.connect_materials do
           Sketchup.write_default("Basegrid", "cloud_drawing_enabled", true)
-          start
+          start(announce: true)
         end
       end
     end
@@ -201,10 +219,20 @@ module Basegrid
     def self.stop
       Sketchup.write_default("Basegrid", "cloud_drawing_enabled", false)
       @connection&.stop
+      Sketchup.set_status_text("Basegrid cloud drawing: Disconnected")
     end
 
     def self.status
       UI.messagebox("Basegrid cloud drawing: #{@connection ? @connection.status : 'Disconnected'}\n\nConnector: https://app.basegrid.com.au/mcp\nPermissions: #{LocalAPI.mode}")
     end
+
+    def self.notify(state)
+      message = state == "Connected" ? "Cloud drawing is connected. Keep SketchUp open while using Basegrid in Claude." : "Cloud drawing: #{state}"
+      Sketchup.set_status_text(message)
+      # Native notifications leave SketchUp's UI timer free to process commands.
+      @notification = UI::Notification.new(Sketchup.extensions[Basegrid::EXTENSION_NAME], message)
+      @notification.show
+    end
+    private_class_method :notify
   end
 end

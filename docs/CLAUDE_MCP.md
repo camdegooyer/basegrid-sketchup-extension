@@ -153,7 +153,7 @@ delivery passed. The account/material inputs were fixtures. Production account
 sign-in is still required during deployment acceptance.
 
 Build an installable extension with `node scripts/package_extension.mjs`. Install
-`dist/Basegrid-0.2.0.rbz` through SketchUp's Extension Manager. All runtime resources
+`dist/Basegrid-0.2.1.rbz` through SketchUp's Extension Manager. All runtime resources
 are bundled beneath `basegrid/`; no repository paths are required. Avoid loading
 both an installed RBZ and a development loader for the same extension.
 

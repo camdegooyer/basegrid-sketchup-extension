@@ -5,7 +5,7 @@ require "extensions.rb"
 
 module Basegrid
   EXTENSION_NAME = "Basegrid"
-  EXTENSION_VERSION = "0.2.0"
+  EXTENSION_VERSION = "0.2.1"
 
   unless file_loaded?(__FILE__)
     extension = SketchupExtension.new(EXTENSION_NAME, File.join(__dir__, "basegrid", "main"))

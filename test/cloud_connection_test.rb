@@ -2,6 +2,10 @@
 require "minitest/autorun"
 require_relative "../basegrid/cloud_connection"
 
+module Basegrid
+  EXTENSION_VERSION = "test" unless const_defined?(:EXTENSION_VERSION)
+end
+
 class CloudConnectionTest < Minitest::Test
   Model = Struct.new(:guid, :title)
   class Client
@@ -65,6 +69,38 @@ class CloudConnectionTest < Minitest::Test
     assert posts.all? { |_path, _body, _token, thread| thread != Thread.current }
     assert_equal "oauth-test-token", posts.first[2]
     assert posts.drop(1).all? { |_path, _body, token, _thread| token == "device-test-token" }
+  ensure
+    @connection.stop
+  end
+
+  def test_connection_success_is_reported_once_on_the_ui_thread
+    client = Client.new(nil)
+    changes = []
+    @connection = Basegrid::CloudConnection.new(client: client, model: -> { @model }, mode: -> { @mode })
+    @connection.start(oauth_token: "oauth-test-token", schedule: false) { |state| changes << [state, Thread.current] }
+    deadline = Time.now + 3
+    until @connection.status == "Connected" || Time.now >= deadline
+      @connection.drain
+      Thread.pass
+    end
+    3.times { @connection.drain }
+    assert_equal 1, changes.count { |state, _thread| state == "Connected" }
+    assert changes.all? { |_state, thread| thread == Thread.current }
+  ensure
+    @connection.stop
+    @connection.instance_variable_get(:@worker)&.join(3)
+  end
+
+  def test_registration_failure_is_reported_even_after_worker_stops
+    client = Object.new
+    def client.post(*) = raise Basegrid::CloudConnection::Client::Unauthorized, "Sign in again."
+    changes = []
+    @connection = Basegrid::CloudConnection.new(client: client, model: -> { @model }, mode: -> { @mode })
+    @connection.start(oauth_token: "oauth-test-token", schedule: false) { |state| changes << [state, Thread.current] }
+    @connection.instance_variable_get(:@worker).join(3)
+    refute @connection.running?
+    3.times { @connection.drain }
+    assert_equal [["Sign in again.", Thread.current]], changes
   ensure
     @connection.stop
   end
