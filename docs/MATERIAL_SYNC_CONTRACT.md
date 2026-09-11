@@ -12,6 +12,12 @@ The web API remains the source of truth. SketchUp stores a read-only last-known-
 
 ## Connection flow
 
+Choose **Extensions > Basegrid > Materials > Connect**, sign in through the
+browser, and return to SketchUp. The extension discovers the OAuth configuration
+at `https://app.basegrid.com.au/api/v1/oauth/config`, syncs the material library,
+and saves the session for subsequent syncs. Choosing **Sync** while disconnected
+starts the same browser sign-in.
+
 The primary connection uses OAuth 2.1 Authorization Code with PKCE S256. The
 SketchUp extension is a public client without a client secret. It opens the
 system browser and receives the authorization callback on the registered
@@ -29,10 +35,10 @@ Required production configuration:
 
 The fallback one-time connection-token flow is:
 
-1. SketchUp opens `https://basegrid.overlandbuilders.co/app/connections` in the user's browser.
+1. SketchUp opens `https://app.basegrid.com.au/app/connections` in the user's browser.
 2. The signed-in user creates a revocable connection for one SketchUp installation.
 3. The web app displays the opaque token once.
-4. The user pastes it into **Extensions > Basegrid > Materials > Connect**.
+4. The user pastes it into **Extensions > Basegrid > Materials > Connect with Token**.
 5. The extension performs a material sync before saving the token. Failed tokens are not stored.
 6. **Disconnect** removes the local token but retains the last valid material and texture cache for offline model resolution.
 

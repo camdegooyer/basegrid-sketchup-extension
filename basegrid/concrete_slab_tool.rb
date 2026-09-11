@@ -37,8 +37,13 @@ module Basegrid
     end
 
     def build(model, source_face, thickness_mm, material, takeoff_groups = [])
+      validate_face!(model, source_face)
+      thickness_mm = Float(thickness_mm)
+      raise "Slab thickness must be a finite number greater than zero." unless thickness_mm.finite? && thickness_mm.positive?
+
       group = nil
       model.start_operation("Create Concrete Slab", true)
+      operation_started = true
       group = model.active_entities.add_group
       group.name = "Concrete Slab"
       group.layer = model.layers[0]
@@ -69,12 +74,42 @@ module Basegrid
         takeoff_groups: takeoff_groups
       )
       model.commit_operation
+      operation_started = false
       model.selection.clear
       model.selection.add(group)
       group
     rescue StandardError
-      model.abort_operation
+      model.abort_operation if operation_started
       raise
+    end
+
+    def validate_face!(model, face)
+      raise "The active SketchUp model has changed." unless model == Sketchup.active_model
+      raise "Provide one valid SketchUp face." unless face.is_a?(Sketchup::Face) && face.valid?
+      unless face.model == model && face.parent == model.active_entities.parent
+        raise "The face must belong to the current editing context."
+      end
+      if Array(model.active_path).any?(&:locked?)
+        raise "The current editing context contains a locked group or component."
+      end
+
+      transformation = model.edit_transform
+      # Transform the plane's tangent vectors: normals cannot be transformed
+      # directly when an editing context has non-uniform scale or shear.
+      x_axis, y_axis, = face.normal.axes
+      world_normal = x_axis.transform(transformation).cross(y_axis.transform(transformation))
+      raise "The current editing context has an invalid scale." unless world_normal.length.positive?
+
+      world_normal.normalize!
+      if world_normal.z.abs < 1.0 - HORIZONTAL_TOLERANCE
+        raise "The face must be horizontal."
+      end
+      extrusion = face.normal.transform(transformation)
+      extrusion.normalize! if extrusion.length.positive?
+      if extrusion.z.abs < 1.0 - HORIZONTAL_TOLERANCE
+        raise "The editing context skews the extrusion. Create the slab in an unskewed context."
+      end
+      face
     end
 
     private

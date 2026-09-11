@@ -10,8 +10,8 @@ require "uri"
 module Basegrid
   class MaterialLibrary
     SCHEMA_VERSION = 1
-    DEFAULT_URL = "https://basegrid.overlandbuilders.co/api/v1/material-library"
-    CONNECTION_URL = "https://basegrid.overlandbuilders.co/app/connections"
+    DEFAULT_URL = "https://app.basegrid.com.au/api/v1/material-library"
+    CONNECTION_URL = "https://app.basegrid.com.au/app/connections"
     MAX_TEXTURE_BYTES = 20 * 1024 * 1024
     IMAGE_CONTENT_TYPES = {
       "image/jpeg" => ".jpg",

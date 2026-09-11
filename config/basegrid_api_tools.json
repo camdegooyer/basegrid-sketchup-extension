@@ -1,0 +1,429 @@
+[
+  {
+    "name": "basegrid_status",
+    "description": "Inspect Basegrid, the current model, selected face references and material connection status. Call before drawing.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_list_materials",
+    "description": "List cached materials and permitted slab takeoff groups. Use returned IDs when creating slabs; concrete_only defaults to true.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "concrete_only": {
+          "type": "boolean"
+        },
+        "query": {
+          "type": "string",
+          "description": "Optional material name search.",
+          "maxLength": 512
+        },
+        "offset": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_sync_materials",
+    "description": "Sync the web material library using the existing local Basegrid sign-in. Credentials are never returned. If disconnected, the user must use Extensions > Basegrid > Materials > Connect.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": true
+    }
+  },
+  {
+    "name": "basegrid_create_slab",
+    "description": "Create one Basegrid concrete slab below a horizontal face in the current editing context, retaining the source and its openings. One undo step. Uses a Basegrid face_ref, or exactly one selected face. Dimensions are millimetres. Returns native entity reference and takeoff.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "model_guid": {
+          "type": "string",
+          "description": "model_guid returned by basegrid_status; prevents drawing into a different model.",
+          "maxLength": 512,
+          "minLength": 1
+        },
+        "face_ref": {
+          "type": "string",
+          "description": "Basegrid session reference, e.g. bg_session_12. Omit to use the current single-face selection.",
+          "maxLength": 512,
+          "minLength": 1
+        },
+        "thickness_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "material_id": {
+          "type": "string",
+          "description": "Compatible concrete material ID from basegrid_list_materials.",
+          "maxLength": 512,
+          "minLength": 1
+        },
+        "takeoff_group_id": {
+          "type": "string",
+          "description": "Permitted group ID; omit or use an empty string for Unassigned.",
+          "maxLength": 512
+        }
+      },
+      "required": [
+        "model_guid",
+        "thickness_mm",
+        "material_id"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "idempotentHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_takeoff",
+    "description": "Read stored Basegrid takeoff quantities and grouped totals, or return CSV text. Quantities are recorded at creation, not recalculated after manual geometry changes. CSV is returned to Claude, not written to disk.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "format": {
+          "type": "string",
+          "description": "Output format.",
+          "maxLength": 512,
+          "enum": [
+            "json",
+            "csv"
+          ]
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_set_appearance",
+    "description": "Set all generated Basegrid objects to model or display appearance in one undo step, preserving material IDs and takeoff.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "model_guid": {
+          "type": "string",
+          "description": "model_guid returned by basegrid_status; prevents drawing into a different model.",
+          "maxLength": 512,
+          "minLength": 1
+        },
+        "mode": {
+          "type": "string",
+          "description": "Appearance to apply.",
+          "maxLength": 512,
+          "enum": [
+            "model",
+            "display"
+          ]
+        }
+      },
+      "required": [
+        "model_guid",
+        "mode"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_set_slab_tag_folder",
+    "description": "Set the user's default folder for newly created slab role tags. Existing tag placement stays as it is.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "folder": {
+          "type": "string",
+          "description": "Folder path, e.g. Structure/Concrete. Empty string means no folder.",
+          "maxLength": 512
+        }
+      },
+      "required": [
+        "folder"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_tool_catalog",
+    "description": "Discover implemented Basegrid drawing tools and planned ontology tool definitions. Planned definitions cannot be invoked as drawing commands. Supply a tool_id for its full definition.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "tool_id": {
+          "type": "string",
+          "description": "Tool ID returned by this catalogue.",
+          "maxLength": 512,
+          "minLength": 1
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_find_objects",
+    "description": "Search Basegrid's building-object ontology by name or ID, or retrieve one full object and its outgoing relationships. These records describe construction objects, not engineered design choices.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Case-insensitive name or ID search.",
+          "maxLength": 512
+        },
+        "object_id": {
+          "type": "string",
+          "description": "Exact ontology object ID.",
+          "maxLength": 512,
+          "minLength": 1
+        },
+        "offset": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_native_api",
+    "description": "Discover Basegrid's supported native SketchUp classes, methods, permissions and typed arguments. Native calls never evaluate Ruby source.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_model",
+    "description": "Inspect the current SketchUp model, selection, bounds, tags and material names.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_invoke",
+    "description": "Invoke one supported native SketchUp API method through Basegrid. Use basegrid_native_api for allowed methods. Writes are undoable. Point3d and Length arguments require explicit units.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "model_guid": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512,
+          "description": "Current model_guid returned by basegrid_status."
+        },
+        "target": {
+          "type": "object",
+          "description": "{\"$root\":\"active_model\"}, {\"$ref\":\"bg_...\"} or {\"$result\":\"earlier-call-id\"} (batch only)."
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512,
+          "description": "Native method from basegrid_native_api."
+        },
+        "arguments": {
+          "type": "array",
+          "maxItems": 32
+        }
+      },
+      "required": [
+        "model_guid",
+        "target",
+        "method"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_batch",
+    "description": "Execute up to 100 native SketchUp API calls in order. Geometry writes share one Undo operation; failures abort it. Each call has id, target, method and optional arguments. Later calls can use an earlier $result.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "model_guid": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512,
+          "description": "Current model_guid returned by basegrid_status."
+        },
+        "operation_name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512,
+          "description": "Undo label."
+        },
+        "calls": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 100,
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 512,
+                "description": "Unique call ID."
+              },
+              "target": {
+                "type": "object",
+                "description": "{\"$root\":\"active_model\"}, {\"$ref\":\"bg_...\"} or {\"$result\":\"earlier-call-id\"} (batch only)."
+              },
+              "method": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 512,
+                "description": "Native method."
+              },
+              "arguments": {
+                "type": "array",
+                "maxItems": 32
+              }
+            },
+            "required": [
+              "id",
+              "target",
+              "method"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "model_guid",
+        "calls"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_capture_view",
+    "description": "Return a PNG image of the current SketchUp viewport.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 64,
+          "maximum": 2048
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 64,
+          "maximum": 2048
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    }
+  }
+]

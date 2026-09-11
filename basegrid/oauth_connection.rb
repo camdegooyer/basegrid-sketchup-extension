@@ -12,7 +12,7 @@ require "uri"
 
 module Basegrid
   class OAuthConnection
-    CONFIG_URL = "https://basegrid.overlandbuilders.co/api/v1/oauth/config"
+    CONFIG_URL = "https://app.basegrid.com.au/api/v1/oauth/config"
     PREFERENCE_SECTION = "Basegrid"
     TOKENS_KEY = "oauth_tokens"
     CALLBACK_TIMEOUT = 180
