@@ -20,6 +20,17 @@ The extension entry point is `basegrid.rb`. Its first vertical slice provides:
 
 The web endpoint required by the extension is specified in [the material sync contract](docs/MATERIAL_SYNC_CONTRACT.md).
 
+The standalone [Claude MCP connector](docs/CLAUDE_MCP.md) exposes Basegrid's slab,
+material, takeoff and appearance operations plus native SketchUp drawing calls.
+Basegrid owns its MCP server and local API. Setup and callable operations are
+documented in that guide.
+
+The hosted connection adds **Basegrid > Cloud Drawing > Connect**. Once the matching
+web connector and database migration are deployed, customers can sign in and use
+`https://app.basegrid.com.au/mcp` from Claude without a local Node installation.
+Build the self-contained SketchUp installer with `node scripts/package_extension.mjs`;
+the RBZ is written to `dist/`.
+
 For local SketchUp development, install the direct loader for the installed SketchUp version:
 
 ```powershell

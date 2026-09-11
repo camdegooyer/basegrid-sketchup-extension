@@ -60,3 +60,16 @@
 - Existing takeoff records without groups remain valid and appear as Unassigned.
 - Overall takeoff totals count each generated object once; grouped views count it once in each group to which it was assigned.
 - Uploading model quantities to web projects is a separate future workflow and is not implied by library sync.
+
+## 2026-09-11 — Claude MCP integration
+
+- Claude must be able to drive Basegrid's own drawing tools as well as the native SketchUp API.
+- Basegrid is a separate product from SketchAI. Its MCP server and SketchUp connection must operate independently, with no SketchAI runtime dependency.
+- Native geometry calls must support workflows such as creating a face before invoking Basegrid's slab generator.
+- Claude access is required from both Desktop and the terminal.
+
+## 2026-09-11 — Hosted MCP connection
+
+- Build the hosted Basegrid MCP connection end to end, including OAuth and the SketchUp drawing channel.
+- Customers connect with their Basegrid account; SketchAI remains a separate product.
+- The same connector must expose native geometry and Basegrid drawing tools as the tool suite grows.
