@@ -150,12 +150,27 @@ The complete local integration test used the official MCP client, browser consen
 the real web routes/database and a live SketchUp 2026 process. Face → slab produced
 a solid 3.6 m³ slab, repeating the request did not create a second slab, and image
 delivery passed. The account/material inputs were fixtures. Production account
-sign-in is still required during deployment acceptance.
+sign-in and idle polling have since been checked with the user's saved session;
+drawing from Claude through that production connection remains an acceptance check.
 
 Build an installable extension with `node scripts/package_extension.mjs`. Install
-`dist/Basegrid-0.2.1.rbz` through SketchUp's Extension Manager. All runtime resources
+`dist/Basegrid-0.2.2.rbz` through SketchUp's Extension Manager. All runtime resources
 are bundled beneath `basegrid/`; no repository paths are required. Avoid loading
 both an installed RBZ and a development loader for the same extension.
+
+On startup, Basegrid restores the saved account session and reconnects cloud
+drawing. Expired access tokens refresh in the background; temporary network
+failures keep the session and retry. A missing or rejected login opens a local
+sign-in window, which launches the normal browser OAuth flow. **Account and
+Connection** reopens this window and shows connection status or signs out.
+Explicitly disconnecting Cloud Drawing keeps the account signed in but pauses
+automatic connection until you choose Reconnect. Closing SketchUp closes that
+instance: Claude must list devices again after a restart to use its new ID.
+
+The UI timers explicitly yield to Ruby's network threads, keeping polling and
+OAuth callbacks running while SketchUp is idle. SketchUp must still be open and
+able to process its UI queue for model commands to execute; a sleeping computer
+cannot receive drawing commands.
 
 With a hosted connector added and authorised through the Claude account, Claude
 Code can discover it when using the same claude.ai subscription login. API-key and

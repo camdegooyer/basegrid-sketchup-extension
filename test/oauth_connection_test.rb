@@ -98,4 +98,47 @@ class OAuthConnectionTest < Minitest::Test
     assert_equal "", Sketchup.read_default("Basegrid", "oauth_tokens", "")
     assert connection.connected?
   end
+
+  def test_new_session_restores_saved_login_without_network
+    path = File.join(@directory, "oauth-session.json")
+    first = Basegrid::OAuthConnection.new(client: FakeClient.new({}), token_path: path)
+    first.save_tokens("access_token" => "saved-access", "refresh_token" => "saved-refresh", "expires_in" => 3600)
+    client = FakeClient.new({})
+    reopened = Basegrid::OAuthConnection.new(client: client, token_path: path)
+    assert reopened.connected?
+    assert_equal "saved-access", reopened.access_token
+    assert_empty client.forms
+  end
+
+  def expired_session(client)
+    connection = Basegrid::OAuthConnection.new(client: client, token_path: File.join(@directory, "oauth-session.json"))
+    connection.save_tokens("access_token" => "old", "refresh_token" => "refresh", "expires_in" => 0,
+      "token_endpoint" => "https://example.test/token", "client_id" => "client")
+    connection
+  end
+
+  def test_temporary_refresh_failure_keeps_saved_login
+    client = Object.new
+    def client.post_form(*) = raise IOError, "Temporary network failure"
+    connection = expired_session(client)
+    assert_raises(IOError) { connection.access_token }
+    assert connection.connected?
+  end
+
+  def test_rejected_refresh_requires_a_new_login
+    client = Object.new
+    def client.post_form(*) = raise Basegrid::OAuthConnection::RequestError.new(400, "invalid_grant", "Refresh expired")
+    connection = expired_session(client)
+    assert_raises(Basegrid::OAuthConnection::SignInRequired) { connection.access_token }
+    refute connection.connected?
+  end
+
+  def test_concurrent_sessions_refresh_once_and_share_the_rotated_token
+    client = FakeClient.new("access_token" => "rotated", "refresh_token" => "rotated-refresh", "expires_in" => 3600)
+    first = expired_session(client)
+    second = Basegrid::OAuthConnection.new(client: client, token_path: File.join(@directory, "oauth-session.json"))
+    values = [first, second].map { |connection| Thread.new { connection.access_token } }.map(&:value)
+    assert_equal ["rotated", "rotated"], values
+    assert_equal 1, client.forms.length
+  end
 end

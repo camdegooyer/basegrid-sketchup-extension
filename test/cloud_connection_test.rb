@@ -101,7 +101,52 @@ class CloudConnectionTest < Minitest::Test
     refute @connection.running?
     3.times { @connection.drain }
     assert_equal [["Sign in again.", Thread.current]], changes
+    assert @connection.requires_sign_in?
   ensure
     @connection.stop
+  end
+
+  def test_temporary_startup_failure_retries_with_saved_auth_on_worker
+    client = Client.new(nil)
+    calls = []
+    provider = lambda do
+      calls << Thread.current
+      raise IOError, "Network unavailable" if calls.length == 1
+      "restored-oauth-token"
+    end
+    @connection = Basegrid::CloudConnection.new(client: client, model: -> { @model }, mode: -> { @mode }, retry_delay: 0.01)
+    @connection.start(oauth_token: provider, schedule: false)
+    deadline = Time.now + 3
+    Thread.pass until @connection.status == "Connected" || Time.now >= deadline
+    assert_equal "Connected", @connection.status
+    assert_equal 2, calls.length
+    assert calls.all? { |thread| thread != Thread.current }
+    refute @connection.requires_sign_in?
+  ensure
+    @connection.stop
+    @connection.instance_variable_get(:@worker)&.join(3)
+  end
+
+  def test_expired_login_stops_retries_and_requests_sign_in
+    calls = 0
+    provider = -> { calls += 1; raise Basegrid::OAuthConnection::SignInRequired, "Sign in again" }
+    @connection.start(oauth_token: provider, schedule: false)
+    @connection.instance_variable_get(:@worker).join(3)
+    assert @connection.requires_sign_in?
+    refute @connection.running?
+    assert_equal 1, calls
+  ensure
+    @connection.stop
+  end
+
+  def test_stop_interrupts_startup_retry_without_registering_again
+    calls = Queue.new
+    provider = -> { calls << true; raise IOError, "Offline" }
+    @connection.start(oauth_token: provider, schedule: false)
+    calls.pop
+    @connection.stop
+    assert @connection.instance_variable_get(:@worker).join(1)
+    assert_equal "Disconnected", @connection.status
+    assert calls.empty?
   end
 end

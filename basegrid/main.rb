@@ -17,6 +17,7 @@ module Basegrid
       return if @started
 
       menu = UI.menu("Extensions").add_submenu("Basegrid")
+      menu.add_item("Account and Connection") { CloudDrawing.status }
       cloud_menu = menu.add_submenu("Cloud Drawing")
       cloud_menu.add_item("Connect") { CloudDrawing.connect }
       cloud_menu.add_item("Disconnect") { CloudDrawing.stop }
@@ -41,8 +42,11 @@ module Basegrid
       api_menu.add_item("Stop") { LocalAPI.stop }
       api_menu.add_item("Permissions") { LocalAPI.configure_permissions }
       UI.start_timer(1.0, false) { LocalAPI.start }
+      restored = false
       UI.start_timer(2.0, false) do
-        CloudDrawing.start if Sketchup.read_default("Basegrid", "cloud_drawing_enabled", false)
+        next if restored
+        restored = true
+        CloudDrawing.restore
       end
       @started = true
     end
@@ -68,26 +72,7 @@ module Basegrid
     end
 
     def connect_materials(&connected)
-      oauth_connection.connect do |result|
-        if result[:error]
-          UI.messagebox("Materials could not be connected.\n\n#{result[:error].message}")
-          next
-        end
-
-        begin
-          tokens = result.fetch(:tokens)
-          sync_result = sync_with_token(tokens.fetch("access_token"))
-          oauth_connection.save_tokens(tokens)
-          Sketchup.write_default("Basegrid", "materials_sync_token", "")
-          UI.messagebox("Materials are connected. #{sync_result[:materials]} materials were synced.")
-          connected.call if connected
-        rescue StandardError => e
-          UI.messagebox("Materials could not be connected. Credentials were not saved.\n\n#{e.message}")
-        end
-      end
-      Sketchup.set_status_text("Complete Basegrid sign-in in your browser, then return to SketchUp.")
-    rescue StandardError => e
-      UI.messagebox("Materials could not start connecting.\n\n#{e.message}")
+      CloudDrawing.sign_in(&connected)
     end
 
     def connect_materials_with_token
@@ -308,13 +293,19 @@ module Basegrid
     end
 
     def sync_with_token(token)
+      MaterialLibrary.new.sync!(url: material_library_url, token: token)
+    end
+
+    def material_library_url
       url = Sketchup.read_default("Basegrid", "material_library_url", MaterialLibrary::DEFAULT_URL).to_s
       # Repair the former production default without replacing development URLs.
       if url == "https://basegrid.overlandbuilders.co/api/v1/material-library"
         url = MaterialLibrary::DEFAULT_URL
       end
-      MaterialLibrary.new.sync!(url: url, token: token)
+      url
     end
+
+    def cloud_connection_status = CloudDrawing.connection_status
 
     def concrete_slab_tool
       @concrete_slab_tool ||= ConcreteSlabTool.new

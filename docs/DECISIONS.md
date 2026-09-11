@@ -73,3 +73,8 @@
 - Build the hosted Basegrid MCP connection end to end, including OAuth and the SketchUp drawing channel.
 - Customers connect with their Basegrid account; SketchAI remains a separate product.
 - The same connector must expose native geometry and Basegrid drawing tools as the tool suite grows.
+
+## 2026-09-11 — Remembered SketchUp sign-in
+
+- Basegrid should show a sign-in window when SketchUp starts without a usable session.
+- Sign-in should persist between SketchUp sessions and restore the cloud connection automatically.
