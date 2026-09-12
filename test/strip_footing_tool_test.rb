@@ -5,7 +5,9 @@ require_relative "../basegrid/strip_footing_tool"
 
 module Sketchup
   class << self
-    attr_accessor :active_model
+    attr_accessor :active_model, :status_text
+
+    def set_status_text(text) = self.status_text = text
   end
 end
 
@@ -28,6 +30,26 @@ class StripFootingToolTest < Minitest::Test
     assert_raises(RuntimeError) { @tool.validate_materials("mesh" => "wood") }
     assert_raises(RuntimeError) { @tool.validate_materials("mesh" => "retired") }
     assert_raises(RuntimeError) { @tool.validate_materials("other" => "mesh") }
+  end
+
+  def test_tab_cycles_the_setout_anchor_around_the_cross_section
+    settings = @tool.resolved_settings({}, {})
+    tool = Basegrid::StripFootingTool::DrawTool.new(@tool, settings, {})
+    view = OpenStruct.new(invalidated: 0)
+    def view.invalidate = self.invalidated += 1
+
+    assert_equal "center top", tool.anchor_label
+    walked = 6.times.map do
+      assert tool.onKeyDown(Basegrid::StripFootingTool::DrawTool::TAB_KEY, 1, 0, view)
+      [settings["alignment"], settings["vertical_reference"]]
+    end
+
+    assert_equal 6, walked.uniq.length, "each press must reach a different anchor point"
+    assert_equal ["center", "top"], walked.last, "the cycle must return to where it started"
+    assert_equal 6, view.invalidated
+    assert_includes Sketchup.status_text, "anchor center top (Tab cycles)"
+    refute tool.onKeyDown(0, 1, 0, view), "other keys stay available to SketchUp"
+    assert_equal 6, view.invalidated
   end
 
   def test_settings_html_escapes_material_content

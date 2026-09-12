@@ -8,10 +8,16 @@ Basegrid > Draw Strip Footing**.
    from the synced web material types, or leave them unassigned.
 2. Click a start point and draw X/Y-aligned runs. Type a length using SketchUp's
    normal units to place the next point precisely.
-3. Right-click for **Close Current Loop**, **Start Branch / New Run**, or
+3. Press **Tab** to move the setout anchor to the next point on the cross
+   section. It walks once around the six points — top left, top centre, top
+   right, bottom right, bottom centre, bottom left — and the preview re-offsets
+   the whole assembly, including points already clicked. Edge anchors are
+   relative to the direction each run is drawn in. The status bar names the
+   current anchor. The dialog still sets the starting anchor.
+4. Right-click for **Close Current Loop**, **Start Branch / New Run**, or
    **Step from Last Point**. Steps accept positive or negative height changes.
    Draw steps on straight runs; the nominated overlap must fit the adjoining run.
-4. Press Enter, double-click, or choose **Finish Footing**. Escape cancels without adding model
+5. Press Enter, double-click, or choose **Finish Footing**. Escape cancels without adding model
    geometry. Creation is one undoable operation; failed creation rolls back.
 
 ## Geometry and materials
@@ -93,7 +99,7 @@ mode for discovery; creation requires edit/full mode.
 
 Automated tests cover watertight outward-oriented surfaces, net volume, loops,
 branches, both step directions and references, short overlaps, invalid input,
-clear cover, separated mesh wires, support contact, material filtering and
+clear cover, separated mesh wires, support contact, Tab anchor cycling, material filtering and
 mixed-unit takeoff, shared component definitions and per-instance quantities. Run `ruby test/strip_footing_geometry_test.rb` and
 `ruby test/strip_footing_tool_test.rb`, plus the existing API/takeoff/MCP suites.
 
@@ -115,5 +121,6 @@ The T-junction check caught a native failure caused by erasing shared coplanar
 grid edges during cleanup. Concrete now uses a welded polygon mesh and hides
 coplanar subdivisions while preserving their topology.
 
-Manual mouse/keyboard interaction, material switching, rotated/scaled editing
+Manual mouse/keyboard interaction (including the Tab anchor key on macOS),
+material switching, rotated/scaled editing
 contexts and macOS visual testing remain to be checked.

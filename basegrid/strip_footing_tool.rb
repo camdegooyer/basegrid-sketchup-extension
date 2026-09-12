@@ -308,7 +308,7 @@ module Basegrid
         label{display:block;font-size:12px}input,select{box-sizing:border-box;width:100%;padding:8px;margin-top:5px;border:1px solid #b8c2ca;border-radius:4px}
         button{padding:12px 20px;background:#1769aa;color:white;border:0;border-radius:4px;margin-top:18px;cursor:pointer}
         #error{color:#a32424}aside{padding:12px;background:#fff2cf;line-height:1.5;margin:16px 0}
-        </style></head><body><h1>Strip footing</h1><p>Draw connected X/Y runs, loops and branches. Right-click to add a step or start a branch. Enter finishes the assembly.</p>
+        </style></head><body><h1>Strip footing</h1><p>Draw connected X/Y runs, loops and branches. Tab moves the setout anchor around the cross section. Right-click to add a step or start a branch. Enter finishes the assembly.</p>
         <aside>First version: mesh runs have no corner, step or junction connection details. Supports are generic dimensioned shapes. Dimensions are modelling inputs. Selected mesh sets its available bar count, diameter and spacing; remaining dimensions stay editable.</aside>
         <form id="form"><div id="fields"></div><p id="error"></p><button type="submit">Start drawing</button></form>
         <script>
@@ -340,8 +340,15 @@ module Basegrid
     end
 
     class DrawTool
+      TAB_KEY = defined?(::VK_TAB) ? ::VK_TAB : 9
+      # Walks once around the cross section rather than varying one axis at a
+      # time, so repeated presses read as rotating through the anchor points.
+      ANCHORS = [["top", "left_edge"], ["top", "center"], ["top", "right_edge"],
+                 ["bottom", "right_edge"], ["bottom", "center"], ["bottom", "left_edge"]].freeze
+
       def initialize(builder, settings, materials)
         @builder, @settings, @materials = builder, settings, materials
+        @anchor = ANCHORS.index([settings["vertical_reference"], settings["alignment"]]) || 1
         @paths = [[]]
         @hover = nil
         @error = nil
@@ -360,6 +367,26 @@ module Basegrid
       end
 
       def enableVCB? = true
+
+      def onKeyDown(key, _repeat, _flags, view)
+        return false unless key == TAB_KEY
+
+        cycle_anchor
+        status
+        view.invalidate
+        true
+      end
+
+      # Moves the setout anchor to the next point on the cross section. Already
+      # clicked points are setout points, so the whole assembly re-offsets.
+      def cycle_anchor
+        @anchor = (@anchor + 1) % ANCHORS.length
+        @settings["vertical_reference"], @settings["alignment"] = ANCHORS[@anchor]
+      end
+
+      def anchor_label
+        ANCHORS[@anchor].reverse.join(" ").tr("_", " ")
+      end
 
       def onMouseMove(_flags, x, y, view)
         anchor = @paths.last.last
@@ -533,7 +560,7 @@ module Basegrid
       end
 
       def status
-        Sketchup.set_status_text(@error || "Strip footing: click X/Y runs; type a length; right-click for steps/branches; Enter builds; Esc cancels.")
+        Sketchup.set_status_text(@error || "Strip footing anchor #{anchor_label} (Tab cycles): click X/Y runs; type a length; "                                            "right-click for steps/branches; Enter builds; Esc cancels.")
       end
     end
   end
