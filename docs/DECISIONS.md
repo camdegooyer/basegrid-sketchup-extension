@@ -1,5 +1,15 @@
 # Confirmed decisions
 
+## 2026-09-12 — Strip footing first version
+
+- Build a Basegrid strip-footing tool using SketchOB as an inspected reference.
+- Include concrete and reinforcement; the requested overall scope includes steps and T/cross junctions.
+- Filter material selection by the web application's material types.
+- When matching materials are missing, allow dimensioned, unassigned geometry and retain its quantities.
+- The requested end state uses actual product shapes and the user's connection detail; that detail has not yet been supplied.
+- The inspected footing's concrete segment groups, mesh assemblies, paired-bar spacers and rectangular support shapes are the reference for the next tool update; Basegrid group names may be chosen independently.
+- Repeated parts should use component instances, with each placed part counted separately in takeoff.
+
 ## 2026-08-16 — Fresh start
 
 - The previous Basegrid contents were cleared.

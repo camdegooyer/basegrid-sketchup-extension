@@ -6,6 +6,7 @@ require_relative "oauth_connection"
 require_relative "takeoff"
 require_relative "material_appearance"
 require_relative "concrete_slab_tool"
+require_relative "strip_footing_tool"
 require_relative "local_api"
 require_relative "cloud_connection"
 
@@ -30,6 +31,7 @@ module Basegrid
       materials_menu.add_item("Disconnect") { disconnect_materials }
       menu.add_separator
       menu.add_item("Create Concrete Slab from Face") { concrete_slab_tool.run }
+      menu.add_item("Draw Strip Footing") { strip_footing_tool.run }
       @takeoff_command = takeoff_command
       menu.add_item(@takeoff_command)
       @appearance_command = appearance_command
@@ -124,7 +126,7 @@ module Basegrid
       rows = Takeoff.summary_rows(records)
       grouped_rows = Takeoff.grouped_rows(records)
       if rows.empty?
-        UI.messagebox("No concrete slab takeoff records were found in this model.")
+        UI.messagebox("No Basegrid takeoff records were found in this model.")
         return
       end
 
@@ -134,16 +136,16 @@ module Basegrid
     end
 
     def takeoff_command
-      command = UI::Command.new("Concrete Takeoff") { show_takeoff }
-      command.tooltip = "Concrete Takeoff"
-      command.status_bar_text = "Review and export concrete quantities in the model."
-      command.menu_text = "Concrete Takeoff"
+      command = UI::Command.new("Material Takeoff") { show_takeoff }
+      command.tooltip = "Material Takeoff"
+      command.status_bar_text = "Review and export generated material quantities in the model."
+      command.menu_text = "Material Takeoff"
       command
     end
 
     def create_takeoff_dialog
       dialog = UI::HtmlDialog.new(
-        dialog_title: "Concrete Takeoff",
+        dialog_title: "Material Takeoff",
         preferences_key: "basegrid_concrete_takeoff",
         scrollable: true,
         resizable: true,
@@ -194,7 +196,7 @@ module Basegrid
           </style>
         </head>
         <body>
-          <header><h1>Concrete takeoff</h1><p>Live quantities from Basegrid-generated objects in this model.</p></header>
+          <header><h1>Material takeoff</h1><p>Quantities stored when Basegrid objects were created. Manual geometry edits do not recalculate them.</p></header>
           <main>
             <section class="metrics">
               <div class="metric"><strong id="total"></strong><span>Total concrete</span></div>
@@ -233,14 +235,14 @@ module Basegrid
       rows = Takeoff.summary_rows(Takeoff.records(Sketchup.active_model))
       return UI.messagebox("There is no concrete takeoff to export.") if rows.empty?
 
-      path = UI.savepanel("Export Concrete Takeoff", nil, "concrete-takeoff.csv")
+      path = UI.savepanel("Export Material Takeoff", nil, "material-takeoff.csv")
       return unless path
 
       path += ".csv" unless File.extname(path).downcase == ".csv"
       File.open(path, "w:UTF-8") { |file| file.write(Takeoff.grouped_csv(Takeoff.records(Sketchup.active_model))) }
-      UI.messagebox("Concrete takeoff exported to:\n#{path}")
+      UI.messagebox("Material takeoff exported to:\n#{path}")
     rescue StandardError => e
-      UI.messagebox("Concrete takeoff could not be exported.\n\n#{e.message}")
+      UI.messagebox("Material takeoff could not be exported.\n\n#{e.message}")
     end
 
     def appearance_command
@@ -309,6 +311,10 @@ module Basegrid
 
     def concrete_slab_tool
       @concrete_slab_tool ||= ConcreteSlabTool.new
+    end
+
+    def strip_footing_tool
+      @strip_footing_tool ||= StripFootingTool.new
     end
   end
 end

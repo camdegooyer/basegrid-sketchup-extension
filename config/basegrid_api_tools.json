@@ -425,5 +425,41 @@
       "idempotentHint": true,
       "openWorldHint": false
     }
+  },
+  {
+    "name": "basegrid_create_strip_footing",
+    "description": "Create one connected X/Y-aligned strip footing assembly with mitered concrete segment groups (net union at junctions), optional top/bottom mesh, rectangular support instances and paired-bar spacer instances. Reinforcement connections are NOT detailed. Paths use world millimetres; each path is horizontal, with different-height paths meeting at straight steps. Unassigned materials are allowed.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "model_guid": {
+          "type": "string"
+        },
+        "paths_mm": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 50,
+          "description": "Array of paths, each containing 2\u2013100 [x,y,z] points in world millimetres. Close loops by repeating the first point. Add branches or steps as additional paths."
+        },
+        "settings": {
+          "type": "object",
+          "description": "Optional width_mm, depth_mm, alignment (center/left_edge/right_edge), vertical_reference (top/bottom), step_overlap_mm, reinforcement (none/bottom/top_bottom; defaults top_bottom), bar_count (3/4), bar_spacing_mm, bar_diameter_mm, cross_diameter_mm, cross_spacing_mm, cover_mm, support_spacing_mm, support_width_mm, support_first_offset_mm, spacer_diameter_mm, spacer_pair_offset_mm. Dimensions in mm. Support height follows clear cover; spacer height follows mesh spacing. Legacy support_thickness_mm is ignored."
+        },
+        "materials": {
+          "type": "object",
+          "description": "Optional concrete, mesh, chairs, spacers material UUIDs. Empty/missing values leave geometry unassigned. Filtered by compatible web material types."
+        }
+      },
+      "required": [
+        "paths_mm"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "idempotentHint": false,
+      "openWorldHint": false
+    }
   }
 ]

@@ -19,7 +19,8 @@ To create a slab, draw the footprint in active_entities through basegrid_batch, 
 Always use the Basegrid slab tool for Basegrid slabs: it writes material IDs, tags and takeoff. Read basegrid_list_materials for real eligible IDs.
 Use model_guid from basegrid_status for edits. Every geometry batch and slab creation has its own Undo operation.
 Verify with basegrid_takeoff and basegrid_capture_view. Takeoff is stored at creation and does not recalculate after manual/native edits.
-Only the concrete slab generator is implemented; the catalogue identifies other tools as definition_only.
+Concrete slabs and strip footings are implemented; the catalogue identifies other tools as definition_only.
+Use basegrid_create_strip_footing for connected X/Y paths with optional mesh, support blocks and paired-bar spacers. Repeated parts use component instances; reinforcement connections are not detailed.
 If materials are disconnected, the user connects in Extensions > Basegrid > Materials > Connect.
 Methods needing more permission must be enabled by the user in Extensions > Basegrid > MCP API > Permissions.
 After an execution timeout, inspect the model before retrying a write.`;

@@ -8,6 +8,11 @@ The internal-floor slice adds structural sheets and preparation, timber, laminat
 
 ## SketchUp extension: first tool slice
 
+The [first strip-footing tool](docs/STRIP_FOOTING.md) is available under
+**Extensions > Basegrid > Draw Strip Footing**, with connected concrete paths,
+mesh, dimensioned supports and material takeoff. See its guide for the current
+geometry limits and undetailed reinforcement connections.
+
 The extension entry point is `basegrid.rb`. Its first vertical slice provides:
 
 - authenticated materials, takeoff-groups and generated-role configuration sync with a last-known-good local cache;

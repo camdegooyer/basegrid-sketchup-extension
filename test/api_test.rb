@@ -113,6 +113,7 @@ class BasegridAPITest < Minitest::Test
     Basegrid::API::TOOLS.reject { |item| item.dig("annotations", "readOnlyHint") || %w[basegrid_invoke basegrid_batch].include?(item["name"]) }.each do |tool|
       args = case tool["name"]
              when "basegrid_create_slab" then @arguments
+             when "basegrid_create_strip_footing" then { "paths_mm" => [[[0,0,0], [6000,0,0]]] }
              when "basegrid_set_appearance" then { "model_guid" => "model-1", "mode" => "model" }
              when "basegrid_set_slab_tag_folder" then { "folder" => "Structure" }
              else {}
@@ -208,7 +209,7 @@ class BasegridAPITest < Minitest::Test
 
   def test_catalogue_does_not_advertise_planned_generators_as_implemented
     tools = invoke("basegrid_tool_catalog").dig("result", "tools")
-    assert_equal ["concrete.slab_from_face"], tools.select { |item| item["status"] == "implemented" }.map { |item| item["id"] }
+    assert_equal ["concrete.slab_from_face", "concrete.strip_footing"], tools.select { |item| item["status"] == "implemented" }.map { |item| item["id"] }
     wall = invoke("basegrid_tool_catalog", { "tool_id" => "skp_tool_timber_wall_frame" })
     assert_equal "definition_only", wall.dig("result", "status")
     assert_error "UNKNOWN_TOOL", invoke("basegrid_tool_catalog", { "tool_id" => "made-up" })

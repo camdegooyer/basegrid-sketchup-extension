@@ -3,6 +3,7 @@
 require "json"
 require_relative "material_library"
 require_relative "concrete_slab_tool"
+require_relative "strip_footing_tool"
 require_relative "material_appearance"
 require_relative "takeoff"
 require_relative "native_api"
@@ -51,6 +52,7 @@ module Basegrid
                when "basegrid_list_materials" then list_materials(arguments)
                when "basegrid_sync_materials" then sync_materials
                when "basegrid_create_slab" then create_slab(arguments)
+               when "basegrid_create_strip_footing" then create_strip_footing(arguments)
                when "basegrid_takeoff" then takeoff(arguments)
                when "basegrid_set_appearance" then set_appearance(arguments)
                when "basegrid_set_slab_tag_folder" then set_folder(arguments)
@@ -123,8 +125,8 @@ module Basegrid
         "cached_material_count" => @library.materials.length,
         "compatible_concrete_count" => @library.concrete_materials.length,
         "appearance" => @model ? MaterialAppearance.mode(@model) : nil,
-        "implemented_drawing_tools" => [ConcreteSlabTool::TOOL_ID],
-        "takeoff_basis" => "Stored at slab creation; manual geometry edits do not recalculate quantity."
+        "implemented_drawing_tools" => [ConcreteSlabTool::TOOL_ID, StripFootingTool::TOOL_ID],
+        "takeoff_basis" => "Stored at creation; manual geometry edits do not recalculate quantity."
       }
     end
 
@@ -177,6 +179,16 @@ module Basegrid
         "takeoff" => JSON.parse(slab.get_attribute(Takeoff::DICTIONARY, Takeoff::KEY)) }
     end
 
+    def create_strip_footing(arguments)
+      model = require_model!
+      @library.load
+      result = StripFootingTool.new(library: @library).build(
+        model, arguments.fetch("paths_mm"), arguments.fetch("settings", {}), arguments.fetch("materials", {})
+      )
+      { "entity" => entity_reference(result.fetch(:entity)), "concrete_volume_m3" => result.fetch(:volume_m3),
+        "warnings" => result.fetch(:warnings) }
+    end
+
     def takeoff(arguments)
       records = Takeoff.records(require_model!)
       return { "csv" => Takeoff.grouped_csv(records) } if arguments.fetch("format", "json") == "csv"
@@ -207,6 +219,9 @@ module Basegrid
       implemented = { "id" => ConcreteSlabTool::TOOL_ID, "label" => "Concrete Slab from Face",
                       "status" => "implemented", "mcp_tool" => "basegrid_create_slab" }
       return implemented if arguments["tool_id"] == implemented["id"]
+      footing = { "id" => StripFootingTool::TOOL_ID, "label" => "Strip Footing",
+                  "status" => "implemented", "mcp_tool" => "basegrid_create_strip_footing" }
+      return footing if arguments["tool_id"] == footing["id"]
 
       manifest = JSON.parse(File.read(File.join(RESOURCE_ROOT, "config", "sketchup_tool_definitions.json"), encoding: "UTF-8"))
       if arguments.key?("tool_id")
@@ -215,7 +230,7 @@ module Basegrid
 
         return definition.merge("status" => "definition_only")
       end
-      { "tools" => [implemented] + manifest.fetch("tools").map do |item|
+      { "tools" => [implemented, footing] + manifest.fetch("tools").map do |item|
         item.slice("id", "label", "category", "draw_input").merge("status" => "definition_only")
       end }
     end

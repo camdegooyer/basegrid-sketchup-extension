@@ -86,5 +86,5 @@ test('real standalone stdio transport starts and lists tools', async () => {
   const replies = output.trim().split('\n').map(JSON.parse);
   assert.equal(replies[0].error.code, -32700);
   assert.equal(replies[1].result.serverInfo.name, 'basegrid');
-  assert.equal(replies[2].result.tools.length, 14);
+  assert.equal(replies[2].result.tools.length, TOOLS.length);
 });
