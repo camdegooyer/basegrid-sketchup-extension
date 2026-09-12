@@ -112,7 +112,7 @@ module Basegrid
       warnings = []
       if s["reinforcement"] != "none"
         warnings << "Supports and spacer pairs are dimensioned representations, not manufacturer product replicas."
-        warnings << "Corner, step and junction reinforcement connections are not detailed; mesh runs terminate independently." if segments.length > 1
+        warnings << "Mesh runs continue through corners and junctions and stack one mesh depth apart; bends, hooks and lapped splices are not modelled." if segments.length > 1
       end
       surface.merge(settings: s, segments: segments, concrete_parts: parts, mesh_layers: reinforcement[:layers], bars: reinforcement[:bars],
                     chairs: reinforcement[:chairs], spacers: reinforcement[:spacers],
@@ -174,6 +174,28 @@ module Basegrid
       end
     rescue ArgumentError, TypeError
       raise "Coordinates must be numbers."
+    end
+
+    # A run terminating at a perpendicular run at the same level carries its
+    # mesh through the junction to the far face of that run's outermost
+    # longitudinal bar. Returns nil where the end is free and takes end cover.
+    def junction_reach(run, segments, index, side, lap)
+      vertex = side == :start ? run[:a] : run[:b]
+      other = segments.each_with_index.find do |candidate, other_index|
+        other_index != index && (candidate[:bottom] - run[:bottom]).abs <= TOLERANCE &&
+          perpendicular?(run, candidate) && on_centreline?(candidate, vertex)
+      end
+      return nil unless other
+      centre = other.first
+      along = (centre[:a][0] + centre[:side][0] * centre[:center] - run[:a][0]) * run[:direction][0] +
+              (centre[:a][1] + centre[:side][1] * centre[:center] - run[:a][1]) * run[:direction][1]
+      side == :start ? along - lap : along + lap
+    end
+
+    def on_centreline?(run, point)
+      along = (point[0] - run[:a][0]) * run[:direction][0] + (point[1] - run[:a][1]) * run[:direction][1]
+      lateral = (point[0] - run[:a][0]) * run[:side][0] + (point[1] - run[:a][1]) * run[:side][1]
+      lateral.abs <= TOLERANCE && along >= -TOLERANCE && along <= run[:length] + TOLERANCE
     end
 
     def same_xy?(a, b)
@@ -256,18 +278,27 @@ module Basegrid
       extent = [radius, cross_radius, s["spacer_diameter_mm"] / 2].max
       raise "Mesh does not fit the footing width and clear cover." if half_mesh + extent + cover > s["width_mm"] / 2
       layer_depth = 2 * radius + 2 * cross_radius
-      required = 2 * cover + layer_depth * (s["reinforcement"] == "top_bottom" ? 2 : 1)
+      # Runs on one axis keep nominal cover; runs on the other stack one mesh
+      # depth above them, so meshes carried through a junction sit on each
+      # other instead of intersecting.
+      axes = segments.map { |run| run[:direction][0].abs > 0.5 ? 0 : 1 }
+      lifts = axes.map { |axis| axis == axes.first ? 0.0 : layer_depth }
+      layers_per_run = s["reinforcement"] == "top_bottom" ? 2 : 1
+      required = (2 * cover + layer_depth * layers_per_run) + lifts.max * layers_per_run
       raise "Mesh layers do not fit the depth and clear cover." if required >= s["depth_mm"]
+      lap = half_mesh + radius
       raise "Spacer pair bars must not overlap." if s["spacer_pair_offset_mm"] * 2 < s["spacer_diameter_mm"]
       estimated_bars = segments.sum { |run| (run[:length] / s["cross_spacing_mm"]).ceil + s["bar_count"] }
       estimated_bars *= 2 if s["reinforcement"] == "top_bottom"
       estimated_supports = segments.sum { |run| (run[:length] / s["support_spacing_mm"]).ceil + 1 }
       raise "Too much reinforcement; increase spacing or shorten the assembly." if estimated_bars > 20_000 || estimated_supports > 2_000
       segments.each_with_index do |run, index|
-        from, to = cover, run[:length] - cover
+        lift = lifts[index]
+        from = junction_reach(run, segments, index, :start, lap) || cover
+        to = junction_reach(run, segments, index, :end, lap) || run[:length] - cover
         raise "Run #{index + 1} is too short for the specified end cover." if to <= from
-        heights = [["Bottom", run[:bottom] + cover + radius, 1]]
-        heights << ["Top", run[:top] - cover - radius, -1] if s["reinforcement"] == "top_bottom"
+        heights = [["Bottom", run[:bottom] + cover + radius + lift, 1]]
+        heights << ["Top", run[:top] - cover - radius - lift, -1] if s["reinforcement"] == "top_bottom"
         heights.each do |name, z, direction|
           longitudinal = s["bar_count"].to_i.times.map do |i|
             offset = run[:center] - half_mesh + i * s["bar_spacing_mm"]
@@ -304,7 +335,7 @@ module Basegrid
         stations.each do |station|
           result[:chairs] << { segment_index: index,
             origin: point(run, station, run[:center], run[:bottom]), direction: run[:direction],
-            width_mm: 2*w, length_mm: 2*half_mesh, height_mm: cover }
+            width_mm: 2*w, length_mm: 2*half_mesh, height_mm: cover + lift }
           next unless heights.length == 2
           lower = heights[0][1] + radius
           upper = heights[1][1] - radius

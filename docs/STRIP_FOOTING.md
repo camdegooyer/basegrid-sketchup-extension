@@ -47,10 +47,14 @@ turn a generic support into that product's exact shape.
 
 Under **Reinforcement**, each run has **Bottom Mesh**, **Top Mesh** (when enabled),
 **Mesh Supports** and **Mesh Spacers** groups. Mesh groups contain a **Primary Bar**
-and a **Mesh Frame**. Identical bars, support blocks and spacer pairs share
-component definitions; their placements remain individual component instances.
-Changing a definition updates its matching instances. Concrete segments and mesh
-assemblies remain groups because their geometry can differ by run.
+and a **Mesh Frame**.
+
+Every placed bar is its own group holding its own geometry, so a bar can be
+trimmed, moved or reshaped at a junction without changing any other bar. Support
+blocks and spacer pairs are manufactured items that should stay identical, so
+they keep shared component definitions with individual instances; changing one
+of those definitions updates its matching instances. The cost of independent
+bars is geometry per bar rather than per size.
 
 The default mesh has three 12 mm longitudinal bars at 100 mm centres, top and
 bottom layers, and 8 mm cross bars at 300 mm spacing. Support blocks default to
@@ -60,11 +64,23 @@ to two 6 mm bars, 14 mm apart, at each side of the mesh. Their height follows th
 clear space between the longitudinal layers. Supports begin 200 mm after end
 cover and repeat at 900 mm spacing; a short run gets one centred support if it fits.
 
-**Reinforcement connections at corners, steps and junctions remain undetailed.**
-Each run has its own terminated mesh. Intersecting runs may therefore have steel
-clashes; v1 does not resolve their elevations, bends or laps. This limitation is
-shown in the dialog, reported after creation, and stored on the assembly. It
-requires the user's connection detail before the next geometry stage.
+Mesh runs are carried through corners and T/cross junctions. A run ending at a
+perpendicular run at the same level extends to the far face of that run's
+outermost longitudinal bar — half the mesh width plus one bar radius past the
+vertex — and its cross wires continue at their normal spacing. Free ends keep
+end cover, and a step is not a junction: a run meeting another at a different
+level still terminates with end cover.
+
+Runs on one axis keep nominal cover; runs on the other stack exactly one mesh
+depth above them, so the carried-through meshes touch rather than intersect.
+The axis of the first run drawn stays at nominal cover, and the stacked run's
+supports grow to suit, so a straight or single-axis footing is unchanged. The
+stacked run's cover increases by one mesh depth, which the depth check includes.
+
+**Bends, hooks and lapped splices are still not modelled.** Bars run straight
+through and stop square. Step reinforcement is not connected. This is reported
+after creation and stored on the assembly, and still needs the user's connection
+detail before the next geometry stage.
 
 ## Quantities and MCP
 
@@ -99,7 +115,9 @@ mode for discovery; creation requires edit/full mode.
 
 Automated tests cover watertight outward-oriented surfaces, net volume, loops,
 branches, both step directions and references, short overlaps, invalid input,
-clear cover, separated mesh wires, support contact, Tab anchor cycling, material filtering and
+clear cover, separated mesh wires, support contact, corner continuation and layer
+stacking, steps not treated as junctions, independent bar geometry, Tab anchor
+cycling, material filtering and
 mixed-unit takeoff, shared component definitions and per-instance quantities. Run `ruby test/strip_footing_geometry_test.rb` and
 `ruby test/strip_footing_tool_test.rb`, plus the existing API/takeoff/MCP suites.
 

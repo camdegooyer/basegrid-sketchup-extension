@@ -109,6 +109,31 @@ class StripFootingToolTest < Minitest::Test
     assert_equal 2, Basegrid::Takeoff.summary_rows(records).first["quantity"]
   end
 
+  def test_each_placed_bar_gets_its_own_geometry_not_a_shared_definition
+    groups = []
+    group_class = Struct.new(:name, :entities, :layer)
+    entities = Object.new
+    entities.define_singleton_method(:add_group) do
+      group_class.new(nil, [], nil).tap { |group| groups << group }
+    end
+    shared = false
+    model = Object.new
+    model.define_singleton_method(:layers) { [:layer0] }
+    model.define_singleton_method(:definitions) { shared = true; [] }
+    built = []
+    @tool.define_singleton_method(:add_bar) { |target, bar| built << [target, bar] }
+
+    bar = { a: [0, 0, 0], b: [0, 0, 1000], diameter: 11 }
+    first = @tool.send(:place_bar, model, entities, bar, "Longitudinal Bar 01")
+    second = @tool.send(:place_bar, model, entities, bar, "Longitudinal Bar 02")
+
+    refute shared, "identical bars must not be placed through a shared component definition"
+    refute_same first, second
+    assert_equal ["Longitudinal Bar 01", "Longitudinal Bar 02"], groups.map(&:name)
+    assert_equal 2, built.length
+    refute_same built[0][0], built[1][0], "each bar must own the entities its geometry is built in"
+  end
+
   def test_repeated_dimensions_reuse_definition_but_different_sizes_do_not
     definition_class = Struct.new(:name, :entities, :attributes) do
       def valid? = true

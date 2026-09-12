@@ -77,6 +77,49 @@ class StripFootingGeometryTest < Minitest::Test
     assert_empty plan[:spacers]
   end
 
+  def test_mesh_continues_through_a_corner_and_stacks_clear_of_the_other_run
+    plan = G.plan([[[0,0,0], [0,5480,0]], [[0,5480,0], [3905,5480,0]]],
+                  "bar_diameter_mm" => 11.0, "bar_spacing_mm" => 100.0)
+    along, across = plan[:mesh_layers].values_at(0, 2)
+    assert_equal ["Bottom Mesh 01", "Bottom Mesh 02"], [along, across].map { |layer| layer[:name] }
+
+    # Each run reaches the far face of the other run's outermost longitudinal
+    # bar: 100 mm half mesh width plus the 5.5 mm bar radius past the vertex.
+    assert_in_delta 5585.5, along[:longitudinal].map { |bar| bar[:b][1] }.max, 1e-9
+    assert_in_delta(-105.5, across[:longitudinal].map { |bar| bar[:a][0] }.min, 1e-9)
+    # Free ends keep end cover.
+    assert_in_delta 50.0, along[:longitudinal].map { |bar| bar[:a][1] }.min, 1e-9
+    assert_in_delta 3855.0, across[:longitudinal].map { |bar| bar[:b][0] }.max, 1e-9
+
+    # Cross wires are carried through at their normal spacing rather than
+    # stopping at the old bar end, so no stretch of bar is left bare.
+    assert_operator along[:cross_bars].map { |bar| bar[:a][1] }.max, :>, 5400
+    [[along, 1], [across, 0]].each do |layer, axis|
+      ends = layer[:longitudinal].flat_map { |bar| [bar[:a][axis], bar[:b][axis]] }
+      stations = layer[:cross_bars].map { |bar| bar[:a][axis] }
+      assert_operator stations.min - ends.min, :<=, 300.0
+      assert_operator ends.max - stations.max, :<=, 300.0
+    end
+
+    # The crossing run stacks exactly one mesh depth above, so the two meshes
+    # touch instead of intersecting, and its supports grow to suit.
+    depth = 11.0 + 8.0 # one bar diameter plus one cross wire diameter
+    assert_in_delta depth, across[:longitudinal][0][:a][2] - along[:longitudinal][0][:a][2], 1e-9
+    assert_in_delta 69.0, plan[:chairs].find { |chair| chair[:segment_index] == 1 }[:height_mm], 1e-9
+    assert_in_delta 50.0, plan[:chairs].find { |chair| chair[:segment_index] == 0 }[:height_mm], 1e-9
+    refute_includes plan[:warnings].join, "terminate independently"
+  end
+
+  def test_a_step_is_not_treated_as_a_junction_to_carry_mesh_through
+    plan = G.plan([[[0,0,0], [4000,0,0]], [[4000,0,200], [8000,0,200]]], "reinforcement" => "bottom")
+    lower, upper = plan[:mesh_layers]
+    # A parallel run at another level is a step, not a junction: both ends keep
+    # end cover, and neither run is lifted clear of the other.
+    assert_in_delta 3950.0, lower[:longitudinal].map { |bar| bar[:b][0] }.max, 1e-9
+    assert_in_delta 4050.0, upper[:longitudinal].map { |bar| bar[:a][0] }.min, 1e-9
+    assert_in_delta 200.0, upper[:longitudinal][0][:a][2] - lower[:longitudinal][0][:a][2], 1e-9
+  end
+
   def test_top_bottom_cover_and_spacers
     plan = G.plan([[[0,0,0], [6000,0,0]]], "reinforcement" => "top_bottom")
     assert_in_delta 11.8, plan[:mesh_length_m], 1e-9

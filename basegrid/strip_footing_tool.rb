@@ -116,9 +116,8 @@ module Basegrid
             pairs.each_with_index do |pair, number|
               signature = ["spacer_pair", pair[:diameter_mm], pair[:pair_offset_mm], pair[:height_mm]]
               definition = part_definition(model, signature, "Spacer Pair") do |entities|
-                [-pair[:pair_offset_mm], pair[:pair_offset_mm]].each_with_index do |offset, bar_index|
-                  bar = { a: [offset,0,0], b: [offset,0,pair[:height_mm]], diameter: pair[:diameter_mm] }
-                  place_bar(model, entities, bar, format("Spacer Bar %02d", bar_index+1))
+                [-pair[:pair_offset_mm], pair[:pair_offset_mm]].each do |offset|
+                  add_bar(entities, { a: [offset,0,0], b: [offset,0,pair[:height_mm]], diameter: pair[:diameter_mm] })
                 end
               end
               instance = collection.entities.add_instance(definition, placement(pair))
@@ -195,17 +194,15 @@ module Basegrid
                                Geom::Vector3d.new(-run[1], run[0], 0), Geom::Vector3d.new(0, 0, 1))
     end
 
+    # Each placed bar carries its own geometry in a group. Bars are cut, trimmed
+    # and carried through junctions individually, so sharing one definition per
+    # size would make every edit to one bar change every other bar that size.
+    # Supports and spacer pairs stay shared components: they are manufactured
+    # items that should remain identical.
     def place_bar(model, entities, bar, name)
-      a, b = point3d(bar[:a]), point3d(bar[:b])
-      direction = b-a
-      length_mm = direction.length.to_mm
-      definition = part_definition(model, ["bar", bar[:diameter], length_mm], "Reinforcing Bar") do |target|
-        add_bar(target, { a: [0,0,0], b: [0,0,length_mm], diameter: bar[:diameter] })
-      end
-      instance = entities.add_instance(definition, Geom::Transformation.axes(a, *direction.axes))
-      instance.name = name
-      instance.layer = model.layers[0]
-      instance
+      group = plain_group(model, entities, name)
+      add_bar(group.entities, bar)
+      group
     end
 
     def add_surface(entities, faces)
