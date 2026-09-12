@@ -124,3 +124,48 @@ coplanar subdivisions while preserving their topology.
 Manual mouse/keyboard interaction (including the Tab anchor key on macOS),
 material switching, rotated/scaled editing
 contexts and macOS visual testing remain to be checked.
+
+## Model feedback — 2026-09-12 corner review
+
+Measured from the live L-shaped test assembly (run 01 along +Y on centreline
+x = 0; run 02 along +X on centreline y = 5480; 450 wide, 3L11TM, 50 cover).
+These are observations of hand edits, not yet implemented behaviour.
+
+Longitudinal bars were extended through the corner:
+
+- Run 01 `Reinforcing Bar 11 × 5380 mm` was lengthened to 5534.763 mm, so its
+  bars run y = 50 → 5584.763, finishing 0.737 mm short of the outer face of run
+  02's outermost longitudinal bar (y 5585.5).
+- Run 02 `Reinforcing Bar 11 × 3805 mm` was lengthened at its start to
+  3961.507 mm, so its bars run x = −106.507 → 3855, finishing 1.007 mm past the
+  outer face of run 01's outer bar (x −105.5).
+- Ends stay square: the end caps are still flat and normal to the bar axis.
+  No bends, hooks, cranks or mitres were added.
+
+The apparent rule is that each run's longitudinal bars continue through the
+junction to the far face of the other run's outermost longitudinal bar. The
+sub-millimetre differences read as hand snapping rather than an intended
+tolerance.
+
+Three things the edit did not do, and which the generated result still needs:
+
+- Cross wires were not extended. Run 01's last cross wire remains at y ≈ 5150,
+  leaving about 430 mm of bare longitudinal bar through the corner.
+- Elevations were not separated. Both runs' bottom bars remain at z −400 to
+  −389, so the extended bars pass through each other at the corner. The top
+  layer clashes the same way.
+- Every longitudinal in the run moved together, because the length was changed
+  on the shared component definition. All three bars therefore stop on the same
+  line instead of being trimmed individually to the corner.
+
+## Shared definitions make individual bars uneditable
+
+Repeated parts currently share one component definition per distinct size, so
+editing one placed bar changes every other bar of that size. In the test model
+`Reinforcing Bar 8 × 200 mm` has 60 instances across both runs and both layers,
+and each run's longitudinal definition has 6.
+
+This follows the 2026-08-27 decision to use component instances for repeated
+parts, but it blocks the per-bar edits a real corner detail needs. Whether bars
+become groups, unique components, or stay shared until a bar is edited is an
+open decision.
