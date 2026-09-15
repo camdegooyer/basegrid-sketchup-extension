@@ -12,14 +12,22 @@ module Basegrid
     module_function
 
     def write(entity, material:, role_id:, quantity_m3:, basis:, takeoff_groups: [])
+      write_quantity(entity, material: material, role_id: role_id, material_role: "concrete",
+                     quantity: quantity_m3, unit: "m3", basis: basis, takeoff_groups: takeoff_groups)
+    end
+
+    def write_quantity(entity, material:, role_id:, material_role:, quantity:, unit:, basis:, takeoff_groups: [])
+      quantity = Float(quantity)
+      raise "Quantity must be finite and non-negative." unless quantity.finite? && quantity >= 0
+      raise "Unsupported takeoff unit." unless %w[m3 m ea].include?(unit)
       record = {
         "schema_version" => SCHEMA_VERSION,
         "role_id" => role_id,
-        "material_role" => "concrete",
+        "material_role" => material_role,
         "material_id" => material.fetch("id").to_s,
         "material_name" => material.fetch("name").to_s,
-        "unit" => "m3",
-        "quantity" => quantity_m3.to_f,
+        "unit" => unit,
+        "quantity" => quantity,
         "basis" => basis,
         "takeoff_groups" => normalize_groups(takeoff_groups)
       }

@@ -17,7 +17,7 @@
   },
   {
     "name": "basegrid_list_materials",
-    "description": "List cached materials and permitted slab takeoff groups. Use returned IDs when creating slabs; concrete_only defaults to true.",
+    "description": "List cached material IDs, dimension metadata and material types, plus slab takeoff groups. Set concrete_only=false for other tools. No signed URLs or local paths are returned.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -76,6 +76,12 @@
           "description": "model_guid returned by basegrid_status; prevents drawing into a different model.",
           "maxLength": 512,
           "minLength": 1
+        },
+        "replace_ref": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512,
+          "description": "Optional unlocked slab group in the active context to replace in one Undo operation. Supply the desired thickness, material and source face (face_ref or single selected horizontal face); not a partial patch. The source face is retained."
         },
         "face_ref": {
           "type": "string",
@@ -423,6 +429,1010 @@
       "readOnlyHint": true,
       "destructiveHint": false,
       "idempotentHint": true,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_create_strip_footing",
+    "description": "Create one connected strip footing assembly with horizontal paths at any angle, one joined concrete solid including step overlaps, optional top/bottom mesh, rectangular support instances and paired-bar spacer instances. Reinforcement connections are NOT detailed. Paths use world millimetres; each path is horizontal, with different-height paths meeting at straight steps. Unassigned materials are allowed.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "model_guid": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Current model_guid from basegrid_status."
+        },
+        "replace_ref": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512,
+          "description": "Optional unlocked strip footing group in the active context to replace in one Undo operation. Supply complete desired world paths, settings and material bindings, not a partial patch. Geometry and takeoff are regenerated."
+        },
+        "paths_mm": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 50,
+          "description": "Array of paths, each containing 2–100 [x,y,z] points in world millimetres. Close loops by repeating the first point. Add branches or steps as additional paths.",
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 100,
+            "items": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 3,
+              "items": {
+                "type": "number",
+                "minimum": -1000000000,
+                "maximum": 1000000000
+              },
+              "description": "[x,y,z] in world millimetres."
+            }
+          }
+        },
+        "settings": {
+          "type": "object",
+          "description": "Optional width_mm, depth_mm, alignment (center/left_edge/right_edge), vertical_reference (top/bottom), step_overlap_mm, reinforcement (none/bottom/top_bottom; defaults top_bottom), bar_count (3/4), bar_spacing_mm, bar_diameter_mm, cross_diameter_mm, cross_spacing_mm, support_spacing_mm, support_width_mm, support_first_offset_mm, spacer_diameter_mm, spacer_pair_offset_mm. Dimensions in mm. Clear cover is fixed at 50 mm; legacy cover_mm values are overridden. Selected material dimensions override corresponding settings. Supports are fixed 50 mm high; Bogar spacer height is footing depth minus 100 mm. Legacy support_thickness_mm is ignored.",
+          "properties": {
+            "width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "depth_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "step_overlap_mm": {
+              "description": "Step backfill length in mm. Defaults to 1.5 times footing depth when omitted.",
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "step_height_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "include_step_z_bars": {
+              "type": "boolean",
+              "description": "Enable automatic step Z bars; defaults false. Bars are created only where step height is strictly greater than step_z_threshold_mm."
+            },
+            "include_piers": {
+              "type": "boolean",
+              "description": "Include independently editable concrete piers under the footing; defaults false. Piers use the footing concrete material."
+            },
+            "pier_spacing_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "description": "Maximum pier centres, defaults 1800 mm."
+            },
+            "piers_at_corners": {
+              "type": "boolean",
+              "description": "Require a pier at each centreline corner; defaults true."
+            },
+            "piers_at_intersections": {
+              "type": "boolean",
+              "description": "Require one shared pier at T/cross intersections; defaults true."
+            },
+            "piers_even_spacing": {
+              "type": "boolean",
+              "description": "Distribute centres evenly without exceeding the maximum; defaults true. False uses nominated spacing with an end remainder."
+            },
+            "pier_diameter_mm": {
+              "type": "number",
+              "minimum": 1,
+              "description": "Defaults 450 mm."
+            },
+            "pier_depth_mm": {
+              "type": "number",
+              "minimum": 1,
+              "description": "Depth below the footing underside; defaults 600 mm."
+            },
+            "pier_add_bar": {
+              "type": "boolean",
+              "description": "Include a starter in each pier; defaults false. Material diameter comes from materials.pier_bar."
+            },
+            "pier_bar_below_mm": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Defaults to pier depth minus 100 mm."
+            },
+            "pier_bar_above_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "description": "Rise from pier top into footing; defaults to half the footing depth."
+            },
+            "pier_bar_cog_mm": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Upper cog across footing; defaults to footing width divided by 2 minus 50 mm."
+            },
+            "step_z_threshold_mm": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Maximum step height without Z bars; defaults 200 mm. Equal-height steps do not receive Z bars."
+            },
+            "step_z_diameter_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "description": "Resolved diameter retained in assembly metadata; selected Z-bar material overrides this value. Lap legs are 50 times diameter."
+            },
+            "bar_spacing_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "bar_diameter_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "cross_diameter_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "cross_spacing_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "support_spacing_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "support_width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "support_first_offset_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "spacer_diameter_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "spacer_pair_offset_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "spacer_height_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "alignment": {
+              "type": "string",
+              "enum": [
+                "center",
+                "left_edge",
+                "right_edge"
+              ]
+            },
+            "vertical_reference": {
+              "type": "string",
+              "enum": [
+                "top",
+                "bottom"
+              ]
+            },
+            "reinforcement": {
+              "type": "string",
+              "enum": [
+                "none",
+                "bottom",
+                "top_bottom"
+              ]
+            },
+            "double_mesh": {
+              "type": "string",
+              "enum": [
+                "none",
+                "top",
+                "bottom",
+                "top_bottom"
+              ],
+              "description": "Two trench mesh strips on the nominated existing mesh layers. Fixed 50 mm side cover; at most 100 mm clear between strips. Lapped strips stack vertically. Defaults to none."
+            },
+            "bar_count": {
+              "type": "integer",
+              "enum": [
+                3,
+                4
+              ]
+            },
+            "cover_mm": {
+              "type": "number",
+              "description": "Legacy input ignored; clear cover is always 50 mm."
+            },
+            "support_thickness_mm": {
+              "type": "number",
+              "description": "Legacy input ignored; supports are always 50 mm high."
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "materials": {
+          "type": "object",
+          "description": "Concrete, mesh, chairs, spacers and z_bars material UUIDs. z_bars requires a Reo Bar Processed material measured in metres with valid diameter whenever qualifying Z bars are generated. Other missing roles remain unassigned.",
+          "properties": {
+            "concrete": {
+              "type": "string"
+            },
+            "mesh": {
+              "type": "string"
+            },
+            "chairs": {
+              "type": "string"
+            },
+            "spacers": {
+              "type": "string"
+            },
+            "z_bars": {
+              "type": "string"
+            },
+            "pier_bar": {
+              "type": "string",
+              "description": "Reo Bar Processed material for optional pier starters. Diameter is read from metadata."
+            },
+            "pier_concrete": {
+              "type": "string",
+              "description": "Optional separate concrete material for footing piers. When omitted, uses the footing concrete material."
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "model_guid",
+        "paths_mm"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "idempotentHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_create_starter_bars",
+    "description": "Create straight/tapered starter bars or pins along an ordered path. Spacing uses horizontal chainage; Z follows the path. Close loops by repeating the first point. Maximum 5,000 eight-sided bars. Requires extension 0.3.2+. World coordinates in millimetres; no UI opens. Returns entity reference, resolved parameters and takeoff.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "model_guid": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Current model_guid from basegrid_status."
+        },
+        "replace_ref": {
+          "type": "string",
+          "description": "Optional unlocked group of this tool in the active context to replace in one Undo operation. Supply complete desired geometry/settings, not a partial patch."
+        },
+        "points_mm": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 100,
+          "items": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000
+            },
+            "description": "[x,y,z] in world millimetres."
+          }
+        },
+        "settings": {
+          "type": "object",
+          "properties": {
+            "mode": {
+              "type": "string",
+              "enum": [
+                "straight",
+                "tapered",
+                "pins"
+              ]
+            },
+            "spacing_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "first_offset_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "above_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "below_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "top_start_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "top_end_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "bottom_start_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "bottom_end_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "top_direction": {
+              "type": "string",
+              "enum": [
+                "in",
+                "out"
+              ]
+            },
+            "bottom_direction": {
+              "type": "string",
+              "enum": [
+                "in",
+                "out"
+              ]
+            },
+            "in_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "out_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "chairs": {
+              "type": "boolean"
+            },
+            "caps": {
+              "type": "boolean"
+            },
+            "bar_material": {
+              "type": "string",
+              "description": "Bar material ID; metadata supplies diameter. Empty means unassigned nominal 12 mm."
+            },
+            "chair_material": {
+              "type": "string",
+              "description": "Material type Bar Chairs."
+            },
+            "cap_material": {
+              "type": "string",
+              "description": "Material type Reo Bar Safety Caps."
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "description": "Omitted settings use tool defaults, not saved UI preferences. Material metadata supplies derived dimensions."
+        },
+        "anchor_mm": {
+          "type": "number",
+          "minimum": 0
+        },
+        "reverse": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "model_guid",
+        "points_mm"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_create_step_z_bars",
+    "description": "Create eight-sided Step Z bars between explicit pairs of bar centreline endpoints at different levels. Upper/lower are sorted by height; at least 1 mm rise required. Requires extension 0.3.2+. World coordinates in millimetres; no UI opens. Returns entity reference, resolved parameters and takeoff.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "model_guid": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Current model_guid from basegrid_status."
+        },
+        "replace_ref": {
+          "type": "string",
+          "description": "Optional unlocked group of this tool in the active context to replace in one Undo operation. Supply complete desired geometry/settings, not a partial patch."
+        },
+        "pairs": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 100,
+          "items": {
+            "type": "object",
+            "properties": {
+              "upper": {
+                "type": "object",
+                "properties": {
+                  "ends": {
+                    "type": "array",
+                    "minItems": 2,
+                    "maxItems": 2,
+                    "items": {
+                      "type": "array",
+                      "minItems": 3,
+                      "maxItems": 3,
+                      "items": {
+                        "type": "number",
+                        "minimum": -1000000000,
+                        "maximum": 1000000000
+                      },
+                      "description": "[x,y,z] in world millimetres."
+                    }
+                  }
+                },
+                "required": [
+                  "ends"
+                ],
+                "additionalProperties": false
+              },
+              "lower": {
+                "type": "object",
+                "properties": {
+                  "ends": {
+                    "type": "array",
+                    "minItems": 2,
+                    "maxItems": 2,
+                    "items": {
+                      "type": "array",
+                      "minItems": 3,
+                      "maxItems": 3,
+                      "items": {
+                        "type": "number",
+                        "minimum": -1000000000,
+                        "maximum": 1000000000
+                      },
+                      "description": "[x,y,z] in world millimetres."
+                    }
+                  }
+                },
+                "required": [
+                  "ends"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "upper",
+              "lower"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "settings": {
+          "type": "object",
+          "properties": {
+            "bar_material": {
+              "type": "string",
+              "description": "Bar material ID; metadata supplies diameter. Empty means unassigned nominal 12 mm."
+            },
+            "step_upper_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "step_lower_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "step_upper_direction": {
+              "type": "string",
+              "enum": [
+                "in",
+                "out"
+              ]
+            },
+            "step_lower_direction": {
+              "type": "string",
+              "enum": [
+                "in",
+                "out"
+              ]
+            },
+            "step_offset_axis": {
+              "type": "string",
+              "enum": [
+                "horizontal",
+                "vertical"
+              ]
+            },
+            "step_offset_mm": {
+              "type": "number",
+              "description": "Signed offset; zero uses bar diameter."
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "description": "Omitted settings use tool defaults, not saved UI preferences. Material metadata supplies derived dimensions."
+        }
+      },
+      "required": [
+        "model_guid",
+        "pairs"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_create_concrete_pier",
+    "description": "Create a vertical 24-sided concrete pier down from its top centre with optional eight-sided starter bar and cranks. Rotation sets crank direction about world Z. Requires extension 0.3.2+. World coordinates in millimetres; no UI opens. Returns entity reference, resolved parameters and takeoff.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "model_guid": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Current model_guid from basegrid_status."
+        },
+        "replace_ref": {
+          "type": "string",
+          "description": "Optional unlocked group of this tool in the active context to replace in one Undo operation. Supply complete desired geometry/settings, not a partial patch."
+        },
+        "top_center_mm": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "number",
+            "minimum": -1000000000,
+            "maximum": 1000000000
+          },
+          "description": "[x,y,z] in world millimetres."
+        },
+        "rotation_deg": {
+          "type": "number"
+        },
+        "settings": {
+          "type": "object",
+          "properties": {
+            "pier_diameter_mm": {
+              "type": "number",
+              "minimum": 1
+            },
+            "pier_depth_mm": {
+              "type": "number",
+              "minimum": 1
+            },
+            "concrete_material": {
+              "type": "string",
+              "description": "Compatible concrete material ID; empty is unassigned."
+            },
+            "add_bar": {
+              "type": "boolean"
+            },
+            "bar_material": {
+              "type": "string",
+              "description": "Bar material ID; diameter from metadata. Empty means unassigned nominal 16 mm."
+            },
+            "bar_above_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "bar_below_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "top_crank_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "bottom_crank_mm": {
+              "type": "number",
+              "minimum": 0
+            },
+            "top_crank_dir": {
+              "type": "string",
+              "enum": [
+                "in",
+                "out"
+              ]
+            },
+            "bottom_crank_dir": {
+              "type": "string",
+              "enum": [
+                "in",
+                "out"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "description": "Omitted settings use tool defaults, not saved UI preferences. Material metadata supplies derived dimensions."
+        }
+      },
+      "required": [
+        "model_guid",
+        "top_center_mm"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_create_flashing",
+    "description": "Create or replace solid flashing on an open planar path. Supports 0-6 folds, automatic girth/fold rounding or explicit active flashing material override. Optional named profile supplies defaults; settings override them. No laps, waste or bend allowance. Flat profiles, overrides and saved profiles require extension 0.3.5+. World coordinates in millimetres; no UI opens.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "model_guid": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Current model_guid from basegrid_status."
+        },
+        "replace_ref": {
+          "type": "string",
+          "description": "Optional unlocked group of this tool in the active context to replace in one Undo operation. Supply complete desired geometry/settings, not a partial patch."
+        },
+        "points_mm": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 100,
+          "items": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000
+            },
+            "description": "[x,y,z] in world millimetres."
+          }
+        },
+        "normal": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "number",
+            "minimum": -1000000000,
+            "maximum": 1000000000
+          },
+          "description": "Optional nonzero dimensionless plane normal; omit for automatic detection."
+        },
+        "settings": {
+          "type": "object",
+          "properties": {
+            "finish": {
+              "type": "string",
+              "enum": [
+                "colourbond",
+                "zincalume",
+                "perforated"
+              ]
+            },
+            "lengths_mm": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 7,
+              "items": {
+                "type": "number",
+                "minimum": 1
+              }
+            },
+            "angles_deg": {
+              "type": "array",
+              "minItems": 0,
+              "maxItems": 6,
+              "items": {
+                "type": "number",
+                "minimum": -175,
+                "maximum": 175
+              },
+              "description": "Nonzero signed turns; exactly one fewer than legs."
+            },
+            "start_angle_deg": {
+              "type": "number"
+            },
+            "anchor_index": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 7
+            },
+            "mirror": {
+              "type": "boolean"
+            },
+            "path_side": {
+              "type": "string",
+              "enum": [
+                "left",
+                "right"
+              ]
+            },
+            "material_side": {
+              "type": "string",
+              "enum": [
+                "left",
+                "right"
+              ]
+            },
+            "material_id": {
+              "type": "string",
+              "description": "Optional active flashing material ID overriding automatic matching, including other finish families. Empty string restores automatic. Metadata must supply positive girth/thickness and nonnegative integer folds; undersized stock produces a warning."
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "description": "Tool defaults unless profile_name is supplied. Explicit settings override profile defaults. Material metadata supplies thickness."
+        },
+        "profile_name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "description": "Saved profile name on the target SketchUp installation. Use basegrid_list_flashing_profiles to discover names."
+        }
+      },
+      "required": [
+        "model_guid",
+        "points_mm"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_list_flashing_profiles",
+    "description": "List named flashing input defaults stored persistently on the target SketchUp installation (Windows or Mac). Does not read or change model geometry. Requires extension 0.3.5+.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_save_flashing_profile",
+    "description": "Save named flashing input defaults in SketchUp preferences. To update or rename an existing profile, supply previous_name; otherwise duplicate names are rejected. Does not modify existing geometry or require matching stock. Requires extension 0.3.5+ and edit permission.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "previous_name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "description": "Exact existing name to replace or rename."
+        },
+        "settings": {
+          "type": "object",
+          "properties": {
+            "finish": {
+              "type": "string",
+              "enum": [
+                "colourbond",
+                "zincalume",
+                "perforated"
+              ]
+            },
+            "lengths_mm": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 7,
+              "items": {
+                "type": "number",
+                "minimum": 1
+              }
+            },
+            "angles_deg": {
+              "type": "array",
+              "minItems": 0,
+              "maxItems": 6,
+              "items": {
+                "type": "number",
+                "minimum": -175,
+                "maximum": 175
+              },
+              "description": "Nonzero signed turns; exactly one fewer than legs."
+            },
+            "start_angle_deg": {
+              "type": "number"
+            },
+            "anchor_index": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 7
+            },
+            "mirror": {
+              "type": "boolean"
+            },
+            "path_side": {
+              "type": "string",
+              "enum": [
+                "left",
+                "right"
+              ]
+            },
+            "material_side": {
+              "type": "string",
+              "enum": [
+                "left",
+                "right"
+              ]
+            },
+            "material_id": {
+              "type": "string",
+              "description": "Optional active flashing material ID overriding automatic matching, including other finish families. Empty string restores automatic. Metadata must supply positive girth/thickness and nonnegative integer folds; undersized stock produces a warning."
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "description": "Tool defaults unless profile_name is supplied. Explicit settings override profile defaults. Material metadata supplies thickness."
+        }
+      },
+      "required": [
+        "name",
+        "settings"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_delete_flashing_profile",
+    "description": "Delete a named flashing profile from the target SketchUp preferences. Does not affect already drawn flashing. Requires extension 0.3.5+ and edit permission.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "basegrid_create_structural_steel",
+    "description": "Create square-ended PFC/UB/UC/SHS/RHS/CHS between two 3D endpoints. Material supplies section dimensions; endpoints supply length. Profile rotation is about the member axis. No mitres/connections. Requires extension 0.3.2+. World coordinates in millimetres; no UI opens. Returns entity reference, resolved parameters and takeoff.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "model_guid": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Current model_guid from basegrid_status."
+        },
+        "replace_ref": {
+          "type": "string",
+          "description": "Optional unlocked group of this tool in the active context to replace in one Undo operation. Supply complete desired geometry/settings, not a partial patch."
+        },
+        "start_mm": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "number",
+            "minimum": -1000000000,
+            "maximum": 1000000000
+          },
+          "description": "[x,y,z] in world millimetres."
+        },
+        "end_mm": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "number",
+            "minimum": -1000000000,
+            "maximum": 1000000000
+          },
+          "description": "[x,y,z] in world millimetres."
+        },
+        "settings": {
+          "type": "object",
+          "properties": {
+            "material_id": {
+              "type": "string",
+              "description": "Required active metre-based Structural Steel material ID."
+            },
+            "usage": {
+              "type": "string",
+              "enum": [
+                "beam",
+                "column"
+              ]
+            },
+            "rotation_deg": {
+              "type": "number"
+            },
+            "lateral_offset_mm": {
+              "type": "number"
+            },
+            "vertical_offset_mm": {
+              "type": "number"
+            },
+            "anchor": {
+              "type": "string",
+              "enum": [
+                "top_left",
+                "top_center",
+                "top_right",
+                "middle_right",
+                "bottom_right",
+                "bottom_center",
+                "bottom_left",
+                "middle_left",
+                "center"
+              ]
+            },
+            "member_mark": {
+              "type": "string",
+              "maxLength": 100
+            }
+          },
+          "required": [
+            "material_id"
+          ],
+          "additionalProperties": false,
+          "description": "Omitted settings use tool defaults, not saved UI preferences. Material metadata supplies derived dimensions."
+        }
+      },
+      "required": [
+        "model_guid",
+        "start_mm",
+        "end_mm",
+        "settings"
+      ],
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": false,
       "openWorldHint": false
     }
   }

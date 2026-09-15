@@ -60,6 +60,9 @@ class CloudConnectionTest < Minitest::Test
     @connection.drain while @calls.empty? && Time.now < deadline
     assert_equal 1, @calls.length
     assert_equal Thread.current, @calls.first[2]
+    assert_equal "Completed", @connection.activity[:state]
+    assert_equal "basegrid_status", @connection.activity[:command]
+    refute_includes @connection.activity.keys, :arguments
     @connection.stop
     worker = @connection.instance_variable_get(:@worker)
     worker.join(3)

@@ -212,6 +212,10 @@ module Basegrid
   end
 
   module LocalAPI
+    def self.status
+      { running: !!@server&.running?, mode: mode, error: @error }
+    end
+
     def self.mode
       @server ? @server.mode : "edit"
     end
@@ -219,12 +223,15 @@ module Basegrid
     def self.start
       @server ||= LocalAPIServer.new
       @server.start
+      @error = nil
     rescue StandardError => e
+      @error = e.message
       UI.messagebox("Basegrid MCP API could not start: #{e.message}")
     end
 
     def self.stop
       @server&.stop
+      @error = nil
     end
 
     def self.configure_permissions

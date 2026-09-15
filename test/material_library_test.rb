@@ -48,6 +48,20 @@ class MaterialLibraryTest < Minitest::Test
     end
   end
 
+  def test_sync_reports_real_stages_without_changing_result_contract
+    Dir.mktmpdir do |directory|
+      library = Basegrid::MaterialLibrary.new(cache_path: File.join(directory,"cache.json"),
+        texture_directory: File.join(directory,"textures"),client: FakeClient.new(web_api_payload))
+      events = []
+      result = library.sync!(url: "https://example.test/library",token: "token") { |event| events << event }
+      assert_equal %w[cache download materials textures save],events.map { |event| event[:stage] }.uniq
+      assert_equal result[:materials],events.find { |event| event[:stage] == "materials" }[:materials]
+      texture = events.select { |event| event[:stage] == "textures" }.last
+      assert_equal 1,texture[:total]
+      assert_equal texture[:total],texture[:completed]
+    end
+  end
+
   def test_rejects_materials_that_reference_unknown_types
     invalid = payload
     invalid["materials"][0]["material_type_id"] = "missing"

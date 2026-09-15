@@ -36,16 +36,20 @@ module Basegrid
       UI.messagebox("Concrete slab could not be created.\n\n#{e.message}")
     end
 
-    def build(model, source_face, thickness_mm, material, takeoff_groups = [])
+    def build(model, source_face, thickness_mm, material, takeoff_groups = [], replace: nil)
       validate_face!(model, source_face)
+      if replace && (!replace.is_a?(Sketchup::Group) || !replace.valid? || replace.locked? ||
+                     !model.active_entities.include?(replace) || replace.get_attribute("Basegrid", "tool_id") != TOOL_ID)
+        raise "The original slab is unavailable, locked or belongs to another tool."
+      end
       thickness_mm = Float(thickness_mm)
       raise "Slab thickness must be a finite number greater than zero." unless thickness_mm.finite? && thickness_mm.positive?
 
       group = nil
-      model.start_operation("Create Concrete Slab", true)
+      model.start_operation(replace ? "Edit Concrete Slab" : "Create Concrete Slab", true)
       operation_started = true
       group = model.active_entities.add_group
-      group.name = "Concrete Slab"
+      group.name = replace ? replace.name : "Concrete Slab"
       group.layer = model.layers[0]
       top_face = copy_face(group.entities, source_face)
       transformation = model.respond_to?(:edit_transform) ? model.edit_transform : Geom::Transformation.new
@@ -73,6 +77,7 @@ module Basegrid
         basis: "selected face net area multiplied by generated slab thickness",
         takeoff_groups: takeoff_groups
       )
+      replace.erase! if replace
       model.commit_operation
       operation_started = false
       model.selection.clear

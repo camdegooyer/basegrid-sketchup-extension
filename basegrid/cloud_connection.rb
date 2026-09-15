@@ -59,6 +59,7 @@ module Basegrid
 
     def running? = @running
     def status = @mutex.synchronize { @state }
+    def activity = @mutex.synchronize { @activity&.dup }
     def requires_sign_in? = @requires_sign_in == true
 
     def start(oauth_token:, schedule: true, &status_changed)
@@ -108,7 +109,10 @@ module Basegrid
       end
       return unless job
 
+      command_name = job.dig("payload", "name").to_s[0,100]
+      @mutex.synchronize { @activity = { command: command_name, state: "Running", at: Time.now.iso8601 } }
       result = execute(job)
+      @mutex.synchronize { @activity = { command: command_name, state: result["ok"] ? "Completed" : "Failed", at: Time.now.iso8601 } }
       if JSON.generate(result).bytesize > 3_000_000
         result = failure("RESULT_TOO_LARGE", "Request fewer entities or a smaller viewport image.")
       end
@@ -320,10 +324,12 @@ module Basegrid
     end
 
     def self.dialog
-      @dialog ||= ConnectionDialog.new do |action|
+      @dialog ||= ConnectionDialog.new(status_provider: -> { activity_snapshot }) do |action|
         case action
         when "sign_in" then sign_in
         when "reconnect" then connect
+        when "sync_materials" then Main.sync_materials
+        when "disconnect_cloud" then stop
         when "sign_out"
           stop
           Main.oauth_connection.disconnect
@@ -331,6 +337,27 @@ module Basegrid
           show_sign_in
         end
       end
+    end
+
+    def self.activity_snapshot
+      oauth = Main.oauth_connection
+      account = oauth.pending? ? "Waiting for browser sign-in" : oauth.connected? ? "Signed in" : "Signed out"
+      rows = [{ label: "Account", value: account },
+              { label: "Cloud drawing", value: @connection ? @connection.status : "Disconnected" }]
+      manual = Main.material_sync_status if Main.respond_to?(:material_sync_status)
+      [["Material sync",manual],["Sign-in sync",@library_activity]].each do |label,sync|
+        next if label == "Sign-in sync" && !sync
+        message = sync ? sync[:message].to_s : "Idle"
+        message = "#{message} (#{sync[:completed]}/#{sync[:total]} textures)" if sync && sync[:stage] == "textures"
+        rows << { label: label, value: sync ? "#{sync[:status].to_s.capitalize}: #{message}" : message }
+      end
+      if defined?(LocalAPI) && LocalAPI.respond_to?(:status)
+        local = LocalAPI.status
+        rows << { label: "Local API", value: local[:error] || (local[:running] ? "Running (#{local[:mode]})" : "Stopped") }
+      end
+      activity = @connection.activity if @connection&.respond_to?(:activity)
+      rows << { label: "Cloud command", value: activity ? "#{activity[:state]}: #{activity[:command]} at #{activity[:at]}" : "No commands this session" }
+      { rows: rows, cloud_running: !!@connection&.running? }
     end
 
     def self.show_sign_in(message = nil)
@@ -358,19 +385,25 @@ module Basegrid
     def self.sync_library(token)
       return if @library_worker&.alive?
       @library_message = "Syncing your material library…"
+      @library_activity = { status: "running", message: "Starting library sync" }
+      update_dialog
       url = Main.material_library_url
       results = Queue.new
       @library_worker = Thread.new do
-        result = MaterialLibrary.new.sync!(url: url, token: token)
-        results << "#{result[:materials]} materials are available."
+        result = MaterialLibrary.new.sync!(url: url, token: token) { |progress| results << progress.merge(status: "running") }
+        message = "#{result[:materials]} materials are available."
+        message += " #{result[:warnings].length} texture warnings." unless result[:warnings].empty?
+        results << { status: "complete", message: message }
       rescue StandardError => e
-        results << "Material sync could not finish: #{e.message} Your sign-in is saved; retry Materials → Sync."
+        results << { status: "error", message: "Material sync could not finish: #{e.message} Your sign-in is saved; retry Materials > Sync." }
       end
       timer = UI.start_timer(0.25, true) do
         Thread.pass
         unless results.empty?
-          @library_message = results.pop
-          UI.stop_timer(timer)
+          @library_activity = results.pop
+          @library_activity = results.pop until results.empty?
+          @library_message = @library_activity[:message]
+          UI.stop_timer(timer) unless @library_activity[:status] == "running"
           update_dialog
         end
       end

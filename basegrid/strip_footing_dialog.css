@@ -1,0 +1,40 @@
+:root{color-scheme:light;--ink:#202827;--muted:#63706c;--line:#d9dfdc;--accent:#176b56}
+*{box-sizing:border-box;letter-spacing:0}
+[hidden]{display:none!important}.pier-fields{grid-column:1/-1}input:disabled,select:disabled{opacity:.5}
+html{scroll-padding-bottom:90px}input,select,summary{scroll-margin-block:18px 90px}
+body{margin:0;background:#fff;color:var(--ink);font:13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+header{padding:20px 24px 16px;border-bottom:1px solid var(--line)}
+.brand{font-size:10px;font-weight:700;color:var(--accent)}
+h1{font-size:22px;line-height:1.3;margin:5px 0 0;font-weight:600}
+form{margin:0;padding:0 24px 86px;display:grid;grid-template-columns:minmax(0,1fr) 244px;column-gap:28px;align-items:start}
+#fields{display:block;min-width:0}
+.setting-section{padding:19px 0;border-bottom:1px solid var(--line)}
+.section-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
+h2{font-size:14px;font-weight:650;margin:0}
+.section-number{font-size:10px;color:var(--muted);margin-right:10px;font-weight:500}
+.section-grid,.pier-fields{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px 12px}
+label{display:block;font-size:12px;line-height:1.4;color:#46534e;min-width:0}
+input,select{font:13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:white;color:var(--ink);border:1px solid #b7c3bd;border-radius:4px;padding:9px 10px;margin-top:6px;min-width:0;height:36px;width:100%}
+input:hover,select:hover{border-color:#728d80}
+input:focus-visible,select:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+label.check{display:flex;align-items:center;gap:9px;min-height:28px;grid-column:1/-1;color:var(--ink)}
+input[type=checkbox]{display:inline-block;flex:0 0 16px;width:16px;height:16px;margin:0;order:-1;accent-color:var(--accent)}
+.wide{grid-column:1/-1}
+.material-meta{display:block;font-size:11px;color:var(--muted);line-height:1.5;margin-top:5px;overflow-wrap:anywhere}
+.optional-fields{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px 12px;grid-column:1/-1;padding:12px 0 0 12px;border-left:2px solid #c5d9cf}
+.reference{position:sticky;top:16px;margin-top:19px;min-width:0;background:#f3f6f4;border:1px solid #dfe7e2;border-radius:4px;overflow:hidden}
+.reference-top{padding:14px 14px 0;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.reference h2{font-size:12px}.reference small{font-size:10px;color:var(--muted)}
+canvas{display:block;width:100%;height:230px}
+.reference dl{margin:0;padding:0 14px 14px;font-size:11px;display:grid;grid-template-columns:1fr auto;gap:8px}
+dt{color:var(--muted)}dd{margin:0;text-align:right;font-weight:600}
+.help{grid-column:1/-1;margin-top:13px;color:var(--muted);font-size:12px;line-height:1.6}
+summary{cursor:pointer;width:fit-content;color:var(--accent);font-size:11px}
+.help p{margin:8px 0 0}.help canvas{height:160px;background:#f3f6f4;margin-top:8px;border-radius:4px}
+.footer{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line);padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;z-index:2}
+.footer small{color:var(--muted);font-size:11px}
+button[type=submit]{background:var(--accent);color:#fff;border:0;cursor:pointer;font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;margin:0;padding:10px 20px;min-height:38px;border-radius:4px;white-space:nowrap}
+button[type=submit]:hover{background:#11523f}button:disabled{opacity:.55;cursor:wait}
+#error{grid-column:1/-1;margin:12px 0 0;color:#a32424;line-height:1.5;overflow-wrap:anywhere}#error:empty{display:none}
+@media(max-width:680px){form{grid-template-columns:minmax(0,1fr);padding:0 20px 86px}.reference{position:static;grid-row:1;margin-bottom:0;display:grid;grid-template-columns:minmax(0,1fr) 130px}.reference-top{grid-column:1/-1}.reference canvas{height:170px}.reference dl{align-content:center;padding:12px;grid-template-columns:1fr;gap:4px}.reference dd{text-align:left;margin-bottom:6px}header{padding:16px 20px}.footer{padding:12px 20px}}
+@media(max-width:360px){.section-grid,.pier-fields,.optional-fields{grid-template-columns:minmax(0,1fr)}.footer small{display:none}.footer{justify-content:flex-end}}
