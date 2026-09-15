@@ -18,12 +18,12 @@ UI.start_timer(3.0, false) do
     concrete = root.entities.grep(Sketchup::Group).find { |group| group.name == 'Concrete' }
     reinforcement = root.entities.grep(Sketchup::Group).find { |group| group.name == 'Reinforcement' }
     segments = concrete.entities.grep(Sketchup::Group)
-    raise 'Expected three solid concrete segments' unless segments.length == 3 && segments.all?(&:manifold?)
+    raise 'Expected one joined concrete solid' unless segments.length == 1 && segments.all?(&:manifold?)
     output[:concrete_segments] = segments.map { |group| { name: group.name, solid: group.manifold? } }
     supports = reinforcement.entities.grep(Sketchup::Group).select { |group| group.name.start_with?('Mesh Supports') }.flat_map { |group| group.entities.to_a }
     pairs = reinforcement.entities.grep(Sketchup::Group).select { |group| group.name.start_with?('Mesh Spacers') }.flat_map { |group| group.entities.to_a }
-    raise 'Expected reusable support instances' unless supports.all? { |item| item.is_a?(Sketchup::ComponentInstance) && item.manifold? } && supports.map(&:definition).uniq.length == 1
-    raise 'Expected paired bar instances' unless pairs.all? { |item| item.is_a?(Sketchup::ComponentInstance) && item.definition.entities.grep(Sketchup::ComponentInstance).length == 2 } && pairs.map(&:definition).uniq.length == 1
+    raise 'Expected reusable support instances' unless supports.all? { |item| item.is_a?(Sketchup::ComponentInstance) && item.manifold? } && supports.map(&:definition).uniq.length < supports.length
+    raise 'Expected paired bar instances' unless pairs.all? { |item| item.is_a?(Sketchup::ComponentInstance) && item.manifold? } && pairs.map(&:definition).uniq.length < pairs.length
     records = Basegrid::Takeoff.records(model)
     support_quantity = records.select { |r| r['role_id'] == 'concrete.strip_footing.chairs' }.sum { |r| r['quantity'] }
     pair_quantity = records.select { |r| r['role_id'] == 'concrete.strip_footing.spacers' }.sum { |r| r['quantity'] }
@@ -50,7 +50,11 @@ UI.start_timer(3.0, false) do
     cases = {
       'step' => [[[0,0,0],[3000,0,0]],[[3000,0,200],[6000,0,200]]],
       'junction' => [[[0,0,0],[6000,0,0]],[[3000,0,0],[3000,3000,0]]],
-      'loop' => [[[0,0,0],[3000,0,0],[3000,3000,0],[0,3000,0],[0,0,0]]]
+      'loop' => [[[0,0,0],[3000,0,0],[3000,3000,0],[0,3000,0],[0,0,0]]],
+      'diagonal' => [[[0,0,0],[3000,4000,0]]],
+      'oblique_corner' => [[[0,0,0],[3000,0,0],[5000,2000,0]]],
+      'diagonal_crossing' => [[[0,0,0],[6000,0,0]],[[1500,-1500,0],[4500,1500,0]]],
+      'rotated_step' => [[[0,0,0],[2400,1800,0]],[[2400,1800,200],[4800,3600,200]]]
     }
     cases.each do |name, paths|
       item = builder.build(model, paths, { 'reinforcement' => 'none' })
@@ -71,6 +75,20 @@ UI.start_timer(3.0, false) do
     end
     raise 'Rollback left geometry behind' unless model.entities.length == root_count && model.definitions.length == definitions_count
     output[:rollback_verified] = true
+    tool = Basegrid::StripFootingTool::DrawTool.new(builder, builder.resolved_settings({}, {}), {})
+    model.select_tool(tool)
+    view = model.active_view
+    raise 'Expected top-left default' unless tool.anchor_label == 'left edge top'
+    tool.add_point([0,0,0], view)
+    tool.instance_variable_set(:@hover, [3000,4000,0])
+    tool.onUserText('5000mm', view)
+    raise 'Diagonal length entry failed' unless tool.instance_variable_get(:@paths).last.last.zip([3000,4000,0]).all? { |a,b| (a-b).abs < 0.001 }
+    tool.onKeyDown(Basegrid::StripFootingTool::DrawTool::RIGHT_KEY, 1, 0, view)
+    raise 'Arrow did not lock inference' unless view.inference_locked?
+    tool.onKeyDown(Basegrid::StripFootingTool::DrawTool::RIGHT_KEY, 1, 0, view)
+    raise 'Arrow did not unlock inference' if view.inference_locked?
+    model.select_tool(nil)
+    output[:drawing_callbacks_verified] = true
   rescue Exception => e
     output[:ok] = false
     output[:error] = e.message

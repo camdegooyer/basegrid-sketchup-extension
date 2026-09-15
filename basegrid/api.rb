@@ -4,6 +4,10 @@ require "json"
 require_relative "material_library"
 require_relative "concrete_slab_tool"
 require_relative "strip_footing_tool"
+require_relative "starter_bar_tool"
+require_relative "concrete_pier_tool"
+require_relative "flashing_tool"
+require_relative "structural_steel_tool"
 require_relative "material_appearance"
 require_relative "takeoff"
 require_relative "native_api"
@@ -14,6 +18,15 @@ module Basegrid
   class API
     RESOURCE_ROOT = File.directory?(File.join(__dir__, "config")) ? __dir__ : File.expand_path("..", __dir__)
     TOOLS = JSON.parse(File.read(File.join(RESOURCE_ROOT, "config", "basegrid_api_tools.json"), encoding: "UTF-8")).freeze
+    DRAWING_TOOLS = [
+      [ConcreteSlabTool::TOOL_ID, "Concrete Slab from Face", "basegrid_create_slab"],
+      [StripFootingTool::TOOL_ID, "Strip Footing", "basegrid_create_strip_footing"],
+      [StarterBarTool::TOOL_ID, "Starter Bars", "basegrid_create_starter_bars"],
+      [StarterBarTool::STEP_Z_TOOL_ID, "Step Z Bars", "basegrid_create_step_z_bars"],
+      [ConcretePierTool::TOOL_ID, "Concrete Pier", "basegrid_create_concrete_pier"],
+      [FlashingTool::TOOL_ID, "Flashing", "basegrid_create_flashing"],
+      [StructuralSteelTool::TOOL_ID, "Structural Steel", "basegrid_create_structural_steel"]
+    ].freeze
 
     class Error < StandardError
       attr_reader :code
@@ -53,6 +66,14 @@ module Basegrid
                when "basegrid_sync_materials" then sync_materials
                when "basegrid_create_slab" then create_slab(arguments)
                when "basegrid_create_strip_footing" then create_strip_footing(arguments)
+               when "basegrid_create_starter_bars" then create_starter_bars(arguments)
+               when "basegrid_create_step_z_bars" then create_step_z_bars(arguments)
+               when "basegrid_create_concrete_pier" then create_concrete_pier(arguments)
+               when "basegrid_create_flashing" then create_flashing(arguments)
+               when "basegrid_list_flashing_profiles" then { "profiles" => FlashingTool.new(library: @library).profiles }
+               when "basegrid_save_flashing_profile" then FlashingTool.new(library: @library).save_profile(arguments.fetch("name"), arguments.fetch("settings"), previous_name: arguments["previous_name"])
+               when "basegrid_delete_flashing_profile" then FlashingTool.new(library: @library).delete_profile(arguments.fetch("name"))
+               when "basegrid_create_structural_steel" then create_structural_steel(arguments)
                when "basegrid_takeoff" then takeoff(arguments)
                when "basegrid_set_appearance" then set_appearance(arguments)
                when "basegrid_set_slab_tag_folder" then set_folder(arguments)
@@ -70,16 +91,11 @@ module Basegrid
     private
 
     def validate_arguments!(schema, arguments)
-      raise Error.new("INVALID_ARGUMENTS", "arguments must be an object.") unless arguments.is_a?(Hash)
+      validate_value!(schema, arguments, "arguments")
+    end
 
-      properties = schema.fetch("properties")
-      unknown = arguments.keys - properties.keys
-      missing = schema.fetch("required") - arguments.keys
-      raise Error.new("INVALID_ARGUMENTS", "Unknown arguments: #{unknown.join(', ')}") unless unknown.empty?
-      raise Error.new("INVALID_ARGUMENTS", "Required arguments: #{missing.join(', ')}") unless missing.empty?
-
-      arguments.each do |key, value|
-        rule = properties.fetch(key)
+    def validate_value!(rule, value, path)
+        return unless rule["type"]
         valid = case rule.fetch("type")
                 when "string" then value.is_a?(String)
                 when "boolean" then value == true || value == false
@@ -89,6 +105,7 @@ module Basegrid
                 when "array" then value.is_a?(Array)
                 else false
                 end
+        raise Error.new("INVALID_ARGUMENTS", "Invalid #{path}: expected #{rule['type']}.") unless valid
         valid &&= rule["enum"].include?(value) if rule.key?("enum")
         valid &&= value.length >= rule["minLength"] if rule.key?("minLength")
         valid &&= value.length <= rule["maxLength"] if rule.key?("maxLength")
@@ -97,8 +114,19 @@ module Basegrid
         valid &&= value > rule["exclusiveMinimum"] if rule.key?("exclusiveMinimum")
         valid &&= value.length >= rule["minItems"] if rule.key?("minItems")
         valid &&= value.length <= rule["maxItems"] if rule.key?("maxItems")
-        raise Error.new("INVALID_ARGUMENTS", "Invalid #{key}: expected #{rule.fetch('type')} within its declared limits.") unless valid
-      end
+        raise Error.new("INVALID_ARGUMENTS", "Invalid #{path}: outside its declared limits.") unless valid
+        if value.is_a?(Hash)
+          properties = rule.fetch("properties", {})
+          unknown = value.keys - properties.keys
+          missing = rule.fetch("required", []) - value.keys
+          if rule["additionalProperties"] == false && !unknown.empty?
+            raise Error.new("INVALID_ARGUMENTS", "Unknown #{path} fields: #{unknown.join(', ')}")
+          end
+          raise Error.new("INVALID_ARGUMENTS", "Required #{path} fields: #{missing.join(', ')}") unless missing.empty?
+          value.each { |key,item| validate_value!(properties[key],item,"#{path}.#{key}") if properties[key] }
+        elsif value.is_a?(Array) && rule["items"]
+          value.each_with_index { |item,i| validate_value!(rule["items"],item,"#{path}[#{i}]") }
+        end
     end
 
     def require_model!
@@ -125,7 +153,7 @@ module Basegrid
         "cached_material_count" => @library.materials.length,
         "compatible_concrete_count" => @library.concrete_materials.length,
         "appearance" => @model ? MaterialAppearance.mode(@model) : nil,
-        "implemented_drawing_tools" => [ConcreteSlabTool::TOOL_ID, StripFootingTool::TOOL_ID],
+        "implemented_drawing_tools" => DRAWING_TOOLS.map(&:first),
         "takeoff_basis" => "Stored at creation; manual geometry edits do not recalculate quantity."
       }
     end
@@ -138,10 +166,11 @@ module Basegrid
       offset = arguments.fetch("offset", 0)
       items = materials.drop(offset).first(arguments.fetch("limit", 50)).map do |item|
         # Signed download URLs and local cache paths are not part of the API.
-        item.slice("id", "name", "material_type_id", "status")
+        item.slice("id", "name", "material_type_id", "status", "profile", "dimensions_mm", "grade", "finish", "mass_per_uom")
       end
       {
         "materials" => items, "total" => materials.length, "offset" => offset,
+        "material_types" => @library.respond_to?(:material_types) ? @library.material_types.map { |t| t.slice("id", "name", "profile", "uom", "status") } : [],
         "takeoff_groups" => @library.takeoff_groups_for_role(ConcreteSlabTool::GENERATED_ROLE_ID).map { |item| item.slice("id", "name") }
       }
     end
@@ -155,8 +184,8 @@ module Basegrid
     end
 
     def create_slab(arguments)
-      model = require_model!
-      @library.load
+      model = drawing_context!
+      original = replacement(arguments, ConcreteSlabTool::TOOL_ID)
       material = @library.concrete_materials.find { |item| item.fetch("id") == arguments.fetch("material_id") }
       raise Error.new("INVALID_MATERIAL", "Choose a compatible concrete material from basegrid_list_materials.") unless material
 
@@ -174,19 +203,97 @@ module Basegrid
                end
                selection.first
              end
-      slab = ConcreteSlabTool.new(library: @library).build(model, face, arguments.fetch("thickness_mm"), material, groups)
+      slab = ConcreteSlabTool.new(library: @library).build(model, face, arguments.fetch("thickness_mm"), material, groups, replace: original)
       { "entity" => entity_reference(slab),
         "takeoff" => JSON.parse(slab.get_attribute(Takeoff::DICTIONARY, Takeoff::KEY)) }
     end
 
     def create_strip_footing(arguments)
-      model = require_model!
-      @library.load
+      model = drawing_context!
+      original = replacement(arguments, StripFootingTool::TOOL_ID)
       result = StripFootingTool.new(library: @library).build(
-        model, arguments.fetch("paths_mm"), arguments.fetch("settings", {}), arguments.fetch("materials", {})
+        model, arguments.fetch("paths_mm"), arguments.fetch("settings", {}), arguments.fetch("materials", {}), replace: original
       )
       { "entity" => entity_reference(result.fetch(:entity)), "concrete_volume_m3" => result.fetch(:volume_m3),
         "warnings" => result.fetch(:warnings) }
+    end
+
+    def drawing_context!
+      model = require_model!
+      raise Error.new("MODEL_CHANGED", "The active model changed.") unless model == Sketchup.active_model
+      raise Error.new("LOCKED_CONTEXT", "The editing context is locked.") if Array(model.active_path).any?(&:locked?)
+      @library.load
+      model
+    end
+
+    def replacement(arguments, tool_id)
+      return unless arguments["replace_ref"]
+      entity = @registry.resolve(arguments.fetch("replace_ref"))
+      unless entity.is_a?(Sketchup::Group) && entity.valid? && !entity.locked? &&
+             @model.active_entities.include?(entity) && entity.get_attribute("Basegrid", "tool_id") == tool_id
+        raise Error.new("INVALID_REPLACEMENT", "Choose an unlocked #{tool_id} group in the active editing context.")
+      end
+      entity
+    end
+
+    def drawing_result(entity)
+      { "entity" => entity_reference(entity),
+        "parameters" => JSON.parse(entity.get_attribute("Basegrid", "parameters_json")),
+        "takeoff" => Takeoff.records(entity),
+        "quantity_basis" => "Stored at creation; manual geometry edits do not recalculate quantities." }
+    end
+
+    def create_starter_bars(arguments)
+      model = drawing_context!
+      owner = StarterBarTool.new(library: @library)
+      entity = owner.build(model, arguments.fetch("points_mm"), arguments.fetch("settings", {}),
+                           anchor: arguments.fetch("anchor_mm", 0), reverse: arguments.fetch("reverse", false),
+                           replace: replacement(arguments, StarterBarTool::TOOL_ID))
+      drawing_result(entity)
+    end
+
+    def create_step_z_bars(arguments)
+      model = drawing_context!
+      entity = StarterBarTool.new(library: @library).build_step_z(model, arguments.fetch("pairs"), arguments.fetch("settings", {}),
+                                                                replace: replacement(arguments, StarterBarTool::STEP_Z_TOOL_ID))
+      drawing_result(entity)
+    end
+
+    def create_concrete_pier(arguments)
+      model = drawing_context!
+      owner = ConcretePierTool.new(library: @library)
+      angle = arguments.fetch("rotation_deg", 0)*Math::PI/180
+      world = Geom::Transformation.axes(api_point(arguments.fetch("top_center_mm")),
+        Geom::Vector3d.new(Math.cos(angle), Math.sin(angle), 0),
+        Geom::Vector3d.new(-Math.sin(angle), Math.cos(angle), 0), Geom::Vector3d.new(0,0,1))
+      entity = owner.build(model, arguments.fetch("settings", {}), transform: model.edit_transform.inverse*world,
+                           replace: replacement(arguments, ConcretePierTool::TOOL_ID))
+      drawing_result(entity)
+    end
+
+    def create_flashing(arguments)
+      model = drawing_context!
+      owner = FlashingTool.new(library: @library)
+      settings = arguments.fetch("settings", {})
+      settings = owner.profile_settings(arguments["profile_name"], settings) if arguments.key?("profile_name")
+      entity = owner.build(model, arguments.fetch("points_mm"), settings,
+        normal: arguments["normal"], replace: replacement(arguments, FlashingTool::TOOL_ID))
+      drawing_result(entity)
+    end
+
+    def create_structural_steel(arguments)
+      model = drawing_context!
+      owner = StructuralSteelTool.new(library: @library)
+      start_point, end_point = %w[start_mm end_mm].map { |key| api_point(arguments.fetch(key)) }
+      world = owner.frame(start_point,end_point)
+      settings = arguments.fetch("settings", {}).merge("length_mm" => start_point.distance(end_point)*25.4)
+      entity = owner.build(model, settings, transform: model.edit_transform.inverse*world,
+                           replace: replacement(arguments, StructuralSteelTool::TOOL_ID))
+      drawing_result(entity)
+    end
+
+    def api_point(values)
+      Geom::Point3d.new(values.map { |v| v/25.4 })
     end
 
     def takeoff(arguments)
@@ -216,12 +323,11 @@ module Basegrid
     end
 
     def tool_catalog(arguments)
-      implemented = { "id" => ConcreteSlabTool::TOOL_ID, "label" => "Concrete Slab from Face",
-                      "status" => "implemented", "mcp_tool" => "basegrid_create_slab" }
-      return implemented if arguments["tool_id"] == implemented["id"]
-      footing = { "id" => StripFootingTool::TOOL_ID, "label" => "Strip Footing",
-                  "status" => "implemented", "mcp_tool" => "basegrid_create_strip_footing" }
-      return footing if arguments["tool_id"] == footing["id"]
+      implemented = DRAWING_TOOLS.map do |id,label,name|
+        { "id" => id, "label" => label, "status" => "implemented", "mcp_tool" => name }
+      end
+      found = implemented.find { |item| item["id"] == arguments["tool_id"] }
+      return found.merge("inputSchema" => TOOLS.find { |tool| tool["name"] == found["mcp_tool"] }.fetch("inputSchema")) if found
 
       manifest = JSON.parse(File.read(File.join(RESOURCE_ROOT, "config", "sketchup_tool_definitions.json"), encoding: "UTF-8"))
       if arguments.key?("tool_id")
@@ -230,7 +336,7 @@ module Basegrid
 
         return definition.merge("status" => "definition_only")
       end
-      { "tools" => [implemented, footing] + manifest.fetch("tools").map do |item|
+      { "tools" => implemented + manifest.fetch("tools").reject { |item| DRAWING_TOOLS.any? { |id,_,_| id == item["id"] } }.map do |item|
         item.slice("id", "label", "category", "draw_input").merge("status" => "definition_only")
       end }
     end

@@ -8,7 +8,7 @@ const entries = [['basegrid.rb', 'basegrid.rb']];
 function collect(directory, prefix) {
   for (const entry of readdirSync(join(root, directory), { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) {
     if (entry.isDirectory()) collect(`${directory}/${entry.name}`, `${prefix}/${entry.name}`);
-    else if (entry.isFile() && /\.(rb|png|svg)$/.test(entry.name)) entries.push([`${directory}/${entry.name}`, `${prefix}/${entry.name}`]);
+    else if (entry.isFile() && /\.(rb|png|svg|css|js|html)$/.test(entry.name)) entries.push([`${directory}/${entry.name}`, `${prefix}/${entry.name}`]);
   }
 }
 collect('basegrid', 'basegrid');

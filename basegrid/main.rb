@@ -2,11 +2,17 @@
 
 require "sketchup.rb"
 require_relative "material_library"
+require_relative "material_sync_dialog"
 require_relative "oauth_connection"
 require_relative "takeoff"
 require_relative "material_appearance"
+require_relative "keyboard_shortcuts"
 require_relative "concrete_slab_tool"
 require_relative "strip_footing_tool"
+require_relative "starter_bar_tool"
+require_relative "concrete_pier_tool"
+require_relative "flashing_tool"
+require_relative "structural_steel_tool"
 require_relative "local_api"
 require_relative "cloud_connection"
 
@@ -18,7 +24,7 @@ module Basegrid
       return if @started
 
       menu = UI.menu("Extensions").add_submenu("Basegrid")
-      menu.add_item("Account and Connection") { CloudDrawing.status }
+      menu.add_item("Connections & Activity") { CloudDrawing.status }
       cloud_menu = menu.add_submenu("Cloud Drawing")
       cloud_menu.add_item("Connect") { CloudDrawing.connect }
       cloud_menu.add_item("Disconnect") { CloudDrawing.stop }
@@ -32,12 +38,19 @@ module Basegrid
       menu.add_separator
       menu.add_item("Create Concrete Slab from Face") { concrete_slab_tool.run }
       menu.add_item("Draw Strip Footing") { strip_footing_tool.run }
+      menu.add_item("Create / Edit Starter Bars") { starter_bar_tool.run }
+      menu.add_item("Create / Edit Concrete Piers") { concrete_pier_tool.run }
+      menu.add_item("Create / Edit Flashing") { flashing_tool.run }
+      menu.add_item("Create Similar Flashing") { flashing_tool.run(similar: true) }
+      menu.add_item("Create / Edit Structural Steel") { structural_steel_tool.run }
+      menu.add_item("Create Similar Structural Steel") { structural_steel_tool.run(similar: true) }
       @takeoff_command = takeoff_command
       menu.add_item(@takeoff_command)
       @appearance_command = appearance_command
       menu.add_item(@appearance_command)
       menu.add_separator
       menu.add_item("Set Default Slab Tag Folder") { tag_folder_settings }
+      menu.add_item("Keyboard Shortcuts") { KeyboardShortcuts.show }
       create_toolbar
       api_menu = menu.add_submenu("MCP API")
       api_menu.add_item("Start") { LocalAPI.start }
@@ -54,19 +67,14 @@ module Basegrid
     end
 
     def sync_materials
-      token = material_sync_token
-      return connect_materials if token.empty?
+      @material_sync_dialog ||= MaterialSyncDialog.new(
+        token_provider: -> { material_sync_token }, url_provider: -> { material_library_url }, connect: -> { connect_materials }
+      )
+      @material_sync_dialog.show
+    end
 
-      result = sync_with_token(token)
-      message = result[:changed] ? "Basegrid library updated." : "Basegrid library is already current."
-      message += "\n\n#{result[:materials]} materials are cached."
-      message += "\n#{result[:takeoff_groups]} takeoff groups are cached."
-      unless result[:warnings].empty?
-        message += "\n\nTexture warnings:\n- #{result[:warnings].join("\n- ")}"
-      end
-      UI.messagebox(message)
-    rescue StandardError => e
-      UI.messagebox("Materials could not be synced. The last valid cache was kept.\n\n#{e.message}\n\nUse Materials > Connect to sign in again.")
+    def material_sync_status
+      @material_sync_dialog&.status_snapshot
     end
 
     def open_material_connections
@@ -315,6 +323,22 @@ module Basegrid
 
     def strip_footing_tool
       @strip_footing_tool ||= StripFootingTool.new
+    end
+
+    def starter_bar_tool
+      @starter_bar_tool ||= StarterBarTool.new
+    end
+
+    def concrete_pier_tool
+      @concrete_pier_tool ||= ConcretePierTool.new
+    end
+
+    def structural_steel_tool
+      StructuralSteelTool.new
+    end
+
+    def flashing_tool
+      @flashing_tool ||= FlashingTool.new
     end
   end
 end

@@ -50,10 +50,32 @@ module Basegrid
       native = native_material(model, material, appearance_role)
       entity.material = native if entity.respond_to?(:material=)
       paint_nested(entity.entities, native) if entity.respond_to?(:entities)
+      if entity.respond_to?(:entities) && entity.respond_to?(:get_attribute)
+        radius = entity.get_attribute(DICTIONARY, "cylindrical_texture_radius", 0).to_f
+        map_cylinder(entity.entities, native, radius) if radius.positive?
+      end
       native
     end
 
     private
+
+    def map_cylinder(entities, native, radius)
+      texture = native.texture
+      return unless texture && texture.width.to_f.positive? && texture.height.to_f.positive?
+      entities.grep(Sketchup::Face).each do |face|
+        next unless face.normal.z.abs < 1e-8
+        points = face.vertices.map(&:position)
+        next unless points.length == 4
+        angles = points.map { |p| Math.atan2(p.y, p.x) }
+        # Unwrap the seam before mapping each flat side of the round pier.
+        angles.map! { |a| a.negative? ? a+2*Math::PI : a } if angles.max-angles.min > Math::PI
+        mapping = points.zip(angles).flat_map do |point, angle|
+          [point, Geom::Point3d.new(angle*radius/texture.width.to_f, point.z/texture.height.to_f, 0)]
+        end
+        face.position_material(native, mapping, true)
+        face.position_material(native, mapping, false)
+      end
+    end
 
     def each_bound_entity(entities, &block)
       entities.each do |entity|

@@ -6,6 +6,40 @@ import { createDispatcher, TOOLS } from '../mcp/server.mjs';
 
 const request = (method, params = {}, id = 1) => ({ jsonrpc: '2.0', id, method, params });
 
+test('flashing profiles and override schemas are discoverable and relayed', async () => {
+  const schema=TOOLS.find(t=>t.name==='basegrid_create_flashing').inputSchema;
+  assert.equal(schema.properties.settings.properties.lengths_mm.minItems,1);
+  assert.equal(schema.properties.settings.properties.angles_deg.minItems,0);
+  assert.equal(schema.properties.settings.properties.material_id.type,'string');
+  assert.equal(schema.properties.profile_name.type,'string');
+  const calls=[];
+  const dispatch=createDispatcher({requestBridge:async (_,body)=>{calls.push(body);return {ok:true};}});
+  for(const [name,args] of [
+    ['basegrid_list_flashing_profiles',{}],
+    ['basegrid_save_flashing_profile',{name:'Flat',previous_name:'Old',settings:{lengths_mm:[100],angles_deg:[],material_id:'stock'}}],
+    ['basegrid_delete_flashing_profile',{name:'Flat'}]
+  ]){
+    assert.ok(TOOLS.find(t=>t.name===name));
+    const result=await dispatch(request('tools/call',{name,arguments:args}));
+    assert.equal(result.result.isError,false);
+    assert.deepEqual(calls.at(-1),{name,arguments:args});
+  }
+});
+
+test('recent drawing endpoints are discoverable and relayed intact', async () => {
+  const names = ['basegrid_create_strip_footing', 'basegrid_create_starter_bars', 'basegrid_create_step_z_bars',
+    'basegrid_create_concrete_pier', 'basegrid_create_flashing', 'basegrid_create_structural_steel'];
+  const calls = [];
+  const dispatch = createDispatcher({ requestBridge: async (path, body) => { calls.push({ path, body }); return { ok: true }; } });
+  for (const name of names) {
+    assert.ok(TOOLS.find(t => t.name === name)?.inputSchema.required.includes('model_guid'));
+    const args = { model_guid: 'model', points_mm: [[0,0,0],[1000,0,0]], settings: { bar_material: 'bar' } };
+    const result = await dispatch(request('tools/call', { name, arguments: args }));
+    assert.equal(result.result.isError, false);
+    assert.deepEqual(calls.at(-1), { path: '/basegrid/call', body: { name, arguments: args } });
+  }
+});
+
 test('standalone discovery provides native geometry and Basegrid tools without a bridge', async () => {
   const dispatch = createDispatcher({ requestBridge: async () => { throw new Error('discovery must work offline'); } });
   const response = await dispatch(request('tools/list'));

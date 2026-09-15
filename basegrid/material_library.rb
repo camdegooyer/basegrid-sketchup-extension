@@ -115,19 +115,23 @@ module Basegrid
       raise "The local material cache cannot be read: #{e.message}"
     end
 
-    def sync!(url:, token:)
+    def sync!(url:, token:, &progress)
+      progress&.call(stage: "cache", message: "Reading local cache")
       existing = begin
         load
       rescue StandardError
         empty_payload
       end
+      progress&.call(stage: "download", message: "Downloading material library")
       response = @client.get_json(url, token: token, etag: existing["etag"])
       return { changed: false, materials: materials.length, takeoff_groups: takeoff_groups.length, warnings: [] } if response.status == 304
 
       payload = normalize_payload(response.body)
       validate!(payload)
-      warnings = cache_textures!(payload)
+      progress&.call(stage: "materials", message: "Received #{payload.fetch('materials').length} materials", materials: payload.fetch("materials").length)
+      warnings = cache_textures!(payload, &progress)
       payload["etag"] = response.etag unless response.etag.to_s.empty?
+      progress&.call(stage: "save", message: "Saving material cache")
       atomic_write(cache_path, JSON.pretty_generate(payload))
       @payload = payload
       { changed: true, materials: materials.length, takeoff_groups: takeoff_groups.length, warnings: warnings }
@@ -293,19 +297,25 @@ module Basegrid
       value
     end
 
-    def cache_textures!(payload)
+    def cache_textures!(payload, &progress)
       FileUtils.mkdir_p(texture_directory)
       warnings = []
+      total = payload.fetch("materials").sum { |material| %w[texture display_texture].count { |role| material[role].is_a?(Hash) && !material[role]["image_url"].to_s.empty? } }
+      completed = 0
+      progress&.call(stage: "textures", message: "Preparing textures", completed: completed, total: total)
       payload.fetch("materials").each do |material|
         %w[texture display_texture].each do |role|
           appearance = material[role]
           next unless appearance.is_a?(Hash) && !appearance["image_url"].to_s.empty?
 
+          progress&.call(stage: "textures", message: material.fetch("name"), completed: completed, total: total)
           begin
             appearance["local_path"] = cache_texture(material.fetch("id"), role, appearance)
           rescue StandardError => e
             warnings << "#{material['name']} #{role.tr('_', ' ')}: #{e.message}"
           end
+          completed += 1
+          progress&.call(stage: "textures", message: material.fetch("name"), completed: completed, total: total)
         end
       end
       warnings

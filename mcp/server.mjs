@@ -18,8 +18,10 @@ Returned points and lengths are millimetres. Plain numeric API results use Sketc
 To create a slab, draw the footprint in active_entities through basegrid_batch, then pass the resulting face's $ref as face_ref to basegrid_create_slab.
 Always use the Basegrid slab tool for Basegrid slabs: it writes material IDs, tags and takeoff. Read basegrid_list_materials for real eligible IDs.
 Use model_guid from basegrid_status for edits. Every geometry batch and slab creation has its own Undo operation.
+Extension 0.3.5+ supports flat flashing, settings.material_id overrides, and named flashing profiles. List/save/delete flashing profiles target SketchUp preferences, not geometry; profile_name supplies defaults for create_flashing and explicit settings override them.
 Verify with basegrid_takeoff and basegrid_capture_view. Takeoff is stored at creation and does not recalculate after manual/native edits.
-Concrete slabs and strip footings are implemented; the catalogue identifies other tools as definition_only.
+Extension 0.3.2+ implements slabs, strip footings, starter bars/pins, Step Z bars, concrete piers, flashing and structural steel members. The catalogue identifies planned tools as definition_only and returns full schemas for implemented tools.
+Use basegrid_list_materials with concrete_only=false for non-slab materials and their dimensions. New create tools accept replace_ref with complete geometry/settings to replace a same-tool group in the active context. All drawing commands require model_guid.
 Use basegrid_create_strip_footing for connected X/Y paths with optional mesh, support blocks and paired-bar spacers. Repeated parts use component instances; reinforcement connections are not detailed.
 If materials are disconnected, the user connects in Extensions > Basegrid > Materials > Connect.
 Methods needing more permission must be enabled by the user in Extensions > Basegrid > MCP API > Permissions.
@@ -71,7 +73,7 @@ export function createDispatcher({ requestBridge = bridge } = {}) {
     try {
       if (method === 'initialize') return reply({
         protocolVersion: VERSIONS.includes(params?.protocolVersion) ? params.protocolVersion : VERSIONS[0],
-        capabilities: { tools: {} }, serverInfo: { name: 'basegrid', version: '0.2.0' }, instructions: INSTRUCTIONS
+        capabilities: { tools: {} }, serverInfo: { name: 'basegrid', version: '0.3.5' }, instructions: INSTRUCTIONS
       });
       if (method === 'ping') return reply({});
       if (method === 'tools/list') return reply({ tools: TOOLS });

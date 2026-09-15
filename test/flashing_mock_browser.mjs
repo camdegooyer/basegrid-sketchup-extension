@@ -1,0 +1,68 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);
+const {chromium}=require(process.env.PLAYWRIGHT_PACKAGE||'playwright');
+const browser=await chromium.launch({headless:true});
+try{
+  const page=await browser.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
+  for(const width of [1020,390]){
+    await page.setViewportSize({width,height:850});await page.goto(new URL('../tmp/flashing-ui.html',import.meta.url).href);
+    assert.equal(await page.locator('#match-status').textContent(),'Matched');
+    await page.locator('.saved-profiles summary').click();
+    await page.getByLabel('Profile name',{exact:true}).fill(`Test ${width}`);
+    await page.getByRole('button',{name:'Save new',exact:true}).click();
+    assert.equal(await page.locator('#profile-status').textContent(),'Profile saved.');
+    await page.getByLabel('Length A',{exact:true}).fill('35');
+    await page.getByRole('button',{name:'Update',exact:true}).click();
+    await page.reload();
+    await page.locator('.saved-profiles summary').click();
+    await page.getByLabel('Saved profile',{exact:true}).selectOption(`Test ${width}`);
+    assert.equal(await page.getByLabel('Length A',{exact:true}).inputValue(),'35');
+    await page.getByRole('button',{name:'Reset profile'}).click();
+    await page.locator('.saved-profiles summary').click();
+    const target=await page.evaluate(()=>anchorTargets[1]);
+    await page.locator('#profile').click({position:{x:target[0],y:target[1]}});
+    assert.equal(await page.locator('#profile').getAttribute('data-anchor-index'),'1');
+    await page.getByRole('button',{name:'Change material',exact:true}).click();
+    const overrideId=await page.locator('#material-override optgroup option').first().getAttribute('value');
+    await page.getByLabel('Takeoff material override',{exact:true}).selectOption(overrideId);
+    assert.equal(await page.locator('#match-status').textContent(),'Manual override');
+    await page.getByLabel('Takeoff material override',{exact:true}).selectOption('');
+    assert.equal(await page.locator('#match-status').textContent(),'Matched');
+    await page.getByRole('button',{name:'Change material',exact:true}).click();
+    await page.screenshot({path:`tmp/flashing-mock-${width}.png`,fullPage:true});
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    const pixels=await page.locator('#profile').evaluate(c=>{const data=c.getContext('2d').getImageData(0,0,c.width,c.height).data;let n=0;for(let i=3;i<data.length;i+=4)if(data[i])n++;return n;});assert.ok(pixels>1000);
+    await page.getByLabel('Length A',{exact:true}).fill('200');
+    assert.match(await page.locator('#girth').textContent(),/265/);
+    assert.ok(parseFloat(await page.locator('#stock-girth').textContent())>=265);
+    await page.getByRole('button',{name:'Zincalume',exact:true}).click();
+    assert.equal(await page.locator('[data-finish=zincalume]').getAttribute('aria-pressed'),'true');
+    await page.getByLabel('Mirror profile').check();
+    assert.match(await page.locator('#profile').getAttribute('aria-label'),/mirrored/);
+    await page.getByLabel('Folds',{exact:true}).selectOption('4');
+    assert.equal(await page.locator('#legs tr').count(),5);
+    assert.equal(await page.locator('#fold-count').textContent(),'4');
+    await page.getByLabel('Turn A',{exact:true}).fill('0');
+    assert.equal(await page.locator('#draw').isDisabled(),true);
+    await page.getByRole('button',{name:'Reset profile'}).click();
+    assert.equal(await page.locator('#fold-count').textContent(),'2');
+    await page.getByLabel('Folds',{exact:true}).selectOption('0');
+    assert.equal(await page.locator('#legs tr').count(),1);
+    assert.equal(await page.getByLabel('Turn A',{exact:true}).count(),0);
+    assert.equal(await page.locator('#fold-count').textContent(),'0');
+    assert.match(await page.locator('#girth').textContent(),/^25 /);
+    assert.match(await page.locator('#profile').getAttribute('aria-label'),/^0 fold/);
+    assert.equal(await page.locator('#draw').isDisabled(),false);
+    await page.evaluate(()=>{
+      finish='colourbond';
+      catalogue.colourbond=[{id:'flat-test',name:'Flat test stock',dimensions_mm:{girth:100,folds:0,thickness:0.55}}];
+      render();
+    });
+    assert.equal(await page.locator('#stock-folds').textContent(),'0');
+    assert.equal(await page.locator('#match-name').textContent(),'Flat test stock');
+    await page.getByRole('button',{name:'Draw flashing',exact:true}).click();
+    assert.match(await page.locator('#review-result').textContent(),/No geometry has been created/);
+  }
+  assert.deepEqual(errors,[]);console.log('Flashing mock passed desktop/mobile layout, nonblank canvas, profile edits, material matching and mock-only draw checks.');
+}finally{await browser.close();}

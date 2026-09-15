@@ -113,9 +113,15 @@ class BasegridAPITest < Minitest::Test
     Basegrid::API::TOOLS.reject { |item| item.dig("annotations", "readOnlyHint") || %w[basegrid_invoke basegrid_batch].include?(item["name"]) }.each do |tool|
       args = case tool["name"]
              when "basegrid_create_slab" then @arguments
-             when "basegrid_create_strip_footing" then { "paths_mm" => [[[0,0,0], [6000,0,0]]] }
+             when "basegrid_create_strip_footing" then { "model_guid" => "model-1", "paths_mm" => [[[0,0,0], [6000,0,0]]] }
+             when "basegrid_create_starter_bars", "basegrid_create_flashing" then { "model_guid" => "model-1", "points_mm" => [[0,0,0],[1000,0,0]] }
+             when "basegrid_create_step_z_bars" then { "model_guid" => "model-1", "pairs" => [{ "upper" => {"ends"=>[[0,0,200],[1000,0,200]]}, "lower" => {"ends"=>[[0,0,0],[1000,0,0]]} }] }
+             when "basegrid_create_concrete_pier" then { "model_guid" => "model-1", "top_center_mm" => [0,0,0] }
+             when "basegrid_create_structural_steel" then { "model_guid" => "model-1", "start_mm" => [0,0,0], "end_mm" => [1000,0,0], "settings" => {"material_id"=>"steel"} }
              when "basegrid_set_appearance" then { "model_guid" => "model-1", "mode" => "model" }
              when "basegrid_set_slab_tag_folder" then { "folder" => "Structure" }
+             when "basegrid_save_flashing_profile" then { "name" => "Flat", "settings" => { "lengths_mm" => [100], "angles_deg" => [] } }
+             when "basegrid_delete_flashing_profile" then { "name" => "Flat" }
              else {}
              end
       assert_error "PERMISSION_DENIED", invoke(tool["name"], args, mode: "inspect")
@@ -209,7 +215,7 @@ class BasegridAPITest < Minitest::Test
 
   def test_catalogue_does_not_advertise_planned_generators_as_implemented
     tools = invoke("basegrid_tool_catalog").dig("result", "tools")
-    assert_equal ["concrete.slab_from_face", "concrete.strip_footing"], tools.select { |item| item["status"] == "implemented" }.map { |item| item["id"] }
+    assert_equal Basegrid::API::DRAWING_TOOLS.map(&:first), tools.select { |item| item["status"] == "implemented" }.map { |item| item["id"] }
     wall = invoke("basegrid_tool_catalog", { "tool_id" => "skp_tool_timber_wall_frame" })
     assert_equal "definition_only", wall.dig("result", "status")
     assert_error "UNKNOWN_TOOL", invoke("basegrid_tool_catalog", { "tool_id" => "made-up" })

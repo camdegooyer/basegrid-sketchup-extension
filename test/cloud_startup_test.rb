@@ -54,6 +54,18 @@ class CloudStartupTest < Minitest::Test
     assert_nil @drawing.instance_variable_get(:@connection)
   end
 
+  def test_activity_snapshot_reports_sign_in_sync_and_connection_without_credentials
+    @oauth[:pending?] = true
+    @drawing.instance_variable_set(:@library_activity, { status: "running", stage: "textures", message: "Concrete", completed: 2, total: 5 })
+    snapshot = @drawing.activity_snapshot
+    rows = snapshot[:rows].to_h { |row| [row[:label],row[:value]] }
+    assert_equal "Waiting for browser sign-in",rows["Account"]
+    assert_equal "Disconnected",rows["Cloud drawing"]
+    assert_includes rows["Sign-in sync"],"2/5 textures"
+    refute snapshot[:cloud_running]
+    refute_includes JSON.generate(snapshot),"access_token"
+  end
+
   def test_explicit_disconnect_preserves_login_and_pauses_next_startup
     with_preferences do
       @drawing.stop
