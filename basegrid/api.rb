@@ -119,6 +119,7 @@ module Basegrid
         "model_title" => @model&.title,
         "selected_faces" => @model ? @model.selection.grep(Sketchup::Face).map { |face| entity_reference(face) } : [],
         "connected" => @main.oauth_connection.connected? || !@main.legacy_material_sync_token.empty?,
+        "cloud_drawing" => @main.respond_to?(:cloud_connection_status) ? @main.cloud_connection_status : nil,
         "cached_material_count" => @library.materials.length,
         "compatible_concrete_count" => @library.concrete_materials.length,
         "appearance" => @model ? MaterialAppearance.mode(@model) : nil,

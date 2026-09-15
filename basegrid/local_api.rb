@@ -86,6 +86,7 @@ module Basegrid
 
     def drain
       raise "Basegrid API must run on SketchUp's main thread." unless Thread.current == @ui_thread
+      Thread.pass
 
       # One request per tick keeps drawing/UI responsive between API calls.
       job = @mutex.synchronize do

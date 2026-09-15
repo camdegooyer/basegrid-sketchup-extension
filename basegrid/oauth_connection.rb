@@ -18,6 +18,15 @@ module Basegrid
     CALLBACK_TIMEOUT = 180
     EXPIRY_MARGIN = 60
 
+    class SignInRequired < StandardError; end
+    class RequestError < StandardError
+      attr_reader :status, :code
+      def initialize(status, code, detail)
+        @status, @code = status, code
+        super("OAuth request failed: #{detail}.")
+      end
+    end
+
     class HttpClient
       def get_json(url)
         request_json(Net::HTTP::Get.new(https_uri(url)), https_uri(url))
@@ -44,7 +53,7 @@ module Basegrid
         return payload if response.code.to_i.between?(200, 299)
 
         detail = payload["error_description"] || payload["error"] || "HTTP #{response.code}"
-        raise "OAuth request failed: #{detail}."
+        raise RequestError.new(response.code.to_i, payload["error_code"] || payload["error"], detail)
       rescue JSON::ParserError
         raise "OAuth service returned invalid JSON."
       end
@@ -66,6 +75,7 @@ module Basegrid
       @pending = false
       @result = nil
       @result_mutex = Mutex.new
+      migrate_preferences
     end
 
     def connect(&completion)
@@ -89,54 +99,83 @@ module Basegrid
       raise "OAuth callback port is already in use. Close the other Basegrid connection attempt and try again."
     end
 
-    def connected?
-      !stored_tokens.empty?
-    end
+    def connected? = !stored_tokens.empty?
+    def pending? = @pending
 
     def access_token
-      tokens = stored_tokens
-      return "" if tokens.empty?
-      return tokens["access_token"].to_s if tokens["expires_at"].to_i > Time.now.to_i + EXPIRY_MARGIN
+      # Each SketchUp process uses the same saved session. Serialize refreshes so
+      # a second process reads the rotated token instead of reusing the old one.
+      with_session_lock do
+        tokens = stored_tokens
+        return "" if tokens.empty?
+        return tokens["access_token"].to_s if tokens["expires_at"].to_i > Time.now.to_i + EXPIRY_MARGIN
 
-      refreshed = @client.post_form(tokens.fetch("token_endpoint"), {
-        "grant_type" => "refresh_token",
-        "refresh_token" => tokens.fetch("refresh_token"),
-        "client_id" => tokens.fetch("client_id")
-      })
-      merged = tokens.merge(refreshed)
-      validate_tokens!(merged)
-      save_tokens(merged)
-      stored_tokens.fetch("access_token").to_s
+        begin
+          refreshed = @client.post_form(tokens.fetch("token_endpoint"), {
+            "grant_type" => "refresh_token", "refresh_token" => tokens.fetch("refresh_token"),
+            "client_id" => tokens.fetch("client_id")
+          })
+        rescue RequestError => e
+          if %w[invalid_grant refresh_token_not_found refresh_token_already_used].include?(e.code)
+            File.delete(@token_path) if File.file?(@token_path)
+            raise SignInRequired, "Your Basegrid sign-in has expired. Sign in again to reconnect."
+          end
+          raise
+        end
+        merged = tokens.merge(refreshed)
+        validate_tokens!(merged)
+        persist_tokens(merged)
+        merged.fetch("access_token").to_s
+      end
     end
 
     def save_tokens(tokens)
+      with_session_lock { persist_tokens(tokens) }
+    end
+
+    def disconnect
+      with_session_lock { File.delete(@token_path) if File.file?(@token_path) }
+    end
+
+    private
+
+    def with_session_lock
+      FileUtils.mkdir_p(File.dirname(@token_path))
+      File.open("#{@token_path}.lock", File::RDWR | File::CREAT, 0o600) do |lock|
+        lock.flock(File::LOCK_EX)
+        yield
+      ensure
+        lock.flock(File::LOCK_UN)
+      end
+    end
+
+    def persist_tokens(tokens)
       normalized = tokens.dup
       normalized["expires_at"] = Time.now.to_i + normalized.fetch("expires_in").to_i
       write_token_file(JSON.generate(normalized))
       stored = JSON.parse(File.read(@token_path, encoding: "UTF-8"))
       raise "OAuth session could not be saved." unless stored["access_token"] == normalized["access_token"]
 
-      Sketchup.write_default(PREFERENCE_SECTION, TOKENS_KEY, "")
       true
     end
 
-    def disconnect
-      File.delete(@token_path) if File.file?(@token_path)
+    # Run once when Main constructs the connection on SketchUp's UI thread.
+    # Subsequent token reads/refreshes only use files and can run in a worker.
+    def migrate_preferences
+      raw = Sketchup.read_default(PREFERENCE_SECTION, TOKENS_KEY, "").to_s
+      return if raw.empty?
+      with_session_lock do
+        unless File.file?(@token_path)
+          JSON.parse(raw)
+          write_token_file(raw)
+        end
+      end
       Sketchup.write_default(PREFERENCE_SECTION, TOKENS_KEY, "")
     end
 
-    private
-
     def stored_tokens
       return JSON.parse(File.read(@token_path, encoding: "UTF-8")) if File.file?(@token_path)
-
-      raw = Sketchup.read_default(PREFERENCE_SECTION, TOKENS_KEY, "").to_s
-      return {} if raw.empty?
-
-      parsed = JSON.parse(raw)
-      write_token_file(raw)
-      Sketchup.write_default(PREFERENCE_SECTION, TOKENS_KEY, "")
-      parsed
+      {}
     rescue JSON::ParserError, SystemCallError => e
       raise "The saved OAuth session cannot be read: #{e.message}"
     end
@@ -281,6 +320,7 @@ module Basegrid
     end
 
     def poll_completion(timer, completion)
+      Thread.pass
       result = @result_mutex.synchronize { @result }
       return unless result
 
